@@ -55,7 +55,18 @@
             <h1 data-i18n="heroTitle"></h1>
             <p class="hero-desc" data-i18n="heroDesc"></p>
             <div class="hero-cta-row">
-              <a class="btn btn-solid" href="#download" data-i18n="heroCta"></a>
+              <a class="btn appstore-code-btn" href="#download" aria-label="Download on the App Store">
+                <span class="appstore-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M16.1 12.7c0-2.3 1.9-3.4 2-3.5-1.1-1.6-2.8-1.8-3.4-1.8-1.4-.1-2.7.8-3.4.8s-1.9-.8-3.1-.7c-1.6 0-3 .9-3.9 2.3-1.7 3-.4 7.3 1.2 9.6.8 1.1 1.8 2.3 3.1 2.3 1.2 0 1.7-.8 3.1-.8s1.8.8 3.1.8c1.3 0 2.1-1.1 2.9-2.2.9-1.3 1.3-2.6 1.4-2.7 0 0-2-.8-2-4.1z"></path>
+                    <path d="M14 5.9c.7-.8 1.2-1.8 1.1-2.9-1 .1-2.1.7-2.9 1.5-.7.8-1.2 1.8-1.1 2.8 1 .1 2.1-.5 2.9-1.4z"></path>
+                  </svg>
+                </span>
+                <span class="appstore-text">
+                  <span class="appstore-overline">Download on the</span>
+                  <span class="appstore-title">App Store</span>
+                </span>
+              </a>
             </div>
             <div class="hero-mini-cards">
               <article class="mini-card">
@@ -184,7 +195,18 @@
             <p class="eyebrow" data-i18n="downloadEyebrow"></p>
             <h2 data-i18n="downloadTitle"></h2>
             <p data-i18n="downloadDesc"></p>
-            <a class="btn btn-solid" href="#" data-i18n="downloadBtn"></a>
+            <a class="btn appstore-code-btn appstore-code-btn-lg" href="#" aria-label="Download on the App Store">
+              <span class="appstore-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M16.1 12.7c0-2.3 1.9-3.4 2-3.5-1.1-1.6-2.8-1.8-3.4-1.8-1.4-.1-2.7.8-3.4.8s-1.9-.8-3.1-.7c-1.6 0-3 .9-3.9 2.3-1.7 3-.4 7.3 1.2 9.6.8 1.1 1.8 2.3 3.1 2.3 1.2 0 1.7-.8 3.1-.8s1.8.8 3.1.8c1.3 0 2.1-1.1 2.9-2.2.9-1.3 1.3-2.6 1.4-2.7 0 0-2-.8-2-4.1z"></path>
+                  <path d="M14 5.9c.7-.8 1.2-1.8 1.1-2.9-1 .1-2.1.7-2.9 1.5-.7.8-1.2 1.8-1.1 2.8 1 .1 2.1-.5 2.9-1.4z"></path>
+                </svg>
+              </span>
+              <span class="appstore-text">
+                <span class="appstore-overline">Download on the</span>
+                <span class="appstore-title">App Store</span>
+              </span>
+            </a>
           </div>
         </div>
       </section>
@@ -257,19 +279,74 @@
       <div class="container">
         <div class="footer-card">
           <div class="footer-main">
-            <section class="footer-brand-col">
-              <a class="logo" href="#"><img class="logo-mark" src="./assets/logo.svg" alt="iAssets logo" /><span data-i18n="brand"></span></a>
-              <p class="footer-tag" data-i18n="footerTag"></p>
+            <section class="footer-left">
+              <section class="footer-brand-col">
+                <a class="logo footer-brand-wrap" href="#">
+                  <img class="logo-mark" src="./assets/logo.svg" alt="iAssets logo" />
+                  <span class="footer-brand-text">
+                    <span data-i18n="brand"></span>
+                    <span class="footer-tag" data-i18n="footerTag"></span>
+                  </span>
+                </a>
+              </section>
+              <nav class="footer-inline-links" aria-label="Footer links">
+                <a href="#features" data-i18n="navFeatures"></a>
+                <a href="#pricing" data-i18n="navPricing"></a>
+                <a href="#faqs" data-i18n="navFaq"></a>
+                <a href="#download" data-i18n="navDownload"></a>
+                <a href="./privacy/" data-i18n="navPrivacy">隐私政策</a>
+                <a href="./terms/" data-i18n="navTerms">用户条款</a>
+              </nav>
             </section>
-            <nav class="footer-col">
-              <h4 data-i18n="footerLinks"></h4>
-              <a href="#features" data-i18n="navFeatures"></a>
-              <a href="#pricing" data-i18n="navPricing"></a>
-              <a href="#faqs" data-i18n="navFaq"></a>
-            </nav>
+            <section class="footer-social" aria-label="Chinese social links">
+              <div class="social-grid">
+                <div class="social-set social-set-cn">
+                  <a class="social-link" data-social="wechat" href="#" aria-label="微信">
+                    <img src="./assets/social-wechat.svg" alt="WeChat" />
+                  </a>
+                  <a class="social-link" data-social="weibo" href="https://weibo.com/u/7096209693" target="_blank" rel="noopener noreferrer" aria-label="微博">
+                    <img src="./assets/social-weibo.svg" alt="Weibo" />
+                  </a>
+                  <a class="social-link" data-social="xiaohongshu" href="https://www.xiaohongshu.com/user/profile/5d4057fd0000000012007068" target="_blank" rel="noopener noreferrer" aria-label="小红书">
+                    <img src="./assets/social-xiaohongshu.svg" alt="Xiaohongshu" />
+                  </a>
+                  <a class="social-link" data-social="zhihu" href="https://www.zhihu.com/people/debuginn" target="_blank" rel="noopener noreferrer" aria-label="知乎">
+                    <img src="./assets/social-zhihu.svg" alt="Zhihu" />
+                  </a>
+                </div>
+                <div class="social-set social-set-global">
+                  <a class="social-link" data-social="x" href="https://x.com/idebuginn" target="_blank" rel="noopener noreferrer" aria-label="X">
+                    <img src="./assets/social-x.svg" alt="X" />
+                  </a>
+                  <a class="social-link" data-social="telegram" href="https://t.me/iAssetsApp" target="_blank" rel="noopener noreferrer" aria-label="Telegram">
+                    <img src="./assets/social-telegram.svg" alt="Telegram" />
+                  </a>
+                  <a class="social-link" data-social="xiaohongshu" href="https://www.xiaohongshu.com/user/profile/5d4057fd0000000012007068" target="_blank" rel="noopener noreferrer" aria-label="小红书">
+                    <img src="./assets/social-xiaohongshu.svg" alt="Xiaohongshu" />
+                  </a>
+                </div>
+                <div class="social-set social-set-hant">
+                  <a class="social-link" data-social="x" href="https://x.com/idebuginn" target="_blank" rel="noopener noreferrer" aria-label="X">
+                    <img src="./assets/social-x.svg" alt="X" />
+                  </a>
+                  <a class="social-link" data-social="telegram" href="https://t.me/iAssetsApp" target="_blank" rel="noopener noreferrer" aria-label="Telegram">
+                    <img src="./assets/social-telegram.svg" alt="Telegram" />
+                  </a>
+                  <a class="social-link" data-social="xiaohongshu" href="https://www.xiaohongshu.com/user/profile/5d4057fd0000000012007068" target="_blank" rel="noopener noreferrer" aria-label="小红书">
+                    <img src="./assets/social-xiaohongshu.svg" alt="Xiaohongshu" />
+                  </a>
+                  <a class="social-link" data-social="wechat" href="#" aria-label="微信">
+                    <img src="./assets/social-wechat.svg" alt="WeChat" />
+                  </a>
+                </div>
+              </div>
+            </section>
             <section class="qr-box">
               <div class="fake-qr"></div>
-              <p data-i18n="downloadHint"></p>
+              <div class="qr-copy">
+                <h4 data-i18n="navDownload"></h4>
+                <p data-i18n="downloadHint"></p>
+              </div>
             </section>
           </div>
           <div class="footer-bottom">
