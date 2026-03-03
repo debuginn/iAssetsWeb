@@ -13,6 +13,17 @@
       href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
+    <script>
+      (function () {
+        try {
+          var pref = localStorage.getItem("ia_theme_pref") || "auto";
+          var theme = pref === "auto"
+            ? (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light")
+            : pref;
+          document.documentElement.setAttribute("data-theme", theme);
+        } catch (_) {}
+      })();
+    </script>
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body class="legal-page" data-page-title-key="legalHubPageTitle">
