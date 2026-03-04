@@ -34,6 +34,11 @@ const zhHans = {
   heroCard2Desc: "按家庭、个人、目标管理账本。",
   heroCard3Title: "快速搜索筛选",
   heroCard3Desc: "几秒定位到目标账户或变更。",
+  trustEyebrow: "TRUST",
+  trustTitle: "受领先银行、金融平台信赖",
+  trustDesc: "与知名银行与证券金融平台合作，做看得懂，用得起的平价软件",
+  trustCtaBiz: "商务合作",
+  trustCtaMore: "了解详情",
   totalAssets: "总资产",
   netAssets: "净资产",
   liabilities: "总负债",
@@ -192,6 +197,11 @@ const COPY = {
     heroCard2Desc: "按家庭、個人、目標管理帳本。",
     heroCard3Title: "快速搜尋篩選",
     heroCard3Desc: "幾秒定位到目標帳戶或變更。",
+    trustEyebrow: "TRUST",
+    trustTitle: "受領先銀行、金融平台信賴",
+    trustDesc: "與知名銀行與證券金融平台合作，做看得懂、用得起的平價軟體",
+    trustCtaBiz: "商務合作",
+    trustCtaMore: "了解詳情",
     totalAssets: "總資產",
     netAssets: "淨資產",
     liabilities: "總負債",
@@ -347,6 +357,11 @@ const COPY = {
     heroCard2Desc: "Manage household, personal and goal books.",
     heroCard3Title: "Search and filter",
     heroCard3Desc: "Find target accounts in seconds.",
+    trustEyebrow: "TRUST",
+    trustTitle: "Trusted by leading banks and finance platforms",
+    trustDesc: "Partnering with well-known banks and securities platforms to build affordable software that is easy to understand and use.",
+    trustCtaBiz: "Business cooperation",
+    trustCtaMore: "Learn more",
     totalAssets: "Total assets",
     netAssets: "Net assets",
     liabilities: "Liabilities",
@@ -494,6 +509,11 @@ const COPY = {
     heroCard2Desc: "家庭・個人・目標で整理。",
     heroCard3Title: "検索とフィルタ",
     heroCard3Desc: "対象口座を数秒で特定。",
+    trustEyebrow: "TRUST",
+    trustTitle: "主要な銀行・金融プラットフォームに信頼されています",
+    trustDesc: "著名な銀行・証券金融プラットフォームと連携し、わかりやすく手頃に使えるソフトを提供します。",
+    trustCtaBiz: "ビジネス提携",
+    trustCtaMore: "詳細を見る",
     totalAssets: "総資産",
     netAssets: "純資産",
     liabilities: "総負債",
@@ -641,6 +661,11 @@ const COPY = {
     heroCard2Desc: "가정/개인/목표 단위로 정리.",
     heroCard3Title: "검색과 필터",
     heroCard3Desc: "목표 계정을 몇 초 만에 찾습니다.",
+    trustEyebrow: "TRUST",
+    trustTitle: "선도적인 은행 및 금융 플랫폼이 신뢰합니다",
+    trustDesc: "유명 은행 및 증권 금융 플랫폼과 협력해, 이해하기 쉽고 부담 없이 쓸 수 있는 소프트웨어를 만듭니다.",
+    trustCtaBiz: "비즈니스 제휴",
+    trustCtaMore: "자세히 보기",
     totalAssets: "총자산",
     netAssets: "순자산",
     liabilities: "총부채",
@@ -971,6 +996,21 @@ function bindWechatPreview() {
   });
 }
 
+function fillTrustTrack() {
+  const tracks = document.querySelectorAll(".trust-track");
+  if (!tracks.length) return;
+  tracks.forEach((track) => {
+    if (!track.dataset.baseHtml) track.dataset.baseHtml = track.innerHTML;
+    track.innerHTML = track.dataset.baseHtml;
+    const minWidth = window.innerWidth * 2;
+    let guard = 0;
+    while (track.scrollWidth < minWidth && guard < 20) {
+      track.insertAdjacentHTML("beforeend", track.dataset.baseHtml);
+      guard += 1;
+    }
+  });
+}
+
 function detectTheme() {
   return window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches
     ? "dark"
@@ -1023,6 +1063,7 @@ function updateThemeButton(pref, btn) {
   bindLangPills();
   bindMobileMenu(menuBtn, mobileMenu);
   bindWechatPreview();
+  fillTrustTrack();
   updateUrl(lang);
   syncInternalLangLinks(lang);
   if (darkMedia) {
@@ -1056,4 +1097,10 @@ function updateThemeButton(pref, btn) {
       syncInternalLangLinks(next);
     });
   }
+
+  let trustTimer = null;
+  window.addEventListener("resize", () => {
+    if (trustTimer) window.clearTimeout(trustTimer);
+    trustTimer = window.setTimeout(fillTrustTrack, 120);
+  });
 })();
