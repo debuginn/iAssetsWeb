@@ -82,9 +82,18 @@ main .container { width: min(var(--main-w), calc(100% - 64px)); }
 }
 .pill-left,
 .pill-right { display: flex; align-items: center; gap: 16px; }
+.pill-left { gap: 28px; }
 .logo { display: inline-flex; align-items: center; gap: 10px; font-size: 18px; font-weight: 600; }
 .logo-mark { width: 40px; height: 40px; border-radius: 10px; flex: 0 0 auto; }
-.desktop-nav { display: flex; align-items: center; gap: 24px; font-size: 15px; font-weight: 500; color: #4a2f21; }
+.desktop-nav {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-left: 12px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #4a2f21;
+}
 .desktop-nav a:hover { color: #2f1f16; }
 .mode-btn {
   width: 40px; height: 40px; border-radius: 999px; border: 1px solid var(--line);
@@ -286,6 +295,10 @@ main .container { width: min(var(--main-w), calc(100% - 64px)); }
 .trust-track.reverse {
   animation-name: trust-move-left;
   animation-duration: 78s;
+}
+
+.trust-track:hover {
+  animation-play-state: paused;
 }
 
 .trust-card {
@@ -777,6 +790,7 @@ body[data-lang="zh-Hant"] .social-set-hant {
     margin-left: auto;
     margin-right: auto;
   }
+  .pill-left { gap: 14px; }
   .desktop-nav { display: none; }
   .menu-btn { display: inline-flex; align-items: center; justify-content: center; }
   .pill-right .btn { display: none; }

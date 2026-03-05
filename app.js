@@ -15,6 +15,30 @@ const PATH_LANG_MAP = {
   ko: "ko"
 };
 
+const LANG_ROUTE_MAP = {
+  "zh-Hans": "/zh/",
+  "zh-Hant": "/zh-hant/",
+  en: "/en/",
+  ja: "/ja/",
+  ko: "/ko/"
+};
+
+const LANG_LOCALE_MAP = {
+  "zh-Hans": "zh_CN",
+  "zh-Hant": "zh_HK",
+  en: "en_US",
+  ja: "ja_JP",
+  ko: "ko_KR"
+};
+
+const LANG_META_KEYWORDS = {
+  "zh-Hans": "iAssets,家庭资产管理,资产管理,财富管理,净资产,记账",
+  "zh-Hant": "iAssets,家庭資產管理,資產管理,財富管理,淨資產,記帳",
+  en: "iAssets,asset management,family finance,net worth tracker,budget app",
+  ja: "iAssets,家計管理,資産管理,純資産,家族資産",
+  ko: "iAssets,자산관리,가계관리,순자산,가족자산"
+};
+
 const zhHans = {
   brand: "iAssets",
   navFeatures: "特性",
@@ -857,6 +881,10 @@ function langFromBrowser() {
 }
 
 function detectLang() {
+  const fromPath = langFromPath();
+  if (SUPPORTED_LANGS.includes(fromPath)) return fromPath;
+  const fromQuery = langFromQuery();
+  if (SUPPORTED_LANGS.includes(fromQuery)) return fromQuery;
   const fromUser = safeStorageGet(USER_LANG_KEY);
   if (SUPPORTED_LANGS.includes(fromUser)) return fromUser;
   const fromBrowser = langFromBrowser();
@@ -866,7 +894,8 @@ function detectLang() {
 
 function applyLang(lang) {
   const dict = COPY[lang] || COPY.en;
-  document.documentElement.lang = lang;
+  const htmlLang = lang === "zh-Hans" ? "zh-CN" : lang === "zh-Hant" ? "zh-Hant" : lang;
+  document.documentElement.lang = htmlLang;
   document.documentElement.setAttribute("data-lang", lang);
   if (document.body) document.body.setAttribute("data-lang", lang);
   const pageTitleKey = document.body && document.body.getAttribute("data-page-title-key");
@@ -876,13 +905,56 @@ function applyLang(lang) {
     const k = el.getAttribute("data-i18n");
     if (dict[k] !== undefined) el.textContent = dict[k];
   });
+  applySeoMeta(lang, dict, pageTitle);
+}
+
+function applySeoMeta(lang, dict, pageTitle) {
+  const desc = dict.heroDesc || "";
+  const isLegalPage = !!(document.body && document.body.classList.contains("legal-page"));
+  const canonicalPath = isLegalPage ? window.location.pathname : (LANG_ROUTE_MAP[lang] || "/");
+  const locale = LANG_LOCALE_MAP[lang] || "en_US";
+  const absoluteCanonical = `${window.location.origin}${canonicalPath}`;
+
+  const setMeta = (name, value, attr = "name") => {
+    const el = document.querySelector(`meta[${attr}="${name}"]`);
+    if (el && value) el.setAttribute("content", value);
+  };
+
+  setMeta("description", desc);
+  setMeta("keywords", LANG_META_KEYWORDS[lang] || LANG_META_KEYWORDS.en);
+  setMeta("og:title", `${dict.brand} - ${pageTitle}`, "property");
+  setMeta("og:description", desc, "property");
+  setMeta("og:url", absoluteCanonical, "property");
+  setMeta("og:locale", locale, "property");
+  setMeta("twitter:title", `${dict.brand} - ${pageTitle}`);
+  setMeta("twitter:description", desc);
+
+  const canonical = document.querySelector('link[rel="canonical"]');
+  if (canonical) canonical.setAttribute("href", absoluteCanonical);
+
+  const jsonLd = document.getElementById("seo-jsonld");
+  if (jsonLd) {
+    jsonLd.textContent = JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      name: "iAssets",
+      applicationCategory: "FinanceApplication",
+      operatingSystem: "iOS, iPadOS, macOS",
+      description: desc,
+      url: absoluteCanonical,
+      inLanguage: lang
+    });
+  }
 }
 
 function updateUrl(lang) {
   try {
     const url = new URL(window.location.href);
+    const isLegalPath = url.pathname.startsWith("/privacy") || url.pathname.startsWith("/terms");
+    const targetPath = isLegalPath ? url.pathname : (LANG_ROUTE_MAP[lang] || "/");
+    if (!isLegalPath && url.pathname !== targetPath) url.pathname = targetPath;
     url.searchParams.delete("lang");
-    history.replaceState({}, "", url);
+    history.replaceState({}, "", `${url.pathname}${url.search}${url.hash}`);
   } catch (_) {
     // Ignore URL update failures in restricted preview environments.
   }
@@ -1059,6 +1131,7 @@ function updateThemeButton(pref, btn) {
   applyLang(lang);
   applyThemePref(themePref);
   updateThemeButton(themePref, themeBtn);
+  safeStorageSet(USER_LANG_KEY, lang);
   updateLangPills(lang);
   bindLangPills();
   bindMobileMenu(menuBtn, mobileMenu);
