@@ -1,4 +1,4 @@
-const SUPPORTED_LANGS = ["zh-Hans", "zh-Hant", "en", "ja", "ko"];
+const SUPPORTED_LANGS = ["zh-Hans", "zh-Hant-TW", "zh-Hant-HK", "zh-Hant-MO", "zh-Hant-SG", "en", "ja", "ko"];
 const THEME_KEY = "ia_theme_pref";
 const USER_LANG_KEY = "ia_lang_user";
 const THEME_PREFS = ["auto", "dark", "light"];
@@ -7,9 +7,15 @@ const PATH_LANG_MAP = {
   zh: "zh-Hans",
   "zh-cn": "zh-Hans",
   "zh-hans": "zh-Hans",
-  "zh-tw": "zh-Hant",
-  "zh-hk": "zh-Hant",
-  "zh-hant": "zh-Hant",
+  "zh-tw": "zh-Hant-TW",
+  "zh-hant-tw": "zh-Hant-TW",
+  "zh-hk": "zh-Hant-HK",
+  "zh-mo": "zh-Hant-MO",
+  "zh-sg": "zh-Hant-SG",
+  "zh-hant": "zh-Hant-HK",
+  "zh-hant-hk": "zh-Hant-HK",
+  "zh-hant-mo": "zh-Hant-MO",
+  "zh-hant-sg": "zh-Hant-SG",
   en: "en",
   ja: "ja",
   ko: "ko"
@@ -17,7 +23,10 @@ const PATH_LANG_MAP = {
 
 const LANG_ROUTE_MAP = {
   "zh-Hans": "/zh/",
-  "zh-Hant": "/zh-hant/",
+  "zh-Hant-TW": "/zh-tw/",
+  "zh-Hant-HK": "/zh-hk/",
+  "zh-Hant-MO": "/zh-mo/",
+  "zh-Hant-SG": "/zh-sg/",
   en: "/en/",
   ja: "/ja/",
   ko: "/ko/"
@@ -25,7 +34,10 @@ const LANG_ROUTE_MAP = {
 
 const LANG_LOCALE_MAP = {
   "zh-Hans": "zh_CN",
-  "zh-Hant": "zh_HK",
+  "zh-Hant-TW": "zh_TW",
+  "zh-Hant-HK": "zh_HK",
+  "zh-Hant-MO": "zh_MO",
+  "zh-Hant-SG": "zh_SG",
   en: "en_US",
   ja: "ja_JP",
   ko: "ko_KR"
@@ -33,7 +45,10 @@ const LANG_LOCALE_MAP = {
 
 const LANG_META_KEYWORDS = {
   "zh-Hans": "iAssets,家庭资产管理,资产管理,财富管理,净资产,记账",
-  "zh-Hant": "iAssets,家庭資產管理,資產管理,財富管理,淨資產,記帳",
+  "zh-Hant-TW": "iAssets,家庭資產管理,資產管理,財富管理,淨資產,記帳",
+  "zh-Hant-HK": "iAssets,家庭資產管理,資產管理,財富管理,淨資產,記帳",
+  "zh-Hant-MO": "iAssets,家庭資產管理,資產管理,財富管理,淨資產,記帳",
+  "zh-Hant-SG": "iAssets,家庭資產管理,資產管理,財富管理,淨資產,記帳",
   en: "iAssets,asset management,family finance,net worth tracker,budget app",
   ja: "iAssets,家計管理,資産管理,純資産,家族資産",
   ko: "iAssets,자산관리,가계관리,순자산,가족자산"
@@ -111,6 +126,12 @@ const zhHans = {
   r4: "多账本功能非常适合我和爱人分工维护。",
   r5: "目标卡片让长期规划更有执行力。",
   r6: "界面轻量，日常打开没有负担。",
+  r7: "自动汇总净资产后，每周复盘更有方向了。",
+  r8: "分类结构很清楚，终于知道钱主要放在哪。",
+  r9: "共享账本很好用，家人一起维护也不混乱。",
+  r10: "目标进度可视化后，储蓄执行率明显提升。",
+  r11: "离线记录很稳定，通勤路上也能随手更新。",
+  r12: "切换多个账本很顺滑，工作和家庭终于分开了。",
   pricingEyebrow: "价格",
   pricingTitle: "价格低廉、持续迭代。",
   pricingDesc: "建议按年支付，共建软件的良性发展，当然也支持终身买断。",
@@ -135,7 +156,7 @@ const zhHans = {
   faqTitle: "常见问题",
   faqDesc: "如果你有疑问，可以先看这里。",
   q1: "支持哪些语言？",
-  a1: "和 iAssets 一致：简体中文、繁體中文、English、日本語、한국어。",
+  a1: "和 iAssets 一致：中文简体、中文繁体台湾、中文繁体香港、中文繁体澳门、中文繁体新加坡、English、日本語、한국어。",
   q2: "支持离线使用吗？",
   a2: "支持。无网络也可新增和编辑，联网后按策略同步。",
   q3: "数据存在哪里？",
@@ -274,6 +295,12 @@ const COPY = {
     r4: "多帳本功能非常適合我和伴侶分工維護。",
     r5: "目標卡片讓長期規劃更有執行力。",
     r6: "介面輕量，日常打開沒有負擔。",
+    r7: "自動彙總淨資產後，每週復盤更有方向。",
+    r8: "分類結構很清楚，終於知道資金主要放在哪裡。",
+    r9: "共享帳本很好用，家人一起維護也不混亂。",
+    r10: "目標進度可視化後，儲蓄執行率明顯提升。",
+    r11: "離線記錄很穩定，通勤路上也能隨手更新。",
+    r12: "切換多個帳本很順暢，工作和家庭終於分開了。",
     pricingEyebrow: "價格",
     pricingTitle: "價格低廉、持續迭代。",
     pricingDesc: "建議按年支付，共建軟體的良性發展，當然也支援終身買斷。",
@@ -298,7 +325,7 @@ const COPY = {
     faqTitle: "常見問題",
     faqDesc: "如果你有疑問，可以先看這裡。",
     q1: "支援哪些語言？",
-    a1: "與 iAssets 一致：簡體中文、繁體中文、English、日本語、한국어。",
+    a1: "與 iAssets 一致：中文簡體、中文繁體台灣、中文繁體香港、中文繁體澳門、中文繁體新加坡、English、日本語、한국어。",
     q2: "支援離線使用嗎？",
     a2: "支援。無網路也可新增和編輯，連網後按策略同步。",
     q3: "資料存在哪裡？",
@@ -433,6 +460,12 @@ const COPY = {
     r4: "Multi-book mode is perfect for couple collaboration.",
     r5: "Goal card makes long-term planning executable.",
     r6: "Light UI, easy to open every day.",
+    r7: "Weekly reviews got much easier after auto net-worth summaries.",
+    r8: "Allocation categories are clear, I finally know where money sits.",
+    r9: "Shared books work great, the whole family can update without chaos.",
+    r10: "Visual goal progress noticeably improved my saving consistency.",
+    r11: "Offline logging is reliable, I can update during commute.",
+    r12: "Switching between books is smooth, work and home are clearly separated.",
     pricingEyebrow: "Pricing",
     pricingTitle: "Affordable pricing, continuous updates.",
     pricingDesc: "Yearly payment is recommended to support sustainable development, and lifetime purchase is also available.",
@@ -456,7 +489,7 @@ const COPY = {
     faqTitle: "Frequently asked questions",
     faqDesc: "If you have questions, start here.",
     q1: "Which languages are supported?",
-    a1: "Same as iAssets app: zh-Hans, zh-Hant, English, Japanese, Korean.",
+    a1: "Same as iAssets app: zh-Hans, zh-Hant-TW, zh-Hant-HK, zh-Hant-MO, zh-Hant-SG, English, Japanese, Korean.",
     q2: "Does it work offline?",
     a2: "Yes. You can create and edit offline, then sync when online.",
     q3: "Where is data stored?",
@@ -585,6 +618,12 @@ const COPY = {
     r4: "複数帳簿で夫婦分担がしやすいです。",
     r5: "目標カードで計画を継続しやすくなりました。",
     r6: "軽快な UI で毎日開きやすいです。",
+    r7: "純資産の自動集計で週次レビューが楽になりました。",
+    r8: "構成分類が明確で、資金の置き場所が把握しやすいです。",
+    r9: "共有帳簿が便利で、家族で更新しても混乱しません。",
+    r10: "目標進捗の可視化で貯蓄の継続率が上がりました。",
+    r11: "オフライン記録が安定していて通勤中でも更新できます。",
+    r12: "帳簿切替が滑らかで、仕事用と家庭用を分けやすいです。",
     pricingEyebrow: "料金",
     pricingTitle: "低価格で、継続的にアップデート。",
     pricingDesc: "ソフトウェアの健全な発展のため年額払いを推奨していますが、買い切りにも対応しています。",
@@ -608,7 +647,7 @@ const COPY = {
     faqTitle: "よくある質問",
     faqDesc: "よくある疑問を先に確認できます。",
     q1: "対応言語は？",
-    a1: "iAssets と同じく、簡体字・繁体字・英語・日本語・韓国語に対応。",
+    a1: "iAssets と同じく、簡体字・繁体字（台湾/香港/マカオ/シンガポール）・英語・日本語・韓国語に対応。",
     q2: "オフラインで使えますか？",
     a2: "はい。オフラインで作成・編集し、オンライン時に同期できます。",
     q3: "データはどこに保存されますか？",
@@ -737,6 +776,12 @@ const COPY = {
     r4: "멀티 장부로 역할 분담이 편해졌습니다.",
     r5: "목표 카드 덕분에 계획 실행력이 올라갔습니다.",
     r6: "가벼운 UI라 매일 열어보기 좋습니다.",
+    r7: "순자산 자동 요약 덕분에 주간 점검이 쉬워졌어요.",
+    r8: "구성 분류가 명확해서 자금 위치를 바로 파악할 수 있어요.",
+    r9: "공유 장부가 편해서 가족이 같이 써도 헷갈리지 않아요.",
+    r10: "목표 진행이 시각화돼 저축 실행률이 높아졌습니다.",
+    r11: "오프라인 기록이 안정적이라 이동 중에도 업데이트돼요.",
+    r12: "여러 장부 전환이 부드러워 업무/가계를 분리하기 좋습니다.",
     pricingEyebrow: "요금",
     pricingTitle: "합리적인 가격, 지속적인 업데이트",
     pricingDesc: "소프트웨어의 건강한 발전을 위해 연간 결제를 권장하며, 평생 구매도 지원합니다.",
@@ -760,7 +805,7 @@ const COPY = {
     faqTitle: "자주 묻는 질문",
     faqDesc: "궁금한 내용을 먼저 확인하세요.",
     q1: "어떤 언어를 지원하나요?",
-    a1: "iAssets와 동일: 중국어 간체/번체, 영어, 일본어, 한국어.",
+    a1: "iAssets와 동일: 중국어 간체, 중국어 번체(대만/홍콩/마카오/싱가포르), 영어, 일본어, 한국어.",
     q2: "오프라인에서 사용 가능한가요?",
     a2: "가능합니다. 오프라인에서 작성/수정 후 온라인에서 동기화됩니다.",
     q3: "데이터는 어디에 저장되나요?",
@@ -821,6 +866,33 @@ const COPY = {
   }
 };
 
+COPY["zh-Hant-TW"] = {
+  ...COPY["zh-Hant"],
+  currency: "NT$"
+};
+
+COPY["zh-Hant-HK"] = {
+  ...COPY["zh-Hant"],
+  navTerms: "條款及細則",
+  privacyPageTitle: "私隱政策",
+  privacyTitle: "私隱政策",
+  termsPageTitle: "條款及細則",
+  termsTitle: "條款及細則"
+};
+
+COPY["zh-Hant-MO"] = {
+  ...COPY["zh-Hant"],
+  navTerms: "使用條款及細則",
+  termsPageTitle: "使用條款及細則",
+  termsTitle: "使用條款及細則"
+};
+
+COPY["zh-Hant-SG"] = {
+  ...COPY["zh-Hant"],
+  currency: "S$",
+  pricingDesc: "建議按年支付，共建軟體的良性發展，亦支援終身買斷。"
+};
+
 function safeStorageGet(key) {
   try {
     return window.localStorage ? window.localStorage.getItem(key) : null;
@@ -871,7 +943,11 @@ function langFromBrowser() {
     const v = (raw || "").toLowerCase();
     const byMap = normalizeLang(v);
     if (byMap) return byMap;
-    if (v.startsWith("zh-tw") || v.startsWith("zh-hk") || v.includes("hant")) return "zh-Hant";
+    if (v.startsWith("zh-tw")) return "zh-Hant-TW";
+    if (v.startsWith("zh-hk")) return "zh-Hant-HK";
+    if (v.startsWith("zh-mo")) return "zh-Hant-MO";
+    if (v.startsWith("zh-sg")) return "zh-Hant-SG";
+    if (v.includes("hant")) return "zh-Hant-TW";
     if (v.startsWith("zh")) return "zh-Hans";
     if (v.startsWith("ja")) return "ja";
     if (v.startsWith("ko")) return "ko";
@@ -894,7 +970,20 @@ function detectLang() {
 
 function applyLang(lang) {
   const dict = COPY[lang] || COPY.en;
-  const htmlLang = lang === "zh-Hans" ? "zh-CN" : lang === "zh-Hant" ? "zh-Hant" : lang;
+  const htmlLang =
+    lang === "zh-Hans"
+      ? "zh-CN"
+      : lang === "zh-Hant-TW"
+        ? "zh-TW"
+      : lang === "zh-Hant-HK"
+        ? "zh-HK"
+        : lang === "zh-Hant-MO"
+          ? "zh-MO"
+          : lang === "zh-Hant-SG"
+            ? "zh-SG"
+            : lang === "zh-Hant"
+              ? "zh-Hant"
+              : lang;
   document.documentElement.lang = htmlLang;
   document.documentElement.setAttribute("data-lang", lang);
   if (document.body) document.body.setAttribute("data-lang", lang);
@@ -1083,6 +1172,40 @@ function fillTrustTrack() {
   });
 }
 
+function fillReviewTrack() {
+  const tracks = document.querySelectorAll(".review-track");
+  if (!tracks.length) return;
+  tracks.forEach((track) => {
+    if (!track.dataset.baseHtml) track.dataset.baseHtml = track.innerHTML;
+    track.innerHTML = track.dataset.baseHtml;
+    const minWidth = window.innerWidth * 2;
+    let guard = 0;
+    while (track.scrollWidth < minWidth && guard < 20) {
+      track.insertAdjacentHTML("beforeend", track.dataset.baseHtml);
+      guard += 1;
+    }
+  });
+}
+
+function ensureReviewTwoLines() {
+  const quotes = document.querySelectorAll(".review blockquote");
+  if (!quotes.length) return;
+  quotes.forEach((quote) => {
+    quote.style.maxWidth = "";
+    const style = window.getComputedStyle(quote);
+    const lineHeight = Number.parseFloat(style.lineHeight);
+    if (!Number.isFinite(lineHeight) || lineHeight <= 0) return;
+    const isSingleLine = quote.scrollHeight <= lineHeight * 1.35;
+    if (!isSingleLine) return;
+    const textLen = (quote.textContent || "").trim().length;
+    const baseCh = Math.min(26, Math.max(14, Math.ceil(textLen * 0.58)));
+    quote.style.maxWidth = `${baseCh}ch`;
+    if (quote.scrollHeight <= lineHeight * 1.35) {
+      quote.style.maxWidth = `${Math.max(12, baseCh - 4)}ch`;
+    }
+  });
+}
+
 function detectTheme() {
   return window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches
     ? "dark"
@@ -1137,6 +1260,8 @@ function updateThemeButton(pref, btn) {
   bindMobileMenu(menuBtn, mobileMenu);
   bindWechatPreview();
   fillTrustTrack();
+  fillReviewTrack();
+  window.requestAnimationFrame(ensureReviewTwoLines);
   updateUrl(lang);
   syncInternalLangLinks(lang);
   if (darkMedia) {
@@ -1174,6 +1299,10 @@ function updateThemeButton(pref, btn) {
   let trustTimer = null;
   window.addEventListener("resize", () => {
     if (trustTimer) window.clearTimeout(trustTimer);
-    trustTimer = window.setTimeout(fillTrustTrack, 120);
+    trustTimer = window.setTimeout(() => {
+      fillTrustTrack();
+      fillReviewTrack();
+      window.requestAnimationFrame(ensureReviewTwoLines);
+    }, 120);
   });
 })();
