@@ -995,6 +995,8 @@ function applyLang(lang) {
     if (dict[k] !== undefined) el.textContent = dict[k];
   });
   applySeoMeta(lang, dict, pageTitle);
+  updateHeaderLangDropdown(lang);
+  updateFooterLangDropdown(lang);
 }
 
 function applySeoMeta(lang, dict, pageTitle) {
@@ -1061,6 +1063,20 @@ function updateLangPills(activeLang) {
   });
 }
 
+function updateFooterLangDropdown(activeLang) {
+  document.querySelectorAll(".footer-lang-dropdown").forEach((dropdown) => {
+    const current = dropdown.querySelector(".footer-lang-current");
+    const options = dropdown.querySelectorAll("[data-footer-lang-option]");
+    let activeText = "EN";
+    options.forEach((btn) => {
+      const on = btn.getAttribute("data-footer-lang-option") === activeLang;
+      btn.classList.toggle("active", on);
+      if (on) activeText = (btn.textContent || "").trim();
+    });
+    if (current) current.textContent = activeText;
+  });
+}
+
 function bindLangPills() {
   document.querySelectorAll(".lang-pill").forEach((el) => {
     el.addEventListener("click", () => {
@@ -1072,6 +1088,102 @@ function bindLangPills() {
       updateUrl(next);
       syncInternalLangLinks(next);
     });
+  });
+}
+
+function bindFooterLangDropdown() {
+  document.querySelectorAll(".footer-lang-dropdown").forEach((dropdown) => {
+    const trigger = dropdown.querySelector(".footer-lang-trigger");
+    const options = dropdown.querySelectorAll("[data-footer-lang-option]");
+    if (!trigger || !options.length) return;
+
+    const close = () => {
+      dropdown.classList.remove("open");
+      trigger.setAttribute("aria-expanded", "false");
+    };
+
+    trigger.addEventListener("click", (e) => {
+      e.stopPropagation();
+      const nextOpen = !dropdown.classList.contains("open");
+      dropdown.classList.toggle("open", nextOpen);
+      trigger.setAttribute("aria-expanded", nextOpen ? "true" : "false");
+    });
+
+    options.forEach((btn) => {
+      btn.addEventListener("click", () => {
+        const next = btn.getAttribute("data-footer-lang-option");
+        if (!SUPPORTED_LANGS.includes(next)) return;
+        applyLang(next);
+        safeStorageSet(USER_LANG_KEY, next);
+        updateLangPills(next);
+        updateUrl(next);
+        syncInternalLangLinks(next);
+        close();
+      });
+    });
+
+    document.addEventListener("click", (e) => {
+      if (e.target instanceof Element && e.target.closest(".footer-lang-dropdown")) return;
+      close();
+    });
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape") close();
+    });
+  });
+}
+
+function updateHeaderLangDropdown(activeLang) {
+  const dropdown = document.querySelector(".header-lang-dropdown");
+  if (!dropdown) return;
+  const current = dropdown.querySelector(".header-lang-current");
+  const options = dropdown.querySelectorAll("[data-lang-option]");
+  let activeText = "EN";
+  options.forEach((btn) => {
+    const on = btn.getAttribute("data-lang-option") === activeLang;
+    btn.classList.toggle("active", on);
+    if (on) activeText = (btn.textContent || "").trim();
+  });
+  if (current) current.textContent = activeText;
+}
+
+function bindHeaderLangDropdown() {
+  const dropdown = document.querySelector(".header-lang-dropdown");
+  if (!dropdown) return;
+  const trigger = dropdown.querySelector(".header-lang-trigger");
+  const options = dropdown.querySelectorAll("[data-lang-option]");
+  if (!trigger || !options.length) return;
+
+  const close = () => {
+    dropdown.classList.remove("open");
+    trigger.setAttribute("aria-expanded", "false");
+  };
+
+  trigger.addEventListener("click", (e) => {
+    e.stopPropagation();
+    const nextOpen = !dropdown.classList.contains("open");
+    dropdown.classList.toggle("open", nextOpen);
+    trigger.setAttribute("aria-expanded", nextOpen ? "true" : "false");
+  });
+
+  options.forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const next = btn.getAttribute("data-lang-option");
+      if (!SUPPORTED_LANGS.includes(next)) return;
+      applyLang(next);
+      safeStorageSet(USER_LANG_KEY, next);
+      updateLangPills(next);
+      updateUrl(next);
+      syncInternalLangLinks(next);
+      close();
+    });
+  });
+
+  document.addEventListener("click", (e) => {
+    if (e.target instanceof Element && e.target.closest(".header-lang-dropdown")) return;
+    close();
+  });
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") close();
   });
 }
 
@@ -1256,7 +1368,10 @@ function updateThemeButton(pref, btn) {
   updateThemeButton(themePref, themeBtn);
   safeStorageSet(USER_LANG_KEY, lang);
   updateLangPills(lang);
+  updateFooterLangDropdown(lang);
   bindLangPills();
+  bindFooterLangDropdown();
+  bindHeaderLangDropdown();
   bindMobileMenu(menuBtn, mobileMenu);
   bindWechatPreview();
   fillTrustTrack();
