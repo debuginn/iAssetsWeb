@@ -58,6 +58,17 @@ const LANG_META_KEYWORDS = {
   ko: "iAssets,자산관리,가계관리,순자산,가족자산"
 };
 
+const PRICE_BY_LANG = {
+  "zh-Hans": { currency: "¥", yearly: "128", lifetime: "328" },
+  "zh-Hant-TW": { currency: "NT$", yearly: "568", lifetime: "1468" },
+  "zh-Hant-HK": { currency: "HK$", yearly: "138", lifetime: "358" },
+  "zh-Hant-MO": { currency: "MOP$", yearly: "142", lifetime: "368" },
+  "zh-Hant-SG": { currency: "S$", yearly: "25", lifetime: "65" },
+  en: { currency: "$", yearly: "18", lifetime: "45" },
+  ja: { currency: "￥", yearly: "2680", lifetime: "6980" },
+  ko: { currency: "₩", yearly: "25000", lifetime: "65000" }
+};
+
 const zhHans = {
   brand: "iAssets",
   navFeatures: "特性",
@@ -998,9 +1009,22 @@ function applyLang(lang) {
     const k = el.getAttribute("data-i18n");
     if (dict[k] !== undefined) el.textContent = dict[k];
   });
+  applyRegionalPricing(lang, dict);
   applySeoMeta(lang, dict, pageTitle);
   updateHeaderLangDropdown(lang);
   updateFooterLangDropdown(lang);
+}
+
+function applyRegionalPricing(lang, dict) {
+  const pricing = PRICE_BY_LANG[lang] || PRICE_BY_LANG.en;
+  const yearlyPrice = document.querySelector("#pricing .price-card.featured .price");
+  const lifetimePrice = document.querySelector("#pricing .price-card:not(.featured) .price");
+  if (yearlyPrice) {
+    yearlyPrice.innerHTML = `<span>${pricing.currency}</span>${pricing.yearly}<span>${dict.priceYearlySuffix || ""}</span>`;
+  }
+  if (lifetimePrice) {
+    lifetimePrice.innerHTML = `<span>${pricing.currency}</span>${pricing.lifetime}`;
+  }
 }
 
 function applySeoMeta(lang, dict, pageTitle) {
