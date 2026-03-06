@@ -1,0 +1,190 @@
+{{- $copy := index site.Data.i18n site.Params.appLang -}}
+<!doctype html>
+<html lang="{{ site.Params.htmlLang }}">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    {{- $pageTitle := cond .IsHome site.Params.homeTitle .Title -}}
+    {{- $metaDescription := cond .IsHome site.Params.homeDescription (printf "iAssets %s" .Title) -}}
+    <title>{{ $pageTitle }}</title>
+    <meta name="description" content="{{ $metaDescription }}" />
+    {{- if .IsHome }}<meta name="keywords" content="{{ site.Params.homeKeywords }}" />{{ end }}
+    <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="iAssets" />
+    <meta property="og:title" content="{{ cond .IsHome site.Params.homeSocialTitle $pageTitle }}" />
+    <meta property="og:description" content="{{ $metaDescription }}" />
+    <meta property="og:image" content="/assets/logo.png" />
+    <meta property="og:url" content="{{ .RelPermalink }}" />
+    <meta property="og:locale" content="{{ site.Params.ogLocale }}" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="{{ cond .IsHome site.Params.homeSocialTitle $pageTitle }}" />
+    <meta name="twitter:description" content="{{ $metaDescription }}" />
+    <meta name="twitter:image" content="/assets/logo.png" />
+    <link rel="canonical" href="{{ .RelPermalink }}" />
+    {{- if .IsHome }}
+    <link rel="alternate" hreflang="x-default" href="/" />
+    {{- range site.Languages }}
+    {{- if ne .Lang "root" }}
+    <link rel="alternate" hreflang="{{ .LanguageCode }}" href="{{ .Params.homeRoute }}" />
+    {{- end }}
+    {{- end }}
+    {{- end }}
+    <link rel="icon" type="image/png" href="/assets/logo.png" />
+    <link rel="shortcut icon" href="/assets/logo.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/styles.css" />
+    {{- if .IsHome }}
+    <script type="application/ld+json" id="seo-jsonld">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"iAssets","applicationCategory":"FinanceApplication","operatingSystem":"iOS, iPadOS, macOS","description":{{ $metaDescription | jsonify }},"url":{{ .RelPermalink | jsonify }},"inLanguage":{{ site.Params.jsonLdLanguage | jsonify }}}</script>
+    {{- end }}
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-B1XEJXPQPW"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag("js", new Date());
+      gtag("config", "G-B1XEJXPQPW");
+    </script>
+  </head>
+  <body{{ if not .IsHome }} class="legal-page" data-page-title-key="{{ .Params.pageTitleKey }}"{{ end }}>
+    <header class="topbar">
+      <div class="container nav-shell">
+        <nav class="top-pill">
+          <div class="pill-left">
+            <a class="logo" href="{{ "/" | relLangURL }}">
+              <img class="logo-mark" src="/assets/logo.png" alt="iAssets logo" />
+              <span data-i18n="brand">{{ index $copy "brand" }}</span>
+            </a>
+            <div class="desktop-nav">
+              <a href="{{ "/" | relLangURL }}#features" data-i18n="navFeatures">{{ index $copy "navFeatures" }}</a>
+              <a href="{{ "/" | relLangURL }}#reviews" data-i18n="navReviews">{{ index $copy "navReviews" }}</a>
+              <a href="{{ "/" | relLangURL }}#pricing" data-i18n="navPricing">{{ index $copy "navPricing" }}</a>
+              <a href="{{ "/" | relLangURL }}#faqs" data-i18n="navFaq">{{ index $copy "navFaq" }}</a>
+            </div>
+          </div>
+          <div class="pill-right">
+            <button class="mode-btn" type="button" aria-label="Switch theme">◐</button>
+            <button class="menu-btn" type="button" aria-label="Open menu" aria-controls="mobile-menu" aria-expanded="false">☰</button>
+            <a class="btn btn-solid header-download-btn" href="{{ "/" | relLangURL }}#download" aria-label="Download">
+              <span class="header-download-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M16.1 12.7c0-2.3 1.9-3.4 2-3.5-1.1-1.6-2.8-1.8-3.4-1.8-1.4-.1-2.7.8-3.4.8s-1.9-.8-3.1-.7c-1.6 0-3 .9-3.9 2.3-1.7 3-.4 7.3 1.2 9.6.8 1.1 1.8 2.3 3.1 2.3 1.2 0 1.7-.8 3.1-.8s1.8.8 3.1.8c1.3 0 2.1-1.1 2.9-2.2.9-1.3 1.3-2.6 1.4-2.7 0 0-2-.8-2-4.1z"></path>
+                  <path d="M14 5.9c.7-.8 1.2-1.8 1.1-2.9-1 .1-2.1.7-2.9 1.5-.7.8-1.2 1.8-1.1 2.8 1 .1 2.1-.5 2.9-1.4z"></path>
+                </svg>
+              </span>
+              <span data-i18n="navDownload">{{ index $copy "navDownload" }}</span>
+            </a>
+            <div class="header-lang-dropdown">
+              <button class="header-lang-trigger" type="button" aria-label="Switch language" aria-haspopup="listbox" aria-expanded="false">
+                <span class="header-lang-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="9"></circle>
+                    <path d="M3 12h18"></path>
+                    <path d="M12 3c2.6 2.4 4 5.6 4 9s-1.4 6.6-4 9c-2.6-2.4-4-5.6-4-9s1.4-6.6 4-9z"></path>
+                  </svg>
+                </span>
+                <span class="header-lang-current">{{ .Site.Language.LanguageName }}</span>
+              </button>
+              <div class="header-lang-menu" role="listbox" aria-label="Language options">
+                {{- range site.Languages }}
+                <button type="button" data-lang-option="{{ .Params.appLang }}">{{ .LanguageName }}</button>
+                {{- end }}
+              </div>
+            </div>
+          </div>
+        </nav>
+        <nav id="mobile-menu" class="mobile-menu" aria-hidden="true">
+          <a href="{{ "/" | relLangURL }}#features" data-i18n="navFeatures">{{ index $copy "navFeatures" }}</a>
+          <a href="{{ "/" | relLangURL }}#reviews" data-i18n="navReviews">{{ index $copy "navReviews" }}</a>
+          <a href="{{ "/" | relLangURL }}#pricing" data-i18n="navPricing">{{ index $copy "navPricing" }}</a>
+          <a href="{{ "/" | relLangURL }}#faqs" data-i18n="navFaq">{{ index $copy "navFaq" }}</a>
+          <a href="{{ "/" | relLangURL }}#download" data-i18n="navDownload">{{ index $copy "navDownload" }}</a>
+        </nav>
+      </div>
+    </header>
+
+    {{ block "main" . }}{{ end }}
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-card">
+          <div class="footer-main">
+            <section class="footer-left">
+              <section class="footer-brand-col">
+                <a class="logo footer-brand-wrap" href="{{ "/" | relLangURL }}">
+                  <img class="logo-mark" src="/assets/logo.png" alt="iAssets logo" />
+                  <span class="footer-brand-text">
+                    <span data-i18n="brand">{{ index $copy "brand" }}</span>
+                    <span class="footer-tag" data-i18n="footerTag">{{ index $copy "footerTag" }}</span>
+                  </span>
+                </a>
+              </section>
+              <nav class="footer-inline-links" aria-label="Footer links">
+                <a href="{{ "/" | relLangURL }}#features" data-i18n="navFeatures">{{ index $copy "navFeatures" }}</a>
+                <a href="{{ "/" | relLangURL }}#pricing" data-i18n="navPricing">{{ index $copy "navPricing" }}</a>
+                <a href="{{ "/" | relLangURL }}#faqs" data-i18n="navFaq">{{ index $copy "navFaq" }}</a>
+                <a href="{{ "/" | relLangURL }}#download" data-i18n="navDownload">{{ index $copy "navDownload" }}</a>
+                <a href="/privacy/" data-i18n="navPrivacy">{{ index $copy "navPrivacy" }}</a>
+                <a href="/terms/" data-i18n="navTerms">{{ index $copy "navTerms" }}</a>
+              </nav>
+            </section>
+            <section class="footer-social" aria-label="Chinese social links">
+              <div class="social-grid">
+                <div class="social-set social-set-cn">
+                  <a class="social-link" data-social="wechat" href="#" aria-label="微信"><img src="/assets/social-wechat.svg" alt="WeChat" /></a>
+                  <a class="social-link" data-social="weibo" href="https://weibo.com/u/7096209693" target="_blank" rel="noopener noreferrer" aria-label="微博"><img src="/assets/social-weibo.svg" alt="Weibo" /></a>
+                  <a class="social-link" data-social="xiaohongshu" href="https://www.xiaohongshu.com/user/profile/5d4057fd0000000012007068" target="_blank" rel="noopener noreferrer" aria-label="小红书"><img src="/assets/social-xiaohongshu.svg" alt="Xiaohongshu" /></a>
+                  <a class="social-link" data-social="zhihu" href="https://www.zhihu.com/people/debuginn" target="_blank" rel="noopener noreferrer" aria-label="知乎"><img src="/assets/social-zhihu.svg" alt="Zhihu" /></a>
+                </div>
+                <div class="social-set social-set-global">
+                  <a class="social-link" data-social="x" href="https://x.com/idebuginn" target="_blank" rel="noopener noreferrer" aria-label="X"><img src="/assets/social-x.svg" alt="X" /></a>
+                  <a class="social-link" data-social="telegram" href="https://t.me/iAssetsApp" target="_blank" rel="noopener noreferrer" aria-label="Telegram"><img src="/assets/social-telegram.svg" alt="Telegram" /></a>
+                  <a class="social-link" data-social="xiaohongshu" href="https://www.xiaohongshu.com/user/profile/5d4057fd0000000012007068" target="_blank" rel="noopener noreferrer" aria-label="小红书"><img src="/assets/social-xiaohongshu.svg" alt="Xiaohongshu" /></a>
+                </div>
+                <div class="social-set social-set-hant">
+                  <a class="social-link" data-social="x" href="https://x.com/idebuginn" target="_blank" rel="noopener noreferrer" aria-label="X"><img src="/assets/social-x.svg" alt="X" /></a>
+                  <a class="social-link" data-social="telegram" href="https://t.me/iAssetsApp" target="_blank" rel="noopener noreferrer" aria-label="Telegram"><img src="/assets/social-telegram.svg" alt="Telegram" /></a>
+                  <a class="social-link" data-social="xiaohongshu" href="https://www.xiaohongshu.com/user/profile/5d4057fd0000000012007068" target="_blank" rel="noopener noreferrer" aria-label="小红书"><img src="/assets/social-xiaohongshu.svg" alt="Xiaohongshu" /></a>
+                  <a class="social-link" data-social="wechat" href="#" aria-label="微信"><img src="/assets/social-wechat.svg" alt="WeChat" /></a>
+                </div>
+              </div>
+            </section>
+            <section class="qr-box">
+              <div class="fake-qr"></div>
+              <div class="qr-copy">
+                <h4 data-i18n="navDownload">{{ index $copy "navDownload" }}</h4>
+                <p data-i18n="downloadHint">{{ index $copy "downloadHint" }}</p>
+              </div>
+            </section>
+          </div>
+          <div class="footer-bottom">
+            <div class="lang-links">
+              <div class="footer-lang-dropdown">
+              <button class="footer-lang-trigger" type="button" aria-label="Switch language" aria-haspopup="listbox" aria-expanded="false">
+                <span class="footer-lang-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="9"></circle>
+                    <path d="M3 12h18"></path>
+                    <path d="M12 3c2.6 2.4 4 5.6 4 9s-1.4 6.6-4 9c-2.6-2.4-4-5.6-4-9s1.4-6.6 4-9z"></path>
+                  </svg>
+                </span>
+                <span class="footer-lang-current">{{ .Site.Language.LanguageName }}</span>
+              </button>
+              <div class="footer-lang-menu" role="listbox" aria-label="Language options">
+                {{- range site.Languages }}
+                <button type="button" data-footer-lang-option="{{ .Params.appLang }}">{{ .LanguageName }}</button>
+                {{- end }}
+              </div>
+            </div>
+            </div>
+            <p>© Copyright 2026. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script type="module" src="/app.js"></script>
+  </body>
+</html>

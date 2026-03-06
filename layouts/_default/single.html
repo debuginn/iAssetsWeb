@@ -1,0 +1,21 @@
+{{ define "main" }}
+{{- $copy := index site.Data.i18n site.Params.appLang -}}
+{{- $legal := index site.Data.legal .Params.pageKey -}}
+<main class="legal-main">
+  <section class="section">
+    <div class="container legal-wrap">
+      <p class="eyebrow" data-i18n="{{ .Params.pageKey }}Eyebrow">{{ index $copy (printf "%sEyebrow" .Params.pageKey) }}</p>
+      <h1 class="legal-title" data-i18n="{{ .Params.pageKey }}Title">{{ index $copy (printf "%sTitle" .Params.pageKey) }}</h1>
+      <div class="legal-head-row"><p class="legal-updated" data-i18n="legalUpdated">{{ index $copy "legalUpdated" }}</p></div>
+      <article class="legal-article">
+        <p data-i18n="{{ .Params.pageKey }}Intro">{{ index $copy (printf "%sIntro" .Params.pageKey) }}</p>
+        {{ range $legal.sections }}
+        <h2 data-i18n="{{ .titleKey }}">{{ index $copy .titleKey }}</h2>
+        {{ with .bodyKey }}<p data-i18n="{{ . }}">{{ index $copy . }}</p>{{ end }}
+        {{ with .listKeys }}<ul>{{ range . }}<li data-i18n="{{ . }}">{{ index $copy . }}</li>{{ end }}</ul>{{ end }}
+        {{ end }}
+      </article>
+    </div>
+  </section>
+</main>
+{{ end }}

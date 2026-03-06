@@ -1,10 +1,9 @@
 {
   "name": "iassets-web",
   "private": true,
-  "type": "module",
   "scripts": {
-    "build": "node scripts/build-site.mjs",
-    "build:home": "node scripts/build-homepages.mjs",
-    "check": "node --check app.js && node --check scripts/build-site.mjs && node --check scripts/build-homepages.mjs && node --check config/runtime/locales.js && node --check config/runtime/copy.js"
+    "build": "hugo",
+    "dev": "hugo server --disableFastRender",
+    "check": "hugo --destination /tmp/iassets-hugo-check"
   }
 }
