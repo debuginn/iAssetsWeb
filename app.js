@@ -5,6 +5,10 @@ const THEME_PREFS = ["auto", "dark", "light"];
 
 const PATH_LANG_MAP = {
   zh: "zh-Hans",
+  tw: "zh-Hant-TW",
+  hk: "zh-Hant-HK",
+  mo: "zh-Hant-MO",
+  sg: "zh-Hant-SG",
   "zh-cn": "zh-Hans",
   "zh-hans": "zh-Hans",
   "zh-tw": "zh-Hant-TW",
@@ -23,10 +27,10 @@ const PATH_LANG_MAP = {
 
 const LANG_ROUTE_MAP = {
   "zh-Hans": "/zh/",
-  "zh-Hant-TW": "/zh-tw/",
-  "zh-Hant-HK": "/zh-hk/",
-  "zh-Hant-MO": "/zh-mo/",
-  "zh-Hant-SG": "/zh-sg/",
+  "zh-Hant-TW": "/tw/",
+  "zh-Hant-HK": "/hk/",
+  "zh-Hant-MO": "/mo/",
+  "zh-Hant-SG": "/sg/",
   en: "/en/",
   ja: "/ja/",
   ko: "/ko/"
