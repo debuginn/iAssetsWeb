@@ -1,5 +1,5 @@
 ---
-title: "用户条款和条件"
+title: "Terms & Conditions"
 pageKey: "terms"
 pageTitleKey: "termsPageTitle"
 layout: "legal"

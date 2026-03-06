@@ -1,5 +1,5 @@
 ---
-title: "隐私政策"
+title: "Privacy Policy"
 pageKey: "privacy"
 pageTitleKey: "privacyPageTitle"
 layout: "legal"

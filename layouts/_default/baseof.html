@@ -35,6 +35,21 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <script>
+      (function () {
+        var themeKey = "ia_theme_pref";
+        var pref = "auto";
+        try {
+          var stored = window.localStorage ? window.localStorage.getItem(themeKey) : null;
+          if (stored === "dark" || stored === "light" || stored === "auto") pref = stored;
+        } catch (_) {}
+        var resolved = pref;
+        if (pref === "auto") {
+          resolved = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.setAttribute("data-theme", resolved);
+      })();
+    </script>
     <link rel="stylesheet" href="/styles.css" />
     {{- if .IsHome }}
     <script type="application/ld+json" id="seo-jsonld">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"iAssets","applicationCategory":"FinanceApplication","operatingSystem":"iOS, iPadOS, macOS","description":{{ $metaDescription | jsonify }},"url":{{ .RelPermalink | jsonify }},"inLanguage":{{ site.Params.jsonLdLanguage | jsonify }}}</script>
@@ -126,8 +141,8 @@
                 <a href="{{ "/" | relLangURL }}#pricing" data-i18n="navPricing">{{ index $copy "navPricing" }}</a>
                 <a href="{{ "/" | relLangURL }}#faqs" data-i18n="navFaq">{{ index $copy "navFaq" }}</a>
                 <a href="{{ "/" | relLangURL }}#download" data-i18n="navDownload">{{ index $copy "navDownload" }}</a>
-                <a href="/privacy/" data-i18n="navPrivacy">{{ index $copy "navPrivacy" }}</a>
-                <a href="/terms/" data-i18n="navTerms">{{ index $copy "navTerms" }}</a>
+                <a href="{{ "privacy/" | relLangURL }}" data-i18n="navPrivacy">{{ index $copy "navPrivacy" }}</a>
+                <a href="{{ "terms/" | relLangURL }}" data-i18n="navTerms">{{ index $copy "navTerms" }}</a>
               </nav>
             </section>
             <section class="footer-social" aria-label="Chinese social links">
