@@ -104,7 +104,9 @@
               </button>
               <div class="header-lang-menu" role="listbox" aria-label="Language options">
                 {{- range site.Languages }}
+                {{- if ne .Lang "root" }}
                 <button type="button" data-lang-option="{{ .Params.appLang }}">{{ .LanguageName }}</button>
+                {{- end }}
                 {{- end }}
               </div>
             </div>
@@ -189,7 +191,9 @@
               </button>
               <div class="footer-lang-menu" role="listbox" aria-label="Language options">
                 {{- range site.Languages }}
+                {{- if ne .Lang "root" }}
                 <button type="button" data-footer-lang-option="{{ .Params.appLang }}">{{ .LanguageName }}</button>
+                {{- end }}
                 {{- end }}
               </div>
             </div>
