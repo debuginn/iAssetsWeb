@@ -163,7 +163,7 @@ main .container { width: min(var(--main-w), calc(100% - 64px)); }
   position: absolute;
   top: calc(100% + 8px);
   right: 0;
-  min-width: 190px;
+  min-width: 156px;
   max-width: calc(100vw - 24px);
   border: 1px solid var(--line);
   border-radius: 16px;
@@ -183,7 +183,8 @@ main .container { width: min(var(--main-w), calc(100% - 64px)); }
   transform: translateY(0);
   pointer-events: auto;
 }
-.header-lang-menu button {
+.header-lang-menu button,
+.header-lang-menu a {
   width: 100%;
   min-height: 34px;
   border-radius: 10px;
@@ -192,15 +193,20 @@ main .container { width: min(var(--main-w), calc(100% - 64px)); }
   color: #355273;
   padding: 0 10px;
   text-align: left;
+  text-decoration: none;
   font: inherit;
   font-size: 13px;
   cursor: pointer;
+  display: flex;
+  align-items: center;
 }
-.header-lang-menu button:hover {
+.header-lang-menu button:hover,
+.header-lang-menu a:hover {
   background: #f5f9ff;
   border-color: #d8e8fb;
 }
-.header-lang-menu button.active {
+.header-lang-menu button.active,
+.header-lang-menu a.active {
   background: #edf5ff;
   border-color: #cfe1fb;
   color: #1f4f86;
@@ -865,7 +871,7 @@ body[data-lang="zh-Hant-SG"] .social-set-hant {
   position: absolute;
   right: 0;
   bottom: calc(100% + 8px);
-  min-width: 190px;
+  min-width: 156px;
   max-width: calc(100vw - 24px);
   border: 1px solid var(--line);
   border-radius: 16px;
@@ -885,7 +891,8 @@ body[data-lang="zh-Hant-SG"] .social-set-hant {
   transform: translateY(0);
   pointer-events: auto;
 }
-.footer-lang-menu button {
+.footer-lang-menu button,
+.footer-lang-menu a {
   width: 100%;
   min-height: 34px;
   border-radius: 10px;
@@ -894,15 +901,20 @@ body[data-lang="zh-Hant-SG"] .social-set-hant {
   color: #355273;
   padding: 0 10px;
   text-align: left;
+  text-decoration: none;
   font: inherit;
   font-size: 13px;
   cursor: pointer;
+  display: flex;
+  align-items: center;
 }
-.footer-lang-menu button:hover {
+.footer-lang-menu button:hover,
+.footer-lang-menu a:hover {
   background: #f5f9ff;
   border-color: #d8e8fb;
 }
-.footer-lang-menu button.active {
+.footer-lang-menu button.active,
+.footer-lang-menu a.active {
   background: #edf5ff;
   border-color: #cfe1fb;
   color: #1f4f86;

@@ -1,5 +1,10 @@
 {{- $defaultLang := site.Params.i18n.defaultLang | default "en" -}}
 {{- $langMeta := partial "lang-meta.html" (dict "lang" .Site.Language "defaultLang" $defaultLang) -}}
+{{- $runtimeConfig := partial "runtime-config.html" (dict "defaultLang" $defaultLang) -}}
+{{- $pageLangTargetSuffix := "" -}}
+{{- if not .IsHome -}}
+  {{- $pageLangTargetSuffix = printf "/%s/" .File.BaseFileName -}}
+{{- end -}}
 <!doctype html>
 <html lang="{{ $langMeta.htmlLang }}" data-default-lang="{{ $defaultLang }}" data-current-lang="{{ $langMeta.appLang }}">
   <head>
@@ -17,15 +22,11 @@
     {{- $defaultSocialTitle := site.Params.seo.defaultSocialTitle | default $brandName -}}
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <style>
-      html[data-lang-pending="1"] {
-        visibility: hidden;
-      }
-    </style>
     {{- $pageTitle := .Title -}}
     {{- $pageSocialTitle := .Params.socialTitle | default $defaultSocialTitle -}}
     {{- $metaDescription := .Params.description | default (printf "%s %s" $brandName .Title) -}}
     {{- $assetVersion := now.Unix -}}
+    {{- $jsonLd := dict "@context" "https://schema.org" "@type" "SoftwareApplication" "name" $brandName "applicationCategory" "FinanceApplication" "operatingSystem" "iOS, iPadOS, macOS" "description" $metaDescription "url" .RelPermalink "inLanguage" $langMeta.jsonLdLanguage -}}
     <title>{{ $pageTitle }}</title>
     <meta name="description" content="{{ $metaDescription }}" />
     {{- if .IsHome }}<meta name="keywords" content="{{ .Params.keywords }}" />{{ end }}
@@ -46,7 +47,7 @@
     <link rel="alternate" hreflang="x-default" href="/" />
     {{- range site.Languages }}
     {{- $itemMeta := partial "lang-meta.html" (dict "lang" . "defaultLang" $defaultLang) -}}
-    <link rel="alternate" hreflang="{{ .LanguageCode }}" href="{{ $itemMeta.route }}" />
+    <link rel="alternate" hreflang="{{ $itemMeta.htmlLang }}" href="{{ $itemMeta.route }}" />
     {{- end }}
     {{- end }}
     <link rel="icon" type="image/png" href="{{ $logo }}" />
@@ -56,7 +57,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
     <script>
       (function () {
-        document.documentElement.setAttribute("data-lang-pending", "1");
         var themeKey = "ia_theme_pref";
         var pref = "auto";
         try {
@@ -71,28 +71,15 @@
       })();
     </script>
     <script>
+      window.__IA_RUNTIME__ = {{ $runtimeConfig | jsonify | safeJS }};
+    </script>
+    <script>
       (function () {
         var userLangKey = "ia_lang_user";
-        var routeMap = {
-          {{- range site.Languages }}
-          {{- $itemMeta := partial "lang-meta.html" (dict "lang" . "defaultLang" $defaultLang) -}}
-          "{{ $itemMeta.appLang }}": "{{ $itemMeta.route }}",
-          {{- end }}
-        };
-        var pathLangMap = {
-          {{- range site.Languages }}
-          {{- $itemMeta := partial "lang-meta.html" (dict "lang" . "defaultLang" $defaultLang) -}}
-          {{- $route := $itemMeta.route -}}
-          {{- if ne $route "/" }}
-          "{{ strings.TrimSuffix "/" (strings.TrimPrefix "/" $route) }}": "{{ $itemMeta.appLang }}",
-          {{- end }}
-          "{{ lower .LanguageCode }}": "{{ $itemMeta.appLang }}",
-          {{- end }}
-          "zh": "zh-Hans",
-          "zh-cn": "zh-Hans",
-          "zh-hans": "zh-Hans",
-          "zh-hant": "zh-Hant-HK"
-        };
+        var defaultLang = {{ printf "%q" $defaultLang | safeJS }};
+        var runtime = window.__IA_RUNTIME__ || {};
+        var routeMap = runtime.routeMap || {};
+        var pathLangMap = runtime.pathLangMap || {};
 
         function normalizeLang(input) {
           if (!input) return null;
@@ -129,28 +116,21 @@
           return browserLang();
         }
 
-        function finish() {
-          document.documentElement.setAttribute("data-lang-pending", "0");
-        }
-
         var pathname = window.location.pathname;
         var segments = pathname.split("/").filter(Boolean);
         var first = segments[0] || "";
         var explicitLang = normalizeLang(first);
         if (explicitLang) {
-          finish();
           return;
         }
 
         var preferred = preferredLang();
-        if (!preferred || preferred === {{ $defaultLang | jsonify }}) {
-          finish();
+        if (!preferred || preferred === defaultLang) {
           return;
         }
 
         var targetBase = routeMap[preferred];
         if (!targetBase) {
-          finish();
           return;
         }
 
@@ -160,20 +140,18 @@
         } else if (pathname === "/privacy/" || pathname === "/terms/") {
           targetPath = targetBase.replace(/\/$/, "") + pathname;
         } else {
-          finish();
           return;
         }
 
         if (targetPath && targetPath !== pathname) {
+          document.documentElement.setAttribute("data-lang-pending", "1");
           window.location.replace(targetPath + window.location.search + window.location.hash);
-          return;
         }
-        finish();
       })();
     </script>
     <link rel="stylesheet" href="/styles.css?v={{ $assetVersion }}" />
     {{- if .IsHome }}
-    <script type="application/ld+json" id="seo-jsonld">{"@context":"https://schema.org","@type":"SoftwareApplication","name":{{ $brandName | jsonify }},"applicationCategory":"FinanceApplication","operatingSystem":"iOS, iPadOS, macOS","description":{{ $metaDescription | jsonify }},"url":{{ .RelPermalink | jsonify }},"inLanguage":{{ $langMeta.jsonLdLanguage | jsonify }}}</script>
+    <script type="application/ld+json" id="seo-jsonld">{{ $jsonLd | jsonify | safeJS }}</script>
     {{- end }}
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-B1XEJXPQPW"></script>
@@ -227,7 +205,11 @@
               <div class="header-lang-menu" role="listbox" aria-label="Language options">
                 {{- range site.Languages }}
                 {{- $itemMeta := partial "lang-meta.html" (dict "lang" . "defaultLang" $defaultLang) -}}
-                <button type="button" data-lang-option="{{ $itemMeta.appLang }}">{{ .LanguageName }}</button>
+                {{- $langHref := $itemMeta.route -}}
+                {{- if $pageLangTargetSuffix -}}
+                  {{- $langHref = printf "%s%s" (strings.TrimSuffix "/" $itemMeta.route) $pageLangTargetSuffix -}}
+                {{- end -}}
+                <a href="{{ $langHref }}" data-lang-option="{{ $itemMeta.appLang }}">{{ .LanguageName }}</a>
                 {{- end }}
               </div>
             </div>
@@ -317,7 +299,11 @@
               <div class="footer-lang-menu" role="listbox" aria-label="Language options">
                 {{- range site.Languages }}
                 {{- $itemMeta := partial "lang-meta.html" (dict "lang" . "defaultLang" $defaultLang) -}}
-                <button type="button" data-footer-lang-option="{{ $itemMeta.appLang }}">{{ .LanguageName }}</button>
+                {{- $langHref := $itemMeta.route -}}
+                {{- if $pageLangTargetSuffix -}}
+                  {{- $langHref = printf "%s%s" (strings.TrimSuffix "/" $itemMeta.route) $pageLangTargetSuffix -}}
+                {{- end -}}
+                <a href="{{ $langHref }}" data-footer-lang-option="{{ $itemMeta.appLang }}">{{ .LanguageName }}</a>
                 {{- end }}
               </div>
             </div>

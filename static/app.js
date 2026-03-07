@@ -1,10 +1,28 @@
-import { LANG_ROUTE_MAP, PATH_LANG_MAP, SUPPORTED_LANGS } from "./config/runtime/locales.js";
-import { COPY } from "./config/runtime/copy.js";
-
 const THEME_KEY = "ia_theme_pref";
 const USER_LANG_KEY = "ia_lang_user";
 const THEME_PREFS = ["auto", "dark", "light"];
 const DEFAULT_LANG = document.documentElement.getAttribute("data-default-lang") || "en";
+
+function runtimeConfig() {
+  return window.__IA_RUNTIME__ || {};
+}
+
+function langRouteMap() {
+  return runtimeConfig().routeMap || {};
+}
+
+function pathLangMap() {
+  return runtimeConfig().pathLangMap || {};
+}
+
+function supportedLangs() {
+  const langs = runtimeConfig().supportedLangs;
+  return Array.isArray(langs) && langs.length ? langs : ["en"];
+}
+
+function copyMap() {
+  return runtimeConfig().copy || {};
+}
 
 function safeStorageGet(key) {
   try {
@@ -33,7 +51,7 @@ function safeStorageRemove(key) {
 function normalizeLang(input) {
   if (!input) return null;
   const v = input.trim().toLowerCase().replace("_", "-");
-  return PATH_LANG_MAP[v] || null;
+  return pathLangMap()[v] || null;
 }
 
 function langFromPath() {
@@ -44,7 +62,7 @@ function langFromPath() {
 function langFromQuery() {
   const v = new URLSearchParams(window.location.search).get("lang");
   if (!v) return null;
-  if (SUPPORTED_LANGS.includes(v)) return v;
+  if (supportedLangs().includes(v)) return v;
   return normalizeLang(v);
 }
 
@@ -71,26 +89,27 @@ function langFromBrowser() {
 
 function detectLang() {
   const fromPath = langFromPath();
-  if (SUPPORTED_LANGS.includes(fromPath)) return fromPath;
+  if (supportedLangs().includes(fromPath)) return fromPath;
   const fromQuery = langFromQuery();
-  if (SUPPORTED_LANGS.includes(fromQuery)) return fromQuery;
+  if (supportedLangs().includes(fromQuery)) return fromQuery;
   const fromUser = safeStorageGet(USER_LANG_KEY);
-  if (SUPPORTED_LANGS.includes(fromUser)) return fromUser;
+  if (supportedLangs().includes(fromUser)) return fromUser;
   const fromBrowser = langFromBrowser();
-  if (SUPPORTED_LANGS.includes(fromBrowser)) return fromBrowser;
+  if (supportedLangs().includes(fromBrowser)) return fromBrowser;
   return DEFAULT_LANG;
 }
 
 function currentPageLang() {
   const explicit = document.documentElement.getAttribute("data-current-lang");
-  if (SUPPORTED_LANGS.includes(explicit)) return explicit;
+  if (supportedLangs().includes(explicit)) return explicit;
   const fromPath = langFromPath();
-  if (SUPPORTED_LANGS.includes(fromPath)) return fromPath;
+  if (supportedLangs().includes(fromPath)) return fromPath;
   return DEFAULT_LANG;
 }
 
 function applyLang(lang) {
-  const dict = COPY[lang] || COPY.en;
+  const messages = copyMap();
+  const dict = messages[lang] || messages.en || {};
   const htmlLang =
     lang === "zh-Hans"
       ? "zh-CN"
@@ -121,7 +140,7 @@ function updateUrl(lang) {
     const url = new URL(window.location.href);
     const pathMatch = url.pathname.match(/^\/(?:(zh|tw|hk|mo|sg|ja|ko|en)\/)?(privacy|terms)\/?$/);
     const isLegalPath = !!pathMatch;
-    let targetPath = LANG_ROUTE_MAP[lang] || "/";
+    let targetPath = langRouteMap()[lang] || "/";
     if (isLegalPath) {
       const slug = pathMatch[2];
       targetPath = `${targetPath.replace(/\/$/, "")}/${slug}/`;
@@ -168,7 +187,7 @@ function bindLangPills() {
   document.querySelectorAll(".lang-pill").forEach((el) => {
     el.addEventListener("click", () => {
       const next = el.getAttribute("data-lang");
-      if (!SUPPORTED_LANGS.includes(next)) return;
+      if (!supportedLangs().includes(next)) return;
       applyLang(next);
       safeStorageSet(USER_LANG_KEY, next);
       updateLangPills(next);
@@ -199,7 +218,7 @@ function bindFooterLangDropdown() {
     options.forEach((btn) => {
       btn.addEventListener("click", () => {
         const next = btn.getAttribute("data-footer-lang-option");
-        if (!SUPPORTED_LANGS.includes(next)) return;
+        if (!supportedLangs().includes(next)) return;
         safeStorageSet(USER_LANG_KEY, next);
         updateUrl(next);
         close();
@@ -252,7 +271,7 @@ function bindHeaderLangDropdown() {
   options.forEach((btn) => {
     btn.addEventListener("click", () => {
       const next = btn.getAttribute("data-lang-option");
-      if (!SUPPORTED_LANGS.includes(next)) return;
+      if (!supportedLangs().includes(next)) return;
       safeStorageSet(USER_LANG_KEY, next);
       updateUrl(next);
       close();
@@ -484,7 +503,7 @@ function updateThemeButton(pref, btn) {
     switcher.value = lang;
     switcher.addEventListener("change", (e) => {
       const next = e.target.value;
-      if (!SUPPORTED_LANGS.includes(next)) return;
+      if (!supportedLangs().includes(next)) return;
       applyLang(next);
       safeStorageSet(USER_LANG_KEY, next);
       updateUrl(next);
