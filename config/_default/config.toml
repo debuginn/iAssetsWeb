@@ -1,9 +1,11 @@
 baseURL = '/'
 title = 'iAssets'
+theme = 'pebble'
 defaultContentLanguage = 'en'
 defaultContentLanguageInSubdir = false
 disableDefaultLanguageRedirect = true
-disableKinds = ['taxonomy', 'term', 'RSS', 'sitemap']
+disableKinds = ['taxonomy', 'term', 'RSS']
+enableRobotsTXT = true
 
 [module]
   [module.hugoversion]

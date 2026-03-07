@@ -1,0 +1,3 @@
+[submodule "themes/pebble"]
+	path = themes/pebble
+	url = git@github.com:debuginn/hugo-theme-pebble.git

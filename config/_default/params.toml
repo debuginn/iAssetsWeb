@@ -17,6 +17,7 @@
 
 [seo]
   defaultSocialTitle = 'iAssets'
+  siteURL = ''
 
 [i18n]
   defaultLang = 'en'
