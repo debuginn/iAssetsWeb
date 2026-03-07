@@ -1,0 +1,17 @@
+{
+  "brand": { "other": "iAssets" },
+  "footerTag": { "other": "家族資産管理のパートナー" },
+  "navFeatures": { "other": "機能" },
+  "navReviews": { "other": "評価" },
+  "navPricing": { "other": "料金" },
+  "navFaq": { "other": "FAQ" },
+  "navDownload": { "other": "ダウンロード" },
+  "navTerms": { "other": "利用規約" },
+  "navPrivacy": { "other": "プライバシー" },
+  "downloadHint": { "other": "QR から App Store を開けます" },
+  "legalUpdated": { "other": "最終更新日" },
+  "privacyEyebrow": { "other": "プライバシー" },
+  "termsEyebrow": { "other": "規約" },
+  "privacyPageTitle": { "other": "プライバシーポリシー" },
+  "termsPageTitle": { "other": "利用規約" }
+}

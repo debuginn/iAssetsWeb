@@ -2,7 +2,10 @@
 title: "使用條款"
 description: "閱讀 iAssets 的服務範圍、使用者責任、訂閱與買斷、知識產權及免責聲明。"
 layout: "legal"
+pageKey: "terms"
+pageTitleKey: "termsPageTitle"
 updated: 2026-03-03
+lastmod: 2026-03-03
 ---
 
 歡迎使用 iAssets。在使用本應用及相關服務前，請您仔細閱讀並理解本條款。您使用 iAssets 即表示同意受本條款約束。

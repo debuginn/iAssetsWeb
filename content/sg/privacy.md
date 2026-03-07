@@ -2,7 +2,10 @@
 title: "隱私政策"
 description: "了解 iAssets 如何處理隱私、本地優先儲存、同步、第三方服務與資料安全。"
 layout: "legal"
+pageKey: "privacy"
+pageTitleKey: "privacyPageTitle"
 updated: 2026-03-03
+lastmod: 2026-03-03
 ---
 
 歡迎使用 iAssets。我們重視您的隱私，並致力於保護您的個人資料。本隱私政策說明 iAssets 在資料處理方面的原則與方式。

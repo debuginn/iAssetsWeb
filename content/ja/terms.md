@@ -2,7 +2,10 @@
 title: "利用規約"
 description: "iAssets のサービス範囲、利用者責任、サブスクリプション、知的財産、免責事項を確認できます。"
 layout: "legal"
+pageKey: "terms"
+pageTitleKey: "termsPageTitle"
 updated: 2026-03-03
+lastmod: 2026-03-03
 ---
 
 iAssets をご利用いただく前に、本規約をよくお読みください。利用を開始した時点で本規約に同意したものとみなされます。

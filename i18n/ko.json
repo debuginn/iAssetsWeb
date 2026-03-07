@@ -1,0 +1,17 @@
+{
+  "brand": { "other": "iAssets" },
+  "footerTag": { "other": "가족 자산 관리 파트너" },
+  "navFeatures": { "other": "기능" },
+  "navReviews": { "other": "후기" },
+  "navPricing": { "other": "요금" },
+  "navFaq": { "other": "FAQ" },
+  "navDownload": { "other": "다운로드" },
+  "navTerms": { "other": "이용약관" },
+  "navPrivacy": { "other": "개인정보 처리방침" },
+  "downloadHint": { "other": "QR로 App Store 이동" },
+  "legalUpdated": { "other": "최종 업데이트" },
+  "privacyEyebrow": { "other": "개인정보" },
+  "termsEyebrow": { "other": "약관" },
+  "privacyPageTitle": { "other": "개인정보 처리방침" },
+  "termsPageTitle": { "other": "이용약관" }
+}

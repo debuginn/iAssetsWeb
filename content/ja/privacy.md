@@ -2,7 +2,10 @@
 title: "プライバシーポリシー"
 description: "iAssets のプライバシー方針、ローカル優先保存、同期、第三者サービス、データ保護について説明します。"
 layout: "legal"
+pageKey: "privacy"
+pageTitleKey: "privacyPageTitle"
 updated: 2026-03-03
+lastmod: 2026-03-03
 ---
 
 iAssets をご利用いただきありがとうございます。私たちはユーザーのプライバシーを重視し、個人データの保護に努めます。本ポリシーではデータ取扱いの方針を説明します。

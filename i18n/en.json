@@ -1,0 +1,17 @@
+{
+  "brand": { "other": "iAssets" },
+  "footerTag": { "other": "Your household asset management companion" },
+  "navFeatures": { "other": "Features" },
+  "navReviews": { "other": "Reviews" },
+  "navPricing": { "other": "Pricing" },
+  "navFaq": { "other": "FAQ" },
+  "navDownload": { "other": "Download" },
+  "navTerms": { "other": "Terms" },
+  "navPrivacy": { "other": "Privacy" },
+  "downloadHint": { "other": "Scan to open App Store" },
+  "legalUpdated": { "other": "Last updated" },
+  "privacyEyebrow": { "other": "Privacy" },
+  "termsEyebrow": { "other": "Terms" },
+  "privacyPageTitle": { "other": "Privacy Policy" },
+  "termsPageTitle": { "other": "Terms and Conditions" }
+}

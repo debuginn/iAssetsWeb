@@ -2,7 +2,10 @@
 title: "Terms and Conditions"
 description: "Read the iAssets terms covering service scope, user responsibilities, subscriptions, intellectual property, and disclaimers."
 layout: "legal"
+pageKey: "terms"
+pageTitleKey: "termsPageTitle"
 updated: 2026-03-03
+lastmod: 2026-03-03
 ---
 
 Welcome to iAssets. Please read these terms carefully before using the app and related services. By using iAssets, you agree to these terms.

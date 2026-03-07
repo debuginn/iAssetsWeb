@@ -2,7 +2,10 @@
 title: "Privacy Policy"
 description: "Learn how iAssets handles privacy, local-first data storage, sync, third-party services, and data security."
 layout: "legal"
+pageKey: "privacy"
+pageTitleKey: "privacyPageTitle"
 updated: 2026-03-03
+lastmod: 2026-03-03
 ---
 
 Welcome to iAssets. We value your privacy and are committed to protecting your personal data. This policy explains how iAssets handles data.
