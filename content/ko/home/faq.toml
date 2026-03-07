@@ -1,0 +1,33 @@
+eyebrow = "자주 묻는 질문"
+title = "자주 묻는 질문"
+description = "궁금한 내용을 먼저 확인하세요."
+
+[[items]]
+icon = "faq"
+question = "어떤 언어를 지원하나요?"
+answer = "iAssets와 동일: 중국어 간체, 중국어 번체(대만/홍콩/마카오/싱가포르), 영어, 일본어, 한국어."
+
+[[items]]
+icon = "faq"
+question = "오프라인에서 사용 가능한가요?"
+answer = "가능합니다. 오프라인에서 작성/수정 후 온라인에서 동기화됩니다."
+
+[[items]]
+icon = "faq"
+question = "데이터는 어디에 저장되나요?"
+answer = "기본은 로컬 저장이며, 선택적으로 iCloud 동기화를 사용합니다."
+
+[[items]]
+icon = "faq"
+question = "가족이 함께 사용할 수 있나요?"
+answer = "가능합니다. 가족 모드에서 구성원과 공유 장부를 관리합니다."
+
+[[items]]
+icon = "faq"
+question = "Android를 지원하나요?"
+answer = "현재는 Apple 생태계 중심입니다."
+
+[[items]]
+icon = "faq"
+question = "어떻게 시작하나요?"
+answer = "앱을 설치한 뒤 첫 장부를 생성하면 됩니다."

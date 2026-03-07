@@ -1,0 +1,25 @@
+{{- $page := .page -}}
+{{- $defaultLang := .defaultLang | default "en" -}}
+{{- $currentResources := $page.Resources -}}
+{{- $defaultResources := slice -}}
+{{- $defaultSites := where site.Sites "Language.Lang" $defaultLang -}}
+{{- if gt (len $defaultSites) 0 -}}
+  {{- $defaultResources = (index $defaultSites 0).Home.Resources -}}
+{{- end -}}
+{{- $home := dict -}}
+{{- range $module := slice "hero" "features" "details" "download" "reviews" "pricing" "trust" "faq" -}}
+  {{- $moduleData := dict -}}
+  {{- $currentResource := $currentResources.GetMatch (printf "home/%s.toml" $module) -}}
+  {{- if $currentResource -}}
+    {{- $moduleData = $currentResource.Content | transform.Unmarshal -}}
+  {{- else -}}
+    {{- $defaultResource := $defaultResources.GetMatch (printf "home/%s.toml" $module) -}}
+    {{- if $defaultResource -}}
+      {{- $moduleData = $defaultResource.Content | transform.Unmarshal -}}
+    {{- end -}}
+  {{- end -}}
+  {{- if gt (len $moduleData) 0 -}}
+    {{- $home = merge $home (dict $module $moduleData) -}}
+  {{- end -}}
+{{- end -}}
+{{- return $home -}}

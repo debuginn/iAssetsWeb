@@ -1,9 +1,10 @@
-import { LANG_LOCALE_MAP, LANG_META_KEYWORDS, LANG_ROUTE_MAP, PATH_LANG_MAP, PRICE_BY_LANG, SUPPORTED_LANGS } from "./config/runtime/locales.js";
+import { LANG_ROUTE_MAP, PATH_LANG_MAP, SUPPORTED_LANGS } from "./config/runtime/locales.js";
 import { COPY } from "./config/runtime/copy.js";
 
 const THEME_KEY = "ia_theme_pref";
 const USER_LANG_KEY = "ia_lang_user";
 const THEME_PREFS = ["auto", "dark", "light"];
+const DEFAULT_LANG = document.documentElement.getAttribute("data-default-lang") || "en";
 
 function safeStorageGet(key) {
   try {
@@ -77,7 +78,15 @@ function detectLang() {
   if (SUPPORTED_LANGS.includes(fromUser)) return fromUser;
   const fromBrowser = langFromBrowser();
   if (SUPPORTED_LANGS.includes(fromBrowser)) return fromBrowser;
-  return "en";
+  return DEFAULT_LANG;
+}
+
+function currentPageLang() {
+  const explicit = document.documentElement.getAttribute("data-current-lang");
+  if (SUPPORTED_LANGS.includes(explicit)) return explicit;
+  const fromPath = langFromPath();
+  if (SUPPORTED_LANGS.includes(fromPath)) return fromPath;
+  return DEFAULT_LANG;
 }
 
 function applyLang(lang) {
@@ -99,78 +108,31 @@ function applyLang(lang) {
   document.documentElement.lang = htmlLang;
   document.documentElement.setAttribute("data-lang", lang);
   if (document.body) document.body.setAttribute("data-lang", lang);
-  const pageTitleKey = document.body && document.body.getAttribute("data-page-title-key");
-  const pageTitle = pageTitleKey && dict[pageTitleKey] ? dict[pageTitleKey] : dict.heroTitle;
-  document.title = `${dict.brand} - ${pageTitle}`;
   document.querySelectorAll("[data-i18n]").forEach((el) => {
     const k = el.getAttribute("data-i18n");
     if (dict[k] !== undefined) el.textContent = dict[k];
   });
-  applyRegionalPricing(lang, dict);
-  applySeoMeta(lang, dict, pageTitle);
   updateHeaderLangDropdown(lang);
   updateFooterLangDropdown(lang);
-}
-
-function applyRegionalPricing(lang, dict) {
-  const pricing = PRICE_BY_LANG[lang] || PRICE_BY_LANG.en;
-  const yearlyPrice = document.querySelector("#pricing .price-card.featured .price");
-  const lifetimePrice = document.querySelector("#pricing .price-card:not(.featured) .price");
-  if (yearlyPrice) {
-    yearlyPrice.innerHTML = `<span>${pricing.currency}</span>${pricing.yearly}<span>${dict.priceYearlySuffix || ""}</span>`;
-  }
-  if (lifetimePrice) {
-    lifetimePrice.innerHTML = `<span>${pricing.currency}</span>${pricing.lifetime}`;
-  }
-}
-
-function applySeoMeta(lang, dict, pageTitle) {
-  const desc = dict.heroDesc || "";
-  const isLegalPage = !!(document.body && document.body.classList.contains("legal-page"));
-  const canonicalPath = isLegalPage ? window.location.pathname : (LANG_ROUTE_MAP[lang] || "/");
-  const locale = LANG_LOCALE_MAP[lang] || "en_US";
-  const absoluteCanonical = `${window.location.origin}${canonicalPath}`;
-
-  const setMeta = (name, value, attr = "name") => {
-    const el = document.querySelector(`meta[${attr}="${name}"]`);
-    if (el && value) el.setAttribute("content", value);
-  };
-
-  setMeta("description", desc);
-  setMeta("keywords", LANG_META_KEYWORDS[lang] || LANG_META_KEYWORDS.en);
-  setMeta("og:title", `${dict.brand} - ${pageTitle}`, "property");
-  setMeta("og:description", desc, "property");
-  setMeta("og:url", absoluteCanonical, "property");
-  setMeta("og:locale", locale, "property");
-  setMeta("twitter:title", `${dict.brand} - ${pageTitle}`);
-  setMeta("twitter:description", desc);
-
-  const canonical = document.querySelector('link[rel="canonical"]');
-  if (canonical) canonical.setAttribute("href", absoluteCanonical);
-
-  const jsonLd = document.getElementById("seo-jsonld");
-  if (jsonLd) {
-    jsonLd.textContent = JSON.stringify({
-      "@context": "https://schema.org",
-      "@type": "SoftwareApplication",
-      name: "iAssets",
-      applicationCategory: "FinanceApplication",
-      operatingSystem: "iOS, iPadOS, macOS",
-      description: desc,
-      url: absoluteCanonical,
-      inLanguage: lang
-    });
-  }
 }
 
 function updateUrl(lang) {
   try {
     const url = new URL(window.location.href);
-    const isLegalPath = url.pathname.startsWith("/privacy") || url.pathname.startsWith("/terms");
-    const targetPath = isLegalPath ? url.pathname : (LANG_ROUTE_MAP[lang] || "/");
-    if (!isLegalPath && url.pathname !== targetPath) url.pathname = targetPath;
+    const pathMatch = url.pathname.match(/^\/(?:(zh|tw|hk|mo|sg|ja|ko|en)\/)?(privacy|terms)\/?$/);
+    const isLegalPath = !!pathMatch;
+    let targetPath = LANG_ROUTE_MAP[lang] || "/";
+    if (isLegalPath) {
+      const slug = pathMatch[2];
+      targetPath = `${targetPath.replace(/\/$/, "")}/${slug}/`;
+    }
     url.searchParams.delete("lang");
-    history.replaceState({}, "", `${url.pathname}${url.search}${url.hash}`);
+    const nextUrl = `${targetPath}${url.search}${url.hash}`;
+    const currentUrl = `${url.pathname}${url.search}${url.hash}`;
+    if (nextUrl !== currentUrl) {
+      document.documentElement.setAttribute("data-lang-pending", "1");
+      window.location.assign(nextUrl);
+    }
   } catch (_) {
     // Ignore URL update failures in restricted preview environments.
   }
@@ -238,11 +200,8 @@ function bindFooterLangDropdown() {
       btn.addEventListener("click", () => {
         const next = btn.getAttribute("data-footer-lang-option");
         if (!SUPPORTED_LANGS.includes(next)) return;
-        applyLang(next);
         safeStorageSet(USER_LANG_KEY, next);
-        updateLangPills(next);
         updateUrl(next);
-        syncInternalLangLinks(next);
         close();
       });
     });
@@ -294,11 +253,8 @@ function bindHeaderLangDropdown() {
     btn.addEventListener("click", () => {
       const next = btn.getAttribute("data-lang-option");
       if (!SUPPORTED_LANGS.includes(next)) return;
-      applyLang(next);
       safeStorageSet(USER_LANG_KEY, next);
-      updateLangPills(next);
       updateUrl(next);
-      syncInternalLangLinks(next);
       close();
     });
   });
@@ -352,6 +308,7 @@ function bindMobileMenu(menuBtn, mobileMenu) {
 function bindWechatPreview() {
   const wechatLinks = document.querySelectorAll('.social-link[data-social="wechat"]');
   if (!wechatLinks.length) return;
+  const qrSrc = (document.body && document.body.getAttribute("data-wechat-qr")) || "/assets/wechat-qr.jpg?v=20260303d";
   const closeAll = () => {
     document.querySelectorAll(".wechat-popover.open").forEach((el) => el.classList.remove("open"));
   };
@@ -360,7 +317,6 @@ function bindWechatPreview() {
     const pop = document.createElement("span");
     pop.className = "wechat-popover";
     pop.setAttribute("aria-hidden", "true");
-    const qrSrc = `/assets/wechat-qr.jpg?v=20260303d`;
     pop.innerHTML = `<img src="${qrSrc}" alt="WeChat QR code" />`;
     link.appendChild(pop);
 
@@ -481,7 +437,7 @@ function updateThemeButton(pref, btn) {
 
 (function init() {
   safeStorageRemove("ia_lang");
-  const lang = detectLang();
+  const lang = currentPageLang();
   const switcher = document.getElementById("lang-switcher");
   const themeBtn = document.querySelector(".mode-btn");
   const menuBtn = document.querySelector(".menu-btn");
@@ -545,4 +501,5 @@ function updateThemeButton(pref, btn) {
       window.requestAnimationFrame(ensureReviewTwoLines);
     }, 120);
   });
+  document.documentElement.setAttribute("data-lang-pending", "0");
 })();

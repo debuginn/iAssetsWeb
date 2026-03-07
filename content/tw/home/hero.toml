@@ -1,0 +1,28 @@
+eyebrow = "iAssets"
+title = "快速掌握你的資產全景、守護你的財富"
+description = "這是一款可視化資產管理工具，同時支援家庭資產管理。資產、負債、結構、目標和趨勢一屏可見。"
+ctaHref = "#download"
+ctaOverline = "Download on the"
+ctaTitle = "App Store"
+
+[image]
+src = "/assets/ia-home.png"
+alt = "iAssets app screenshot"
+
+[[cards]]
+number = "01"
+icon = "hero-quick"
+title = "秒記資產變動"
+description = "帳戶餘額變化可快速錄入。"
+
+[[cards]]
+number = "02"
+icon = "hero-books"
+title = "合集化帳本整理"
+description = "按家庭、個人、目標管理帳本。"
+
+[[cards]]
+number = "03"
+icon = "hero-search"
+title = "快速搜尋篩選"
+description = "幾秒定位到目標帳戶或變更。"

@@ -1,0 +1,28 @@
+eyebrow = "iAssets"
+title = "Understand your family balance sheet at a glance."
+description = "A visual asset management tool that also supports family asset management. Assets, liabilities, structure, goals, and trends are visible on one screen."
+ctaHref = "#download"
+ctaOverline = "Download on the"
+ctaTitle = "App Store"
+
+[image]
+src = "/assets/ia-home.png"
+alt = "iAssets app screenshot"
+
+[[cards]]
+number = "01"
+icon = "hero-quick"
+title = "Capture changes fast"
+description = "Log account updates in seconds."
+
+[[cards]]
+number = "02"
+icon = "hero-books"
+title = "Organize with books"
+description = "Manage household, personal and goal books."
+
+[[cards]]
+number = "03"
+icon = "hero-search"
+title = "Search and filter"
+description = "Find target accounts in seconds."

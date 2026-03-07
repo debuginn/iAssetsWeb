@@ -1,0 +1,6 @@
+baseURL = '/'
+title = 'iAssets'
+defaultContentLanguage = 'en'
+defaultContentLanguageInSubdir = false
+disableDefaultLanguageRedirect = true
+disableKinds = ['taxonomy', 'term', 'RSS', 'sitemap']

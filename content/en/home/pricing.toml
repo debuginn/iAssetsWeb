@@ -1,0 +1,27 @@
+eyebrow = "Pricing"
+title = "Affordable pricing, continuous updates."
+description = "Yearly payment is recommended to support sustainable development, and lifetime purchase is also available."
+
+[[plans]]
+featured = true
+priceKey = "yearly"
+title = "Subscribe"
+badge = "Popular"
+suffix = "/yr"
+description = "Pay yearly to support the healthy growth of the software."
+
+[plans.cta]
+label = "Subscribe yearly"
+href = "#download"
+style = "btn btn-solid"
+
+[[plans]]
+featured = false
+priceKey = "lifetime"
+title = "Lifetime"
+description = "One-time purchase, lifetime updates."
+
+[plans.cta]
+label = "Buy lifetime"
+href = "#download"
+style = "btn btn-ghost"

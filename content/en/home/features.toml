@@ -1,0 +1,40 @@
+eyebrow = "Features"
+title = "Designed for household asset management."
+description = "Not generic bookkeeping. It is built for structure, risk and long-term goals."
+showcase = true
+
+[[items]]
+number = "01"
+icon = "feature-overview"
+title = "Asset overview"
+description = "See total assets, net assets and liabilities in one page."
+
+[[items]]
+number = "02"
+icon = "feature-structure"
+title = "Structure and currency"
+description = "Structure and currency cards help spot allocation bias."
+
+[[items]]
+number = "03"
+icon = "feature-trend"
+title = "Flow and trend"
+description = "Track net-worth rhythm and detect risks earlier."
+
+[[items]]
+number = "04"
+icon = "feature-books"
+title = "Multi-book management"
+description = "Default and multiple books can run together."
+
+[[items]]
+number = "05"
+icon = "feature-family"
+title = "Family collaboration"
+description = "Member management and sharing for multi-person workflows."
+
+[[items]]
+number = "06"
+icon = "feature-security"
+title = "Privacy and security"
+description = "Passcode, biometric unlock and auto-lock."

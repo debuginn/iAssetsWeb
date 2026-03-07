@@ -1,0 +1,40 @@
+eyebrow = "機能"
+title = "家族資産管理に特化した設計。"
+description = "汎用の家計簿ではなく、構造分析と長期目標の追跡に最適化。"
+showcase = true
+
+[[items]]
+number = "01"
+icon = "feature-overview"
+title = "資産サマリー"
+description = "総資産・純資産・負債を1ページで確認。"
+
+[[items]]
+number = "02"
+icon = "feature-structure"
+title = "構成と通貨"
+description = "構成カードと通貨カードで偏りを把握。"
+
+[[items]]
+number = "03"
+icon = "feature-trend"
+title = "フローと推移"
+description = "純資産の変化リズムを継続観測。"
+
+[[items]]
+number = "04"
+icon = "feature-books"
+title = "複数帳簿管理"
+description = "デフォルト帳簿と複数帳簿を併用可能。"
+
+[[items]]
+number = "05"
+icon = "feature-family"
+title = "家族コラボ"
+description = "メンバー管理と共有で共同運用。"
+
+[[items]]
+number = "06"
+icon = "feature-security"
+title = "プライバシー保護"
+description = "パスコード、生体認証、自動ロック対応。"

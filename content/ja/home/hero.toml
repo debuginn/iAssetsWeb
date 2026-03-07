@@ -1,0 +1,28 @@
+eyebrow = "iAssets"
+title = "家族資産の全体像を、すばやく把握。"
+description = "視覚的に使える資産管理ツールで、家族の資産管理にも対応しています。資産・負債・構成・目標・推移を1画面で確認できます。"
+ctaHref = "#download"
+ctaOverline = "Download on the"
+ctaTitle = "App Store"
+
+[image]
+src = "/assets/ia-home.png"
+alt = "iAssets app screenshot"
+
+[[cards]]
+number = "01"
+icon = "hero-quick"
+title = "資産変動を即記録"
+description = "口座残高の変化をすぐに入力。"
+
+[[cards]]
+number = "02"
+icon = "hero-books"
+title = "帳簿をコレクション整理"
+description = "家庭・個人・目標で整理。"
+
+[[cards]]
+number = "03"
+icon = "hero-search"
+title = "検索とフィルタ"
+description = "対象口座を数秒で特定。"

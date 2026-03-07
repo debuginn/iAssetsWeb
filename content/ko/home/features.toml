@@ -1,0 +1,40 @@
+eyebrow = "기능"
+title = "가족 자산 관리 중심 설계"
+description = "일반 가계부가 아니라 구조 분석과 장기 목표 추적에 최적화했습니다."
+showcase = true
+
+[[items]]
+number = "01"
+icon = "feature-overview"
+title = "자산 요약"
+description = "총자산, 순자산, 부채를 한 화면에서 확인합니다."
+
+[[items]]
+number = "02"
+icon = "feature-structure"
+title = "구조/통화 분석"
+description = "구조 카드와 통화 카드로 편중을 파악합니다."
+
+[[items]]
+number = "03"
+icon = "feature-trend"
+title = "흐름/추이"
+description = "순자산 변화 리듬을 계속 추적합니다."
+
+[[items]]
+number = "04"
+icon = "feature-books"
+title = "멀티 장부"
+description = "기본 장부와 멀티 장부를 함께 운영할 수 있습니다."
+
+[[items]]
+number = "05"
+icon = "feature-family"
+title = "가족 협업"
+description = "구성원 관리와 공유로 협업이 쉬워집니다."
+
+[[items]]
+number = "06"
+icon = "feature-security"
+title = "보안/프라이버시"
+description = "암호, 생체인증, 자동 잠금을 지원합니다."

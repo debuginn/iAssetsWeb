@@ -1,0 +1,40 @@
+eyebrow = "特性"
+title = "围绕家庭资产管理而设计。"
+description = "不是泛记账，而是资产结构分析、风险感知和长期目标追踪。"
+showcase = true
+
+[[items]]
+number = "01"
+icon = "feature-overview"
+title = "资产全景总览"
+description = "总资产、净资产、负债与占比一页看清。"
+
+[[items]]
+number = "02"
+icon = "feature-structure"
+title = "结构与货币分析"
+description = "结构卡与货币卡帮助识别配置偏差。"
+
+[[items]]
+number = "03"
+icon = "feature-trend"
+title = "流向与趋势"
+description = "观察净资产变化节奏，提前发现风险。"
+
+[[items]]
+number = "04"
+icon = "feature-books"
+title = "多账本管理"
+description = "支持默认账本和多账本并行管理。"
+
+[[items]]
+number = "05"
+icon = "feature-family"
+title = "家庭协作"
+description = "成员管理与共享让多人协作更顺畅。"
+
+[[items]]
+number = "06"
+icon = "feature-security"
+title = "隐私与安全"
+description = "密码保护、生物解锁、自动锁定。"

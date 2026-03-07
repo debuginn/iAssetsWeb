@@ -1,0 +1,27 @@
+eyebrow = "料金"
+title = "低価格で、継続的にアップデート。"
+description = "ソフトウェアの健全な発展のため年額払いを推奨していますが、買い切りにも対応しています。"
+
+[[plans]]
+featured = true
+priceKey = "yearly"
+title = "Subscribe"
+badge = "Popular"
+suffix = "/年"
+description = "年額で支払い、ソフトウェアの健全な発展を共に支えてください。"
+
+[plans.cta]
+label = "年額で購読"
+href = "#download"
+style = "btn btn-solid"
+
+[[plans]]
+featured = false
+priceKey = "lifetime"
+title = "Lifetime"
+description = "買い切りで永久アップデート。"
+
+[plans.cta]
+label = "買い切りで購入"
+href = "#download"
+style = "btn btn-ghost"

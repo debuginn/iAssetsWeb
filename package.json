@@ -2,8 +2,9 @@
   "name": "iassets-web",
   "private": true,
   "scripts": {
-    "build": "hugo",
-    "dev": "hugo server --disableFastRender",
-    "check": "hugo --destination /tmp/iassets-hugo-check"
+    "gen:runtime": "node scripts/build-runtime.mjs",
+    "build": "npm run gen:runtime && hugo",
+    "dev": "npm run gen:runtime && hugo server --disableFastRender",
+    "check": "npm run gen:runtime && hugo --destination /tmp/iassets-hugo-check"
   }
 }

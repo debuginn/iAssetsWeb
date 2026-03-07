@@ -1,0 +1,87 @@
+[en]
+    languageCode = 'en'
+    languageName = 'English'
+    weight = 1
+    contentDir = 'content/en'
+
+[en.params.pricing]
+    currency = '$'
+    yearly = '18'
+    lifetime = '45'
+
+[zh]
+    languageCode = 'zh-CN'
+    languageName = '中文简体'
+    weight = 2
+    contentDir = 'content/zh'
+
+[zh.params.pricing]
+    currency = '¥'
+    yearly = '128'
+    lifetime = '328'
+
+[tw]
+    languageCode = 'zh-TW'
+    languageName = '中文繁體台灣'
+    weight = 3
+    contentDir = 'content/tw'
+
+[tw.params.pricing]
+    currency = 'NT$'
+    yearly = '568'
+    lifetime = '1468'
+
+[hk]
+    languageCode = 'zh-HK'
+    languageName = '中文繁體香港'
+    weight = 4
+    contentDir = 'content/hk'
+
+[hk.params.pricing]
+    currency = 'HK$'
+    yearly = '138'
+    lifetime = '358'
+
+[mo]
+    languageCode = 'zh-MO'
+    languageName = '中文繁體澳門'
+    weight = 5
+    contentDir = 'content/mo'
+
+[mo.params.pricing]
+    currency = 'MOP$'
+    yearly = '142'
+    lifetime = '368'
+
+[sg]
+    languageCode = 'zh-SG'
+    languageName = '中文繁體新加坡'
+    weight = 6
+    contentDir = 'content/sg'
+
+[sg.params.pricing]
+    currency = 'S$'
+    yearly = '25'
+    lifetime = '65'
+
+[ja]
+    languageCode = 'ja'
+    languageName = '日本語'
+    weight = 7
+    contentDir = 'content/ja'
+
+[ja.params.pricing]
+    currency = '¥'
+    yearly = '2680'
+    lifetime = '6980'
+
+[ko]
+    languageCode = 'ko'
+    languageName = '한국어'
+    weight = 8
+    contentDir = 'content/ko'
+
+[ko.params.pricing]
+    currency = '₩'
+    yearly = '25000'
+    lifetime = '65000'

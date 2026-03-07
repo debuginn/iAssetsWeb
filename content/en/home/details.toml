@@ -1,0 +1,33 @@
+eyebrow = "Product details"
+title = "Start long-term asset review today."
+description = "Aggregate scattered data into one coherent view."
+
+[[items]]
+icon = "detail-account"
+title = "Multi-type accounts"
+description = "Support cash, investments, fixed, receivable, payable, and loans."
+
+[[items]]
+icon = "detail-target"
+title = "Goal card"
+description = "Auto-calculate remaining amount to keep goals actionable."
+
+[[items]]
+icon = "detail-currency"
+title = "FX support"
+description = "Optional base currency for multi-currency assets."
+
+[[items]]
+icon = "detail-share"
+title = "Book sharing"
+description = "Family members can co-maintain one data set."
+
+[[items]]
+icon = "detail-cards"
+title = "Card management"
+description = "Customize card order and visibility on home screen."
+
+[[items]]
+icon = "detail-lock"
+title = "Local-first"
+description = "Data is local by default with optional iCloud sync."

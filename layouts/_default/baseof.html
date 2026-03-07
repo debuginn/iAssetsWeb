@@ -1,42 +1,62 @@
-{{- $copy := index site.Data.i18n site.Params.appLang -}}
+{{- $defaultLang := site.Params.i18n.defaultLang | default "en" -}}
+{{- $langMeta := partial "lang-meta.html" (dict "lang" .Site.Language "defaultLang" $defaultLang) -}}
 <!doctype html>
-<html lang="{{ site.Params.htmlLang }}">
+<html lang="{{ $langMeta.htmlLang }}" data-default-lang="{{ $defaultLang }}" data-current-lang="{{ $langMeta.appLang }}">
   <head>
+    {{- $logo := site.Params.assets.logo | default "/assets/logo.png" -}}
+    {{- $logoAlt := site.Params.assets.logoAlt | default "iAssets logo" -}}
+    {{- $brandName := site.Params.assets.brandName | default site.Title -}}
+    {{- $downloadQr := site.Params.assets.downloadQr | default "/assets/qr-download.png" -}}
+    {{- $contactEmail := site.Params.contact.email | default "idebuginn@gmail.com" -}}
+    {{- $socialWechatQr := site.Params.social.wechatQr | default "/assets/wechat-qr.jpg?v=20260303d" -}}
+    {{- $socialX := site.Params.social.x | default "https://x.com/idebuginn" -}}
+    {{- $socialTelegram := site.Params.social.telegram | default "https://t.me/iAssetsApp" -}}
+    {{- $socialXiaohongshu := site.Params.social.xiaohongshu | default "https://www.xiaohongshu.com/user/profile/5d4057fd0000000012007068" -}}
+    {{- $socialWeibo := site.Params.social.weibo | default "https://weibo.com/u/7096209693" -}}
+    {{- $socialZhihu := site.Params.social.zhihu | default "https://www.zhihu.com/people/debuginn" -}}
+    {{- $defaultSocialTitle := site.Params.seo.defaultSocialTitle | default $brandName -}}
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    {{- $pageTitle := cond .IsHome site.Params.homeTitle .Title -}}
-    {{- $metaDescription := cond .IsHome site.Params.homeDescription (printf "iAssets %s" .Title) -}}
+    <style>
+      html[data-lang-pending="1"] {
+        visibility: hidden;
+      }
+    </style>
+    {{- $pageTitle := .Title -}}
+    {{- $pageSocialTitle := .Params.socialTitle | default $defaultSocialTitle -}}
+    {{- $metaDescription := .Params.description | default (printf "%s %s" $brandName .Title) -}}
+    {{- $assetVersion := now.Unix -}}
     <title>{{ $pageTitle }}</title>
     <meta name="description" content="{{ $metaDescription }}" />
-    {{- if .IsHome }}<meta name="keywords" content="{{ site.Params.homeKeywords }}" />{{ end }}
+    {{- if .IsHome }}<meta name="keywords" content="{{ .Params.keywords }}" />{{ end }}
     <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1" />
     <meta property="og:type" content="website" />
-    <meta property="og:site_name" content="iAssets" />
-    <meta property="og:title" content="{{ cond .IsHome site.Params.homeSocialTitle $pageTitle }}" />
+    <meta property="og:site_name" content="{{ $brandName }}" />
+    <meta property="og:title" content="{{ $pageSocialTitle }}" />
     <meta property="og:description" content="{{ $metaDescription }}" />
-    <meta property="og:image" content="/assets/logo.png" />
+    <meta property="og:image" content="{{ $logo }}" />
     <meta property="og:url" content="{{ .RelPermalink }}" />
-    <meta property="og:locale" content="{{ site.Params.ogLocale }}" />
+    <meta property="og:locale" content="{{ $langMeta.ogLocale }}" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="{{ cond .IsHome site.Params.homeSocialTitle $pageTitle }}" />
+    <meta name="twitter:title" content="{{ $pageSocialTitle }}" />
     <meta name="twitter:description" content="{{ $metaDescription }}" />
-    <meta name="twitter:image" content="/assets/logo.png" />
+    <meta name="twitter:image" content="{{ $logo }}" />
     <link rel="canonical" href="{{ .RelPermalink }}" />
     {{- if .IsHome }}
     <link rel="alternate" hreflang="x-default" href="/" />
     {{- range site.Languages }}
-    {{- if ne .Lang "root" }}
-    <link rel="alternate" hreflang="{{ .LanguageCode }}" href="{{ .Params.homeRoute }}" />
+    {{- $itemMeta := partial "lang-meta.html" (dict "lang" . "defaultLang" $defaultLang) -}}
+    <link rel="alternate" hreflang="{{ .LanguageCode }}" href="{{ $itemMeta.route }}" />
     {{- end }}
     {{- end }}
-    {{- end }}
-    <link rel="icon" type="image/png" href="/assets/logo.png" />
-    <link rel="shortcut icon" href="/assets/logo.png" />
+    <link rel="icon" type="image/png" href="{{ $logo }}" />
+    <link rel="shortcut icon" href="{{ $logo }}" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
     <script>
       (function () {
+        document.documentElement.setAttribute("data-lang-pending", "1");
         var themeKey = "ia_theme_pref";
         var pref = "auto";
         try {
@@ -50,9 +70,110 @@
         document.documentElement.setAttribute("data-theme", resolved);
       })();
     </script>
-    <link rel="stylesheet" href="/styles.css" />
+    <script>
+      (function () {
+        var userLangKey = "ia_lang_user";
+        var routeMap = {
+          {{- range site.Languages }}
+          {{- $itemMeta := partial "lang-meta.html" (dict "lang" . "defaultLang" $defaultLang) -}}
+          "{{ $itemMeta.appLang }}": "{{ $itemMeta.route }}",
+          {{- end }}
+        };
+        var pathLangMap = {
+          {{- range site.Languages }}
+          {{- $itemMeta := partial "lang-meta.html" (dict "lang" . "defaultLang" $defaultLang) -}}
+          {{- $route := $itemMeta.route -}}
+          {{- if ne $route "/" }}
+          "{{ strings.TrimSuffix "/" (strings.TrimPrefix "/" $route) }}": "{{ $itemMeta.appLang }}",
+          {{- end }}
+          "{{ lower .LanguageCode }}": "{{ $itemMeta.appLang }}",
+          {{- end }}
+          "zh": "zh-Hans",
+          "zh-cn": "zh-Hans",
+          "zh-hans": "zh-Hans",
+          "zh-hant": "zh-Hant-HK"
+        };
+
+        function normalizeLang(input) {
+          if (!input) return null;
+          var value = input.toLowerCase().replace("_", "-");
+          return pathLangMap[value] || null;
+        }
+
+        function browserLang() {
+          var langs = Array.isArray(navigator.languages) && navigator.languages.length
+            ? navigator.languages
+            : [navigator.language || "en"];
+          for (var i = 0; i < langs.length; i += 1) {
+            var raw = (langs[i] || "").toLowerCase();
+            var mapped = normalizeLang(raw);
+            if (mapped) return mapped;
+            if (raw.indexOf("zh-tw") === 0) return "zh-Hant-TW";
+            if (raw.indexOf("zh-hk") === 0) return "zh-Hant-HK";
+            if (raw.indexOf("zh-mo") === 0) return "zh-Hant-MO";
+            if (raw.indexOf("zh-sg") === 0) return "zh-Hant-SG";
+            if (raw.indexOf("zh") === 0 && raw.indexOf("hant") >= 0) return "zh-Hant-TW";
+            if (raw.indexOf("zh") === 0) return "zh-Hans";
+            if (raw.indexOf("ja") === 0) return "ja";
+            if (raw.indexOf("ko") === 0) return "ko";
+            if (raw.indexOf("en") === 0) return "en";
+          }
+          return "en";
+        }
+
+        function preferredLang() {
+          try {
+            var stored = window.localStorage ? window.localStorage.getItem(userLangKey) : null;
+            if (stored && routeMap[stored]) return stored;
+          } catch (_) {}
+          return browserLang();
+        }
+
+        function finish() {
+          document.documentElement.setAttribute("data-lang-pending", "0");
+        }
+
+        var pathname = window.location.pathname;
+        var segments = pathname.split("/").filter(Boolean);
+        var first = segments[0] || "";
+        var explicitLang = normalizeLang(first);
+        if (explicitLang) {
+          finish();
+          return;
+        }
+
+        var preferred = preferredLang();
+        if (!preferred || preferred === {{ $defaultLang | jsonify }}) {
+          finish();
+          return;
+        }
+
+        var targetBase = routeMap[preferred];
+        if (!targetBase) {
+          finish();
+          return;
+        }
+
+        var targetPath = pathname;
+        if (pathname === "/") {
+          targetPath = targetBase;
+        } else if (pathname === "/privacy/" || pathname === "/terms/") {
+          targetPath = targetBase.replace(/\/$/, "") + pathname;
+        } else {
+          finish();
+          return;
+        }
+
+        if (targetPath && targetPath !== pathname) {
+          window.location.replace(targetPath + window.location.search + window.location.hash);
+          return;
+        }
+        finish();
+      })();
+    </script>
+    <link rel="stylesheet" href="/styles.css?v={{ $assetVersion }}" />
     {{- if .IsHome }}
-    <script type="application/ld+json" id="seo-jsonld">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"iAssets","applicationCategory":"FinanceApplication","operatingSystem":"iOS, iPadOS, macOS","description":{{ $metaDescription | jsonify }},"url":{{ .RelPermalink | jsonify }},"inLanguage":{{ site.Params.jsonLdLanguage | jsonify }}}</script>
+    <script type="application/ld+json" id="seo-jsonld">{"@context":"https://schema.org","@type":"SoftwareApplication","name":{{ $brandName | jsonify }},"applicationCategory":"FinanceApplication","operatingSystem":"iOS, iPadOS, macOS","description":{{ $metaDescription | jsonify }},"url":{{ .RelPermalink | jsonify }},"inLanguage":{{ $langMeta.jsonLdLanguage | jsonify }}}</script>
     {{- end }}
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-B1XEJXPQPW"></script>
@@ -63,20 +184,21 @@
       gtag("config", "G-B1XEJXPQPW");
     </script>
   </head>
-  <body{{ if not .IsHome }} class="legal-page" data-page-title-key="{{ .Params.pageTitleKey }}"{{ end }}>
+  <body{{ if not .IsHome }} class="legal-page" data-page-title-key="{{ .Params.pageTitleKey }}"{{ end }} data-contact-email="{{ $contactEmail }}" data-wechat-qr="{{ $socialWechatQr }}">
     <header class="topbar">
       <div class="container nav-shell">
         <nav class="top-pill">
           <div class="pill-left">
             <a class="logo" href="{{ "/" | relLangURL }}">
-              <img class="logo-mark" src="/assets/logo.png" alt="iAssets logo" />
-              <span data-i18n="brand">{{ index $copy "brand" }}</span>
+              <img class="logo-mark" src="{{ $logo }}" alt="{{ $logoAlt }}" />
+              <span data-i18n="brand">{{ T "brand" }}</span>
             </a>
             <div class="desktop-nav">
-              <a href="{{ "/" | relLangURL }}#features" data-i18n="navFeatures">{{ index $copy "navFeatures" }}</a>
-              <a href="{{ "/" | relLangURL }}#reviews" data-i18n="navReviews">{{ index $copy "navReviews" }}</a>
-              <a href="{{ "/" | relLangURL }}#pricing" data-i18n="navPricing">{{ index $copy "navPricing" }}</a>
-              <a href="{{ "/" | relLangURL }}#faqs" data-i18n="navFaq">{{ index $copy "navFaq" }}</a>
+              {{- range site.Menus.main }}
+              {{- $target := .URL -}}
+              {{- if hasPrefix $target "#" }}{{ $target = printf "%s%s" ("/" | relLangURL) $target }}{{ end -}}
+              <a href="{{ $target }}" data-i18n="{{ .Identifier }}">{{ T .Identifier }}</a>
+              {{- end }}
             </div>
           </div>
           <div class="pill-right">
@@ -89,7 +211,7 @@
                   <path d="M14 5.9c.7-.8 1.2-1.8 1.1-2.9-1 .1-2.1.7-2.9 1.5-.7.8-1.2 1.8-1.1 2.8 1 .1 2.1-.5 2.9-1.4z"></path>
                 </svg>
               </span>
-              <span data-i18n="navDownload">{{ index $copy "navDownload" }}</span>
+              <span data-i18n="navDownload">{{ T "navDownload" }}</span>
             </a>
             <div class="header-lang-dropdown">
               <button class="header-lang-trigger" type="button" aria-label="Switch language" aria-haspopup="listbox" aria-expanded="false">
@@ -104,20 +226,20 @@
               </button>
               <div class="header-lang-menu" role="listbox" aria-label="Language options">
                 {{- range site.Languages }}
-                {{- if ne .Lang "root" }}
-                <button type="button" data-lang-option="{{ .Params.appLang }}">{{ .LanguageName }}</button>
-                {{- end }}
+                {{- $itemMeta := partial "lang-meta.html" (dict "lang" . "defaultLang" $defaultLang) -}}
+                <button type="button" data-lang-option="{{ $itemMeta.appLang }}">{{ .LanguageName }}</button>
                 {{- end }}
               </div>
             </div>
           </div>
         </nav>
         <nav id="mobile-menu" class="mobile-menu" aria-hidden="true">
-          <a href="{{ "/" | relLangURL }}#features" data-i18n="navFeatures">{{ index $copy "navFeatures" }}</a>
-          <a href="{{ "/" | relLangURL }}#reviews" data-i18n="navReviews">{{ index $copy "navReviews" }}</a>
-          <a href="{{ "/" | relLangURL }}#pricing" data-i18n="navPricing">{{ index $copy "navPricing" }}</a>
-          <a href="{{ "/" | relLangURL }}#faqs" data-i18n="navFaq">{{ index $copy "navFaq" }}</a>
-          <a href="{{ "/" | relLangURL }}#download" data-i18n="navDownload">{{ index $copy "navDownload" }}</a>
+          {{- range site.Menus.main }}
+          {{- $target := .URL -}}
+          {{- if hasPrefix $target "#" }}{{ $target = printf "%s%s" ("/" | relLangURL) $target }}{{ end -}}
+          <a href="{{ $target }}" data-i18n="{{ .Identifier }}">{{ T .Identifier }}</a>
+          {{- end }}
+          <a href="{{ "/" | relLangURL }}#download" data-i18n="navDownload">{{ T "navDownload" }}</a>
         </nav>
       </div>
     </header>
@@ -131,48 +253,51 @@
             <section class="footer-left">
               <section class="footer-brand-col">
                 <a class="logo footer-brand-wrap" href="{{ "/" | relLangURL }}">
-                  <img class="logo-mark" src="/assets/logo.png" alt="iAssets logo" />
+                  <img class="logo-mark" src="{{ $logo }}" alt="{{ $logoAlt }}" />
                   <span class="footer-brand-text">
-                    <span data-i18n="brand">{{ index $copy "brand" }}</span>
-                    <span class="footer-tag" data-i18n="footerTag">{{ index $copy "footerTag" }}</span>
+                    <span data-i18n="brand">{{ T "brand" }}</span>
+                    <span class="footer-tag" data-i18n="footerTag">{{ T "footerTag" }}</span>
                   </span>
                 </a>
               </section>
               <nav class="footer-inline-links" aria-label="Footer links">
-                <a href="{{ "/" | relLangURL }}#features" data-i18n="navFeatures">{{ index $copy "navFeatures" }}</a>
-                <a href="{{ "/" | relLangURL }}#pricing" data-i18n="navPricing">{{ index $copy "navPricing" }}</a>
-                <a href="{{ "/" | relLangURL }}#faqs" data-i18n="navFaq">{{ index $copy "navFaq" }}</a>
-                <a href="{{ "/" | relLangURL }}#download" data-i18n="navDownload">{{ index $copy "navDownload" }}</a>
-                <a href="{{ "privacy/" | relLangURL }}" data-i18n="navPrivacy">{{ index $copy "navPrivacy" }}</a>
-                <a href="{{ "terms/" | relLangURL }}" data-i18n="navTerms">{{ index $copy "navTerms" }}</a>
+                {{- range site.Menus.footer }}
+                {{- $target := .URL -}}
+                {{- if hasPrefix $target "#" -}}
+                  {{- $target = printf "%s%s" ("/" | relLangURL) $target -}}
+                {{- else if hasPrefix $target "/" -}}
+                  {{- $target = printf "%s%s" ("/" | relLangURL) (strings.TrimPrefix "/" $target) -}}
+                {{- end -}}
+                <a href="{{ $target }}" data-i18n="{{ .Identifier }}">{{ T .Identifier }}</a>
+                {{- end }}
               </nav>
             </section>
             <section class="footer-social" aria-label="Chinese social links">
               <div class="social-grid">
                 <div class="social-set social-set-cn">
                   <a class="social-link" data-social="wechat" href="#" aria-label="微信"><img src="/assets/social-wechat.svg" alt="WeChat" /></a>
-                  <a class="social-link" data-social="weibo" href="https://weibo.com/u/7096209693" target="_blank" rel="noopener noreferrer" aria-label="微博"><img src="/assets/social-weibo.svg" alt="Weibo" /></a>
-                  <a class="social-link" data-social="xiaohongshu" href="https://www.xiaohongshu.com/user/profile/5d4057fd0000000012007068" target="_blank" rel="noopener noreferrer" aria-label="小红书"><img src="/assets/social-xiaohongshu.svg" alt="Xiaohongshu" /></a>
-                  <a class="social-link" data-social="zhihu" href="https://www.zhihu.com/people/debuginn" target="_blank" rel="noopener noreferrer" aria-label="知乎"><img src="/assets/social-zhihu.svg" alt="Zhihu" /></a>
+                  <a class="social-link" data-social="weibo" href="{{ $socialWeibo }}" target="_blank" rel="noopener noreferrer" aria-label="微博"><img src="/assets/social-weibo.svg" alt="Weibo" /></a>
+                  <a class="social-link" data-social="xiaohongshu" href="{{ $socialXiaohongshu }}" target="_blank" rel="noopener noreferrer" aria-label="小红书"><img src="/assets/social-xiaohongshu.svg" alt="Xiaohongshu" /></a>
+                  <a class="social-link" data-social="zhihu" href="{{ $socialZhihu }}" target="_blank" rel="noopener noreferrer" aria-label="知乎"><img src="/assets/social-zhihu.svg" alt="Zhihu" /></a>
                 </div>
                 <div class="social-set social-set-global">
-                  <a class="social-link" data-social="x" href="https://x.com/idebuginn" target="_blank" rel="noopener noreferrer" aria-label="X"><img src="/assets/social-x.svg" alt="X" /></a>
-                  <a class="social-link" data-social="telegram" href="https://t.me/iAssetsApp" target="_blank" rel="noopener noreferrer" aria-label="Telegram"><img src="/assets/social-telegram.svg" alt="Telegram" /></a>
-                  <a class="social-link" data-social="xiaohongshu" href="https://www.xiaohongshu.com/user/profile/5d4057fd0000000012007068" target="_blank" rel="noopener noreferrer" aria-label="小红书"><img src="/assets/social-xiaohongshu.svg" alt="Xiaohongshu" /></a>
+                  <a class="social-link" data-social="x" href="{{ $socialX }}" target="_blank" rel="noopener noreferrer" aria-label="X"><img src="/assets/social-x.svg" alt="X" /></a>
+                  <a class="social-link" data-social="telegram" href="{{ $socialTelegram }}" target="_blank" rel="noopener noreferrer" aria-label="Telegram"><img src="/assets/social-telegram.svg" alt="Telegram" /></a>
+                  <a class="social-link" data-social="xiaohongshu" href="{{ $socialXiaohongshu }}" target="_blank" rel="noopener noreferrer" aria-label="小红书"><img src="/assets/social-xiaohongshu.svg" alt="Xiaohongshu" /></a>
                 </div>
                 <div class="social-set social-set-hant">
-                  <a class="social-link" data-social="x" href="https://x.com/idebuginn" target="_blank" rel="noopener noreferrer" aria-label="X"><img src="/assets/social-x.svg" alt="X" /></a>
-                  <a class="social-link" data-social="telegram" href="https://t.me/iAssetsApp" target="_blank" rel="noopener noreferrer" aria-label="Telegram"><img src="/assets/social-telegram.svg" alt="Telegram" /></a>
-                  <a class="social-link" data-social="xiaohongshu" href="https://www.xiaohongshu.com/user/profile/5d4057fd0000000012007068" target="_blank" rel="noopener noreferrer" aria-label="小红书"><img src="/assets/social-xiaohongshu.svg" alt="Xiaohongshu" /></a>
+                  <a class="social-link" data-social="x" href="{{ $socialX }}" target="_blank" rel="noopener noreferrer" aria-label="X"><img src="/assets/social-x.svg" alt="X" /></a>
+                  <a class="social-link" data-social="telegram" href="{{ $socialTelegram }}" target="_blank" rel="noopener noreferrer" aria-label="Telegram"><img src="/assets/social-telegram.svg" alt="Telegram" /></a>
+                  <a class="social-link" data-social="xiaohongshu" href="{{ $socialXiaohongshu }}" target="_blank" rel="noopener noreferrer" aria-label="小红书"><img src="/assets/social-xiaohongshu.svg" alt="Xiaohongshu" /></a>
                   <a class="social-link" data-social="wechat" href="#" aria-label="微信"><img src="/assets/social-wechat.svg" alt="WeChat" /></a>
                 </div>
               </div>
             </section>
             <section class="qr-box">
-              <div class="fake-qr"></div>
+              <div class="fake-qr"><img src="{{ $downloadQr }}" alt="Download QR code" loading="lazy" /></div>
               <div class="qr-copy">
-                <h4 data-i18n="navDownload">{{ index $copy "navDownload" }}</h4>
-                <p data-i18n="downloadHint">{{ index $copy "downloadHint" }}</p>
+                <h4 data-i18n="navDownload">{{ T "navDownload" }}</h4>
+                <p data-i18n="downloadHint">{{ T "downloadHint" }}</p>
               </div>
             </section>
           </div>
@@ -191,19 +316,18 @@
               </button>
               <div class="footer-lang-menu" role="listbox" aria-label="Language options">
                 {{- range site.Languages }}
-                {{- if ne .Lang "root" }}
-                <button type="button" data-footer-lang-option="{{ .Params.appLang }}">{{ .LanguageName }}</button>
-                {{- end }}
+                {{- $itemMeta := partial "lang-meta.html" (dict "lang" . "defaultLang" $defaultLang) -}}
+                <button type="button" data-footer-lang-option="{{ $itemMeta.appLang }}">{{ .LanguageName }}</button>
                 {{- end }}
               </div>
             </div>
             </div>
-            <p>© Copyright 2026. All rights reserved.</p>
+            <p>© Copyright {{ site.Params.copyright.year }}. All rights reserved.</p>
           </div>
         </div>
       </div>
     </footer>
 
-    <script type="module" src="/app.js"></script>
+    <script type="module" src="/app.js?v={{ $assetVersion }}"></script>
   </body>
 </html>
