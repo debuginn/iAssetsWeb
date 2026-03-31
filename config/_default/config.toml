@@ -25,23 +25,8 @@ enableRobotsTXT = true
     target = 'content'
 
   [[module.mounts]]
-    lang = 'tw'
-    source = 'content/tw'
-    target = 'content'
-
-  [[module.mounts]]
-    lang = 'hk'
-    source = 'content/hk'
-    target = 'content'
-
-  [[module.mounts]]
-    lang = 'mo'
-    source = 'content/mo'
-    target = 'content'
-
-  [[module.mounts]]
-    lang = 'sg'
-    source = 'content/sg'
+    lang = 'zh-hant'
+    source = 'content/zh-hant'
     target = 'content'
 
   [[module.mounts]]

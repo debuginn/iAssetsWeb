@@ -3,6 +3,7 @@
   logoAlt = 'iAssets logo'
   brandName = 'iAssets'
   downloadQr = '/assets/qr-download.png'
+  version = 'v1'
 
 [contact]
   email = 'idebuginn@gmail.com'

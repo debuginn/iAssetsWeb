@@ -8,13 +8,26 @@ type = "home"
 eyebrow = "iAssets"
 title = "快速掌握你的资产全景、守护你的财富"
 description = "这是一款可视化资产管理工具，同时支持家庭资产管理。资产、负债、结构、目标和趋势一屏可见。"
-ctaHref = "#download"
-ctaOverline = "Download on the"
-ctaTitle = "App Store"
 
-[home.hero.image]
-src = "/assets/ia-home.png"
-alt = "iAssets app screenshot"
+[[home.hero.fanImages]]
+src = "/assets/hero-fan/hero-1.png"
+alt = "iAssets 应用截图 1"
+
+[[home.hero.fanImages]]
+src = "/assets/hero-fan/hero-2.png"
+alt = "iAssets 应用截图 2"
+
+[[home.hero.fanImages]]
+src = "/assets/hero-fan/hero-3.png"
+alt = "iAssets 应用截图 3"
+
+[[home.hero.fanImages]]
+src = "/assets/hero-fan/hero-4.png"
+alt = "iAssets 应用截图 4"
+
+[[home.hero.fanImages]]
+src = "/assets/hero-fan/hero-5.png"
+alt = "iAssets 应用截图 5"
 
 [[home.hero.cards]]
 number = "01"
@@ -38,7 +51,19 @@ description = "几秒定位到目标账户或变更。"
 eyebrow = "特性"
 title = "围绕家庭资产管理而设计。"
 description = "不是泛记账，而是资产结构分析、风险感知和长期目标追踪。"
-showcase = true
+
+[home.features.showcase]
+[[home.features.showcase.images]]
+src = "/assets/features-showcase-main.png"
+alt = "iAssets 功能展示主截图"
+
+[[home.features.showcase.images]]
+src = "/assets/hero-fan/hero-1.png"
+alt = "iAssets 功能展示辅助截图"
+
+[[home.features.showcase.images]]
+src = "/assets/hero-fan/hero-5.png"
+alt = "iAssets 功能展示补充截图"
 
 [[home.features.items]]
 number = "01"
@@ -119,6 +144,39 @@ ctaHref = "#"
 ctaOverline = "Download on the"
 ctaTitle = "App Store"
 
+[home.download.backdrop]
+columns = 4
+rotation = "-16deg"
+stageWidth = "142%"
+stageHeight = "274%"
+stageWidthMobile = "154%"
+stageHeightMobile = "254%"
+gap = "14px"
+gapMobile = "12px"
+reverseEven = true
+durations = ["68s", "76s", "72s", "80s"]
+delays = ["0s", "-3s", "-8s", "-6s"]
+
+[[home.download.backdrop.images]]
+src = "/assets/hero-fan/hero-1.png"
+alt = "iAssets 下载背景 1"
+
+[[home.download.backdrop.images]]
+src = "/assets/hero-fan/hero-2.png"
+alt = "iAssets 下载背景 2"
+
+[[home.download.backdrop.images]]
+src = "/assets/hero-fan/hero-3.png"
+alt = "iAssets 下载背景 3"
+
+[[home.download.backdrop.images]]
+src = "/assets/hero-fan/hero-4.png"
+alt = "iAssets 下载背景 4"
+
+[[home.download.backdrop.images]]
+src = "/assets/hero-fan/hero-5.png"
+alt = "iAssets 下载背景 5"
+
 [home.reviews]
 eyebrow = "评价"
 title = "用户正在用 iAssets 养成更好的资产习惯。"
@@ -189,11 +247,12 @@ text = "長期目標拆成可追蹤里程碑後，整個理財節奏更穩定。
 eyebrow = "价格"
 title = "价格低廉、持续迭代。"
 description = "建议按年支付，共建软件的良性发展，当然也支持终身买断。"
+disclaimer = "* 因在不同地区销售与活动，价格以实际下载呈现价格为准。"
 
 [[home.pricing.plans]]
-featured = true
+featured = false
 priceKey = "yearly"
-title = "Subscribe"
+title = "订阅"
 badge = "Popular"
 suffix = "/年"
 description = "按年支付，共建软件的良性发展。"
@@ -201,18 +260,17 @@ description = "按年支付，共建软件的良性发展。"
 [home.pricing.plans.cta]
 label = "立即订阅"
 href = "#download"
-style = "btn btn-solid"
 
 [[home.pricing.plans]]
-featured = false
+featured = true
 priceKey = "lifetime"
-title = "Lifetime"
+title = "终身"
 description = "一次购买，终身更新。"
 
 [home.pricing.plans.cta]
+highlight = true
 label = "立即购买"
 href = "#download"
-style = "btn btn-ghost"
 
 [home.trust]
 eyebrow = "TRUST"
@@ -303,13 +361,13 @@ name = "HF Bank"
 [[home.trust.actions]]
 type = "mailto"
 label = "商务合作"
-style = "btn btn-ghost"
+style = "btn-ghost"
 
 [[home.trust.actions]]
 type = "link"
 href = "#features"
 label = "了解详情"
-style = "btn btn-ghost"
+style = "btn-ghost"
 
 [home.faq]
 eyebrow = "常见问题"

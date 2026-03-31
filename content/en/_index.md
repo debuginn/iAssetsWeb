@@ -8,13 +8,26 @@ type = "home"
 eyebrow = "iAssets"
 title = "Understand your family balance sheet at a glance."
 description = "A visual asset management tool that also supports family asset management. Assets, liabilities, structure, goals, and trends are visible on one screen."
-ctaHref = "#download"
-ctaOverline = "Download on the"
-ctaTitle = "App Store"
 
-[home.hero.image]
-src = "/assets/ia-home.png"
-alt = "iAssets app screenshot"
+[[home.hero.fanImages]]
+src = "/assets/hero-fan/hero-1.png"
+alt = "iAssets app screenshot 1"
+
+[[home.hero.fanImages]]
+src = "/assets/hero-fan/hero-2.png"
+alt = "iAssets app screenshot 2"
+
+[[home.hero.fanImages]]
+src = "/assets/hero-fan/hero-3.png"
+alt = "iAssets app screenshot 3"
+
+[[home.hero.fanImages]]
+src = "/assets/hero-fan/hero-4.png"
+alt = "iAssets app screenshot 4"
+
+[[home.hero.fanImages]]
+src = "/assets/hero-fan/hero-5.png"
+alt = "iAssets app screenshot 5"
 
 [[home.hero.cards]]
 number = "01"
@@ -38,7 +51,19 @@ description = "Find target accounts in seconds."
 eyebrow = "Features"
 title = "Designed for household asset management."
 description = "Not generic bookkeeping. It is built for structure, risk and long-term goals."
-showcase = true
+
+[home.features.showcase]
+[[home.features.showcase.images]]
+src = "/assets/features-showcase-main.png"
+alt = "iAssets feature showcase main screenshot"
+
+[[home.features.showcase.images]]
+src = "/assets/hero-fan/hero-1.png"
+alt = "iAssets feature showcase secondary screenshot"
+
+[[home.features.showcase.images]]
+src = "/assets/hero-fan/hero-5.png"
+alt = "iAssets feature showcase supporting screenshot"
 
 [[home.features.items]]
 number = "01"
@@ -119,6 +144,39 @@ ctaHref = "#"
 ctaOverline = "Download on the"
 ctaTitle = "App Store"
 
+[home.download.backdrop]
+columns = 4
+rotation = "-16deg"
+stageWidth = "142%"
+stageHeight = "274%"
+stageWidthMobile = "154%"
+stageHeightMobile = "254%"
+gap = "14px"
+gapMobile = "12px"
+reverseEven = true
+durations = ["68s", "76s", "72s", "80s"]
+delays = ["0s", "-3s", "-8s", "-6s"]
+
+[[home.download.backdrop.images]]
+src = "/assets/hero-fan/hero-1.png"
+alt = "iAssets download backdrop 1"
+
+[[home.download.backdrop.images]]
+src = "/assets/hero-fan/hero-2.png"
+alt = "iAssets download backdrop 2"
+
+[[home.download.backdrop.images]]
+src = "/assets/hero-fan/hero-3.png"
+alt = "iAssets download backdrop 3"
+
+[[home.download.backdrop.images]]
+src = "/assets/hero-fan/hero-4.png"
+alt = "iAssets download backdrop 4"
+
+[[home.download.backdrop.images]]
+src = "/assets/hero-fan/hero-5.png"
+alt = "iAssets download backdrop 5"
+
 [home.reviews]
 eyebrow = "Reviews"
 title = "People build better financial habits with iAssets."
@@ -189,9 +247,10 @@ text = "長期目標拆成可追蹤里程碑後，整個理財節奏更穩定。
 eyebrow = "Pricing"
 title = "Affordable pricing, continuous updates."
 description = "Yearly payment is recommended to support sustainable development, and lifetime purchase is also available."
+disclaimer = "* Prices vary by region and promotions. The actual price shown in the app download flow applies."
 
 [[home.pricing.plans]]
-featured = true
+featured = false
 priceKey = "yearly"
 title = "Subscribe"
 badge = "Popular"
@@ -201,18 +260,17 @@ description = "Pay yearly to support the healthy growth of the software."
 [home.pricing.plans.cta]
 label = "Subscribe yearly"
 href = "#download"
-style = "btn btn-solid"
 
 [[home.pricing.plans]]
-featured = false
+featured = true
 priceKey = "lifetime"
 title = "Lifetime"
 description = "One-time purchase, lifetime updates."
 
 [home.pricing.plans.cta]
+highlight = true
 label = "Buy lifetime"
 href = "#download"
-style = "btn btn-ghost"
 
 [home.trust]
 eyebrow = "TRUST"
@@ -303,13 +361,13 @@ name = "HF Bank"
 [[home.trust.actions]]
 type = "mailto"
 label = "Business cooperation"
-style = "btn btn-ghost"
+style = "btn-ghost"
 
 [[home.trust.actions]]
 type = "link"
 href = "#features"
 label = "Learn more"
-style = "btn btn-ghost"
+style = "btn-ghost"
 
 [home.faq]
 eyebrow = "FAQ"
