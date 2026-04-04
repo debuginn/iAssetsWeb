@@ -10,23 +10,23 @@ title = "快速掌握你的資產全景、守護你的財富"
 description = "這是一款可視化資產管理工具，同時支援家庭資產管理。資產、負債、結構、目標和趨勢一屏可見。"
 
 [[home.hero.fanImages]]
-src = "/assets/hero-fan/hero-1.png"
+src = "/assets/hero-fan-zh-hant/hero-1.png"
 alt = "iAssets 應用截圖 1"
 
 [[home.hero.fanImages]]
-src = "/assets/hero-fan/hero-2.png"
+src = "/assets/hero-fan-zh-hant/hero-2.png"
 alt = "iAssets 應用截圖 2"
 
 [[home.hero.fanImages]]
-src = "/assets/hero-fan/hero-3.png"
+src = "/assets/hero-fan-zh-hant/hero-3.png"
 alt = "iAssets 應用截圖 3"
 
 [[home.hero.fanImages]]
-src = "/assets/hero-fan/hero-4.png"
+src = "/assets/hero-fan-zh-hant/hero-4.png"
 alt = "iAssets 應用截圖 4"
 
 [[home.hero.fanImages]]
-src = "/assets/hero-fan/hero-5.png"
+src = "/assets/hero-fan-zh-hant/hero-5.png"
 alt = "iAssets 應用截圖 5"
 
 [[home.hero.cards]]
@@ -57,11 +57,11 @@ src = "/assets/features-showcase-main.png"
 alt = "iAssets 功能展示主截圖"
 
 [[home.features.showcase.images]]
-src = "/assets/hero-fan/hero-1.png"
+src = "/assets/hero-fan-zh-hant/hero-1.png"
 alt = "iAssets 功能展示輔助截圖"
 
 [[home.features.showcase.images]]
-src = "/assets/hero-fan/hero-5.png"
+src = "/assets/hero-fan-zh-hant/hero-5.png"
 alt = "iAssets 功能展示補充截圖"
 
 [[home.features.items]]
@@ -157,23 +157,23 @@ durations = ["68s", "76s", "72s", "80s"]
 delays = ["0s", "-3s", "-8s", "-6s"]
 
 [[home.download.backdrop.images]]
-src = "/assets/hero-fan/hero-1.png"
+src = "/assets/hero-fan-zh-hant/hero-1.png"
 alt = "iAssets 下載背景 1"
 
 [[home.download.backdrop.images]]
-src = "/assets/hero-fan/hero-2.png"
+src = "/assets/hero-fan-zh-hant/hero-2.png"
 alt = "iAssets 下載背景 2"
 
 [[home.download.backdrop.images]]
-src = "/assets/hero-fan/hero-3.png"
+src = "/assets/hero-fan-zh-hant/hero-3.png"
 alt = "iAssets 下載背景 3"
 
 [[home.download.backdrop.images]]
-src = "/assets/hero-fan/hero-4.png"
+src = "/assets/hero-fan-zh-hant/hero-4.png"
 alt = "iAssets 下載背景 4"
 
 [[home.download.backdrop.images]]
-src = "/assets/hero-fan/hero-5.png"
+src = "/assets/hero-fan-zh-hant/hero-5.png"
 alt = "iAssets 下載背景 5"
 
 [home.reviews]

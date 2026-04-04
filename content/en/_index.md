@@ -10,23 +10,23 @@ title = "Understand your family balance sheet at a glance."
 description = "A visual asset management tool that also supports family asset management. Assets, liabilities, structure, goals, and trends are visible on one screen."
 
 [[home.hero.fanImages]]
-src = "/assets/hero-fan/hero-1.png"
+src = "/assets/hero-fan-en/hero-1.png"
 alt = "iAssets app screenshot 1"
 
 [[home.hero.fanImages]]
-src = "/assets/hero-fan/hero-2.png"
+src = "/assets/hero-fan-en/hero-2.png"
 alt = "iAssets app screenshot 2"
 
 [[home.hero.fanImages]]
-src = "/assets/hero-fan/hero-3.png"
+src = "/assets/hero-fan-en/hero-3.png"
 alt = "iAssets app screenshot 3"
 
 [[home.hero.fanImages]]
-src = "/assets/hero-fan/hero-4.png"
+src = "/assets/hero-fan-en/hero-4.png"
 alt = "iAssets app screenshot 4"
 
 [[home.hero.fanImages]]
-src = "/assets/hero-fan/hero-5.png"
+src = "/assets/hero-fan-en/hero-5.png"
 alt = "iAssets app screenshot 5"
 
 [[home.hero.cards]]
@@ -58,11 +58,11 @@ src = "/assets/features-showcase-main.png"
 alt = "iAssets feature showcase main screenshot"
 
 [[home.features.showcase.images]]
-src = "/assets/hero-fan/hero-1.png"
+src = "/assets/hero-fan-en/hero-5.png"
 alt = "iAssets feature showcase secondary screenshot"
 
 [[home.features.showcase.images]]
-src = "/assets/hero-fan/hero-5.png"
+src = "/assets/hero-fan-en/hero-1.png"
 alt = "iAssets feature showcase supporting screenshot"
 
 [[home.features.items]]
@@ -158,23 +158,23 @@ durations = ["68s", "76s", "72s", "80s"]
 delays = ["0s", "-3s", "-8s", "-6s"]
 
 [[home.download.backdrop.images]]
-src = "/assets/hero-fan/hero-1.png"
+src = "/assets/hero-fan-en/hero-1.png"
 alt = "iAssets download backdrop 1"
 
 [[home.download.backdrop.images]]
-src = "/assets/hero-fan/hero-2.png"
+src = "/assets/hero-fan-en/hero-2.png"
 alt = "iAssets download backdrop 2"
 
 [[home.download.backdrop.images]]
-src = "/assets/hero-fan/hero-3.png"
+src = "/assets/hero-fan-en/hero-3.png"
 alt = "iAssets download backdrop 3"
 
 [[home.download.backdrop.images]]
-src = "/assets/hero-fan/hero-4.png"
+src = "/assets/hero-fan-en/hero-4.png"
 alt = "iAssets download backdrop 4"
 
 [[home.download.backdrop.images]]
-src = "/assets/hero-fan/hero-5.png"
+src = "/assets/hero-fan-en/hero-5.png"
 alt = "iAssets download backdrop 5"
 
 [home.reviews]

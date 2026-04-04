@@ -10,23 +10,23 @@ title = "家族資産の全体像を、すばやく把握。"
 description = "視覚的に使える資産管理ツールで、家族の資産管理にも対応しています。資産・負債・構成・目標・推移を1画面で確認できます。"
 
 [[home.hero.fanImages]]
-src = "/assets/hero-fan/hero-1.png"
+src = "/assets/hero-fan-ja/hero-1.png"
 alt = "iAssets アプリスクリーンショット 1"
 
 [[home.hero.fanImages]]
-src = "/assets/hero-fan/hero-2.png"
+src = "/assets/hero-fan-ja/hero-2.png"
 alt = "iAssets アプリスクリーンショット 2"
 
 [[home.hero.fanImages]]
-src = "/assets/hero-fan/hero-3.png"
+src = "/assets/hero-fan-ja/hero-3.png"
 alt = "iAssets アプリスクリーンショット 3"
 
 [[home.hero.fanImages]]
-src = "/assets/hero-fan/hero-4.png"
+src = "/assets/hero-fan-ja/hero-4.png"
 alt = "iAssets アプリスクリーンショット 4"
 
 [[home.hero.fanImages]]
-src = "/assets/hero-fan/hero-5.png"
+src = "/assets/hero-fan-ja/hero-5.png"
 alt = "iAssets アプリスクリーンショット 5"
 
 [[home.hero.cards]]
@@ -57,11 +57,11 @@ src = "/assets/features-showcase-main.png"
 alt = "iAssets 機能ショーケース メイン"
 
 [[home.features.showcase.images]]
-src = "/assets/hero-fan/hero-1.png"
+src = "/assets/hero-fan-ja/hero-1.png"
 alt = "iAssets 機能ショーケース サブ"
 
 [[home.features.showcase.images]]
-src = "/assets/hero-fan/hero-5.png"
+src = "/assets/hero-fan-ja/hero-5.png"
 alt = "iAssets 機能ショーケース 補助"
 
 [[home.features.items]]
@@ -157,23 +157,23 @@ durations = ["68s", "76s", "72s", "80s"]
 delays = ["0s", "-3s", "-8s", "-6s"]
 
 [[home.download.backdrop.images]]
-src = "/assets/hero-fan/hero-1.png"
+src = "/assets/hero-fan-ja/hero-1.png"
 alt = "iAssets ダウンロード背景 1"
 
 [[home.download.backdrop.images]]
-src = "/assets/hero-fan/hero-2.png"
+src = "/assets/hero-fan-ja/hero-2.png"
 alt = "iAssets ダウンロード背景 2"
 
 [[home.download.backdrop.images]]
-src = "/assets/hero-fan/hero-3.png"
+src = "/assets/hero-fan-ja/hero-3.png"
 alt = "iAssets ダウンロード背景 3"
 
 [[home.download.backdrop.images]]
-src = "/assets/hero-fan/hero-4.png"
+src = "/assets/hero-fan-ja/hero-4.png"
 alt = "iAssets ダウンロード背景 4"
 
 [[home.download.backdrop.images]]
-src = "/assets/hero-fan/hero-5.png"
+src = "/assets/hero-fan-ja/hero-5.png"
 alt = "iAssets ダウンロード背景 5"
 
 [home.reviews]

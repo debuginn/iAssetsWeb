@@ -10,23 +10,23 @@ title = "가족 자산 전경을 빠르게 파악하세요."
 description = "시각화된 자산 관리 도구이며, 가족 자산 관리도 지원합니다. 자산, 부채, 구조, 목표, 추이를 한 화면에서 확인할 수 있습니다."
 
 [[home.hero.fanImages]]
-src = "/assets/hero-fan/hero-1.png"
+src = "/assets/hero-fan-ko/hero-1.png"
 alt = "iAssets 앱 스크린샷 1"
 
 [[home.hero.fanImages]]
-src = "/assets/hero-fan/hero-2.png"
+src = "/assets/hero-fan-ko/hero-2.png"
 alt = "iAssets 앱 스크린샷 2"
 
 [[home.hero.fanImages]]
-src = "/assets/hero-fan/hero-3.png"
+src = "/assets/hero-fan-ko/hero-3.png"
 alt = "iAssets 앱 스크린샷 3"
 
 [[home.hero.fanImages]]
-src = "/assets/hero-fan/hero-4.png"
+src = "/assets/hero-fan-ko/hero-4.png"
 alt = "iAssets 앱 스크린샷 4"
 
 [[home.hero.fanImages]]
-src = "/assets/hero-fan/hero-5.png"
+src = "/assets/hero-fan-ko/hero-5.png"
 alt = "iAssets 앱 스크린샷 5"
 
 [[home.hero.cards]]
@@ -57,11 +57,11 @@ src = "/assets/features-showcase-main.png"
 alt = "iAssets 기능 쇼케이스 메인"
 
 [[home.features.showcase.images]]
-src = "/assets/hero-fan/hero-1.png"
+src = "/assets/hero-fan-ko/hero-1.png"
 alt = "iAssets 기능 쇼케이스 보조"
 
 [[home.features.showcase.images]]
-src = "/assets/hero-fan/hero-5.png"
+src = "/assets/hero-fan-ko/hero-5.png"
 alt = "iAssets 기능 쇼케이스 지원"
 
 [[home.features.items]]
@@ -157,23 +157,23 @@ durations = ["68s", "76s", "72s", "80s"]
 delays = ["0s", "-3s", "-8s", "-6s"]
 
 [[home.download.backdrop.images]]
-src = "/assets/hero-fan/hero-1.png"
+src = "/assets/hero-fan-ko/hero-1.png"
 alt = "iAssets 다운로드 배경 1"
 
 [[home.download.backdrop.images]]
-src = "/assets/hero-fan/hero-2.png"
+src = "/assets/hero-fan-ko/hero-2.png"
 alt = "iAssets 다운로드 배경 2"
 
 [[home.download.backdrop.images]]
-src = "/assets/hero-fan/hero-3.png"
+src = "/assets/hero-fan-ko/hero-3.png"
 alt = "iAssets 다운로드 배경 3"
 
 [[home.download.backdrop.images]]
-src = "/assets/hero-fan/hero-4.png"
+src = "/assets/hero-fan-ko/hero-4.png"
 alt = "iAssets 다운로드 배경 4"
 
 [[home.download.backdrop.images]]
-src = "/assets/hero-fan/hero-5.png"
+src = "/assets/hero-fan-ko/hero-5.png"
 alt = "iAssets 다운로드 배경 5"
 
 [home.reviews]
