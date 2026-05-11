@@ -139,7 +139,7 @@ description = "기본은 로컬 저장, 필요 시 iCloud 동기화."
 eyebrow = "다운로드"
 title = "지금 시작"
 description = "iAssets를 설치하고 가족 자산 체계를 시작하세요."
-ctaHref = "#"
+ctaHref = "https://apps.apple.com/us/app/iassets/id6759790991"
 ctaOverline = "Download on the"
 ctaTitle = "App Store"
 

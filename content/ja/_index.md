@@ -139,7 +139,7 @@ description = "データはローカル保存、必要時に iCloud 同期。"
 eyebrow = "ダウンロード"
 title = "今すぐ開始"
 description = "iAssets をダウンロードして資産管理を開始。"
-ctaHref = "#"
+ctaHref = "https://apps.apple.com/us/app/iassets/id6759790991"
 ctaOverline = "Download on the"
 ctaTitle = "App Store"
 

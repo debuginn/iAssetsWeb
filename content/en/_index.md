@@ -140,7 +140,7 @@ description = "Data is local by default with optional iCloud sync."
 eyebrow = "Download"
 title = "Start now"
 description = "Install iAssets and build your family asset system."
-ctaHref = "#"
+ctaHref = "https://apps.apple.com/us/app/iassets/id6759790991"
 ctaOverline = "Download on the"
 ctaTitle = "App Store"
 

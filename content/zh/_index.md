@@ -140,7 +140,7 @@ description = "数据默认本地存储，可选 iCloud 同步。"
 eyebrow = "下载"
 title = "立即开始"
 description = "下载 iAssets，快速建立你的家庭资产体系。"
-ctaHref = "#"
+ctaHref = "https://apps.apple.com/us/app/iassets/id6759790991"
 ctaOverline = "Download on the"
 ctaTitle = "App Store"
 
