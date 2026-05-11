@@ -258,7 +258,7 @@ description = "按年支付，共建軟體的良性發展。"
 
 [home.pricing.plans.cta]
 label = "立即訂閱"
-href = "#download"
+href = "https://apps.apple.com/us/app/iassets/id6759790991"
 
 [[home.pricing.plans]]
 featured = true
@@ -269,7 +269,7 @@ description = "一次購買，終身更新。"
 [home.pricing.plans.cta]
 highlight = true
 label = "立即購買"
-href = "#download"
+href = "https://apps.apple.com/us/app/iassets/id6759790991"
 
 [home.trust]
 eyebrow = "TRUST"

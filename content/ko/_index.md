@@ -258,7 +258,7 @@ description = "연간 결제로 소프트웨어의 건강한 발전에 함께해
 
 [home.pricing.plans.cta]
 label = "연간 구독"
-href = "#download"
+href = "https://apps.apple.com/us/app/iassets/id6759790991"
 
 [[home.pricing.plans]]
 featured = true
@@ -269,7 +269,7 @@ description = "1회 구매, 평생 업데이트."
 [home.pricing.plans.cta]
 highlight = true
 label = "평생 구매"
-href = "#download"
+href = "https://apps.apple.com/us/app/iassets/id6759790991"
 
 [home.trust]
 eyebrow = "TRUST"

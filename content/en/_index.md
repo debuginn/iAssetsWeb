@@ -259,7 +259,7 @@ description = "Pay yearly to support the healthy growth of the software."
 
 [home.pricing.plans.cta]
 label = "Subscribe yearly"
-href = "#download"
+href = "https://apps.apple.com/us/app/iassets/id6759790991"
 
 [[home.pricing.plans]]
 featured = true
@@ -270,7 +270,7 @@ description = "One-time purchase, lifetime updates."
 [home.pricing.plans.cta]
 highlight = true
 label = "Buy lifetime"
-href = "#download"
+href = "https://apps.apple.com/us/app/iassets/id6759790991"
 
 [home.trust]
 eyebrow = "TRUST"
