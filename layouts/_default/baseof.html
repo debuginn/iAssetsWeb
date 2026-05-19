@@ -1,0 +1,365 @@
+{{- $defaultLang := site.Params.i18n.defaultLang | default "en" -}}
+{{- $langMeta := partial "lang-meta.html" (dict "lang" .Site.Language "defaultLang" $defaultLang) -}}
+{{- $runtimeConfig := partial "runtime-config.html" (dict "defaultLang" $defaultLang) -}}
+{{- $pageTranslations := dict $langMeta.appLang .RelPermalink -}}
+{{- range .AllTranslations -}}
+  {{- $itemMeta := partial "lang-meta.html" (dict "lang" .Language "defaultLang" $defaultLang) -}}
+  {{- $pageTranslations = merge $pageTranslations (dict $itemMeta.appLang .RelPermalink) -}}
+{{- end -}}
+<!doctype html>
+<html lang="{{ $langMeta.htmlLang }}" data-default-lang="{{ $defaultLang }}" data-current-lang="{{ $langMeta.appLang }}">
+  <head>
+    {{- $logo := site.Params.assets.logo | default "/assets/logo.png" -}}
+    {{- $brandName := site.Params.assets.brandName | default site.Title -}}
+    {{- $logoAlt := site.Params.assets.logoAlt | default (printf "%s logo" $brandName) -}}
+    {{- $downloadQr := site.Params.assets.downloadQr | default "/assets/qr-download.png" -}}
+    {{- $contactEmail := site.Params.contact.email -}}
+    {{- $socialWechatQr := site.Params.social.wechatQr -}}
+    {{- $socialX := site.Params.social.x -}}
+    {{- $socialTelegram := site.Params.social.telegram -}}
+    {{- $socialXiaohongshu := site.Params.social.xiaohongshu -}}
+    {{- $socialWeibo := site.Params.social.weibo -}}
+    {{- $socialZhihu := site.Params.social.zhihu -}}
+    {{- $googleAnalyticsID := site.Params.analytics.googleTagID -}}
+    {{- $defaultSocialTitle := site.Params.seo.defaultSocialTitle | default $brandName -}}
+    {{- $siteURL := site.Params.seo.siteURL | default site.BaseURL -}}
+    {{- $hasAbsoluteSiteURL := or (hasPrefix $siteURL "https://") (hasPrefix $siteURL "http://") -}}
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    {{- $pageTitle := .Title -}}
+    {{- $pageSocialTitle := .Params.socialTitle | default $pageTitle | default $defaultSocialTitle -}}
+    {{- $metaDescription := .Params.description | default (printf "%s %s" $brandName .Title) -}}
+    {{- $assetVersion := site.Params.assets.version -}}
+    {{- $canonicalURL := cond $hasAbsoluteSiteURL (printf "%s%s" (strings.TrimSuffix "/" $siteURL) .RelPermalink) .RelPermalink -}}
+    {{- $pageOgType := .Params.ogType | default (cond .IsPage "article" "website") -}}
+    {{- $defaultSocialImage := site.Params.seo.defaultSocialImage | default $logo -}}
+    {{- $socialImage := .Params.socialImage | default $defaultSocialImage -}}
+    {{- $socialImageAlt := .Params.socialImageAlt | default (printf "%s social preview" $pageSocialTitle) -}}
+    {{- $hasAbsoluteSocialImage := or (hasPrefix $socialImage "https://") (hasPrefix $socialImage "http://") -}}
+    {{- $socialImageURL := cond $hasAbsoluteSocialImage $socialImage (cond $hasAbsoluteSiteURL (printf "%s%s" (strings.TrimSuffix "/" $siteURL) $socialImage) $socialImage) -}}
+    {{- $socialImageWidth := .Params.socialImageWidth | default site.Params.seo.defaultSocialImageWidth -}}
+    {{- $socialImageHeight := .Params.socialImageHeight | default site.Params.seo.defaultSocialImageHeight -}}
+    {{- $jsonLd := dict "@context" "https://schema.org" "@type" "SoftwareApplication" "name" $brandName "applicationCategory" "FinanceApplication" "operatingSystem" "iOS, iPadOS, macOS" "description" $metaDescription "url" $canonicalURL "inLanguage" $langMeta.jsonLdLanguage -}}
+    {{- $stylesURL := "/styles.css" -}}
+    {{- $appURL := "/app.js" -}}
+    {{- if $assetVersion -}}
+      {{- $stylesURL = printf "%s?v=%v" $stylesURL $assetVersion -}}
+      {{- $appURL = printf "%s?v=%v" $appURL $assetVersion -}}
+    {{- end -}}
+    <title>{{ $pageTitle }}</title>
+    <meta name="description" content="{{ $metaDescription }}" />
+    {{- if .IsHome }}<meta name="keywords" content="{{ .Params.keywords }}" />{{ end }}
+    <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1" />
+    <meta property="og:type" content="{{ $pageOgType }}" />
+    <meta property="og:site_name" content="{{ $brandName }}" />
+    <meta property="og:title" content="{{ $pageSocialTitle }}" />
+    <meta property="og:description" content="{{ $metaDescription }}" />
+    <meta property="og:image" content="{{ $socialImageURL }}" />
+    <meta property="og:image:alt" content="{{ $socialImageAlt }}" />
+    {{- with $socialImageWidth }}<meta property="og:image:width" content="{{ . }}" />{{- end }}
+    {{- with $socialImageHeight }}<meta property="og:image:height" content="{{ . }}" />{{- end }}
+    <meta property="og:url" content="{{ $canonicalURL }}" />
+    <meta property="og:locale" content="{{ $langMeta.ogLocale }}" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="{{ $pageSocialTitle }}" />
+    <meta name="twitter:description" content="{{ $metaDescription }}" />
+    <meta name="twitter:image" content="{{ $socialImageURL }}" />
+    <meta name="twitter:image:alt" content="{{ $socialImageAlt }}" />
+    <link rel="canonical" href="{{ $canonicalURL }}" />
+    {{- if gt (len $pageTranslations) 1 }}
+    {{- $defaultAltHref := index $pageTranslations $defaultLang | default "/" -}}
+    {{- $defaultAltURL := cond $hasAbsoluteSiteURL (printf "%s%s" (strings.TrimSuffix "/" $siteURL) $defaultAltHref) $defaultAltHref -}}
+    <link rel="alternate" hreflang="x-default" href="{{ $defaultAltURL }}" />
+    {{- range site.Languages }}
+    {{- $itemMeta := partial "lang-meta.html" (dict "lang" . "defaultLang" $defaultLang) -}}
+    {{- $altHref := index $pageTranslations $itemMeta.appLang -}}
+    {{- if not $altHref }}{{- continue -}}{{- end -}}
+    {{- $altURL := cond $hasAbsoluteSiteURL (printf "%s%s" (strings.TrimSuffix "/" $siteURL) $altHref) $altHref -}}
+    <link rel="alternate" hreflang="{{ $itemMeta.htmlLang }}" href="{{ $altURL }}" />
+    {{- end }}
+    {{- end }}
+    <link rel="icon" type="image/png" href="{{ $logo }}" />
+    <link rel="shortcut icon" href="{{ $logo }}" />
+    {{- if ne $langMeta.appLang "zh-Hans" }}
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" media="print" onload="this.media='all'" />
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" /></noscript>
+    {{- end }}
+    <script>
+      (function () {
+        var themeKey = "ia_theme_pref";
+        var pref = "auto";
+        try {
+          var stored = window.localStorage ? window.localStorage.getItem(themeKey) : null;
+          if (stored === "dark" || stored === "light" || stored === "auto") pref = stored;
+        } catch (_) {}
+        var resolved = pref;
+        if (pref === "auto") {
+          resolved = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.setAttribute("data-theme", resolved);
+      })();
+    </script>
+    <script>
+      window.__IA_RUNTIME__ = {{ $runtimeConfig | jsonify | safeJS }};
+    </script>
+    <script>
+      (function () {
+        var userLangKey = "ia_lang_user";
+        var defaultLang = {{ printf "%q" $defaultLang | safeJS }};
+        var runtime = window.__IA_RUNTIME__ || {};
+        var routeMap = runtime.routeMap || {};
+        var pathLangMap = runtime.pathLangMap || {};
+
+        function normalizeLang(input) {
+          if (!input) return null;
+          var value = input.toLowerCase().replace("_", "-");
+          return pathLangMap[value] || null;
+        }
+
+        function browserLang() {
+          var langs = Array.isArray(navigator.languages) && navigator.languages.length
+            ? navigator.languages
+            : [navigator.language || "en"];
+          for (var i = 0; i < langs.length; i += 1) {
+            var raw = (langs[i] || "").toLowerCase();
+            var mapped = normalizeLang(raw);
+            if (mapped) return mapped;
+            if (raw.indexOf("zh-tw") === 0) return "zh-Hant-TW";
+            if (raw.indexOf("zh-hk") === 0) return "zh-Hant-HK";
+            if (raw.indexOf("zh-mo") === 0) return "zh-Hant-MO";
+            if (raw.indexOf("zh-sg") === 0) return "zh-Hans-SG";
+            if (raw.indexOf("zh") === 0 && raw.indexOf("hant") >= 0) return "zh-Hant-TW";
+            if (raw.indexOf("zh") === 0) return "zh-Hans";
+            if (raw.indexOf("ja") === 0) return "ja";
+            if (raw.indexOf("ko") === 0) return "ko";
+            if (raw.indexOf("en") === 0) return "en";
+          }
+          return "en";
+        }
+
+        function preferredLang() {
+          try {
+            var stored = window.localStorage ? window.localStorage.getItem(userLangKey) : null;
+            if (stored && routeMap[stored]) return stored;
+          } catch (_) {}
+          return browserLang();
+        }
+
+        var pathname = window.location.pathname;
+        var segments = pathname.split("/").filter(Boolean);
+        var first = segments[0] || "";
+        var explicitLang = normalizeLang(first);
+        if (explicitLang) {
+          return;
+        }
+
+        var preferred = preferredLang();
+        if (!preferred || preferred === defaultLang) {
+          return;
+        }
+
+        var targetBase = routeMap[preferred];
+        if (!targetBase) {
+          return;
+        }
+
+        var targetPath = pathname;
+        if (pathname === "/") {
+          targetPath = targetBase;
+        } else if (pathname === "/privacy/" || pathname === "/terms/") {
+          targetPath = targetBase.replace(/\/$/, "") + pathname;
+        } else {
+          return;
+        }
+
+        if (targetPath && targetPath !== pathname) {
+          document.documentElement.setAttribute("data-lang-pending", "1");
+          window.location.replace(targetPath + window.location.search + window.location.hash);
+        }
+      })();
+    </script>
+    <link rel="stylesheet" href="{{ $stylesURL }}" />
+    {{- if .IsHome }}
+    <script type="application/ld+json" id="seo-jsonld">{{ $jsonLd | jsonify | safeJS }}</script>
+    {{- end }}
+    {{- with $googleAnalyticsID }}
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ . }}"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag("js", new Date());
+      gtag("config", {{ printf "%q" . | safeJS }});
+    </script>
+    {{- end }}
+  </head>
+  <body{{ if not .IsHome }} class="legal-page" data-page-title-key="{{ .Params.pageTitleKey }}"{{ end }}{{ with $contactEmail }} data-contact-email="{{ . }}"{{ end }}{{ with $socialWechatQr }} data-wechat-qr="{{ . }}"{{ end }}>
+    <header class="topbar">
+      <div class="container nav-shell">
+        <nav class="top-pill">
+          <div class="pill-left">
+            <a class="logo" href="{{ "/" | relLangURL }}">
+              <img class="logo-mark" src="{{ $logo }}" alt="{{ $logoAlt }}" width="40" height="40" decoding="async" fetchpriority="high" />
+              <span data-i18n="brand">{{ T "brand" }}</span>
+            </a>
+            <div class="desktop-nav">
+              {{- range site.Menus.main }}
+              {{- $target := .URL -}}
+              {{- if hasPrefix $target "#" }}{{ $target = printf "%s%s" ("/" | relLangURL) $target }}{{ end -}}
+              <a href="{{ $target }}" data-i18n="{{ .Identifier }}">{{ T .Identifier }}</a>
+              {{- end }}
+            </div>
+          </div>
+          <div class="pill-right">
+            <button class="mode-btn" type="button" aria-label="Switch theme">◐</button>
+            <button class="menu-btn" type="button" aria-label="Open menu" aria-controls="mobile-menu" aria-expanded="false">☰</button>
+            <a class="btn btn-solid header-download-btn" href="{{ "/" | relLangURL }}#download" aria-label="Download">
+              <span class="header-download-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M16.1 12.7c0-2.3 1.9-3.4 2-3.5-1.1-1.6-2.8-1.8-3.4-1.8-1.4-.1-2.7.8-3.4.8s-1.9-.8-3.1-.7c-1.6 0-3 .9-3.9 2.3-1.7 3-.4 7.3 1.2 9.6.8 1.1 1.8 2.3 3.1 2.3 1.2 0 1.7-.8 3.1-.8s1.8.8 3.1.8c1.3 0 2.1-1.1 2.9-2.2.9-1.3 1.3-2.6 1.4-2.7 0 0-2-.8-2-4.1z"></path>
+                  <path d="M14 5.9c.7-.8 1.2-1.8 1.1-2.9-1 .1-2.1.7-2.9 1.5-.7.8-1.2 1.8-1.1 2.8 1 .1 2.1-.5 2.9-1.4z"></path>
+                </svg>
+              </span>
+              <span data-i18n="navDownload">{{ T "navDownload" }}</span>
+            </a>
+            <div class="header-lang-dropdown">
+              <button class="header-lang-trigger" type="button" aria-label="Switch language" aria-haspopup="listbox" aria-expanded="false">
+                <span class="header-lang-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="9"></circle>
+                    <path d="M3 12h18"></path>
+                    <path d="M12 3c2.6 2.4 4 5.6 4 9s-1.4 6.6-4 9c-2.6-2.4-4-5.6-4-9s1.4-6.6 4-9z"></path>
+                  </svg>
+                </span>
+                <span class="header-lang-current">{{ .Site.Language.LanguageName }}</span>
+              </button>
+              <div class="header-lang-menu" role="listbox" aria-label="Language options">
+                {{- range site.Languages }}
+                {{- $itemMeta := partial "lang-meta.html" (dict "lang" . "defaultLang" $defaultLang) -}}
+                {{- $langHref := index $pageTranslations $itemMeta.appLang | default $itemMeta.route -}}
+                <a href="{{ $langHref }}" data-lang-option="{{ $itemMeta.appLang }}">{{ .LanguageName }}</a>
+                {{- end }}
+              </div>
+            </div>
+          </div>
+        </nav>
+        <nav id="mobile-menu" class="mobile-menu" aria-hidden="true">
+          {{- range site.Menus.main }}
+          {{- $target := .URL -}}
+          {{- if hasPrefix $target "#" }}{{ $target = printf "%s%s" ("/" | relLangURL) $target }}{{ end -}}
+          <a href="{{ $target }}" data-i18n="{{ .Identifier }}">{{ T .Identifier }}</a>
+          {{- end }}
+          <a href="{{ "/" | relLangURL }}#download" data-i18n="navDownload">{{ T "navDownload" }}</a>
+        </nav>
+      </div>
+    </header>
+
+    {{ block "main" . }}{{ end }}
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-card">
+          <div class="footer-main">
+            <section class="footer-left">
+              <section class="footer-brand-col">
+                <a class="logo footer-brand-wrap" href="{{ "/" | relLangURL }}">
+                  <img class="logo-mark" src="{{ $logo }}" alt="{{ $logoAlt }}" width="48" height="48" decoding="async" loading="lazy" />
+                  <span class="footer-brand-text">
+                    <span data-i18n="brand">{{ T "brand" }}</span>
+                    <span class="footer-tag" data-i18n="footerTag">{{ T "footerTag" }}</span>
+                  </span>
+                </a>
+              </section>
+              <nav class="footer-inline-links" aria-label="Footer links">
+                {{- range site.Menus.footer }}
+                {{- $target := .URL -}}
+                {{- if hasPrefix $target "#" -}}
+                  {{- $target = printf "%s%s" ("/" | relLangURL) $target -}}
+                {{- else if hasPrefix $target "/" -}}
+                  {{- $target = printf "%s%s" ("/" | relLangURL) (strings.TrimPrefix "/" $target) -}}
+                {{- end -}}
+                <a href="{{ $target }}" data-i18n="{{ .Identifier }}">{{ T .Identifier }}</a>
+                {{- end }}
+              </nav>
+            </section>
+            {{- $hasSocialLinks := or $socialWechatQr $socialWeibo $socialXiaohongshu $socialZhihu $socialX $socialTelegram -}}
+            {{- if $hasSocialLinks }}
+            <section class="footer-social" aria-label="Social links">
+              <div class="social-grid">
+                {{- if or $socialWechatQr $socialWeibo $socialXiaohongshu $socialZhihu }}
+                <div class="social-set social-set-cn">
+                  {{- with $socialWechatQr }}
+                  <a class="social-link" data-social="wechat" href="#" aria-label="微信"><img src="/assets/social-wechat.svg" alt="WeChat" width="24" height="24" loading="lazy" decoding="async" /></a>
+                  {{- end }}
+                  {{- with $socialWeibo }}<a class="social-link" data-social="weibo" href="{{ . }}" target="_blank" rel="noopener noreferrer" aria-label="微博"><img src="/assets/social-weibo.svg" alt="Weibo" width="24" height="24" loading="lazy" decoding="async" /></a>{{- end }}
+                  {{- with $socialXiaohongshu }}<a class="social-link" data-social="xiaohongshu" href="{{ . }}" target="_blank" rel="noopener noreferrer" aria-label="小红书"><img src="/assets/social-xiaohongshu.svg" alt="Xiaohongshu" width="24" height="24" loading="lazy" decoding="async" /></a>{{- end }}
+                  {{- with $socialZhihu }}<a class="social-link" data-social="zhihu" href="{{ . }}" target="_blank" rel="noopener noreferrer" aria-label="知乎"><img src="/assets/social-zhihu.svg" alt="Zhihu" width="24" height="24" loading="lazy" decoding="async" /></a>{{- end }}
+                </div>
+                {{- end }}
+                {{- if or $socialX $socialTelegram $socialXiaohongshu }}
+                <div class="social-set social-set-global">
+                  {{- with $socialX }}<a class="social-link" data-social="x" href="{{ . }}" target="_blank" rel="noopener noreferrer" aria-label="X"><img src="/assets/social-x.svg" alt="X" width="24" height="24" loading="lazy" decoding="async" /></a>{{- end }}
+                  {{- with $socialTelegram }}<a class="social-link" data-social="telegram" href="{{ . }}" target="_blank" rel="noopener noreferrer" aria-label="Telegram"><img src="/assets/social-telegram.svg" alt="Telegram" width="24" height="24" loading="lazy" decoding="async" /></a>{{- end }}
+                  {{- with $socialXiaohongshu }}<a class="social-link" data-social="xiaohongshu" href="{{ . }}" target="_blank" rel="noopener noreferrer" aria-label="小红书"><img src="/assets/social-xiaohongshu.svg" alt="Xiaohongshu" width="24" height="24" loading="lazy" decoding="async" /></a>{{- end }}
+                </div>
+                {{- end }}
+                {{- if or $socialX $socialTelegram $socialXiaohongshu $socialWechatQr }}
+                <div class="social-set social-set-hant">
+                  {{- with $socialX }}<a class="social-link" data-social="x" href="{{ . }}" target="_blank" rel="noopener noreferrer" aria-label="X"><img src="/assets/social-x.svg" alt="X" width="24" height="24" loading="lazy" decoding="async" /></a>{{- end }}
+                  {{- with $socialTelegram }}<a class="social-link" data-social="telegram" href="{{ . }}" target="_blank" rel="noopener noreferrer" aria-label="Telegram"><img src="/assets/social-telegram.svg" alt="Telegram" width="24" height="24" loading="lazy" decoding="async" /></a>{{- end }}
+                  {{- with $socialXiaohongshu }}<a class="social-link" data-social="xiaohongshu" href="{{ . }}" target="_blank" rel="noopener noreferrer" aria-label="小红书"><img src="/assets/social-xiaohongshu.svg" alt="Xiaohongshu" width="24" height="24" loading="lazy" decoding="async" /></a>{{- end }}
+                  {{- with $socialWechatQr }}
+                  <a class="social-link" data-social="wechat" href="#" aria-label="微信"><img src="/assets/social-wechat.svg" alt="WeChat" width="24" height="24" loading="lazy" decoding="async" /></a>
+                  {{- end }}
+                </div>
+                {{- end }}
+              </div>
+            </section>
+            {{- end }}
+            <section class="qr-box">
+              <div class="fake-qr"><img src="{{ $downloadQr }}" alt="Download QR code" width="88" height="88" loading="lazy" decoding="async" /></div>
+              <div class="qr-copy">
+                <h4 data-i18n="navDownload">{{ T "navDownload" }}</h4>
+                <p data-i18n="downloadHint">{{ T "downloadHint" }}</p>
+              </div>
+            </section>
+          </div>
+          <div class="footer-bottom">
+            <div class="lang-links">
+              <div class="footer-lang-dropdown">
+              <button class="footer-lang-trigger" type="button" aria-label="Switch language" aria-haspopup="listbox" aria-expanded="false">
+                <span class="footer-lang-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="9"></circle>
+                    <path d="M3 12h18"></path>
+                    <path d="M12 3c2.6 2.4 4 5.6 4 9s-1.4 6.6-4 9c-2.6-2.4-4-5.6-4-9s1.4-6.6 4-9z"></path>
+                  </svg>
+                </span>
+                <span class="footer-lang-current">{{ .Site.Language.LanguageName }}</span>
+              </button>
+              <div class="footer-lang-menu" role="listbox" aria-label="Language options">
+                {{- range site.Languages }}
+                {{- $itemMeta := partial "lang-meta.html" (dict "lang" . "defaultLang" $defaultLang) -}}
+                {{- $langHref := index $pageTranslations $itemMeta.appLang | default $itemMeta.route -}}
+                <a href="{{ $langHref }}" data-footer-lang-option="{{ $itemMeta.appLang }}">{{ .LanguageName }}</a>
+                {{- end }}
+              </div>
+            </div>
+            </div>
+            <div class="footer-meta">
+              <p>© Copyright {{ site.Params.copyright.year }}. All rights reserved.</p>
+              {{- with site.Params.compliance.icpNumber }}
+              <p class="footer-icp"><a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">{{ . }}</a></p>
+              {{- end }}
+              <p class="footer-credit">Built with <a href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo</a>, theme <a href="https://github.com/debuginn/hugo-theme-pebble" target="_blank" rel="noopener noreferrer">Pebble</a> designed by <a href="https://blog.debuginn.com/" target="_blank" rel="noopener noreferrer">Debuginn</a>.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script type="module" src="{{ $appURL }}"></script>
+  </body>
+</html>

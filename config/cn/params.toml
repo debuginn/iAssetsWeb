@@ -1,3 +1,6 @@
 [social]
   x = ''
   telegram = ''
+
+[compliance]
+  icpNumber = '粤ICP备XXXXXXXX号'
