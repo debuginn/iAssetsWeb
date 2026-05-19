@@ -4,6 +4,7 @@
   "scripts": {
     "build": "hugo",
     "dev": "hugo server --disableFastRender",
+    "build:cn": "hugo --environment cn --destination public-cn",
     "check": "hugo --destination /tmp/iassets-hugo-check"
   }
 }
