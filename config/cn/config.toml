@@ -1,0 +1,29 @@
+[module]
+  [[module.mounts]]
+    source = 'package.json'
+    target = 'assets/_jsconfig/package.json'
+
+  [[module.mounts]]
+    lang = 'en'
+    source = 'content/en'
+    target = 'content'
+
+  [[module.mounts]]
+    lang = 'zh'
+    source = 'content/zh-cn'
+    target = 'content'
+
+  [[module.mounts]]
+    lang = 'zh-hant'
+    source = 'content/zh-hant'
+    target = 'content'
+
+  [[module.mounts]]
+    lang = 'ja'
+    source = 'content/ja'
+    target = 'content'
+
+  [[module.mounts]]
+    lang = 'ko'
+    source = 'content/ko'
+    target = 'content'

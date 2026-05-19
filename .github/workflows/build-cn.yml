@@ -1,0 +1,34 @@
+name: Build CN
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-cn:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+          fetch-depth: 0
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: '0.147.1'
+          extended: true
+
+      - name: Build CN
+        run: hugo --environment cn --destination public-cn
+
+      - name: Deploy to cn branch
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public-cn
+          publish_branch: cn
+          force_orphan: true
+          commit_message: "ci: build CN from ${{ github.sha }}"
