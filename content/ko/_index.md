@@ -139,7 +139,7 @@ description = "기본은 로컬 저장, 필요 시 iCloud 동기화."
 eyebrow = "다운로드"
 title = "지금 시작"
 description = "iAssets를 설치하고 가족 자산 체계를 시작하세요."
-ctaHref = "https://apps.apple.com/us/app/iassets/id6759790991"
+ctaHref = "https://apps.apple.com/kr/app/%E7%9F%A5%E7%9B%88/id6759790991"
 ctaOverline = "Download on the"
 ctaTitle = "App Store"
 
@@ -258,7 +258,7 @@ description = "연간 결제로 소프트웨어의 건강한 발전에 함께해
 
 [home.pricing.plans.cta]
 label = "연간 구독"
-href = "https://apps.apple.com/us/app/iassets/id6759790991"
+href = "https://apps.apple.com/kr/app/%E7%9F%A5%E7%9B%88/id6759790991"
 
 [[home.pricing.plans]]
 featured = true
@@ -269,7 +269,7 @@ description = "1회 구매, 평생 업데이트."
 [home.pricing.plans.cta]
 highlight = true
 label = "평생 구매"
-href = "https://apps.apple.com/us/app/iassets/id6759790991"
+href = "https://apps.apple.com/kr/app/%E7%9F%A5%E7%9B%88/id6759790991"
 
 [home.trust]
 eyebrow = "TRUST"

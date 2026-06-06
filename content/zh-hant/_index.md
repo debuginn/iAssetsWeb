@@ -139,7 +139,7 @@ description = "資料預設本地儲存，可選 iCloud 同步。"
 eyebrow = "下載"
 title = "立即開始"
 description = "下載 iAssets，快速建立你的家庭資產體系。"
-ctaHref = "https://apps.apple.com/us/app/iassets/id6759790991"
+ctaHref = "https://apps.apple.com/tw/app/%E7%9F%A5%E7%9B%88/id6759790991"
 ctaOverline = "Download on the"
 ctaTitle = "App Store"
 
@@ -258,7 +258,7 @@ description = "按年支付，共建軟體的良性發展。"
 
 [home.pricing.plans.cta]
 label = "立即訂閱"
-href = "https://apps.apple.com/us/app/iassets/id6759790991"
+href = "https://apps.apple.com/tw/app/%E7%9F%A5%E7%9B%88/id6759790991"
 
 [[home.pricing.plans]]
 featured = true
@@ -269,7 +269,7 @@ description = "一次購買，終身更新。"
 [home.pricing.plans.cta]
 highlight = true
 label = "立即購買"
-href = "https://apps.apple.com/us/app/iassets/id6759790991"
+href = "https://apps.apple.com/tw/app/%E7%9F%A5%E7%9B%88/id6759790991"
 
 [home.trust]
 eyebrow = "TRUST"

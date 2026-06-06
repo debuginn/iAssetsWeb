@@ -140,7 +140,7 @@ description = "Data is local by default with optional iCloud sync."
 eyebrow = "Download"
 title = "Start now"
 description = "Install iAssets and build your family asset system."
-ctaHref = "https://apps.apple.com/us/app/iassets/id6759790991"
+ctaHref = "https://apps.apple.com/us/app/%E7%9F%A5%E7%9B%88/id6759790991"
 ctaOverline = "Download on the"
 ctaTitle = "App Store"
 
@@ -259,7 +259,7 @@ description = "Pay yearly to support the healthy growth of the software."
 
 [home.pricing.plans.cta]
 label = "Subscribe yearly"
-href = "https://apps.apple.com/us/app/iassets/id6759790991"
+href = "https://apps.apple.com/us/app/%E7%9F%A5%E7%9B%88/id6759790991"
 
 [[home.pricing.plans]]
 featured = true
@@ -270,7 +270,7 @@ description = "One-time purchase, lifetime updates."
 [home.pricing.plans.cta]
 highlight = true
 label = "Buy lifetime"
-href = "https://apps.apple.com/us/app/iassets/id6759790991"
+href = "https://apps.apple.com/us/app/%E7%9F%A5%E7%9B%88/id6759790991"
 
 [home.trust]
 eyebrow = "TRUST"
