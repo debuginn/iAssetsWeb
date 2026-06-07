@@ -10,23 +10,23 @@ title = "가족 자산 전경을 빠르게 파악하세요."
 description = "시각화된 자산 관리 도구이며, 가족 자산 관리도 지원합니다. 자산, 부채, 구조, 목표, 추이를 한 화면에서 확인할 수 있습니다."
 
 [[home.hero.fanImages]]
-src = "/assets/hero-fan-ko/hero-1.png"
+src = "https://webp.debuginn.com/20260607m36j4k.png"
 alt = "iAssets 앱 스크린샷 1"
 
 [[home.hero.fanImages]]
-src = "/assets/hero-fan-ko/hero-2.png"
+src = "https://webp.debuginn.com/20260607UO3rBX.png"
 alt = "iAssets 앱 스크린샷 2"
 
 [[home.hero.fanImages]]
-src = "/assets/hero-fan-ko/hero-3.png"
+src = "https://webp.debuginn.com/2026060759XSmK.png"
 alt = "iAssets 앱 스크린샷 3"
 
 [[home.hero.fanImages]]
-src = "/assets/hero-fan-ko/hero-4.png"
+src = "https://webp.debuginn.com/20260607WA8EHo.png"
 alt = "iAssets 앱 스크린샷 4"
 
 [[home.hero.fanImages]]
-src = "/assets/hero-fan-ko/hero-5.png"
+src = "https://webp.debuginn.com/20260607wz6nlT.png"
 alt = "iAssets 앱 스크린샷 5"
 
 [[home.hero.cards]]
@@ -53,15 +53,15 @@ title = "가족 자산 관리 중심 설계"
 description = "일반 가계부가 아니라 구조 분석과 장기 목표 추적에 최적화했습니다."
 [home.features.showcase]
 [[home.features.showcase.images]]
-src = "/assets/features-showcase-main.png"
+src = "https://webp.debuginn.com/20260607wsFhmF.png"
 alt = "iAssets 기능 쇼케이스 메인"
 
 [[home.features.showcase.images]]
-src = "/assets/hero-fan-ko/hero-1.png"
+src = "https://webp.debuginn.com/20260607m36j4k.png"
 alt = "iAssets 기능 쇼케이스 보조"
 
 [[home.features.showcase.images]]
-src = "/assets/hero-fan-ko/hero-5.png"
+src = "https://webp.debuginn.com/20260607wz6nlT.png"
 alt = "iAssets 기능 쇼케이스 지원"
 
 [[home.features.items]]
@@ -157,23 +157,23 @@ durations = ["68s", "76s", "72s", "80s"]
 delays = ["0s", "-3s", "-8s", "-6s"]
 
 [[home.download.backdrop.images]]
-src = "/assets/hero-fan-ko/hero-1.png"
+src = "https://webp.debuginn.com/20260607m36j4k.png"
 alt = "iAssets 다운로드 배경 1"
 
 [[home.download.backdrop.images]]
-src = "/assets/hero-fan-ko/hero-2.png"
+src = "https://webp.debuginn.com/20260607UO3rBX.png"
 alt = "iAssets 다운로드 배경 2"
 
 [[home.download.backdrop.images]]
-src = "/assets/hero-fan-ko/hero-3.png"
+src = "https://webp.debuginn.com/2026060759XSmK.png"
 alt = "iAssets 다운로드 배경 3"
 
 [[home.download.backdrop.images]]
-src = "/assets/hero-fan-ko/hero-4.png"
+src = "https://webp.debuginn.com/20260607WA8EHo.png"
 alt = "iAssets 다운로드 배경 4"
 
 [[home.download.backdrop.images]]
-src = "/assets/hero-fan-ko/hero-5.png"
+src = "https://webp.debuginn.com/20260607wz6nlT.png"
 alt = "iAssets 다운로드 배경 5"
 
 [home.reviews]
@@ -278,82 +278,82 @@ description = "유명 은행 및 증권 금융 플랫폼과 협력해, 이해하
 
 [home.trust.tracks]
 [[home.trust.tracks.primary]]
-src = "/assets/trust-hf-bank.webp"
+src = "https://webp.debuginn.com/20260607VkvnrY.webp"
 alt = "HF Bank logo"
 name = "HF Bank"
 
 [[home.trust.tracks.primary]]
-src = "/assets/trust-za-bank.webp"
+src = "https://webp.debuginn.com/202606079PfBTQ.webp"
 alt = "ZA Bank logo"
 name = "ZA Bank"
 
 [[home.trust.tracks.primary]]
-src = "/assets/trust-fuxi-ecurities.webp"
+src = "https://webp.debuginn.com/20260607dIw87p.webp"
 alt = "Fuxi Securities logo"
 name = "Fuxi Securities"
 
 [[home.trust.tracks.primary]]
-src = "/assets/trust-standard-chartered-cn.svg"
+src = "https://webp.debuginn.com/20260607wfMJsv.svg"
 alt = "Standard Chartered China logo"
 name = "Standard Chartered Bank"
 
 [[home.trust.tracks.primary]]
-src = "/assets/trust-ikbr.svg"
+src = "https://webp.debuginn.com/20260607mTqw7g.svg"
 alt = "IKBR logo"
 name = "IKBR"
 
 [[home.trust.tracks.primary]]
-src = "/assets/trust-macau-ant-bank.webp"
+src = "https://webp.debuginn.com/20260607HKBV4D.webp"
 alt = "Macau Ant Bank logo"
 name = "Macau Ant Bank"
 
 [[home.trust.tracks.primary]]
-src = "/assets/trust-hsbc-china.webp"
+src = "https://webp.debuginn.com/20260607PRQOHB.webp"
 alt = "HSBC China logo"
 name = "HSBC China"
 
 [[home.trust.tracks.primary]]
-src = "/assets/trust-zhufu-securities.webp"
+src = "https://webp.debuginn.com/20260607TDtXFC.webp"
 alt = "Zhufu Securities logo"
 name = "Zhufu Securities"
 
 [[home.trust.tracks.secondary]]
-src = "/assets/trust-hsbc-china.webp"
+src = "https://webp.debuginn.com/20260607PRQOHB.webp"
 alt = "HSBC China logo"
 name = "HSBC China"
 
 [[home.trust.tracks.secondary]]
-src = "/assets/trust-macau-ant-bank.webp"
+src = "https://webp.debuginn.com/20260607HKBV4D.webp"
 alt = "Macau Ant Bank logo"
 name = "Macau Ant Bank"
 
 [[home.trust.tracks.secondary]]
-src = "/assets/trust-standard-chartered-cn.svg"
+src = "https://webp.debuginn.com/20260607wfMJsv.svg"
 alt = "Standard Chartered China logo"
 name = "Standard Chartered Bank"
 
 [[home.trust.tracks.secondary]]
-src = "/assets/trust-ikbr.svg"
+src = "https://webp.debuginn.com/20260607mTqw7g.svg"
 alt = "IKBR logo"
 name = "IKBR"
 
 [[home.trust.tracks.secondary]]
-src = "/assets/trust-zhufu-securities.webp"
+src = "https://webp.debuginn.com/20260607TDtXFC.webp"
 alt = "Zhufu Securities logo"
 name = "Zhufu Securities"
 
 [[home.trust.tracks.secondary]]
-src = "/assets/trust-za-bank.webp"
+src = "https://webp.debuginn.com/202606079PfBTQ.webp"
 alt = "ZA Bank logo"
 name = "ZA Bank"
 
 [[home.trust.tracks.secondary]]
-src = "/assets/trust-fuxi-ecurities.webp"
+src = "https://webp.debuginn.com/20260607dIw87p.webp"
 alt = "Fuxi Securities logo"
 name = "Fuxi Securities"
 
 [[home.trust.tracks.secondary]]
-src = "/assets/trust-hf-bank.webp"
+src = "https://webp.debuginn.com/20260607VkvnrY.webp"
 alt = "HF Bank logo"
 name = "HF Bank"
 

@@ -1,15 +1,15 @@
 [assets]
-  logo = '/assets/logo.png'
+  logo = 'https://webp.debuginn.com/20260607h41bVQ.png'
   logoAlt = 'iAssets logo'
   brandName = 'iAssets'
-  downloadQr = '/assets/qr-download.png'
+  downloadQr = 'https://webp.debuginn.com/20260607huIkvB.png'
   version = 'v1'
 
 [contact]
   email = 'idebuginn@gmail.com'
 
 [social]
-  wechatQr = '/assets/wechat-qr.jpg?v=20260303d'
+  wechatQr = 'https://webp.debuginn.com/20260607OpjNs1.jpg?v=20260303d'
   x = 'https://x.com/idebuginn'
   telegram = 'https://t.me/iAssetsApp'
   xiaohongshu = 'https://www.xiaohongshu.com/user/profile/5d4057fd0000000012007068'

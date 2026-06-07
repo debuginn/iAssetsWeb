@@ -10,23 +10,23 @@ title = "Understand your family balance sheet at a glance."
 description = "A visual asset management tool that also supports family asset management. Assets, liabilities, structure, goals, and trends are visible on one screen."
 
 [[home.hero.fanImages]]
-src = "/assets/hero-fan-en/hero-1.png"
+src = "https://webp.debuginn.com/20260607oxATMJ.png"
 alt = "iAssets app screenshot 1"
 
 [[home.hero.fanImages]]
-src = "/assets/hero-fan-en/hero-2.png"
+src = "https://webp.debuginn.com/20260607x261Or.png"
 alt = "iAssets app screenshot 2"
 
 [[home.hero.fanImages]]
-src = "/assets/hero-fan-en/hero-3.png"
+src = "https://webp.debuginn.com/20260607mYOA0a.png"
 alt = "iAssets app screenshot 3"
 
 [[home.hero.fanImages]]
-src = "/assets/hero-fan-en/hero-4.png"
+src = "https://webp.debuginn.com/20260607w1hCJY.png"
 alt = "iAssets app screenshot 4"
 
 [[home.hero.fanImages]]
-src = "/assets/hero-fan-en/hero-5.png"
+src = "https://webp.debuginn.com/20260607oxGqYA.png"
 alt = "iAssets app screenshot 5"
 
 [[home.hero.cards]]
@@ -54,15 +54,15 @@ description = "Not generic bookkeeping. It is built for structure, risk and long
 
 [home.features.showcase]
 [[home.features.showcase.images]]
-src = "/assets/features-showcase-main.png"
+src = "https://webp.debuginn.com/20260607wsFhmF.png"
 alt = "iAssets feature showcase main screenshot"
 
 [[home.features.showcase.images]]
-src = "/assets/hero-fan-en/hero-5.png"
+src = "https://webp.debuginn.com/20260607oxGqYA.png"
 alt = "iAssets feature showcase secondary screenshot"
 
 [[home.features.showcase.images]]
-src = "/assets/hero-fan-en/hero-1.png"
+src = "https://webp.debuginn.com/20260607oxATMJ.png"
 alt = "iAssets feature showcase supporting screenshot"
 
 [[home.features.items]]
@@ -158,23 +158,23 @@ durations = ["68s", "76s", "72s", "80s"]
 delays = ["0s", "-3s", "-8s", "-6s"]
 
 [[home.download.backdrop.images]]
-src = "/assets/hero-fan-en/hero-1.png"
+src = "https://webp.debuginn.com/20260607oxATMJ.png"
 alt = "iAssets download backdrop 1"
 
 [[home.download.backdrop.images]]
-src = "/assets/hero-fan-en/hero-2.png"
+src = "https://webp.debuginn.com/20260607x261Or.png"
 alt = "iAssets download backdrop 2"
 
 [[home.download.backdrop.images]]
-src = "/assets/hero-fan-en/hero-3.png"
+src = "https://webp.debuginn.com/20260607mYOA0a.png"
 alt = "iAssets download backdrop 3"
 
 [[home.download.backdrop.images]]
-src = "/assets/hero-fan-en/hero-4.png"
+src = "https://webp.debuginn.com/20260607w1hCJY.png"
 alt = "iAssets download backdrop 4"
 
 [[home.download.backdrop.images]]
-src = "/assets/hero-fan-en/hero-5.png"
+src = "https://webp.debuginn.com/20260607oxGqYA.png"
 alt = "iAssets download backdrop 5"
 
 [home.reviews]
@@ -279,82 +279,82 @@ description = "Partnering with well-known banks and securities platforms to buil
 
 [home.trust.tracks]
 [[home.trust.tracks.primary]]
-src = "/assets/trust-hf-bank.webp"
+src = "https://webp.debuginn.com/20260607VkvnrY.webp"
 alt = "HF Bank logo"
 name = "HF Bank"
 
 [[home.trust.tracks.primary]]
-src = "/assets/trust-za-bank.webp"
+src = "https://webp.debuginn.com/202606079PfBTQ.webp"
 alt = "ZA Bank logo"
 name = "ZA Bank"
 
 [[home.trust.tracks.primary]]
-src = "/assets/trust-fuxi-ecurities.webp"
+src = "https://webp.debuginn.com/20260607dIw87p.webp"
 alt = "Fuxi Securities logo"
 name = "Fuxi Securities"
 
 [[home.trust.tracks.primary]]
-src = "/assets/trust-standard-chartered-cn.svg"
+src = "https://webp.debuginn.com/20260607wfMJsv.svg"
 alt = "Standard Chartered China logo"
 name = "Standard Chartered Bank"
 
 [[home.trust.tracks.primary]]
-src = "/assets/trust-ikbr.svg"
+src = "https://webp.debuginn.com/20260607mTqw7g.svg"
 alt = "IKBR logo"
 name = "IKBR"
 
 [[home.trust.tracks.primary]]
-src = "/assets/trust-macau-ant-bank.webp"
+src = "https://webp.debuginn.com/20260607HKBV4D.webp"
 alt = "Macau Ant Bank logo"
 name = "Macau Ant Bank"
 
 [[home.trust.tracks.primary]]
-src = "/assets/trust-hsbc-china.webp"
+src = "https://webp.debuginn.com/20260607PRQOHB.webp"
 alt = "HSBC China logo"
 name = "HSBC China"
 
 [[home.trust.tracks.primary]]
-src = "/assets/trust-zhufu-securities.webp"
+src = "https://webp.debuginn.com/20260607TDtXFC.webp"
 alt = "Zhufu Securities logo"
 name = "Zhufu Securities"
 
 [[home.trust.tracks.secondary]]
-src = "/assets/trust-hsbc-china.webp"
+src = "https://webp.debuginn.com/20260607PRQOHB.webp"
 alt = "HSBC China logo"
 name = "HSBC China"
 
 [[home.trust.tracks.secondary]]
-src = "/assets/trust-macau-ant-bank.webp"
+src = "https://webp.debuginn.com/20260607HKBV4D.webp"
 alt = "Macau Ant Bank logo"
 name = "Macau Ant Bank"
 
 [[home.trust.tracks.secondary]]
-src = "/assets/trust-standard-chartered-cn.svg"
+src = "https://webp.debuginn.com/20260607wfMJsv.svg"
 alt = "Standard Chartered China logo"
 name = "Standard Chartered Bank"
 
 [[home.trust.tracks.secondary]]
-src = "/assets/trust-ikbr.svg"
+src = "https://webp.debuginn.com/20260607mTqw7g.svg"
 alt = "IKBR logo"
 name = "IKBR"
 
 [[home.trust.tracks.secondary]]
-src = "/assets/trust-zhufu-securities.webp"
+src = "https://webp.debuginn.com/20260607TDtXFC.webp"
 alt = "Zhufu Securities logo"
 name = "Zhufu Securities"
 
 [[home.trust.tracks.secondary]]
-src = "/assets/trust-za-bank.webp"
+src = "https://webp.debuginn.com/202606079PfBTQ.webp"
 alt = "ZA Bank logo"
 name = "ZA Bank"
 
 [[home.trust.tracks.secondary]]
-src = "/assets/trust-fuxi-ecurities.webp"
+src = "https://webp.debuginn.com/20260607dIw87p.webp"
 alt = "Fuxi Securities logo"
 name = "Fuxi Securities"
 
 [[home.trust.tracks.secondary]]
-src = "/assets/trust-hf-bank.webp"
+src = "https://webp.debuginn.com/20260607VkvnrY.webp"
 alt = "HF Bank logo"
 name = "HF Bank"
 
