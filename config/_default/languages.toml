@@ -2,6 +2,9 @@
 languageName = 'English'
 weight = 1
 
+[en.params.assets]
+downloadQr = 'https://webp.debuginn.com/20260607weNLvY.png'
+
 [en.params.pricing]
 currency = '$'
 yearly = '1.49'
@@ -10,6 +13,9 @@ lifetime = '5.99'
 [zh]
 languageName = '中文简体'
 weight = 2
+
+[zh.params.assets]
+downloadQr = 'https://webp.debuginn.com/20260607oiR5ZJ.png'
 
 [zh.params.pricing]
 currency = '¥'
@@ -20,6 +26,9 @@ lifetime = '38'
 languageName = '中文繁體'
 weight = 3
 
+[zh-hant.params.assets]
+downloadQr = 'https://webp.debuginn.com/20260607B54NfZ.png'
+
 [zh-hant.params.pricing]
 currency = 'NT$'
 yearly = '49'
@@ -29,6 +38,9 @@ lifetime = '178'
 languageName = '日本語'
 weight = 4
 
+[ja.params.assets]
+downloadQr = 'https://webp.debuginn.com/20260607We1tzT.png'
+
 [ja.params.pricing]
 currency = '¥'
 yearly = '240'
@@ -37,6 +49,9 @@ lifetime = '900'
 [ko]
 languageName = '한국어'
 weight = 5
+
+[ko.params.assets]
+downloadQr = 'https://webp.debuginn.com/20260607BReFMN.png'
 
 [ko.params.pricing]
 currency = '₩'
