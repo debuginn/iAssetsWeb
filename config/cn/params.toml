@@ -2,5 +2,5 @@
   x = ''
   telegram = ''
 
-[compliance]
-  icpNumber = '粤ICP备XXXXXXXX号'
+[copyright]
+  icp = '鲁ICP备18012789号'
