@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="zh-TW" data-default-lang="en" data-current-lang="zh-Hant">
+  <head><meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><title>使用條款</title>
+    <meta name="description" content="閱讀 iAssets 的服務範圍、使用者責任、訂閱與買斷、知識產權及免責聲明。" />
+    <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1" />
+    <meta property="og:type" content="article" />
+    <meta property="og:site_name" content="iAssets" />
+    <meta property="og:title" content="使用條款" />
+    <meta property="og:description" content="閱讀 iAssets 的服務範圍、使用者責任、訂閱與買斷、知識產權及免責聲明。" />
+    <meta property="og:image" content="https://webp.debuginn.com/20260607h41bVQ.png" />
+    <meta property="og:image:alt" content="使用條款 social preview" />
+    <meta property="og:url" content="/zh-hant/terms/" />
+    <meta property="og:locale" content="zh_TW" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="使用條款" />
+    <meta name="twitter:description" content="閱讀 iAssets 的服務範圍、使用者責任、訂閱與買斷、知識產權及免責聲明。" />
+    <meta name="twitter:image" content="https://webp.debuginn.com/20260607h41bVQ.png" />
+    <meta name="twitter:image:alt" content="使用條款 social preview" />
+    <link rel="canonical" href="/zh-hant/terms/" /><link rel="alternate" hreflang="x-default" href="/terms/" /><link rel="alternate" hreflang="en" href="/terms/" /><link rel="alternate" hreflang="zh-CN" href="/zh/terms/" /><link rel="alternate" hreflang="zh-TW" href="/zh-hant/terms/" /><link rel="alternate" hreflang="ja" href="/ja/terms/" /><link rel="alternate" hreflang="ko" href="/ko/terms/" />
+    <link rel="icon" type="image/png" href="https://webp.debuginn.com/20260607h41bVQ.png" />
+    <link rel="shortcut icon" href="https://webp.debuginn.com/20260607h41bVQ.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" media="print" onload="this.media='all'" />
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" /></noscript>
+    <script>
+      (function () {
+        var themeKey = "ia_theme_pref";
+        var pref = "auto";
+        try {
+          var stored = window.localStorage ? window.localStorage.getItem(themeKey) : null;
+          if (stored === "dark" || stored === "light" || stored === "auto") pref = stored;
+        } catch (_) {}
+        var resolved = pref;
+        if (pref === "auto") {
+          resolved = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.setAttribute("data-theme", resolved);
+      })();
+    </script>
+    <script>
+      window.__IA_RUNTIME__ = {"pathLangMap":{"en":"en","ja":"ja","ko":"ko","zh":"zh-Hans","zh-cn":"zh-Hans","zh-hans":"zh-Hans","zh-hant":"zh-Hant","zh-hk":"zh-Hant","zh-mo":"zh-Hant","zh-sg":"zh-Hant","zh-tw":"zh-Hant"},"routeMap":{"en":"/","ja":"/ja/","ko":"/ko/","zh-Hans":"/zh/","zh-Hant":"/zh-hant/"},"supportedLangs":["en","zh-Hans","zh-Hant","ja","ko"]};
+    </script>
+    <script>
+      (function () {
+        var userLangKey = "ia_lang_user";
+        var defaultLang = "en";
+        var runtime = window.__IA_RUNTIME__ || {};
+        var routeMap = runtime.routeMap || {};
+        var pathLangMap = runtime.pathLangMap || {};
+
+        function normalizeLang(input) {
+          if (!input) return null;
+          var value = input.toLowerCase().replace("_", "-");
+          return pathLangMap[value] || null;
+        }
+
+        function browserLang() {
+          var langs = Array.isArray(navigator.languages) && navigator.languages.length
+            ? navigator.languages
+            : [navigator.language || "en"];
+          for (var i = 0; i < langs.length; i += 1) {
+            var raw = (langs[i] || "").toLowerCase();
+            var mapped = normalizeLang(raw);
+            if (mapped) return mapped;
+            if (raw.indexOf("zh-tw") === 0) return "zh-Hant-TW";
+            if (raw.indexOf("zh-hk") === 0) return "zh-Hant-HK";
+            if (raw.indexOf("zh-mo") === 0) return "zh-Hant-MO";
+            if (raw.indexOf("zh-sg") === 0) return "zh-Hans-SG";
+            if (raw.indexOf("zh") === 0 && raw.indexOf("hant") >= 0) return "zh-Hant-TW";
+            if (raw.indexOf("zh") === 0) return "zh-Hans";
+            if (raw.indexOf("ja") === 0) return "ja";
+            if (raw.indexOf("ko") === 0) return "ko";
+            if (raw.indexOf("en") === 0) return "en";
+          }
+          return "en";
+        }
+
+        function preferredLang() {
+          try {
+            var stored = window.localStorage ? window.localStorage.getItem(userLangKey) : null;
+            if (stored && routeMap[stored]) return stored;
+          } catch (_) {}
+          return browserLang();
+        }
+
+        var pathname = window.location.pathname;
+        var segments = pathname.split("/").filter(Boolean);
+        var first = segments[0] || "";
+        var explicitLang = normalizeLang(first);
+        if (explicitLang) {
+          return;
+        }
+
+        var preferred = preferredLang();
+        if (!preferred || preferred === defaultLang) {
+          return;
+        }
+
+        var targetBase = routeMap[preferred];
+        if (!targetBase) {
+          return;
+        }
+
+        var targetPath = pathname;
+        if (pathname === "/") {
+          targetPath = targetBase;
+        } else if (pathname === "/privacy/" || pathname === "/terms/") {
+          targetPath = targetBase.replace(/\/$/, "") + pathname;
+        } else {
+          return;
+        }
+
+        if (targetPath && targetPath !== pathname) {
+          document.documentElement.setAttribute("data-lang-pending", "1");
+          window.location.replace(targetPath + window.location.search + window.location.hash);
+        }
+      })();
+    </script>
+    <link rel="stylesheet" href="/styles.css?v=v1" />
+  </head>
+  <body class="legal-page" data-page-title-key="termsPageTitle" data-contact-email="idebuginn@gmail.com" data-wechat-qr="https://webp.debuginn.com/20260607OpjNs1.jpg?v=20260303d">
+    <header class="topbar">
+      <div class="container nav-shell">
+        <nav class="top-pill">
+          <div class="pill-left">
+            <a class="logo" href="/zh-hant/">
+              <img class="logo-mark" src="https://webp.debuginn.com/20260607h41bVQ.png" alt="iAssets logo" width="40" height="40" decoding="async" fetchpriority="high" />
+              <span data-i18n="brand">iAssets</span>
+            </a>
+            <div class="desktop-nav"><a href="/zh-hant/#features" data-i18n="navFeatures">特性</a><a href="/zh-hant/#reviews" data-i18n="navReviews">評價</a><a href="/zh-hant/#pricing" data-i18n="navPricing">價格</a><a href="/zh-hant/#faqs" data-i18n="navFaq">常見問題</a>
+            </div>
+          </div>
+          <div class="pill-right">
+            <button class="mode-btn" type="button" aria-label="Switch theme">◐</button>
+            <button class="menu-btn" type="button" aria-label="Open menu" aria-controls="mobile-menu" aria-expanded="false">☰</button>
+            <a class="btn btn-solid header-download-btn" href="/zh-hant/#download" aria-label="Download">
+              <span class="header-download-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M16.1 12.7c0-2.3 1.9-3.4 2-3.5-1.1-1.6-2.8-1.8-3.4-1.8-1.4-.1-2.7.8-3.4.8s-1.9-.8-3.1-.7c-1.6 0-3 .9-3.9 2.3-1.7 3-.4 7.3 1.2 9.6.8 1.1 1.8 2.3 3.1 2.3 1.2 0 1.7-.8 3.1-.8s1.8.8 3.1.8c1.3 0 2.1-1.1 2.9-2.2.9-1.3 1.3-2.6 1.4-2.7 0 0-2-.8-2-4.1z"></path>
+                  <path d="M14 5.9c.7-.8 1.2-1.8 1.1-2.9-1 .1-2.1.7-2.9 1.5-.7.8-1.2 1.8-1.1 2.8 1 .1 2.1-.5 2.9-1.4z"></path>
+                </svg>
+              </span>
+              <span data-i18n="navDownload">下載</span>
+            </a>
+            <div class="header-lang-dropdown">
+              <button class="header-lang-trigger" type="button" aria-label="Switch language" aria-haspopup="listbox" aria-expanded="false">
+                <span class="header-lang-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="9"></circle>
+                    <path d="M3 12h18"></path>
+                    <path d="M12 3c2.6 2.4 4 5.6 4 9s-1.4 6.6-4 9c-2.6-2.4-4-5.6-4-9s1.4-6.6 4-9z"></path>
+                  </svg>
+                </span>
+                <span class="header-lang-current">中文繁體</span>
+              </button>
+              <div class="header-lang-menu" role="listbox" aria-label="Language options"><a href="/terms/" data-lang-option="en">English</a><a href="/zh/terms/" data-lang-option="zh-Hans">中文简体</a><a href="/zh-hant/terms/" data-lang-option="zh-Hant">中文繁體</a><a href="/ja/terms/" data-lang-option="ja">日本語</a><a href="/ko/terms/" data-lang-option="ko">한국어</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <nav id="mobile-menu" class="mobile-menu" aria-hidden="true"><a href="/zh-hant/#features" data-i18n="navFeatures">特性</a><a href="/zh-hant/#reviews" data-i18n="navReviews">評價</a><a href="/zh-hant/#pricing" data-i18n="navPricing">價格</a><a href="/zh-hant/#faqs" data-i18n="navFaq">常見問題</a>
+          <a href="/zh-hant/#download" data-i18n="navDownload">下載</a>
+        </nav>
+      </div>
+    </header>
+
+    
+<main class="legal-main">
+  <section class="section">
+    <div class="container legal-wrap">
+      <p class="eyebrow" data-i18n="termsEyebrow">條款</p>
+      <h1 class="legal-title">使用條款</h1>
+      <div class="legal-head-row"><p class="legal-updated" data-i18n="legalUpdated">最後更新 · 2026-03-03</p></div>
+      <article class="legal-article">
+        <p>歡迎使用 iAssets。在使用本應用及相關服務前，請您仔細閱讀並理解本條款。您使用 iAssets 即表示同意受本條款約束。</p>
+<h2 id="1-服務內容">1. 服務內容</h2>
+<p>iAssets 提供家庭資產管理相關功能，包括但不限於資產記錄、負債管理、統計分析、目標追蹤與多帳本協作能力。</p>
+<h2 id="2-帳戶與資料責任">2. 帳戶與資料責任</h2>
+<p>您應對自行錄入的資料真實性與合法性負責。請妥善保管裝置及帳戶安全資訊，避免資料遺失或洩露風險。</p>
+<h2 id="3-使用規範">3. 使用規範</h2>
+<ul>
+<li>
+<p>不得利用 iAssets 從事違法違規活動。</p>
+</li>
+<li>
+<p>不得以技術手段干擾、攻擊或破壞應用正常運行。</p>
+</li>
+<li>
+<p>不得未經授權複製、反編譯或傳播應用受保護內容。</p>
+</li>
+</ul>
+<h2 id="4-訂閱與買斷">4. 訂閱與買斷</h2>
+<p>iAssets 可能提供按年訂閱與終身買斷等購買方式。具體權益、價格與可用功能以應用內展示為準。</p>
+<h2 id="5-知識產權">5. 知識產權</h2>
+<p>iAssets 及其相關設計、代碼、商標和內容受知識產權法律保護。未經許可，不得擅自使用。</p>
+<h2 id="6-免責聲明">6. 免責聲明</h2>
+<p>iAssets 僅作為資訊管理工具，不構成投資、稅務、法律或財務建議。您應基於自身判斷承擔決策風險。</p>
+<h2 id="7-條款變更與終止">7. 條款變更與終止</h2>
+<p>我們可能根據業務需要更新本條款。更新後繼續使用服務視為接受新條款。若您不同意，應停止使用。</p>
+<h2 id="8-聯絡方式">8. 聯絡方式</h2>
+<p>如對本條款有疑問，請聯絡：idebuginn@gmail.com</p>
+
+      </article>
+    </div>
+  </section>
+</main>
+
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-card">
+          <div class="footer-main">
+            <section class="footer-left">
+              <section class="footer-brand-col">
+                <a class="logo footer-brand-wrap" href="/zh-hant/">
+                  <img class="logo-mark" src="https://webp.debuginn.com/20260607h41bVQ.png" alt="iAssets logo" width="48" height="48" decoding="async" loading="lazy" />
+                  <span class="footer-brand-text">
+                    <span data-i18n="brand">iAssets</span>
+                    <span class="footer-tag" data-i18n="footerTag">做您的家庭資產管理管家</span>
+                  </span>
+                </a>
+              </section>
+              <nav class="footer-inline-links" aria-label="Footer links"><a href="/zh-hant/#features" data-i18n="navFeatures">特性</a><a href="/zh-hant/#pricing" data-i18n="navPricing">價格</a><a href="/zh-hant/#faqs" data-i18n="navFaq">常見問題</a><a href="/zh-hant/#download" data-i18n="navDownload">下載</a><a href="/zh-hant/privacy/" data-i18n="navPrivacy">隱私政策</a><a href="/zh-hant/terms/" data-i18n="navTerms">使用條款</a>
+              </nav>
+            </section>
+            <section class="footer-social" aria-label="Social links">
+              <div class="social-grid">
+                <div class="social-set social-set-cn">
+                  <a class="social-link" data-social="wechat" href="#" aria-label="微信"><img src="https://webp.debuginn.com/20260607v5H5Ux.svg" alt="WeChat" width="24" height="24" loading="lazy" decoding="async" /></a><a class="social-link" data-social="weibo" href="https://weibo.com/u/7096209693" target="_blank" rel="noopener noreferrer" aria-label="微博"><img src="https://webp.debuginn.com/20260607IoieJf.svg" alt="Weibo" width="24" height="24" loading="lazy" decoding="async" /></a><a class="social-link" data-social="xiaohongshu" href="https://www.xiaohongshu.com/user/profile/5d4057fd0000000012007068" target="_blank" rel="noopener noreferrer" aria-label="小红书"><img src="https://webp.debuginn.com/20260607S6dw4u.svg" alt="Xiaohongshu" width="24" height="24" loading="lazy" decoding="async" /></a><a class="social-link" data-social="zhihu" href="https://www.zhihu.com/people/debuginn" target="_blank" rel="noopener noreferrer" aria-label="知乎"><img src="https://webp.debuginn.com/20260607dP6b5s.svg" alt="Zhihu" width="24" height="24" loading="lazy" decoding="async" /></a>
+                </div>
+                <div class="social-set social-set-global"><a class="social-link" data-social="xiaohongshu" href="https://www.xiaohongshu.com/user/profile/5d4057fd0000000012007068" target="_blank" rel="noopener noreferrer" aria-label="小红书"><img src="https://webp.debuginn.com/20260607S6dw4u.svg" alt="Xiaohongshu" width="24" height="24" loading="lazy" decoding="async" /></a>
+                </div>
+                <div class="social-set social-set-hant"><a class="social-link" data-social="xiaohongshu" href="https://www.xiaohongshu.com/user/profile/5d4057fd0000000012007068" target="_blank" rel="noopener noreferrer" aria-label="小红书"><img src="https://webp.debuginn.com/20260607S6dw4u.svg" alt="Xiaohongshu" width="24" height="24" loading="lazy" decoding="async" /></a>
+                  <a class="social-link" data-social="wechat" href="#" aria-label="微信"><img src="https://webp.debuginn.com/20260607v5H5Ux.svg" alt="WeChat" width="24" height="24" loading="lazy" decoding="async" /></a>
+                </div>
+              </div>
+            </section>
+            <section class="qr-box">
+              <div class="fake-qr"><img src="https://webp.debuginn.com/20260607B54NfZ.png" alt="Download QR code" width="88" height="88" loading="lazy" decoding="async" /></div>
+              <div class="qr-copy">
+                <h4 data-i18n="navDownload">下載</h4>
+                <p data-i18n="downloadHint">掃碼後可前往 App Store 下載</p>
+              </div>
+            </section>
+          </div>
+          <div class="footer-bottom">
+            <div class="lang-links">
+              <div class="footer-lang-dropdown">
+              <button class="footer-lang-trigger" type="button" aria-label="Switch language" aria-haspopup="listbox" aria-expanded="false">
+                <span class="footer-lang-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="9"></circle>
+                    <path d="M3 12h18"></path>
+                    <path d="M12 3c2.6 2.4 4 5.6 4 9s-1.4 6.6-4 9c-2.6-2.4-4-5.6-4-9s1.4-6.6 4-9z"></path>
+                  </svg>
+                </span>
+                <span class="footer-lang-current">中文繁體</span>
+              </button>
+              <div class="footer-lang-menu" role="listbox" aria-label="Language options"><a href="/terms/" data-footer-lang-option="en">English</a><a href="/zh/terms/" data-footer-lang-option="zh-Hans">中文简体</a><a href="/zh-hant/terms/" data-footer-lang-option="zh-Hant">中文繁體</a><a href="/ja/terms/" data-footer-lang-option="ja">日本語</a><a href="/ko/terms/" data-footer-lang-option="ko">한국어</a>
+              </div>
+            </div>
+            </div>
+            <div class="footer-meta">
+              <p>© Copyright 2026. All rights reserved.</p>
+              <p class="footer-icp">
+                <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">鲁ICP备18012789号</a>
+              </p>
+              <p class="footer-credit">Built with <a href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo</a>, theme <a href="https://github.com/debuginn/hugo-theme-pebble" target="_blank" rel="noopener noreferrer">Pebble</a> designed by <a href="https://blog.debuginn.com/" target="_blank" rel="noopener noreferrer">Debuginn</a>.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script type="module" src="/app.js?v=v1"></script>
+  </body>
+</html>

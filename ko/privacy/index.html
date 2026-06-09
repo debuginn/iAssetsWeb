@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="ko" data-default-lang="en" data-current-lang="ko">
+  <head><meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><title>개인정보 처리방침</title>
+    <meta name="description" content="iAssets의 개인정보 처리, 로컬 우선 저장, 동기화, 제3자 서비스, 데이터 보안 방식을 안내합니다." />
+    <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1" />
+    <meta property="og:type" content="article" />
+    <meta property="og:site_name" content="iAssets" />
+    <meta property="og:title" content="개인정보 처리방침" />
+    <meta property="og:description" content="iAssets의 개인정보 처리, 로컬 우선 저장, 동기화, 제3자 서비스, 데이터 보안 방식을 안내합니다." />
+    <meta property="og:image" content="https://webp.debuginn.com/20260607h41bVQ.png" />
+    <meta property="og:image:alt" content="개인정보 처리방침 social preview" />
+    <meta property="og:url" content="/ko/privacy/" />
+    <meta property="og:locale" content="ko_KR" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="개인정보 처리방침" />
+    <meta name="twitter:description" content="iAssets의 개인정보 처리, 로컬 우선 저장, 동기화, 제3자 서비스, 데이터 보안 방식을 안내합니다." />
+    <meta name="twitter:image" content="https://webp.debuginn.com/20260607h41bVQ.png" />
+    <meta name="twitter:image:alt" content="개인정보 처리방침 social preview" />
+    <link rel="canonical" href="/ko/privacy/" /><link rel="alternate" hreflang="x-default" href="/privacy/" /><link rel="alternate" hreflang="en" href="/privacy/" /><link rel="alternate" hreflang="zh-CN" href="/zh/privacy/" /><link rel="alternate" hreflang="zh-TW" href="/zh-hant/privacy/" /><link rel="alternate" hreflang="ja" href="/ja/privacy/" /><link rel="alternate" hreflang="ko" href="/ko/privacy/" />
+    <link rel="icon" type="image/png" href="https://webp.debuginn.com/20260607h41bVQ.png" />
+    <link rel="shortcut icon" href="https://webp.debuginn.com/20260607h41bVQ.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" media="print" onload="this.media='all'" />
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" /></noscript>
+    <script>
+      (function () {
+        var themeKey = "ia_theme_pref";
+        var pref = "auto";
+        try {
+          var stored = window.localStorage ? window.localStorage.getItem(themeKey) : null;
+          if (stored === "dark" || stored === "light" || stored === "auto") pref = stored;
+        } catch (_) {}
+        var resolved = pref;
+        if (pref === "auto") {
+          resolved = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.setAttribute("data-theme", resolved);
+      })();
+    </script>
+    <script>
+      window.__IA_RUNTIME__ = {"pathLangMap":{"en":"en","ja":"ja","ko":"ko","zh":"zh-Hans","zh-cn":"zh-Hans","zh-hans":"zh-Hans","zh-hant":"zh-Hant","zh-hk":"zh-Hant","zh-mo":"zh-Hant","zh-sg":"zh-Hant","zh-tw":"zh-Hant"},"routeMap":{"en":"/","ja":"/ja/","ko":"/ko/","zh-Hans":"/zh/","zh-Hant":"/zh-hant/"},"supportedLangs":["en","zh-Hans","zh-Hant","ja","ko"]};
+    </script>
+    <script>
+      (function () {
+        var userLangKey = "ia_lang_user";
+        var defaultLang = "en";
+        var runtime = window.__IA_RUNTIME__ || {};
+        var routeMap = runtime.routeMap || {};
+        var pathLangMap = runtime.pathLangMap || {};
+
+        function normalizeLang(input) {
+          if (!input) return null;
+          var value = input.toLowerCase().replace("_", "-");
+          return pathLangMap[value] || null;
+        }
+
+        function browserLang() {
+          var langs = Array.isArray(navigator.languages) && navigator.languages.length
+            ? navigator.languages
+            : [navigator.language || "en"];
+          for (var i = 0; i < langs.length; i += 1) {
+            var raw = (langs[i] || "").toLowerCase();
+            var mapped = normalizeLang(raw);
+            if (mapped) return mapped;
+            if (raw.indexOf("zh-tw") === 0) return "zh-Hant-TW";
+            if (raw.indexOf("zh-hk") === 0) return "zh-Hant-HK";
+            if (raw.indexOf("zh-mo") === 0) return "zh-Hant-MO";
+            if (raw.indexOf("zh-sg") === 0) return "zh-Hans-SG";
+            if (raw.indexOf("zh") === 0 && raw.indexOf("hant") >= 0) return "zh-Hant-TW";
+            if (raw.indexOf("zh") === 0) return "zh-Hans";
+            if (raw.indexOf("ja") === 0) return "ja";
+            if (raw.indexOf("ko") === 0) return "ko";
+            if (raw.indexOf("en") === 0) return "en";
+          }
+          return "en";
+        }
+
+        function preferredLang() {
+          try {
+            var stored = window.localStorage ? window.localStorage.getItem(userLangKey) : null;
+            if (stored && routeMap[stored]) return stored;
+          } catch (_) {}
+          return browserLang();
+        }
+
+        var pathname = window.location.pathname;
+        var segments = pathname.split("/").filter(Boolean);
+        var first = segments[0] || "";
+        var explicitLang = normalizeLang(first);
+        if (explicitLang) {
+          return;
+        }
+
+        var preferred = preferredLang();
+        if (!preferred || preferred === defaultLang) {
+          return;
+        }
+
+        var targetBase = routeMap[preferred];
+        if (!targetBase) {
+          return;
+        }
+
+        var targetPath = pathname;
+        if (pathname === "/") {
+          targetPath = targetBase;
+        } else if (pathname === "/privacy/" || pathname === "/terms/") {
+          targetPath = targetBase.replace(/\/$/, "") + pathname;
+        } else {
+          return;
+        }
+
+        if (targetPath && targetPath !== pathname) {
+          document.documentElement.setAttribute("data-lang-pending", "1");
+          window.location.replace(targetPath + window.location.search + window.location.hash);
+        }
+      })();
+    </script>
+    <link rel="stylesheet" href="/styles.css?v=v1" />
+  </head>
+  <body class="legal-page" data-page-title-key="privacyPageTitle" data-contact-email="idebuginn@gmail.com" data-wechat-qr="https://webp.debuginn.com/20260607OpjNs1.jpg?v=20260303d">
+    <header class="topbar">
+      <div class="container nav-shell">
+        <nav class="top-pill">
+          <div class="pill-left">
+            <a class="logo" href="/ko/">
+              <img class="logo-mark" src="https://webp.debuginn.com/20260607h41bVQ.png" alt="iAssets logo" width="40" height="40" decoding="async" fetchpriority="high" />
+              <span data-i18n="brand">iAssets</span>
+            </a>
+            <div class="desktop-nav"><a href="/ko/#features" data-i18n="navFeatures">기능</a><a href="/ko/#reviews" data-i18n="navReviews">후기</a><a href="/ko/#pricing" data-i18n="navPricing">요금</a><a href="/ko/#faqs" data-i18n="navFaq">FAQ</a>
+            </div>
+          </div>
+          <div class="pill-right">
+            <button class="mode-btn" type="button" aria-label="Switch theme">◐</button>
+            <button class="menu-btn" type="button" aria-label="Open menu" aria-controls="mobile-menu" aria-expanded="false">☰</button>
+            <a class="btn btn-solid header-download-btn" href="/ko/#download" aria-label="Download">
+              <span class="header-download-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M16.1 12.7c0-2.3 1.9-3.4 2-3.5-1.1-1.6-2.8-1.8-3.4-1.8-1.4-.1-2.7.8-3.4.8s-1.9-.8-3.1-.7c-1.6 0-3 .9-3.9 2.3-1.7 3-.4 7.3 1.2 9.6.8 1.1 1.8 2.3 3.1 2.3 1.2 0 1.7-.8 3.1-.8s1.8.8 3.1.8c1.3 0 2.1-1.1 2.9-2.2.9-1.3 1.3-2.6 1.4-2.7 0 0-2-.8-2-4.1z"></path>
+                  <path d="M14 5.9c.7-.8 1.2-1.8 1.1-2.9-1 .1-2.1.7-2.9 1.5-.7.8-1.2 1.8-1.1 2.8 1 .1 2.1-.5 2.9-1.4z"></path>
+                </svg>
+              </span>
+              <span data-i18n="navDownload">다운로드</span>
+            </a>
+            <div class="header-lang-dropdown">
+              <button class="header-lang-trigger" type="button" aria-label="Switch language" aria-haspopup="listbox" aria-expanded="false">
+                <span class="header-lang-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="9"></circle>
+                    <path d="M3 12h18"></path>
+                    <path d="M12 3c2.6 2.4 4 5.6 4 9s-1.4 6.6-4 9c-2.6-2.4-4-5.6-4-9s1.4-6.6 4-9z"></path>
+                  </svg>
+                </span>
+                <span class="header-lang-current">한국어</span>
+              </button>
+              <div class="header-lang-menu" role="listbox" aria-label="Language options"><a href="/privacy/" data-lang-option="en">English</a><a href="/zh/privacy/" data-lang-option="zh-Hans">中文简体</a><a href="/zh-hant/privacy/" data-lang-option="zh-Hant">中文繁體</a><a href="/ja/privacy/" data-lang-option="ja">日本語</a><a href="/ko/privacy/" data-lang-option="ko">한국어</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <nav id="mobile-menu" class="mobile-menu" aria-hidden="true"><a href="/ko/#features" data-i18n="navFeatures">기능</a><a href="/ko/#reviews" data-i18n="navReviews">후기</a><a href="/ko/#pricing" data-i18n="navPricing">요금</a><a href="/ko/#faqs" data-i18n="navFaq">FAQ</a>
+          <a href="/ko/#download" data-i18n="navDownload">다운로드</a>
+        </nav>
+      </div>
+    </header>
+
+    
+<main class="legal-main">
+  <section class="section">
+    <div class="container legal-wrap">
+      <p class="eyebrow" data-i18n="privacyEyebrow">개인정보</p>
+      <h1 class="legal-title">개인정보 처리방침</h1>
+      <div class="legal-head-row"><p class="legal-updated" data-i18n="legalUpdated">최종 업데이트 · 2026-03-03</p></div>
+      <article class="legal-article">
+        <p>iAssets를 이용해 주셔서 감사합니다. 우리는 사용자의 개인정보를 중요하게 여기며 개인 데이터 보호에 최선을 다합니다.</p>
+<h2 id="1-수집하는-데이터">1. 수집하는 데이터</h2>
+<p>iAssets는 로컬 우선 모델을 따릅니다. 입력한 자산, 부채, 계정, 분류 데이터는 기본적으로 기기에 저장됩니다.</p>
+<ul>
+<li>
+<p>기본 설정에서 서버로 업로드하지 않습니다.</p>
+</li>
+<li>
+<p>기본 설정에서 신원 연계 원격 프로파일을 만들지 않습니다.</p>
+</li>
+</ul>
+<h2 id="2-동기화-및-백업">2. 동기화 및 백업</h2>
+<p>iCloud 동기화를 활성화하면 데이터는 Apple iCloud를 통해 기기 간 동기화되며, Apple 정책이 적용됩니다.</p>
+<h2 id="3-제3자-서비스">3. 제3자 서비스</h2>
+<p>핵심 기능 제공을 위해 필요한 제3자 인프라(예: Apple 플랫폼 기능)를 사용할 수 있으며, 개인정보를 판매하지 않습니다.</p>
+<h2 id="4-데이터-보안">4. 데이터 보안</h2>
+<p>기기 암호, 생체인증, 시스템 보안 설정 활성화를 권장합니다. iAssets는 암호 보호와 자동 잠금을 지원합니다.</p>
+<h2 id="5-공유-및-공개">5. 공유 및 공개</h2>
+<p>법적 의무 또는 안전 확보가 필요한 경우를 제외하고, 로컬 데이터 내용을 제3자에게 적극적으로 공개하지 않습니다.</p>
+<h2 id="6-정책-업데이트">6. 정책 업데이트</h2>
+<p>본 정책은 수시로 업데이트될 수 있으며, 중요 변경 시 앱 또는 웹사이트에서 안내합니다.</p>
+<h2 id="7-문의">7. 문의</h2>
+<p>본 정책 관련 문의: <a href="mailto:idebuginn@gmail.com">idebuginn@gmail.com</a></p>
+
+      </article>
+    </div>
+  </section>
+</main>
+
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-card">
+          <div class="footer-main">
+            <section class="footer-left">
+              <section class="footer-brand-col">
+                <a class="logo footer-brand-wrap" href="/ko/">
+                  <img class="logo-mark" src="https://webp.debuginn.com/20260607h41bVQ.png" alt="iAssets logo" width="48" height="48" decoding="async" loading="lazy" />
+                  <span class="footer-brand-text">
+                    <span data-i18n="brand">iAssets</span>
+                    <span class="footer-tag" data-i18n="footerTag">가족 자산 관리 파트너</span>
+                  </span>
+                </a>
+              </section>
+              <nav class="footer-inline-links" aria-label="Footer links"><a href="/ko/#features" data-i18n="navFeatures">기능</a><a href="/ko/#pricing" data-i18n="navPricing">요금</a><a href="/ko/#faqs" data-i18n="navFaq">FAQ</a><a href="/ko/#download" data-i18n="navDownload">다운로드</a><a href="/ko/privacy/" data-i18n="navPrivacy">개인정보 처리방침</a><a href="/ko/terms/" data-i18n="navTerms">이용약관</a>
+              </nav>
+            </section>
+            <section class="footer-social" aria-label="Social links">
+              <div class="social-grid">
+                <div class="social-set social-set-cn">
+                  <a class="social-link" data-social="wechat" href="#" aria-label="微信"><img src="https://webp.debuginn.com/20260607v5H5Ux.svg" alt="WeChat" width="24" height="24" loading="lazy" decoding="async" /></a><a class="social-link" data-social="weibo" href="https://weibo.com/u/7096209693" target="_blank" rel="noopener noreferrer" aria-label="微博"><img src="https://webp.debuginn.com/20260607IoieJf.svg" alt="Weibo" width="24" height="24" loading="lazy" decoding="async" /></a><a class="social-link" data-social="xiaohongshu" href="https://www.xiaohongshu.com/user/profile/5d4057fd0000000012007068" target="_blank" rel="noopener noreferrer" aria-label="小红书"><img src="https://webp.debuginn.com/20260607S6dw4u.svg" alt="Xiaohongshu" width="24" height="24" loading="lazy" decoding="async" /></a><a class="social-link" data-social="zhihu" href="https://www.zhihu.com/people/debuginn" target="_blank" rel="noopener noreferrer" aria-label="知乎"><img src="https://webp.debuginn.com/20260607dP6b5s.svg" alt="Zhihu" width="24" height="24" loading="lazy" decoding="async" /></a>
+                </div>
+                <div class="social-set social-set-global"><a class="social-link" data-social="xiaohongshu" href="https://www.xiaohongshu.com/user/profile/5d4057fd0000000012007068" target="_blank" rel="noopener noreferrer" aria-label="小红书"><img src="https://webp.debuginn.com/20260607S6dw4u.svg" alt="Xiaohongshu" width="24" height="24" loading="lazy" decoding="async" /></a>
+                </div>
+                <div class="social-set social-set-hant"><a class="social-link" data-social="xiaohongshu" href="https://www.xiaohongshu.com/user/profile/5d4057fd0000000012007068" target="_blank" rel="noopener noreferrer" aria-label="小红书"><img src="https://webp.debuginn.com/20260607S6dw4u.svg" alt="Xiaohongshu" width="24" height="24" loading="lazy" decoding="async" /></a>
+                  <a class="social-link" data-social="wechat" href="#" aria-label="微信"><img src="https://webp.debuginn.com/20260607v5H5Ux.svg" alt="WeChat" width="24" height="24" loading="lazy" decoding="async" /></a>
+                </div>
+              </div>
+            </section>
+            <section class="qr-box">
+              <div class="fake-qr"><img src="https://webp.debuginn.com/20260607BReFMN.png" alt="Download QR code" width="88" height="88" loading="lazy" decoding="async" /></div>
+              <div class="qr-copy">
+                <h4 data-i18n="navDownload">다운로드</h4>
+                <p data-i18n="downloadHint">QR로 App Store 이동</p>
+              </div>
+            </section>
+          </div>
+          <div class="footer-bottom">
+            <div class="lang-links">
+              <div class="footer-lang-dropdown">
+              <button class="footer-lang-trigger" type="button" aria-label="Switch language" aria-haspopup="listbox" aria-expanded="false">
+                <span class="footer-lang-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="9"></circle>
+                    <path d="M3 12h18"></path>
+                    <path d="M12 3c2.6 2.4 4 5.6 4 9s-1.4 6.6-4 9c-2.6-2.4-4-5.6-4-9s1.4-6.6 4-9z"></path>
+                  </svg>
+                </span>
+                <span class="footer-lang-current">한국어</span>
+              </button>
+              <div class="footer-lang-menu" role="listbox" aria-label="Language options"><a href="/privacy/" data-footer-lang-option="en">English</a><a href="/zh/privacy/" data-footer-lang-option="zh-Hans">中文简体</a><a href="/zh-hant/privacy/" data-footer-lang-option="zh-Hant">中文繁體</a><a href="/ja/privacy/" data-footer-lang-option="ja">日本語</a><a href="/ko/privacy/" data-footer-lang-option="ko">한국어</a>
+              </div>
+            </div>
+            </div>
+            <div class="footer-meta">
+              <p>© Copyright 2026. All rights reserved.</p>
+              <p class="footer-credit">Built with <a href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo</a>, theme <a href="https://github.com/debuginn/hugo-theme-pebble" target="_blank" rel="noopener noreferrer">Pebble</a> designed by <a href="https://blog.debuginn.com/" target="_blank" rel="noopener noreferrer">Debuginn</a>.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script type="module" src="/app.js?v=v1"></script>
+  </body>
+</html>

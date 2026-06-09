@@ -1,0 +1,386 @@
+<!doctype html>
+<html lang="ja" data-default-lang="en" data-current-lang="ja">
+  <head>
+	<meta name="generator" content="Hugo 0.147.1"><meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><title>iAssets - 家族資産の全体像を、すばやく把握。</title>
+    <meta name="description" content="家族資産を可視化して管理できるアプリ。資産・負債・構成・目標・推移を1画面で把握できます。" /><meta name="keywords" content="[iAssets,家計管理,資産管理,純資産,家族資産]" />
+    <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="iAssets" />
+    <meta property="og:title" content="iAssets - 家族資産の全体像を、すばやく把握。" />
+    <meta property="og:description" content="家族資産を可視化して管理できるアプリ。資産・負債・構成・目標・推移を1画面で把握できます。" />
+    <meta property="og:image" content="https://webp.debuginn.com/20260607h41bVQ.png" />
+    <meta property="og:image:alt" content="iAssets - 家族資産の全体像を、すばやく把握。 social preview" />
+    <meta property="og:url" content="/ja/" />
+    <meta property="og:locale" content="ja_JP" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="iAssets - 家族資産の全体像を、すばやく把握。" />
+    <meta name="twitter:description" content="家族資産を可視化して管理できるアプリ。資産・負債・構成・目標・推移を1画面で把握できます。" />
+    <meta name="twitter:image" content="https://webp.debuginn.com/20260607h41bVQ.png" />
+    <meta name="twitter:image:alt" content="iAssets - 家族資産の全体像を、すばやく把握。 social preview" />
+    <link rel="canonical" href="/ja/" /><link rel="alternate" hreflang="x-default" href="/" /><link rel="alternate" hreflang="en" href="/" /><link rel="alternate" hreflang="zh-CN" href="/zh/" /><link rel="alternate" hreflang="zh-TW" href="/zh-hant/" /><link rel="alternate" hreflang="ja" href="/ja/" /><link rel="alternate" hreflang="ko" href="/ko/" />
+    <link rel="icon" type="image/png" href="https://webp.debuginn.com/20260607h41bVQ.png" />
+    <link rel="shortcut icon" href="https://webp.debuginn.com/20260607h41bVQ.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" media="print" onload="this.media='all'" />
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" /></noscript>
+    <script>
+      (function () {
+        var themeKey = "ia_theme_pref";
+        var pref = "auto";
+        try {
+          var stored = window.localStorage ? window.localStorage.getItem(themeKey) : null;
+          if (stored === "dark" || stored === "light" || stored === "auto") pref = stored;
+        } catch (_) {}
+        var resolved = pref;
+        if (pref === "auto") {
+          resolved = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.setAttribute("data-theme", resolved);
+      })();
+    </script>
+    <script>
+      window.__IA_RUNTIME__ = {"pathLangMap":{"en":"en","ja":"ja","ko":"ko","zh":"zh-Hans","zh-cn":"zh-Hans","zh-hans":"zh-Hans","zh-hant":"zh-Hant","zh-hk":"zh-Hant","zh-mo":"zh-Hant","zh-sg":"zh-Hant","zh-tw":"zh-Hant"},"routeMap":{"en":"/","ja":"/ja/","ko":"/ko/","zh-Hans":"/zh/","zh-Hant":"/zh-hant/"},"supportedLangs":["en","zh-Hans","zh-Hant","ja","ko"]};
+    </script>
+    <script>
+      (function () {
+        var userLangKey = "ia_lang_user";
+        var defaultLang = "en";
+        var runtime = window.__IA_RUNTIME__ || {};
+        var routeMap = runtime.routeMap || {};
+        var pathLangMap = runtime.pathLangMap || {};
+
+        function normalizeLang(input) {
+          if (!input) return null;
+          var value = input.toLowerCase().replace("_", "-");
+          return pathLangMap[value] || null;
+        }
+
+        function browserLang() {
+          var langs = Array.isArray(navigator.languages) && navigator.languages.length
+            ? navigator.languages
+            : [navigator.language || "en"];
+          for (var i = 0; i < langs.length; i += 1) {
+            var raw = (langs[i] || "").toLowerCase();
+            var mapped = normalizeLang(raw);
+            if (mapped) return mapped;
+            if (raw.indexOf("zh-tw") === 0) return "zh-Hant-TW";
+            if (raw.indexOf("zh-hk") === 0) return "zh-Hant-HK";
+            if (raw.indexOf("zh-mo") === 0) return "zh-Hant-MO";
+            if (raw.indexOf("zh-sg") === 0) return "zh-Hans-SG";
+            if (raw.indexOf("zh") === 0 && raw.indexOf("hant") >= 0) return "zh-Hant-TW";
+            if (raw.indexOf("zh") === 0) return "zh-Hans";
+            if (raw.indexOf("ja") === 0) return "ja";
+            if (raw.indexOf("ko") === 0) return "ko";
+            if (raw.indexOf("en") === 0) return "en";
+          }
+          return "en";
+        }
+
+        function preferredLang() {
+          try {
+            var stored = window.localStorage ? window.localStorage.getItem(userLangKey) : null;
+            if (stored && routeMap[stored]) return stored;
+          } catch (_) {}
+          return browserLang();
+        }
+
+        var pathname = window.location.pathname;
+        var segments = pathname.split("/").filter(Boolean);
+        var first = segments[0] || "";
+        var explicitLang = normalizeLang(first);
+        if (explicitLang) {
+          return;
+        }
+
+        var preferred = preferredLang();
+        if (!preferred || preferred === defaultLang) {
+          return;
+        }
+
+        var targetBase = routeMap[preferred];
+        if (!targetBase) {
+          return;
+        }
+
+        var targetPath = pathname;
+        if (pathname === "/") {
+          targetPath = targetBase;
+        } else if (pathname === "/privacy/" || pathname === "/terms/") {
+          targetPath = targetBase.replace(/\/$/, "") + pathname;
+        } else {
+          return;
+        }
+
+        if (targetPath && targetPath !== pathname) {
+          document.documentElement.setAttribute("data-lang-pending", "1");
+          window.location.replace(targetPath + window.location.search + window.location.hash);
+        }
+      })();
+    </script>
+    <link rel="stylesheet" href="/styles.css?v=v1" />
+    <script type="application/ld+json" id="seo-jsonld">{"@context":"https://schema.org","@type":"SoftwareApplication","applicationCategory":"FinanceApplication","description":"家族資産を可視化して管理できるアプリ。資産・負債・構成・目標・推移を1画面で把握できます。","inLanguage":"ja","name":"iAssets","operatingSystem":"iOS, iPadOS, macOS","url":"/ja/"}</script>
+  </head>
+  <body data-contact-email="idebuginn@gmail.com" data-wechat-qr="https://webp.debuginn.com/20260607OpjNs1.jpg?v=20260303d">
+    <header class="topbar">
+      <div class="container nav-shell">
+        <nav class="top-pill">
+          <div class="pill-left">
+            <a class="logo" href="/ja/">
+              <img class="logo-mark" src="https://webp.debuginn.com/20260607h41bVQ.png" alt="iAssets logo" width="40" height="40" decoding="async" fetchpriority="high" />
+              <span data-i18n="brand">iAssets</span>
+            </a>
+            <div class="desktop-nav"><a href="/ja/#features" data-i18n="navFeatures">機能</a><a href="/ja/#reviews" data-i18n="navReviews">評価</a><a href="/ja/#pricing" data-i18n="navPricing">料金</a><a href="/ja/#faqs" data-i18n="navFaq">FAQ</a>
+            </div>
+          </div>
+          <div class="pill-right">
+            <button class="mode-btn" type="button" aria-label="Switch theme">◐</button>
+            <button class="menu-btn" type="button" aria-label="Open menu" aria-controls="mobile-menu" aria-expanded="false">☰</button>
+            <a class="btn btn-solid header-download-btn" href="/ja/#download" aria-label="Download">
+              <span class="header-download-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M16.1 12.7c0-2.3 1.9-3.4 2-3.5-1.1-1.6-2.8-1.8-3.4-1.8-1.4-.1-2.7.8-3.4.8s-1.9-.8-3.1-.7c-1.6 0-3 .9-3.9 2.3-1.7 3-.4 7.3 1.2 9.6.8 1.1 1.8 2.3 3.1 2.3 1.2 0 1.7-.8 3.1-.8s1.8.8 3.1.8c1.3 0 2.1-1.1 2.9-2.2.9-1.3 1.3-2.6 1.4-2.7 0 0-2-.8-2-4.1z"></path>
+                  <path d="M14 5.9c.7-.8 1.2-1.8 1.1-2.9-1 .1-2.1.7-2.9 1.5-.7.8-1.2 1.8-1.1 2.8 1 .1 2.1-.5 2.9-1.4z"></path>
+                </svg>
+              </span>
+              <span data-i18n="navDownload">ダウンロード</span>
+            </a>
+            <div class="header-lang-dropdown">
+              <button class="header-lang-trigger" type="button" aria-label="Switch language" aria-haspopup="listbox" aria-expanded="false">
+                <span class="header-lang-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="9"></circle>
+                    <path d="M3 12h18"></path>
+                    <path d="M12 3c2.6 2.4 4 5.6 4 9s-1.4 6.6-4 9c-2.6-2.4-4-5.6-4-9s1.4-6.6 4-9z"></path>
+                  </svg>
+                </span>
+                <span class="header-lang-current">日本語</span>
+              </button>
+              <div class="header-lang-menu" role="listbox" aria-label="Language options"><a href="/" data-lang-option="en">English</a><a href="/zh/" data-lang-option="zh-Hans">中文简体</a><a href="/zh-hant/" data-lang-option="zh-Hant">中文繁體</a><a href="/ja/" data-lang-option="ja">日本語</a><a href="/ko/" data-lang-option="ko">한국어</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <nav id="mobile-menu" class="mobile-menu" aria-hidden="true"><a href="/ja/#features" data-i18n="navFeatures">機能</a><a href="/ja/#reviews" data-i18n="navReviews">評価</a><a href="/ja/#pricing" data-i18n="navPricing">料金</a><a href="/ja/#faqs" data-i18n="navFaq">FAQ</a>
+          <a href="/ja/#download" data-i18n="navDownload">ダウンロード</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+  <section class="hero section">
+    <div class="container hero-grid">
+      <div class="hero-copy"><p class="eyebrow">iAssets</p><h1>家族資産の全体像を、すばやく把握。</h1><p class="hero-desc">視覚的に使える資産管理ツールで、家族の資産管理にも対応しています。資産・負債・構成・目標・推移を1画面で確認できます。</p>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-stage" data-hero-fan aria-label="iAssets app screenshot"><button class="hero-stack-card hero-stack-card-1 is-active" type="button" data-hero-card data-card-index="1" aria-label="Show screenshot 1">
+            <img class="hero-shot" src="https://webp.debuginn.com/20260607JN6voy.png" alt="iAssets アプリスクリーンショット 1" width="1410" height="2770"  loading="eager" decoding="async" fetchpriority="high" />
+          </button><button class="hero-stack-card hero-stack-card-2" type="button" data-hero-card data-card-index="2" aria-label="Show screenshot 2">
+            <img class="hero-shot" src="https://webp.debuginn.com/202606075qhgPu.png" alt="" width="1410" height="2770" aria-hidden="true" loading="lazy" decoding="async"  />
+          </button><button class="hero-stack-card hero-stack-card-3" type="button" data-hero-card data-card-index="3" aria-label="Show screenshot 3">
+            <img class="hero-shot" src="https://webp.debuginn.com/20260607gfXR35.png" alt="" width="1410" height="2770" aria-hidden="true" loading="lazy" decoding="async"  />
+          </button><button class="hero-stack-card hero-stack-card-4" type="button" data-hero-card data-card-index="4" aria-label="Show screenshot 4">
+            <img class="hero-shot" src="https://webp.debuginn.com/20260607tGPD3a.png" alt="" width="1410" height="2770" aria-hidden="true" loading="lazy" decoding="async"  />
+          </button><button class="hero-stack-card hero-stack-card-5" type="button" data-hero-card data-card-index="5" aria-label="Show screenshot 5">
+            <img class="hero-shot" src="https://webp.debuginn.com/20260607CsckaU.png" alt="" width="1410" height="2770" aria-hidden="true" loading="lazy" decoding="async"  />
+          </button>
+          <button class="hero-slot-hit hero-slot-hit-left-near" type="button" data-hero-slot="1" aria-label="Show left screenshot"></button>
+          <button class="hero-slot-hit hero-slot-hit-right-near" type="button" data-hero-slot="2" aria-label="Show right screenshot"></button>
+          <button class="hero-slot-hit hero-slot-hit-left-far" type="button" data-hero-slot="3" aria-label="Show far left screenshot"></button>
+          <button class="hero-slot-hit hero-slot-hit-right-far" type="button" data-hero-slot="4" aria-label="Show far right screenshot"></button>
+        </div>
+      </div>
+      <div class="hero-mini-cards">
+        
+        <article class="mini-card">
+          <div class="mini-top"><span><svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 8h14"></path><path d="M5 12h14"></path><path d="M5 16h9"></path><circle cx="17.5" cy="16" r="1.8"></circle></svg></span><strong>01</strong></div>
+          <h3>資産変動を即記録</h3>
+          <p>口座残高の変化をすぐに入力。</p>
+        </article>
+        
+        <article class="mini-card">
+          <div class="mini-top"><span><svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="6" width="7" height="12" rx="1.8"></rect><rect x="13" y="6" width="7" height="12" rx="1.8"></rect></svg></span><strong>02</strong></div>
+          <h3>帳簿をコレクション整理</h3>
+          <p>家庭・個人・目標で整理。</p>
+        </article>
+        
+        <article class="mini-card">
+          <div class="mini-top"><span><svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="10.5" cy="10.5" r="5.5"></circle><path d="M14.5 14.5L19 19"></path></svg></span><strong>03</strong></div>
+          <h3>検索とフィルタ</h3>
+          <p>対象口座を数秒で特定。</p>
+        </article>
+        
+      </div>
+    </div>
+  </section>
+  <section id="features" class="section">
+    <div class="container"><p class="eyebrow">機能</p><h2 class="section-title">家族資産管理に特化した設計。</h2><p class="section-desc">汎用の家計簿ではなく、構造分析と長期目標の追跡に最適化。</p>
+      <div class="features-layout">
+        <div class="feature-list">
+          
+          <article class="feature-item">
+            <div class="mini-top"><span><svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h16"></path><path d="M12 4v16"></path><circle cx="12" cy="12" r="8"></circle></svg></span><strong>01</strong></div>
+            <h3>資産サマリー</h3>
+            <p>総資産・純資産・負債を1ページで確認。</p>
+          </article>
+          
+          <article class="feature-item">
+            <div class="mini-top"><span><svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 7h12"></path><path d="M6 12h8"></path><path d="M6 17h5"></path><circle cx="18" cy="12" r="2"></circle></svg></span><strong>02</strong></div>
+            <h3>構成と通貨</h3>
+            <p>構成カードと通貨カードで偏りを把握。</p>
+          </article>
+          
+          <article class="feature-item">
+            <div class="mini-top"><span><svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 16l5-5 3 3 8-8"></path><path d="M14 6h6v6"></path></svg></span><strong>03</strong></div>
+            <h3>フローと推移</h3>
+            <p>純資産の変化リズムを継続観測。</p>
+          </article>
+          
+          <article class="feature-item">
+            <div class="mini-top"><span><svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="5" width="7" height="14" rx="1.8"></rect><rect x="13" y="5" width="7" height="14" rx="1.8"></rect></svg></span><strong>04</strong></div>
+            <h3>複数帳簿管理</h3>
+            <p>デフォルト帳簿と複数帳簿を併用可能。</p>
+          </article>
+          
+          <article class="feature-item">
+            <div class="mini-top"><span><svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="8" cy="10" r="2.6"></circle><circle cx="16" cy="10.5" r="2.2"></circle><path d="M3.8 17.2c.7-2.2 2.4-3.4 4.2-3.4s3.5 1.2 4.2 3.4"></path><path d="M13.2 16.8c.5-1.7 1.8-2.6 3.2-2.6s2.7.9 3.2 2.6"></path></svg></span><strong>05</strong></div>
+            <h3>家族コラボ</h3>
+            <p>メンバー管理と共有で共同運用。</p>
+          </article>
+          
+          <article class="feature-item">
+            <div class="mini-top"><span><svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="5.5" y="10.2" width="13" height="9" rx="2"></rect><path d="M8.2 10.2V7.8a3.8 3.8 0 0 1 7.6 0v2.4"></path></svg></span><strong>06</strong></div>
+            <h3>プライバシー保護</h3>
+            <p>パスコード、生体認証、自動ロック対応。</p>
+          </article>
+          
+        </div><aside class="feature-showcase"><figure class="showbox big">
+            <img src="https://webp.debuginn.com/20260607wsFhmF.png" alt="iAssets 機能ショーケース メイン" width="1410" height="2770" loading="lazy" decoding="async" />
+          </figure><figure class="showbox mid">
+            <img src="https://webp.debuginn.com/20260607JN6voy.png" alt="iAssets 機能ショーケース サブ" width="1410" height="2770" loading="lazy" decoding="async" />
+          </figure><figure class="showbox small">
+            <img src="https://webp.debuginn.com/20260607CsckaU.png" alt="iAssets 機能ショーケース 補助" width="1410" height="2770" loading="lazy" decoding="async" />
+          </figure>
+        </aside></div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container"><p class="eyebrow">Product details</p><h2 class="section-title">長期の資産レビューを今すぐ開始。</h2><p class="section-desc">分散したデータを同じ指標系に統合します。</p>
+      <div class="detail-grid">
+        
+        <article class="detail-card"><div class="detail-icon" aria-hidden="true"><svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="6.5" width="17" height="12" rx="2.5"></rect><path d="M3.5 10.5h17"></path></svg></div><h3>複数タイプ口座</h3><p>資金、投資、固定、債権、債務、ローンに対応。</p></article>
+        
+        <article class="detail-card"><div class="detail-icon" aria-hidden="true"><svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="7.5"></circle><circle cx="12" cy="12" r="3.2"></circle></svg></div><h3>目標カード</h3><p>残額を自動算出し、計画を継続しやすくします。</p></article>
+        
+        <article class="detail-card"><div class="detail-icon" aria-hidden="true"><svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 8h10"></path><path d="M11 5l3 3-3 3"></path><path d="M20 16H10"></path><path d="M13 13l-3 3 3 3"></path></svg></div><h3>為替対応</h3><p>基準通貨を選択して横断比較できます。</p></article>
+        
+        <article class="detail-card"><div class="detail-icon" aria-hidden="true"><svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="8" cy="10" r="2.6"></circle><circle cx="16" cy="10.5" r="2.2"></circle><path d="M3.8 17.2c.7-2.2 2.4-3.4 4.2-3.4s3.5 1.2 4.2 3.4"></path><path d="M13.2 16.8c.5-1.7 1.8-2.6 3.2-2.6s2.7.9 3.2 2.6"></path></svg></div><h3>帳簿共有</h3><p>家族で同一データを共同メンテナンス。</p></article>
+        
+        <article class="detail-card"><div class="detail-icon" aria-hidden="true"><svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h16"></path><path d="M4 12h16"></path><path d="M4 17h16"></path><circle cx="8" cy="7" r="1.8"></circle><circle cx="15" cy="12" r="1.8"></circle><circle cx="11" cy="17" r="1.8"></circle></svg></div><h3>カード管理</h3><p>ホームの表示順と表示可否を調整可能。</p></article>
+        
+        <article class="detail-card"><div class="detail-icon" aria-hidden="true"><svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="5.5" y="10.2" width="13" height="9" rx="2"></rect><path d="M8.2 10.2V7.8a3.8 3.8 0 0 1 7.6 0v2.4"></path></svg></div><h3>ローカル優先</h3><p>データはローカル保存、必要時に iCloud 同期。</p></article>
+        
+      </div>
+    </div>
+  </section><section id="download" class="section">
+    <div class="container">
+      <div class="cta-box">
+        <div class="cta-content"><p class="eyebrow">ダウンロード</p><h2>今すぐ開始</h2><p>iAssets をダウンロードして資産管理を開始。</p>
+          <a class="btn appstore-code-btn appstore-code-btn-lg" href="https://apps.apple.com/jp/app/%E7%9F%A5%E7%9B%88/id6759790991" target="_blank" rel="noopener noreferrer" aria-label="Download on the App Store"><span class="appstore-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M16.1 12.7c0-2.3 1.9-3.4 2-3.5-1.1-1.6-2.8-1.8-3.4-1.8-1.4-.1-2.7.8-3.4.8s-1.9-.8-3.1-.7c-1.6 0-3 .9-3.9 2.3-1.7 3-.4 7.3 1.2 9.6.8 1.1 1.8 2.3 3.1 2.3 1.2 0 1.7-.8 3.1-.8s1.8.8 3.1.8c1.3 0 2.1-1.1 2.9-2.2.9-1.3 1.3-2.6 1.4-2.7 0 0-2-.8-2-4.1z"></path><path d="M14 5.9c.7-.8 1.2-1.8 1.1-2.9-1 .1-2.1.7-2.9 1.5-.7.8-1.2 1.8-1.1 2.8 1 .1 2.1-.5 2.9-1.4z"></path></svg></span><span class="appstore-text"><span class="appstore-overline">Download on the</span><span class="appstore-title">App Store</span></span></a>
+        </div>
+        <div class="cta-mosaic" aria-hidden="true">
+          <div
+            class="cta-mosaic-stage"
+            style="--cta-stage-columns: 4; --cta-stage-width: 142%; --cta-stage-height: 274%; --cta-stage-width-mobile: 154%; --cta-stage-height-mobile: 254%; --cta-stage-gap: 14px; --cta-stage-gap-mobile: 12px; --cta-stage-rotation: -16deg;"
+          ><div class="cta-mosaic-column">
+              <div class="cta-mosaic-column-track" style="--cta-column-duration: 68s; --cta-column-delay: 0s; --cta-column-direction: normal;"><figure class="cta-mosaic-card"><img src="https://webp.debuginn.com/20260607JN6voy.png" alt="" width="1410" height="2770" loading="lazy" decoding="async" /></figure><figure class="cta-mosaic-card"><img src="https://webp.debuginn.com/202606075qhgPu.png" alt="" width="1410" height="2770" loading="lazy" decoding="async" /></figure><figure class="cta-mosaic-card"><img src="https://webp.debuginn.com/20260607gfXR35.png" alt="" width="1410" height="2770" loading="lazy" decoding="async" /></figure><figure class="cta-mosaic-card"><img src="https://webp.debuginn.com/20260607tGPD3a.png" alt="" width="1410" height="2770" loading="lazy" decoding="async" /></figure><figure class="cta-mosaic-card"><img src="https://webp.debuginn.com/20260607CsckaU.png" alt="" width="1410" height="2770" loading="lazy" decoding="async" /></figure><figure class="cta-mosaic-card"><img src="https://webp.debuginn.com/20260607JN6voy.png" alt="" width="1410" height="2770" loading="lazy" decoding="async" /></figure><figure class="cta-mosaic-card"><img src="https://webp.debuginn.com/202606075qhgPu.png" alt="" width="1410" height="2770" loading="lazy" decoding="async" /></figure><figure class="cta-mosaic-card"><img src="https://webp.debuginn.com/20260607gfXR35.png" alt="" width="1410" height="2770" loading="lazy" decoding="async" /></figure><figure class="cta-mosaic-card"><img src="https://webp.debuginn.com/20260607tGPD3a.png" alt="" width="1410" height="2770" loading="lazy" decoding="async" /></figure><figure class="cta-mosaic-card"><img src="https://webp.debuginn.com/20260607CsckaU.png" alt="" width="1410" height="2770" loading="lazy" decoding="async" /></figure>
+              </div>
+            </div><div class="cta-mosaic-column">
+              <div class="cta-mosaic-column-track" style="--cta-column-duration: 76s; --cta-column-delay: -3s; --cta-column-direction: reverse;"><figure class="cta-mosaic-card"><img src="https://webp.debuginn.com/20260607JN6voy.png" alt="" width="1410" height="2770" loading="lazy" decoding="async" /></figure><figure class="cta-mosaic-card"><img src="https://webp.debuginn.com/202606075qhgPu.png" alt="" width="1410" height="2770" loading="lazy" decoding="async" /></figure><figure class="cta-mosaic-card"><img src="https://webp.debuginn.com/20260607gfXR35.png" alt="" width="1410" height="2770" loading="lazy" decoding="async" /></figure><figure class="cta-mosaic-card"><img src="https://webp.debuginn.com/20260607tGPD3a.png" alt="" width="1410" height="2770" loading="lazy" decoding="async" /></figure><figure class="cta-mosaic-card"><img src="https://webp.debuginn.com/20260607CsckaU.png" alt="" width="1410" height="2770" loading="lazy" decoding="async" /></figure><figure class="cta-mosaic-card"><img src="https://webp.debuginn.com/20260607JN6voy.png" alt="" width="1410" height="2770" loading="lazy" decoding="async" /></figure><figure class="cta-mosaic-card"><img src="https://webp.debuginn.com/202606075qhgPu.png" alt="" width="1410" height="2770" loading="lazy" decoding="async" /></figure><figure class="cta-mosaic-card"><img src="https://webp.debuginn.com/20260607gfXR35.png" alt="" width="1410" height="2770" loading="lazy" decoding="async" /></figure><figure class="cta-mosaic-card"><img src="https://webp.debuginn.com/20260607tGPD3a.png" alt="" width="1410" height="2770" loading="lazy" decoding="async" /></figure><figure class="cta-mosaic-card"><img src="https://webp.debuginn.com/20260607CsckaU.png" alt="" width="1410" height="2770" loading="lazy" decoding="async" /></figure>
+              </div>
+            </div><div class="cta-mosaic-column">
+              <div class="cta-mosaic-column-track" style="--cta-column-duration: 72s; --cta-column-delay: -8s; --cta-column-direction: normal;"><figure class="cta-mosaic-card"><img src="https://webp.debuginn.com/20260607JN6voy.png" alt="" width="1410" height="2770" loading="lazy" decoding="async" /></figure><figure class="cta-mosaic-card"><img src="https://webp.debuginn.com/202606075qhgPu.png" alt="" width="1410" height="2770" loading="lazy" decoding="async" /></figure><figure class="cta-mosaic-card"><img src="https://webp.debuginn.com/20260607gfXR35.png" alt="" width="1410" height="2770" loading="lazy" decoding="async" /></figure><figure class="cta-mosaic-card"><img src="https://webp.debuginn.com/20260607tGPD3a.png" alt="" width="1410" height="2770" loading="lazy" decoding="async" /></figure><figure class="cta-mosaic-card"><img src="https://webp.debuginn.com/20260607CsckaU.png" alt="" width="1410" height="2770" loading="lazy" decoding="async" /></figure><figure class="cta-mosaic-card"><img src="https://webp.debuginn.com/20260607JN6voy.png" alt="" width="1410" height="2770" loading="lazy" decoding="async" /></figure><figure class="cta-mosaic-card"><img src="https://webp.debuginn.com/202606075qhgPu.png" alt="" width="1410" height="2770" loading="lazy" decoding="async" /></figure><figure class="cta-mosaic-card"><img src="https://webp.debuginn.com/20260607gfXR35.png" alt="" width="1410" height="2770" loading="lazy" decoding="async" /></figure><figure class="cta-mosaic-card"><img src="https://webp.debuginn.com/20260607tGPD3a.png" alt="" width="1410" height="2770" loading="lazy" decoding="async" /></figure><figure class="cta-mosaic-card"><img src="https://webp.debuginn.com/20260607CsckaU.png" alt="" width="1410" height="2770" loading="lazy" decoding="async" /></figure>
+              </div>
+            </div><div class="cta-mosaic-column">
+              <div class="cta-mosaic-column-track" style="--cta-column-duration: 80s; --cta-column-delay: -6s; --cta-column-direction: reverse;"><figure class="cta-mosaic-card"><img src="https://webp.debuginn.com/20260607JN6voy.png" alt="" width="1410" height="2770" loading="lazy" decoding="async" /></figure><figure class="cta-mosaic-card"><img src="https://webp.debuginn.com/202606075qhgPu.png" alt="" width="1410" height="2770" loading="lazy" decoding="async" /></figure><figure class="cta-mosaic-card"><img src="https://webp.debuginn.com/20260607gfXR35.png" alt="" width="1410" height="2770" loading="lazy" decoding="async" /></figure><figure class="cta-mosaic-card"><img src="https://webp.debuginn.com/20260607tGPD3a.png" alt="" width="1410" height="2770" loading="lazy" decoding="async" /></figure><figure class="cta-mosaic-card"><img src="https://webp.debuginn.com/20260607CsckaU.png" alt="" width="1410" height="2770" loading="lazy" decoding="async" /></figure><figure class="cta-mosaic-card"><img src="https://webp.debuginn.com/20260607JN6voy.png" alt="" width="1410" height="2770" loading="lazy" decoding="async" /></figure><figure class="cta-mosaic-card"><img src="https://webp.debuginn.com/202606075qhgPu.png" alt="" width="1410" height="2770" loading="lazy" decoding="async" /></figure><figure class="cta-mosaic-card"><img src="https://webp.debuginn.com/20260607gfXR35.png" alt="" width="1410" height="2770" loading="lazy" decoding="async" /></figure><figure class="cta-mosaic-card"><img src="https://webp.debuginn.com/20260607tGPD3a.png" alt="" width="1410" height="2770" loading="lazy" decoding="async" /></figure><figure class="cta-mosaic-card"><img src="https://webp.debuginn.com/20260607CsckaU.png" alt="" width="1410" height="2770" loading="lazy" decoding="async" /></figure>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section><section id="reviews" class="section"><div class="container"><p class="eyebrow">評価</p><h2 class="section-title">iAssets で資産習慣が変わる。</h2><p class="section-desc">記録から全体理解まで、最短でつながる。</p><div class="review-marquee" aria-label="User reviews"><div class="review-track"><figure class="review"><div class="stars">★★★★★</div><blockquote>终于把家庭资产放进同一张视图，复盘时不再手忙脚乱。</blockquote><figcaption><span class="social-link review-social-icon" data-social="x"><img src="https://webp.debuginn.com/20260607Xh8yS3.svg" alt="x" width="10" height="10" loading="lazy" decoding="async" /></span><span>予安</span></figcaption></figure><figure class="review"><div class="stars">★★★★★</div><blockquote>每月檢視從一小時縮到十分鐘，重點一眼就能抓到。</blockquote><figcaption><span class="social-link review-social-icon" data-social="telegram"><img src="https://webp.debuginn.com/20260607GuDBCK.svg" alt="telegram" width="10" height="10" loading="lazy" decoding="async" /></span><span>若曦</span></figcaption></figure><figure class="review"><div class="stars">★★★★★</div><blockquote>家計と投資口座を分けて管理できて、月次チェックがかなり楽になりました。</blockquote><figcaption><span class="social-link review-social-icon" data-social="weibo"><img src="https://webp.debuginn.com/20260607DyMteq.svg" alt="weibo" width="10" height="10" loading="lazy" decoding="async" /></span><span>美咲</span></figcaption></figure><figure class="review"><div class="stars">★★★★★</div><blockquote>가족과 함께 써도 깔끔해요. 공유 장부 덕분에 기록이 훨씬 쉬워졌어요.</blockquote><figcaption><span class="social-link review-social-icon" data-social="wechat"><img src="https://webp.debuginn.com/20260607Zl9P7x.svg" alt="wechat" width="10" height="10" loading="lazy" decoding="async" /></span><span>하린</span></figcaption></figure><figure class="review"><div class="stars">★★★★★</div><blockquote>Net worth snapshots are clear and fast, so weekly reviews finally became a habit.</blockquote><figcaption><span class="social-link review-social-icon" data-social="reddit"><img src="https://webp.debuginn.com/20260607ZRqKuE.svg" alt="reddit" width="10" height="10" loading="lazy" decoding="async" /></span><span>Aurora</span></figcaption></figure><figure class="review"><div class="stars">★★★★★</div><blockquote>分类和结构卡配合得很好，资产配置偏差一下子就能看出来。</blockquote><figcaption><span class="social-link review-social-icon" data-social="x"><img src="https://webp.debuginn.com/20260607Xh8yS3.svg" alt="x" width="10" height="10" loading="lazy" decoding="async" /></span><span>景行</span></figcaption></figure></div><div class="review-track reverse"><figure class="review"><div class="stars">★★★★★</div><blockquote>介面輕巧順手，天天打開也不會有負擔。</blockquote><figcaption><span class="social-link review-social-icon" data-social="wechat"><img src="https://webp.debuginn.com/20260607Zl9P7x.svg" alt="wechat" width="10" height="10" loading="lazy" decoding="async" /></span><span>芷晴</span></figcaption></figure><figure class="review"><div class="stars">★★★★★</div><blockquote>推移カードが見やすくて、資産の増減を家族にも説明しやすいです。</blockquote><figcaption><span class="social-link review-social-icon" data-social="x"><img src="https://webp.debuginn.com/20260607Xh8yS3.svg" alt="x" width="10" height="10" loading="lazy" decoding="async" /></span><span>陽翔</span></figcaption></figure><figure class="review"><div class="stars">★★★★★</div><blockquote>오프라인에서도 빠르게 입력돼서 이동 중에도 자산 변동을 바로 남길 수 있어요.</blockquote><figcaption><span class="social-link review-social-icon" data-social="telegram"><img src="https://webp.debuginn.com/20260607GuDBCK.svg" alt="telegram" width="10" height="10" loading="lazy" decoding="async" /></span><span>서준</span></figcaption></figure><figure class="review"><div class="stars">★★★★★</div><blockquote>The multi-book setup keeps personal and family finances separated without extra effort.</blockquote><figcaption><span class="social-link review-social-icon" data-social="reddit"><img src="https://webp.debuginn.com/20260607ZRqKuE.svg" alt="reddit" width="10" height="10" loading="lazy" decoding="async" /></span><span>Ethan</span></figcaption></figure><figure class="review"><div class="stars">★★★★★</div><blockquote>目标进度可视化以后，存钱这件事终于能长期坚持了。</blockquote><figcaption><span class="social-link review-social-icon" data-social="weibo"><img src="https://webp.debuginn.com/20260607DyMteq.svg" alt="weibo" width="10" height="10" loading="lazy" decoding="async" /></span><span>星澜</span></figcaption></figure><figure class="review"><div class="stars">★★★★★</div><blockquote>長期目標拆成可追蹤里程碑後，整個理財節奏更穩定。</blockquote><figcaption><span class="social-link review-social-icon" data-social="x"><img src="https://webp.debuginn.com/20260607Xh8yS3.svg" alt="x" width="10" height="10" loading="lazy" decoding="async" /></span><span>庭軒</span></figcaption></figure></div></div></div></section>
+  <section id="pricing" class="section"><div class="container"><p class="eyebrow">料金</p><h2 class="section-title">低価格で、継続的にアップデート。</h2><p class="section-desc">ソフトウェアの健全な発展のため年額払いを推奨していますが、買い切りにも対応しています。</p><div class="pricing-grid"><article class="price-card"><div class="price-head"><div class="plan-title"><img class="plan-logo" src="https://webp.debuginn.com/20260607h41bVQ.png" alt="iAssets logo" /><h3>年額</h3></div><span class="badge">Popular</span></div><p class="price"><span>¥</span>240<span>/年</span></p><p>年額で支払い、ソフトウェアの健全な発展を共に支えてください。</p><a class="btn btn-solid" href="https://apps.apple.com/jp/app/%E7%9F%A5%E7%9B%88/id6759790991" target="_blank" rel="noopener noreferrer">年額で購読</a></article><article class="price-card featured"><div class="price-head"><div class="plan-title"><img class="plan-logo" src="https://webp.debuginn.com/20260607h41bVQ.png" alt="iAssets logo" /><h3>買い切り</h3></div></div><p class="price"><span>¥</span>900</p><p>買い切りで永久アップデート。</p><a class="btn btn-solid" href="https://apps.apple.com/jp/app/%E7%9F%A5%E7%9B%88/id6759790991" target="_blank" rel="noopener noreferrer">買い切りで購入</a></article></div><p class="pricing-disclaimer">* 地域やキャンペーンにより価格が異なる場合があります。実際の価格はアプリのダウンロード画面に表示される金額が適用されます。</p></div></section>
+  <section class="section trust-strip"><div class="container"><p class="eyebrow">TRUST</p><h2 class="section-title trust-title">主要な銀行・金融プラットフォームに信頼されています</h2><p class="trust-subtitle">著名な銀行・証券金融プラットフォームと連携し、わかりやすく手頃に使えるソフトを提供します。</p><div class="trust-marquee" aria-label="Trusted partners"><div class="trust-track"><article class="trust-card"><img class="trust-logo" src="https://webp.debuginn.com/20260607VkvnrY.webp" alt="HF Bank logo" width="56" height="56" loading="lazy" decoding="async" /><span>HF Bank</span></article><article class="trust-card"><img class="trust-logo" src="https://webp.debuginn.com/202606079PfBTQ.webp" alt="ZA Bank logo" width="56" height="56" loading="lazy" decoding="async" /><span>ZA Bank</span></article><article class="trust-card"><img class="trust-logo" src="https://webp.debuginn.com/20260607dIw87p.webp" alt="Fuxi Securities logo" width="56" height="56" loading="lazy" decoding="async" /><span>Fuxi Securities</span></article><article class="trust-card"><img class="trust-logo" src="https://webp.debuginn.com/20260607wfMJsv.svg" alt="Standard Chartered China logo" width="56" height="56" loading="lazy" decoding="async" /><span>Standard Chartered Bank</span></article><article class="trust-card"><img class="trust-logo" src="https://webp.debuginn.com/20260607mTqw7g.svg" alt="IKBR logo" width="56" height="56" loading="lazy" decoding="async" /><span>IKBR</span></article><article class="trust-card"><img class="trust-logo" src="https://webp.debuginn.com/20260607HKBV4D.webp" alt="Macau Ant Bank logo" width="56" height="56" loading="lazy" decoding="async" /><span>Macau Ant Bank</span></article><article class="trust-card"><img class="trust-logo" src="https://webp.debuginn.com/20260607PRQOHB.webp" alt="HSBC China logo" width="56" height="56" loading="lazy" decoding="async" /><span>HSBC China</span></article><article class="trust-card"><img class="trust-logo" src="https://webp.debuginn.com/20260607TDtXFC.webp" alt="Zhufu Securities logo" width="56" height="56" loading="lazy" decoding="async" /><span>Zhufu Securities</span></article></div><div class="trust-track reverse"><article class="trust-card"><img class="trust-logo" src="https://webp.debuginn.com/20260607PRQOHB.webp" alt="HSBC China logo" width="56" height="56" loading="lazy" decoding="async" /><span>HSBC China</span></article><article class="trust-card"><img class="trust-logo" src="https://webp.debuginn.com/20260607HKBV4D.webp" alt="Macau Ant Bank logo" width="56" height="56" loading="lazy" decoding="async" /><span>Macau Ant Bank</span></article><article class="trust-card"><img class="trust-logo" src="https://webp.debuginn.com/20260607wfMJsv.svg" alt="Standard Chartered China logo" width="56" height="56" loading="lazy" decoding="async" /><span>Standard Chartered Bank</span></article><article class="trust-card"><img class="trust-logo" src="https://webp.debuginn.com/20260607mTqw7g.svg" alt="IKBR logo" width="56" height="56" loading="lazy" decoding="async" /><span>IKBR</span></article><article class="trust-card"><img class="trust-logo" src="https://webp.debuginn.com/20260607TDtXFC.webp" alt="Zhufu Securities logo" width="56" height="56" loading="lazy" decoding="async" /><span>Zhufu Securities</span></article><article class="trust-card"><img class="trust-logo" src="https://webp.debuginn.com/202606079PfBTQ.webp" alt="ZA Bank logo" width="56" height="56" loading="lazy" decoding="async" /><span>ZA Bank</span></article><article class="trust-card"><img class="trust-logo" src="https://webp.debuginn.com/20260607dIw87p.webp" alt="Fuxi Securities logo" width="56" height="56" loading="lazy" decoding="async" /><span>Fuxi Securities</span></article><article class="trust-card"><img class="trust-logo" src="https://webp.debuginn.com/20260607VkvnrY.webp" alt="HF Bank logo" width="56" height="56" loading="lazy" decoding="async" /><span>HF Bank</span></article></div></div><div class="trust-actions"><a class="btn btn-ghost" href="mailto:idebuginn@gmail.com">ビジネス提携</a><a class="btn btn-ghost" href="#features">詳細を見る</a></div></div></section>
+  <section id="faqs" class="section"><div class="container"><p class="eyebrow">FAQ</p><h2 class="section-title">よくある質問</h2><p class="section-desc">よくある疑問を先に確認できます。</p><div class="faq-grid"><article><h3><span class="faq-q-icon" aria-hidden="true"><svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><path d="M9.6 9.2a2.5 2.5 0 1 1 4.2 1.8c-.65.62-1.3 1.05-1.3 2.1"></path><circle cx="12" cy="16.8" r="0.9" fill="currentColor" stroke="none"></circle></svg></span><span>対応言語は？</span></h3><p>iAssets と同じく、簡体字・繁体字（台湾/香港/マカオ/シンガポール）・英語・日本語・韓国語に対応。</p></article><article><h3><span class="faq-q-icon" aria-hidden="true"><svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><path d="M9.6 9.2a2.5 2.5 0 1 1 4.2 1.8c-.65.62-1.3 1.05-1.3 2.1"></path><circle cx="12" cy="16.8" r="0.9" fill="currentColor" stroke="none"></circle></svg></span><span>オフラインで使えますか？</span></h3><p>はい。オフラインで作成・編集し、オンライン時に同期できます。</p></article><article><h3><span class="faq-q-icon" aria-hidden="true"><svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><path d="M9.6 9.2a2.5 2.5 0 1 1 4.2 1.8c-.65.62-1.3 1.05-1.3 2.1"></path><circle cx="12" cy="16.8" r="0.9" fill="currentColor" stroke="none"></circle></svg></span><span>データはどこに保存されますか？</span></h3><p>ローカル優先保存で、必要に応じて iCloud 同期。</p></article><article><h3><span class="faq-q-icon" aria-hidden="true"><svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><path d="M9.6 9.2a2.5 2.5 0 1 1 4.2 1.8c-.65.62-1.3 1.05-1.3 2.1"></path><circle cx="12" cy="16.8" r="0.9" fill="currentColor" stroke="none"></circle></svg></span><span>家族で共同利用できますか？</span></h3><p>はい。家族モードでメンバー管理と共有帳簿が可能です。</p></article><article><h3><span class="faq-q-icon" aria-hidden="true"><svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><path d="M9.6 9.2a2.5 2.5 0 1 1 4.2 1.8c-.65.62-1.3 1.05-1.3 2.1"></path><circle cx="12" cy="16.8" r="0.9" fill="currentColor" stroke="none"></circle></svg></span><span>Android 版はありますか？</span></h3><p>現在は主に Apple エコシステム向けです。</p></article><article><h3><span class="faq-q-icon" aria-hidden="true"><svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><path d="M9.6 9.2a2.5 2.5 0 1 1 4.2 1.8c-.65.62-1.3 1.05-1.3 2.1"></path><circle cx="12" cy="16.8" r="0.9" fill="currentColor" stroke="none"></circle></svg></span><span>始め方は？</span></h3><p>アプリを入手し、最初の帳簿を作成してください。</p></article></div></div></section>
+</main>
+
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-card">
+          <div class="footer-main">
+            <section class="footer-left">
+              <section class="footer-brand-col">
+                <a class="logo footer-brand-wrap" href="/ja/">
+                  <img class="logo-mark" src="https://webp.debuginn.com/20260607h41bVQ.png" alt="iAssets logo" width="48" height="48" decoding="async" loading="lazy" />
+                  <span class="footer-brand-text">
+                    <span data-i18n="brand">iAssets</span>
+                    <span class="footer-tag" data-i18n="footerTag">家族資産管理のパートナー</span>
+                  </span>
+                </a>
+              </section>
+              <nav class="footer-inline-links" aria-label="Footer links"><a href="/ja/#features" data-i18n="navFeatures">機能</a><a href="/ja/#pricing" data-i18n="navPricing">料金</a><a href="/ja/#faqs" data-i18n="navFaq">FAQ</a><a href="/ja/#download" data-i18n="navDownload">ダウンロード</a><a href="/ja/privacy/" data-i18n="navPrivacy">プライバシー</a><a href="/ja/terms/" data-i18n="navTerms">利用規約</a>
+              </nav>
+            </section>
+            <section class="footer-social" aria-label="Social links">
+              <div class="social-grid">
+                <div class="social-set social-set-cn">
+                  <a class="social-link" data-social="wechat" href="#" aria-label="微信"><img src="https://webp.debuginn.com/20260607v5H5Ux.svg" alt="WeChat" width="24" height="24" loading="lazy" decoding="async" /></a><a class="social-link" data-social="weibo" href="https://weibo.com/u/7096209693" target="_blank" rel="noopener noreferrer" aria-label="微博"><img src="https://webp.debuginn.com/20260607IoieJf.svg" alt="Weibo" width="24" height="24" loading="lazy" decoding="async" /></a><a class="social-link" data-social="xiaohongshu" href="https://www.xiaohongshu.com/user/profile/5d4057fd0000000012007068" target="_blank" rel="noopener noreferrer" aria-label="小红书"><img src="https://webp.debuginn.com/20260607S6dw4u.svg" alt="Xiaohongshu" width="24" height="24" loading="lazy" decoding="async" /></a><a class="social-link" data-social="zhihu" href="https://www.zhihu.com/people/debuginn" target="_blank" rel="noopener noreferrer" aria-label="知乎"><img src="https://webp.debuginn.com/20260607dP6b5s.svg" alt="Zhihu" width="24" height="24" loading="lazy" decoding="async" /></a>
+                </div>
+                <div class="social-set social-set-global"><a class="social-link" data-social="xiaohongshu" href="https://www.xiaohongshu.com/user/profile/5d4057fd0000000012007068" target="_blank" rel="noopener noreferrer" aria-label="小红书"><img src="https://webp.debuginn.com/20260607S6dw4u.svg" alt="Xiaohongshu" width="24" height="24" loading="lazy" decoding="async" /></a>
+                </div>
+                <div class="social-set social-set-hant"><a class="social-link" data-social="xiaohongshu" href="https://www.xiaohongshu.com/user/profile/5d4057fd0000000012007068" target="_blank" rel="noopener noreferrer" aria-label="小红书"><img src="https://webp.debuginn.com/20260607S6dw4u.svg" alt="Xiaohongshu" width="24" height="24" loading="lazy" decoding="async" /></a>
+                  <a class="social-link" data-social="wechat" href="#" aria-label="微信"><img src="https://webp.debuginn.com/20260607v5H5Ux.svg" alt="WeChat" width="24" height="24" loading="lazy" decoding="async" /></a>
+                </div>
+              </div>
+            </section>
+            <section class="qr-box">
+              <div class="fake-qr"><img src="https://webp.debuginn.com/20260607We1tzT.png" alt="Download QR code" width="88" height="88" loading="lazy" decoding="async" /></div>
+              <div class="qr-copy">
+                <h4 data-i18n="navDownload">ダウンロード</h4>
+                <p data-i18n="downloadHint">QR から App Store を開けます</p>
+              </div>
+            </section>
+          </div>
+          <div class="footer-bottom">
+            <div class="lang-links">
+              <div class="footer-lang-dropdown">
+              <button class="footer-lang-trigger" type="button" aria-label="Switch language" aria-haspopup="listbox" aria-expanded="false">
+                <span class="footer-lang-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="9"></circle>
+                    <path d="M3 12h18"></path>
+                    <path d="M12 3c2.6 2.4 4 5.6 4 9s-1.4 6.6-4 9c-2.6-2.4-4-5.6-4-9s1.4-6.6 4-9z"></path>
+                  </svg>
+                </span>
+                <span class="footer-lang-current">日本語</span>
+              </button>
+              <div class="footer-lang-menu" role="listbox" aria-label="Language options"><a href="/" data-footer-lang-option="en">English</a><a href="/zh/" data-footer-lang-option="zh-Hans">中文简体</a><a href="/zh-hant/" data-footer-lang-option="zh-Hant">中文繁體</a><a href="/ja/" data-footer-lang-option="ja">日本語</a><a href="/ko/" data-footer-lang-option="ko">한국어</a>
+              </div>
+            </div>
+            </div>
+            <div class="footer-meta">
+              <p>© Copyright 2026. All rights reserved.</p>
+              <p class="footer-credit">Built with <a href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo</a>, theme <a href="https://github.com/debuginn/hugo-theme-pebble" target="_blank" rel="noopener noreferrer">Pebble</a> designed by <a href="https://blog.debuginn.com/" target="_blank" rel="noopener noreferrer">Debuginn</a>.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script type="module" src="/app.js?v=v1"></script>
+  </body>
+</html>
