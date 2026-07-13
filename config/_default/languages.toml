@@ -8,7 +8,7 @@ downloadQr = 'https://webp.debuginn.com/20260607weNLvY.png'
 [en.params.pricing]
 currency = '$'
 yearly = '1.49'
-lifetime = '5.99'
+lifetime = '9.99'
 
 [zh]
 languageName = '中文简体'
@@ -20,7 +20,7 @@ downloadQr = 'https://webp.debuginn.com/20260607oiR5ZJ.png'
 [zh.params.pricing]
 currency = '¥'
 yearly = '9.9'
-lifetime = '38'
+lifetime = '68'
 
 [zh-hant]
 languageName = '中文繁體'
@@ -32,7 +32,7 @@ downloadQr = 'https://webp.debuginn.com/20260607B54NfZ.png'
 [zh-hant.params.pricing]
 currency = 'NT$'
 yearly = '49'
-lifetime = '178'
+lifetime = '320'
 
 [ja]
 languageName = '日本語'
@@ -44,7 +44,7 @@ downloadQr = 'https://webp.debuginn.com/20260607We1tzT.png'
 [ja.params.pricing]
 currency = '¥'
 yearly = '240'
-lifetime = '900'
+lifetime = '1600'
 
 [ko]
 languageName = '한국어'
@@ -56,4 +56,4 @@ downloadQr = 'https://webp.debuginn.com/20260607BReFMN.png'
 [ko.params.pricing]
 currency = '₩'
 yearly = '2500'
-lifetime = '8900'
+lifetime = '15000'
