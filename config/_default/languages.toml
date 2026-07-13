@@ -5,7 +5,7 @@ weight = 1
 [en.params.pricing]
 currency = '$'
 yearly = '1.49'
-lifetime = '5.99'
+lifetime = '9.99'
 
 [zh]
 languageName = '中文简体'
@@ -14,7 +14,7 @@ weight = 2
 [zh.params.pricing]
 currency = '¥'
 yearly = '9.9'
-lifetime = '38'
+lifetime = '68'
 
 [zh-hant]
 languageName = '中文繁體'
@@ -23,7 +23,7 @@ weight = 3
 [zh-hant.params.pricing]
 currency = 'NT$'
 yearly = '49'
-lifetime = '178'
+lifetime = '320'
 
 [ja]
 languageName = '日本語'
@@ -32,7 +32,7 @@ weight = 4
 [ja.params.pricing]
 currency = '¥'
 yearly = '240'
-lifetime = '900'
+lifetime = '1600'
 
 [ko]
 languageName = '한국어'
@@ -41,4 +41,4 @@ weight = 5
 [ko.params.pricing]
 currency = '₩'
 yearly = '2500'
-lifetime = '8900'
+lifetime = '15000'
