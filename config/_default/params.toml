@@ -5,6 +5,9 @@
   downloadQr = 'https://webp.debuginn.com/20260607huIkvB.png'
   version = 'v1'
 
+[theme]
+  version = 'v1.0.2'
+
 [contact]
   email = 'idebuginn@gmail.com'
 
