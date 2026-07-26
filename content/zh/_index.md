@@ -243,34 +243,69 @@ social = "x"
 name = "庭軒"
 text = "長期目標拆成可追蹤里程碑後，整個理財節奏更穩定。"
 
-[home.pricing]
+[home.pricingcompare]
 eyebrow = "价格"
 title = "价格低廉、持续迭代。"
-description = "建议按年支付，共建软件的良性发展，当然也支持终身买断。"
+description = "免费即可上手，需要多账本、家庭协作与同步时再解锁 Pro。建议按年支付，共建软件的良性发展，当然也支持终身买断。"
 disclaimer = "* 因在不同地区销售与活动，价格以实际下载呈现价格为准。"
 
-[[home.pricing.plans]]
+[[home.pricingcompare.columns]]
+title = "免费版"
+price = "0"
+description = "满足日常记账的基础需求。"
+
+[home.pricingcompare.columns.cta]
+label = "立即体验"
+href = "#download"
+
+[[home.pricingcompare.columns]]
 featured = false
 priceKey = "yearly"
-title = "订阅"
+title = "Pro 年付"
 badge = "Popular"
 suffix = "/年"
 description = "按年支付，共建软件的良性发展。"
 
-[home.pricing.plans.cta]
+[home.pricingcompare.columns.cta]
 label = "立即订阅"
 href = "https://apps.apple.com/cn/app/%E7%9F%A5%E7%9B%88/id6759790991"
 
-[[home.pricing.plans]]
+[[home.pricingcompare.columns]]
 featured = true
 priceKey = "lifetime"
-title = "终身"
+title = "Pro 终身"
+badge = "最划算"
 description = "一次购买，终身更新。"
 
-[home.pricing.plans.cta]
+[home.pricingcompare.columns.cta]
 highlight = true
 label = "立即购买"
 href = "https://apps.apple.com/cn/app/%E7%9F%A5%E7%9B%88/id6759790991"
+
+[[home.pricingcompare.rows]]
+label = "多币种资产记账"
+values = [true, true, true]
+
+[[home.pricingcompare.rows]]
+label = "原生无广告设计"
+values = [true, true, true]
+
+[[home.pricingcompare.rows]]
+label = "账本数量"
+values = ["1 个", "不限", "不限"]
+
+[[home.pricingcompare.rows]]
+label = "iCloud 多设备同步"
+values = [false, true, true]
+
+[[home.pricingcompare.rows]]
+label = "家庭协作管理"
+values = [false, true, true]
+
+[[home.pricingcompare.rows]]
+label = "动态行情数据"
+note = "股票、基金、贵金属与加密货币"
+values = [false, true, true]
 
 [home.trust]
 eyebrow = "TRUST"
@@ -294,21 +329,6 @@ alt = "Fuxi Securities logo"
 name = "Fuxi Securities"
 
 [[home.trust.tracks.primary]]
-src = "https://webp.debuginn.com/20260607wfMJsv.svg"
-alt = "Standard Chartered China logo"
-name = "Standard Chartered Bank"
-
-[[home.trust.tracks.primary]]
-src = "https://webp.debuginn.com/20260607mTqw7g.svg"
-alt = "IKBR logo"
-name = "IKBR"
-
-[[home.trust.tracks.primary]]
-src = "https://webp.debuginn.com/20260607HKBV4D.webp"
-alt = "Macau Ant Bank logo"
-name = "Macau Ant Bank"
-
-[[home.trust.tracks.primary]]
 src = "https://webp.debuginn.com/20260607PRQOHB.webp"
 alt = "HSBC China logo"
 name = "HSBC China"
@@ -318,10 +338,20 @@ src = "https://webp.debuginn.com/20260607TDtXFC.webp"
 alt = "Zhufu Securities logo"
 name = "Zhufu Securities"
 
+[[home.trust.tracks.primary]]
+src = "https://webp.debuginn.com/20260607HKBV4D.webp"
+alt = "Macau Ant Bank logo"
+name = "Macau Ant Bank"
+
+[[home.trust.tracks.primary]]
+src = "/assets/trust-logos/standard-chartered.webp"
+alt = "Standard Chartered China logo"
+name = "渣打银行"
+
 [[home.trust.tracks.secondary]]
-src = "https://webp.debuginn.com/20260607PRQOHB.webp"
-alt = "HSBC China logo"
-name = "HSBC China"
+src = "/assets/trust-logos/standard-chartered.webp"
+alt = "Standard Chartered China logo"
+name = "渣打银行"
 
 [[home.trust.tracks.secondary]]
 src = "https://webp.debuginn.com/20260607HKBV4D.webp"
@@ -329,29 +359,24 @@ alt = "Macau Ant Bank logo"
 name = "Macau Ant Bank"
 
 [[home.trust.tracks.secondary]]
-src = "https://webp.debuginn.com/20260607wfMJsv.svg"
-alt = "Standard Chartered China logo"
-name = "Standard Chartered Bank"
-
-[[home.trust.tracks.secondary]]
-src = "https://webp.debuginn.com/20260607mTqw7g.svg"
-alt = "IKBR logo"
-name = "IKBR"
-
-[[home.trust.tracks.secondary]]
 src = "https://webp.debuginn.com/20260607TDtXFC.webp"
 alt = "Zhufu Securities logo"
 name = "Zhufu Securities"
 
 [[home.trust.tracks.secondary]]
-src = "https://webp.debuginn.com/202606079PfBTQ.webp"
-alt = "ZA Bank logo"
-name = "ZA Bank"
+src = "https://webp.debuginn.com/20260607PRQOHB.webp"
+alt = "HSBC China logo"
+name = "HSBC China"
 
 [[home.trust.tracks.secondary]]
 src = "https://webp.debuginn.com/20260607dIw87p.webp"
 alt = "Fuxi Securities logo"
 name = "Fuxi Securities"
+
+[[home.trust.tracks.secondary]]
+src = "https://webp.debuginn.com/202606079PfBTQ.webp"
+alt = "ZA Bank logo"
+name = "ZA Bank"
 
 [[home.trust.tracks.secondary]]
 src = "https://webp.debuginn.com/20260607VkvnrY.webp"
@@ -365,7 +390,7 @@ style = "btn-ghost"
 
 [[home.trust.actions]]
 type = "link"
-href = "#features"
+href = "https://flybay.debuginn.com/"
 label = "了解详情"
 style = "btn-ghost"
 

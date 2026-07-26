@@ -10,13 +10,18 @@
 
 [[main]]
   identifier = 'navPricing'
-  url = '#pricing'
+  url = '#pricing-compare'
   weight = 30
 
 [[main]]
   identifier = 'navFaq'
   url = '#faqs'
   weight = 40
+
+[[main]]
+  identifier = 'navBlog'
+  url = 'https://blog.debuginn.com/categories/iassets/'
+  weight = 50
 
 [[footer]]
   identifier = 'navFeatures'
@@ -25,7 +30,7 @@
 
 [[footer]]
   identifier = 'navPricing'
-  url = '#pricing'
+  url = '#pricing-compare'
   weight = 20
 
 [[footer]]

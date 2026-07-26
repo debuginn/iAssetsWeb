@@ -242,34 +242,69 @@ social = "x"
 name = "庭軒"
 text = "長期目標拆成可追蹤里程碑後，整個理財節奏更穩定。"
 
-[home.pricing]
+[home.pricingcompare]
 eyebrow = "料金"
 title = "低価格で、継続的にアップデート。"
-description = "ソフトウェアの健全な発展のため年額払いを推奨していますが、買い切りにも対応しています。"
+description = "無料で始められ、複数アカウントブック・家族共有・同期が必要になったら Pro を解除できます。ソフトウェアの健全な発展のため年額払いを推奨していますが、買い切りにも対応しています。"
 disclaimer = "* 地域やキャンペーンにより価格が異なる場合があります。実際の価格はアプリのダウンロード画面に表示される金額が適用されます。"
 
-[[home.pricing.plans]]
+[[home.pricingcompare.columns]]
+title = "無料版"
+price = "0"
+description = "日常の資産管理をすぐに始められます。"
+
+[home.pricingcompare.columns.cta]
+label = "無料で始める"
+href = "#download"
+
+[[home.pricingcompare.columns]]
 featured = false
 priceKey = "yearly"
-title = "年額"
+title = "Pro 年額"
 badge = "Popular"
 suffix = "/年"
 description = "年額で支払い、ソフトウェアの健全な発展を共に支えてください。"
 
-[home.pricing.plans.cta]
+[home.pricingcompare.columns.cta]
 label = "年額で購読"
 href = "https://apps.apple.com/jp/app/%E7%9F%A5%E7%9B%88/id6759790991"
 
-[[home.pricing.plans]]
+[[home.pricingcompare.columns]]
 featured = true
 priceKey = "lifetime"
-title = "買い切り"
+title = "Pro 買い切り"
+badge = "お得"
 description = "買い切りで永久アップデート。"
 
-[home.pricing.plans.cta]
+[home.pricingcompare.columns.cta]
 highlight = true
 label = "買い切りで購入"
 href = "https://apps.apple.com/jp/app/%E7%9F%A5%E7%9B%88/id6759790991"
+
+[[home.pricingcompare.rows]]
+label = "多通貨での資産管理"
+values = [true, true, true]
+
+[[home.pricingcompare.rows]]
+label = "ネイティブで広告のないデザイン"
+values = [true, true, true]
+
+[[home.pricingcompare.rows]]
+label = "アカウントブック数"
+values = ["1 冊", "無制限", "無制限"]
+
+[[home.pricingcompare.rows]]
+label = "iCloud によるデバイス間同期"
+values = [false, true, true]
+
+[[home.pricingcompare.rows]]
+label = "家族共有"
+values = [false, true, true]
+
+[[home.pricingcompare.rows]]
+label = "リアルタイム市場データ"
+note = "株式、投資信託、貴金属、暗号資産"
+values = [false, true, true]
 
 [home.trust]
 eyebrow = "TRUST"
@@ -278,84 +313,64 @@ description = "著名な銀行・証券金融プラットフォームと連携�
 
 [home.trust.tracks]
 [[home.trust.tracks.primary]]
-src = "https://webp.debuginn.com/20260607VkvnrY.webp"
-alt = "HF Bank logo"
-name = "HF Bank"
+src = "https://webp.debuginn.com/20260607PRQOHB.webp"
+alt = "HSBC China logo"
+name = "HSBC"
 
 [[home.trust.tracks.primary]]
-src = "https://webp.debuginn.com/202606079PfBTQ.webp"
-alt = "ZA Bank logo"
-name = "ZA Bank"
-
-[[home.trust.tracks.primary]]
-src = "https://webp.debuginn.com/20260607dIw87p.webp"
-alt = "Fuxi Securities logo"
-name = "Fuxi Securities"
-
-[[home.trust.tracks.primary]]
-src = "https://webp.debuginn.com/20260607wfMJsv.svg"
+src = "/assets/trust-logos/standard-chartered.webp"
 alt = "Standard Chartered China logo"
 name = "Standard Chartered Bank"
 
 [[home.trust.tracks.primary]]
-src = "https://webp.debuginn.com/20260607mTqw7g.svg"
-alt = "IKBR logo"
-name = "IKBR"
+src = "/assets/trust-logos/dbs-bank.webp"
+alt = "DBS Bank logo"
+name = "DBS Bank"
 
 [[home.trust.tracks.primary]]
-src = "https://webp.debuginn.com/20260607HKBV4D.webp"
-alt = "Macau Ant Bank logo"
-name = "Macau Ant Bank"
+src = "/assets/trust-logos/charles-schwab.svg"
+alt = "Charles Schwab logo"
+name = "Charles Schwab"
 
 [[home.trust.tracks.primary]]
-src = "https://webp.debuginn.com/20260607PRQOHB.webp"
-alt = "HSBC China logo"
-name = "HSBC China"
+src = "/assets/trust-logos/ibkr.webp"
+alt = "Interactive Brokers logo"
+name = "IBKR"
 
 [[home.trust.tracks.primary]]
-src = "https://webp.debuginn.com/20260607TDtXFC.webp"
-alt = "Zhufu Securities logo"
-name = "Zhufu Securities"
+src = "/assets/trust-logos/hang-seng-bank.webp"
+alt = "Hang Seng Bank logo"
+name = "Hang Seng Bank"
 
 [[home.trust.tracks.secondary]]
-src = "https://webp.debuginn.com/20260607PRQOHB.webp"
-alt = "HSBC China logo"
-name = "HSBC China"
+src = "/assets/trust-logos/hang-seng-bank.webp"
+alt = "Hang Seng Bank logo"
+name = "Hang Seng Bank"
 
 [[home.trust.tracks.secondary]]
-src = "https://webp.debuginn.com/20260607HKBV4D.webp"
-alt = "Macau Ant Bank logo"
-name = "Macau Ant Bank"
+src = "/assets/trust-logos/ibkr.webp"
+alt = "Interactive Brokers logo"
+name = "IBKR"
 
 [[home.trust.tracks.secondary]]
-src = "https://webp.debuginn.com/20260607wfMJsv.svg"
+src = "/assets/trust-logos/charles-schwab.svg"
+alt = "Charles Schwab logo"
+name = "Charles Schwab"
+
+[[home.trust.tracks.secondary]]
+src = "/assets/trust-logos/dbs-bank.webp"
+alt = "DBS Bank logo"
+name = "DBS Bank"
+
+[[home.trust.tracks.secondary]]
+src = "/assets/trust-logos/standard-chartered.webp"
 alt = "Standard Chartered China logo"
 name = "Standard Chartered Bank"
 
 [[home.trust.tracks.secondary]]
-src = "https://webp.debuginn.com/20260607mTqw7g.svg"
-alt = "IKBR logo"
-name = "IKBR"
-
-[[home.trust.tracks.secondary]]
-src = "https://webp.debuginn.com/20260607TDtXFC.webp"
-alt = "Zhufu Securities logo"
-name = "Zhufu Securities"
-
-[[home.trust.tracks.secondary]]
-src = "https://webp.debuginn.com/202606079PfBTQ.webp"
-alt = "ZA Bank logo"
-name = "ZA Bank"
-
-[[home.trust.tracks.secondary]]
-src = "https://webp.debuginn.com/20260607dIw87p.webp"
-alt = "Fuxi Securities logo"
-name = "Fuxi Securities"
-
-[[home.trust.tracks.secondary]]
-src = "https://webp.debuginn.com/20260607VkvnrY.webp"
-alt = "HF Bank logo"
-name = "HF Bank"
+src = "https://webp.debuginn.com/20260607PRQOHB.webp"
+alt = "HSBC China logo"
+name = "HSBC"
 
 [[home.trust.actions]]
 type = "mailto"
@@ -364,7 +379,7 @@ style = "btn-ghost"
 
 [[home.trust.actions]]
 type = "link"
-href = "#features"
+href = "https://flybay.debuginn.com/"
 label = "詳細を見る"
 style = "btn-ghost"
 
