@@ -3,10 +3,10 @@
   logoAlt = 'iAssets logo'
   brandName = 'iAssets'
   downloadQr = 'https://webp.debuginn.com/20260607huIkvB.png'
-  version = 'v1'
+  version = 'v20260925-pricing'
 
 [theme]
-  version = 'v1.0.2'
+  version = 'v1.0.3'
 
 [contact]
   email = 'idebuginn@gmail.com'
