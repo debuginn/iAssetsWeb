@@ -20,7 +20,8 @@ downloadQr = 'https://webp.debuginn.com/20260607oiR5ZJ.png'
 [zh.params.pricing]
 currency = '¥'
 yearly = '9.9'
-lifetime = '68'
+lifetime = '48'
+lifetimeOriginal = '68'
 
 [zh-hant]
 languageName = '中文繁體'
