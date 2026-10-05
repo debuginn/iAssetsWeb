@@ -14,7 +14,7 @@ src = "https://static.debuginn.com/20260607bKUTA5.png"
 alt = "知盈 应用截图 1"
 
 [[home.hero.fanImages]]
-src = "https://static.debuginn.com/20260607RB4DlU.png"
+src = "/assets/screenshots/iassets-261005-stock-search.png"
 alt = "知盈 应用截图 2"
 
 [[home.hero.fanImages]]
@@ -162,7 +162,7 @@ src = "https://static.debuginn.com/20260607bKUTA5.png"
 alt = "知盈 下载背景 1"
 
 [[home.download.backdrop.images]]
-src = "https://static.debuginn.com/20260607RB4DlU.png"
+src = "/assets/screenshots/iassets-261005-stock-search.png"
 alt = "知盈 下载背景 2"
 
 [[home.download.backdrop.images]]
