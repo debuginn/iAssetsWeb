@@ -343,6 +343,21 @@ src = "https://static.debuginn.com/20260607HKBV4D.webp"
 alt = "Macau Ant Bank logo"
 name = "Macau Ant Bank"
 
+[[home.trust.tracks.primary]]
+src = "/assets/trust-logos/galaxy-securities.png"
+alt = "China Galaxy Securities logo"
+name = "中国银河证券"
+
+[[home.trust.tracks.primary]]
+src = "/assets/trust-logos/gf-securities.png"
+alt = "GF Securities logo"
+name = "广发证券"
+
+[[home.trust.tracks.primary]]
+src = "/assets/trust-logos/dongguan-securities.png"
+alt = "Dongguan Securities logo"
+name = "东莞证券"
+
 [[home.trust.tracks.secondary]]
 src = "/assets/trust-logos/standard-chartered.webp"
 alt = "Standard Chartered China logo"

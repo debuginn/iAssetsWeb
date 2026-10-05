@@ -342,6 +342,21 @@ src = "https://static.debuginn.com/20260607HKBV4D.webp"
 alt = "Macau Ant Bank logo"
 name = "Macau Ant Bank"
 
+[[home.trust.tracks.primary]]
+src = "/assets/trust-logos/galaxy-securities.png"
+alt = "China Galaxy Securities logo"
+name = "中國銀河證券"
+
+[[home.trust.tracks.primary]]
+src = "/assets/trust-logos/gf-securities.png"
+alt = "GF Securities logo"
+name = "廣發證券"
+
+[[home.trust.tracks.primary]]
+src = "/assets/trust-logos/dongguan-securities.png"
+alt = "Dongguan Securities logo"
+name = "東莞證券"
+
 [[home.trust.tracks.secondary]]
 src = "/assets/trust-logos/ibkr.webp"
 alt = "Interactive Brokers logo"

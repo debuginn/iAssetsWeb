@@ -338,6 +338,21 @@ src = "/assets/trust-logos/ibkr.webp"
 alt = "Interactive Brokers logo"
 name = "IBKR"
 
+[[home.trust.tracks.primary]]
+src = "/assets/trust-logos/galaxy-securities.png"
+alt = "China Galaxy Securities logo"
+name = "China Galaxy Securities"
+
+[[home.trust.tracks.primary]]
+src = "/assets/trust-logos/gf-securities.png"
+alt = "GF Securities logo"
+name = "GF Securities"
+
+[[home.trust.tracks.primary]]
+src = "/assets/trust-logos/dongguan-securities.png"
+alt = "Dongguan Securities logo"
+name = "Dongguan Securities"
+
 [[home.trust.tracks.secondary]]
 src = "/assets/trust-logos/hang-seng-bank.webp"
 alt = "Hang Seng Bank logo"
