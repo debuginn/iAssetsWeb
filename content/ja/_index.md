@@ -10,23 +10,23 @@ title = "家族資産の全体像を、すばやく把握。"
 description = "視覚的に使える資産管理ツールで、家族の資産管理にも対応しています。資産・負債・構成・目標・推移を1画面で確認できます。"
 
 [[home.hero.fanImages]]
-src = "https://webp.debuginn.com/20260607JN6voy.png"
+src = "https://static.debuginn.com/20260607JN6voy.png"
 alt = "iAssets アプリスクリーンショット 1"
 
 [[home.hero.fanImages]]
-src = "https://webp.debuginn.com/202606075qhgPu.png"
+src = "https://static.debuginn.com/202606075qhgPu.png"
 alt = "iAssets アプリスクリーンショット 2"
 
 [[home.hero.fanImages]]
-src = "https://webp.debuginn.com/20260607gfXR35.png"
+src = "https://static.debuginn.com/20260607gfXR35.png"
 alt = "iAssets アプリスクリーンショット 3"
 
 [[home.hero.fanImages]]
-src = "https://webp.debuginn.com/20260607tGPD3a.png"
+src = "https://static.debuginn.com/20260607tGPD3a.png"
 alt = "iAssets アプリスクリーンショット 4"
 
 [[home.hero.fanImages]]
-src = "https://webp.debuginn.com/20260607CsckaU.png"
+src = "https://static.debuginn.com/20260607CsckaU.png"
 alt = "iAssets アプリスクリーンショット 5"
 
 [[home.hero.cards]]
@@ -53,15 +53,15 @@ title = "家族資産管理に特化した設計。"
 description = "汎用の家計簿ではなく、構造分析と長期目標の追跡に最適化。"
 [home.features.showcase]
 [[home.features.showcase.images]]
-src = "https://webp.debuginn.com/20260607wsFhmF.png"
+src = "https://static.debuginn.com/20260607wsFhmF.png"
 alt = "iAssets 機能ショーケース メイン"
 
 [[home.features.showcase.images]]
-src = "https://webp.debuginn.com/20260607JN6voy.png"
+src = "https://static.debuginn.com/20260607JN6voy.png"
 alt = "iAssets 機能ショーケース サブ"
 
 [[home.features.showcase.images]]
-src = "https://webp.debuginn.com/20260607CsckaU.png"
+src = "https://static.debuginn.com/20260607CsckaU.png"
 alt = "iAssets 機能ショーケース 補助"
 
 [[home.features.items]]
@@ -157,23 +157,23 @@ durations = ["68s", "76s", "72s", "80s"]
 delays = ["0s", "-3s", "-8s", "-6s"]
 
 [[home.download.backdrop.images]]
-src = "https://webp.debuginn.com/20260607JN6voy.png"
+src = "https://static.debuginn.com/20260607JN6voy.png"
 alt = "iAssets ダウンロード背景 1"
 
 [[home.download.backdrop.images]]
-src = "https://webp.debuginn.com/202606075qhgPu.png"
+src = "https://static.debuginn.com/202606075qhgPu.png"
 alt = "iAssets ダウンロード背景 2"
 
 [[home.download.backdrop.images]]
-src = "https://webp.debuginn.com/20260607gfXR35.png"
+src = "https://static.debuginn.com/20260607gfXR35.png"
 alt = "iAssets ダウンロード背景 3"
 
 [[home.download.backdrop.images]]
-src = "https://webp.debuginn.com/20260607tGPD3a.png"
+src = "https://static.debuginn.com/20260607tGPD3a.png"
 alt = "iAssets ダウンロード背景 4"
 
 [[home.download.backdrop.images]]
-src = "https://webp.debuginn.com/20260607CsckaU.png"
+src = "https://static.debuginn.com/20260607CsckaU.png"
 alt = "iAssets ダウンロード背景 5"
 
 [home.reviews]
@@ -313,7 +313,7 @@ description = "著名な銀行・証券金融プラットフォームと連携�
 
 [home.trust.tracks]
 [[home.trust.tracks.primary]]
-src = "https://webp.debuginn.com/20260607PRQOHB.webp"
+src = "https://static.debuginn.com/20260607PRQOHB.webp"
 alt = "HSBC China logo"
 name = "HSBC"
 
@@ -338,9 +338,19 @@ alt = "Interactive Brokers logo"
 name = "IBKR"
 
 [[home.trust.tracks.primary]]
-src = "/assets/trust-logos/hang-seng-bank.webp"
-alt = "Hang Seng Bank logo"
-name = "Hang Seng Bank"
+src = "/assets/trust-logos/galaxy-securities.png"
+alt = "China Galaxy Securities logo"
+name = "China Galaxy Securities"
+
+[[home.trust.tracks.primary]]
+src = "/assets/trust-logos/gf-securities.png"
+alt = "GF Securities logo"
+name = "GF Securities"
+
+[[home.trust.tracks.primary]]
+src = "/assets/trust-logos/dongguan-securities.png"
+alt = "Dongguan Securities logo"
+name = "Dongguan Securities"
 
 [[home.trust.tracks.secondary]]
 src = "/assets/trust-logos/hang-seng-bank.webp"
@@ -348,29 +358,24 @@ alt = "Hang Seng Bank logo"
 name = "Hang Seng Bank"
 
 [[home.trust.tracks.secondary]]
-src = "/assets/trust-logos/ibkr.webp"
-alt = "Interactive Brokers logo"
-name = "IBKR"
+src = "/assets/trust-logos/starryblu.png"
+alt = "Starryblu logo"
+name = "Starryblu"
 
 [[home.trust.tracks.secondary]]
-src = "/assets/trust-logos/charles-schwab.svg"
-alt = "Charles Schwab logo"
-name = "Charles Schwab"
+src = "/assets/trust-logos/panda-remit.png"
+alt = "Panda Remit logo"
+name = "Panda Remit"
 
 [[home.trust.tracks.secondary]]
-src = "/assets/trust-logos/dbs-bank.webp"
-alt = "DBS Bank logo"
-name = "DBS Bank"
+src = "/assets/trust-logos/flybay-mark.webp"
+alt = "FlyBay logo"
+name = "flyBay"
 
 [[home.trust.tracks.secondary]]
-src = "/assets/trust-logos/standard-chartered.webp"
-alt = "Standard Chartered China logo"
-name = "Standard Chartered Bank"
-
-[[home.trust.tracks.secondary]]
-src = "https://webp.debuginn.com/20260607PRQOHB.webp"
-alt = "HSBC China logo"
-name = "HSBC"
+src = "/assets/trust-logos/plural-atlas.webp"
+alt = "Plural Atlas logo"
+name = "Plural Atlas"
 
 [[home.trust.actions]]
 type = "mailto"

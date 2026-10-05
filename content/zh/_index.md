@@ -10,23 +10,23 @@ title = "快速掌握你的资产全景、守护你的财富"
 description = "这是一款可视化资产管理工具，同时支持家庭资产管理。资产、负债、结构、目标和趋势一屏可见。"
 
 [[home.hero.fanImages]]
-src = "https://webp.debuginn.com/20260607bKUTA5.png"
+src = "https://static.debuginn.com/20260607bKUTA5.png"
 alt = "知盈 应用截图 1"
 
 [[home.hero.fanImages]]
-src = "https://webp.debuginn.com/20260607RB4DlU.png"
+src = "/assets/screenshots/iassets-261005-stock-search.png"
 alt = "知盈 应用截图 2"
 
 [[home.hero.fanImages]]
-src = "https://webp.debuginn.com/20260607pbC8BI.png"
+src = "https://static.debuginn.com/20260607pbC8BI.png"
 alt = "知盈 应用截图 3"
 
 [[home.hero.fanImages]]
-src = "https://webp.debuginn.com/20260607Z4kek6.png"
+src = "/assets/screenshots/iassets-261005-ai.png"
 alt = "知盈 应用截图 4"
 
 [[home.hero.fanImages]]
-src = "https://webp.debuginn.com/20260607qszD9v.png"
+src = "/assets/screenshots/iassets-261005-family-sharing.png"
 alt = "知盈 应用截图 5"
 
 [[home.hero.cards]]
@@ -54,15 +54,15 @@ description = "不是泛记账，而是资产结构分析、风险感知和长�
 
 [home.features.showcase]
 [[home.features.showcase.images]]
-src = "https://webp.debuginn.com/20260607wsFhmF.png"
+src = "https://static.debuginn.com/20260607wsFhmF.png"
 alt = "知盈 功能展示主截图"
 
 [[home.features.showcase.images]]
-src = "https://webp.debuginn.com/20260607bKUTA5.png"
+src = "https://static.debuginn.com/20260607bKUTA5.png"
 alt = "知盈 功能展示辅助截图"
 
 [[home.features.showcase.images]]
-src = "https://webp.debuginn.com/20260607qszD9v.png"
+src = "https://static.debuginn.com/20260607qszD9v.png"
 alt = "知盈 功能展示补充截图"
 
 [[home.features.items]]
@@ -158,23 +158,23 @@ durations = ["68s", "76s", "72s", "80s"]
 delays = ["0s", "-3s", "-8s", "-6s"]
 
 [[home.download.backdrop.images]]
-src = "https://webp.debuginn.com/20260607bKUTA5.png"
+src = "https://static.debuginn.com/20260607bKUTA5.png"
 alt = "知盈 下载背景 1"
 
 [[home.download.backdrop.images]]
-src = "https://webp.debuginn.com/20260607RB4DlU.png"
+src = "/assets/screenshots/iassets-261005-stock-search.png"
 alt = "知盈 下载背景 2"
 
 [[home.download.backdrop.images]]
-src = "https://webp.debuginn.com/20260607pbC8BI.png"
+src = "https://static.debuginn.com/20260607pbC8BI.png"
 alt = "知盈 下载背景 3"
 
 [[home.download.backdrop.images]]
-src = "https://webp.debuginn.com/20260607Z4kek6.png"
+src = "/assets/screenshots/iassets-261005-ai.png"
 alt = "知盈 下载背景 4"
 
 [[home.download.backdrop.images]]
-src = "https://webp.debuginn.com/20260607qszD9v.png"
+src = "/assets/screenshots/iassets-261005-family-sharing.png"
 alt = "知盈 下载背景 5"
 
 [home.reviews]
@@ -314,74 +314,74 @@ description = "与知名银行与证券金融平台合作，做看得懂，用�
 
 [home.trust.tracks]
 [[home.trust.tracks.primary]]
-src = "https://webp.debuginn.com/20260607VkvnrY.webp"
+src = "https://static.debuginn.com/20260607VkvnrY.webp"
 alt = "HF Bank logo"
 name = "HF Bank"
 
 [[home.trust.tracks.primary]]
-src = "https://webp.debuginn.com/202606079PfBTQ.webp"
+src = "https://static.debuginn.com/202606079PfBTQ.webp"
 alt = "ZA Bank logo"
 name = "ZA Bank"
 
 [[home.trust.tracks.primary]]
-src = "https://webp.debuginn.com/20260607dIw87p.webp"
+src = "https://static.debuginn.com/20260607dIw87p.webp"
 alt = "Fuxi Securities logo"
 name = "Fuxi Securities"
 
 [[home.trust.tracks.primary]]
-src = "https://webp.debuginn.com/20260607PRQOHB.webp"
+src = "https://static.debuginn.com/20260607PRQOHB.webp"
 alt = "HSBC China logo"
 name = "HSBC China"
 
 [[home.trust.tracks.primary]]
-src = "https://webp.debuginn.com/20260607TDtXFC.webp"
+src = "https://static.debuginn.com/20260607TDtXFC.webp"
 alt = "Zhufu Securities logo"
 name = "Zhufu Securities"
 
 [[home.trust.tracks.primary]]
-src = "https://webp.debuginn.com/20260607HKBV4D.webp"
+src = "https://static.debuginn.com/20260607HKBV4D.webp"
 alt = "Macau Ant Bank logo"
 name = "Macau Ant Bank"
 
 [[home.trust.tracks.primary]]
+src = "/assets/trust-logos/galaxy-securities.png"
+alt = "China Galaxy Securities logo"
+name = "中国银河证券"
+
+[[home.trust.tracks.primary]]
+src = "/assets/trust-logos/gf-securities.png"
+alt = "GF Securities logo"
+name = "广发证券"
+
+[[home.trust.tracks.primary]]
+src = "/assets/trust-logos/dongguan-securities.png"
+alt = "Dongguan Securities logo"
+name = "东莞证券"
+
+[[home.trust.tracks.secondary]]
 src = "/assets/trust-logos/standard-chartered.webp"
 alt = "Standard Chartered China logo"
 name = "渣打银行"
 
 [[home.trust.tracks.secondary]]
-src = "/assets/trust-logos/standard-chartered.webp"
-alt = "Standard Chartered China logo"
-name = "渣打银行"
+src = "/assets/trust-logos/starryblu.png"
+alt = "Starryblu logo"
+name = "Starryblu"
 
 [[home.trust.tracks.secondary]]
-src = "https://webp.debuginn.com/20260607HKBV4D.webp"
-alt = "Macau Ant Bank logo"
-name = "Macau Ant Bank"
+src = "/assets/trust-logos/panda-remit.png"
+alt = "Panda Remit logo"
+name = "熊猫速汇"
 
 [[home.trust.tracks.secondary]]
-src = "https://webp.debuginn.com/20260607TDtXFC.webp"
-alt = "Zhufu Securities logo"
-name = "Zhufu Securities"
+src = "/assets/trust-logos/flybay-mark.webp"
+alt = "FlyBay logo"
+name = "飞湾计划"
 
 [[home.trust.tracks.secondary]]
-src = "https://webp.debuginn.com/20260607PRQOHB.webp"
-alt = "HSBC China logo"
-name = "HSBC China"
-
-[[home.trust.tracks.secondary]]
-src = "https://webp.debuginn.com/20260607dIw87p.webp"
-alt = "Fuxi Securities logo"
-name = "Fuxi Securities"
-
-[[home.trust.tracks.secondary]]
-src = "https://webp.debuginn.com/202606079PfBTQ.webp"
-alt = "ZA Bank logo"
-name = "ZA Bank"
-
-[[home.trust.tracks.secondary]]
-src = "https://webp.debuginn.com/20260607VkvnrY.webp"
-alt = "HF Bank logo"
-name = "HF Bank"
+src = "/assets/trust-logos/plural-atlas.webp"
+alt = "Plural Atlas logo"
+name = "多元派"
 
 [[home.trust.actions]]
 type = "mailto"

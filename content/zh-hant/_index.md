@@ -10,23 +10,23 @@ title = "快速掌握你的資產全景、守護你的財富"
 description = "這是一款可視化資產管理工具，同時支援家庭資產管理。資產、負債、結構、目標和趨勢一屏可見。"
 
 [[home.hero.fanImages]]
-src = "https://webp.debuginn.com/20260607pShHvR.png"
+src = "https://static.debuginn.com/20260607pShHvR.png"
 alt = "iAssets 應用截圖 1"
 
 [[home.hero.fanImages]]
-src = "https://webp.debuginn.com/202606073Gf3P1.png"
+src = "https://static.debuginn.com/202606073Gf3P1.png"
 alt = "iAssets 應用截圖 2"
 
 [[home.hero.fanImages]]
-src = "https://webp.debuginn.com/20260607hdZQxU.png"
+src = "https://static.debuginn.com/20260607hdZQxU.png"
 alt = "iAssets 應用截圖 3"
 
 [[home.hero.fanImages]]
-src = "https://webp.debuginn.com/202606070Jqr0R.png"
+src = "https://static.debuginn.com/202606070Jqr0R.png"
 alt = "iAssets 應用截圖 4"
 
 [[home.hero.fanImages]]
-src = "https://webp.debuginn.com/202606076g7SD8.png"
+src = "https://static.debuginn.com/202606076g7SD8.png"
 alt = "iAssets 應用截圖 5"
 
 [[home.hero.cards]]
@@ -53,15 +53,15 @@ title = "圍繞家庭資產管理而設計。"
 description = "不是泛記帳，而是資產結構分析、風險感知和長期目標追蹤。"
 [home.features.showcase]
 [[home.features.showcase.images]]
-src = "https://webp.debuginn.com/20260607wsFhmF.png"
+src = "https://static.debuginn.com/20260607wsFhmF.png"
 alt = "iAssets 功能展示主截圖"
 
 [[home.features.showcase.images]]
-src = "https://webp.debuginn.com/20260607pShHvR.png"
+src = "https://static.debuginn.com/20260607pShHvR.png"
 alt = "iAssets 功能展示輔助截圖"
 
 [[home.features.showcase.images]]
-src = "https://webp.debuginn.com/202606076g7SD8.png"
+src = "https://static.debuginn.com/202606076g7SD8.png"
 alt = "iAssets 功能展示補充截圖"
 
 [[home.features.items]]
@@ -157,23 +157,23 @@ durations = ["68s", "76s", "72s", "80s"]
 delays = ["0s", "-3s", "-8s", "-6s"]
 
 [[home.download.backdrop.images]]
-src = "https://webp.debuginn.com/20260607pShHvR.png"
+src = "https://static.debuginn.com/20260607pShHvR.png"
 alt = "iAssets 下載背景 1"
 
 [[home.download.backdrop.images]]
-src = "https://webp.debuginn.com/202606073Gf3P1.png"
+src = "https://static.debuginn.com/202606073Gf3P1.png"
 alt = "iAssets 下載背景 2"
 
 [[home.download.backdrop.images]]
-src = "https://webp.debuginn.com/20260607hdZQxU.png"
+src = "https://static.debuginn.com/20260607hdZQxU.png"
 alt = "iAssets 下載背景 3"
 
 [[home.download.backdrop.images]]
-src = "https://webp.debuginn.com/202606070Jqr0R.png"
+src = "https://static.debuginn.com/202606070Jqr0R.png"
 alt = "iAssets 下載背景 4"
 
 [[home.download.backdrop.images]]
-src = "https://webp.debuginn.com/202606076g7SD8.png"
+src = "https://static.debuginn.com/202606076g7SD8.png"
 alt = "iAssets 下載背景 5"
 
 [home.reviews]
@@ -338,14 +338,24 @@ alt = "Bank of China Hong Kong logo"
 name = "中國銀行（香港）"
 
 [[home.trust.tracks.primary]]
-src = "https://webp.debuginn.com/20260607HKBV4D.webp"
+src = "https://static.debuginn.com/20260607HKBV4D.webp"
 alt = "Macau Ant Bank logo"
 name = "Macau Ant Bank"
 
 [[home.trust.tracks.primary]]
-src = "/assets/trust-logos/ibkr.webp"
-alt = "Interactive Brokers logo"
-name = "IBKR"
+src = "/assets/trust-logos/galaxy-securities.png"
+alt = "China Galaxy Securities logo"
+name = "中國銀河證券"
+
+[[home.trust.tracks.primary]]
+src = "/assets/trust-logos/gf-securities.png"
+alt = "GF Securities logo"
+name = "廣發證券"
+
+[[home.trust.tracks.primary]]
+src = "/assets/trust-logos/dongguan-securities.png"
+alt = "Dongguan Securities logo"
+name = "東莞證券"
 
 [[home.trust.tracks.secondary]]
 src = "/assets/trust-logos/ibkr.webp"
@@ -353,34 +363,24 @@ alt = "Interactive Brokers logo"
 name = "IBKR"
 
 [[home.trust.tracks.secondary]]
-src = "https://webp.debuginn.com/20260607HKBV4D.webp"
-alt = "Macau Ant Bank logo"
-name = "Macau Ant Bank"
+src = "/assets/trust-logos/starryblu.png"
+alt = "Starryblu logo"
+name = "Starryblu"
 
 [[home.trust.tracks.secondary]]
-src = "/assets/trust-logos/boc-hk.webp"
-alt = "Bank of China Hong Kong logo"
-name = "中國銀行（香港）"
+src = "/assets/trust-logos/panda-remit.png"
+alt = "Panda Remit logo"
+name = "熊貓速匯"
 
 [[home.trust.tracks.secondary]]
-src = "/assets/trust-logos/hsbc-hk.webp"
-alt = "HSBC Hong Kong logo"
-name = "HSBC 香港"
+src = "/assets/trust-logos/flybay-mark.webp"
+alt = "FlyBay logo"
+name = "飛灣計劃"
 
 [[home.trust.tracks.secondary]]
-src = "/assets/trust-logos/standard-chartered.webp"
-alt = "Standard Chartered China logo"
-name = "渣打銀行"
-
-[[home.trust.tracks.secondary]]
-src = "/assets/trust-logos/dbs-bank.webp"
-alt = "DBS Bank logo"
-name = "星展銀行"
-
-[[home.trust.tracks.secondary]]
-src = "/assets/trust-logos/hang-seng-bank.webp"
-alt = "Hang Seng Bank logo"
-name = "恒生銀行"
+src = "/assets/trust-logos/plural-atlas.webp"
+alt = "Plural Atlas logo"
+name = "多元派"
 
 [[home.trust.actions]]
 type = "mailto"
