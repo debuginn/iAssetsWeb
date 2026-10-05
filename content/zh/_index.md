@@ -22,11 +22,11 @@ src = "https://static.debuginn.com/20260607pbC8BI.png"
 alt = "知盈 应用截图 3"
 
 [[home.hero.fanImages]]
-src = "https://static.debuginn.com/20260607Z4kek6.png"
+src = "/assets/screenshots/iassets-261005-ai.png"
 alt = "知盈 应用截图 4"
 
 [[home.hero.fanImages]]
-src = "https://static.debuginn.com/20260607qszD9v.png"
+src = "/assets/screenshots/iassets-261005-family-sharing.png"
 alt = "知盈 应用截图 5"
 
 [[home.hero.cards]]
@@ -170,11 +170,11 @@ src = "https://static.debuginn.com/20260607pbC8BI.png"
 alt = "知盈 下载背景 3"
 
 [[home.download.backdrop.images]]
-src = "https://static.debuginn.com/20260607Z4kek6.png"
+src = "/assets/screenshots/iassets-261005-ai.png"
 alt = "知盈 下载背景 4"
 
 [[home.download.backdrop.images]]
-src = "https://static.debuginn.com/20260607qszD9v.png"
+src = "/assets/screenshots/iassets-261005-family-sharing.png"
 alt = "知盈 下载背景 5"
 
 [home.reviews]
