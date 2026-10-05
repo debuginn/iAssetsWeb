@@ -1,140 +1,140 @@
 +++
-title = "iAssets - Understand your family balance sheet at a glance."
-description = "A visual asset management app for households. Assets, liabilities, structure, goals, and trends in one clear view."
+title = "iAssets - Your assets, in one clear view."
+description = "Bring accounts, investments and liabilities into one view. Record changes, ask AI about your finances, and manage shared books with your family."
 keywords = "iAssets,asset management,family finance,net worth tracker,budget app"
 type = "home"
 
 [home.hero]
 eyebrow = "iAssets"
-title = "Understand your family balance sheet at a glance."
-description = "A visual asset management tool that also supports family asset management. Assets, liabilities, structure, goals, and trends are visible on one screen."
+title = "Your assets, in one clear view."
+description = "Bring accounts, investments and liabilities into one view. Record changes, ask AI about your finances, and manage shared books with your family."
 
 [[home.hero.fanImages]]
-src = "https://static.debuginn.com/20260607oxATMJ.png"
+src = "/assets/local/20260607oxATMJ.png"
 alt = "iAssets app screenshot 1"
 
 [[home.hero.fanImages]]
-src = "https://static.debuginn.com/20260607x261Or.png"
+src = "/assets/local/20260607x261Or.png"
 alt = "iAssets app screenshot 2"
 
 [[home.hero.fanImages]]
-src = "https://static.debuginn.com/20260607mYOA0a.png"
+src = "/assets/local/20260607mYOA0a.png"
 alt = "iAssets app screenshot 3"
 
 [[home.hero.fanImages]]
-src = "https://static.debuginn.com/20260607w1hCJY.png"
+src = "/assets/local/20260607w1hCJY.png"
 alt = "iAssets app screenshot 4"
 
 [[home.hero.fanImages]]
-src = "https://static.debuginn.com/20260607oxGqYA.png"
+src = "/assets/local/20260607oxGqYA.png"
 alt = "iAssets app screenshot 5"
 
 [[home.hero.cards]]
 number = "01"
-icon = "hero-quick"
-title = "Capture changes fast"
-description = "Log account updates in seconds."
+icon = "feature-overview"
+title = "See your balance sheet"
+description = "Assets, net worth and liabilities at a glance."
 
 [[home.hero.cards]]
 number = "02"
 icon = "hero-books"
-title = "Organize with books"
-description = "Manage household, personal and goal books."
+title = "Manage money together"
+description = "Keep personal books separate and share family books."
 
 [[home.hero.cards]]
 number = "03"
 icon = "hero-search"
-title = "Search and filter"
-description = "Find target accounts in seconds."
+title = "Ask about your assets"
+description = "Find accounts, review changes and get a summary."
 
 [home.features]
 eyebrow = "Features"
-title = "Designed for household asset management."
-description = "Not generic bookkeeping. It is built for structure, risk and long-term goals."
-
-[home.features.showcase]
-[[home.features.showcase.images]]
-src = "https://static.debuginn.com/20260607wsFhmF.png"
-alt = "iAssets feature showcase main screenshot"
-
-[[home.features.showcase.images]]
-src = "https://static.debuginn.com/20260607oxGqYA.png"
-alt = "iAssets feature showcase secondary screenshot"
-
-[[home.features.showcase.images]]
-src = "https://static.debuginn.com/20260607oxATMJ.png"
-alt = "iAssets feature showcase supporting screenshot"
+title = "From personal accounts to the family balance sheet."
+description = "Track, value, review and collaborate in one app. AI and family sharing continue to evolve; availability follows your app version."
 
 [[home.features.items]]
 number = "01"
 icon = "feature-overview"
-title = "Asset overview"
-description = "See total assets, net assets and liabilities in one page."
+title = "Assets and net worth"
+description = "Understand asset allocation, ownership and currency exposure in one view."
 
 [[home.features.items]]
 number = "02"
-icon = "feature-structure"
-title = "Structure and currency"
-description = "Structure and currency cards help spot allocation bias."
+icon = "feature-trend"
+title = "Investments and quotes"
+description = "Track stocks, funds, ETFs, precious metals and crypto with available market valuations."
 
 [[home.features.items]]
 number = "03"
-icon = "feature-trend"
-title = "Flow and trend"
-description = "Track net-worth rhythm and detect risks earlier."
+icon = "feature-structure"
+title = "A clear view of debt"
+description = "Bring credit cards, loans and other payables together with a dedicated liability card."
 
 [[home.features.items]]
 number = "04"
 icon = "feature-books"
-title = "Multi-book management"
-description = "Default and multiple books can run together."
+title = "Multiple books, free to organize"
+description = "Create personal, family or goal books and assign accounts to their owners."
 
 [[home.features.items]]
 number = "05"
 icon = "feature-family"
-title = "Family collaboration"
-description = "Member management and sharing for multi-person workflows."
+title = "One shared family book"
+description = "Invite family through iCloud to view or manage accounts and changes according to their permissions."
 
 [[home.features.items]]
 number = "06"
-icon = "feature-security"
-title = "Privacy and security"
-description = "Passcode, biometric unlock and auto-lock."
+icon = "hero-search"
+title = "An AI asset assistant"
+description = "Ask by text or voice to find accounts, review large changes or summarize your finances. Confirm data edits before they run."
+
+[home.features.showcase]
+[[home.features.showcase.images]]
+src = "/assets/local/20260607wsFhmF.png"
+alt = "iAssets feature showcase main screenshot"
+
+[[home.features.showcase.images]]
+src = "/assets/local/20260607oxGqYA.png"
+alt = "iAssets feature showcase secondary screenshot"
+
+[[home.features.showcase.images]]
+src = "/assets/local/20260607oxATMJ.png"
+alt = "iAssets feature showcase supporting screenshot"
 
 [home.details]
-eyebrow = "Product details"
-title = "Start long-term asset review today."
-description = "Aggregate scattered data into one coherent view."
+eyebrow = "Everyday tracking"
+title = "Keep everyday records. Understand long-term changes."
+description = "From a balance adjustment to a monthly review, keep the history and views you need."
 
 [[home.details.items]]
-icon = "detail-account"
-title = "Multi-type accounts"
-description = "Support cash, investments, fixed, receivable, payable, and loans."
-
-[[home.details.items]]
-icon = "detail-target"
-title = "Goal card"
-description = "Auto-calculate remaining amount to keep goals actionable."
+icon = "hero-quick"
+title = "History and calendar"
+description = "Review account changes by date, with trends and a calendar for context."
 
 [[home.details.items]]
 icon = "detail-currency"
-title = "FX support"
-description = "Optional base currency for multi-currency assets."
+title = "Multi-currency totals"
+description = "Keep each account in its original currency and view totals in your chosen base currency."
 
 [[home.details.items]]
-icon = "detail-share"
-title = "Book sharing"
-description = "Family members can co-maintain one data set."
+icon = "detail-target"
+title = "Goals and progress"
+description = "Set an asset goal and see progress and the amount still needed."
 
 [[home.details.items]]
 icon = "detail-cards"
-title = "Card management"
-description = "Customize card order and visibility on home screen."
+title = "A dashboard that fits you"
+description = "Choose card order and visibility, with donut or pie charts for distributions."
 
 [[home.details.items]]
 icon = "detail-lock"
-title = "Local-first"
-description = "Data is local by default with optional iCloud sync."
+title = "Privacy and access controls"
+description = "Use passcode, biometrics and auto-lock. AI requests go to the model service you configure."
+
+[[home.details.items]]
+icon = "feature-books"
+title = "Sync and backup"
+description = "Everyday records stay local. Pro adds optional iCloud sync and cloud backup."
 
 [home.download]
 eyebrow = "Download"
@@ -158,26 +158,27 @@ durations = ["68s", "76s", "72s", "80s"]
 delays = ["0s", "-3s", "-8s", "-6s"]
 
 [[home.download.backdrop.images]]
-src = "https://static.debuginn.com/20260607oxATMJ.png"
+src = "/assets/local/20260607oxATMJ.png"
 alt = "iAssets download backdrop 1"
 
 [[home.download.backdrop.images]]
-src = "https://static.debuginn.com/20260607x261Or.png"
+src = "/assets/local/20260607x261Or.png"
 alt = "iAssets download backdrop 2"
 
 [[home.download.backdrop.images]]
-src = "https://static.debuginn.com/20260607mYOA0a.png"
+src = "/assets/local/20260607mYOA0a.png"
 alt = "iAssets download backdrop 3"
 
 [[home.download.backdrop.images]]
-src = "https://static.debuginn.com/20260607w1hCJY.png"
+src = "/assets/local/20260607w1hCJY.png"
 alt = "iAssets download backdrop 4"
 
 [[home.download.backdrop.images]]
-src = "https://static.debuginn.com/20260607oxGqYA.png"
+src = "/assets/local/20260607oxGqYA.png"
 alt = "iAssets download backdrop 5"
 
 [home.reviews]
+disabled = true
 eyebrow = "Reviews"
 title = "People build better financial habits with iAssets."
 description = "From recording one item to understanding full trends."
@@ -245,14 +246,14 @@ text = "長期目標拆成可追蹤里程碑後，整個理財節奏更穩定。
 
 [home.pricingcompare]
 eyebrow = "Pricing"
-title = "Affordable pricing, continuous updates."
-description = "Start free, then unlock Pro whenever you need multi-book, family and sync. Yearly payment is recommended to support sustainable development, and lifetime purchase is also available."
-disclaimer = "* Prices vary by region and promotions. The actual price shown in the app download flow applies."
+title = "Start free. Choose Pro when you need more."
+description = "Multiple books and family member management are free. Choose yearly or lifetime Pro for iCloud sync, shared family books and market data."
+disclaimer = "Prices vary by region and promotion. The in-app purchase screen shows the final price. AI requires a configured model service, which may charge separately."
 
 [[home.pricingcompare.columns]]
 title = "Free"
 price = "0"
-description = "Everything you need to get started."
+description = "Manage accounts, multiple books and family members."
 
 [home.pricingcompare.columns.cta]
 label = "Get started"
@@ -292,29 +293,38 @@ values = [true, true, true]
 
 [[home.pricingcompare.rows]]
 label = "Account books"
-values = ["1 book", "Unlimited", "Unlimited"]
+values = ["Unlimited", "Unlimited", "Unlimited"]
 
 [[home.pricingcompare.rows]]
 label = "iCloud sync across devices"
 values = [false, true, true]
 
 [[home.pricingcompare.rows]]
-label = "Family sharing"
+label = "Family member management"
+values = [true, true, true]
+
+[[home.pricingcompare.rows]]
+label = "Shared family books via iCloud"
 values = [false, true, true]
 
 [[home.pricingcompare.rows]]
-label = "Live market data"
+label = "Market quotes and valuations"
 note = "Stocks, funds, metals and crypto"
 values = [false, true, true]
 
+[[home.pricingcompare.rows]]
+label = "AI asset assistant"
+note = "Bring your own model service; provider charges may apply"
+values = [true, true, true]
+
 [home.trust]
-eyebrow = "TRUST"
-title = "Trusted by leading banks and finance platforms"
-description = "Partnering with well-known banks and securities platforms to build affordable software that is easy to understand and use."
+eyebrow = "Ecosystem"
+title = "Banks, platforms and ecosystem partners"
+description = "Explore related banks, finance platforms and community projects."
 
 [home.trust.tracks]
 [[home.trust.tracks.primary]]
-src = "https://static.debuginn.com/20260607PRQOHB.webp"
+src = "/assets/local/20260607PRQOHB.webp"
 alt = "HSBC China logo"
 name = "HSBC"
 
@@ -391,36 +401,36 @@ style = "btn-ghost"
 
 [home.faq]
 eyebrow = "FAQ"
-title = "Frequently asked questions"
-description = "If you have questions, start here."
+title = "Before you get started."
 
 [[home.faq.items]]
 icon = "faq"
-question = "Which languages are supported?"
-answer = "Same as iAssets app: zh-Hans, zh-Hant-TW, zh-Hant-HK, zh-Hant-MO, zh-Hant-SG, English, Japanese, Korean."
+question = "What can I do for free?"
+answer = "Manage multi-currency accounts, multiple books and family members. iCloud sync, shared family books and market data require Pro."
 
 [[home.faq.items]]
 icon = "faq"
-question = "Does it work offline?"
-answer = "Yes. You can create and edit offline, then sync when online."
+question = "How do I use the AI assistant?"
+answer = "Configure a supported model service and API key in Settings, then ask by text or voice. Data edits require confirmation. Check AI responses against your original records."
 
 [[home.faq.items]]
 icon = "faq"
-question = "Where is data stored?"
-answer = "Local-first by default, with optional iCloud sync."
+question = "Is my data sent to AI?"
+answer = "When you use AI, your question and the asset context needed for it are sent to your configured model service. Regular records are stored locally, with optional iCloud features."
 
 [[home.faq.items]]
 icon = "faq"
-question = "Can a family collaborate?"
-answer = "Yes. Family mode supports members and shared books."
+question = "How is family management different from sharing?"
+answer = "Family management organizes members and account ownership. Sharing invites others through iCloud to access the same book with assigned permissions."
 
 [[home.faq.items]]
 icon = "faq"
-question = "Is Android supported?"
-answer = "Currently focused on Apple ecosystem."
+question = "Are investment quotes real-time?"
+answer = "Multiple stock markets, funds, ETFs, metals and crypto are supported. Coverage, delays and refresh intervals depend on the market and data source."
 
 [[home.faq.items]]
 icon = "faq"
-question = "How do I start?"
-answer = "Download the app and create your first book."
+question = "Which devices and languages are supported?"
+answer = "Built for the Apple ecosystem with Simplified Chinese, Traditional Chinese, English, Japanese and Korean. The app is named 知盈 in mainland China and iAssets elsewhere."
+
 +++

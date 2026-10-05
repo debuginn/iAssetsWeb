@@ -1,139 +1,140 @@
 +++
-title = "iAssets - 가족 자산 전경을 빠르게 파악하세요."
-description = "가족 자산을 시각적으로 관리하는 앱입니다. 자산, 부채, 구조, 목표, 추이를 한 화면에서 확인하세요."
+title = "iAssets - 나와 가족의 자산을 한눈에."
+description = "계좌, 투자, 부채를 한곳에서 확인하세요. 변동을 기록하고 AI에 질문하며 가족과 공유 장부를 관리할 수 있습니다."
 keywords = "iAssets,자산관리,가계관리,순자산,가족자산"
 type = "home"
 
 [home.hero]
 eyebrow = "iAssets"
-title = "가족 자산 전경을 빠르게 파악하세요."
-description = "시각화된 자산 관리 도구이며, 가족 자산 관리도 지원합니다. 자산, 부채, 구조, 목표, 추이를 한 화면에서 확인할 수 있습니다."
+title = "나와 가족의 자산을 한눈에."
+description = "계좌, 투자, 부채를 한곳에서 확인하세요. 변동을 기록하고 AI에 질문하며 가족과 공유 장부를 관리할 수 있습니다."
 
 [[home.hero.fanImages]]
-src = "https://static.debuginn.com/20260607m36j4k.png"
+src = "/assets/local/20260607m36j4k.png"
 alt = "iAssets 앱 스크린샷 1"
 
 [[home.hero.fanImages]]
-src = "https://static.debuginn.com/20260607UO3rBX.png"
+src = "/assets/local/20260607UO3rBX.png"
 alt = "iAssets 앱 스크린샷 2"
 
 [[home.hero.fanImages]]
-src = "https://static.debuginn.com/2026060759XSmK.png"
+src = "/assets/local/2026060759XSmK.png"
 alt = "iAssets 앱 스크린샷 3"
 
 [[home.hero.fanImages]]
-src = "https://static.debuginn.com/20260607WA8EHo.png"
+src = "/assets/local/20260607WA8EHo.png"
 alt = "iAssets 앱 스크린샷 4"
 
 [[home.hero.fanImages]]
-src = "https://static.debuginn.com/20260607wz6nlT.png"
+src = "/assets/local/20260607wz6nlT.png"
 alt = "iAssets 앱 스크린샷 5"
 
 [[home.hero.cards]]
 number = "01"
-icon = "hero-quick"
-title = "변동 즉시 기록"
-description = "계정 잔액 변화를 빠르게 입력."
+icon = "feature-overview"
+title = "자산 전체 보기"
+description = "총자산, 순자산, 부채를 한눈에 확인."
 
 [[home.hero.cards]]
 number = "02"
 icon = "hero-books"
-title = "장부 컬렉션 정리"
-description = "가정/개인/목표 단위로 정리."
+title = "가족과 함께 관리"
+description = "개인 장부와 가족 공유 장부를 구분."
 
 [[home.hero.cards]]
 number = "03"
 icon = "hero-search"
-title = "검색과 필터"
-description = "목표 계정을 몇 초 만에 찾습니다."
+title = "AI에 질문하기"
+description = "계좌를 찾고 자산 변화를 요약."
 
 [home.features]
 eyebrow = "기능"
-title = "가족 자산 관리 중심 설계"
-description = "일반 가계부가 아니라 구조 분석과 장기 목표 추적에 최적화했습니다."
-[home.features.showcase]
-[[home.features.showcase.images]]
-src = "https://static.debuginn.com/20260607wsFhmF.png"
-alt = "iAssets 기능 쇼케이스 메인"
-
-[[home.features.showcase.images]]
-src = "https://static.debuginn.com/20260607m36j4k.png"
-alt = "iAssets 기능 쇼케이스 보조"
-
-[[home.features.showcase.images]]
-src = "https://static.debuginn.com/20260607wz6nlT.png"
-alt = "iAssets 기능 쇼케이스 지원"
+title = "개인 계좌부터 가족 전체의 자산까지."
+description = "기록, 평가, 검토, 공유를 하나의 앱에서. AI와 가족 공유는 계속 개선 중이며 기능은 앱 버전에 따라 다릅니다."
 
 [[home.features.items]]
 number = "01"
 icon = "feature-overview"
-title = "자산 요약"
-description = "총자산, 순자산, 부채를 한 화면에서 확인합니다."
+title = "자산과 순자산"
+description = "자산 구성, 가족별 소유 비율, 통화별 분포를 확인하세요."
 
 [[home.features.items]]
 number = "02"
-icon = "feature-structure"
-title = "구조/통화 분석"
-description = "구조 카드와 통화 카드로 편중을 파악합니다."
+icon = "feature-trend"
+title = "투자와 시세"
+description = "주식, 펀드, ETF, 귀금속, 암호화폐를 관리하고 제공되는 시세로 평가액을 갱신하세요."
 
 [[home.features.items]]
 number = "03"
-icon = "feature-trend"
-title = "흐름/추이"
-description = "순자산 변화 리듬을 계속 추적합니다."
+icon = "feature-structure"
+title = "부채를 명확하게"
+description = "신용카드, 대출, 기타 미지급금을 부채 카드로 모아 확인하세요."
 
 [[home.features.items]]
 number = "04"
 icon = "feature-books"
-title = "멀티 장부"
-description = "기본 장부와 멀티 장부를 함께 운영할 수 있습니다."
+title = "여러 장부를 무료로"
+description = "개인, 가족, 목표별 장부를 만들고 계좌 소유자를 관리하세요."
 
 [[home.features.items]]
 number = "05"
 icon = "feature-family"
-title = "가족 협업"
-description = "구성원 관리와 공유로 협업이 쉬워집니다."
+title = "가족 장부 공유"
+description = "iCloud로 가족을 초대하고 권한에 따라 계좌와 변동 내역을 조회하거나 관리하세요."
 
 [[home.features.items]]
 number = "06"
-icon = "feature-security"
-title = "보안/프라이버시"
-description = "암호, 생체인증, 자동 잠금을 지원합니다."
+icon = "hero-search"
+title = "AI 자산 도우미"
+description = "텍스트나 음성으로 계좌 검색, 큰 변동 확인, 자산 요약을 요청하세요. 데이터 변경은 먼저 확인합니다."
+
+[home.features.showcase]
+[[home.features.showcase.images]]
+src = "/assets/local/20260607wsFhmF.png"
+alt = "iAssets 기능 쇼케이스 메인"
+
+[[home.features.showcase.images]]
+src = "/assets/local/20260607m36j4k.png"
+alt = "iAssets 기능 쇼케이스 보조"
+
+[[home.features.showcase.images]]
+src = "/assets/local/20260607wz6nlT.png"
+alt = "iAssets 기능 쇼케이스 지원"
 
 [home.details]
-eyebrow = "Product details"
-title = "지금부터 장기 자산 리뷰를 시작하세요."
-description = "흩어진 데이터를 한 지표 체계로 통합합니다."
+eyebrow = "일상 관리"
+title = "매일 기록하고, 장기 변화를 이해하세요."
+description = "잔액 조정부터 월간 검토까지 필요한 기록과 관점을 유지합니다."
 
 [[home.details.items]]
-icon = "detail-account"
-title = "다양한 계정 유형"
-description = "자금, 투자, 고정, 채권, 채무, 대출 지원."
-
-[[home.details.items]]
-icon = "detail-target"
-title = "목표 카드"
-description = "남은 금액을 자동 계산해 실행력을 높입니다."
+icon = "hero-quick"
+title = "변동 내역과 달력"
+description = "날짜별 계좌 변동을 추이와 달력으로 확인하세요."
 
 [[home.details.items]]
 icon = "detail-currency"
-title = "환율 지원"
-description = "기준 통화를 선택해 통합 비교할 수 있습니다."
+title = "다중 통화 합계"
+description = "계좌의 원래 통화를 유지하면서 선택한 기준 통화로 합계를 확인하세요."
 
 [[home.details.items]]
-icon = "detail-share"
-title = "장부 공유"
-description = "가족 구성원이 같은 데이터를 함께 관리합니다."
+icon = "detail-target"
+title = "목표와 진행 상황"
+description = "자산 목표를 설정하고 진행률과 필요한 금액을 확인하세요."
 
 [[home.details.items]]
 icon = "detail-cards"
-title = "카드 관리"
-description = "홈 카드 순서와 표시 여부를 조절할 수 있습니다."
+title = "맞춤 홈 화면"
+description = "카드 순서와 표시를 바꾸고 도넛 또는 원형 차트를 선택하세요."
 
 [[home.details.items]]
 icon = "detail-lock"
-title = "로컬 우선"
-description = "기본은 로컬 저장, 필요 시 iCloud 동기화."
+title = "개인정보와 잠금"
+description = "암호, 생체 인증, 자동 잠금을 지원합니다. AI 요청은 설정한 모델 서비스로 전송됩니다."
+
+[[home.details.items]]
+icon = "feature-books"
+title = "동기화와 백업"
+description = "일상 기록은 기기에 저장됩니다. Pro에서 iCloud 동기화와 클라우드 백업을 사용할 수 있습니다."
 
 [home.download]
 eyebrow = "다운로드"
@@ -157,26 +158,27 @@ durations = ["68s", "76s", "72s", "80s"]
 delays = ["0s", "-3s", "-8s", "-6s"]
 
 [[home.download.backdrop.images]]
-src = "https://static.debuginn.com/20260607m36j4k.png"
+src = "/assets/local/20260607m36j4k.png"
 alt = "iAssets 다운로드 배경 1"
 
 [[home.download.backdrop.images]]
-src = "https://static.debuginn.com/20260607UO3rBX.png"
+src = "/assets/local/20260607UO3rBX.png"
 alt = "iAssets 다운로드 배경 2"
 
 [[home.download.backdrop.images]]
-src = "https://static.debuginn.com/2026060759XSmK.png"
+src = "/assets/local/2026060759XSmK.png"
 alt = "iAssets 다운로드 배경 3"
 
 [[home.download.backdrop.images]]
-src = "https://static.debuginn.com/20260607WA8EHo.png"
+src = "/assets/local/20260607WA8EHo.png"
 alt = "iAssets 다운로드 배경 4"
 
 [[home.download.backdrop.images]]
-src = "https://static.debuginn.com/20260607wz6nlT.png"
+src = "/assets/local/20260607wz6nlT.png"
 alt = "iAssets 다운로드 배경 5"
 
 [home.reviews]
+disabled = true
 eyebrow = "후기"
 title = "iAssets로 자산 습관이 달라집니다."
 description = "기록에서 전체 이해까지 빠르게 연결됩니다."
@@ -244,14 +246,14 @@ text = "長期目標拆成可追蹤里程碑後，整個理財節奏更穩定。
 
 [home.pricingcompare]
 eyebrow = "요금"
-title = "합리적인 가격, 지속적인 업데이트"
-description = "무료로 시작하고, 다중 계정부, 가족 공유, 동기화가 필요할 때 Pro를 해제하세요. 소프트웨어의 건강한 발전을 위해 연간 결제를 권장하며, 평생 구매도 지원합니다."
-disclaimer = "* 지역 및 프로모션에 따라 가격이 다를 수 있습니다. 실제 가격은 앱 다운로드 화면에 표시되는 금액이 적용됩니다."
+title = "무료로 시작하고, 필요할 때 Pro로."
+description = "여러 장부와 가족 구성원 관리는 무료입니다. iCloud 동기화, 가족 장부 공유, 시세 데이터는 연간 또는 평생 Pro에서 사용할 수 있습니다."
+disclaimer = "가격은 지역과 프로모션에 따라 다릅니다. 최종 가격은 앱 내 구매 화면을 확인하세요. AI 모델 서비스는 별도 요금이 발생할 수 있습니다."
 
 [[home.pricingcompare.columns]]
 title = "무료"
 price = "0"
-description = "일상적인 자산 관리를 바로 시작할 수 있습니다."
+description = "계좌, 여러 장부, 가족 구성원을 관리하세요."
 
 [home.pricingcompare.columns.cta]
 label = "무료로 시작하기"
@@ -291,29 +293,38 @@ values = [true, true, true]
 
 [[home.pricingcompare.rows]]
 label = "계정부 개수"
-values = ["1개", "무제한", "무제한"]
+values = ["무제한", "무제한", "무제한"]
 
 [[home.pricingcompare.rows]]
 label = "iCloud 기기 간 동기화"
 values = [false, true, true]
 
 [[home.pricingcompare.rows]]
-label = "가족 공유 관리"
+label = "가족 구성원 관리"
+values = [true, true, true]
+
+[[home.pricingcompare.rows]]
+label = "iCloud 가족 장부 공유"
 values = [false, true, true]
 
 [[home.pricingcompare.rows]]
-label = "실시간 시세 데이터"
+label = "시세와 평가액 갱신"
 note = "주식, 펀드, 귀금속, 암호화폐"
 values = [false, true, true]
 
+[[home.pricingcompare.rows]]
+label = "AI 자산 도우미"
+note = "모델 서비스를 직접 설정하며 제공업체 요금이 적용될 수 있습니다"
+values = [true, true, true]
+
 [home.trust]
-eyebrow = "TRUST"
-title = "선도적인 은행 및 금융 플랫폼이 신뢰합니다"
-description = "유명 은행 및 증권 금융 플랫폼과 협력해, 이해하기 쉽고 부담 없이 쓸 수 있는 소프트웨어를 만듭니다."
+eyebrow = "생태계"
+title = "은행, 금융 플랫폼과 관련 파트너"
+description = "관련 은행, 금융 플랫폼, 커뮤니티 프로젝트를 살펴보세요."
 
 [home.trust.tracks]
 [[home.trust.tracks.primary]]
-src = "https://static.debuginn.com/20260607PRQOHB.webp"
+src = "/assets/local/20260607PRQOHB.webp"
 alt = "HSBC China logo"
 name = "HSBC"
 
@@ -390,36 +401,36 @@ style = "btn-ghost"
 
 [home.faq]
 eyebrow = "자주 묻는 질문"
-title = "자주 묻는 질문"
-description = "궁금한 내용을 먼저 확인하세요."
+title = "시작하기 전에."
 
 [[home.faq.items]]
 icon = "faq"
-question = "어떤 언어를 지원하나요?"
-answer = "iAssets와 동일: 중국어 간체, 중국어 번체(대만/홍콩/마카오/싱가포르), 영어, 일본어, 한국어."
+question = "무료로 무엇을 할 수 있나요?"
+answer = "다중 통화 계좌, 여러 장부, 가족 구성원을 관리할 수 있습니다. iCloud 동기화, 공유 장부, 시세 데이터는 Pro가 필요합니다."
 
 [[home.faq.items]]
 icon = "faq"
-question = "오프라인에서 사용 가능한가요?"
-answer = "가능합니다. 오프라인에서 작성/수정 후 온라인에서 동기화됩니다."
+question = "AI는 어떻게 사용하나요?"
+answer = "설정에서 모델 서비스와 API 키를 등록한 후 텍스트나 음성으로 질문하세요. 데이터 변경은 확인이 필요하며 답변은 원래 기록과 대조하세요."
 
 [[home.faq.items]]
 icon = "faq"
-question = "데이터는 어디에 저장되나요?"
-answer = "기본은 로컬 저장이며, 선택적으로 iCloud 동기화를 사용합니다."
+question = "데이터가 AI로 전송되나요?"
+answer = "AI 사용 시 질문과 필요한 자산 정보가 설정한 모델 서비스로 전송됩니다. 일반 기록은 기기에 저장되며 iCloud는 선택 사항입니다."
 
 [[home.faq.items]]
 icon = "faq"
-question = "가족이 함께 사용할 수 있나요?"
-answer = "가능합니다. 가족 모드에서 구성원과 공유 장부를 관리합니다."
+question = "가족 관리와 공유의 차이는 무엇인가요?"
+answer = "가족 관리는 구성원과 자산 소유자를 정리합니다. 공유는 iCloud로 다른 사람을 초대해 권한에 따라 같은 장부를 사용하는 기능입니다."
 
 [[home.faq.items]]
 icon = "faq"
-question = "Android를 지원하나요?"
-answer = "현재는 Apple 생태계 중심입니다."
+question = "시세는 실시간인가요?"
+answer = "여러 주식 시장, 펀드, ETF, 귀금속, 암호화폐를 지원합니다. 제공 범위, 지연, 갱신 주기는 시장과 데이터 출처에 따라 다릅니다."
 
 [[home.faq.items]]
 icon = "faq"
-question = "어떻게 시작하나요?"
-answer = "앱을 설치한 뒤 첫 장부를 생성하면 됩니다."
+question = "지원 기기와 언어는 무엇인가요?"
+answer = "Apple 기기에서 간체 중국어, 번체 중국어, 영어, 일본어, 한국어를 지원합니다. 중국 본토에서는 知盈, 그 외 지역에서는 iAssets라는 이름을 사용합니다."
+
 +++
