@@ -342,65 +342,30 @@ src = "https://static.debuginn.com/20260607HKBV4D.webp"
 alt = "Macau Ant Bank logo"
 name = "Macau Ant Bank"
 
-[[home.trust.tracks.primary]]
-src = "/assets/trust-logos/ibkr.webp"
-alt = "Interactive Brokers logo"
-name = "IBKR"
-
-[[home.trust.tracks.primary]]
-src = "/assets/trust-logos/flybay.webp"
-alt = "FlyBay logo"
-name = "飛灣計劃"
-
-[[home.trust.tracks.primary]]
-src = "/assets/trust-logos/plural-atlas.webp"
-alt = "Plural Atlas logo"
-name = "多元派"
-
 [[home.trust.tracks.secondary]]
 src = "/assets/trust-logos/ibkr.webp"
 alt = "Interactive Brokers logo"
 name = "IBKR"
 
 [[home.trust.tracks.secondary]]
-src = "https://static.debuginn.com/20260607HKBV4D.webp"
-alt = "Macau Ant Bank logo"
-name = "Macau Ant Bank"
+src = "/assets/trust-logos/starryblu.png"
+alt = "Starryblu logo"
+name = "Starryblu"
 
 [[home.trust.tracks.secondary]]
-src = "/assets/trust-logos/boc-hk.webp"
-alt = "Bank of China Hong Kong logo"
-name = "中國銀行（香港）"
-
-[[home.trust.tracks.secondary]]
-src = "/assets/trust-logos/hsbc-hk.webp"
-alt = "HSBC Hong Kong logo"
-name = "HSBC 香港"
-
-[[home.trust.tracks.secondary]]
-src = "/assets/trust-logos/standard-chartered.webp"
-alt = "Standard Chartered China logo"
-name = "渣打銀行"
-
-[[home.trust.tracks.secondary]]
-src = "/assets/trust-logos/dbs-bank.webp"
-alt = "DBS Bank logo"
-name = "星展銀行"
-
-[[home.trust.tracks.secondary]]
-src = "/assets/trust-logos/hang-seng-bank.webp"
-alt = "Hang Seng Bank logo"
-name = "恒生銀行"
-
-[[home.trust.tracks.secondary]]
-src = "/assets/trust-logos/plural-atlas.webp"
-alt = "Plural Atlas logo"
-name = "多元派"
+src = "/assets/trust-logos/panda-remit.png"
+alt = "Panda Remit logo"
+name = "熊貓速匯"
 
 [[home.trust.tracks.secondary]]
 src = "/assets/trust-logos/flybay.webp"
 alt = "FlyBay logo"
 name = "飛灣計劃"
+
+[[home.trust.tracks.secondary]]
+src = "/assets/trust-logos/plural-atlas.webp"
+alt = "Plural Atlas logo"
+name = "多元派"
 
 [[home.trust.actions]]
 type = "mailto"

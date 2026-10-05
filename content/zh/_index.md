@@ -343,65 +343,30 @@ src = "https://static.debuginn.com/20260607HKBV4D.webp"
 alt = "Macau Ant Bank logo"
 name = "Macau Ant Bank"
 
-[[home.trust.tracks.primary]]
-src = "/assets/trust-logos/standard-chartered.webp"
-alt = "Standard Chartered China logo"
-name = "渣打银行"
-
-[[home.trust.tracks.primary]]
-src = "/assets/trust-logos/flybay.webp"
-alt = "FlyBay logo"
-name = "飞湾计划"
-
-[[home.trust.tracks.primary]]
-src = "/assets/trust-logos/plural-atlas.webp"
-alt = "Plural Atlas logo"
-name = "多元派"
-
 [[home.trust.tracks.secondary]]
 src = "/assets/trust-logos/standard-chartered.webp"
 alt = "Standard Chartered China logo"
 name = "渣打银行"
 
 [[home.trust.tracks.secondary]]
-src = "https://static.debuginn.com/20260607HKBV4D.webp"
-alt = "Macau Ant Bank logo"
-name = "Macau Ant Bank"
+src = "/assets/trust-logos/starryblu.png"
+alt = "Starryblu logo"
+name = "Starryblu"
 
 [[home.trust.tracks.secondary]]
-src = "https://static.debuginn.com/20260607TDtXFC.webp"
-alt = "Zhufu Securities logo"
-name = "Zhufu Securities"
-
-[[home.trust.tracks.secondary]]
-src = "https://static.debuginn.com/20260607PRQOHB.webp"
-alt = "HSBC China logo"
-name = "HSBC China"
-
-[[home.trust.tracks.secondary]]
-src = "https://static.debuginn.com/20260607dIw87p.webp"
-alt = "Fuxi Securities logo"
-name = "Fuxi Securities"
-
-[[home.trust.tracks.secondary]]
-src = "https://static.debuginn.com/202606079PfBTQ.webp"
-alt = "ZA Bank logo"
-name = "ZA Bank"
-
-[[home.trust.tracks.secondary]]
-src = "https://static.debuginn.com/20260607VkvnrY.webp"
-alt = "HF Bank logo"
-name = "HF Bank"
-
-[[home.trust.tracks.secondary]]
-src = "/assets/trust-logos/plural-atlas.webp"
-alt = "Plural Atlas logo"
-name = "多元派"
+src = "/assets/trust-logos/panda-remit.png"
+alt = "Panda Remit logo"
+name = "熊猫速汇"
 
 [[home.trust.tracks.secondary]]
 src = "/assets/trust-logos/flybay.webp"
 alt = "FlyBay logo"
 name = "飞湾计划"
+
+[[home.trust.tracks.secondary]]
+src = "/assets/trust-logos/plural-atlas.webp"
+alt = "Plural Atlas logo"
+name = "多元派"
 
 [[home.trust.actions]]
 type = "mailto"
