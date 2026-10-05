@@ -368,7 +368,7 @@ alt = "Panda Remit logo"
 name = "Panda Remit"
 
 [[home.trust.tracks.secondary]]
-src = "/assets/trust-logos/flybay.webp"
+src = "/assets/trust-logos/flybay-mark.webp"
 alt = "FlyBay logo"
 name = "flyBay"
 

@@ -373,7 +373,7 @@ alt = "Panda Remit logo"
 name = "熊貓速匯"
 
 [[home.trust.tracks.secondary]]
-src = "/assets/trust-logos/flybay.webp"
+src = "/assets/trust-logos/flybay-mark.webp"
 alt = "FlyBay logo"
 name = "飛灣計劃"
 
