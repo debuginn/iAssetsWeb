@@ -1,16 +1,16 @@
 +++
-title = "知盈 (iAssets) - 快速掌握你的资产全景、守护你的财富"
-description = "这是一款可视化资产管理工具，同时支持家庭资产管理。资产、负债、结构、目标和趋势一屏可见。"
+title = "知盈（iAssets） - 看清资产，与家人一起管理。"
+description = "把账户、投资与负债放在同一张资产全景里。记录每次变动，用 AI 梳理资产变化，与家人共同维护账本。"
 keywords = "知盈,iAssets,家庭资产管理,资产管理,财富管理,净资产,记账"
 type = "home"
 
 [home.hero]
-eyebrow = "知盈 (iAssets)"
-title = "快速掌握你的资产全景、守护你的财富"
-description = "这是一款可视化资产管理工具，同时支持家庭资产管理。资产、负债、结构、目标和趋势一屏可见。"
+eyebrow = "知盈（iAssets）"
+title = "看清资产，与家人一起管理。"
+description = "把账户、投资与负债放在同一张资产全景里。记录每次变动，用 AI 梳理资产变化，与家人共同维护账本。"
 
 [[home.hero.fanImages]]
-src = "https://static.debuginn.com/20260607bKUTA5.png"
+src = "/assets/local/20260607bKUTA5.png"
 alt = "知盈 应用截图 1"
 
 [[home.hero.fanImages]]
@@ -18,7 +18,7 @@ src = "/assets/screenshots/iassets-261005-stock-search.png"
 alt = "知盈 应用截图 2"
 
 [[home.hero.fanImages]]
-src = "https://static.debuginn.com/20260607pbC8BI.png"
+src = "/assets/screenshots/iassets-260614-assets.png"
 alt = "知盈 应用截图 3"
 
 [[home.hero.fanImages]]
@@ -31,110 +31,110 @@ alt = "知盈 应用截图 5"
 
 [[home.hero.cards]]
 number = "01"
-icon = "hero-quick"
-title = "秒记资产变动"
-description = "账户余额变化可快速录入。"
+icon = "feature-overview"
+title = "资产全景"
+description = "总资产、净资产与负债，一眼看清。"
 
 [[home.hero.cards]]
 number = "02"
 icon = "hero-books"
-title = "合集化账本整理"
-description = "按家庭、个人、目标管理账本。"
+title = "与家人一起管理"
+description = "分开个人账本，共享家庭账本。"
 
 [[home.hero.cards]]
 number = "03"
 icon = "hero-search"
-title = "快速搜索筛选"
-description = "几秒定位到目标账户或变更。"
+title = "用自然语言问资产"
+description = "查账户、找流水、总结资产变化。"
 
 [home.features]
-eyebrow = "特性"
-title = "围绕家庭资产管理而设计。"
-description = "不是泛记账，而是资产结构分析、风险感知和长期目标追踪。"
-
-[home.features.showcase]
-[[home.features.showcase.images]]
-src = "https://static.debuginn.com/20260607wsFhmF.png"
-alt = "知盈 功能展示主截图"
-
-[[home.features.showcase.images]]
-src = "https://static.debuginn.com/20260607bKUTA5.png"
-alt = "知盈 功能展示辅助截图"
-
-[[home.features.showcase.images]]
-src = "https://static.debuginn.com/20260607qszD9v.png"
-alt = "知盈 功能展示补充截图"
+eyebrow = "功能"
+title = "从个人账户，到全家的资产全景。"
+description = "记录、估值、复盘与协作，在同一款 App 中完成。AI 助手与家庭共享持续迭代，功能以当前客户端版本为准。"
 
 [[home.features.items]]
 number = "01"
 icon = "feature-overview"
-title = "资产全景总览"
-description = "总资产、净资产、负债与占比一页看清。"
+title = "资产与净资产"
+description = "查看资产结构、家庭成员占比和多币种分布，了解财富由什么构成。"
 
 [[home.features.items]]
 number = "02"
-icon = "feature-structure"
-title = "结构与货币分析"
-description = "结构卡与货币卡帮助识别配置偏差。"
+icon = "feature-trend"
+title = "投资持仓与行情"
+description = "管理股票、基金与 ETF、贵金属和加密货币，结合可用行情更新持仓估值。"
 
 [[home.features.items]]
 number = "03"
-icon = "feature-trend"
-title = "流向与趋势"
-description = "观察净资产变化节奏，提前发现风险。"
+icon = "feature-structure"
+title = "负债单独看清"
+description = "集中查看信用卡、贷款与其他应付款，结合负债卡片掌握负债结构。"
 
 [[home.features.items]]
 number = "04"
 icon = "feature-books"
-title = "多账本管理"
-description = "支持默认账本和多账本并行管理。"
+title = "多个账本，免费整理"
+description = "按个人、家庭或目标分别建账，管理成员并为账户指定归属。"
 
 [[home.features.items]]
 number = "05"
 icon = "feature-family"
-title = "家庭协作"
-description = "成员管理与共享让多人协作更顺畅。"
+title = "共享一本家庭账本"
+description = "通过 iCloud 邀请家人，按共享权限共同查看或维护账户与变更。"
 
 [[home.features.items]]
 number = "06"
-icon = "feature-security"
-title = "隐私与安全"
-description = "密码保护、生物解锁、自动锁定。"
+icon = "hero-search"
+title = "AI 资产助手"
+description = "用文字或语音查账户、找大额变更、总结资产变化；数据修改先由你确认。"
+
+[home.features.showcase]
+[[home.features.showcase.images]]
+src = "/assets/local/20260607wsFhmF.png"
+alt = "知盈 功能展示主截图"
+
+[[home.features.showcase.images]]
+src = "/assets/local/20260607bKUTA5.png"
+alt = "知盈 功能展示辅助截图"
+
+[[home.features.showcase.images]]
+src = "/assets/screenshots/iassets-261005-family-sharing.png"
+alt = "知盈 家庭账本共享截图"
 
 [home.details]
-eyebrow = "Product details"
-title = "现在就开始长期资产复盘。"
-description = "把分散在各处的数据聚合到同一套视图与指标。"
+eyebrow = "日常管理"
+title = "日常记录清楚，长期变化有据可查。"
+description = "从一次余额调整，到月度复盘，保留你需要的记录和视角。"
 
 [[home.details.items]]
-icon = "detail-account"
-title = "多类型账户"
-description = "支持资金、理财、固定、应收、应付和贷款。"
-
-[[home.details.items]]
-icon = "detail-target"
-title = "目标卡片"
-description = "自动计算还需金额，避免目标失焦。"
+icon = "hero-quick"
+title = "变更记录与日历"
+description = "按时间查看账户变动，结合趋势与日历回顾变化。"
 
 [[home.details.items]]
 icon = "detail-currency"
-title = "汇率支持"
-description = "可选本位币，跨币种资产统一衡量。"
+title = "多币种统一衡量"
+description = "保留账户原币种，并以选定的本位币查看资产汇总。"
 
 [[home.details.items]]
-icon = "detail-share"
-title = "账本分享"
-description = "家庭成员可协同维护同一组资产数据。"
+icon = "detail-target"
+title = "目标与进度"
+description = "设置资产目标，查看当前进度与距离目标的金额。"
 
 [[home.details.items]]
 icon = "detail-cards"
-title = "卡片管理"
-description = "按个人偏好调整首页卡片顺序和显隐。"
+title = "首页按你习惯排列"
+description = "调整卡片顺序与显隐，为分布图选择环状或饼状样式。"
 
 [[home.details.items]]
 icon = "detail-lock"
-title = "本地优先"
-description = "数据默认本地存储，可选 iCloud 同步。"
+title = "隐私与访问保护"
+description = "支持密码、生物识别与自动锁定；AI 请求发送到你配置的模型服务。"
+
+[[home.details.items]]
+icon = "feature-books"
+title = "同步与备份"
+description = "日常数据本地保存；Pro 可开启 iCloud 同步与云端备份。"
 
 [home.download]
 eyebrow = "下载"
@@ -158,15 +158,15 @@ durations = ["68s", "76s", "72s", "80s"]
 delays = ["0s", "-3s", "-8s", "-6s"]
 
 [[home.download.backdrop.images]]
-src = "https://static.debuginn.com/20260607bKUTA5.png"
+src = "/assets/local/20260607bKUTA5.png"
 alt = "知盈 下载背景 1"
 
 [[home.download.backdrop.images]]
-src = "/assets/screenshots/iassets-261005-stock-search.png"
+src = "/assets/screenshots/iassets-260614-assets.png"
 alt = "知盈 下载背景 2"
 
 [[home.download.backdrop.images]]
-src = "https://static.debuginn.com/20260607pbC8BI.png"
+src = "/assets/screenshots/iassets-261005-stock-search.png"
 alt = "知盈 下载背景 3"
 
 [[home.download.backdrop.images]]
@@ -178,6 +178,7 @@ src = "/assets/screenshots/iassets-261005-family-sharing.png"
 alt = "知盈 下载背景 5"
 
 [home.reviews]
+disabled = true
 eyebrow = "评价"
 title = "用户正在用知盈 (iAssets) 养成更好的资产习惯。"
 description = "从记一笔，到读懂全局资产变化。"
@@ -245,14 +246,14 @@ text = "長期目標拆成可追蹤里程碑後，整個理財節奏更穩定。
 
 [home.pricingcompare]
 eyebrow = "价格"
-title = "价格低廉、持续迭代。"
-description = "免费即可上手，需要多账本、家庭协作与同步时再解锁 Pro。建议按年支付，共建软件的良性发展，当然也支持终身买断。"
-disclaimer = "* 因在不同地区销售与活动，价格以实际下载呈现价格为准。"
+title = "免费管理日常资产，按需升级 Pro。"
+description = "多账本与家庭成员管理免费可用。需要 iCloud 同步、家庭账本共享或动态行情时，再选择年度或永久会员。"
+disclaimer = "不同地区和活动价格可能不同，最终以 App 内购买页面为准。AI 需配置模型服务，服务商可能单独收费。"
 
 [[home.pricingcompare.columns]]
 title = "免费版"
 price = "0"
-description = "满足日常记账的基础需求。"
+description = "管理账户、多个账本与家庭成员。"
 
 [home.pricingcompare.columns.cta]
 label = "立即体验"
@@ -292,14 +293,18 @@ values = [true, true, true]
 
 [[home.pricingcompare.rows]]
 label = "账本数量"
-values = ["1 个", "不限", "不限"]
+values = ["不限", "不限", "不限"]
 
 [[home.pricingcompare.rows]]
 label = "iCloud 多设备同步"
 values = [false, true, true]
 
 [[home.pricingcompare.rows]]
-label = "家庭协作管理"
+label = "家庭成员管理"
+values = [true, true, true]
+
+[[home.pricingcompare.rows]]
+label = "iCloud 家庭账本共享"
 values = [false, true, true]
 
 [[home.pricingcompare.rows]]
@@ -307,39 +312,44 @@ label = "动态行情数据"
 note = "股票、基金、贵金属与加密货币"
 values = [false, true, true]
 
+[[home.pricingcompare.rows]]
+label = "AI 资产助手"
+note = "自备模型服务，按服务商规则计费"
+values = [true, true, true]
+
 [home.trust]
-eyebrow = "TRUST"
-title = "受领先银行、金融平台信赖"
-description = "与知名银行与证券金融平台合作，做看得懂，用得起的平价软件"
+eyebrow = "合作与生态"
+title = "银行、金融平台与生态伙伴"
+description = "了解相关银行、金融平台与社区项目，按自己的需要探索。"
 
 [home.trust.tracks]
 [[home.trust.tracks.primary]]
-src = "https://static.debuginn.com/20260607VkvnrY.webp"
+src = "/assets/local/20260607VkvnrY.webp"
 alt = "HF Bank logo"
 name = "HF Bank"
 
 [[home.trust.tracks.primary]]
-src = "https://static.debuginn.com/202606079PfBTQ.webp"
+src = "/assets/local/202606079PfBTQ.webp"
 alt = "ZA Bank logo"
 name = "ZA Bank"
 
 [[home.trust.tracks.primary]]
-src = "https://static.debuginn.com/20260607dIw87p.webp"
+src = "/assets/local/20260607dIw87p.webp"
 alt = "Fuxi Securities logo"
 name = "Fuxi Securities"
 
 [[home.trust.tracks.primary]]
-src = "https://static.debuginn.com/20260607PRQOHB.webp"
+src = "/assets/local/20260607PRQOHB.webp"
 alt = "HSBC China logo"
 name = "HSBC China"
 
 [[home.trust.tracks.primary]]
-src = "https://static.debuginn.com/20260607TDtXFC.webp"
+src = "/assets/local/20260607TDtXFC.webp"
 alt = "Zhufu Securities logo"
 name = "Zhufu Securities"
 
 [[home.trust.tracks.primary]]
-src = "https://static.debuginn.com/20260607HKBV4D.webp"
+src = "/assets/local/20260607HKBV4D.webp"
 alt = "Macau Ant Bank logo"
 name = "Macau Ant Bank"
 
@@ -396,36 +406,36 @@ style = "btn-ghost"
 
 [home.faq]
 eyebrow = "常见问题"
-title = "常见问题"
-description = "如果你有疑问，可以先看这里。"
+title = "开始前，你可能想知道。"
 
 [[home.faq.items]]
 icon = "faq"
-question = "支持哪些语言？"
-answer = "和知盈 (iAssets) 一致：中文简体、中文繁体台湾、中文繁体香港、中文繁体澳门、中文繁体新加坡、English、日本語、한국어。"
+question = "免费版可以做什么？"
+answer = "可以管理多币种账户、多个账本和家庭成员。iCloud 同步、家庭账本共享及动态行情需要 Pro。"
 
 [[home.faq.items]]
 icon = "faq"
-question = "支持离线使用吗？"
-answer = "支持。无网络也可新增和编辑，联网后按策略同步。"
+question = "AI 助手怎么使用？"
+answer = "在设置中配置支持的模型服务与 API 密钥后，可用文字或语音查询资产、总结变化。涉及数据修改时需要确认；AI 回复请结合原始记录核对。"
 
 [[home.faq.items]]
 icon = "faq"
-question = "数据存在哪里？"
-answer = "默认本地存储，可按需开启 iCloud 同步。"
+question = "我的数据会发送给 AI 吗？"
+answer = "使用 AI 时，问题与完成请求所需的资产上下文会发送到你配置的模型服务。普通资产记录保存在本地，iCloud 功能由你选择开启。"
 
 [[home.faq.items]]
 icon = "faq"
-question = "可以多人协作吗？"
-answer = "可以。开启家庭模式即可管理成员和共享账本。"
+question = "家庭管理和共享有什么区别？"
+answer = "家庭管理用于记录成员与资产归属；家庭共享通过 iCloud 邀请其他人共同使用账本，并按权限访问数据。"
 
 [[home.faq.items]]
 icon = "faq"
-question = "Android 可用吗？"
-answer = "目前主要面向 Apple 生态。"
+question = "投资估值会实时更新吗？"
+answer = "支持多个股票市场、基金与 ETF、贵金属和加密货币。报价覆盖、延迟与刷新频率因市场及数据源而异。"
 
 [[home.faq.items]]
 icon = "faq"
-question = "如何开始？"
-answer = "下载应用后创建第一个账本，即可开始记录。"
+question = "支持哪些设备与语言？"
+answer = "面向 Apple 生态，支持简体中文、繁体中文、英语、日语和韩语。中国大陆 App 名称为知盈，其他地区为 iAssets。"
+
 +++

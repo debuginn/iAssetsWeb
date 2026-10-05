@@ -4,11 +4,6 @@
   weight = 10
 
 [[main]]
-  identifier = 'navReviews'
-  url = '#reviews'
-  weight = 20
-
-[[main]]
   identifier = 'navPricing'
   url = '#pricing-compare'
   weight = 30
