@@ -3,7 +3,7 @@ languageName = 'English'
 weight = 1
 
 [en.params.assets]
-downloadQr = 'https://static.debuginn.com/20260607weNLvY.png'
+downloadQr = '/assets/local/20260607weNLvY.png'
 
 [en.params.pricing]
 currency = '$'
@@ -15,7 +15,7 @@ languageName = '中文简体'
 weight = 2
 
 [zh.params.assets]
-downloadQr = 'https://static.debuginn.com/20260607oiR5ZJ.png'
+downloadQr = '/assets/local/20260607oiR5ZJ.png'
 
 [zh.params.pricing]
 currency = '¥'
@@ -28,7 +28,7 @@ languageName = '中文繁體'
 weight = 3
 
 [zh-hant.params.assets]
-downloadQr = 'https://static.debuginn.com/20260607B54NfZ.png'
+downloadQr = '/assets/local/20260607B54NfZ.png'
 
 [zh-hant.params.pricing]
 currency = 'NT$'
@@ -40,7 +40,7 @@ languageName = '日本語'
 weight = 4
 
 [ja.params.assets]
-downloadQr = 'https://static.debuginn.com/20260607We1tzT.png'
+downloadQr = '/assets/local/20260607We1tzT.png'
 
 [ja.params.pricing]
 currency = '¥'
@@ -52,7 +52,7 @@ languageName = '한국어'
 weight = 5
 
 [ko.params.assets]
-downloadQr = 'https://static.debuginn.com/20260607BReFMN.png'
+downloadQr = '/assets/local/20260607BReFMN.png'
 
 [ko.params.pricing]
 currency = '₩'

@@ -1,139 +1,140 @@
 +++
-title = "iAssets - 家族資産の全体像を、すばやく把握。"
-description = "家族資産を可視化して管理できるアプリ。資産・負債・構成・目標・推移を1画面で把握できます。"
+title = "iAssets - 資産の全体像を、家族と一緒に。"
+description = "口座、投資、負債をひとつの画面に。変動を記録し、AI に質問し、家族と共有帳簿を管理できます。"
 keywords = "iAssets,家計管理,資産管理,純資産,家族資産"
 type = "home"
 
 [home.hero]
 eyebrow = "iAssets"
-title = "家族資産の全体像を、すばやく把握。"
-description = "視覚的に使える資産管理ツールで、家族の資産管理にも対応しています。資産・負債・構成・目標・推移を1画面で確認できます。"
+title = "資産の全体像を、家族と一緒に。"
+description = "口座、投資、負債をひとつの画面に。変動を記録し、AI に質問し、家族と共有帳簿を管理できます。"
 
 [[home.hero.fanImages]]
-src = "https://static.debuginn.com/20260607JN6voy.png"
+src = "/assets/local/20260607JN6voy.png"
 alt = "iAssets アプリスクリーンショット 1"
 
 [[home.hero.fanImages]]
-src = "https://static.debuginn.com/202606075qhgPu.png"
+src = "/assets/local/202606075qhgPu.png"
 alt = "iAssets アプリスクリーンショット 2"
 
 [[home.hero.fanImages]]
-src = "https://static.debuginn.com/20260607gfXR35.png"
+src = "/assets/local/20260607gfXR35.png"
 alt = "iAssets アプリスクリーンショット 3"
 
 [[home.hero.fanImages]]
-src = "https://static.debuginn.com/20260607tGPD3a.png"
+src = "/assets/local/20260607tGPD3a.png"
 alt = "iAssets アプリスクリーンショット 4"
 
 [[home.hero.fanImages]]
-src = "https://static.debuginn.com/20260607CsckaU.png"
+src = "/assets/local/20260607CsckaU.png"
 alt = "iAssets アプリスクリーンショット 5"
 
 [[home.hero.cards]]
 number = "01"
-icon = "hero-quick"
-title = "資産変動を即記録"
-description = "口座残高の変化をすぐに入力。"
+icon = "feature-overview"
+title = "資産を見渡す"
+description = "総資産、純資産、負債をひと目で。"
 
 [[home.hero.cards]]
 number = "02"
 icon = "hero-books"
-title = "帳簿をコレクション整理"
-description = "家庭・個人・目標で整理。"
+title = "家族と管理する"
+description = "個人の帳簿と共有の帳簿を使い分け。"
 
 [[home.hero.cards]]
 number = "03"
 icon = "hero-search"
-title = "検索とフィルタ"
-description = "対象口座を数秒で特定。"
+title = "AI に質問する"
+description = "口座検索や資産の変動をまとめます。"
 
 [home.features]
 eyebrow = "機能"
-title = "家族資産管理に特化した設計。"
-description = "汎用の家計簿ではなく、構造分析と長期目標の追跡に最適化。"
-[home.features.showcase]
-[[home.features.showcase.images]]
-src = "https://static.debuginn.com/20260607wsFhmF.png"
-alt = "iAssets 機能ショーケース メイン"
-
-[[home.features.showcase.images]]
-src = "https://static.debuginn.com/20260607JN6voy.png"
-alt = "iAssets 機能ショーケース サブ"
-
-[[home.features.showcase.images]]
-src = "https://static.debuginn.com/20260607CsckaU.png"
-alt = "iAssets 機能ショーケース 補助"
+title = "個人の口座から、家族の資産全体まで。"
+description = "記録、評価、振り返り、共有をひとつのアプリで。AI と家族共有は継続的に改善中です。機能はアプリのバージョンによって異なります。"
 
 [[home.features.items]]
 number = "01"
 icon = "feature-overview"
-title = "資産サマリー"
-description = "総資産・純資産・負債を1ページで確認。"
+title = "資産と純資産"
+description = "資産構成、家族ごとの保有割合、通貨別の内訳を確認。"
 
 [[home.features.items]]
 number = "02"
-icon = "feature-structure"
-title = "構成と通貨"
-description = "構成カードと通貨カードで偏りを把握。"
+icon = "feature-trend"
+title = "投資と市場データ"
+description = "株式、投資信託、ETF、貴金属、暗号資産を管理し、利用可能な相場で評価額を更新。"
 
 [[home.features.items]]
 number = "03"
-icon = "feature-trend"
-title = "フローと推移"
-description = "純資産の変化リズムを継続観測。"
+icon = "feature-structure"
+title = "負債を把握"
+description = "クレジットカード、ローン、その他の債務を負債カードで確認。"
 
 [[home.features.items]]
 number = "04"
 icon = "feature-books"
-title = "複数帳簿管理"
-description = "デフォルト帳簿と複数帳簿を併用可能。"
+title = "複数の帳簿を無料で"
+description = "個人、家族、目標ごとに帳簿を作成し、口座の所有者を管理。"
 
 [[home.features.items]]
 number = "05"
 icon = "feature-family"
-title = "家族コラボ"
-description = "メンバー管理と共有で共同運用。"
+title = "家族で帳簿を共有"
+description = "iCloud で家族を招待し、権限に応じて口座や変更履歴を閲覧・編集。"
 
 [[home.features.items]]
 number = "06"
-icon = "feature-security"
-title = "プライバシー保護"
-description = "パスコード、生体認証、自動ロック対応。"
+icon = "hero-search"
+title = "AI 資産アシスタント"
+description = "文字や音声で口座検索、大きな変動の確認、資産の要約。データ変更には確認が必要です。"
+
+[home.features.showcase]
+[[home.features.showcase.images]]
+src = "/assets/local/20260607wsFhmF.png"
+alt = "iAssets 機能ショーケース メイン"
+
+[[home.features.showcase.images]]
+src = "/assets/local/20260607JN6voy.png"
+alt = "iAssets 機能ショーケース サブ"
+
+[[home.features.showcase.images]]
+src = "/assets/local/20260607CsckaU.png"
+alt = "iAssets 機能ショーケース 補助"
 
 [home.details]
-eyebrow = "Product details"
-title = "長期の資産レビューを今すぐ開始。"
-description = "分散したデータを同じ指標系に統合します。"
+eyebrow = "日々の管理"
+title = "日々の記録から、長期の変化を読み取る。"
+description = "残高の調整から月次レビューまで、必要な履歴と視点を残します。"
 
 [[home.details.items]]
-icon = "detail-account"
-title = "複数タイプ口座"
-description = "資金、投資、固定、債権、債務、ローンに対応。"
-
-[[home.details.items]]
-icon = "detail-target"
-title = "目標カード"
-description = "残額を自動算出し、計画を継続しやすくします。"
+icon = "hero-quick"
+title = "履歴とカレンダー"
+description = "日付ごとの口座変動を、推移やカレンダーと合わせて確認。"
 
 [[home.details.items]]
 icon = "detail-currency"
-title = "為替対応"
-description = "基準通貨を選択して横断比較できます。"
+title = "複数通貨に対応"
+description = "口座の元通貨を保持し、選んだ基準通貨で合計を表示。"
 
 [[home.details.items]]
-icon = "detail-share"
-title = "帳簿共有"
-description = "家族で同一データを共同メンテナンス。"
+icon = "detail-target"
+title = "目標と進捗"
+description = "資産目標を設定し、達成状況と必要な金額を確認。"
 
 [[home.details.items]]
 icon = "detail-cards"
-title = "カード管理"
-description = "ホームの表示順と表示可否を調整可能。"
+title = "選べるダッシュボード"
+description = "カードの順序・表示を変更し、ドーナツ・円グラフを選択。"
 
 [[home.details.items]]
 icon = "detail-lock"
-title = "ローカル優先"
-description = "データはローカル保存、必要時に iCloud 同期。"
+title = "プライバシーとロック"
+description = "パスコード、生体認証、自動ロックに対応。AI のリクエストは設定したモデルサービスへ送信。"
+
+[[home.details.items]]
+icon = "feature-books"
+title = "同期とバックアップ"
+description = "日常の記録は端末に保存。Pro で iCloud 同期とクラウドバックアップを利用。"
 
 [home.download]
 eyebrow = "ダウンロード"
@@ -157,26 +158,27 @@ durations = ["68s", "76s", "72s", "80s"]
 delays = ["0s", "-3s", "-8s", "-6s"]
 
 [[home.download.backdrop.images]]
-src = "https://static.debuginn.com/20260607JN6voy.png"
+src = "/assets/local/20260607JN6voy.png"
 alt = "iAssets ダウンロード背景 1"
 
 [[home.download.backdrop.images]]
-src = "https://static.debuginn.com/202606075qhgPu.png"
+src = "/assets/local/202606075qhgPu.png"
 alt = "iAssets ダウンロード背景 2"
 
 [[home.download.backdrop.images]]
-src = "https://static.debuginn.com/20260607gfXR35.png"
+src = "/assets/local/20260607gfXR35.png"
 alt = "iAssets ダウンロード背景 3"
 
 [[home.download.backdrop.images]]
-src = "https://static.debuginn.com/20260607tGPD3a.png"
+src = "/assets/local/20260607tGPD3a.png"
 alt = "iAssets ダウンロード背景 4"
 
 [[home.download.backdrop.images]]
-src = "https://static.debuginn.com/20260607CsckaU.png"
+src = "/assets/local/20260607CsckaU.png"
 alt = "iAssets ダウンロード背景 5"
 
 [home.reviews]
+disabled = true
 eyebrow = "評価"
 title = "iAssets で資産習慣が変わる。"
 description = "記録から全体理解まで、最短でつながる。"
@@ -244,14 +246,14 @@ text = "長期目標拆成可追蹤里程碑後，整個理財節奏更穩定。
 
 [home.pricingcompare]
 eyebrow = "料金"
-title = "低価格で、継続的にアップデート。"
-description = "無料で始められ、複数アカウントブック・家族共有・同期が必要になったら Pro を解除できます。ソフトウェアの健全な発展のため年額払いを推奨していますが、買い切りにも対応しています。"
-disclaimer = "* 地域やキャンペーンにより価格が異なる場合があります。実際の価格はアプリのダウンロード画面に表示される金額が適用されます。"
+title = "無料で始めて、必要に応じて Pro へ。"
+description = "複数の帳簿と家族メンバー管理は無料。iCloud 同期、家族共有、市場データには年額または永久 Pro を選べます。"
+disclaimer = "価格は地域やキャンペーンにより異なります。最終価格はアプリ内の購入画面をご確認ください。AI モデルサービスの料金は別途発生する場合があります。"
 
 [[home.pricingcompare.columns]]
 title = "無料版"
 price = "0"
-description = "日常の資産管理をすぐに始められます。"
+description = "口座、複数の帳簿、家族メンバーを管理。"
 
 [home.pricingcompare.columns.cta]
 label = "無料で始める"
@@ -291,29 +293,38 @@ values = [true, true, true]
 
 [[home.pricingcompare.rows]]
 label = "アカウントブック数"
-values = ["1 冊", "無制限", "無制限"]
+values = ["無制限", "無制限", "無制限"]
 
 [[home.pricingcompare.rows]]
 label = "iCloud によるデバイス間同期"
 values = [false, true, true]
 
 [[home.pricingcompare.rows]]
-label = "家族共有"
+label = "家族メンバー管理"
+values = [true, true, true]
+
+[[home.pricingcompare.rows]]
+label = "iCloud による帳簿共有"
 values = [false, true, true]
 
 [[home.pricingcompare.rows]]
-label = "リアルタイム市場データ"
+label = "市場データと評価額の更新"
 note = "株式、投資信託、貴金属、暗号資産"
 values = [false, true, true]
 
+[[home.pricingcompare.rows]]
+label = "AI 資産アシスタント"
+note = "モデルサービスを設定。提供元の料金が適用される場合があります"
+values = [true, true, true]
+
 [home.trust]
-eyebrow = "TRUST"
-title = "主要な銀行・金融プラットフォームに信頼されています"
-description = "著名な銀行・証券金融プラットフォームと連携し、わかりやすく手頃に使えるソフトを提供します。"
+eyebrow = "エコシステム"
+title = "銀行・金融プラットフォームと関連プロジェクト"
+description = "関連する銀行、金融サービス、コミュニティをご紹介します。"
 
 [home.trust.tracks]
 [[home.trust.tracks.primary]]
-src = "https://static.debuginn.com/20260607PRQOHB.webp"
+src = "/assets/local/20260607PRQOHB.webp"
 alt = "HSBC China logo"
 name = "HSBC"
 
@@ -389,37 +400,37 @@ label = "詳細を見る"
 style = "btn-ghost"
 
 [home.faq]
-eyebrow = "FAQ"
-title = "よくある質問"
-description = "よくある疑問を先に確認できます。"
+eyebrow = "よくある質問"
+title = "始める前に。"
 
 [[home.faq.items]]
 icon = "faq"
-question = "対応言語は？"
-answer = "iAssets と同じく、簡体字・繁体字（台湾/香港/マカオ/シンガポール）・英語・日本語・韓国語に対応。"
+question = "無料版で何ができますか？"
+answer = "複数通貨の口座、複数の帳簿、家族メンバーを管理できます。iCloud 同期、帳簿共有、市場データには Pro が必要です。"
 
 [[home.faq.items]]
 icon = "faq"
-question = "オフラインで使えますか？"
-answer = "はい。オフラインで作成・編集し、オンライン時に同期できます。"
+question = "AI の使い方は？"
+answer = "設定でモデルサービスと API キーを登録し、文字や音声で質問できます。データ変更は確認が必要です。回答は元の記録と照合してください。"
 
 [[home.faq.items]]
 icon = "faq"
-question = "データはどこに保存されますか？"
-answer = "ローカル優先保存で、必要に応じて iCloud 同期。"
+question = "データは AI に送信されますか？"
+answer = "AI 利用時は質問と必要な資産情報が設定したモデルサービスへ送信されます。通常の記録は端末に保存され、iCloud は任意です。"
 
 [[home.faq.items]]
 icon = "faq"
-question = "家族で共同利用できますか？"
-answer = "はい。家族モードでメンバー管理と共有帳簿が可能です。"
+question = "家族管理と共有の違いは？"
+answer = "家族管理はメンバーと所有者を整理します。共有は iCloud で他の人を招待し、同じ帳簿を権限に応じて利用できます。"
 
 [[home.faq.items]]
 icon = "faq"
-question = "Android 版はありますか？"
-answer = "現在は主に Apple エコシステム向けです。"
+question = "相場はリアルタイムですか？"
+answer = "複数の株式市場、投資信託、ETF、貴金属、暗号資産に対応。対象範囲、遅延、更新頻度は市場とデータ源によって異なります。"
 
 [[home.faq.items]]
 icon = "faq"
-question = "始め方は？"
-answer = "アプリを入手し、最初の帳簿を作成してください。"
+question = "対応機種と言語は？"
+answer = "Apple のデバイス向けで、簡体字中国語、繁体字中国語、英語、日本語、韓国語に対応。中国本土では知盈、その他の地域では iAssets です。"
+
 +++

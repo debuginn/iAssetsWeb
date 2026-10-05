@@ -1,139 +1,140 @@
 +++
-title = "iAssets - 快速掌握你的資產全景"
-description = "這是一款可視化資產管理工具，同時支援家庭資產管理。資產、負債、結構、目標和趨勢一屏可見。"
+title = "iAssets - 看清資產，與家人一起管理。"
+description = "把帳戶、投資與負債放在同一張資產全景裡。記錄每次變動，用 AI 梳理資產變化，與家人共同維護帳本。"
 keywords = "iAssets,家庭資產管理,資產管理,財富管理,淨資產,記帳"
 type = "home"
 
 [home.hero]
 eyebrow = "iAssets"
-title = "快速掌握你的資產全景、守護你的財富"
-description = "這是一款可視化資產管理工具，同時支援家庭資產管理。資產、負債、結構、目標和趨勢一屏可見。"
+title = "看清資產，與家人一起管理。"
+description = "把帳戶、投資與負債放在同一張資產全景裡。記錄每次變動，用 AI 梳理資產變化，與家人共同維護帳本。"
 
 [[home.hero.fanImages]]
-src = "https://static.debuginn.com/20260607pShHvR.png"
+src = "/assets/local/20260607pShHvR.png"
 alt = "iAssets 應用截圖 1"
 
 [[home.hero.fanImages]]
-src = "https://static.debuginn.com/202606073Gf3P1.png"
+src = "/assets/local/202606073Gf3P1.png"
 alt = "iAssets 應用截圖 2"
 
 [[home.hero.fanImages]]
-src = "https://static.debuginn.com/20260607hdZQxU.png"
+src = "/assets/local/20260607hdZQxU.png"
 alt = "iAssets 應用截圖 3"
 
 [[home.hero.fanImages]]
-src = "https://static.debuginn.com/202606070Jqr0R.png"
+src = "/assets/local/202606070Jqr0R.png"
 alt = "iAssets 應用截圖 4"
 
 [[home.hero.fanImages]]
-src = "https://static.debuginn.com/202606076g7SD8.png"
+src = "/assets/local/202606076g7SD8.png"
 alt = "iAssets 應用截圖 5"
 
 [[home.hero.cards]]
 number = "01"
-icon = "hero-quick"
-title = "秒記資產變動"
-description = "帳戶餘額變化可快速錄入。"
+icon = "feature-overview"
+title = "資產全景"
+description = "總資產、淨資產與負債，一眼看清。"
 
 [[home.hero.cards]]
 number = "02"
 icon = "hero-books"
-title = "合集化帳本整理"
-description = "按家庭、個人、目標管理帳本。"
+title = "與家人一起管理"
+description = "分開個人帳本，共享家庭帳本。"
 
 [[home.hero.cards]]
 number = "03"
 icon = "hero-search"
-title = "快速搜尋篩選"
-description = "幾秒定位到目標帳戶或變更。"
+title = "用自然語言問資產"
+description = "查帳戶、找流水、總結資產變化。"
 
 [home.features]
-eyebrow = "特性"
-title = "圍繞家庭資產管理而設計。"
-description = "不是泛記帳，而是資產結構分析、風險感知和長期目標追蹤。"
-[home.features.showcase]
-[[home.features.showcase.images]]
-src = "https://static.debuginn.com/20260607wsFhmF.png"
-alt = "iAssets 功能展示主截圖"
-
-[[home.features.showcase.images]]
-src = "https://static.debuginn.com/20260607pShHvR.png"
-alt = "iAssets 功能展示輔助截圖"
-
-[[home.features.showcase.images]]
-src = "https://static.debuginn.com/202606076g7SD8.png"
-alt = "iAssets 功能展示補充截圖"
+eyebrow = "功能"
+title = "從個人帳戶，到全家的資產全景。"
+description = "記錄、估值、回顧與協作，在同一款 App 中完成。AI 助手與家庭共享持續改進，功能以目前客戶端版本為準。"
 
 [[home.features.items]]
 number = "01"
 icon = "feature-overview"
-title = "資產全景總覽"
-description = "總資產、淨資產、負債與占比一頁看清。"
+title = "資產與淨資產"
+description = "查看資產結構、家庭成員占比與多幣別分布。"
 
 [[home.features.items]]
 number = "02"
-icon = "feature-structure"
-title = "結構與貨幣分析"
-description = "結構卡與貨幣卡幫助識別配置偏差。"
+icon = "feature-trend"
+title = "投資持倉與行情"
+description = "管理股票、基金與 ETF、貴金屬和加密貨幣，結合可用行情更新估值。"
 
 [[home.features.items]]
 number = "03"
-icon = "feature-trend"
-title = "流向與趨勢"
-description = "觀察淨資產變化節奏，提前發現風險。"
+icon = "feature-structure"
+title = "負債單獨看清"
+description = "集中查看信用卡、貸款與其他應付款，掌握負債結構。"
 
 [[home.features.items]]
 number = "04"
 icon = "feature-books"
-title = "多帳本管理"
-description = "支援預設帳本和多帳本並行管理。"
+title = "多個帳本，免費整理"
+description = "按個人、家庭或目標分別建帳，管理成員及帳戶歸屬。"
 
 [[home.features.items]]
 number = "05"
 icon = "feature-family"
-title = "家庭協作"
-description = "成員管理與共享讓多人協作更順暢。"
+title = "共享一本家庭帳本"
+description = "透過 iCloud 邀請家人，依共享權限查看或維護帳戶與變更。"
 
 [[home.features.items]]
 number = "06"
-icon = "feature-security"
-title = "隱私與安全"
-description = "密碼保護、生物解鎖、自動鎖定。"
+icon = "hero-search"
+title = "AI 資產助手"
+description = "用文字或語音查帳戶、找大額變更、總結資產變化；資料修改先由你確認。"
+
+[home.features.showcase]
+[[home.features.showcase.images]]
+src = "/assets/local/20260607wsFhmF.png"
+alt = "iAssets 功能展示主截圖"
+
+[[home.features.showcase.images]]
+src = "/assets/local/20260607pShHvR.png"
+alt = "iAssets 功能展示輔助截圖"
+
+[[home.features.showcase.images]]
+src = "/assets/local/202606076g7SD8.png"
+alt = "iAssets 功能展示補充截圖"
 
 [home.details]
-eyebrow = "產品詳情"
-title = "現在就開始長期資產復盤。"
-description = "把分散在各處的資料聚合到同一套視圖與指標。"
+eyebrow = "日常管理"
+title = "日常記錄清楚，長期變化有據可查。"
+description = "從一次餘額調整，到每月回顧，保留你需要的記錄和視角。"
 
 [[home.details.items]]
-icon = "detail-account"
-title = "多類型帳戶"
-description = "支援資金、理財、固定、應收、應付和貸款。"
-
-[[home.details.items]]
-icon = "detail-target"
-title = "目標卡片"
-description = "自動計算還需金額，避免目標失焦。"
+icon = "hero-quick"
+title = "變更記錄與日曆"
+description = "按時間查看帳戶變動，搭配趨勢與日曆回顧。"
 
 [[home.details.items]]
 icon = "detail-currency"
-title = "匯率支援"
-description = "可選本位幣，跨幣種資產統一衡量。"
+title = "多幣別統一衡量"
+description = "保留帳戶原幣別，以選定的基準貨幣查看資產總額。"
 
 [[home.details.items]]
-icon = "detail-share"
-title = "帳本分享"
-description = "家庭成員可協同維護同一組資產資料。"
+icon = "detail-target"
+title = "目標與進度"
+description = "設定資產目標，查看進度與距離目標的金額。"
 
 [[home.details.items]]
 icon = "detail-cards"
-title = "卡片管理"
-description = "按個人偏好調整首頁卡片順序和顯隱。"
+title = "首頁依你習慣排列"
+description = "調整卡片順序與顯示，選擇環狀或圓餅分布圖。"
 
 [[home.details.items]]
 icon = "detail-lock"
-title = "本地優先"
-description = "資料預設本地儲存，可選 iCloud 同步。"
+title = "隱私與存取保護"
+description = "支援密碼、生物辨識及自動鎖定；AI 請求送往你設定的模型服務。"
+
+[[home.details.items]]
+icon = "feature-books"
+title = "同步與備份"
+description = "日常資料儲存在本機；Pro 可開啟 iCloud 同步與雲端備份。"
 
 [home.download]
 eyebrow = "下載"
@@ -157,26 +158,27 @@ durations = ["68s", "76s", "72s", "80s"]
 delays = ["0s", "-3s", "-8s", "-6s"]
 
 [[home.download.backdrop.images]]
-src = "https://static.debuginn.com/20260607pShHvR.png"
+src = "/assets/local/20260607pShHvR.png"
 alt = "iAssets 下載背景 1"
 
 [[home.download.backdrop.images]]
-src = "https://static.debuginn.com/202606073Gf3P1.png"
+src = "/assets/local/202606073Gf3P1.png"
 alt = "iAssets 下載背景 2"
 
 [[home.download.backdrop.images]]
-src = "https://static.debuginn.com/20260607hdZQxU.png"
+src = "/assets/local/20260607hdZQxU.png"
 alt = "iAssets 下載背景 3"
 
 [[home.download.backdrop.images]]
-src = "https://static.debuginn.com/202606070Jqr0R.png"
+src = "/assets/local/202606070Jqr0R.png"
 alt = "iAssets 下載背景 4"
 
 [[home.download.backdrop.images]]
-src = "https://static.debuginn.com/202606076g7SD8.png"
+src = "/assets/local/202606076g7SD8.png"
 alt = "iAssets 下載背景 5"
 
 [home.reviews]
+disabled = true
 eyebrow = "評價"
 title = "使用者正在用 iAssets 建立更好的資產習慣。"
 description = "從記一筆，到讀懂全局資產變化。"
@@ -244,14 +246,14 @@ text = "長期目標拆成可追蹤里程碑後，整個理財節奏更穩定。
 
 [home.pricingcompare]
 eyebrow = "價格"
-title = "價格低廉、持續迭代。"
-description = "免費即可上手，需要多帳本、家庭協作與同步時再解鎖 Pro。建議按年支付，共建軟體的良性發展，當然也支援終身買斷。"
-disclaimer = "* 因在不同地區銷售與活動，價格以實際下載呈現價格為準。"
+title = "免費管理日常資產，按需升級 Pro。"
+description = "多帳本與家庭成員管理免費可用。需要 iCloud 同步、家庭帳本共享或動態行情時，再選擇年度或永久會員。"
+disclaimer = "價格依地區與活動而異，以 App 內購買頁面為準。AI 需設定模型服務，服務商可能另外收費。"
 
 [[home.pricingcompare.columns]]
 title = "免費版"
 price = "0"
-description = "滿足日常記帳的基礎需求。"
+description = "管理帳戶、多個帳本與家庭成員。"
 
 [home.pricingcompare.columns.cta]
 label = "立即體驗"
@@ -291,25 +293,34 @@ values = [true, true, true]
 
 [[home.pricingcompare.rows]]
 label = "帳本數量"
-values = ["1 個", "不限", "不限"]
+values = ["不限", "不限", "不限"]
 
 [[home.pricingcompare.rows]]
 label = "iCloud 多裝置同步"
 values = [false, true, true]
 
 [[home.pricingcompare.rows]]
-label = "家庭協作管理"
+label = "家庭成員管理"
+values = [true, true, true]
+
+[[home.pricingcompare.rows]]
+label = "iCloud 家庭帳本共享"
 values = [false, true, true]
 
 [[home.pricingcompare.rows]]
-label = "動態行情資料"
+label = "行情與動態估值"
 note = "股票、基金、貴金屬與加密貨幣"
 values = [false, true, true]
 
+[[home.pricingcompare.rows]]
+label = "AI 資產助手"
+note = "自備模型服務，依服務商規則計費"
+values = [true, true, true]
+
 [home.trust]
-eyebrow = "TRUST"
-title = "受領先銀行、金融平台信賴"
-description = "與知名銀行與證券金融平台合作，做看得懂、用得起的平價軟體"
+eyebrow = "合作與生態"
+title = "銀行、金融平台與生態夥伴"
+description = "了解相關銀行、金融平台與社群專案，按自己的需要探索。"
 
 [home.trust.tracks]
 [[home.trust.tracks.primary]]
@@ -338,7 +349,7 @@ alt = "Bank of China Hong Kong logo"
 name = "中國銀行（香港）"
 
 [[home.trust.tracks.primary]]
-src = "https://static.debuginn.com/20260607HKBV4D.webp"
+src = "/assets/local/20260607HKBV4D.webp"
 alt = "Macau Ant Bank logo"
 name = "Macau Ant Bank"
 
@@ -395,36 +406,36 @@ style = "btn-ghost"
 
 [home.faq]
 eyebrow = "常見問題"
-title = "常見問題"
-description = "如果你有疑問，可以先看這裡。"
+title = "開始前，你可能想知道。"
 
 [[home.faq.items]]
 icon = "faq"
-question = "支援哪些語言？"
-answer = "與 iAssets 一致：中文簡體、中文繁體台灣、中文繁體香港、中文繁體澳門、中文繁體新加坡、English、日本語、한국어。"
+question = "免費版可以做什麼？"
+answer = "可管理多幣別帳戶、多個帳本與家庭成員。iCloud 同步、家庭帳本共享及動態行情需要 Pro。"
 
 [[home.faq.items]]
 icon = "faq"
-question = "支援離線使用嗎？"
-answer = "支援。無網路也可新增和編輯，連網後按策略同步。"
+question = "AI 助手如何使用？"
+answer = "在設定中配置模型服務與 API 金鑰，再用文字或語音查詢。資料修改需確認，AI 回覆請與原始記錄核對。"
 
 [[home.faq.items]]
 icon = "faq"
-question = "資料存在哪裡？"
-answer = "預設本地儲存，可按需開啟 iCloud 同步。"
+question = "資料會傳送給 AI 嗎？"
+answer = "使用 AI 時，問題與所需的資產內容會送往你設定的模型服務。一般記錄儲存在本機，iCloud 功能由你選擇開啟。"
 
 [[home.faq.items]]
 icon = "faq"
-question = "可以多人協作嗎？"
-answer = "可以。開啟家庭模式即可管理成員和共享帳本。"
+question = "家庭管理與共享有何不同？"
+answer = "家庭管理記錄成員與資產歸屬；家庭共享透過 iCloud 邀請他人依權限使用同一帳本。"
 
 [[home.faq.items]]
 icon = "faq"
-question = "Android 可用嗎？"
-answer = "目前主要面向 Apple 生態。"
+question = "投資報價是即時的嗎？"
+answer = "支援多個股票市場、基金與 ETF、貴金屬及加密貨幣。涵蓋範圍、延遲與更新頻率依市場及資料來源而異。"
 
 [[home.faq.items]]
 icon = "faq"
-question = "如何開始？"
-answer = "下載應用後建立第一個帳本，即可開始記錄。"
+question = "支援哪些裝置與語言？"
+answer = "面向 Apple 生態，支援簡體中文、繁體中文、英語、日語及韓語。中國大陸名稱為知盈，其他地區為 iAssets。"
+
 +++
