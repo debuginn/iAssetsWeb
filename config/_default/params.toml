@@ -1,8 +1,8 @@
 [assets]
-  logo = 'https://webp.debuginn.com/20260607h41bVQ.png'
+  logo = 'https://static.debuginn.com/20260607h41bVQ.png'
   logoAlt = 'iAssets logo'
   brandName = 'iAssets'
-  downloadQr = 'https://webp.debuginn.com/20260607huIkvB.png'
+  downloadQr = 'https://static.debuginn.com/20260607huIkvB.png'
   version = 'v20260925-pricing'
 
 [theme]
@@ -12,7 +12,7 @@
   email = 'idebuginn@gmail.com'
 
 [social]
-  wechatQr = 'https://webp.debuginn.com/20260607OpjNs1.jpg?v=20260303d'
+  wechatQr = 'https://static.debuginn.com/20260607OpjNs1.jpg?v=20260303d'
   x = 'https://x.com/xdebuginn'
   telegram = 'https://t.me/tdebuginn'
   xiaohongshu = 'https://www.xiaohongshu.com/user/profile/5d4057fd0000000012007068'
