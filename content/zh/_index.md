@@ -348,6 +348,16 @@ src = "/assets/trust-logos/standard-chartered.webp"
 alt = "Standard Chartered China logo"
 name = "渣打银行"
 
+[[home.trust.tracks.primary]]
+src = "/assets/trust-logos/flybay.webp"
+alt = "FlyBay logo"
+name = "飞湾计划"
+
+[[home.trust.tracks.primary]]
+src = "/assets/trust-logos/plural-atlas.webp"
+alt = "Plural Atlas logo"
+name = "多元派"
+
 [[home.trust.tracks.secondary]]
 src = "/assets/trust-logos/standard-chartered.webp"
 alt = "Standard Chartered China logo"
@@ -382,6 +392,16 @@ name = "ZA Bank"
 src = "https://static.debuginn.com/20260607VkvnrY.webp"
 alt = "HF Bank logo"
 name = "HF Bank"
+
+[[home.trust.tracks.secondary]]
+src = "/assets/trust-logos/plural-atlas.webp"
+alt = "Plural Atlas logo"
+name = "多元派"
+
+[[home.trust.tracks.secondary]]
+src = "/assets/trust-logos/flybay.webp"
+alt = "FlyBay logo"
+name = "飞湾计划"
 
 [[home.trust.actions]]
 type = "mailto"

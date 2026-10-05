@@ -347,6 +347,16 @@ src = "/assets/trust-logos/ibkr.webp"
 alt = "Interactive Brokers logo"
 name = "IBKR"
 
+[[home.trust.tracks.primary]]
+src = "/assets/trust-logos/flybay.webp"
+alt = "FlyBay logo"
+name = "飛灣計劃"
+
+[[home.trust.tracks.primary]]
+src = "/assets/trust-logos/plural-atlas.webp"
+alt = "Plural Atlas logo"
+name = "多元派"
+
 [[home.trust.tracks.secondary]]
 src = "/assets/trust-logos/ibkr.webp"
 alt = "Interactive Brokers logo"
@@ -381,6 +391,16 @@ name = "星展銀行"
 src = "/assets/trust-logos/hang-seng-bank.webp"
 alt = "Hang Seng Bank logo"
 name = "恒生銀行"
+
+[[home.trust.tracks.secondary]]
+src = "/assets/trust-logos/plural-atlas.webp"
+alt = "Plural Atlas logo"
+name = "多元派"
+
+[[home.trust.tracks.secondary]]
+src = "/assets/trust-logos/flybay.webp"
+alt = "FlyBay logo"
+name = "飛灣計劃"
 
 [[home.trust.actions]]
 type = "mailto"

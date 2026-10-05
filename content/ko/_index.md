@@ -342,6 +342,16 @@ src = "/assets/trust-logos/hang-seng-bank.webp"
 alt = "Hang Seng Bank logo"
 name = "Hang Seng Bank"
 
+[[home.trust.tracks.primary]]
+src = "/assets/trust-logos/flybay.webp"
+alt = "FlyBay logo"
+name = "flyBay"
+
+[[home.trust.tracks.primary]]
+src = "/assets/trust-logos/plural-atlas.webp"
+alt = "Plural Atlas logo"
+name = "Plural Atlas"
+
 [[home.trust.tracks.secondary]]
 src = "/assets/trust-logos/hang-seng-bank.webp"
 alt = "Hang Seng Bank logo"
@@ -371,6 +381,16 @@ name = "Standard Chartered Bank"
 src = "https://static.debuginn.com/20260607PRQOHB.webp"
 alt = "HSBC China logo"
 name = "HSBC"
+
+[[home.trust.tracks.secondary]]
+src = "/assets/trust-logos/plural-atlas.webp"
+alt = "Plural Atlas logo"
+name = "Plural Atlas"
+
+[[home.trust.tracks.secondary]]
+src = "/assets/trust-logos/flybay.webp"
+alt = "FlyBay logo"
+name = "flyBay"
 
 [[home.trust.actions]]
 type = "mailto"
