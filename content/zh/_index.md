@@ -183,18 +183,18 @@ title = "近期活动"
 description = "版本体验、社区共创与限时权益，集中在这里查看。"
 
 [[home.activities.items]]
-date = "2026.09.20 — 2026.10.31"
-poster = "/assets/activities/iassets-father-special.png"
-posterAlt = "知盈当父亲特别活动海报"
+date = "长期活动"
+poster = "/assets/activities/iassets-one-year-promise.png"
+posterAlt = "知盈一年之约活动海报"
 posterWidth = 1086
 posterHeight = 1448
-title = "当父亲，也多了一份牵挂。"
-subtitle = "新手爸爸专属，知盈永久会员限时 48 元。"
-note = "用一个账本记录家庭资产变化，把新的责任慢慢整理清楚。"
-detailUrl = "/zh/activities/father-special/"
+title = "一年之约。"
+subtitle = "先领一年会员，满一年再领永久。"
+note = "任选一个渠道关注账号并持续一年，核验后领取永久会员。"
+detailUrl = "/zh/activities/one-year-promise/"
 ctaLabel = "查看活动详情"
 ctaHint = "完整规则、领取方式与注意事项，请以详情页说明为准。"
-accent = "#e8a056"
+accent = "#2f80c7"
 
 [[home.activities.items]]
 date = "2026.09.21 — 2026.10.31"
@@ -211,18 +211,18 @@ ctaHint = "完整规则、领取方式与注意事项，请以详情页说明为
 accent = "#f06f8f"
 
 [[home.activities.items]]
-date = "长期活动"
-poster = "/assets/activities/iassets-one-year-promise.png"
-posterAlt = "知盈一年之约活动海报"
+date = "2026.09.20 — 2026.10.31"
+poster = "/assets/activities/iassets-father-special.png"
+posterAlt = "知盈当父亲特别活动海报"
 posterWidth = 1086
 posterHeight = 1448
-title = "一年之约。"
-subtitle = "先领一年会员，满一年再领永久。"
-note = "任选一个渠道关注账号并持续一年，核验后领取永久会员。"
-detailUrl = "/zh/activities/one-year-promise/"
+title = "当父亲，也多了一份牵挂。"
+subtitle = "新手爸爸专属，知盈永久会员限时 48 元。"
+note = "用一个账本记录家庭资产变化，把新的责任慢慢整理清楚。"
+detailUrl = "/zh/activities/father-special/"
 ctaLabel = "查看活动详情"
 ctaHint = "完整规则、领取方式与注意事项，请以详情页说明为准。"
-accent = "#2f80c7"
+accent = "#e8a056"
 
 [home.reviews]
 disabled = true
