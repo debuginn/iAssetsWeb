@@ -177,6 +177,50 @@ alt = "知盈 下载背景 4"
 src = "/assets/screenshots/iassets-261005-family-sharing.png"
 alt = "知盈 下载背景 5"
 
+[home.activities]
+eyebrow = "活动"
+title = "近期活动"
+description = "版本体验、社区共创与限时权益，集中在这里查看。"
+
+[[home.activities.items]]
+date = "2026.09.20 — 2026.10.31"
+poster = "/assets/activities/iassets-father-special.png"
+posterAlt = "知盈生活多了一份重要牵挂活动海报"
+posterWidth = 1086
+posterHeight = 1448
+title = "生活多了一份重要牵挂。"
+subtitle = "新家庭成员到来，永久会员限时 48 元。"
+note = "活动截止 2026 年 10 月 31 日，一次购买，永久使用。"
+detailUrl = "/assets/activities/iassets-father-special.png"
+ctaLabel = "去详情页查看"
+ctaHint = "查看完整规则与步骤"
+
+[[home.activities.items]]
+date = "2026.09.21 — 2026.10.31"
+poster = "/assets/activities/iassets-share-membership.png"
+posterAlt = "分享知盈领取永久会员活动海报"
+posterWidth = 1080
+posterHeight = 1440
+title = "分享知盈，领取永久会员。"
+subtitle = "发布原创体验，点赞或收藏超过 20 个，核验后领取。"
+note = "分享渠道不限，活动截止 2026 年 10 月 31 日。"
+detailUrl = "/assets/activities/iassets-share-membership.png"
+ctaLabel = "去详情页查看"
+ctaHint = "查看完整规则与步骤"
+
+[[home.activities.items]]
+date = "长期活动"
+poster = "/assets/activities/iassets-one-year-promise.png"
+posterAlt = "知盈一年之约活动海报"
+posterWidth = 1086
+posterHeight = 1448
+title = "一年之约。"
+subtitle = "先领一年会员，满一年再领永久。"
+note = "任选一个渠道关注所选平台账号；持续关注满一年，经核验后领取永久会员。"
+detailUrl = "/assets/activities/iassets-one-year-promise.png"
+ctaLabel = "去详情页查看"
+ctaHint = "查看完整规则与步骤"
+
 [home.reviews]
 disabled = true
 eyebrow = "评价"
