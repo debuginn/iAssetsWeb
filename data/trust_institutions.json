@@ -1,0 +1,100 @@
+{
+  "/assets/local/20260607PRQOHB.webp": {
+    "en": "HSBC",
+    "zh": "汇丰银行",
+    "zh-hant": "滙豐銀行",
+    "ko": "HSBC은행"
+  },
+  "/assets/trust-logos/standard-chartered.webp": {
+    "en": "Standard Chartered Bank",
+    "zh": "渣打银行",
+    "zh-hant": "渣打銀行",
+    "ja": "スタンダードチャータード銀行",
+    "ko": "스탠다드차타드은행"
+  },
+  "/assets/trust-logos/dbs-bank.webp": {
+    "en": "DBS Bank",
+    "zh": "星展银行",
+    "zh-hant": "星展銀行",
+    "ja": "DBS銀行"
+  },
+  "/assets/trust-logos/charles-schwab.svg": {
+    "en": "Charles Schwab",
+    "zh": "嘉信理财",
+    "zh-hant": "嘉信理財"
+  },
+  "/assets/trust-logos/ibkr.webp": {
+    "en": "IBKR",
+    "zh": "盈透证券",
+    "zh-hant": "盈透證券",
+    "ja": "インタラクティブ・ブローカーズ"
+  },
+  "/assets/trust-logos/galaxy-securities.png": {
+    "en": "China Galaxy Securities",
+    "zh": "中国银河证券",
+    "zh-hant": "中國銀河證券"
+  },
+  "/assets/trust-logos/gf-securities.png": {
+    "en": "GF Securities",
+    "zh": "广发证券",
+    "zh-hant": "廣發證券"
+  },
+  "/assets/trust-logos/dongguan-securities.png": {
+    "en": "Dongguan Securities",
+    "zh": "东莞证券",
+    "zh-hant": "東莞證券"
+  },
+  "/assets/trust-logos/hang-seng-bank.webp": {
+    "en": "Hang Seng Bank",
+    "zh": "恒生银行",
+    "zh-hant": "恒生銀行"
+  },
+  "/assets/trust-logos/starryblu.png": {
+    "en": "Starryblu"
+  },
+  "/assets/trust-logos/panda-remit.png": {
+    "en": "Panda Remit",
+    "zh": "熊猫速汇",
+    "zh-hant": "熊貓速匯",
+    "ja": "パンダレミット"
+  },
+  "/assets/trust-logos/flybay-mark.webp": {
+    "en": "flyBay",
+    "zh": "飞湾计划",
+    "zh-hant": "飛灣計劃"
+  },
+  "/assets/trust-logos/plural-atlas.webp": {
+    "en": "Plural Atlas",
+    "zh": "多元派",
+    "zh-hant": "多元派"
+  },
+  "/assets/local/20260607VkvnrY.webp": {
+    "en": "HF Bank"
+  },
+  "/assets/local/202606079PfBTQ.webp": {
+    "en": "ZA Bank",
+    "zh": "众安银行",
+    "zh-hant": "眾安銀行"
+  },
+  "/assets/local/20260607dIw87p.webp": {
+    "en": "Fuxi Securities"
+  },
+  "/assets/local/20260607TDtXFC.webp": {
+    "en": "Zhufu Securities"
+  },
+  "/assets/local/20260607HKBV4D.webp": {
+    "en": "Macau Ant Bank",
+    "zh": "蚂蚁银行（澳门）",
+    "zh-hant": "螞蟻銀行（澳門）"
+  },
+  "/assets/trust-logos/hsbc-hk.webp": {
+    "en": "HSBC Hong Kong",
+    "zh": "汇丰香港",
+    "zh-hant": "滙豐香港"
+  },
+  "/assets/trust-logos/boc-hk.webp": {
+    "en": "Bank of China (Hong Kong)",
+    "zh": "中国银行（香港）",
+    "zh-hant": "中國銀行（香港）"
+  }
+}
