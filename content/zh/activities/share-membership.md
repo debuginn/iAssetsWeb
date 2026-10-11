@@ -66,8 +66,8 @@ href = "/zh/#activities"
 - Instagram
 - 抖音
 - 快手
-- Reddit
-- YouTube
+- Reddit：[个人主页](https://www.reddit.com/u/Other-Farmer-6995/s/Y3UNMefBhM)
+- YouTube：[个人主页](https://www.youtube.com/@debuginn)
 
 微信公众号「Debug客栈」：[查看关注二维码](https://static.debuginn.com/20241111FZS0zY.png)
 
