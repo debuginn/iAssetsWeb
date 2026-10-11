@@ -1,0 +1,35 @@
+{{- $trust := .trust | default dict -}}
+{{- $institutions := .institutions | default dict -}}
+{{- $lang := lower (replace (.lang | default "en") "_" "-") -}}
+{{- $aliases := dict
+  "zh-cn" "zh" "zh-hans" "zh" "zh-hans-cn" "zh"
+  "zh-tw" "zh-hant" "zh-hk" "zh-hant" "zh-mo" "zh-hant"
+  "zh-hant-tw" "zh-hant" "zh-hant-hk" "zh-hant" "zh-hant-mo" "zh-hant"
+  "tw" "zh-hant" "hk" "zh-hant" "mo" "zh-hant" "sg" "zh-hant"
+  "en-us" "en" "en-gb" "en" "ja-jp" "ja" "ko-kr" "ko"
+-}}
+{{- $lang = index $aliases $lang | default $lang -}}
+{{- with $trust.tracks -}}
+  {{- $tracks := dict -}}
+  {{- range $track, $items := . -}}
+    {{- $localizedItems := slice -}}
+    {{- range $item := $items -}}
+      {{- /* Match the institution, not its position or already-translated label. */ -}}
+      {{- $src := $item.src | default "" -}}
+      {{- $names := index $institutions $src | default dict -}}
+      {{- $english := strings.TrimSpace ($names.en | default "") -}}
+      {{- if not $english -}}
+        {{- errorf "Trust institution %q requires an English name in data/trust_institutions.json" $src -}}
+      {{- end -}}
+      {{- $name := strings.TrimSpace (index $names $lang | default "") -}}
+      {{- if not $name -}}
+        {{- $name = $english -}}
+      {{- end -}}
+      {{- /* Use the same resolved name for visible and accessible text. */ -}}
+      {{- $localizedItems = $localizedItems | append (merge $item (dict "name" $name "alt" $name)) -}}
+    {{- end -}}
+    {{- $tracks = merge $tracks (dict $track $localizedItems) -}}
+  {{- end -}}
+  {{- $trust = merge $trust (dict "tracks" $tracks) -}}
+{{- end -}}
+{{- return $trust -}}
