@@ -14,6 +14,31 @@ lifetime = '9.99'
 languageName = '中文简体'
 weight = 2
 
+[[zh.menus.main]]
+identifier = 'navFeatures'
+url = '#features'
+weight = 10
+
+[[zh.menus.main]]
+identifier = 'navPricing'
+url = '#pricing-compare'
+weight = 30
+
+[[zh.menus.main]]
+identifier = 'navActivities'
+url = '#activities'
+weight = 35
+
+[[zh.menus.main]]
+identifier = 'navFaq'
+url = '#faqs'
+weight = 40
+
+[[zh.menus.main]]
+identifier = 'navBlog'
+url = 'https://blog.debuginn.com/categories/iassets/'
+weight = 50
+
 [zh.params.assets]
 downloadQr = '/assets/local/20260607oiR5ZJ.png'
 
