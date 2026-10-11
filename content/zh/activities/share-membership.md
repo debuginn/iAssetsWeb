@@ -63,14 +63,11 @@ href = "/zh/#activities"
 - 微博：[个人主页](https://weibo.com/u/7096209693)
 - 知乎：[个人主页](https://www.zhihu.com/people/debuginn)
 - X：[个人主页](https://x.com/xdebuginn)
-- Instagram
-- 抖音
-- 快手
 - Reddit：[个人主页](https://www.reddit.com/u/Other-Farmer-6995/s/Y3UNMefBhM)
 - YouTube：[个人主页](https://www.youtube.com/@debuginn)
 
-微信公众号「Debug客栈」：[查看关注二维码](https://static.debuginn.com/20241111FZS0zY.png)
+微信公众号「Debug客栈」：[查看关注二维码](/assets/activities/debuginn-wechat-qr.png)
 
-![微信公众号「Debug客栈」关注二维码](https://static.debuginn.com/20241111FZS0zY.png)
+![微信公众号「Debug客栈」关注二维码](/assets/activities/debuginn-wechat-qr.png)
 
 > 真实分享，请注明参与活动。
