@@ -325,67 +325,67 @@ description = "関連する銀行、金融サービス、コミュニティを�
 [home.trust.tracks]
 [[home.trust.tracks.primary]]
 src = "/assets/local/20260607PRQOHB.webp"
-alt = "HSBC China logo"
+alt = "HSBCのロゴ"
 name = "HSBC"
 
 [[home.trust.tracks.primary]]
 src = "/assets/trust-logos/standard-chartered.webp"
-alt = "Standard Chartered China logo"
-name = "Standard Chartered Bank"
+alt = "スタンダードチャータード銀行のロゴ"
+name = "スタンダードチャータード銀行"
 
 [[home.trust.tracks.primary]]
 src = "/assets/trust-logos/dbs-bank.webp"
-alt = "DBS Bank logo"
-name = "DBS Bank"
+alt = "DBS銀行のロゴ"
+name = "DBS銀行"
 
 [[home.trust.tracks.primary]]
 src = "/assets/trust-logos/charles-schwab.svg"
-alt = "Charles Schwab logo"
+alt = "Charles Schwabのロゴ"
 name = "Charles Schwab"
 
 [[home.trust.tracks.primary]]
 src = "/assets/trust-logos/ibkr.webp"
-alt = "Interactive Brokers logo"
-name = "IBKR"
+alt = "インタラクティブ・ブローカーズのロゴ"
+name = "インタラクティブ・ブローカーズ"
 
 [[home.trust.tracks.primary]]
 src = "/assets/trust-logos/galaxy-securities.png"
-alt = "China Galaxy Securities logo"
+alt = "China Galaxy Securitiesのロゴ"
 name = "China Galaxy Securities"
 
 [[home.trust.tracks.primary]]
 src = "/assets/trust-logos/gf-securities.png"
-alt = "GF Securities logo"
+alt = "GF Securitiesのロゴ"
 name = "GF Securities"
 
 [[home.trust.tracks.primary]]
 src = "/assets/trust-logos/dongguan-securities.png"
-alt = "Dongguan Securities logo"
+alt = "Dongguan Securitiesのロゴ"
 name = "Dongguan Securities"
 
 [[home.trust.tracks.secondary]]
 src = "/assets/trust-logos/hang-seng-bank.webp"
-alt = "Hang Seng Bank logo"
+alt = "Hang Seng Bankのロゴ"
 name = "Hang Seng Bank"
 
 [[home.trust.tracks.secondary]]
 src = "/assets/trust-logos/starryblu.png"
-alt = "Starryblu logo"
+alt = "Starrybluのロゴ"
 name = "Starryblu"
 
 [[home.trust.tracks.secondary]]
 src = "/assets/trust-logos/panda-remit.png"
-alt = "Panda Remit logo"
-name = "Panda Remit"
+alt = "パンダレミットのロゴ"
+name = "パンダレミット"
 
 [[home.trust.tracks.secondary]]
 src = "/assets/trust-logos/flybay-mark.webp"
-alt = "FlyBay logo"
+alt = "flyBayのロゴ"
 name = "flyBay"
 
 [[home.trust.tracks.secondary]]
 src = "/assets/trust-logos/plural-atlas.webp"
-alt = "Plural Atlas logo"
+alt = "Plural Atlasのロゴ"
 name = "Plural Atlas"
 
 [[home.trust.actions]]

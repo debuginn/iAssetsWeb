@@ -325,72 +325,72 @@ description = "了解相關銀行、金融平台與社群專案，按自己的�
 [home.trust.tracks]
 [[home.trust.tracks.primary]]
 src = "/assets/trust-logos/hang-seng-bank.webp"
-alt = "Hang Seng Bank logo"
+alt = "恒生銀行標誌"
 name = "恒生銀行"
 
 [[home.trust.tracks.primary]]
 src = "/assets/trust-logos/dbs-bank.webp"
-alt = "DBS Bank logo"
+alt = "星展銀行標誌"
 name = "星展銀行"
 
 [[home.trust.tracks.primary]]
 src = "/assets/trust-logos/standard-chartered.webp"
-alt = "Standard Chartered China logo"
+alt = "渣打銀行標誌"
 name = "渣打銀行"
 
 [[home.trust.tracks.primary]]
 src = "/assets/trust-logos/hsbc-hk.webp"
-alt = "HSBC Hong Kong logo"
-name = "HSBC 香港"
+alt = "滙豐香港標誌"
+name = "滙豐香港"
 
 [[home.trust.tracks.primary]]
 src = "/assets/trust-logos/boc-hk.webp"
-alt = "Bank of China Hong Kong logo"
+alt = "中國銀行（香港）標誌"
 name = "中國銀行（香港）"
 
 [[home.trust.tracks.primary]]
 src = "/assets/local/20260607HKBV4D.webp"
-alt = "Macau Ant Bank logo"
-name = "Macau Ant Bank"
+alt = "螞蟻銀行（澳門）標誌"
+name = "螞蟻銀行（澳門）"
 
 [[home.trust.tracks.primary]]
 src = "/assets/trust-logos/galaxy-securities.png"
-alt = "China Galaxy Securities logo"
+alt = "中國銀河證券標誌"
 name = "中國銀河證券"
 
 [[home.trust.tracks.primary]]
 src = "/assets/trust-logos/gf-securities.png"
-alt = "GF Securities logo"
+alt = "廣發證券標誌"
 name = "廣發證券"
 
 [[home.trust.tracks.primary]]
 src = "/assets/trust-logos/dongguan-securities.png"
-alt = "Dongguan Securities logo"
+alt = "東莞證券標誌"
 name = "東莞證券"
 
 [[home.trust.tracks.secondary]]
 src = "/assets/trust-logos/ibkr.webp"
-alt = "Interactive Brokers logo"
-name = "IBKR"
+alt = "盈透證券標誌"
+name = "盈透證券"
 
 [[home.trust.tracks.secondary]]
 src = "/assets/trust-logos/starryblu.png"
-alt = "Starryblu logo"
+alt = "Starryblu標誌"
 name = "Starryblu"
 
 [[home.trust.tracks.secondary]]
 src = "/assets/trust-logos/panda-remit.png"
-alt = "Panda Remit logo"
+alt = "熊貓速匯標誌"
 name = "熊貓速匯"
 
 [[home.trust.tracks.secondary]]
 src = "/assets/trust-logos/flybay-mark.webp"
-alt = "FlyBay logo"
+alt = "飛灣計劃標誌"
 name = "飛灣計劃"
 
 [[home.trust.tracks.secondary]]
 src = "/assets/trust-logos/plural-atlas.webp"
-alt = "Plural Atlas logo"
+alt = "多元派標誌"
 name = "多元派"
 
 [[home.trust.actions]]
