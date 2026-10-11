@@ -58,15 +58,19 @@ href = "/zh/#activities"
 
 分享渠道不限，海报中列出的渠道包括：
 
-- 小红书
+- 小红书：[个人主页](https://www.xiaohongshu.com/user/profile/5d4057fd0000000012007068)
 - 朋友圈
-- 微博
-- 知乎
-- X
+- 微博：[个人主页](https://weibo.com/u/7096209693)
+- 知乎：[个人主页](https://www.zhihu.com/people/debuginn)
+- X：[个人主页](https://x.com/xdebuginn)
 - Instagram
 - 抖音
 - 快手
 - Reddit
 - YouTube
+
+微信公众号「Debug客栈」：[查看关注二维码](https://static.debuginn.com/20241111FZS0zY.png)
+
+![微信公众号「Debug客栈」关注二维码](https://static.debuginn.com/20241111FZS0zY.png)
 
 > 真实分享，请注明参与活动。
