@@ -325,67 +325,67 @@ description = "관련 은행, 금융 플랫폼, 커뮤니티 프로젝트를 살
 [home.trust.tracks]
 [[home.trust.tracks.primary]]
 src = "/assets/local/20260607PRQOHB.webp"
-alt = "HSBC China logo"
-name = "HSBC"
+alt = "HSBC은행 로고"
+name = "HSBC은행"
 
 [[home.trust.tracks.primary]]
 src = "/assets/trust-logos/standard-chartered.webp"
-alt = "Standard Chartered China logo"
-name = "Standard Chartered Bank"
+alt = "스탠다드차타드은행 로고"
+name = "스탠다드차타드은행"
 
 [[home.trust.tracks.primary]]
 src = "/assets/trust-logos/dbs-bank.webp"
-alt = "DBS Bank logo"
-name = "DBS Bank"
+alt = "DBS은행 로고"
+name = "DBS은행"
 
 [[home.trust.tracks.primary]]
 src = "/assets/trust-logos/charles-schwab.svg"
-alt = "Charles Schwab logo"
+alt = "Charles Schwab 로고"
 name = "Charles Schwab"
 
 [[home.trust.tracks.primary]]
 src = "/assets/trust-logos/ibkr.webp"
-alt = "Interactive Brokers logo"
+alt = "IBKR 로고"
 name = "IBKR"
 
 [[home.trust.tracks.primary]]
 src = "/assets/trust-logos/galaxy-securities.png"
-alt = "China Galaxy Securities logo"
+alt = "China Galaxy Securities 로고"
 name = "China Galaxy Securities"
 
 [[home.trust.tracks.primary]]
 src = "/assets/trust-logos/gf-securities.png"
-alt = "GF Securities logo"
+alt = "GF Securities 로고"
 name = "GF Securities"
 
 [[home.trust.tracks.primary]]
 src = "/assets/trust-logos/dongguan-securities.png"
-alt = "Dongguan Securities logo"
+alt = "Dongguan Securities 로고"
 name = "Dongguan Securities"
 
 [[home.trust.tracks.secondary]]
 src = "/assets/trust-logos/hang-seng-bank.webp"
-alt = "Hang Seng Bank logo"
+alt = "Hang Seng Bank 로고"
 name = "Hang Seng Bank"
 
 [[home.trust.tracks.secondary]]
 src = "/assets/trust-logos/starryblu.png"
-alt = "Starryblu logo"
+alt = "Starryblu 로고"
 name = "Starryblu"
 
 [[home.trust.tracks.secondary]]
 src = "/assets/trust-logos/panda-remit.png"
-alt = "Panda Remit logo"
+alt = "Panda Remit 로고"
 name = "Panda Remit"
 
 [[home.trust.tracks.secondary]]
 src = "/assets/trust-logos/flybay-mark.webp"
-alt = "FlyBay logo"
+alt = "flyBay 로고"
 name = "flyBay"
 
 [[home.trust.tracks.secondary]]
 src = "/assets/trust-logos/plural-atlas.webp"
-alt = "Plural Atlas logo"
+alt = "Plural Atlas 로고"
 name = "Plural Atlas"
 
 [[home.trust.actions]]
