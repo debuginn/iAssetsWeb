@@ -372,72 +372,72 @@ description = "了解相关银行、金融平台与社区项目，按自己的�
 [home.trust.tracks]
 [[home.trust.tracks.primary]]
 src = "/assets/local/20260607VkvnrY.webp"
-alt = "HF Bank logo"
-name = "HF Bank"
+alt = "恒丰银行标志"
+name = "恒丰银行"
 
 [[home.trust.tracks.primary]]
 src = "/assets/local/202606079PfBTQ.webp"
-alt = "ZA Bank logo"
-name = "ZA Bank"
+alt = "众安银行标志"
+name = "众安银行"
 
 [[home.trust.tracks.primary]]
 src = "/assets/local/20260607dIw87p.webp"
-alt = "Fuxi Securities logo"
+alt = "Fuxi Securities标志"
 name = "Fuxi Securities"
 
 [[home.trust.tracks.primary]]
 src = "/assets/local/20260607PRQOHB.webp"
-alt = "HSBC China logo"
-name = "HSBC China"
+alt = "汇丰中国标志"
+name = "汇丰中国"
 
 [[home.trust.tracks.primary]]
 src = "/assets/local/20260607TDtXFC.webp"
-alt = "Zhufu Securities logo"
-name = "Zhufu Securities"
+alt = "致富证券标志"
+name = "致富证券"
 
 [[home.trust.tracks.primary]]
 src = "/assets/local/20260607HKBV4D.webp"
-alt = "Macau Ant Bank logo"
-name = "Macau Ant Bank"
+alt = "蚂蚁银行（澳门）标志"
+name = "蚂蚁银行（澳门）"
 
 [[home.trust.tracks.primary]]
 src = "/assets/trust-logos/galaxy-securities.png"
-alt = "China Galaxy Securities logo"
+alt = "中国银河证券标志"
 name = "中国银河证券"
 
 [[home.trust.tracks.primary]]
 src = "/assets/trust-logos/gf-securities.png"
-alt = "GF Securities logo"
+alt = "广发证券标志"
 name = "广发证券"
 
 [[home.trust.tracks.primary]]
 src = "/assets/trust-logos/dongguan-securities.png"
-alt = "Dongguan Securities logo"
+alt = "东莞证券标志"
 name = "东莞证券"
 
 [[home.trust.tracks.secondary]]
 src = "/assets/trust-logos/standard-chartered.webp"
-alt = "Standard Chartered China logo"
+alt = "渣打银行标志"
 name = "渣打银行"
 
 [[home.trust.tracks.secondary]]
 src = "/assets/trust-logos/starryblu.png"
-alt = "Starryblu logo"
+alt = "Starryblu标志"
 name = "Starryblu"
 
 [[home.trust.tracks.secondary]]
 src = "/assets/trust-logos/panda-remit.png"
-alt = "Panda Remit logo"
+alt = "熊猫速汇标志"
 name = "熊猫速汇"
 
 [[home.trust.tracks.secondary]]
 src = "/assets/trust-logos/flybay-mark.webp"
-alt = "FlyBay logo"
+alt = "飞湾计划标志"
 name = "飞湾计划"
 
 [[home.trust.tracks.secondary]]
 src = "/assets/trust-logos/plural-atlas.webp"
-alt = "Plural Atlas logo"
+alt = "多元派标志"
 name = "多元派"
 
 [[home.trust.actions]]
