@@ -13,8 +13,12 @@
 <main class="activity-detail-main" style="--activity-accent: {{ $accent }};">
   <section class="section activity-detail-section">
     <div class="container activity-detail-wrap">
-      <a class="activity-detail-back" href="{{ $backHref }}">
-        <span aria-hidden="true">‹</span>{{ $backLabel }}
+      <a class="activity-detail-back activity-detail-btn activity-detail-btn-secondary" href="{{ $backHref }}">
+        <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+          <path d="m12 5-7 7 7 7" />
+          <path d="M5 12h14" />
+        </svg>
+        {{ $backLabel }}
       </a>
       <div class="activity-detail-grid">
         <div class="activity-detail-poster-side">
