@@ -1,14 +1,15 @@
 +++
-title = "一年之约。"
+title = "一年之约，用知盈记录财富增长"
 description = "先领一年会员，满一年再领永久。任选一个渠道关注所选平台账号，持续关注满一年，经核验后领取永久会员。"
 eyebrow = "长期活动"
-summary = "先领一年会员，满一年再领永久。任选一个渠道关注所选平台账号，持续关注满一年，经核验后领取永久会员。"
+hideOverview = true
+tocBelowPoster = true
+channelButtons = true
 poster = "/assets/activities/iassets-one-year-promise.png"
 posterAlt = "知盈一年之约活动海报"
 posterWidth = 1086
 posterHeight = 1448
 posterLabel = "活动海报"
-posterHint = "先领一年，满一年再领永久"
 accent = "#2f80c7"
 backHref = "/zh/#activities"
 backLabel = "返回近期活动"
@@ -18,7 +19,6 @@ socialImage = "/assets/activities/iassets-one-year-promise.png"
 socialImageAlt = "知盈一年之约活动海报"
 socialImageWidth = 1086
 socialImageHeight = 1448
-note = "请保留关注记录，满一年后按说明提交核验。"
 
 [[meta]]
 label = "活动权益"
@@ -39,6 +39,10 @@ href = "/assets/activities/iassets-one-year-promise.png"
 [actions.secondary]
 label = "回到近期活动"
 href = "/zh/#activities"
+
+[redemption]
+label = "联系我兑奖"
+subject = "一年之约活动兑奖"
 +++
 
 ## 活动说明
@@ -66,7 +70,7 @@ href = "/zh/#activities"
 ### 海外渠道
 
 - [Telegram](https://t.me/tdebuginn)
-- [X](https://x.com/xdebuginn)
+- [X（推特）](https://x.com/xdebuginn)
 - [Discord](https://discord.gg/DhswyVyFvV)
 
 ## 领取永久会员
