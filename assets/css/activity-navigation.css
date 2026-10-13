@@ -104,7 +104,6 @@
   border-radius: 0;
   object-fit: contain;
 }
-.activity-channel-logo img[src$=".svg"] { filter: brightness(0); }
 .activity-channel-name { font-size: 14px; font-weight: 600; line-height: 1.5; }
 @media (max-width: 480px) {
   .activity-detail-article ul:has(> li > .activity-channel-link) { grid-template-columns: 1fr; }
