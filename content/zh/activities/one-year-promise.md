@@ -72,6 +72,8 @@ subject = "一年之约活动兑奖"
 - [Telegram](https://t.me/tdebuginn)
 - [X（推特）](https://x.com/xdebuginn)
 - [Discord](https://discord.gg/DhswyVyFvV)
+- [YouTube](https://www.youtube.com/@debuginn)
+- [Threads](https://www.threads.com/@idebuginn)
 
 ## 领取永久会员
 

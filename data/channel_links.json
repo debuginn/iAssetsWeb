@@ -6,7 +6,9 @@
     "sspai": { "name": "少数派", "icon": "/assets/channel-logos/sspai.ico" },
     "telegram": { "name": "Telegram", "icon": "/assets/channel-logos/telegram.svg" },
     "x": { "name": "X（推特）", "icon": "/assets/local/20260607TIEZDC.svg" },
-    "discord": { "name": "Discord", "icon": "/assets/channel-logos/discord.svg" }
+    "discord": { "name": "Discord", "icon": "/assets/channel-logos/discord.svg" },
+    "youtube": { "name": "YouTube", "icon": "/assets/channel-logos/youtube.svg" },
+    "threads": { "name": "Threads", "icon": "/assets/channel-logos/threads.svg" }
   },
   "hosts": {
     "weibo.com": "weibo",
@@ -20,6 +22,10 @@
     "x.com": "x",
     "twitter.com": "x",
     "discord.gg": "discord",
-    "discord.com": "discord"
+    "discord.com": "discord",
+    "youtube.com": "youtube",
+    "youtu.be": "youtube",
+    "threads.com": "threads",
+    "threads.net": "threads"
   }
 }
