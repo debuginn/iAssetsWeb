@@ -54,6 +54,21 @@ href = "/zh/#activities"
 - 国内渠道：**7 选 3**
 - 海外渠道：**5 选 2**
 
+## 渠道链接
+
+### 国内渠道
+
+- [微博](https://weibo.com/u/7096209693)
+- [小红书](https://www.xiaohongshu.com/user/profile/5d4057fd0000000012007068)
+- [知乎](https://www.zhihu.com/people/debuginn)
+- [少数派](https://sspai.com/u/debuginn)
+
+### 海外渠道
+
+- [Telegram](https://t.me/tdebuginn)
+- [X](https://x.com/xdebuginn)
+- [Discord](https://discord.gg/DhswyVyFvV)
+
 ## 领取永久会员
 
 持续关注满一年后，提交关注记录并完成核验，即可领取永久会员。
