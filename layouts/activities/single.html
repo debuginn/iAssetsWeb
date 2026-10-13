@@ -66,6 +66,12 @@
             </figure>
           </section>
           {{- end }}
+          {{- if and .Params.tocBelowPoster .TableOfContents }}
+          <section class="activity-detail-toc" aria-labelledby="activity-toc-title">
+            <h2 id="activity-toc-title">页面目录</h2>
+            {{ .TableOfContents }}
+          </section>
+          {{- end }}
         </div>
         <div class="activity-detail-content-side">
           {{- if or .Params.summary .Params.note }}
@@ -79,7 +85,7 @@
             {{- end }}
           </section>
           {{- end }}
-          {{- if .TableOfContents }}
+          {{- if and (not .Params.tocBelowPoster) .TableOfContents }}
           <section class="activity-detail-toc" aria-labelledby="activity-toc-title">
             <h2 id="activity-toc-title">页面目录</h2>
             {{ .TableOfContents }}
