@@ -10,7 +10,6 @@ posterAlt = "知盈一年之约活动海报"
 posterWidth = 1086
 posterHeight = 1448
 posterLabel = "活动海报"
-posterHint = "先领一年，满一年再领永久"
 accent = "#2f80c7"
 backHref = "/zh/#activities"
 backLabel = "返回近期活动"
