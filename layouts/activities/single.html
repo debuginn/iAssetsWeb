@@ -1,6 +1,6 @@
 {{ define "main" }}
-{{- $markdownStyles := resources.Get "css/activity-markdown.css" | fingerprint -}}
-<link rel="stylesheet" href="{{ $markdownStyles.RelPermalink }}" integrity="{{ $markdownStyles.Data.Integrity }}" />
+{{- $activityStyles := slice (resources.Get "css/activity-markdown.css") (resources.Get "css/activity-navigation.css") | resources.Concat "css/activity-detail.css" | fingerprint -}}
+<link rel="stylesheet" href="{{ $activityStyles.RelPermalink }}" integrity="{{ $activityStyles.Data.Integrity }}" />
 {{- $poster := .Params.poster -}}
 {{- $posterAlt := .Params.posterAlt | default .Title -}}
 {{- $posterWidth := .Params.posterWidth | default 1086 -}}

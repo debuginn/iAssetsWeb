@@ -1,0 +1,51 @@
+/* A chapter list for the narrow poster column. */
+.activity-detail-poster-side .activity-detail-toc { padding: 20px; }
+.activity-detail-poster-side .activity-detail-toc h2 {
+  font-size: 14px;
+  font-weight: 700;
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--line);
+}
+.activity-detail-poster-side .activity-detail-toc nav { margin-top: 10px; }
+.activity-detail-poster-side .activity-detail-toc ul {
+  display: block;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.activity-detail-poster-side .activity-detail-toc li { margin: 2px 0; }
+.activity-detail-poster-side .activity-detail-toc a {
+  display: flex;
+  width: 100%;
+  min-height: 42px;
+  padding: 10px 12px;
+  border: 0;
+  border-radius: 8px;
+  color: var(--text);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.6;
+  text-decoration: none;
+  overflow-wrap: anywhere;
+}
+.activity-detail-poster-side .activity-detail-toc ul ul {
+  margin: 2px 0 8px 12px;
+  padding-left: 12px;
+  border-left: 1px solid var(--line);
+}
+.activity-detail-poster-side .activity-detail-toc ul ul a {
+  min-height: 38px;
+  padding: 8px 10px;
+  color: var(--sub);
+  font-size: 13px;
+  font-weight: 400;
+}
+.activity-detail-poster-side .activity-detail-toc a:hover,
+.activity-detail-poster-side .activity-detail-toc a:focus-visible {
+  color: var(--accent);
+  background: var(--activity-detail-soft);
+}
+.activity-detail-poster-side .activity-detail-toc a:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
