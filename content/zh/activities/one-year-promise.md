@@ -66,7 +66,7 @@ href = "/zh/#activities"
 ### 海外渠道
 
 - [Telegram](https://t.me/tdebuginn)
-- [X](https://x.com/xdebuginn)
+- [X（推特）](https://x.com/xdebuginn)
 - [Discord](https://discord.gg/DhswyVyFvV)
 
 ## 领取永久会员
