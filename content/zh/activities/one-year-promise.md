@@ -39,6 +39,10 @@ href = "/assets/activities/iassets-one-year-promise.png"
 [actions.secondary]
 label = "回到近期活动"
 href = "/zh/#activities"
+
+[redemption]
+label = "联系我兑奖"
+subject = "一年之约活动兑奖"
 +++
 
 ## 活动说明
