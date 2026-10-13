@@ -2,6 +2,7 @@
 title = "一年之约。"
 description = "先领一年会员，满一年再领永久。任选一个渠道关注所选平台账号，持续关注满一年，经核验后领取永久会员。"
 eyebrow = "长期活动"
+hideOverview = true
 summary = "先领一年会员，满一年再领永久。任选一个渠道关注所选平台账号，持续关注满一年，经核验后领取永久会员。"
 poster = "/assets/activities/iassets-one-year-promise.png"
 posterAlt = "知盈一年之约活动海报"

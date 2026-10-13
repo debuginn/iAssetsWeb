@@ -1,0 +1,96 @@
+{{ define "main" }}
+{{- $poster := .Params.poster -}}
+{{- $posterAlt := .Params.posterAlt | default .Title -}}
+{{- $posterWidth := .Params.posterWidth | default 1086 -}}
+{{- $posterHeight := .Params.posterHeight | default 1448 -}}
+{{- $accent := .Params.accent | default "#2b7bff" -}}
+{{- $backHref := .Params.backHref | default ("/#activities" | relLangURL) -}}
+{{- $backLabel := .Params.backLabel | default "返回近期活动" -}}
+{{- $logo := site.Params.assets.logo -}}
+{{- with site.Language.Params.assets.logo }}{{- $logo = . -}}{{- end -}}
+{{- $primary := .Params.actions.primary -}}
+{{- $secondary := .Params.actions.secondary -}}
+<main class="activity-detail-main" style="--activity-accent: {{ $accent }};">
+  <section class="section activity-detail-section">
+    <div class="container activity-detail-wrap">
+      <a class="activity-detail-back" href="{{ $backHref }}">
+        <span aria-hidden="true">‹</span>{{ $backLabel }}
+      </a>
+      <div class="activity-detail-grid">
+        <div class="activity-detail-poster-side">
+          {{- if not .Params.hideOverview }}
+          <section class="activity-detail-overview" aria-labelledby="activity-title">
+            <div class="activity-detail-overview-header">
+              {{- with $logo }}<img class="activity-detail-logo" src="{{ . }}" alt="" width="44" height="44" decoding="async" />{{- end }}
+              <div>
+                {{- with .Params.eyebrow }}<p class="activity-detail-eyebrow">{{ . }}</p>{{- end }}
+                <h1 id="activity-title" class="activity-detail-title">{{ .Title }}</h1>
+              </div>
+            </div>
+            {{- with .Params.meta }}
+            <dl class="activity-detail-meta-grid">
+              {{- range . }}
+              <div class="activity-detail-meta-card">
+                <dt>{{ .label }}</dt>
+                <dd>{{ .value }}</dd>
+              </div>
+              {{- end }}
+            </dl>
+            {{- end }}
+            {{- if or $primary $secondary }}
+            <div class="activity-detail-actions">
+              {{- with $primary }}
+              <a class="activity-detail-btn activity-detail-btn-primary" href="{{ .href | default "#" }}"{{ if hasPrefix (.href | default "#") "http" }} target="_blank" rel="noopener noreferrer"{{ end }}>
+                <span>{{ .label | default "查看活动" }}</span><span class="activity-detail-btn-icon" aria-hidden="true">↗</span>
+              </a>
+              {{- end }}
+              {{- with $secondary }}
+              <a class="activity-detail-btn activity-detail-btn-secondary" href="{{ .href | default $backHref }}">
+                <span>{{ .label | default $backLabel }}</span><span class="activity-detail-btn-icon" aria-hidden="true">⌂</span>
+              </a>
+              {{- end }}
+            </div>
+            {{- end }}
+          </section>
+          {{- end }}
+          {{- if $poster }}
+          <section class="activity-detail-poster-shell" aria-labelledby="activity-poster-title">
+            <div class="activity-detail-panel-heading">
+              <h2 id="activity-poster-title">{{ .Params.posterLabel | default "活动海报" }}</h2>
+            </div>
+            <figure class="activity-detail-poster">
+              <a class="activity-detail-poster-link" href="{{ $poster }}" aria-label="查看海报原图">
+                <img src="{{ $poster }}" alt="{{ $posterAlt }}" width="{{ $posterWidth }}" height="{{ $posterHeight }}" decoding="async" fetchpriority="high" />
+              </a>
+              {{- with .Params.posterHint }}<figcaption>{{ . }}</figcaption>{{- end }}
+            </figure>
+          </section>
+          {{- end }}
+        </div>
+        <div class="activity-detail-content-side">
+          {{- if or .Params.summary .Params.note }}
+          <section class="activity-detail-intro" aria-label="活动简介">
+            {{- with .Params.summary }}<p class="activity-detail-summary">{{ . }}</p>{{- end }}
+            {{- with .Params.note }}
+            <div class="activity-detail-side-note">
+              <h2>规则提醒</h2>
+              <p>{{ . }}</p>
+            </div>
+            {{- end }}
+          </section>
+          {{- end }}
+          {{- if .TableOfContents }}
+          <section class="activity-detail-toc" aria-labelledby="activity-toc-title">
+            <h2 id="activity-toc-title">页面目录</h2>
+            {{ .TableOfContents }}
+          </section>
+          {{- end }}
+          <article class="activity-detail-article">
+            {{ .Content }}
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+{{ end }}
