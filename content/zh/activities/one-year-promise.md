@@ -4,6 +4,7 @@ description = "先领一年会员，满一年再领永久。任选一个渠道�
 eyebrow = "长期活动"
 hideOverview = true
 tocBelowPoster = true
+channelButtons = true
 poster = "/assets/activities/iassets-one-year-promise.png"
 posterAlt = "知盈一年之约活动海报"
 posterWidth = 1086

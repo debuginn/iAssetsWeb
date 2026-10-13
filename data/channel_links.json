@@ -1,0 +1,25 @@
+{
+  "platforms": {
+    "weibo": { "name": "微博", "icon": "/assets/local/20260607IoieJf.svg" },
+    "xiaohongshu": { "name": "小红书", "icon": "/assets/local/20260607S6dw4u.svg" },
+    "zhihu": { "name": "知乎", "icon": "/assets/local/20260607dP6b5s.svg" },
+    "sspai": { "name": "少数派", "icon": "/assets/channel-logos/sspai.ico" },
+    "telegram": { "name": "Telegram", "icon": "/assets/local/2026060747C8zB.svg" },
+    "x": { "name": "X（推特）", "icon": "/assets/local/20260607TIEZDC.svg" },
+    "discord": { "name": "Discord", "icon": "/assets/channel-logos/discord.svg" }
+  },
+  "hosts": {
+    "weibo.com": "weibo",
+    "weibo.cn": "weibo",
+    "xiaohongshu.com": "xiaohongshu",
+    "xhslink.com": "xiaohongshu",
+    "zhihu.com": "zhihu",
+    "sspai.com": "sspai",
+    "t.me": "telegram",
+    "telegram.me": "telegram",
+    "x.com": "x",
+    "twitter.com": "x",
+    "discord.gg": "discord",
+    "discord.com": "discord"
+  }
+}
