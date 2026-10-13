@@ -1,4 +1,6 @@
 {{ define "main" }}
+{{- $markdownStyles := resources.Get "css/activity-markdown.css" | fingerprint -}}
+<link rel="stylesheet" href="{{ $markdownStyles.RelPermalink }}" integrity="{{ $markdownStyles.Data.Integrity }}" />
 {{- $poster := .Params.poster -}}
 {{- $posterAlt := .Params.posterAlt | default .Title -}}
 {{- $posterWidth := .Params.posterWidth | default 1086 -}}
