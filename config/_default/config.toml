@@ -7,6 +7,9 @@ disableDefaultLanguageRedirect = true
 disableKinds = ['taxonomy', 'term', 'RSS']
 enableRobotsTXT = true
 
+[permalinks.page]
+  activities = '/act/:contentbasename/'
+
 [module]
   [module.hugoversion]
 

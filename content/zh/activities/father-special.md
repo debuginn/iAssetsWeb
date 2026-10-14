@@ -1,5 +1,6 @@
 +++
 title = "当父亲，也多了一份牵挂。"
+aliases = ["/zh/activities/father-special/"]
 description = "新手爸爸专属，知盈永久会员限时 48 元。"
 eyebrow = "限时活动"
 hideOverview = true

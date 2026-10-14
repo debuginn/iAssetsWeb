@@ -1,5 +1,6 @@
 +++
 title = "分享知盈，领取永久会员。"
+aliases = ["/zh/activities/share-membership/"]
 description = "发布原创体验，点赞或收藏超过 20 个，达标后私信提交链接与截图，核验后领取永久会员。"
 eyebrow = "体验分享活动"
 hideOverview = true
