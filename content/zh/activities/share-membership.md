@@ -58,19 +58,4 @@ subject = "分享知盈活动兑奖"
 3. 达标后私信提交分享链接与截图。
 4. 核验通过后领取永久会员。
 
-## 支持平台
-
-分享渠道不限，海报中列出的渠道包括：
-
-- [小红书](https://www.xiaohongshu.com/user/profile/5d4057fd0000000012007068)
-- [微博](https://weibo.com/u/7096209693)
-- [知乎](https://www.zhihu.com/people/debuginn)
-- [X（推特）](https://x.com/xdebuginn)
-- [Reddit](https://www.reddit.com/u/Other-Farmer-6995/s/Y3UNMefBhM)
-- [YouTube](https://www.youtube.com/@debuginn)
-
-微信公众号「Debug客栈」
-
-![微信公众号「Debug客栈」关注二维码](/assets/activities/debuginn-wechat-qr.png)
-
 > 真实分享，请注明参与活动。
