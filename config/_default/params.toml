@@ -3,10 +3,10 @@
   logoAlt = 'iAssets logo'
   brandName = 'iAssets'
   downloadQr = '/assets/local/20260607huIkvB.png'
-  version = 'v20261008-activity-detail-layout'
+  version = 'v20261014-pebble-v1.1.0'
 
 [theme]
-  version = 'v1.0.3'
+  version = 'v1.1.0'
 
 [contact]
   email = 'idebuginn@gmail.com'
