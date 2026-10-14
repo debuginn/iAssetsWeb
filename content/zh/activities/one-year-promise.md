@@ -66,6 +66,7 @@ subject = "一年之约活动兑奖"
 - [小红书](https://www.xiaohongshu.com/user/profile/5d4057fd0000000012007068)
 - [知乎](https://www.zhihu.com/people/debuginn)
 - [少数派](https://sspai.com/u/debuginn)
+- [微信公众号](https://mp.weixin.qq.com/s/FeNLHslk4ldfQzX9NR166Q)
 
 ### 海外渠道
 
