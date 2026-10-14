@@ -1,7 +1,7 @@
 +++
 title = "一年之约，用知盈记录财富增长"
 aliases = ["/zh/activities/one-year-promise/"]
-description = "先领一年会员，满一年再领永久。任选一个渠道关注所选平台账号，持续关注满一年，经核验后领取永久会员。"
+description = "限量 100 份。先领一年会员，满一年再领永久。任选一个渠道关注所选平台账号，持续关注满一年，经核验后领取永久会员。"
 eyebrow = "长期活动"
 hideOverview = true
 tocBelowPoster = true
@@ -33,6 +33,10 @@ value = "满一年再领永久"
 label = "参与方式"
 value = "国内 7 选 3 / 海外 5 选 2"
 
+[[meta]]
+label = "活动名额"
+value = "限量 100 份"
+
 [actions.primary]
 label = "查看海报原图"
 href = "/assets/activities/iassets-one-year-promise.png"
@@ -49,6 +53,8 @@ subject = "一年之约活动兑奖"
 ## 活动说明
 
 这是一场和知盈一起长期同行的活动。先领取一年会员，持续关注满一年后，经核验再领取永久会员。
+
+本次活动**限量 100 份**。
 
 ## 参与方式
 
