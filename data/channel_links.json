@@ -8,6 +8,7 @@
     "x": { "name": "X（推特）", "icon": "/assets/local/20260607TIEZDC.svg" },
     "discord": { "name": "Discord", "icon": "/assets/channel-logos/discord.svg" },
     "youtube": { "name": "YouTube", "icon": "/assets/channel-logos/youtube.svg" },
+    "reddit": { "name": "Reddit", "icon": "/assets/channel-logos/reddit.svg" },
     "threads": { "name": "Threads", "icon": "/assets/channel-logos/threads.svg" },
     "wechat": { "name": "微信公众号", "icon": "/assets/channel-logos/wechat.svg" }
   },
@@ -26,6 +27,7 @@
     "discord.com": "discord",
     "youtube.com": "youtube",
     "youtu.be": "youtube",
+    "reddit.com": "reddit",
     "threads.com": "threads",
     "threads.net": "threads",
     "mp.weixin.qq.com": "wechat"

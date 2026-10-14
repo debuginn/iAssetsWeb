@@ -13,6 +13,12 @@
     source = 'content/zh-cn'
     target = 'content'
 
+  # Both sites render activities from the same Markdown source.
+  [[module.mounts]]
+    lang = 'zh'
+    source = 'content/zh/activities'
+    target = 'content/activities'
+
   [[module.mounts]]
     lang = 'zh-hant'
     source = 'content/zh-hant'
