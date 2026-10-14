@@ -2,13 +2,14 @@
 title = "分享知盈，领取永久会员。"
 description = "发布原创体验，点赞或收藏超过 20 个，达标后私信提交链接与截图，核验后领取永久会员。"
 eyebrow = "体验分享活动"
-summary = "发布原创体验，点赞或收藏超过 20 个即可申请。小红书、朋友圈、微博、知乎、X、Instagram、抖音、快手、Reddit、YouTube 等平台均可参与。"
+hideOverview = true
+tocBelowPoster = true
+channelButtons = true
 poster = "/assets/activities/iassets-share-membership.png"
 posterAlt = "分享知盈领取永久会员活动海报"
 posterWidth = 1080
 posterHeight = 1440
 posterLabel = "活动海报"
-posterHint = "分享体验领取永久会员"
 accent = "#f06f8f"
 backHref = "/zh/#activities"
 backLabel = "返回近期活动"
@@ -18,7 +19,6 @@ socialImage = "/assets/activities/iassets-share-membership.png"
 socialImageAlt = "分享知盈领取永久会员活动海报"
 socialImageWidth = 1080
 socialImageHeight = 1440
-note = "真实分享，请注明参与活动。活动规则以页面最终说明为准。"
 
 [[meta]]
 label = "活动时间"
@@ -39,6 +39,10 @@ href = "/assets/activities/iassets-share-membership.png"
 [actions.secondary]
 label = "回到近期活动"
 href = "/zh/#activities"
+
+[redemption]
+label = "联系我兑奖"
+subject = "分享知盈活动兑奖"
 +++
 
 ## 活动说明
@@ -53,20 +57,5 @@ href = "/zh/#activities"
 2. 内容获得点赞或收藏超过 **20 个**。
 3. 达标后私信提交分享链接与截图。
 4. 核验通过后领取永久会员。
-
-## 支持平台
-
-分享渠道不限，海报中列出的渠道包括：
-
-- 小红书：[个人主页](https://www.xiaohongshu.com/user/profile/5d4057fd0000000012007068)
-- 微博：[个人主页](https://weibo.com/u/7096209693)
-- 知乎：[个人主页](https://www.zhihu.com/people/debuginn)
-- X：[个人主页](https://x.com/xdebuginn)
-- Reddit：[个人主页](https://www.reddit.com/u/Other-Farmer-6995/s/Y3UNMefBhM)
-- YouTube：[个人主页](https://www.youtube.com/@debuginn)
-
-微信公众号「Debug客栈」
-
-![微信公众号「Debug客栈」关注二维码](/assets/activities/debuginn-wechat-qr.png)
 
 > 真实分享，请注明参与活动。
