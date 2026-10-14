@@ -66,12 +66,15 @@ subject = "一年之约活动兑奖"
 - [小红书](https://www.xiaohongshu.com/user/profile/5d4057fd0000000012007068)
 - [知乎](https://www.zhihu.com/people/debuginn)
 - [少数派](https://sspai.com/u/debuginn)
+- [微信公众号](https://mp.weixin.qq.com/s/FeNLHslk4ldfQzX9NR166Q)
 
 ### 海外渠道
 
 - [Telegram](https://t.me/tdebuginn)
 - [X（推特）](https://x.com/xdebuginn)
 - [Discord](https://discord.gg/DhswyVyFvV)
+- [YouTube](https://www.youtube.com/@debuginn)
+- [Threads](https://www.threads.com/@idebuginn)
 
 ## 领取永久会员
 
