@@ -260,7 +260,7 @@ label = "무료로 시작하기"
 href = "#download"
 
 [[home.pricingcompare.columns]]
-featured = false
+featured = true
 priceKey = "yearly"
 title = "Pro 연간"
 badge = "Popular"
@@ -272,7 +272,7 @@ label = "연간 구독"
 href = "https://apps.apple.com/kr/app/%E7%9F%A5%E7%9B%88/id6759790991"
 
 [[home.pricingcompare.columns]]
-featured = true
+featured = false
 priceKey = "lifetime"
 title = "Pro 평생"
 badge = "가장 알찬 구성"
@@ -284,38 +284,44 @@ label = "평생 구매"
 href = "https://apps.apple.com/kr/app/%E7%9F%A5%E7%9B%88/id6759790991"
 
 [[home.pricingcompare.rows]]
-label = "다중 화폐 자산 관리"
+label = "다중 통화 자산 기록"
 values = [true, true, true]
 
 [[home.pricingcompare.rows]]
-label = "네이티브 광고 없는 디자인"
-values = [true, true, true]
-
-[[home.pricingcompare.rows]]
-label = "계정부 개수"
+label = "장부 수"
 values = ["무제한", "무제한", "무제한"]
-
-[[home.pricingcompare.rows]]
-label = "iCloud 기기 간 동기화"
-values = [false, true, true]
 
 [[home.pricingcompare.rows]]
 label = "가족 구성원 관리"
 values = [true, true, true]
 
 [[home.pricingcompare.rows]]
+label = "AI 자산 도우미"
+values = [true, true, true]
+
+[[home.pricingcompare.rows]]
+label = "암호 및 생체 인식 잠금"
+values = [true, true, true]
+
+[[home.pricingcompare.rows]]
+label = "목표, 이체 및 만기 알림"
+values = [true, true, true]
+
+[[home.pricingcompare.rows]]
+label = "변경 기록, 추세 및 달력(필터 포함)"
+values = [true, true, true]
+
+[[home.pricingcompare.rows]]
+label = "iCloud 동기화 및 클라우드 백업"
+values = [false, true, true]
+
+[[home.pricingcompare.rows]]
 label = "iCloud 가족 장부 공유"
 values = [false, true, true]
 
 [[home.pricingcompare.rows]]
-label = "시세와 평가액 갱신"
-note = "주식, 펀드, 귀금속, 암호화폐"
+label = "동적 시세 데이터"
 values = [false, true, true]
-
-[[home.pricingcompare.rows]]
-label = "AI 자산 도우미"
-note = "모델 서비스를 직접 설정하며 제공업체 요금이 적용될 수 있습니다"
-values = [true, true, true]
 
 [home.trust]
 eyebrow = "생태계"

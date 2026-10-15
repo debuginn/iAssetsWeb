@@ -307,7 +307,7 @@ label = "立即体验"
 href = "#download"
 
 [[home.pricingcompare.columns]]
-featured = false
+featured = true
 priceKey = "yearly"
 title = "Pro 年付"
 badge = "Popular"
@@ -319,7 +319,7 @@ label = "立即订阅"
 href = "https://apps.apple.com/cn/app/%E7%9F%A5%E7%9B%88/id6759790991"
 
 [[home.pricingcompare.columns]]
-featured = true
+featured = false
 priceKey = "lifetime"
 title = "Pro 终身"
 badge = "最划算"
@@ -335,20 +335,32 @@ label = "多币种资产记账"
 values = [true, true, true]
 
 [[home.pricingcompare.rows]]
-label = "原生无广告设计"
-values = [true, true, true]
-
-[[home.pricingcompare.rows]]
 label = "账本数量"
 values = ["不限", "不限", "不限"]
 
 [[home.pricingcompare.rows]]
-label = "iCloud 多设备同步"
-values = [false, true, true]
-
-[[home.pricingcompare.rows]]
 label = "家庭成员管理"
 values = [true, true, true]
+
+[[home.pricingcompare.rows]]
+label = "AI 资产助手"
+values = [true, true, true]
+
+[[home.pricingcompare.rows]]
+label = "密码与生物识别锁"
+values = [true, true, true]
+
+[[home.pricingcompare.rows]]
+label = "目标、转账与到期提醒"
+values = [true, true, true]
+
+[[home.pricingcompare.rows]]
+label = "变更记录、趋势与日历（含筛选）"
+values = [true, true, true]
+
+[[home.pricingcompare.rows]]
+label = "iCloud 同步与云端备份"
+values = [false, true, true]
 
 [[home.pricingcompare.rows]]
 label = "iCloud 家庭账本共享"
@@ -356,13 +368,7 @@ values = [false, true, true]
 
 [[home.pricingcompare.rows]]
 label = "动态行情数据"
-note = "股票、基金、贵金属与加密货币"
 values = [false, true, true]
-
-[[home.pricingcompare.rows]]
-label = "AI 资产助手"
-note = "自备模型服务，按服务商规则计费"
-values = [true, true, true]
 
 [home.trust]
 eyebrow = "合作与生态"
