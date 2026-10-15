@@ -1,0 +1,5 @@
+{{- /* Site override of the pebble robots.txt. The Sitemap line uses absURL. */ -}}
+User-agent: *
+Allow: /
+
+Sitemap: {{ "sitemap.xml" | absURL }}
