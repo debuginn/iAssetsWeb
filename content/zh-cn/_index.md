@@ -202,7 +202,7 @@ href = "#download"
 featured = true
 priceKey = "yearly"
 title = "Pro 年付"
-badge = "Popular"
+badge = "最受欢迎"
 suffix = "/年"
 description = "按年支付，共建软件的良性发展。"
 

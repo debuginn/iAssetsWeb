@@ -263,7 +263,7 @@ href = "#download"
 featured = true
 priceKey = "yearly"
 title = "Pro 年繳"
-badge = "熱門"
+badge = "最受歡迎"
 suffix = "/年"
 description = "按年支付，共建軟體的良性發展。"
 

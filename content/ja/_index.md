@@ -263,7 +263,7 @@ href = "#download"
 featured = true
 priceKey = "yearly"
 title = "Pro 年額"
-badge = "Popular"
+badge = "人気"
 suffix = "/年"
 description = "年額で支払い、ソフトウェアの健全な発展を共に支えてください。"
 
