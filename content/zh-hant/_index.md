@@ -260,10 +260,10 @@ label = "立即體驗"
 href = "#download"
 
 [[home.pricingcompare.columns]]
-featured = false
+featured = true
 priceKey = "yearly"
 title = "Pro 年繳"
-badge = "熱門"
+badge = "最受歡迎"
 suffix = "/年"
 description = "按年支付，共建軟體的良性發展。"
 
@@ -272,7 +272,7 @@ label = "立即訂閱"
 href = "https://apps.apple.com/tw/app/%E7%9F%A5%E7%9B%88/id6759790991"
 
 [[home.pricingcompare.columns]]
-featured = true
+featured = false
 priceKey = "lifetime"
 title = "Pro 終身"
 badge = "最划算"
@@ -288,34 +288,40 @@ label = "多幣種資產記帳"
 values = [true, true, true]
 
 [[home.pricingcompare.rows]]
-label = "原生無廣告設計"
-values = [true, true, true]
-
-[[home.pricingcompare.rows]]
 label = "帳本數量"
 values = ["不限", "不限", "不限"]
-
-[[home.pricingcompare.rows]]
-label = "iCloud 多裝置同步"
-values = [false, true, true]
 
 [[home.pricingcompare.rows]]
 label = "家庭成員管理"
 values = [true, true, true]
 
 [[home.pricingcompare.rows]]
+label = "AI 資產助手"
+values = [true, true, true]
+
+[[home.pricingcompare.rows]]
+label = "密碼與生物辨識鎖"
+values = [true, true, true]
+
+[[home.pricingcompare.rows]]
+label = "目標、轉帳與到期提醒"
+values = [true, true, true]
+
+[[home.pricingcompare.rows]]
+label = "變更記錄、趨勢與日曆（含篩選）"
+values = [true, true, true]
+
+[[home.pricingcompare.rows]]
+label = "iCloud 同步與雲端備份"
+values = [false, true, true]
+
+[[home.pricingcompare.rows]]
 label = "iCloud 家庭帳本共享"
 values = [false, true, true]
 
 [[home.pricingcompare.rows]]
-label = "行情與動態估值"
-note = "股票、基金、貴金屬與加密貨幣"
+label = "動態行情數據"
 values = [false, true, true]
-
-[[home.pricingcompare.rows]]
-label = "AI 資產助手"
-note = "自備模型服務，依服務商規則計費"
-values = [true, true, true]
 
 [home.trust]
 eyebrow = "合作與生態"

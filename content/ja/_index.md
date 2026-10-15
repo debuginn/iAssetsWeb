@@ -260,10 +260,10 @@ label = "無料で始める"
 href = "#download"
 
 [[home.pricingcompare.columns]]
-featured = false
+featured = true
 priceKey = "yearly"
 title = "Pro 年額"
-badge = "Popular"
+badge = "人気"
 suffix = "/年"
 description = "年額で支払い、ソフトウェアの健全な発展を共に支えてください。"
 
@@ -272,7 +272,7 @@ label = "年額で購読"
 href = "https://apps.apple.com/jp/app/%E7%9F%A5%E7%9B%88/id6759790991"
 
 [[home.pricingcompare.columns]]
-featured = true
+featured = false
 priceKey = "lifetime"
 title = "Pro 買い切り"
 badge = "お得"
@@ -288,34 +288,40 @@ label = "多通貨での資産管理"
 values = [true, true, true]
 
 [[home.pricingcompare.rows]]
-label = "ネイティブで広告のないデザイン"
-values = [true, true, true]
-
-[[home.pricingcompare.rows]]
-label = "アカウントブック数"
+label = "帳簿数"
 values = ["無制限", "無制限", "無制限"]
-
-[[home.pricingcompare.rows]]
-label = "iCloud によるデバイス間同期"
-values = [false, true, true]
 
 [[home.pricingcompare.rows]]
 label = "家族メンバー管理"
 values = [true, true, true]
 
 [[home.pricingcompare.rows]]
-label = "iCloud による帳簿共有"
-values = [false, true, true]
-
-[[home.pricingcompare.rows]]
-label = "市場データと評価額の更新"
-note = "株式、投資信託、貴金属、暗号資産"
-values = [false, true, true]
-
-[[home.pricingcompare.rows]]
 label = "AI 資産アシスタント"
-note = "モデルサービスを設定。提供元の料金が適用される場合があります"
 values = [true, true, true]
+
+[[home.pricingcompare.rows]]
+label = "パスコードと生体認証ロック"
+values = [true, true, true]
+
+[[home.pricingcompare.rows]]
+label = "目標、振替と期日リマインダー"
+values = [true, true, true]
+
+[[home.pricingcompare.rows]]
+label = "変更履歴、推移とカレンダー（フィルター付き）"
+values = [true, true, true]
+
+[[home.pricingcompare.rows]]
+label = "iCloud 同期とクラウドバックアップ"
+values = [false, true, true]
+
+[[home.pricingcompare.rows]]
+label = "iCloud 家族帳簿の共有"
+values = [false, true, true]
+
+[[home.pricingcompare.rows]]
+label = "動的な相場データ"
+values = [false, true, true]
 
 [home.trust]
 eyebrow = "エコシステム"

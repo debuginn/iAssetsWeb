@@ -260,7 +260,7 @@ label = "Get started"
 href = "#download"
 
 [[home.pricingcompare.columns]]
-featured = false
+featured = true
 priceKey = "yearly"
 title = "Yearly Pro"
 badge = "Popular"
@@ -272,7 +272,7 @@ label = "Subscribe yearly"
 href = "https://apps.apple.com/us/app/%E7%9F%A5%E7%9B%88/id6759790991"
 
 [[home.pricingcompare.columns]]
-featured = true
+featured = false
 priceKey = "lifetime"
 title = "Lifetime Pro"
 badge = "Best value"
@@ -288,34 +288,40 @@ label = "Multi-currency asset tracking"
 values = [true, true, true]
 
 [[home.pricingcompare.rows]]
-label = "Native, ad-free design"
-values = [true, true, true]
-
-[[home.pricingcompare.rows]]
 label = "Account books"
 values = ["Unlimited", "Unlimited", "Unlimited"]
-
-[[home.pricingcompare.rows]]
-label = "iCloud sync across devices"
-values = [false, true, true]
 
 [[home.pricingcompare.rows]]
 label = "Family member management"
 values = [true, true, true]
 
 [[home.pricingcompare.rows]]
+label = "AI asset assistant"
+values = [true, true, true]
+
+[[home.pricingcompare.rows]]
+label = "Passcode and biometric lock"
+values = [true, true, true]
+
+[[home.pricingcompare.rows]]
+label = "Goals, transfers and due reminders"
+values = [true, true, true]
+
+[[home.pricingcompare.rows]]
+label = "Change history, trends and calendar (with filters)"
+values = [true, true, true]
+
+[[home.pricingcompare.rows]]
+label = "iCloud sync and cloud backup"
+values = [false, true, true]
+
+[[home.pricingcompare.rows]]
 label = "Shared family books via iCloud"
 values = [false, true, true]
 
 [[home.pricingcompare.rows]]
-label = "Market quotes and valuations"
-note = "Stocks, funds, metals and crypto"
+label = "Live market data"
 values = [false, true, true]
-
-[[home.pricingcompare.rows]]
-label = "AI asset assistant"
-note = "Bring your own model service; provider charges may apply"
-values = [true, true, true]
 
 [home.trust]
 eyebrow = "Ecosystem"
