@@ -1,0 +1,81 @@
+[[sections]]
+title = "Product"
+
+[[sections.links]]
+name = "Home"
+url = "https://iassets.debuginn.com/"
+note = "English homepage. Accounts, investments, and liabilities in one view."
+
+[[sections.links]]
+name = "Features"
+url = "https://iassets.debuginn.com/#features"
+note = "Net worth, investments, books, family sharing, and the AI asset assistant."
+
+[[sections.links]]
+name = "Pricing"
+url = "https://iassets.debuginn.com/#pricing-compare"
+note = "Free for multi-currency books and family members. Pro yearly or lifetime adds iCloud sync, shared family books, and live market data."
+
+[[sections.links]]
+name = "Download"
+url = "https://iassets.debuginn.com/#download"
+note = "Install from the App Store. Mainland China lists the app as 知盈."
+
+[[sections]]
+title = "Languages"
+
+[[sections.links]]
+name = "English"
+url = "https://iassets.debuginn.com/"
+note = "Default language."
+
+[[sections.links]]
+name = "简体中文"
+url = "https://iassets.debuginn.com/zh/"
+note = "Simplified Chinese homepage, branded 知盈."
+
+[[sections.links]]
+name = "繁體中文"
+url = "https://iassets.debuginn.com/zh-hant/"
+note = "Traditional Chinese homepage."
+
+[[sections.links]]
+name = "日本語"
+url = "https://iassets.debuginn.com/ja/"
+note = "Japanese homepage."
+
+[[sections.links]]
+name = "한국어"
+url = "https://iassets.debuginn.com/ko/"
+note = "Korean homepage."
+
+[[sections]]
+title = "FAQ"
+
+[[sections.links]]
+name = "FAQ"
+url = "https://iassets.debuginn.com/#faqs"
+note = "Free tier versus Pro, how the AI assistant uses a model you configure, local storage versus iCloud, and family management versus sharing."
+
+[[sections]]
+title = "Contact and policies"
+
+[[sections.links]]
+name = "Contact"
+url = "mailto:idebuginn@gmail.com"
+note = "Product and privacy questions."
+
+[[sections.links]]
+name = "Privacy"
+url = "https://iassets.debuginn.com/privacy/"
+note = "What stays on device and what iCloud or a configured AI provider receives."
+
+[[sections.links]]
+name = "Terms"
+url = "https://iassets.debuginn.com/terms/"
+note = "Terms of use for the site and the app."
+
+[[sections.links]]
+name = "Blog"
+url = "https://blog.debuginn.com/categories/iassets/"
+note = "Release notes and product writing."

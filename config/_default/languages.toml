@@ -2,6 +2,9 @@
 languageName = 'English'
 weight = 1
 
+[en.outputs]
+home = ['HTML', 'llms']
+
 [en.params.assets]
 downloadQr = '/assets/local/20260607weNLvY.png'
 

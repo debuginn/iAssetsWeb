@@ -31,6 +31,11 @@
   defaultSocialTitle = 'iAssets'
   siteURL = ''
 
+[llms]
+  enable = true
+  title = '知盈 iAssets'
+  summary = '知盈 (iAssets) is an Apple app for household assets. It keeps accounts, investments, and liabilities in one view, with an optional AI assistant and family books. Everyday tracking and family member management are free; iCloud sync, shared family books, and live market data are Pro. The app is named 知盈 in mainland China and iAssets elsewhere.'
+
 [i18n]
   defaultLang = 'en'
 
