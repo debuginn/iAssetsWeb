@@ -1,0 +1,32 @@
+{{ define "main" }}
+{{- /*
+  Site override of the pebble homepage body. Every section still comes from
+  themes/pebble/layouts/index.html. The only rewrite is the partner/trust
+  strip: logos use a real src (so they render with JavaScript disabled) plus
+  loading="lazy" and decoding="async", and the section is removed from
+  data-img-chain so runImageChain does not wait on it.
+*/ -}}
+{{- $lb := "{{" -}}
+{{- $themeIndex := readFile "themes/pebble/layouts/index.html" -}}
+{{- $oldImg := printf `<img class="trust-logo" data-src="%s .src }}" alt="%s .alt }}" width="%s $imgWidth }}" height="%s $imgHeight }}" decoding="async" />` $lb $lb $lb $lb -}}
+{{- $newImg := printf `<img class="trust-logo" src="%s .src }}" alt="%s .alt }}" width="%s $imgWidth }}" height="%s $imgHeight }}" loading="lazy" decoding="async" />` $lb $lb $lb $lb -}}
+{{- $define := printf "%s define \"main\" }}\n" $lb -}}
+{{- $tail := printf "\n%s end }}\n" $lb -}}
+{{- $imgParts := split $themeIndex $oldImg -}}
+{{- if ne (len $imgParts) 3 -}}
+  {{- errorf "pebble index.html trust logo markup changed; update layouts/index.html" -}}
+{{- end -}}
+{{- if not (strings.Contains $themeIndex `class="section trust-strip" data-img-chain="8"`) -}}
+  {{- errorf "pebble index.html trust chain marker changed; update layouts/index.html" -}}
+{{- end -}}
+{{- if or (not (strings.HasPrefix $themeIndex $define)) (not (strings.HasSuffix $themeIndex $tail)) -}}
+  {{- errorf "pebble index.html define wrapper changed; update layouts/index.html" -}}
+{{- end -}}
+{{- $body := strings.TrimPrefix $define $themeIndex -}}
+{{- $body = strings.TrimSuffix $tail $body -}}
+{{- $body = replace $body `class="section trust-strip" data-img-chain="8"` `class="section trust-strip"` -}}
+{{- $body = replace $body $oldImg $newImg -}}
+{{- $name := printf "layouts/index.trust-logos.%s.html" .Language.Lang -}}
+{{- $rendered := $body | resources.FromString $name | resources.ExecuteAsTemplate $name . -}}
+{{ $rendered.Content | safeHTML }}
+{{ end }}
