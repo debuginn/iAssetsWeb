@@ -1,7 +1,7 @@
 {
   "/assets/local/20260607PRQOHB.webp": {
     "en": "HSBC",
-    "zh": "汇丰银行",
+    "zh": "汇丰中国",
     "zh-hant": "滙豐銀行",
     "ko": "HSBC은행"
   },
@@ -16,7 +16,8 @@
     "en": "DBS Bank",
     "zh": "星展银行",
     "zh-hant": "星展銀行",
-    "ja": "DBS銀行"
+    "ja": "DBS銀行",
+    "ko": "DBS은행"
   },
   "/assets/trust-logos/charles-schwab.svg": {
     "en": "Charles Schwab",
@@ -69,7 +70,8 @@
     "zh-hant": "多元派"
   },
   "/assets/local/20260607VkvnrY.webp": {
-    "en": "HF Bank"
+    "en": "HF Bank",
+    "zh": "恒丰银行"
   },
   "/assets/local/202606079PfBTQ.webp": {
     "en": "ZA Bank",
@@ -80,7 +82,8 @@
     "en": "Fuxi Securities"
   },
   "/assets/local/20260607TDtXFC.webp": {
-    "en": "Zhufu Securities"
+    "en": "Zhufu Securities",
+    "zh": "致富证券"
   },
   "/assets/local/20260607HKBV4D.webp": {
     "en": "Macau Ant Bank",

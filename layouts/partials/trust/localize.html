@@ -25,8 +25,16 @@
       {{- if not $name -}}
         {{- $name = $english -}}
       {{- end -}}
-      {{- /* Use the same resolved name for visible and accessible text. */ -}}
-      {{- $localizedItems = $localizedItems | append (merge $item (dict "name" $name "alt" $name)) -}}
+      {{- /* Keep a published alt, including its 标志/logo/ロゴ/로고 suffix.
+         A few English alts are not the short label plus " logo"
+         (HSBC China logo, Standard Chartered China logo, Interactive Brokers logo, FlyBay logo).
+         Only synthesize an alt when the page did not provide one. */ -}}
+      {{- $alt := strings.TrimSpace ($item.alt | default "") -}}
+      {{- if not $alt -}}
+        {{- $suffixes := dict "zh" "标志" "zh-hant" "標誌" "ja" "のロゴ" "ko" " 로고" "en" " logo" -}}
+        {{- $alt = printf "%s%s" $name (index $suffixes $lang | default " logo") -}}
+      {{- end -}}
+      {{- $localizedItems = $localizedItems | append (merge $item (dict "name" $name "alt" $alt)) -}}
     {{- end -}}
     {{- $tracks = merge $tracks (dict $track $localizedItems) -}}
   {{- end -}}

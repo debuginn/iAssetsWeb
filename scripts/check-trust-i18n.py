@@ -47,11 +47,22 @@ def validate_data(catalog: dict) -> int:
         if not raw.startswith("+++\n") or "\n+++" not in raw[4:]:
             raise ValueError(f"{page}: expected TOML front matter")
         home = tomllib.loads(raw[4:].split("\n+++", 1)[0]).get("home", {})
+        lang = page.parent.name
+        if lang == "zh-cn":
+            lang = "zh"
         for items in home.get("trust", {}).get("tracks", {}).values():
             for item in items:
                 src = item.get("src", "")
                 if src not in catalog:
                     raise ValueError(f"{page}: {src!r} is missing from {CATALOG.name}")
+                published = str(item.get("name") or "").strip()
+                if published:
+                    names = catalog[src]
+                    resolved = str(names.get(lang) or "").strip() or names["en"].strip()
+                    if resolved != published:
+                        raise ValueError(
+                            f"{page}: {src} resolves to {resolved!r}, but the published name is {published!r}"
+                        )
                 count += 1
     return count
 
@@ -71,14 +82,18 @@ def fixtures(catalog: dict) -> list[dict]:
             for item in row:
                 names = catalog[item["src"]]
                 name = (names.get(canonical) or "").strip() or names["en"].strip()
-                item.update(name=name, alt=name)
+                item.update(name=name)
         cases.append(dict(label=requested, lang=requested, trust=trust,
                           institutions=catalog, expected=expected))
     for missing in (None, "", " \t\n\u3000"):
         cases.append(dict(label=f"blank translation {missing!r}", lang="ja",
                           institutions={"/fixture": {"en": " English Name ", "ja": missing}},
                           trust={"tracks": {"primary": [{"src": "/fixture", "name": "不要回退中文"}]}},
-                          expected={"tracks": {"primary": [{"src": "/fixture", "name": "English Name", "alt": "English Name"}]}}))
+                          expected={"tracks": {"primary": [{"src": "/fixture", "name": "English Name", "alt": "English Nameのロゴ"}]}}))
+    cases.append(dict(label="missing alt uses locale suffix", lang="zh",
+                      institutions={"/fixture": {"en": "English Name", "zh": "中文名"}},
+                      trust={"tracks": {"primary": [{"src": "/fixture", "name": "旧名称"}]}},
+                      expected={"tracks": {"primary": [{"src": "/fixture", "name": "中文名", "alt": "中文名标志"}]}}))
     for trust in ({}, {"title": "No tracks"}, {"tracks": {}}, {"tracks": {"primary": []}}):
         cases.append(dict(label="empty tracks", lang="zh", trust=trust,
                           institutions=catalog, expected=trust))

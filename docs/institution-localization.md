@@ -6,7 +6,9 @@ Institution names are resolved at build time in the website, without modifying t
 
 `data/trust_institutions.json` maps each institution's existing image `src` to an English name (`en`) and optional `zh`, `zh-hant`, `ja`, and `ko` names. The image path is the identity, so each language keeps its own institution selection and order.
 
-The resolver uses the current page language. A missing, null, empty, or whitespace-only translation falls back directly to `en`, regardless of the site's default language. The resolved name is used for both the visible label and image alternative text. Existing logos, sizing, links, section text, and actions are unchanged.
+The resolver uses the current page language. A missing, null, empty, or whitespace-only translation falls back directly to `en`, regardless of the site's default language. The catalog is filled from the names already published on each locale page; a missing translation is filled with English and an existing published name is not replaced. Existing logos, sizing, links, section text, and actions are unchanged.
+
+Image alternative text keeps the page's published `alt` when one is present. Those strings already end in `标志`, `標誌`, `logo`, `のロゴ`, or `로고`. They are not rebuilt from the short visible label, because four English alts use a longer phrase than the label: `HSBC China logo`, `Standard Chartered China logo`, `Interactive Brokers logo`, and `FlyBay logo`. If a logo has no alt, the resolver appends the locale suffix (`标志`, `標誌`, ` logo`, `のロゴ`, or ` 로고`) to the resolved name.
 
 English is required for every displayed institution. Missing or blank English entries fail the Hugo build with the image path in the error. To add an institution, register its image path and English name first, then add only confirmed translations. A replacement logo path must also be updated in the catalog.
 
@@ -14,7 +16,7 @@ The site-level `home-data.html` override retains the theme's existing deep merge
 
 ## Naming policy
 
-Retain established brand names rather than inventing translations. In particular, the existing `HF Bank`, `Fuxi Securities`, and `Zhufu Securities` labels remain English because their corresponding localized identities have not been confirmed. `Starryblu` also uses its English brand name. Do not substitute a different regional legal entity just to obtain a translation.
+Retain the label already published on that locale page. Do not replace it with English, and do not invent a translation that the page does not already show. Simplified Chinese therefore keeps `恒丰银行`, `致富证券`, and `汇丰中国`. Korean keeps `DBS은행`. English labels stay `HSBC`, `Standard Chartered Bank`, `IBKR`, and `flyBay`; the longer phrases `HSBC China`, `Standard Chartered China`, `Interactive Brokers`, and `FlyBay` belong to the alternative text. `Fuxi Securities` and `Starryblu` stay in English because that is the published label. Where a page has no translation, the English catalog name is the fallback.
 
 Examples of first-party naming references used for additional translations:
 
