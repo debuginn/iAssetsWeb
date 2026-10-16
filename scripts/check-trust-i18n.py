@@ -106,7 +106,8 @@ def run_hugo(hugo: str, cases: list[dict], expected_error: bool = False) -> None
 {{- end -}}
 <!doctype html><html><body>Institution i18n fixtures passed.</body></html>
 ''', encoding="utf-8")
-        result = subprocess.run([hugo, "--source", str(root), "--quiet"],
+        # Hugo 0.147 --quiet hides errorf text while still exiting non-zero.
+        result = subprocess.run([hugo, "--source", str(root)],
                                 capture_output=True, text=True, timeout=60)
         output = result.stdout + result.stderr
         if expected_error:
