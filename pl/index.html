@@ -1,0 +1,634 @@
+<!doctype html>
+<html lang="pl" dir="ltr" data-default-lang="en" data-current-lang="pl">
+  <head>
+	<meta name="generator" content="Hugo 0.147.1"><meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><title>iAssets - Twoje aktywa w jednym czytelnym widoku.</title>
+    <meta name="description" content="Połącz konta, inwestycje i zobowiązania w jednym widoku. Zapisuj zmiany, pytaj AI o finanse i zarządzaj wspólnymi księgami z rodziną." /><meta name="keywords" content="iAssets,zarządzanie aktywami,finanse rodzinne,wartość netto,APP budżetowa" /><meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="iAssets" />
+    <meta property="og:title" content="iAssets - Twoje aktywa w jednym czytelnym widoku." />
+    <meta property="og:description" content="Połącz konta, inwestycje i zobowiązania w jednym widoku. Zapisuj zmiany, pytaj AI o finanse i zarządzaj wspólnymi księgami z rodziną." />
+    <meta property="og:image" content="https://iassets.debuginn.com/assets/local/20260607h41bVQ.png" />
+    <meta property="og:image:alt" content="iAssets - Twoje aktywa w jednym czytelnym widoku. social preview" />
+    <meta property="og:url" content="https://iassets.debuginn.com/pl/" />
+    <meta property="og:locale" content="pl_PL" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="iAssets - Twoje aktywa w jednym czytelnym widoku." />
+    <meta name="twitter:description" content="Połącz konta, inwestycje i zobowiązania w jednym widoku. Zapisuj zmiany, pytaj AI o finanse i zarządzaj wspólnymi księgami z rodziną." />
+    <meta name="twitter:image" content="https://iassets.debuginn.com/assets/local/20260607h41bVQ.png" />
+    <meta name="twitter:image:alt" content="iAssets - Twoje aktywa w jednym czytelnym widoku. social preview" /><link rel="canonical" href="https://iassets.debuginn.com/pl/" /><link rel="alternate" hreflang="x-default" href="https://iassets.debuginn.com/" /><link rel="alternate" hreflang="en" href="https://iassets.debuginn.com/" /><link rel="alternate" hreflang="zh-CN" href="https://iassets.debuginn.com/zh/" /><link rel="alternate" hreflang="zh-TW" href="https://iassets.debuginn.com/zh-hant/" /><link rel="alternate" hreflang="ja" href="https://iassets.debuginn.com/ja/" /><link rel="alternate" hreflang="ko" href="https://iassets.debuginn.com/ko/" /><link rel="alternate" hreflang="th" href="https://iassets.debuginn.com/th/" /><link rel="alternate" hreflang="vi" href="https://iassets.debuginn.com/vi/" /><link rel="alternate" hreflang="ms" href="https://iassets.debuginn.com/ms/" /><link rel="alternate" hreflang="de" href="https://iassets.debuginn.com/de/" /><link rel="alternate" hreflang="fr" href="https://iassets.debuginn.com/fr/" /><link rel="alternate" hreflang="it" href="https://iassets.debuginn.com/it/" /><link rel="alternate" hreflang="es" href="https://iassets.debuginn.com/es/" /><link rel="alternate" hreflang="nl" href="https://iassets.debuginn.com/nl/" /><link rel="alternate" hreflang="pt-BR" href="https://iassets.debuginn.com/pt-br/" /><link rel="alternate" hreflang="ar" href="https://iassets.debuginn.com/ar/" /><link rel="alternate" hreflang="id" href="https://iassets.debuginn.com/id/" /><link rel="alternate" hreflang="hi" href="https://iassets.debuginn.com/hi/" /><link rel="alternate" hreflang="tr" href="https://iassets.debuginn.com/tr/" /><link rel="alternate" hreflang="pl" href="https://iassets.debuginn.com/pl/" /><link rel="alternate" hreflang="sv" href="https://iassets.debuginn.com/sv/" /><link rel="alternate" hreflang="da" href="https://iassets.debuginn.com/da/" /><link rel="alternate" hreflang="nb" href="https://iassets.debuginn.com/nb/" /><link rel="alternate" hreflang="fi" href="https://iassets.debuginn.com/fi/" /><link rel="alternate" hreflang="cs" href="https://iassets.debuginn.com/cs/" /><link rel="alternate" hreflang="ro" href="https://iassets.debuginn.com/ro/" /><link rel="alternate" hreflang="ru" href="https://iassets.debuginn.com/ru/" /><link rel="alternate" hreflang="uk" href="https://iassets.debuginn.com/uk/" /><link rel="alternate" hreflang="hu" href="https://iassets.debuginn.com/hu/" /><link rel="alternate" hreflang="el" href="https://iassets.debuginn.com/el/" /><link rel="alternate" hreflang="pt-PT" href="https://iassets.debuginn.com/pt-pt/" /><link rel="alternate" hreflang="he" href="https://iassets.debuginn.com/he/" />
+    <link rel="alternate" type="text/plain" href="https://iassets.debuginn.com/llms.txt" />
+    <link rel="icon" type="image/png" href="/assets/local/20260607h41bVQ.png" />
+    <link rel="shortcut icon" href="/assets/local/20260607h41bVQ.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" media="print" onload="this.media='all'" />
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" /></noscript>
+    <script>
+      (function () {
+        var themeKey = "ia_theme_pref";
+        var pref = "auto";
+        try {
+          var stored = window.localStorage ? window.localStorage.getItem(themeKey) : null;
+          if (stored === "dark" || stored === "light" || stored === "auto") pref = stored;
+        } catch (_) {}
+        var resolved = pref;
+        if (pref === "auto") {
+          resolved = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.setAttribute("data-theme", resolved);
+        var icon = document.getElementById("site-favicon");
+        if (icon) {
+          var darkIcon = icon.getAttribute("data-icon-dark");
+          var lightIcon = icon.getAttribute("data-icon-light");
+          if (darkIcon && lightIcon) {
+            var iconHref = resolved === "dark" ? darkIcon : lightIcon;
+            icon.setAttribute("href", iconHref);
+            var shortcut = document.querySelector('link[rel="shortcut icon"]');
+            if (shortcut) shortcut.setAttribute("href", iconHref);
+          }
+        }
+      })();
+    </script>
+    <script>
+      window.__IA_RUNTIME__ = {"pathLangMap":{"ar":"ar","cs":"cs","da":"da","de":"de","el":"el","en":"en","es":"es","fi":"fi","fr":"fr","he":"he","he-il":"he","hi":"hi","hu":"hu","id":"id","it":"it","iw":"he","ja":"ja","ko":"ko","ms":"ms","nb":"nb","nb-no":"nb","nl":"nl","no":"nb","pl":"pl","pt":"pt-BR","pt-br":"pt-BR","pt-pt":"pt-PT","ro":"ro","ru":"ru","sv":"sv","th":"th","tr":"tr","uk":"uk","vi":"vi","zh":"zh-Hans","zh-cn":"zh-Hans","zh-hans":"zh-Hans","zh-hant":"zh-Hant","zh-hk":"zh-Hant","zh-mo":"zh-Hant","zh-sg":"zh-Hant","zh-tw":"zh-Hant"},"routeMap":{"ar":"/ar/","cs":"/cs/","da":"/da/","de":"/de/","el":"/el/","en":"/","es":"/es/","fi":"/fi/","fr":"/fr/","he":"/he/","hi":"/hi/","hu":"/hu/","id":"/id/","it":"/it/","ja":"/ja/","ko":"/ko/","ms":"/ms/","nb":"/nb/","nl":"/nl/","pl":"/pl/","pt-BR":"/pt-br/","pt-PT":"/pt-pt/","ro":"/ro/","ru":"/ru/","sv":"/sv/","th":"/th/","tr":"/tr/","uk":"/uk/","vi":"/vi/","zh-Hans":"/zh/","zh-Hant":"/zh-hant/"},"supportedLangs":["en","zh-Hans","zh-Hant","ja","ko","th","vi","ms","de","fr","it","es","nl","pt-BR","ar","id","hi","tr","pl","sv","da","nb","fi","cs","ro","ru","uk","hu","el","pt-PT","he"]};
+    </script>
+    <script>
+      (function () {
+        var userLangKey = "ia_lang_user";
+        var defaultLang = "en";
+        var runtime = window.__IA_RUNTIME__ || {};
+        var routeMap = runtime.routeMap || {};
+        var pathLangMap = runtime.pathLangMap || {};
+
+        function normalizeLang(input) {
+          if (!input) return null;
+          var value = input.toLowerCase().replace("_", "-");
+          return pathLangMap[value] || null;
+        }
+
+        function browserLang() {
+          var langs = Array.isArray(navigator.languages) && navigator.languages.length
+            ? navigator.languages
+            : [navigator.language || "en"];
+          for (var i = 0; i < langs.length; i += 1) {
+            var raw = (langs[i] || "").toLowerCase();
+            var mapped = normalizeLang(raw);
+            if (mapped) return mapped;
+            if (raw.indexOf("zh-tw") === 0 || raw.indexOf("zh-hk") === 0 || raw.indexOf("zh-mo") === 0 || raw.indexOf("zh-sg") === 0) return "zh-Hant";
+            if (raw.indexOf("zh") === 0 && raw.indexOf("hant") >= 0) return "zh-Hant";
+            if (raw.indexOf("zh") === 0) return "zh-Hans";
+            if (raw.indexOf("ja") === 0) return "ja";
+            if (raw.indexOf("ko") === 0) return "ko";
+            if (raw.indexOf("en") === 0) return "en";
+          }
+          return "en";
+        }
+
+        function preferredLang() {
+          try {
+            var stored = window.localStorage ? window.localStorage.getItem(userLangKey) : null;
+            if (stored && routeMap[stored]) return stored;
+          } catch (_) {}
+          return browserLang();
+        }
+
+        var pathname = window.location.pathname;
+        var segments = pathname.split("/").filter(Boolean);
+        var first = segments[0] || "";
+        var explicitLang = normalizeLang(first);
+        if (explicitLang) {
+          return;
+        }
+
+        var preferred = preferredLang();
+        if (!preferred || preferred === defaultLang) {
+          return;
+        }
+
+        var targetBase = routeMap[preferred];
+        if (!targetBase) {
+          return;
+        }
+
+        var targetPath = pathname;
+        if (pathname === "/") {
+          targetPath = targetBase;
+        } else if (pathname === "/privacy/" || pathname === "/terms/") {
+          targetPath = targetBase.replace(/\/$/, "") + pathname;
+        } else {
+          return;
+        }
+
+        if (targetPath && targetPath !== pathname) {
+          document.documentElement.setAttribute("data-lang-pending", "1");
+          window.location.replace(targetPath + window.location.search + window.location.hash);
+        }
+      })();
+    </script>
+    <link rel="stylesheet" href="/styles.css?v=v20261103-lang-chrome" />
+    <script type="application/ld+json" id="seo-jsonld">{"@context":"https://schema.org","@type":"MobileApplication","applicationCategory":"FinanceApplication","description":"Połącz konta, inwestycje i zobowiązania w jednym widoku. Zapisuj zmiany, pytaj AI o finanse i zarządzaj wspólnymi księgami z rodziną.","image":"https://iassets.debuginn.com/assets/local/20260607h41bVQ.png","inLanguage":"pl","installUrl":"https://apps.apple.com/pl/app/%E7%9F%A5%E7%9B%88/id6759790991","name":"iAssets","operatingSystem":"iOS","screenshot":["https://iassets.debuginn.com/assets/screenshots/1.0.9/pl/home.2535f92e1287.webp","https://iassets.debuginn.com/assets/screenshots/1.0.9/pl/markets.543569e6713e.webp","https://iassets.debuginn.com/assets/screenshots/1.0.9/pl/assets.cb76ddbc2cc7.webp","https://iassets.debuginn.com/assets/screenshots/1.0.9/pl/ai.ab1dd16c540b.webp","https://iassets.debuginn.com/assets/screenshots/1.0.9/pl/family.ba5de6ae1a89.webp"],"url":"https://iassets.debuginn.com/pl/"}</script>
+  </head>
+  <body data-contact-email="idebuginn@gmail.com" data-wechat-qr="/assets/local/20260607OpjNs1.jpg">
+    <header class="topbar">
+      <div class="container nav-shell">
+        <nav class="top-pill">
+          <div class="pill-left">
+            <a class="logo" href="/pl/">
+              <img class="logo-mark" src="/assets/local/20260607h41bVQ.png" alt="iAssets logo" width="40" height="40" decoding="async" fetchpriority="high" />
+              <span data-i18n="brand">iAssets</span>
+            </a>
+            <div class="desktop-nav"><a href="/pl/#features" data-i18n="navFeatures">Funkcje</a><a href="/pl/#pricing-compare" data-i18n="navPricing">Ceny</a><a href="/pl/#faqs" data-i18n="navFaq">Pytania</a><a href="https://blog.debuginn.com/categories/iassets/" data-i18n="navBlog" target="_blank" rel="noopener noreferrer">Blog</a>
+            </div>
+          </div>
+          <div class="pill-right">
+            <button class="mode-btn" type="button" aria-label="Switch theme">◐</button>
+            <button class="menu-btn" type="button" aria-label="Open menu" aria-controls="mobile-menu" aria-expanded="false">☰</button>
+            <a class="btn btn-solid header-download-btn" href="/pl/#download" aria-label="Download">
+              <span class="header-download-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M16.1 12.7c0-2.3 1.9-3.4 2-3.5-1.1-1.6-2.8-1.8-3.4-1.8-1.4-.1-2.7.8-3.4.8s-1.9-.8-3.1-.7c-1.6 0-3 .9-3.9 2.3-1.7 3-.4 7.3 1.2 9.6.8 1.1 1.8 2.3 3.1 2.3 1.2 0 1.7-.8 3.1-.8s1.8.8 3.1.8c1.3 0 2.1-1.1 2.9-2.2.9-1.3 1.3-2.6 1.4-2.7 0 0-2-.8-2-4.1z"></path>
+                  <path d="M14 5.9c.7-.8 1.2-1.8 1.1-2.9-1 .1-2.1.7-2.9 1.5-.7.8-1.2 1.8-1.1 2.8 1 .1 2.1-.5 2.9-1.4z"></path>
+                </svg>
+              </span>
+              <span data-i18n="navDownload">Pobierz</span>
+            </a>
+            <div class="header-lang-dropdown">
+              <button class="header-lang-trigger" type="button" aria-label="Switch language" aria-haspopup="listbox" aria-expanded="false">
+                <span class="header-lang-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="9"></circle>
+                    <path d="M3 12h18"></path>
+                    <path d="M12 3c2.6 2.4 4 5.6 4 9s-1.4 6.6-4 9c-2.6-2.4-4-5.6-4-9s1.4-6.6 4-9z"></path>
+                  </svg>
+                </span>
+                <span class="header-lang-current">Polski</span>
+              </button>
+              <div class="header-lang-menu" role="listbox" aria-label="Language options"><a href="/" data-lang-option="en">English</a><a href="/zh/" data-lang-option="zh-Hans">中文简体</a><a href="/zh-hant/" data-lang-option="zh-Hant">中文繁體</a><a href="/ja/" data-lang-option="ja">日本語</a><a href="/ko/" data-lang-option="ko">한국어</a><a href="/th/" data-lang-option="th">ไทย</a><a href="/vi/" data-lang-option="vi">Tiếng Việt</a><a href="/ms/" data-lang-option="ms">Bahasa Melayu</a><a href="/de/" data-lang-option="de">Deutsch</a><a href="/fr/" data-lang-option="fr">Français</a><a href="/it/" data-lang-option="it">Italiano</a><a href="/es/" data-lang-option="es">Español</a><a href="/nl/" data-lang-option="nl">Nederlands</a><a href="/pt-br/" data-lang-option="pt-BR">Português (Brasil)</a><a href="/ar/" data-lang-option="ar">العربية</a><a href="/id/" data-lang-option="id">Bahasa Indonesia</a><a href="/hi/" data-lang-option="hi">हिन्दी</a><a href="/tr/" data-lang-option="tr">Türkçe</a><a href="/pl/" data-lang-option="pl">Polski</a><a href="/sv/" data-lang-option="sv">Svenska</a><a href="/da/" data-lang-option="da">Dansk</a><a href="/nb/" data-lang-option="nb">Norsk bokmål</a><a href="/fi/" data-lang-option="fi">Suomi</a><a href="/cs/" data-lang-option="cs">Čeština</a><a href="/ro/" data-lang-option="ro">Română</a><a href="/ru/" data-lang-option="ru">Русский</a><a href="/uk/" data-lang-option="uk">Українська</a><a href="/hu/" data-lang-option="hu">Magyar</a><a href="/el/" data-lang-option="el">Ελληνικά</a><a href="/pt-pt/" data-lang-option="pt-PT">Português (Portugal)</a><a href="/he/" data-lang-option="he">עברית</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <nav id="mobile-menu" class="mobile-menu" aria-hidden="true"><a href="/pl/#features" data-i18n="navFeatures">Funkcje</a><a href="/pl/#pricing-compare" data-i18n="navPricing">Ceny</a><a href="/pl/#faqs" data-i18n="navFaq">Pytania</a><a href="https://blog.debuginn.com/categories/iassets/" data-i18n="navBlog" target="_blank" rel="noopener noreferrer">Blog</a>
+          <a href="/pl/#download" data-i18n="navDownload">Pobierz</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+  <section class="hero section">
+    <div class="container hero-grid">
+      <div class="hero-copy"><p class="eyebrow">iAssets</p><h1>Twoje aktywa w jednym czytelnym widoku.</h1><p class="hero-desc">Połącz konta, inwestycje i zobowiązania w jednym widoku. Zapisuj zmiany, pytaj AI o finanse i zarządzaj wspólnymi księgami z rodziną.</p>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-stage" data-hero-fan aria-label="iAssets app screenshot"><button class="hero-stack-card hero-stack-card-1 is-active" type="button" data-hero-card data-card-index="1" aria-label="Show screenshot 1">
+            <img class="hero-shot" src="/assets/screenshots/1.0.9/pl/home.2535f92e1287.webp" alt="Zrzut ekranu 1 APP iAssets" width="768" height="1567"  loading="eager" decoding="async" fetchpriority="high" />
+          </button><button class="hero-stack-card hero-stack-card-2" type="button" data-hero-card data-card-index="2" aria-label="Show screenshot 2">
+            <img class="hero-shot" src="/assets/screenshots/1.0.9/pl/markets.543569e6713e.webp" alt="" width="768" height="1567" aria-hidden="true" loading="lazy" decoding="async"  />
+          </button><button class="hero-stack-card hero-stack-card-3" type="button" data-hero-card data-card-index="3" aria-label="Show screenshot 3">
+            <img class="hero-shot" src="/assets/screenshots/1.0.9/pl/assets.cb76ddbc2cc7.webp" alt="" width="768" height="1567" aria-hidden="true" loading="lazy" decoding="async"  />
+          </button><button class="hero-stack-card hero-stack-card-4" type="button" data-hero-card data-card-index="4" aria-label="Show screenshot 4">
+            <img class="hero-shot" src="/assets/screenshots/1.0.9/pl/ai.ab1dd16c540b.webp" alt="" width="768" height="1567" aria-hidden="true" loading="lazy" decoding="async"  />
+          </button><button class="hero-stack-card hero-stack-card-5" type="button" data-hero-card data-card-index="5" aria-label="Show screenshot 5">
+            <img class="hero-shot" src="/assets/screenshots/1.0.9/pl/family.ba5de6ae1a89.webp" alt="" width="768" height="1567" aria-hidden="true" loading="lazy" decoding="async"  />
+          </button>
+          <button class="hero-slot-hit hero-slot-hit-left-near" type="button" data-hero-slot="1" aria-label="Show left screenshot"></button>
+          <button class="hero-slot-hit hero-slot-hit-right-near" type="button" data-hero-slot="2" aria-label="Show right screenshot"></button>
+          <button class="hero-slot-hit hero-slot-hit-left-far" type="button" data-hero-slot="3" aria-label="Show far left screenshot"></button>
+          <button class="hero-slot-hit hero-slot-hit-right-far" type="button" data-hero-slot="4" aria-label="Show far right screenshot"></button>
+        </div>
+      </div>
+      <div class="hero-mini-cards">
+        
+        <article class="mini-card">
+          <div class="mini-top"><span><svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h16"></path><path d="M12 4v16"></path><circle cx="12" cy="12" r="8"></circle></svg></span><strong>01</strong></div>
+          <h3>Zobacz swój bilans</h3>
+          <p>Aktywa, wartość netto i zobowiązania na pierwszy rzut oka.</p>
+        </article>
+        
+        <article class="mini-card">
+          <div class="mini-top"><span><svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="6" width="7" height="12" rx="1.8"></rect><rect x="13" y="6" width="7" height="12" rx="1.8"></rect></svg></span><strong>02</strong></div>
+          <h3>Zarządzajcie pieniędzmi razem</h3>
+          <p>Trzymaj księgi osobiste osobno i udostępniaj księgi rodzinne.</p>
+        </article>
+        
+        <article class="mini-card">
+          <div class="mini-top"><span><svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="10.5" cy="10.5" r="5.5"></circle><path d="M14.5 14.5L19 19"></path></svg></span><strong>03</strong></div>
+          <h3>Pytaj o swoje aktywa</h3>
+          <p>Znajdź konta, przejrzyj zmiany i uzyskaj podsumowanie.</p>
+        </article>
+        
+      </div>
+    </div>
+  </section>
+  <section id="features" class="section" data-img-chain="1">
+    <div class="container"><p class="eyebrow">Funkcje</p><h2 class="section-title">Od kont osobistych do bilansu rodziny.</h2><p class="section-desc">Śledź, wyceniaj, przeglądaj i współpracuj w jednej APP. AI i udostępnianie rodzinne wciąż się rozwijają; dostępność zależy od wersji APP.</p>
+      <div class="features-layout">
+        <div class="feature-list">
+          
+          <article class="feature-item">
+            <div class="mini-top"><span><svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h16"></path><path d="M12 4v16"></path><circle cx="12" cy="12" r="8"></circle></svg></span><strong>01</strong></div>
+            <h3>Aktywa i wartość netto</h3>
+            <p>Zrozum alokację aktywów, własność i ekspozycję walutową w jednym widoku.</p>
+          </article>
+          
+          <article class="feature-item">
+            <div class="mini-top"><span><svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 16l5-5 3 3 8-8"></path><path d="M14 6h6v6"></path></svg></span><strong>02</strong></div>
+            <h3>Inwestycje i notowania</h3>
+            <p>Śledź akcje, fundusze, ETF-y, metale szlachetne i krypto z dostępnymi wycenami rynkowymi.</p>
+          </article>
+          
+          <article class="feature-item">
+            <div class="mini-top"><span><svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 7h12"></path><path d="M6 12h8"></path><path d="M6 17h5"></path><circle cx="18" cy="12" r="2"></circle></svg></span><strong>03</strong></div>
+            <h3>Wyraźny obraz długu</h3>
+            <p>Zbierz karty kredytowe, pożyczki i inne zobowiązania na osobnej karcie pasywów.</p>
+          </article>
+          
+          <article class="feature-item">
+            <div class="mini-top"><span><svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="5" width="7" height="14" rx="1.8"></rect><rect x="13" y="5" width="7" height="14" rx="1.8"></rect></svg></span><strong>04</strong></div>
+            <h3>Wiele ksiąg, swobodna organizacja</h3>
+            <p>Twórz księgi osobiste, rodzinne lub celowe i przypisuj konta właścicielom.</p>
+          </article>
+          
+          <article class="feature-item">
+            <div class="mini-top"><span><svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="8" cy="10" r="2.6"></circle><circle cx="16" cy="10.5" r="2.2"></circle><path d="M3.8 17.2c.7-2.2 2.4-3.4 4.2-3.4s3.5 1.2 4.2 3.4"></path><path d="M13.2 16.8c.5-1.7 1.8-2.6 3.2-2.6s2.7.9 3.2 2.6"></path></svg></span><strong>05</strong></div>
+            <h3>Jedna wspólna księga rodzinna</h3>
+            <p>Zaproś rodzinę przez iCloud, aby przeglądać lub zarządzać kontami i zmianami zgodnie z uprawnieniami.</p>
+          </article>
+          
+          <article class="feature-item">
+            <div class="mini-top"><span><svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="10.5" cy="10.5" r="5.5"></circle><path d="M14.5 14.5L19 19"></path></svg></span><strong>06</strong></div>
+            <h3>Asystent aktywów AI</h3>
+            <p>Pytaj tekstem lub głosem, aby znaleźć konta, przejrzeć duże zmiany albo podsumować finanse. Potwierdź edycje danych, zanim zostaną wykonane.</p>
+          </article>
+          
+        </div><aside class="feature-showcase"><figure class="showbox big">
+            <img src="/assets/screenshots/1.0.9/pl/insights.61d2ebb76a21.webp" alt="Główny zrzut witryny funkcji iAssets" width="768" height="1567" loading="lazy" decoding="async" />
+          </figure><figure class="showbox mid">
+            <img src="/assets/screenshots/1.0.9/pl/history.d3f45f78a1f2.webp" alt="Drugi zrzut witryny funkcji iAssets" width="768" height="1567" loading="lazy" decoding="async" />
+          </figure><figure class="showbox small">
+            <img src="/assets/screenshots/1.0.9/pl/family.ba5de6ae1a89.webp" alt="Pomocniczy zrzut witryny funkcji iAssets" width="768" height="1567" loading="lazy" decoding="async" />
+          </figure>
+        </aside></div>
+    </div>
+  </section>
+  <section class="section" data-img-chain="2">
+    <div class="container"><p class="eyebrow">Codzienne śledzenie</p><h2 class="section-title">Prowadź codzienne zapisy. Rozumiej zmiany długoterminowe.</h2><p class="section-desc">Od korekty salda po przegląd miesięczny zachowaj historię i widoki, których potrzebujesz.</p>
+      <div class="detail-grid">
+        
+        <article class="detail-card"><div class="detail-icon" aria-hidden="true"><svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 8h14"></path><path d="M5 12h14"></path><path d="M5 16h9"></path><circle cx="17.5" cy="16" r="1.8"></circle></svg></div><h3>Historia i kalendarz</h3><p>Przeglądaj zmiany kont według daty, z trendami i kalendarzem dla kontekstu.</p></article>
+        
+        <article class="detail-card"><div class="detail-icon" aria-hidden="true"><svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 8h10"></path><path d="M11 5l3 3-3 3"></path><path d="M20 16H10"></path><path d="M13 13l-3 3 3 3"></path></svg></div><h3>Sumy w wielu walutach</h3><p>Prowadź każde konto w walucie pierwotnej i oglądaj sumy w wybranej walucie bazowej.</p></article>
+        
+        <article class="detail-card"><div class="detail-icon" aria-hidden="true"><svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="7.5"></circle><circle cx="12" cy="12" r="3.2"></circle></svg></div><h3>Cele i postęp</h3><p>Ustaw cel aktywów i zobacz postęp oraz kwotę, której jeszcze brakuje.</p></article>
+        
+        <article class="detail-card"><div class="detail-icon" aria-hidden="true"><svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h16"></path><path d="M4 12h16"></path><path d="M4 17h16"></path><circle cx="8" cy="7" r="1.8"></circle><circle cx="15" cy="12" r="1.8"></circle><circle cx="11" cy="17" r="1.8"></circle></svg></div><h3>Pulpit dopasowany do Ciebie</h3><p>Wybierz kolejność i widoczność kart, z wykresami pierścieniowymi lub kołowymi dla rozkładów.</p></article>
+        
+        <article class="detail-card"><div class="detail-icon" aria-hidden="true"><svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="5.5" y="10.2" width="13" height="9" rx="2"></rect><path d="M8.2 10.2V7.8a3.8 3.8 0 0 1 7.6 0v2.4"></path></svg></div><h3>Prywatność i kontrola dostępu</h3><p>Używaj kodu, biometrii i automatycznej blokady. Żądania AI trafiają do usługi modelu, którą skonfigurujesz.</p></article>
+        
+        <article class="detail-card"><div class="detail-icon" aria-hidden="true"><svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="5" width="7" height="14" rx="1.8"></rect><rect x="13" y="5" width="7" height="14" rx="1.8"></rect></svg></div><h3>Synchronizacja i kopia zapasowa</h3><p>Codzienne zapisy zostają lokalnie. Pro dodaje opcjonalną synchronizację iCloud i kopię w chmurze.</p></article>
+        
+      </div>
+    </div>
+  </section><section id="download" class="section" data-img-chain="3">
+    <div class="container">
+      <div class="cta-box">
+        <div class="cta-content"><p class="eyebrow">Pobieranie</p><h2>Zacznij teraz</h2><p>Zainstaluj iAssets i zbuduj rodzinny system aktywów.</p>
+          <a class="btn appstore-code-btn appstore-code-btn-lg" href="https://apps.apple.com/pl/app/%E7%9F%A5%E7%9B%88/id6759790991" target="_blank" rel="noopener noreferrer" aria-label="Download on the App Store"><span class="appstore-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M16.1 12.7c0-2.3 1.9-3.4 2-3.5-1.1-1.6-2.8-1.8-3.4-1.8-1.4-.1-2.7.8-3.4.8s-1.9-.8-3.1-.7c-1.6 0-3 .9-3.9 2.3-1.7 3-.4 7.3 1.2 9.6.8 1.1 1.8 2.3 3.1 2.3 1.2 0 1.7-.8 3.1-.8s1.8.8 3.1.8c1.3 0 2.1-1.1 2.9-2.2.9-1.3 1.3-2.6 1.4-2.7 0 0-2-.8-2-4.1z"></path><path d="M14 5.9c.7-.8 1.2-1.8 1.1-2.9-1 .1-2.1.7-2.9 1.5-.7.8-1.2 1.8-1.1 2.8 1 .1 2.1-.5 2.9-1.4z"></path></svg></span><span class="appstore-text"><span class="appstore-overline">Pobierz w</span><span class="appstore-title">App Store</span></span></a>
+        </div>
+        <div class="cta-mosaic" aria-hidden="true">
+          <div
+            class="cta-mosaic-stage"
+            style="--cta-stage-columns: 4; --cta-stage-width: 142%; --cta-stage-height: 274%; --cta-stage-width-mobile: 154%; --cta-stage-height-mobile: 254%; --cta-stage-gap: 14px; --cta-stage-gap-mobile: 12px; --cta-stage-rotation: -16deg;"
+          ><div class="cta-mosaic-column">
+              <div class="cta-mosaic-column-track" style="--cta-column-duration: 68s; --cta-column-delay: 0s; --cta-column-direction: normal;"><figure class="cta-mosaic-card"><img data-src="/assets/screenshots/1.0.9/pl/home.2535f92e1287.webp" alt="" width="768" height="1567" decoding="async" /></figure><figure class="cta-mosaic-card"><img data-src="/assets/screenshots/1.0.9/pl/assets.cb76ddbc2cc7.webp" alt="" width="768" height="1567" decoding="async" /></figure><figure class="cta-mosaic-card"><img data-src="/assets/screenshots/1.0.9/pl/markets.543569e6713e.webp" alt="" width="768" height="1567" decoding="async" /></figure><figure class="cta-mosaic-card"><img data-src="/assets/screenshots/1.0.9/pl/ai.ab1dd16c540b.webp" alt="" width="768" height="1567" decoding="async" /></figure><figure class="cta-mosaic-card"><img data-src="/assets/screenshots/1.0.9/pl/family.ba5de6ae1a89.webp" alt="" width="768" height="1567" decoding="async" /></figure><figure class="cta-mosaic-card"><img data-src="/assets/screenshots/1.0.9/pl/home.2535f92e1287.webp" alt="" width="768" height="1567" decoding="async" /></figure><figure class="cta-mosaic-card"><img data-src="/assets/screenshots/1.0.9/pl/assets.cb76ddbc2cc7.webp" alt="" width="768" height="1567" decoding="async" /></figure><figure class="cta-mosaic-card"><img data-src="/assets/screenshots/1.0.9/pl/markets.543569e6713e.webp" alt="" width="768" height="1567" decoding="async" /></figure><figure class="cta-mosaic-card"><img data-src="/assets/screenshots/1.0.9/pl/ai.ab1dd16c540b.webp" alt="" width="768" height="1567" decoding="async" /></figure><figure class="cta-mosaic-card"><img data-src="/assets/screenshots/1.0.9/pl/family.ba5de6ae1a89.webp" alt="" width="768" height="1567" decoding="async" /></figure>
+              </div>
+            </div><div class="cta-mosaic-column">
+              <div class="cta-mosaic-column-track" style="--cta-column-duration: 76s; --cta-column-delay: -3s; --cta-column-direction: reverse;"><figure class="cta-mosaic-card"><img data-src="/assets/screenshots/1.0.9/pl/home.2535f92e1287.webp" alt="" width="768" height="1567" decoding="async" /></figure><figure class="cta-mosaic-card"><img data-src="/assets/screenshots/1.0.9/pl/assets.cb76ddbc2cc7.webp" alt="" width="768" height="1567" decoding="async" /></figure><figure class="cta-mosaic-card"><img data-src="/assets/screenshots/1.0.9/pl/markets.543569e6713e.webp" alt="" width="768" height="1567" decoding="async" /></figure><figure class="cta-mosaic-card"><img data-src="/assets/screenshots/1.0.9/pl/ai.ab1dd16c540b.webp" alt="" width="768" height="1567" decoding="async" /></figure><figure class="cta-mosaic-card"><img data-src="/assets/screenshots/1.0.9/pl/family.ba5de6ae1a89.webp" alt="" width="768" height="1567" decoding="async" /></figure><figure class="cta-mosaic-card"><img data-src="/assets/screenshots/1.0.9/pl/home.2535f92e1287.webp" alt="" width="768" height="1567" decoding="async" /></figure><figure class="cta-mosaic-card"><img data-src="/assets/screenshots/1.0.9/pl/assets.cb76ddbc2cc7.webp" alt="" width="768" height="1567" decoding="async" /></figure><figure class="cta-mosaic-card"><img data-src="/assets/screenshots/1.0.9/pl/markets.543569e6713e.webp" alt="" width="768" height="1567" decoding="async" /></figure><figure class="cta-mosaic-card"><img data-src="/assets/screenshots/1.0.9/pl/ai.ab1dd16c540b.webp" alt="" width="768" height="1567" decoding="async" /></figure><figure class="cta-mosaic-card"><img data-src="/assets/screenshots/1.0.9/pl/family.ba5de6ae1a89.webp" alt="" width="768" height="1567" decoding="async" /></figure>
+              </div>
+            </div><div class="cta-mosaic-column">
+              <div class="cta-mosaic-column-track" style="--cta-column-duration: 72s; --cta-column-delay: -8s; --cta-column-direction: normal;"><figure class="cta-mosaic-card"><img data-src="/assets/screenshots/1.0.9/pl/home.2535f92e1287.webp" alt="" width="768" height="1567" decoding="async" /></figure><figure class="cta-mosaic-card"><img data-src="/assets/screenshots/1.0.9/pl/assets.cb76ddbc2cc7.webp" alt="" width="768" height="1567" decoding="async" /></figure><figure class="cta-mosaic-card"><img data-src="/assets/screenshots/1.0.9/pl/markets.543569e6713e.webp" alt="" width="768" height="1567" decoding="async" /></figure><figure class="cta-mosaic-card"><img data-src="/assets/screenshots/1.0.9/pl/ai.ab1dd16c540b.webp" alt="" width="768" height="1567" decoding="async" /></figure><figure class="cta-mosaic-card"><img data-src="/assets/screenshots/1.0.9/pl/family.ba5de6ae1a89.webp" alt="" width="768" height="1567" decoding="async" /></figure><figure class="cta-mosaic-card"><img data-src="/assets/screenshots/1.0.9/pl/home.2535f92e1287.webp" alt="" width="768" height="1567" decoding="async" /></figure><figure class="cta-mosaic-card"><img data-src="/assets/screenshots/1.0.9/pl/assets.cb76ddbc2cc7.webp" alt="" width="768" height="1567" decoding="async" /></figure><figure class="cta-mosaic-card"><img data-src="/assets/screenshots/1.0.9/pl/markets.543569e6713e.webp" alt="" width="768" height="1567" decoding="async" /></figure><figure class="cta-mosaic-card"><img data-src="/assets/screenshots/1.0.9/pl/ai.ab1dd16c540b.webp" alt="" width="768" height="1567" decoding="async" /></figure><figure class="cta-mosaic-card"><img data-src="/assets/screenshots/1.0.9/pl/family.ba5de6ae1a89.webp" alt="" width="768" height="1567" decoding="async" /></figure>
+              </div>
+            </div><div class="cta-mosaic-column">
+              <div class="cta-mosaic-column-track" style="--cta-column-duration: 80s; --cta-column-delay: -6s; --cta-column-direction: reverse;"><figure class="cta-mosaic-card"><img data-src="/assets/screenshots/1.0.9/pl/home.2535f92e1287.webp" alt="" width="768" height="1567" decoding="async" /></figure><figure class="cta-mosaic-card"><img data-src="/assets/screenshots/1.0.9/pl/assets.cb76ddbc2cc7.webp" alt="" width="768" height="1567" decoding="async" /></figure><figure class="cta-mosaic-card"><img data-src="/assets/screenshots/1.0.9/pl/markets.543569e6713e.webp" alt="" width="768" height="1567" decoding="async" /></figure><figure class="cta-mosaic-card"><img data-src="/assets/screenshots/1.0.9/pl/ai.ab1dd16c540b.webp" alt="" width="768" height="1567" decoding="async" /></figure><figure class="cta-mosaic-card"><img data-src="/assets/screenshots/1.0.9/pl/family.ba5de6ae1a89.webp" alt="" width="768" height="1567" decoding="async" /></figure><figure class="cta-mosaic-card"><img data-src="/assets/screenshots/1.0.9/pl/home.2535f92e1287.webp" alt="" width="768" height="1567" decoding="async" /></figure><figure class="cta-mosaic-card"><img data-src="/assets/screenshots/1.0.9/pl/assets.cb76ddbc2cc7.webp" alt="" width="768" height="1567" decoding="async" /></figure><figure class="cta-mosaic-card"><img data-src="/assets/screenshots/1.0.9/pl/markets.543569e6713e.webp" alt="" width="768" height="1567" decoding="async" /></figure><figure class="cta-mosaic-card"><img data-src="/assets/screenshots/1.0.9/pl/ai.ab1dd16c540b.webp" alt="" width="768" height="1567" decoding="async" /></figure><figure class="cta-mosaic-card"><img data-src="/assets/screenshots/1.0.9/pl/family.ba5de6ae1a89.webp" alt="" width="768" height="1567" decoding="async" /></figure>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section><section id="pricing-compare" class="section pricing-compare-section" data-img-chain="7">
+    <div class="container"><p class="eyebrow">Ceny</p><h2 class="section-title">Zacznij za darmo. Wybierz Pro, gdy potrzebujesz więcej.</h2><p class="section-desc">Wiele ksiąg i zarządzanie członkami rodziny są bezpłatne. Wybierz Pro roczne lub dożywotnie, aby mieć synchronizację iCloud, wspólne księgi rodzinne i dane rynkowe.</p>
+      <div class="pc-compare" data-pc-tabs>
+  <div class="pc-desktop" style="--pc-plans: 3; --pc-featured: 1;">
+    <div class="pc-elev" aria-hidden="true"></div>
+    <table class="pc-table"><caption class="pc-sr">Zacznij za darmo. Wybierz Pro, gdy potrzebujesz więcej.</caption>
+      <colgroup>
+        <col class="pc-col-label" /><col /><col /><col />
+      </colgroup>
+      <thead>
+        <tr>
+          <th scope="col" class="pc-corner"><span class="pc-sr">Feature</span></th>
+          <th scope="col" class="pc-head" data-pc-col="0">
+            <div class="pc-head-inner">
+              <div class="pc-badge-slot"></div>
+              <div class="pc-name">Bezpłatnie</div>
+              <div class="pc-price"><span class="pc-currency">$</span>0</div><div class="pc-period">Zarządzaj kontami, wieloma księgami i członkami rodziny.</div>
+              <div class="pc-cta-slot"><a class="pc-btn" href="#download">Zacznij</a>
+              </div>
+            </div>
+          </th>
+          <th scope="col" class="pc-head is-featured" data-pc-col="1">
+            <div class="pc-head-inner">
+              <div class="pc-badge-slot"><span class="pc-badge">Popularne</span></div>
+              <div class="pc-name">Pro roczne</div>
+              <div class="pc-price"><span class="pc-currency">$</span>1.49</div><div class="pc-period">/rok</div><div class="pc-period">Płać co roku, aby wspierać zdrowy rozwój oprogramowania.</div>
+              <div class="pc-cta-slot"><a class="pc-btn is-solid" href="https://apps.apple.com/pl/app/%E7%9F%A5%E7%9B%88/id6759790991" target="_blank" rel="noopener noreferrer">Subskrybuj rocznie</a>
+              </div>
+            </div>
+          </th>
+          <th scope="col" class="pc-head" data-pc-col="2">
+            <div class="pc-head-inner">
+              <div class="pc-badge-slot"><span class="pc-badge">Najlepsza wartość</span></div>
+              <div class="pc-name">Pro dożywotnie</div>
+              <div class="pc-price"><span class="pc-currency">$</span>9.99</div><div class="pc-period">Jednorazowy zakup, dożywotnie aktualizacje.</div>
+              <div class="pc-cta-slot"><a class="pc-btn is-solid" href="https://apps.apple.com/pl/app/%E7%9F%A5%E7%9B%88/id6759790991" target="_blank" rel="noopener noreferrer">Kup dożywotnie</a>
+              </div>
+            </div>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">Śledzenie aktywów w wielu walutach</th><td data-pc-col="0"><span class="pc-yes" role="img" aria-label="Yes">✓</span></td><td data-pc-col="1" class="is-featured"><span class="pc-yes" role="img" aria-label="Yes">✓</span></td><td data-pc-col="2"><span class="pc-yes" role="img" aria-label="Yes">✓</span></td>
+        </tr>
+        <tr>
+          <th scope="row">Księgi kont</th><td data-pc-col="0"><span class="pc-limit">Bez limitu</span></td><td data-pc-col="1" class="is-featured"><span class="pc-limit pc-strong">Bez limitu</span></td><td data-pc-col="2"><span class="pc-limit">Bez limitu</span></td>
+        </tr>
+        <tr>
+          <th scope="row">Zarządzanie członkami rodziny</th><td data-pc-col="0"><span class="pc-yes" role="img" aria-label="Yes">✓</span></td><td data-pc-col="1" class="is-featured"><span class="pc-yes" role="img" aria-label="Yes">✓</span></td><td data-pc-col="2"><span class="pc-yes" role="img" aria-label="Yes">✓</span></td>
+        </tr>
+        <tr>
+          <th scope="row">Asystent aktywów AI</th><td data-pc-col="0"><span class="pc-yes" role="img" aria-label="Yes">✓</span></td><td data-pc-col="1" class="is-featured"><span class="pc-yes" role="img" aria-label="Yes">✓</span></td><td data-pc-col="2"><span class="pc-yes" role="img" aria-label="Yes">✓</span></td>
+        </tr>
+        <tr>
+          <th scope="row">Blokada kodem i biometrią</th><td data-pc-col="0"><span class="pc-yes" role="img" aria-label="Yes">✓</span></td><td data-pc-col="1" class="is-featured"><span class="pc-yes" role="img" aria-label="Yes">✓</span></td><td data-pc-col="2"><span class="pc-yes" role="img" aria-label="Yes">✓</span></td>
+        </tr>
+        <tr>
+          <th scope="row">Cele, przelewy i przypomnienia o terminach</th><td data-pc-col="0"><span class="pc-yes" role="img" aria-label="Yes">✓</span></td><td data-pc-col="1" class="is-featured"><span class="pc-yes" role="img" aria-label="Yes">✓</span></td><td data-pc-col="2"><span class="pc-yes" role="img" aria-label="Yes">✓</span></td>
+        </tr>
+        <tr>
+          <th scope="row">Historia zmian, trendy i kalendarz (z filtrami)</th><td data-pc-col="0"><span class="pc-yes" role="img" aria-label="Yes">✓</span></td><td data-pc-col="1" class="is-featured"><span class="pc-yes" role="img" aria-label="Yes">✓</span></td><td data-pc-col="2"><span class="pc-yes" role="img" aria-label="Yes">✓</span></td>
+        </tr>
+        <tr>
+          <th scope="row">Synchronizacja iCloud i kopia w chmurze</th><td data-pc-col="0"><span class="pc-no" role="img" aria-label="No"></span></td><td data-pc-col="1" class="is-featured"><span class="pc-yes" role="img" aria-label="Yes">✓</span></td><td data-pc-col="2"><span class="pc-yes" role="img" aria-label="Yes">✓</span></td>
+        </tr>
+        <tr>
+          <th scope="row">Wspólne księgi rodzinne przez iCloud</th><td data-pc-col="0"><span class="pc-no" role="img" aria-label="No"></span></td><td data-pc-col="1" class="is-featured"><span class="pc-yes" role="img" aria-label="Yes">✓</span></td><td data-pc-col="2"><span class="pc-yes" role="img" aria-label="Yes">✓</span></td>
+        </tr>
+        <tr class="is-last">
+          <th scope="row">Dane rynkowe na żywo</th><td data-pc-col="0"><span class="pc-no" role="img" aria-label="No"></span></td><td data-pc-col="1" class="is-featured"><span class="pc-yes" role="img" aria-label="Yes">✓</span></td><td data-pc-col="2"><span class="pc-yes" role="img" aria-label="Yes">✓</span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="pc-mobile">
+    <div class="pc-tabs" role="tablist">
+      <button type="button" class="pc-tab" role="tab" id="pc-tab-0" data-pc-tab="0" aria-selected="false" aria-controls="pc-panel-0">Bezpłatnie</button>
+      <button type="button" class="pc-tab is-on" role="tab" id="pc-tab-1" data-pc-tab="1" aria-selected="true" aria-controls="pc-panel-1">Pro roczne</button>
+      <button type="button" class="pc-tab" role="tab" id="pc-tab-2" data-pc-tab="2" aria-selected="false" aria-controls="pc-panel-2">Pro dożywotnie</button>
+    </div><div class="pc-mcard" id="pc-panel-0" role="tabpanel" aria-labelledby="pc-tab-0" data-pc-panel="0" hidden>
+      <div class="pc-mhead">
+        <div class="pc-badge-slot"></div>
+        <div class="pc-name">Bezpłatnie</div>
+        <div class="pc-mprice"><span class="pc-currency">$</span>0</div><div class="pc-period">Zarządzaj kontami, wieloma księgami i członkami rodziny.</div><a class="pc-btn" href="#download">Zacznij</a>
+      </div>
+      <div class="pc-mrow">
+        <div class="pc-mlabel">Śledzenie aktywów w wielu walutach</div>
+        <div class="pc-mvalue"><span class="pc-yes" role="img" aria-label="Yes">✓</span></div>
+      </div>
+      <div class="pc-mrow">
+        <div class="pc-mlabel">Księgi kont</div>
+        <div class="pc-mvalue"><span class="pc-limit">Bez limitu</span></div>
+      </div>
+      <div class="pc-mrow">
+        <div class="pc-mlabel">Zarządzanie członkami rodziny</div>
+        <div class="pc-mvalue"><span class="pc-yes" role="img" aria-label="Yes">✓</span></div>
+      </div>
+      <div class="pc-mrow">
+        <div class="pc-mlabel">Asystent aktywów AI</div>
+        <div class="pc-mvalue"><span class="pc-yes" role="img" aria-label="Yes">✓</span></div>
+      </div>
+      <div class="pc-mrow">
+        <div class="pc-mlabel">Blokada kodem i biometrią</div>
+        <div class="pc-mvalue"><span class="pc-yes" role="img" aria-label="Yes">✓</span></div>
+      </div>
+      <div class="pc-mrow">
+        <div class="pc-mlabel">Cele, przelewy i przypomnienia o terminach</div>
+        <div class="pc-mvalue"><span class="pc-yes" role="img" aria-label="Yes">✓</span></div>
+      </div>
+      <div class="pc-mrow">
+        <div class="pc-mlabel">Historia zmian, trendy i kalendarz (z filtrami)</div>
+        <div class="pc-mvalue"><span class="pc-yes" role="img" aria-label="Yes">✓</span></div>
+      </div>
+      <div class="pc-mrow">
+        <div class="pc-mlabel">Synchronizacja iCloud i kopia w chmurze</div>
+        <div class="pc-mvalue"><span class="pc-no" role="img" aria-label="No"></span></div>
+      </div>
+      <div class="pc-mrow">
+        <div class="pc-mlabel">Wspólne księgi rodzinne przez iCloud</div>
+        <div class="pc-mvalue"><span class="pc-no" role="img" aria-label="No"></span></div>
+      </div>
+      <div class="pc-mrow">
+        <div class="pc-mlabel">Dane rynkowe na żywo</div>
+        <div class="pc-mvalue"><span class="pc-no" role="img" aria-label="No"></span></div>
+      </div>
+    </div><div class="pc-mcard is-featured" id="pc-panel-1" role="tabpanel" aria-labelledby="pc-tab-1" data-pc-panel="1">
+      <div class="pc-mhead">
+        <div class="pc-badge-slot"><span class="pc-badge">Popularne</span></div>
+        <div class="pc-name">Pro roczne</div>
+        <div class="pc-mprice"><span class="pc-currency">$</span>1.49</div><div class="pc-period">/rok</div><div class="pc-period">Płać co roku, aby wspierać zdrowy rozwój oprogramowania.</div><a class="pc-btn is-solid" href="https://apps.apple.com/pl/app/%E7%9F%A5%E7%9B%88/id6759790991" target="_blank" rel="noopener noreferrer">Subskrybuj rocznie</a>
+      </div>
+      <div class="pc-mrow">
+        <div class="pc-mlabel">Śledzenie aktywów w wielu walutach</div>
+        <div class="pc-mvalue"><span class="pc-yes" role="img" aria-label="Yes">✓</span></div>
+      </div>
+      <div class="pc-mrow">
+        <div class="pc-mlabel">Księgi kont</div>
+        <div class="pc-mvalue"><span class="pc-limit pc-strong">Bez limitu</span></div>
+      </div>
+      <div class="pc-mrow">
+        <div class="pc-mlabel">Zarządzanie członkami rodziny</div>
+        <div class="pc-mvalue"><span class="pc-yes" role="img" aria-label="Yes">✓</span></div>
+      </div>
+      <div class="pc-mrow">
+        <div class="pc-mlabel">Asystent aktywów AI</div>
+        <div class="pc-mvalue"><span class="pc-yes" role="img" aria-label="Yes">✓</span></div>
+      </div>
+      <div class="pc-mrow">
+        <div class="pc-mlabel">Blokada kodem i biometrią</div>
+        <div class="pc-mvalue"><span class="pc-yes" role="img" aria-label="Yes">✓</span></div>
+      </div>
+      <div class="pc-mrow">
+        <div class="pc-mlabel">Cele, przelewy i przypomnienia o terminach</div>
+        <div class="pc-mvalue"><span class="pc-yes" role="img" aria-label="Yes">✓</span></div>
+      </div>
+      <div class="pc-mrow">
+        <div class="pc-mlabel">Historia zmian, trendy i kalendarz (z filtrami)</div>
+        <div class="pc-mvalue"><span class="pc-yes" role="img" aria-label="Yes">✓</span></div>
+      </div>
+      <div class="pc-mrow">
+        <div class="pc-mlabel">Synchronizacja iCloud i kopia w chmurze</div>
+        <div class="pc-mvalue"><span class="pc-yes" role="img" aria-label="Yes">✓</span></div>
+      </div>
+      <div class="pc-mrow">
+        <div class="pc-mlabel">Wspólne księgi rodzinne przez iCloud</div>
+        <div class="pc-mvalue"><span class="pc-yes" role="img" aria-label="Yes">✓</span></div>
+      </div>
+      <div class="pc-mrow">
+        <div class="pc-mlabel">Dane rynkowe na żywo</div>
+        <div class="pc-mvalue"><span class="pc-yes" role="img" aria-label="Yes">✓</span></div>
+      </div>
+    </div><div class="pc-mcard" id="pc-panel-2" role="tabpanel" aria-labelledby="pc-tab-2" data-pc-panel="2" hidden>
+      <div class="pc-mhead">
+        <div class="pc-badge-slot"><span class="pc-badge">Najlepsza wartość</span></div>
+        <div class="pc-name">Pro dożywotnie</div>
+        <div class="pc-mprice"><span class="pc-currency">$</span>9.99</div><div class="pc-period">Jednorazowy zakup, dożywotnie aktualizacje.</div><a class="pc-btn is-solid" href="https://apps.apple.com/pl/app/%E7%9F%A5%E7%9B%88/id6759790991" target="_blank" rel="noopener noreferrer">Kup dożywotnie</a>
+      </div>
+      <div class="pc-mrow">
+        <div class="pc-mlabel">Śledzenie aktywów w wielu walutach</div>
+        <div class="pc-mvalue"><span class="pc-yes" role="img" aria-label="Yes">✓</span></div>
+      </div>
+      <div class="pc-mrow">
+        <div class="pc-mlabel">Księgi kont</div>
+        <div class="pc-mvalue"><span class="pc-limit">Bez limitu</span></div>
+      </div>
+      <div class="pc-mrow">
+        <div class="pc-mlabel">Zarządzanie członkami rodziny</div>
+        <div class="pc-mvalue"><span class="pc-yes" role="img" aria-label="Yes">✓</span></div>
+      </div>
+      <div class="pc-mrow">
+        <div class="pc-mlabel">Asystent aktywów AI</div>
+        <div class="pc-mvalue"><span class="pc-yes" role="img" aria-label="Yes">✓</span></div>
+      </div>
+      <div class="pc-mrow">
+        <div class="pc-mlabel">Blokada kodem i biometrią</div>
+        <div class="pc-mvalue"><span class="pc-yes" role="img" aria-label="Yes">✓</span></div>
+      </div>
+      <div class="pc-mrow">
+        <div class="pc-mlabel">Cele, przelewy i przypomnienia o terminach</div>
+        <div class="pc-mvalue"><span class="pc-yes" role="img" aria-label="Yes">✓</span></div>
+      </div>
+      <div class="pc-mrow">
+        <div class="pc-mlabel">Historia zmian, trendy i kalendarz (z filtrami)</div>
+        <div class="pc-mvalue"><span class="pc-yes" role="img" aria-label="Yes">✓</span></div>
+      </div>
+      <div class="pc-mrow">
+        <div class="pc-mlabel">Synchronizacja iCloud i kopia w chmurze</div>
+        <div class="pc-mvalue"><span class="pc-yes" role="img" aria-label="Yes">✓</span></div>
+      </div>
+      <div class="pc-mrow">
+        <div class="pc-mlabel">Wspólne księgi rodzinne przez iCloud</div>
+        <div class="pc-mvalue"><span class="pc-yes" role="img" aria-label="Yes">✓</span></div>
+      </div>
+      <div class="pc-mrow">
+        <div class="pc-mlabel">Dane rynkowe na żywo</div>
+        <div class="pc-mvalue"><span class="pc-yes" role="img" aria-label="Yes">✓</span></div>
+      </div>
+    </div>
+  </div>
+</div>
+<p class="pricing-disclaimer">Ceny zależą od regionu i promocji. Ekran zakupu w APP pokazuje cenę końcową. AI wymaga skonfigurowanej usługi modelu, która może naliczać opłatę osobno.</p>
+    </div>
+  </section>
+  <section class="section trust-strip"><div class="container"><p class="eyebrow">Ekosystem</p><h2 class="section-title trust-title">Banki, platformy i partnerzy ekosystemu</h2><p class="trust-subtitle">Poznaj powiązane banki, platformy finansowe i projekty społeczności.</p><div class="trust-marquee" aria-label="Trusted partners"><div class="trust-track"><article class="trust-card"><img class="trust-logo" src="/assets/local/20260607PRQOHB.webp" alt="HSBC China logo" width="56" height="56" loading="lazy" decoding="async" /><span>HSBC</span></article><article class="trust-card"><img class="trust-logo" src="/assets/trust-logos/standard-chartered.webp" alt="Standard Chartered China logo" width="56" height="56" loading="lazy" decoding="async" /><span>Standard Chartered Bank</span></article><article class="trust-card"><img class="trust-logo" src="/assets/trust-logos/dbs-bank.webp" alt="DBS Bank logo" width="56" height="56" loading="lazy" decoding="async" /><span>DBS Bank</span></article><article class="trust-card"><img class="trust-logo" src="/assets/trust-logos/charles-schwab.svg" alt="Charles Schwab logo" width="56" height="56" loading="lazy" decoding="async" /><span>Charles Schwab</span></article><article class="trust-card"><img class="trust-logo" src="/assets/trust-logos/ibkr.webp" alt="Interactive Brokers logo" width="56" height="56" loading="lazy" decoding="async" /><span>IBKR</span></article><article class="trust-card"><img class="trust-logo" src="/assets/trust-logos/galaxy-securities.png" alt="China Galaxy Securities logo" width="56" height="56" loading="lazy" decoding="async" /><span>China Galaxy Securities</span></article><article class="trust-card"><img class="trust-logo" src="/assets/trust-logos/gf-securities.png" alt="GF Securities logo" width="56" height="56" loading="lazy" decoding="async" /><span>GF Securities</span></article><article class="trust-card"><img class="trust-logo" src="/assets/trust-logos/dongguan-securities.png" alt="Dongguan Securities logo" width="56" height="56" loading="lazy" decoding="async" /><span>Dongguan Securities</span></article></div><div class="trust-track reverse"><article class="trust-card"><img class="trust-logo" src="/assets/trust-logos/hang-seng-bank.webp" alt="Hang Seng Bank logo" width="56" height="56" loading="lazy" decoding="async" /><span>Hang Seng Bank</span></article><article class="trust-card"><img class="trust-logo" src="/assets/trust-logos/starryblu.png" alt="Starryblu logo" width="56" height="56" loading="lazy" decoding="async" /><span>Starryblu</span></article><article class="trust-card"><img class="trust-logo" src="/assets/trust-logos/panda-remit.png" alt="Panda Remit logo" width="56" height="56" loading="lazy" decoding="async" /><span>Panda Remit</span></article><article class="trust-card"><img class="trust-logo" src="/assets/trust-logos/flybay-mark.webp" alt="FlyBay logo" width="56" height="56" loading="lazy" decoding="async" /><span>flyBay</span></article><article class="trust-card"><img class="trust-logo" src="/assets/trust-logos/plural-atlas.webp" alt="Plural Atlas logo" width="56" height="56" loading="lazy" decoding="async" /><span>Plural Atlas</span></article></div></div><div class="trust-actions"><a class="btn btn-ghost" href="mailto:idebuginn@gmail.com">Współpraca biznesowa</a><a class="btn btn-ghost" href="https://flybay.debuginn.com/">Dowiedz się więcej</a></div></div></section>
+  <section id="faqs" class="section" data-img-chain="9"><div class="container"><p class="eyebrow">Pytania</p><h2 class="section-title">Zanim zaczniesz.</h2><div class="faq-grid"><article><h3><span class="faq-q-icon" aria-hidden="true"><svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><path d="M9.6 9.2a2.5 2.5 0 1 1 4.2 1.8c-.65.62-1.3 1.05-1.3 2.1"></path><circle cx="12" cy="16.8" r="0.9" fill="currentColor" stroke="none"></circle></svg></span><span>Co mogę robić za darmo?</span></h3><p>Zarządzać kontami wielowalutowymi, wieloma księgami i członkami rodziny. Synchronizacja iCloud, wspólne księgi rodzinne i dane rynkowe wymagają Pro.</p></article><article><h3><span class="faq-q-icon" aria-hidden="true"><svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><path d="M9.6 9.2a2.5 2.5 0 1 1 4.2 1.8c-.65.62-1.3 1.05-1.3 2.1"></path><circle cx="12" cy="16.8" r="0.9" fill="currentColor" stroke="none"></circle></svg></span><span>Jak używać asystenta AI?</span></h3><p>Skonfiguruj obsługiwaną usługę modelu i klucz API w Ustawieniach, a potem pytaj tekstem lub głosem. Edycje danych wymagają potwierdzenia. Sprawdzaj odpowiedzi AI względem oryginalnych zapisów.</p></article><article><h3><span class="faq-q-icon" aria-hidden="true"><svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><path d="M9.6 9.2a2.5 2.5 0 1 1 4.2 1.8c-.65.62-1.3 1.05-1.3 2.1"></path><circle cx="12" cy="16.8" r="0.9" fill="currentColor" stroke="none"></circle></svg></span><span>Czy moje dane są wysyłane do AI?</span></h3><p>Gdy używasz AI, pytanie i potrzebny kontekst aktywów trafiają do skonfigurowanej usługi modelu. Zwykłe zapisy są przechowywane lokalnie, z opcjonalnymi funkcjami iCloud.</p></article><article><h3><span class="faq-q-icon" aria-hidden="true"><svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><path d="M9.6 9.2a2.5 2.5 0 1 1 4.2 1.8c-.65.62-1.3 1.05-1.3 2.1"></path><circle cx="12" cy="16.8" r="0.9" fill="currentColor" stroke="none"></circle></svg></span><span>Czym zarządzanie rodziną różni się od udostępniania?</span></h3><p>Zarządzanie rodziną porządkuje członków i własność kont. Udostępnianie zaprasza innych przez iCloud do tej samej księgi z przypisanymi uprawnieniami.</p></article><article><h3><span class="faq-q-icon" aria-hidden="true"><svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><path d="M9.6 9.2a2.5 2.5 0 1 1 4.2 1.8c-.65.62-1.3 1.05-1.3 2.1"></path><circle cx="12" cy="16.8" r="0.9" fill="currentColor" stroke="none"></circle></svg></span><span>Czy notowania inwestycji są w czasie rzeczywistym?</span></h3><p>Obsługiwane są liczne rynki akcji, fundusze, ETF-y, metale i krypto. Zasięg, opóźnienia i odstępy odświeżania zależą od rynku i źródła danych.</p></article><article><h3><span class="faq-q-icon" aria-hidden="true"><svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><path d="M9.6 9.2a2.5 2.5 0 1 1 4.2 1.8c-.65.62-1.3 1.05-1.3 2.1"></path><circle cx="12" cy="16.8" r="0.9" fill="currentColor" stroke="none"></circle></svg></span><span>Jakie urządzenia i języki są obsługiwane?</span></h3><p>Stworzona dla ekosystemu Apple. APP obsługuje 31 języków w menu języków, w tym chiński uproszczony, chiński tradycyjny, angielski, japoński i koreański. W Chinach kontynentalnych APP nazywa się 知盈, a gdzie indziej iAssets.</p></article></div></div></section>
+</main>
+
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-card">
+          <div class="footer-main">
+            <section class="footer-left">
+              <section class="footer-brand-col">
+                <a class="logo footer-brand-wrap" href="/pl/">
+                  <img class="logo-mark" src="/assets/local/20260607h41bVQ.png" alt="iAssets logo" width="48" height="48" decoding="async" loading="lazy" />
+                  <span class="footer-brand-text">
+                    <span data-i18n="brand">iAssets</span>
+                    <span class="footer-tag" data-i18n="footerTag">Twój towarzysz zarządzania majątkiem gospodarstwa domowego</span>
+                  </span>
+                </a>
+              </section>
+              <nav class="footer-inline-links" aria-label="Footer links"><a href="/pl/#features" data-i18n="navFeatures">Funkcje</a><a href="/pl/#pricing-compare" data-i18n="navPricing">Ceny</a><a href="/pl/#faqs" data-i18n="navFaq">Pytania</a><a href="/pl/#download" data-i18n="navDownload">Pobierz</a><a href="/pl/privacy/" data-i18n="navPrivacy">Prywatność</a><a href="/pl/terms/" data-i18n="navTerms">Regulamin</a>
+              </nav>
+            </section>
+            <section class="footer-social" aria-label="Social links">
+              <div class="social-grid">
+                <div class="social-set social-set-cn">
+                  <a class="social-link" data-social="wechat" href="#" aria-label="微信"><img src="/assets/local/20260607v5H5Ux.svg" alt="WeChat" width="24" height="24" loading="lazy" decoding="async" /></a><a class="social-link" data-social="weibo" href="https://weibo.com/u/7096209693" target="_blank" rel="noopener noreferrer" aria-label="微博"><img src="/assets/local/20260607IoieJf.svg" alt="Weibo" width="24" height="24" loading="lazy" decoding="async" /></a><a class="social-link" data-social="xiaohongshu" href="https://www.xiaohongshu.com/user/profile/5d4057fd0000000012007068" target="_blank" rel="noopener noreferrer" aria-label="小红书"><img src="/assets/local/20260607S6dw4u.svg" alt="Xiaohongshu" width="24" height="24" loading="lazy" decoding="async" /></a><a class="social-link" data-social="zhihu" href="https://www.zhihu.com/people/debuginn" target="_blank" rel="noopener noreferrer" aria-label="知乎"><img src="/assets/local/20260607dP6b5s.svg" alt="Zhihu" width="24" height="24" loading="lazy" decoding="async" /></a>
+                </div>
+                <div class="social-set social-set-global"><a class="social-link" data-social="xiaohongshu" href="https://www.xiaohongshu.com/user/profile/5d4057fd0000000012007068" target="_blank" rel="noopener noreferrer" aria-label="小红书"><img src="/assets/local/20260607S6dw4u.svg" alt="Xiaohongshu" width="24" height="24" loading="lazy" decoding="async" /></a>
+                </div>
+                <div class="social-set social-set-hant"><a class="social-link" data-social="xiaohongshu" href="https://www.xiaohongshu.com/user/profile/5d4057fd0000000012007068" target="_blank" rel="noopener noreferrer" aria-label="小红书"><img src="/assets/local/20260607S6dw4u.svg" alt="Xiaohongshu" width="24" height="24" loading="lazy" decoding="async" /></a>
+                  <a class="social-link" data-social="wechat" href="#" aria-label="微信"><img src="/assets/local/20260607v5H5Ux.svg" alt="WeChat" width="24" height="24" loading="lazy" decoding="async" /></a>
+                </div>
+              </div>
+            </section>
+            <section class="qr-box">
+              <div class="fake-qr"><img src="/assets/local/20260607weNLvY.png" alt="Download QR code" width="88" height="88" loading="lazy" decoding="async" /></div>
+              <div class="qr-copy">
+                <h4 data-i18n="navDownload">Pobierz</h4>
+                <p data-i18n="downloadHint">Zeskanuj, aby otworzyć App Store</p>
+              </div>
+            </section>
+          </div>
+          <div class="footer-bottom">
+            <div class="lang-links">
+              <div class="footer-lang-dropdown">
+              <button class="footer-lang-trigger" type="button" aria-label="Switch language" aria-haspopup="listbox" aria-expanded="false">
+                <span class="footer-lang-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="9"></circle>
+                    <path d="M3 12h18"></path>
+                    <path d="M12 3c2.6 2.4 4 5.6 4 9s-1.4 6.6-4 9c-2.6-2.4-4-5.6-4-9s1.4-6.6 4-9z"></path>
+                  </svg>
+                </span>
+                <span class="footer-lang-current">Polski</span>
+              </button>
+              <div class="footer-lang-menu" role="listbox" aria-label="Language options"><a href="/" data-footer-lang-option="en">English</a><a href="/zh/" data-footer-lang-option="zh-Hans">中文简体</a><a href="/zh-hant/" data-footer-lang-option="zh-Hant">中文繁體</a><a href="/ja/" data-footer-lang-option="ja">日本語</a><a href="/ko/" data-footer-lang-option="ko">한국어</a><a href="/th/" data-footer-lang-option="th">ไทย</a><a href="/vi/" data-footer-lang-option="vi">Tiếng Việt</a><a href="/ms/" data-footer-lang-option="ms">Bahasa Melayu</a><a href="/de/" data-footer-lang-option="de">Deutsch</a><a href="/fr/" data-footer-lang-option="fr">Français</a><a href="/it/" data-footer-lang-option="it">Italiano</a><a href="/es/" data-footer-lang-option="es">Español</a><a href="/nl/" data-footer-lang-option="nl">Nederlands</a><a href="/pt-br/" data-footer-lang-option="pt-BR">Português (Brasil)</a><a href="/ar/" data-footer-lang-option="ar">العربية</a><a href="/id/" data-footer-lang-option="id">Bahasa Indonesia</a><a href="/hi/" data-footer-lang-option="hi">हिन्दी</a><a href="/tr/" data-footer-lang-option="tr">Türkçe</a><a href="/pl/" data-footer-lang-option="pl">Polski</a><a href="/sv/" data-footer-lang-option="sv">Svenska</a><a href="/da/" data-footer-lang-option="da">Dansk</a><a href="/nb/" data-footer-lang-option="nb">Norsk bokmål</a><a href="/fi/" data-footer-lang-option="fi">Suomi</a><a href="/cs/" data-footer-lang-option="cs">Čeština</a><a href="/ro/" data-footer-lang-option="ro">Română</a><a href="/ru/" data-footer-lang-option="ru">Русский</a><a href="/uk/" data-footer-lang-option="uk">Українська</a><a href="/hu/" data-footer-lang-option="hu">Magyar</a><a href="/el/" data-footer-lang-option="el">Ελληνικά</a><a href="/pt-pt/" data-footer-lang-option="pt-PT">Português (Portugal)</a><a href="/he/" data-footer-lang-option="he">עברית</a>
+              </div>
+            </div>
+            </div>
+            <div class="footer-meta">
+              <div class="footer-copyline">
+                <p>© Copyright 2026. All rights reserved.</p>
+                <a class="footer-ai-tag" href="https://iassets.debuginn.com/llms.txt" aria-label="Zobacz llms.txt czytelny dla AI"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.5c.65 4.42 2.83 6.6 7.25 7.25-4.42.65-6.6 2.83-7.25 7.25-.65-4.42-2.83-6.6-7.25-7.25C9.17 10.1 11.35 7.92 12 3.5Z"></path><path d="M18.25 3.75c.18 1.25.75 1.82 2 2-1.25.18-1.82.75-2 2-.18-1.25-.75-1.82-2-2 1.25-.18 1.82-.75 2-2Z"></path></svg><span>llms.txt</span></a>
+              </div>
+              <p class="footer-credit">Built with <a href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo</a>, theme <a href="https://github.com/debuginn/hugo-theme-pebble" target="_blank" rel="noopener noreferrer">Pebble</a> v1.1.0 designed by <a href="https://blog.debuginn.com/" target="_blank" rel="noopener noreferrer">Debuginn</a>.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div class="lang-modal" hidden>
+  <div class="lang-modal-backdrop" data-lang-modal-close></div>
+  <div class="lang-modal-panel" role="dialog" aria-modal="true" aria-labelledby="lang-modal-title">
+    <div class="lang-modal-head">
+      <div class="lang-modal-title">
+        <span class="lang-modal-title-icon" aria-hidden="true"><svg class="lang-modal-globe" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><path d="M3 12h18"></path><path d="M12 3c2.7 2.5 4.2 5.7 4.2 9S14.7 18.5 12 21c-2.7-2.5-4.2-5.7-4.2-9S9.3 5.5 12 3z"></path></svg></span>
+        <h2 id="lang-modal-title">Wybierz język</h2>
+      </div>
+      <button class="lang-modal-close" type="button" data-lang-modal-close aria-label="Zamknij">×</button>
+    </div>
+    <div class="lang-modal-grid"><a href="/" data-lang-modal-option="en">English</a><a href="/zh/" data-lang-modal-option="zh-Hans">中文简体</a><a href="/zh-hant/" data-lang-modal-option="zh-Hant">中文繁體</a><a href="/ja/" data-lang-modal-option="ja">日本語</a><a href="/ko/" data-lang-modal-option="ko">한국어</a><a href="/th/" data-lang-modal-option="th">ไทย</a><a href="/vi/" data-lang-modal-option="vi">Tiếng Việt</a><a href="/ms/" data-lang-modal-option="ms">Bahasa Melayu</a><a href="/de/" data-lang-modal-option="de">Deutsch</a><a href="/fr/" data-lang-modal-option="fr">Français</a><a href="/it/" data-lang-modal-option="it">Italiano</a><a href="/es/" data-lang-modal-option="es">Español</a><a href="/nl/" data-lang-modal-option="nl">Nederlands</a><a href="/pt-br/" data-lang-modal-option="pt-BR">Português (Brasil)</a><a href="/ar/" data-lang-modal-option="ar">العربية</a><a href="/id/" data-lang-modal-option="id">Bahasa Indonesia</a><a href="/hi/" data-lang-modal-option="hi">हिन्दी</a><a href="/tr/" data-lang-modal-option="tr">Türkçe</a><a href="/pl/" data-lang-modal-option="pl">Polski</a><a href="/sv/" data-lang-modal-option="sv">Svenska</a><a href="/da/" data-lang-modal-option="da">Dansk</a><a href="/nb/" data-lang-modal-option="nb">Norsk bokmål</a><a href="/fi/" data-lang-modal-option="fi">Suomi</a><a href="/cs/" data-lang-modal-option="cs">Čeština</a><a href="/ro/" data-lang-modal-option="ro">Română</a><a href="/ru/" data-lang-modal-option="ru">Русский</a><a href="/uk/" data-lang-modal-option="uk">Українська</a><a href="/hu/" data-lang-modal-option="hu">Magyar</a><a href="/el/" data-lang-modal-option="el">Ελληνικά</a><a href="/pt-pt/" data-lang-modal-option="pt-PT">Português (Portugal)</a><a href="/he/" data-lang-modal-option="he">עברית</a>
+    </div>
+  </div>
+</div>
+
+
+    <script type="module" src="/app.js?v=v20261103-lang-chrome"></script>
+  </body>
+</html>

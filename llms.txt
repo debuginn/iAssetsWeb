@@ -1,0 +1,44 @@
+# 知盈 iAssets
+
+> 知盈 (iAssets) is an Apple app for household assets. It keeps accounts, investments, and liabilities in one view, with an optional AI assistant and family books. Everyday tracking and family member management are free; iCloud sync, shared family books, and live market data are Pro. The app is named 知盈 in mainland China and iAssets elsewhere.
+
+Canonical: https://iassets.debuginn.com/
+
+Language: en
+
+## Product
+
+- [Home](https://iassets.debuginn.com/): English homepage. Accounts, investments, and liabilities in one view.
+
+- [Features](https://iassets.debuginn.com/#features): Net worth, investments, books, family sharing, and the AI asset assistant.
+
+- [Pricing](https://iassets.debuginn.com/#pricing-compare): Free for multi-currency books and family members. Pro yearly or lifetime adds iCloud sync, shared family books, and live market data.
+
+- [Download](https://iassets.debuginn.com/#download): Install from the App Store. Mainland China lists the app as 知盈.
+
+## Languages
+
+- [English](https://iassets.debuginn.com/): Default language.
+
+- [简体中文](https://iassets.debuginn.com/zh/): Simplified Chinese homepage, branded 知盈.
+
+- [繁體中文](https://iassets.debuginn.com/zh-hant/): Traditional Chinese homepage.
+
+- [日本語](https://iassets.debuginn.com/ja/): Japanese homepage.
+
+- [한국어](https://iassets.debuginn.com/ko/): Korean homepage.
+
+## FAQ
+
+- [FAQ](https://iassets.debuginn.com/#faqs): Free tier versus Pro, how the AI assistant uses a model you configure, local storage versus iCloud, and family management versus sharing.
+
+## Contact and policies
+
+- [Contact](mailto:idebuginn@gmail.com): Product and privacy questions.
+
+- [Privacy](https://iassets.debuginn.com/privacy/): What stays on device and what iCloud or a configured AI provider receives.
+
+- [Terms](https://iassets.debuginn.com/terms/): Terms of use for the site and the app.
+
+- [Blog](https://blog.debuginn.com/categories/iassets/): Release notes and product writing.
+

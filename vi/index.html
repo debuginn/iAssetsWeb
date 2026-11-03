@@ -1,0 +1,634 @@
+<!doctype html>
+<html lang="vi" dir="ltr" data-default-lang="en" data-current-lang="vi">
+  <head>
+	<meta name="generator" content="Hugo 0.147.1"><meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><title>iAssets - Tài sản của bạn, trong một góc nhìn rõ ràng.</title>
+    <meta name="description" content="Đưa tài khoản, khoản đầu tư và nợ phải trả vào một góc nhìn. Ghi lại thay đổi, hỏi AI về tài chính và quản lý sổ chung với gia đình." /><meta name="keywords" content="iAssets,quản lý tài sản,tài chính gia đình,giá trị ròng,APP ngân sách" /><meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="iAssets" />
+    <meta property="og:title" content="iAssets - Tài sản của bạn, trong một góc nhìn rõ ràng." />
+    <meta property="og:description" content="Đưa tài khoản, khoản đầu tư và nợ phải trả vào một góc nhìn. Ghi lại thay đổi, hỏi AI về tài chính và quản lý sổ chung với gia đình." />
+    <meta property="og:image" content="https://iassets.debuginn.com/assets/local/20260607h41bVQ.png" />
+    <meta property="og:image:alt" content="iAssets - Tài sản của bạn, trong một góc nhìn rõ ràng. social preview" />
+    <meta property="og:url" content="https://iassets.debuginn.com/vi/" />
+    <meta property="og:locale" content="vi_VN" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="iAssets - Tài sản của bạn, trong một góc nhìn rõ ràng." />
+    <meta name="twitter:description" content="Đưa tài khoản, khoản đầu tư và nợ phải trả vào một góc nhìn. Ghi lại thay đổi, hỏi AI về tài chính và quản lý sổ chung với gia đình." />
+    <meta name="twitter:image" content="https://iassets.debuginn.com/assets/local/20260607h41bVQ.png" />
+    <meta name="twitter:image:alt" content="iAssets - Tài sản của bạn, trong một góc nhìn rõ ràng. social preview" /><link rel="canonical" href="https://iassets.debuginn.com/vi/" /><link rel="alternate" hreflang="x-default" href="https://iassets.debuginn.com/" /><link rel="alternate" hreflang="en" href="https://iassets.debuginn.com/" /><link rel="alternate" hreflang="zh-CN" href="https://iassets.debuginn.com/zh/" /><link rel="alternate" hreflang="zh-TW" href="https://iassets.debuginn.com/zh-hant/" /><link rel="alternate" hreflang="ja" href="https://iassets.debuginn.com/ja/" /><link rel="alternate" hreflang="ko" href="https://iassets.debuginn.com/ko/" /><link rel="alternate" hreflang="th" href="https://iassets.debuginn.com/th/" /><link rel="alternate" hreflang="vi" href="https://iassets.debuginn.com/vi/" /><link rel="alternate" hreflang="ms" href="https://iassets.debuginn.com/ms/" /><link rel="alternate" hreflang="de" href="https://iassets.debuginn.com/de/" /><link rel="alternate" hreflang="fr" href="https://iassets.debuginn.com/fr/" /><link rel="alternate" hreflang="it" href="https://iassets.debuginn.com/it/" /><link rel="alternate" hreflang="es" href="https://iassets.debuginn.com/es/" /><link rel="alternate" hreflang="nl" href="https://iassets.debuginn.com/nl/" /><link rel="alternate" hreflang="pt-BR" href="https://iassets.debuginn.com/pt-br/" /><link rel="alternate" hreflang="ar" href="https://iassets.debuginn.com/ar/" /><link rel="alternate" hreflang="id" href="https://iassets.debuginn.com/id/" /><link rel="alternate" hreflang="hi" href="https://iassets.debuginn.com/hi/" /><link rel="alternate" hreflang="tr" href="https://iassets.debuginn.com/tr/" /><link rel="alternate" hreflang="pl" href="https://iassets.debuginn.com/pl/" /><link rel="alternate" hreflang="sv" href="https://iassets.debuginn.com/sv/" /><link rel="alternate" hreflang="da" href="https://iassets.debuginn.com/da/" /><link rel="alternate" hreflang="nb" href="https://iassets.debuginn.com/nb/" /><link rel="alternate" hreflang="fi" href="https://iassets.debuginn.com/fi/" /><link rel="alternate" hreflang="cs" href="https://iassets.debuginn.com/cs/" /><link rel="alternate" hreflang="ro" href="https://iassets.debuginn.com/ro/" /><link rel="alternate" hreflang="ru" href="https://iassets.debuginn.com/ru/" /><link rel="alternate" hreflang="uk" href="https://iassets.debuginn.com/uk/" /><link rel="alternate" hreflang="hu" href="https://iassets.debuginn.com/hu/" /><link rel="alternate" hreflang="el" href="https://iassets.debuginn.com/el/" /><link rel="alternate" hreflang="pt-PT" href="https://iassets.debuginn.com/pt-pt/" /><link rel="alternate" hreflang="he" href="https://iassets.debuginn.com/he/" />
+    <link rel="alternate" type="text/plain" href="https://iassets.debuginn.com/llms.txt" />
+    <link rel="icon" type="image/png" href="/assets/local/20260607h41bVQ.png" />
+    <link rel="shortcut icon" href="/assets/local/20260607h41bVQ.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" media="print" onload="this.media='all'" />
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" /></noscript>
+    <script>
+      (function () {
+        var themeKey = "ia_theme_pref";
+        var pref = "auto";
+        try {
+          var stored = window.localStorage ? window.localStorage.getItem(themeKey) : null;
+          if (stored === "dark" || stored === "light" || stored === "auto") pref = stored;
+        } catch (_) {}
+        var resolved = pref;
+        if (pref === "auto") {
+          resolved = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.setAttribute("data-theme", resolved);
+        var icon = document.getElementById("site-favicon");
+        if (icon) {
+          var darkIcon = icon.getAttribute("data-icon-dark");
+          var lightIcon = icon.getAttribute("data-icon-light");
+          if (darkIcon && lightIcon) {
+            var iconHref = resolved === "dark" ? darkIcon : lightIcon;
+            icon.setAttribute("href", iconHref);
+            var shortcut = document.querySelector('link[rel="shortcut icon"]');
+            if (shortcut) shortcut.setAttribute("href", iconHref);
+          }
+        }
+      })();
+    </script>
+    <script>
+      window.__IA_RUNTIME__ = {"pathLangMap":{"ar":"ar","cs":"cs","da":"da","de":"de","el":"el","en":"en","es":"es","fi":"fi","fr":"fr","he":"he","he-il":"he","hi":"hi","hu":"hu","id":"id","it":"it","iw":"he","ja":"ja","ko":"ko","ms":"ms","nb":"nb","nb-no":"nb","nl":"nl","no":"nb","pl":"pl","pt":"pt-BR","pt-br":"pt-BR","pt-pt":"pt-PT","ro":"ro","ru":"ru","sv":"sv","th":"th","tr":"tr","uk":"uk","vi":"vi","zh":"zh-Hans","zh-cn":"zh-Hans","zh-hans":"zh-Hans","zh-hant":"zh-Hant","zh-hk":"zh-Hant","zh-mo":"zh-Hant","zh-sg":"zh-Hant","zh-tw":"zh-Hant"},"routeMap":{"ar":"/ar/","cs":"/cs/","da":"/da/","de":"/de/","el":"/el/","en":"/","es":"/es/","fi":"/fi/","fr":"/fr/","he":"/he/","hi":"/hi/","hu":"/hu/","id":"/id/","it":"/it/","ja":"/ja/","ko":"/ko/","ms":"/ms/","nb":"/nb/","nl":"/nl/","pl":"/pl/","pt-BR":"/pt-br/","pt-PT":"/pt-pt/","ro":"/ro/","ru":"/ru/","sv":"/sv/","th":"/th/","tr":"/tr/","uk":"/uk/","vi":"/vi/","zh-Hans":"/zh/","zh-Hant":"/zh-hant/"},"supportedLangs":["en","zh-Hans","zh-Hant","ja","ko","th","vi","ms","de","fr","it","es","nl","pt-BR","ar","id","hi","tr","pl","sv","da","nb","fi","cs","ro","ru","uk","hu","el","pt-PT","he"]};
+    </script>
+    <script>
+      (function () {
+        var userLangKey = "ia_lang_user";
+        var defaultLang = "en";
+        var runtime = window.__IA_RUNTIME__ || {};
+        var routeMap = runtime.routeMap || {};
+        var pathLangMap = runtime.pathLangMap || {};
+
+        function normalizeLang(input) {
+          if (!input) return null;
+          var value = input.toLowerCase().replace("_", "-");
+          return pathLangMap[value] || null;
+        }
+
+        function browserLang() {
+          var langs = Array.isArray(navigator.languages) && navigator.languages.length
+            ? navigator.languages
+            : [navigator.language || "en"];
+          for (var i = 0; i < langs.length; i += 1) {
+            var raw = (langs[i] || "").toLowerCase();
+            var mapped = normalizeLang(raw);
+            if (mapped) return mapped;
+            if (raw.indexOf("zh-tw") === 0 || raw.indexOf("zh-hk") === 0 || raw.indexOf("zh-mo") === 0 || raw.indexOf("zh-sg") === 0) return "zh-Hant";
+            if (raw.indexOf("zh") === 0 && raw.indexOf("hant") >= 0) return "zh-Hant";
+            if (raw.indexOf("zh") === 0) return "zh-Hans";
+            if (raw.indexOf("ja") === 0) return "ja";
+            if (raw.indexOf("ko") === 0) return "ko";
+            if (raw.indexOf("en") === 0) return "en";
+          }
+          return "en";
+        }
+
+        function preferredLang() {
+          try {
+            var stored = window.localStorage ? window.localStorage.getItem(userLangKey) : null;
+            if (stored && routeMap[stored]) return stored;
+          } catch (_) {}
+          return browserLang();
+        }
+
+        var pathname = window.location.pathname;
+        var segments = pathname.split("/").filter(Boolean);
+        var first = segments[0] || "";
+        var explicitLang = normalizeLang(first);
+        if (explicitLang) {
+          return;
+        }
+
+        var preferred = preferredLang();
+        if (!preferred || preferred === defaultLang) {
+          return;
+        }
+
+        var targetBase = routeMap[preferred];
+        if (!targetBase) {
+          return;
+        }
+
+        var targetPath = pathname;
+        if (pathname === "/") {
+          targetPath = targetBase;
+        } else if (pathname === "/privacy/" || pathname === "/terms/") {
+          targetPath = targetBase.replace(/\/$/, "") + pathname;
+        } else {
+          return;
+        }
+
+        if (targetPath && targetPath !== pathname) {
+          document.documentElement.setAttribute("data-lang-pending", "1");
+          window.location.replace(targetPath + window.location.search + window.location.hash);
+        }
+      })();
+    </script>
+    <link rel="stylesheet" href="/styles.css?v=v20261103-lang-chrome" />
+    <script type="application/ld+json" id="seo-jsonld">{"@context":"https://schema.org","@type":"MobileApplication","applicationCategory":"FinanceApplication","description":"Đưa tài khoản, khoản đầu tư và nợ phải trả vào một góc nhìn. Ghi lại thay đổi, hỏi AI về tài chính và quản lý sổ chung với gia đình.","image":"https://iassets.debuginn.com/assets/local/20260607h41bVQ.png","inLanguage":"vi","installUrl":"https://apps.apple.com/vn/app/%E7%9F%A5%E7%9B%88/id6759790991","name":"iAssets","operatingSystem":"iOS","screenshot":["https://iassets.debuginn.com/assets/screenshots/1.0.9/vi/home.f45d3470ab97.webp","https://iassets.debuginn.com/assets/screenshots/1.0.9/vi/markets.785e14bfc682.webp","https://iassets.debuginn.com/assets/screenshots/1.0.9/vi/assets.913b28e33b7f.webp","https://iassets.debuginn.com/assets/screenshots/1.0.9/vi/ai.40ee17020cf2.webp","https://iassets.debuginn.com/assets/screenshots/1.0.9/vi/family.9aa229f3a1f1.webp"],"url":"https://iassets.debuginn.com/vi/"}</script>
+  </head>
+  <body data-contact-email="idebuginn@gmail.com" data-wechat-qr="/assets/local/20260607OpjNs1.jpg">
+    <header class="topbar">
+      <div class="container nav-shell">
+        <nav class="top-pill">
+          <div class="pill-left">
+            <a class="logo" href="/vi/">
+              <img class="logo-mark" src="/assets/local/20260607h41bVQ.png" alt="iAssets logo" width="40" height="40" decoding="async" fetchpriority="high" />
+              <span data-i18n="brand">iAssets</span>
+            </a>
+            <div class="desktop-nav"><a href="/vi/#features" data-i18n="navFeatures">Tính năng</a><a href="/vi/#pricing-compare" data-i18n="navPricing">Giá</a><a href="/vi/#faqs" data-i18n="navFaq">Câu hỏi</a><a href="https://blog.debuginn.com/categories/iassets/" data-i18n="navBlog" target="_blank" rel="noopener noreferrer">Blog</a>
+            </div>
+          </div>
+          <div class="pill-right">
+            <button class="mode-btn" type="button" aria-label="Switch theme">◐</button>
+            <button class="menu-btn" type="button" aria-label="Open menu" aria-controls="mobile-menu" aria-expanded="false">☰</button>
+            <a class="btn btn-solid header-download-btn" href="/vi/#download" aria-label="Download">
+              <span class="header-download-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M16.1 12.7c0-2.3 1.9-3.4 2-3.5-1.1-1.6-2.8-1.8-3.4-1.8-1.4-.1-2.7.8-3.4.8s-1.9-.8-3.1-.7c-1.6 0-3 .9-3.9 2.3-1.7 3-.4 7.3 1.2 9.6.8 1.1 1.8 2.3 3.1 2.3 1.2 0 1.7-.8 3.1-.8s1.8.8 3.1.8c1.3 0 2.1-1.1 2.9-2.2.9-1.3 1.3-2.6 1.4-2.7 0 0-2-.8-2-4.1z"></path>
+                  <path d="M14 5.9c.7-.8 1.2-1.8 1.1-2.9-1 .1-2.1.7-2.9 1.5-.7.8-1.2 1.8-1.1 2.8 1 .1 2.1-.5 2.9-1.4z"></path>
+                </svg>
+              </span>
+              <span data-i18n="navDownload">Tải xuống</span>
+            </a>
+            <div class="header-lang-dropdown">
+              <button class="header-lang-trigger" type="button" aria-label="Switch language" aria-haspopup="listbox" aria-expanded="false">
+                <span class="header-lang-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="9"></circle>
+                    <path d="M3 12h18"></path>
+                    <path d="M12 3c2.6 2.4 4 5.6 4 9s-1.4 6.6-4 9c-2.6-2.4-4-5.6-4-9s1.4-6.6 4-9z"></path>
+                  </svg>
+                </span>
+                <span class="header-lang-current">Tiếng Việt</span>
+              </button>
+              <div class="header-lang-menu" role="listbox" aria-label="Language options"><a href="/" data-lang-option="en">English</a><a href="/zh/" data-lang-option="zh-Hans">中文简体</a><a href="/zh-hant/" data-lang-option="zh-Hant">中文繁體</a><a href="/ja/" data-lang-option="ja">日本語</a><a href="/ko/" data-lang-option="ko">한국어</a><a href="/th/" data-lang-option="th">ไทย</a><a href="/vi/" data-lang-option="vi">Tiếng Việt</a><a href="/ms/" data-lang-option="ms">Bahasa Melayu</a><a href="/de/" data-lang-option="de">Deutsch</a><a href="/fr/" data-lang-option="fr">Français</a><a href="/it/" data-lang-option="it">Italiano</a><a href="/es/" data-lang-option="es">Español</a><a href="/nl/" data-lang-option="nl">Nederlands</a><a href="/pt-br/" data-lang-option="pt-BR">Português (Brasil)</a><a href="/ar/" data-lang-option="ar">العربية</a><a href="/id/" data-lang-option="id">Bahasa Indonesia</a><a href="/hi/" data-lang-option="hi">हिन्दी</a><a href="/tr/" data-lang-option="tr">Türkçe</a><a href="/pl/" data-lang-option="pl">Polski</a><a href="/sv/" data-lang-option="sv">Svenska</a><a href="/da/" data-lang-option="da">Dansk</a><a href="/nb/" data-lang-option="nb">Norsk bokmål</a><a href="/fi/" data-lang-option="fi">Suomi</a><a href="/cs/" data-lang-option="cs">Čeština</a><a href="/ro/" data-lang-option="ro">Română</a><a href="/ru/" data-lang-option="ru">Русский</a><a href="/uk/" data-lang-option="uk">Українська</a><a href="/hu/" data-lang-option="hu">Magyar</a><a href="/el/" data-lang-option="el">Ελληνικά</a><a href="/pt-pt/" data-lang-option="pt-PT">Português (Portugal)</a><a href="/he/" data-lang-option="he">עברית</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <nav id="mobile-menu" class="mobile-menu" aria-hidden="true"><a href="/vi/#features" data-i18n="navFeatures">Tính năng</a><a href="/vi/#pricing-compare" data-i18n="navPricing">Giá</a><a href="/vi/#faqs" data-i18n="navFaq">Câu hỏi</a><a href="https://blog.debuginn.com/categories/iassets/" data-i18n="navBlog" target="_blank" rel="noopener noreferrer">Blog</a>
+          <a href="/vi/#download" data-i18n="navDownload">Tải xuống</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+  <section class="hero section">
+    <div class="container hero-grid">
+      <div class="hero-copy"><p class="eyebrow">iAssets</p><h1>Tài sản của bạn, trong một góc nhìn rõ ràng.</h1><p class="hero-desc">Đưa tài khoản, khoản đầu tư và nợ phải trả vào một góc nhìn. Ghi lại thay đổi, hỏi AI về tài chính và quản lý sổ chung với gia đình.</p>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-stage" data-hero-fan aria-label="iAssets app screenshot"><button class="hero-stack-card hero-stack-card-1 is-active" type="button" data-hero-card data-card-index="1" aria-label="Show screenshot 1">
+            <img class="hero-shot" src="/assets/screenshots/1.0.9/vi/home.f45d3470ab97.webp" alt="Ảnh chụp màn hình 1 của APP iAssets" width="768" height="1567"  loading="eager" decoding="async" fetchpriority="high" />
+          </button><button class="hero-stack-card hero-stack-card-2" type="button" data-hero-card data-card-index="2" aria-label="Show screenshot 2">
+            <img class="hero-shot" src="/assets/screenshots/1.0.9/vi/markets.785e14bfc682.webp" alt="" width="768" height="1567" aria-hidden="true" loading="lazy" decoding="async"  />
+          </button><button class="hero-stack-card hero-stack-card-3" type="button" data-hero-card data-card-index="3" aria-label="Show screenshot 3">
+            <img class="hero-shot" src="/assets/screenshots/1.0.9/vi/assets.913b28e33b7f.webp" alt="" width="768" height="1567" aria-hidden="true" loading="lazy" decoding="async"  />
+          </button><button class="hero-stack-card hero-stack-card-4" type="button" data-hero-card data-card-index="4" aria-label="Show screenshot 4">
+            <img class="hero-shot" src="/assets/screenshots/1.0.9/vi/ai.40ee17020cf2.webp" alt="" width="768" height="1567" aria-hidden="true" loading="lazy" decoding="async"  />
+          </button><button class="hero-stack-card hero-stack-card-5" type="button" data-hero-card data-card-index="5" aria-label="Show screenshot 5">
+            <img class="hero-shot" src="/assets/screenshots/1.0.9/vi/family.9aa229f3a1f1.webp" alt="" width="768" height="1567" aria-hidden="true" loading="lazy" decoding="async"  />
+          </button>
+          <button class="hero-slot-hit hero-slot-hit-left-near" type="button" data-hero-slot="1" aria-label="Show left screenshot"></button>
+          <button class="hero-slot-hit hero-slot-hit-right-near" type="button" data-hero-slot="2" aria-label="Show right screenshot"></button>
+          <button class="hero-slot-hit hero-slot-hit-left-far" type="button" data-hero-slot="3" aria-label="Show far left screenshot"></button>
+          <button class="hero-slot-hit hero-slot-hit-right-far" type="button" data-hero-slot="4" aria-label="Show far right screenshot"></button>
+        </div>
+      </div>
+      <div class="hero-mini-cards">
+        
+        <article class="mini-card">
+          <div class="mini-top"><span><svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h16"></path><path d="M12 4v16"></path><circle cx="12" cy="12" r="8"></circle></svg></span><strong>01</strong></div>
+          <h3>Xem bảng cân đối</h3>
+          <p>Tài sản, giá trị ròng và nợ phải trả trong một cái nhìn.</p>
+        </article>
+        
+        <article class="mini-card">
+          <div class="mini-top"><span><svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="6" width="7" height="12" rx="1.8"></rect><rect x="13" y="6" width="7" height="12" rx="1.8"></rect></svg></span><strong>02</strong></div>
+          <h3>Quản lý tiền cùng nhau</h3>
+          <p>Giữ sổ cá nhân riêng và chia sẻ sổ gia đình.</p>
+        </article>
+        
+        <article class="mini-card">
+          <div class="mini-top"><span><svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="10.5" cy="10.5" r="5.5"></circle><path d="M14.5 14.5L19 19"></path></svg></span><strong>03</strong></div>
+          <h3>Hỏi về tài sản của bạn</h3>
+          <p>Tìm tài khoản, xem lại thay đổi và nhận bản tóm tắt.</p>
+        </article>
+        
+      </div>
+    </div>
+  </section>
+  <section id="features" class="section" data-img-chain="1">
+    <div class="container"><p class="eyebrow">Tính năng</p><h2 class="section-title">Từ tài khoản cá nhân đến bảng cân đối gia đình.</h2><p class="section-desc">Theo dõi, định giá, xem lại và cộng tác trong một APP. AI và chia sẻ gia đình tiếp tục phát triển; khả năng dùng theo phiên bản APP của bạn.</p>
+      <div class="features-layout">
+        <div class="feature-list">
+          
+          <article class="feature-item">
+            <div class="mini-top"><span><svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h16"></path><path d="M12 4v16"></path><circle cx="12" cy="12" r="8"></circle></svg></span><strong>01</strong></div>
+            <h3>Tài sản và giá trị ròng</h3>
+            <p>Hiểu phân bổ tài sản, quyền sở hữu và mức phơi nhiễm tiền tệ trong một góc nhìn.</p>
+          </article>
+          
+          <article class="feature-item">
+            <div class="mini-top"><span><svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 16l5-5 3 3 8-8"></path><path d="M14 6h6v6"></path></svg></span><strong>02</strong></div>
+            <h3>Đầu tư và báo giá</h3>
+            <p>Theo dõi cổ phiếu, quỹ, ETF, kim loại quý và tiền mã hóa với các định giá thị trường hiện có.</p>
+          </article>
+          
+          <article class="feature-item">
+            <div class="mini-top"><span><svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 7h12"></path><path d="M6 12h8"></path><path d="M6 17h5"></path><circle cx="18" cy="12" r="2"></circle></svg></span><strong>03</strong></div>
+            <h3>Nhìn rõ các khoản nợ</h3>
+            <p>Gom thẻ tín dụng, khoản vay và các khoản phải trả khác vào một thẻ nợ riêng.</p>
+          </article>
+          
+          <article class="feature-item">
+            <div class="mini-top"><span><svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="5" width="7" height="14" rx="1.8"></rect><rect x="13" y="5" width="7" height="14" rx="1.8"></rect></svg></span><strong>04</strong></div>
+            <h3>Nhiều sổ, tự do sắp xếp</h3>
+            <p>Tạo sổ cá nhân, gia đình hoặc mục tiêu và gán tài khoản cho chủ sở hữu.</p>
+          </article>
+          
+          <article class="feature-item">
+            <div class="mini-top"><span><svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="8" cy="10" r="2.6"></circle><circle cx="16" cy="10.5" r="2.2"></circle><path d="M3.8 17.2c.7-2.2 2.4-3.4 4.2-3.4s3.5 1.2 4.2 3.4"></path><path d="M13.2 16.8c.5-1.7 1.8-2.6 3.2-2.6s2.7.9 3.2 2.6"></path></svg></span><strong>05</strong></div>
+            <h3>Một sổ gia đình dùng chung</h3>
+            <p>Mời gia đình qua iCloud để xem hoặc quản lý tài khoản và thay đổi theo quyền được cấp.</p>
+          </article>
+          
+          <article class="feature-item">
+            <div class="mini-top"><span><svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="10.5" cy="10.5" r="5.5"></circle><path d="M14.5 14.5L19 19"></path></svg></span><strong>06</strong></div>
+            <h3>Trợ lý tài sản bằng AI</h3>
+            <p>Hỏi bằng chữ hoặc giọng nói để tìm tài khoản, xem các thay đổi lớn hoặc tóm tắt tài chính. Xác nhận sửa dữ liệu trước khi chạy.</p>
+          </article>
+          
+        </div><aside class="feature-showcase"><figure class="showbox big">
+            <img src="/assets/screenshots/1.0.9/vi/insights.72a7d73aa807.webp" alt="Ảnh chính của khu trưng bày tính năng iAssets" width="768" height="1567" loading="lazy" decoding="async" />
+          </figure><figure class="showbox mid">
+            <img src="/assets/screenshots/1.0.9/vi/history.8559b1b28423.webp" alt="Ảnh phụ của khu trưng bày tính năng iAssets" width="768" height="1567" loading="lazy" decoding="async" />
+          </figure><figure class="showbox small">
+            <img src="/assets/screenshots/1.0.9/vi/family.9aa229f3a1f1.webp" alt="Ảnh hỗ trợ của khu trưng bày tính năng iAssets" width="768" height="1567" loading="lazy" decoding="async" />
+          </figure>
+        </aside></div>
+    </div>
+  </section>
+  <section class="section" data-img-chain="2">
+    <div class="container"><p class="eyebrow">Theo dõi hằng ngày</p><h2 class="section-title">Giữ bản ghi hằng ngày. Hiểu thay đổi dài hạn.</h2><p class="section-desc">Từ điều chỉnh số dư đến xem lại hàng tháng, giữ lịch sử và các góc nhìn bạn cần.</p>
+      <div class="detail-grid">
+        
+        <article class="detail-card"><div class="detail-icon" aria-hidden="true"><svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 8h14"></path><path d="M5 12h14"></path><path d="M5 16h9"></path><circle cx="17.5" cy="16" r="1.8"></circle></svg></div><h3>Lịch sử và lịch</h3><p>Xem thay đổi tài khoản theo ngày, kèm xu hướng và lịch để có bối cảnh.</p></article>
+        
+        <article class="detail-card"><div class="detail-icon" aria-hidden="true"><svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 8h10"></path><path d="M11 5l3 3-3 3"></path><path d="M20 16H10"></path><path d="M13 13l-3 3 3 3"></path></svg></div><h3>Tổng theo nhiều tiền tệ</h3><p>Giữ mỗi tài khoản ở tiền tệ gốc và xem tổng theo tiền tệ cơ sở bạn chọn.</p></article>
+        
+        <article class="detail-card"><div class="detail-icon" aria-hidden="true"><svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="7.5"></circle><circle cx="12" cy="12" r="3.2"></circle></svg></div><h3>Mục tiêu và tiến độ</h3><p>Đặt mục tiêu tài sản và xem tiến độ cùng số tiền còn thiếu.</p></article>
+        
+        <article class="detail-card"><div class="detail-icon" aria-hidden="true"><svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h16"></path><path d="M4 12h16"></path><path d="M4 17h16"></path><circle cx="8" cy="7" r="1.8"></circle><circle cx="15" cy="12" r="1.8"></circle><circle cx="11" cy="17" r="1.8"></circle></svg></div><h3>Bảng điều khiển hợp với bạn</h3><p>Chọn thứ tự và mức hiển thị thẻ, với biểu đồ vành khuyên hoặc tròn cho phân bổ.</p></article>
+        
+        <article class="detail-card"><div class="detail-icon" aria-hidden="true"><svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="5.5" y="10.2" width="13" height="9" rx="2"></rect><path d="M8.2 10.2V7.8a3.8 3.8 0 0 1 7.6 0v2.4"></path></svg></div><h3>Quyền riêng tư và kiểm soát truy cập</h3><p>Dùng mã, sinh trắc học và khóa tự động. Yêu cầu AI đi tới dịch vụ mô hình bạn cấu hình.</p></article>
+        
+        <article class="detail-card"><div class="detail-icon" aria-hidden="true"><svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="5" width="7" height="14" rx="1.8"></rect><rect x="13" y="5" width="7" height="14" rx="1.8"></rect></svg></div><h3>Đồng bộ và sao lưu</h3><p>Bản ghi hằng ngày ở trên máy. Pro thêm đồng bộ iCloud và sao lưu đám mây tùy chọn.</p></article>
+        
+      </div>
+    </div>
+  </section><section id="download" class="section" data-img-chain="3">
+    <div class="container">
+      <div class="cta-box">
+        <div class="cta-content"><p class="eyebrow">Tải xuống</p><h2>Bắt đầu ngay</h2><p>Cài iAssets và xây hệ thống tài sản gia đình.</p>
+          <a class="btn appstore-code-btn appstore-code-btn-lg" href="https://apps.apple.com/vn/app/%E7%9F%A5%E7%9B%88/id6759790991" target="_blank" rel="noopener noreferrer" aria-label="Download on the App Store"><span class="appstore-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M16.1 12.7c0-2.3 1.9-3.4 2-3.5-1.1-1.6-2.8-1.8-3.4-1.8-1.4-.1-2.7.8-3.4.8s-1.9-.8-3.1-.7c-1.6 0-3 .9-3.9 2.3-1.7 3-.4 7.3 1.2 9.6.8 1.1 1.8 2.3 3.1 2.3 1.2 0 1.7-.8 3.1-.8s1.8.8 3.1.8c1.3 0 2.1-1.1 2.9-2.2.9-1.3 1.3-2.6 1.4-2.7 0 0-2-.8-2-4.1z"></path><path d="M14 5.9c.7-.8 1.2-1.8 1.1-2.9-1 .1-2.1.7-2.9 1.5-.7.8-1.2 1.8-1.1 2.8 1 .1 2.1-.5 2.9-1.4z"></path></svg></span><span class="appstore-text"><span class="appstore-overline">Tải trên</span><span class="appstore-title">App Store</span></span></a>
+        </div>
+        <div class="cta-mosaic" aria-hidden="true">
+          <div
+            class="cta-mosaic-stage"
+            style="--cta-stage-columns: 4; --cta-stage-width: 142%; --cta-stage-height: 274%; --cta-stage-width-mobile: 154%; --cta-stage-height-mobile: 254%; --cta-stage-gap: 14px; --cta-stage-gap-mobile: 12px; --cta-stage-rotation: -16deg;"
+          ><div class="cta-mosaic-column">
+              <div class="cta-mosaic-column-track" style="--cta-column-duration: 68s; --cta-column-delay: 0s; --cta-column-direction: normal;"><figure class="cta-mosaic-card"><img data-src="/assets/screenshots/1.0.9/vi/home.f45d3470ab97.webp" alt="" width="768" height="1567" decoding="async" /></figure><figure class="cta-mosaic-card"><img data-src="/assets/screenshots/1.0.9/vi/assets.913b28e33b7f.webp" alt="" width="768" height="1567" decoding="async" /></figure><figure class="cta-mosaic-card"><img data-src="/assets/screenshots/1.0.9/vi/markets.785e14bfc682.webp" alt="" width="768" height="1567" decoding="async" /></figure><figure class="cta-mosaic-card"><img data-src="/assets/screenshots/1.0.9/vi/ai.40ee17020cf2.webp" alt="" width="768" height="1567" decoding="async" /></figure><figure class="cta-mosaic-card"><img data-src="/assets/screenshots/1.0.9/vi/family.9aa229f3a1f1.webp" alt="" width="768" height="1567" decoding="async" /></figure><figure class="cta-mosaic-card"><img data-src="/assets/screenshots/1.0.9/vi/home.f45d3470ab97.webp" alt="" width="768" height="1567" decoding="async" /></figure><figure class="cta-mosaic-card"><img data-src="/assets/screenshots/1.0.9/vi/assets.913b28e33b7f.webp" alt="" width="768" height="1567" decoding="async" /></figure><figure class="cta-mosaic-card"><img data-src="/assets/screenshots/1.0.9/vi/markets.785e14bfc682.webp" alt="" width="768" height="1567" decoding="async" /></figure><figure class="cta-mosaic-card"><img data-src="/assets/screenshots/1.0.9/vi/ai.40ee17020cf2.webp" alt="" width="768" height="1567" decoding="async" /></figure><figure class="cta-mosaic-card"><img data-src="/assets/screenshots/1.0.9/vi/family.9aa229f3a1f1.webp" alt="" width="768" height="1567" decoding="async" /></figure>
+              </div>
+            </div><div class="cta-mosaic-column">
+              <div class="cta-mosaic-column-track" style="--cta-column-duration: 76s; --cta-column-delay: -3s; --cta-column-direction: reverse;"><figure class="cta-mosaic-card"><img data-src="/assets/screenshots/1.0.9/vi/home.f45d3470ab97.webp" alt="" width="768" height="1567" decoding="async" /></figure><figure class="cta-mosaic-card"><img data-src="/assets/screenshots/1.0.9/vi/assets.913b28e33b7f.webp" alt="" width="768" height="1567" decoding="async" /></figure><figure class="cta-mosaic-card"><img data-src="/assets/screenshots/1.0.9/vi/markets.785e14bfc682.webp" alt="" width="768" height="1567" decoding="async" /></figure><figure class="cta-mosaic-card"><img data-src="/assets/screenshots/1.0.9/vi/ai.40ee17020cf2.webp" alt="" width="768" height="1567" decoding="async" /></figure><figure class="cta-mosaic-card"><img data-src="/assets/screenshots/1.0.9/vi/family.9aa229f3a1f1.webp" alt="" width="768" height="1567" decoding="async" /></figure><figure class="cta-mosaic-card"><img data-src="/assets/screenshots/1.0.9/vi/home.f45d3470ab97.webp" alt="" width="768" height="1567" decoding="async" /></figure><figure class="cta-mosaic-card"><img data-src="/assets/screenshots/1.0.9/vi/assets.913b28e33b7f.webp" alt="" width="768" height="1567" decoding="async" /></figure><figure class="cta-mosaic-card"><img data-src="/assets/screenshots/1.0.9/vi/markets.785e14bfc682.webp" alt="" width="768" height="1567" decoding="async" /></figure><figure class="cta-mosaic-card"><img data-src="/assets/screenshots/1.0.9/vi/ai.40ee17020cf2.webp" alt="" width="768" height="1567" decoding="async" /></figure><figure class="cta-mosaic-card"><img data-src="/assets/screenshots/1.0.9/vi/family.9aa229f3a1f1.webp" alt="" width="768" height="1567" decoding="async" /></figure>
+              </div>
+            </div><div class="cta-mosaic-column">
+              <div class="cta-mosaic-column-track" style="--cta-column-duration: 72s; --cta-column-delay: -8s; --cta-column-direction: normal;"><figure class="cta-mosaic-card"><img data-src="/assets/screenshots/1.0.9/vi/home.f45d3470ab97.webp" alt="" width="768" height="1567" decoding="async" /></figure><figure class="cta-mosaic-card"><img data-src="/assets/screenshots/1.0.9/vi/assets.913b28e33b7f.webp" alt="" width="768" height="1567" decoding="async" /></figure><figure class="cta-mosaic-card"><img data-src="/assets/screenshots/1.0.9/vi/markets.785e14bfc682.webp" alt="" width="768" height="1567" decoding="async" /></figure><figure class="cta-mosaic-card"><img data-src="/assets/screenshots/1.0.9/vi/ai.40ee17020cf2.webp" alt="" width="768" height="1567" decoding="async" /></figure><figure class="cta-mosaic-card"><img data-src="/assets/screenshots/1.0.9/vi/family.9aa229f3a1f1.webp" alt="" width="768" height="1567" decoding="async" /></figure><figure class="cta-mosaic-card"><img data-src="/assets/screenshots/1.0.9/vi/home.f45d3470ab97.webp" alt="" width="768" height="1567" decoding="async" /></figure><figure class="cta-mosaic-card"><img data-src="/assets/screenshots/1.0.9/vi/assets.913b28e33b7f.webp" alt="" width="768" height="1567" decoding="async" /></figure><figure class="cta-mosaic-card"><img data-src="/assets/screenshots/1.0.9/vi/markets.785e14bfc682.webp" alt="" width="768" height="1567" decoding="async" /></figure><figure class="cta-mosaic-card"><img data-src="/assets/screenshots/1.0.9/vi/ai.40ee17020cf2.webp" alt="" width="768" height="1567" decoding="async" /></figure><figure class="cta-mosaic-card"><img data-src="/assets/screenshots/1.0.9/vi/family.9aa229f3a1f1.webp" alt="" width="768" height="1567" decoding="async" /></figure>
+              </div>
+            </div><div class="cta-mosaic-column">
+              <div class="cta-mosaic-column-track" style="--cta-column-duration: 80s; --cta-column-delay: -6s; --cta-column-direction: reverse;"><figure class="cta-mosaic-card"><img data-src="/assets/screenshots/1.0.9/vi/home.f45d3470ab97.webp" alt="" width="768" height="1567" decoding="async" /></figure><figure class="cta-mosaic-card"><img data-src="/assets/screenshots/1.0.9/vi/assets.913b28e33b7f.webp" alt="" width="768" height="1567" decoding="async" /></figure><figure class="cta-mosaic-card"><img data-src="/assets/screenshots/1.0.9/vi/markets.785e14bfc682.webp" alt="" width="768" height="1567" decoding="async" /></figure><figure class="cta-mosaic-card"><img data-src="/assets/screenshots/1.0.9/vi/ai.40ee17020cf2.webp" alt="" width="768" height="1567" decoding="async" /></figure><figure class="cta-mosaic-card"><img data-src="/assets/screenshots/1.0.9/vi/family.9aa229f3a1f1.webp" alt="" width="768" height="1567" decoding="async" /></figure><figure class="cta-mosaic-card"><img data-src="/assets/screenshots/1.0.9/vi/home.f45d3470ab97.webp" alt="" width="768" height="1567" decoding="async" /></figure><figure class="cta-mosaic-card"><img data-src="/assets/screenshots/1.0.9/vi/assets.913b28e33b7f.webp" alt="" width="768" height="1567" decoding="async" /></figure><figure class="cta-mosaic-card"><img data-src="/assets/screenshots/1.0.9/vi/markets.785e14bfc682.webp" alt="" width="768" height="1567" decoding="async" /></figure><figure class="cta-mosaic-card"><img data-src="/assets/screenshots/1.0.9/vi/ai.40ee17020cf2.webp" alt="" width="768" height="1567" decoding="async" /></figure><figure class="cta-mosaic-card"><img data-src="/assets/screenshots/1.0.9/vi/family.9aa229f3a1f1.webp" alt="" width="768" height="1567" decoding="async" /></figure>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section><section id="pricing-compare" class="section pricing-compare-section" data-img-chain="7">
+    <div class="container"><p class="eyebrow">Giá</p><h2 class="section-title">Bắt đầu miễn phí. Chọn Pro khi bạn cần thêm.</h2><p class="section-desc">Nhiều sổ và quản lý thành viên gia đình là miễn phí. Chọn Pro theo năm hoặc trọn đời để có đồng bộ iCloud, sổ gia đình dùng chung và dữ liệu thị trường.</p>
+      <div class="pc-compare" data-pc-tabs>
+  <div class="pc-desktop" style="--pc-plans: 3; --pc-featured: 1;">
+    <div class="pc-elev" aria-hidden="true"></div>
+    <table class="pc-table"><caption class="pc-sr">Bắt đầu miễn phí. Chọn Pro khi bạn cần thêm.</caption>
+      <colgroup>
+        <col class="pc-col-label" /><col /><col /><col />
+      </colgroup>
+      <thead>
+        <tr>
+          <th scope="col" class="pc-corner"><span class="pc-sr">Feature</span></th>
+          <th scope="col" class="pc-head" data-pc-col="0">
+            <div class="pc-head-inner">
+              <div class="pc-badge-slot"></div>
+              <div class="pc-name">Miễn phí</div>
+              <div class="pc-price"><span class="pc-currency">$</span>0</div><div class="pc-period">Quản lý tài khoản, nhiều sổ và thành viên gia đình.</div>
+              <div class="pc-cta-slot"><a class="pc-btn" href="#download">Bắt đầu</a>
+              </div>
+            </div>
+          </th>
+          <th scope="col" class="pc-head is-featured" data-pc-col="1">
+            <div class="pc-head-inner">
+              <div class="pc-badge-slot"><span class="pc-badge">Phổ biến</span></div>
+              <div class="pc-name">Pro theo năm</div>
+              <div class="pc-price"><span class="pc-currency">$</span>1.49</div><div class="pc-period">/năm</div><div class="pc-period">Trả theo năm để hỗ trợ phần mềm phát triển lành mạnh.</div>
+              <div class="pc-cta-slot"><a class="pc-btn is-solid" href="https://apps.apple.com/vn/app/%E7%9F%A5%E7%9B%88/id6759790991" target="_blank" rel="noopener noreferrer">Đăng ký theo năm</a>
+              </div>
+            </div>
+          </th>
+          <th scope="col" class="pc-head" data-pc-col="2">
+            <div class="pc-head-inner">
+              <div class="pc-badge-slot"><span class="pc-badge">Giá trị nhất</span></div>
+              <div class="pc-name">Pro trọn đời</div>
+              <div class="pc-price"><span class="pc-currency">$</span>9.99</div><div class="pc-period">Mua một lần, cập nhật trọn đời.</div>
+              <div class="pc-cta-slot"><a class="pc-btn is-solid" href="https://apps.apple.com/vn/app/%E7%9F%A5%E7%9B%88/id6759790991" target="_blank" rel="noopener noreferrer">Mua trọn đời</a>
+              </div>
+            </div>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">Theo dõi tài sản đa tiền tệ</th><td data-pc-col="0"><span class="pc-yes" role="img" aria-label="Yes">✓</span></td><td data-pc-col="1" class="is-featured"><span class="pc-yes" role="img" aria-label="Yes">✓</span></td><td data-pc-col="2"><span class="pc-yes" role="img" aria-label="Yes">✓</span></td>
+        </tr>
+        <tr>
+          <th scope="row">Sổ tài khoản</th><td data-pc-col="0"><span class="pc-limit">Không giới hạn</span></td><td data-pc-col="1" class="is-featured"><span class="pc-limit pc-strong">Không giới hạn</span></td><td data-pc-col="2"><span class="pc-limit">Không giới hạn</span></td>
+        </tr>
+        <tr>
+          <th scope="row">Quản lý thành viên gia đình</th><td data-pc-col="0"><span class="pc-yes" role="img" aria-label="Yes">✓</span></td><td data-pc-col="1" class="is-featured"><span class="pc-yes" role="img" aria-label="Yes">✓</span></td><td data-pc-col="2"><span class="pc-yes" role="img" aria-label="Yes">✓</span></td>
+        </tr>
+        <tr>
+          <th scope="row">Trợ lý tài sản bằng AI</th><td data-pc-col="0"><span class="pc-yes" role="img" aria-label="Yes">✓</span></td><td data-pc-col="1" class="is-featured"><span class="pc-yes" role="img" aria-label="Yes">✓</span></td><td data-pc-col="2"><span class="pc-yes" role="img" aria-label="Yes">✓</span></td>
+        </tr>
+        <tr>
+          <th scope="row">Khóa bằng mã và sinh trắc học</th><td data-pc-col="0"><span class="pc-yes" role="img" aria-label="Yes">✓</span></td><td data-pc-col="1" class="is-featured"><span class="pc-yes" role="img" aria-label="Yes">✓</span></td><td data-pc-col="2"><span class="pc-yes" role="img" aria-label="Yes">✓</span></td>
+        </tr>
+        <tr>
+          <th scope="row">Mục tiêu, chuyển khoản và nhắc đến hạn</th><td data-pc-col="0"><span class="pc-yes" role="img" aria-label="Yes">✓</span></td><td data-pc-col="1" class="is-featured"><span class="pc-yes" role="img" aria-label="Yes">✓</span></td><td data-pc-col="2"><span class="pc-yes" role="img" aria-label="Yes">✓</span></td>
+        </tr>
+        <tr>
+          <th scope="row">Lịch sử thay đổi, xu hướng và lịch (có bộ lọc)</th><td data-pc-col="0"><span class="pc-yes" role="img" aria-label="Yes">✓</span></td><td data-pc-col="1" class="is-featured"><span class="pc-yes" role="img" aria-label="Yes">✓</span></td><td data-pc-col="2"><span class="pc-yes" role="img" aria-label="Yes">✓</span></td>
+        </tr>
+        <tr>
+          <th scope="row">Đồng bộ iCloud và sao lưu đám mây</th><td data-pc-col="0"><span class="pc-no" role="img" aria-label="No"></span></td><td data-pc-col="1" class="is-featured"><span class="pc-yes" role="img" aria-label="Yes">✓</span></td><td data-pc-col="2"><span class="pc-yes" role="img" aria-label="Yes">✓</span></td>
+        </tr>
+        <tr>
+          <th scope="row">Sổ gia đình dùng chung qua iCloud</th><td data-pc-col="0"><span class="pc-no" role="img" aria-label="No"></span></td><td data-pc-col="1" class="is-featured"><span class="pc-yes" role="img" aria-label="Yes">✓</span></td><td data-pc-col="2"><span class="pc-yes" role="img" aria-label="Yes">✓</span></td>
+        </tr>
+        <tr class="is-last">
+          <th scope="row">Dữ liệu thị trường trực tiếp</th><td data-pc-col="0"><span class="pc-no" role="img" aria-label="No"></span></td><td data-pc-col="1" class="is-featured"><span class="pc-yes" role="img" aria-label="Yes">✓</span></td><td data-pc-col="2"><span class="pc-yes" role="img" aria-label="Yes">✓</span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="pc-mobile">
+    <div class="pc-tabs" role="tablist">
+      <button type="button" class="pc-tab" role="tab" id="pc-tab-0" data-pc-tab="0" aria-selected="false" aria-controls="pc-panel-0">Miễn phí</button>
+      <button type="button" class="pc-tab is-on" role="tab" id="pc-tab-1" data-pc-tab="1" aria-selected="true" aria-controls="pc-panel-1">Pro theo năm</button>
+      <button type="button" class="pc-tab" role="tab" id="pc-tab-2" data-pc-tab="2" aria-selected="false" aria-controls="pc-panel-2">Pro trọn đời</button>
+    </div><div class="pc-mcard" id="pc-panel-0" role="tabpanel" aria-labelledby="pc-tab-0" data-pc-panel="0" hidden>
+      <div class="pc-mhead">
+        <div class="pc-badge-slot"></div>
+        <div class="pc-name">Miễn phí</div>
+        <div class="pc-mprice"><span class="pc-currency">$</span>0</div><div class="pc-period">Quản lý tài khoản, nhiều sổ và thành viên gia đình.</div><a class="pc-btn" href="#download">Bắt đầu</a>
+      </div>
+      <div class="pc-mrow">
+        <div class="pc-mlabel">Theo dõi tài sản đa tiền tệ</div>
+        <div class="pc-mvalue"><span class="pc-yes" role="img" aria-label="Yes">✓</span></div>
+      </div>
+      <div class="pc-mrow">
+        <div class="pc-mlabel">Sổ tài khoản</div>
+        <div class="pc-mvalue"><span class="pc-limit">Không giới hạn</span></div>
+      </div>
+      <div class="pc-mrow">
+        <div class="pc-mlabel">Quản lý thành viên gia đình</div>
+        <div class="pc-mvalue"><span class="pc-yes" role="img" aria-label="Yes">✓</span></div>
+      </div>
+      <div class="pc-mrow">
+        <div class="pc-mlabel">Trợ lý tài sản bằng AI</div>
+        <div class="pc-mvalue"><span class="pc-yes" role="img" aria-label="Yes">✓</span></div>
+      </div>
+      <div class="pc-mrow">
+        <div class="pc-mlabel">Khóa bằng mã và sinh trắc học</div>
+        <div class="pc-mvalue"><span class="pc-yes" role="img" aria-label="Yes">✓</span></div>
+      </div>
+      <div class="pc-mrow">
+        <div class="pc-mlabel">Mục tiêu, chuyển khoản và nhắc đến hạn</div>
+        <div class="pc-mvalue"><span class="pc-yes" role="img" aria-label="Yes">✓</span></div>
+      </div>
+      <div class="pc-mrow">
+        <div class="pc-mlabel">Lịch sử thay đổi, xu hướng và lịch (có bộ lọc)</div>
+        <div class="pc-mvalue"><span class="pc-yes" role="img" aria-label="Yes">✓</span></div>
+      </div>
+      <div class="pc-mrow">
+        <div class="pc-mlabel">Đồng bộ iCloud và sao lưu đám mây</div>
+        <div class="pc-mvalue"><span class="pc-no" role="img" aria-label="No"></span></div>
+      </div>
+      <div class="pc-mrow">
+        <div class="pc-mlabel">Sổ gia đình dùng chung qua iCloud</div>
+        <div class="pc-mvalue"><span class="pc-no" role="img" aria-label="No"></span></div>
+      </div>
+      <div class="pc-mrow">
+        <div class="pc-mlabel">Dữ liệu thị trường trực tiếp</div>
+        <div class="pc-mvalue"><span class="pc-no" role="img" aria-label="No"></span></div>
+      </div>
+    </div><div class="pc-mcard is-featured" id="pc-panel-1" role="tabpanel" aria-labelledby="pc-tab-1" data-pc-panel="1">
+      <div class="pc-mhead">
+        <div class="pc-badge-slot"><span class="pc-badge">Phổ biến</span></div>
+        <div class="pc-name">Pro theo năm</div>
+        <div class="pc-mprice"><span class="pc-currency">$</span>1.49</div><div class="pc-period">/năm</div><div class="pc-period">Trả theo năm để hỗ trợ phần mềm phát triển lành mạnh.</div><a class="pc-btn is-solid" href="https://apps.apple.com/vn/app/%E7%9F%A5%E7%9B%88/id6759790991" target="_blank" rel="noopener noreferrer">Đăng ký theo năm</a>
+      </div>
+      <div class="pc-mrow">
+        <div class="pc-mlabel">Theo dõi tài sản đa tiền tệ</div>
+        <div class="pc-mvalue"><span class="pc-yes" role="img" aria-label="Yes">✓</span></div>
+      </div>
+      <div class="pc-mrow">
+        <div class="pc-mlabel">Sổ tài khoản</div>
+        <div class="pc-mvalue"><span class="pc-limit pc-strong">Không giới hạn</span></div>
+      </div>
+      <div class="pc-mrow">
+        <div class="pc-mlabel">Quản lý thành viên gia đình</div>
+        <div class="pc-mvalue"><span class="pc-yes" role="img" aria-label="Yes">✓</span></div>
+      </div>
+      <div class="pc-mrow">
+        <div class="pc-mlabel">Trợ lý tài sản bằng AI</div>
+        <div class="pc-mvalue"><span class="pc-yes" role="img" aria-label="Yes">✓</span></div>
+      </div>
+      <div class="pc-mrow">
+        <div class="pc-mlabel">Khóa bằng mã và sinh trắc học</div>
+        <div class="pc-mvalue"><span class="pc-yes" role="img" aria-label="Yes">✓</span></div>
+      </div>
+      <div class="pc-mrow">
+        <div class="pc-mlabel">Mục tiêu, chuyển khoản và nhắc đến hạn</div>
+        <div class="pc-mvalue"><span class="pc-yes" role="img" aria-label="Yes">✓</span></div>
+      </div>
+      <div class="pc-mrow">
+        <div class="pc-mlabel">Lịch sử thay đổi, xu hướng và lịch (có bộ lọc)</div>
+        <div class="pc-mvalue"><span class="pc-yes" role="img" aria-label="Yes">✓</span></div>
+      </div>
+      <div class="pc-mrow">
+        <div class="pc-mlabel">Đồng bộ iCloud và sao lưu đám mây</div>
+        <div class="pc-mvalue"><span class="pc-yes" role="img" aria-label="Yes">✓</span></div>
+      </div>
+      <div class="pc-mrow">
+        <div class="pc-mlabel">Sổ gia đình dùng chung qua iCloud</div>
+        <div class="pc-mvalue"><span class="pc-yes" role="img" aria-label="Yes">✓</span></div>
+      </div>
+      <div class="pc-mrow">
+        <div class="pc-mlabel">Dữ liệu thị trường trực tiếp</div>
+        <div class="pc-mvalue"><span class="pc-yes" role="img" aria-label="Yes">✓</span></div>
+      </div>
+    </div><div class="pc-mcard" id="pc-panel-2" role="tabpanel" aria-labelledby="pc-tab-2" data-pc-panel="2" hidden>
+      <div class="pc-mhead">
+        <div class="pc-badge-slot"><span class="pc-badge">Giá trị nhất</span></div>
+        <div class="pc-name">Pro trọn đời</div>
+        <div class="pc-mprice"><span class="pc-currency">$</span>9.99</div><div class="pc-period">Mua một lần, cập nhật trọn đời.</div><a class="pc-btn is-solid" href="https://apps.apple.com/vn/app/%E7%9F%A5%E7%9B%88/id6759790991" target="_blank" rel="noopener noreferrer">Mua trọn đời</a>
+      </div>
+      <div class="pc-mrow">
+        <div class="pc-mlabel">Theo dõi tài sản đa tiền tệ</div>
+        <div class="pc-mvalue"><span class="pc-yes" role="img" aria-label="Yes">✓</span></div>
+      </div>
+      <div class="pc-mrow">
+        <div class="pc-mlabel">Sổ tài khoản</div>
+        <div class="pc-mvalue"><span class="pc-limit">Không giới hạn</span></div>
+      </div>
+      <div class="pc-mrow">
+        <div class="pc-mlabel">Quản lý thành viên gia đình</div>
+        <div class="pc-mvalue"><span class="pc-yes" role="img" aria-label="Yes">✓</span></div>
+      </div>
+      <div class="pc-mrow">
+        <div class="pc-mlabel">Trợ lý tài sản bằng AI</div>
+        <div class="pc-mvalue"><span class="pc-yes" role="img" aria-label="Yes">✓</span></div>
+      </div>
+      <div class="pc-mrow">
+        <div class="pc-mlabel">Khóa bằng mã và sinh trắc học</div>
+        <div class="pc-mvalue"><span class="pc-yes" role="img" aria-label="Yes">✓</span></div>
+      </div>
+      <div class="pc-mrow">
+        <div class="pc-mlabel">Mục tiêu, chuyển khoản và nhắc đến hạn</div>
+        <div class="pc-mvalue"><span class="pc-yes" role="img" aria-label="Yes">✓</span></div>
+      </div>
+      <div class="pc-mrow">
+        <div class="pc-mlabel">Lịch sử thay đổi, xu hướng và lịch (có bộ lọc)</div>
+        <div class="pc-mvalue"><span class="pc-yes" role="img" aria-label="Yes">✓</span></div>
+      </div>
+      <div class="pc-mrow">
+        <div class="pc-mlabel">Đồng bộ iCloud và sao lưu đám mây</div>
+        <div class="pc-mvalue"><span class="pc-yes" role="img" aria-label="Yes">✓</span></div>
+      </div>
+      <div class="pc-mrow">
+        <div class="pc-mlabel">Sổ gia đình dùng chung qua iCloud</div>
+        <div class="pc-mvalue"><span class="pc-yes" role="img" aria-label="Yes">✓</span></div>
+      </div>
+      <div class="pc-mrow">
+        <div class="pc-mlabel">Dữ liệu thị trường trực tiếp</div>
+        <div class="pc-mvalue"><span class="pc-yes" role="img" aria-label="Yes">✓</span></div>
+      </div>
+    </div>
+  </div>
+</div>
+<p class="pricing-disclaimer">Giá thay đổi theo khu vực và khuyến mãi. Màn hình mua trong APP hiển thị giá cuối. AI cần dịch vụ mô hình đã cấu hình, có thể tính phí riêng.</p>
+    </div>
+  </section>
+  <section class="section trust-strip"><div class="container"><p class="eyebrow">Hệ sinh thái</p><h2 class="section-title trust-title">Ngân hàng, nền tảng và đối tác hệ sinh thái</h2><p class="trust-subtitle">Khám phá ngân hàng, nền tảng tài chính và dự án cộng đồng liên quan.</p><div class="trust-marquee" aria-label="Trusted partners"><div class="trust-track"><article class="trust-card"><img class="trust-logo" src="/assets/local/20260607PRQOHB.webp" alt="HSBC China logo" width="56" height="56" loading="lazy" decoding="async" /><span>HSBC</span></article><article class="trust-card"><img class="trust-logo" src="/assets/trust-logos/standard-chartered.webp" alt="Standard Chartered China logo" width="56" height="56" loading="lazy" decoding="async" /><span>Standard Chartered Bank</span></article><article class="trust-card"><img class="trust-logo" src="/assets/trust-logos/dbs-bank.webp" alt="DBS Bank logo" width="56" height="56" loading="lazy" decoding="async" /><span>DBS Bank</span></article><article class="trust-card"><img class="trust-logo" src="/assets/trust-logos/charles-schwab.svg" alt="Charles Schwab logo" width="56" height="56" loading="lazy" decoding="async" /><span>Charles Schwab</span></article><article class="trust-card"><img class="trust-logo" src="/assets/trust-logos/ibkr.webp" alt="Interactive Brokers logo" width="56" height="56" loading="lazy" decoding="async" /><span>IBKR</span></article><article class="trust-card"><img class="trust-logo" src="/assets/trust-logos/galaxy-securities.png" alt="China Galaxy Securities logo" width="56" height="56" loading="lazy" decoding="async" /><span>China Galaxy Securities</span></article><article class="trust-card"><img class="trust-logo" src="/assets/trust-logos/gf-securities.png" alt="GF Securities logo" width="56" height="56" loading="lazy" decoding="async" /><span>GF Securities</span></article><article class="trust-card"><img class="trust-logo" src="/assets/trust-logos/dongguan-securities.png" alt="Dongguan Securities logo" width="56" height="56" loading="lazy" decoding="async" /><span>Dongguan Securities</span></article></div><div class="trust-track reverse"><article class="trust-card"><img class="trust-logo" src="/assets/trust-logos/hang-seng-bank.webp" alt="Hang Seng Bank logo" width="56" height="56" loading="lazy" decoding="async" /><span>Hang Seng Bank</span></article><article class="trust-card"><img class="trust-logo" src="/assets/trust-logos/starryblu.png" alt="Starryblu logo" width="56" height="56" loading="lazy" decoding="async" /><span>Starryblu</span></article><article class="trust-card"><img class="trust-logo" src="/assets/trust-logos/panda-remit.png" alt="Panda Remit logo" width="56" height="56" loading="lazy" decoding="async" /><span>Panda Remit</span></article><article class="trust-card"><img class="trust-logo" src="/assets/trust-logos/flybay-mark.webp" alt="FlyBay logo" width="56" height="56" loading="lazy" decoding="async" /><span>flyBay</span></article><article class="trust-card"><img class="trust-logo" src="/assets/trust-logos/plural-atlas.webp" alt="Plural Atlas logo" width="56" height="56" loading="lazy" decoding="async" /><span>Plural Atlas</span></article></div></div><div class="trust-actions"><a class="btn btn-ghost" href="mailto:idebuginn@gmail.com">Hợp tác kinh doanh</a><a class="btn btn-ghost" href="https://flybay.debuginn.com/">Tìm hiểu thêm</a></div></div></section>
+  <section id="faqs" class="section" data-img-chain="9"><div class="container"><p class="eyebrow">Câu hỏi</p><h2 class="section-title">Trước khi bạn bắt đầu.</h2><div class="faq-grid"><article><h3><span class="faq-q-icon" aria-hidden="true"><svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><path d="M9.6 9.2a2.5 2.5 0 1 1 4.2 1.8c-.65.62-1.3 1.05-1.3 2.1"></path><circle cx="12" cy="16.8" r="0.9" fill="currentColor" stroke="none"></circle></svg></span><span>Tôi có thể làm gì miễn phí?</span></h3><p>Quản lý tài khoản đa tiền tệ, nhiều sổ và thành viên gia đình. Đồng bộ iCloud, sổ gia đình dùng chung và dữ liệu thị trường cần Pro.</p></article><article><h3><span class="faq-q-icon" aria-hidden="true"><svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><path d="M9.6 9.2a2.5 2.5 0 1 1 4.2 1.8c-.65.62-1.3 1.05-1.3 2.1"></path><circle cx="12" cy="16.8" r="0.9" fill="currentColor" stroke="none"></circle></svg></span><span>Làm sao dùng trợ lý AI?</span></h3><p>Cấu hình dịch vụ mô hình được hỗ trợ và khóa API trong Cài đặt, rồi hỏi bằng chữ hoặc giọng nói. Sửa dữ liệu cần xác nhận. Đối chiếu câu trả lời AI với bản ghi gốc.</p></article><article><h3><span class="faq-q-icon" aria-hidden="true"><svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><path d="M9.6 9.2a2.5 2.5 0 1 1 4.2 1.8c-.65.62-1.3 1.05-1.3 2.1"></path><circle cx="12" cy="16.8" r="0.9" fill="currentColor" stroke="none"></circle></svg></span><span>Dữ liệu của tôi có được gửi cho AI không?</span></h3><p>Khi bạn dùng AI, câu hỏi và ngữ cảnh tài sản cần thiết được gửi tới dịch vụ mô hình bạn đã cấu hình. Bản ghi thông thường được lưu trên máy, với tính năng iCloud tùy chọn.</p></article><article><h3><span class="faq-q-icon" aria-hidden="true"><svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><path d="M9.6 9.2a2.5 2.5 0 1 1 4.2 1.8c-.65.62-1.3 1.05-1.3 2.1"></path><circle cx="12" cy="16.8" r="0.9" fill="currentColor" stroke="none"></circle></svg></span><span>Quản lý gia đình khác chia sẻ thế nào?</span></h3><p>Quản lý gia đình sắp xếp thành viên và quyền sở hữu tài khoản. Chia sẻ mời người khác qua iCloud vào cùng một sổ với quyền được gán.</p></article><article><h3><span class="faq-q-icon" aria-hidden="true"><svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><path d="M9.6 9.2a2.5 2.5 0 1 1 4.2 1.8c-.65.62-1.3 1.05-1.3 2.1"></path><circle cx="12" cy="16.8" r="0.9" fill="currentColor" stroke="none"></circle></svg></span><span>Báo giá đầu tư có theo thời gian thực không?</span></h3><p>Nhiều thị trường cổ phiếu, quỹ, ETF, kim loại và tiền mã hóa được hỗ trợ. Phạm vi, độ trễ và khoảng làm mới phụ thuộc vào thị trường và nguồn dữ liệu.</p></article><article><h3><span class="faq-q-icon" aria-hidden="true"><svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><path d="M9.6 9.2a2.5 2.5 0 1 1 4.2 1.8c-.65.62-1.3 1.05-1.3 2.1"></path><circle cx="12" cy="16.8" r="0.9" fill="currentColor" stroke="none"></circle></svg></span><span>Thiết bị và ngôn ngữ nào được hỗ trợ?</span></h3><p>Xây cho hệ sinh thái Apple. APP hỗ trợ 31 ngôn ngữ trong menu ngôn ngữ, gồm tiếng Trung giản thể, tiếng Trung phồn thể, tiếng Anh, tiếng Nhật và tiếng Hàn. Tại Trung Quốc đại lục, APP có tên 知盈, còn nơi khác là iAssets.</p></article></div></div></section>
+</main>
+
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-card">
+          <div class="footer-main">
+            <section class="footer-left">
+              <section class="footer-brand-col">
+                <a class="logo footer-brand-wrap" href="/vi/">
+                  <img class="logo-mark" src="/assets/local/20260607h41bVQ.png" alt="iAssets logo" width="48" height="48" decoding="async" loading="lazy" />
+                  <span class="footer-brand-text">
+                    <span data-i18n="brand">iAssets</span>
+                    <span class="footer-tag" data-i18n="footerTag">Người bạn đồng hành quản lý tài sản hộ gia đình</span>
+                  </span>
+                </a>
+              </section>
+              <nav class="footer-inline-links" aria-label="Footer links"><a href="/vi/#features" data-i18n="navFeatures">Tính năng</a><a href="/vi/#pricing-compare" data-i18n="navPricing">Giá</a><a href="/vi/#faqs" data-i18n="navFaq">Câu hỏi</a><a href="/vi/#download" data-i18n="navDownload">Tải xuống</a><a href="/vi/privacy/" data-i18n="navPrivacy">Quyền riêng tư</a><a href="/vi/terms/" data-i18n="navTerms">Điều khoản</a>
+              </nav>
+            </section>
+            <section class="footer-social" aria-label="Social links">
+              <div class="social-grid">
+                <div class="social-set social-set-cn">
+                  <a class="social-link" data-social="wechat" href="#" aria-label="微信"><img src="/assets/local/20260607v5H5Ux.svg" alt="WeChat" width="24" height="24" loading="lazy" decoding="async" /></a><a class="social-link" data-social="weibo" href="https://weibo.com/u/7096209693" target="_blank" rel="noopener noreferrer" aria-label="微博"><img src="/assets/local/20260607IoieJf.svg" alt="Weibo" width="24" height="24" loading="lazy" decoding="async" /></a><a class="social-link" data-social="xiaohongshu" href="https://www.xiaohongshu.com/user/profile/5d4057fd0000000012007068" target="_blank" rel="noopener noreferrer" aria-label="小红书"><img src="/assets/local/20260607S6dw4u.svg" alt="Xiaohongshu" width="24" height="24" loading="lazy" decoding="async" /></a><a class="social-link" data-social="zhihu" href="https://www.zhihu.com/people/debuginn" target="_blank" rel="noopener noreferrer" aria-label="知乎"><img src="/assets/local/20260607dP6b5s.svg" alt="Zhihu" width="24" height="24" loading="lazy" decoding="async" /></a>
+                </div>
+                <div class="social-set social-set-global"><a class="social-link" data-social="xiaohongshu" href="https://www.xiaohongshu.com/user/profile/5d4057fd0000000012007068" target="_blank" rel="noopener noreferrer" aria-label="小红书"><img src="/assets/local/20260607S6dw4u.svg" alt="Xiaohongshu" width="24" height="24" loading="lazy" decoding="async" /></a>
+                </div>
+                <div class="social-set social-set-hant"><a class="social-link" data-social="xiaohongshu" href="https://www.xiaohongshu.com/user/profile/5d4057fd0000000012007068" target="_blank" rel="noopener noreferrer" aria-label="小红书"><img src="/assets/local/20260607S6dw4u.svg" alt="Xiaohongshu" width="24" height="24" loading="lazy" decoding="async" /></a>
+                  <a class="social-link" data-social="wechat" href="#" aria-label="微信"><img src="/assets/local/20260607v5H5Ux.svg" alt="WeChat" width="24" height="24" loading="lazy" decoding="async" /></a>
+                </div>
+              </div>
+            </section>
+            <section class="qr-box">
+              <div class="fake-qr"><img src="/assets/local/20260607weNLvY.png" alt="Download QR code" width="88" height="88" loading="lazy" decoding="async" /></div>
+              <div class="qr-copy">
+                <h4 data-i18n="navDownload">Tải xuống</h4>
+                <p data-i18n="downloadHint">Quét để mở App Store</p>
+              </div>
+            </section>
+          </div>
+          <div class="footer-bottom">
+            <div class="lang-links">
+              <div class="footer-lang-dropdown">
+              <button class="footer-lang-trigger" type="button" aria-label="Switch language" aria-haspopup="listbox" aria-expanded="false">
+                <span class="footer-lang-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="9"></circle>
+                    <path d="M3 12h18"></path>
+                    <path d="M12 3c2.6 2.4 4 5.6 4 9s-1.4 6.6-4 9c-2.6-2.4-4-5.6-4-9s1.4-6.6 4-9z"></path>
+                  </svg>
+                </span>
+                <span class="footer-lang-current">Tiếng Việt</span>
+              </button>
+              <div class="footer-lang-menu" role="listbox" aria-label="Language options"><a href="/" data-footer-lang-option="en">English</a><a href="/zh/" data-footer-lang-option="zh-Hans">中文简体</a><a href="/zh-hant/" data-footer-lang-option="zh-Hant">中文繁體</a><a href="/ja/" data-footer-lang-option="ja">日本語</a><a href="/ko/" data-footer-lang-option="ko">한국어</a><a href="/th/" data-footer-lang-option="th">ไทย</a><a href="/vi/" data-footer-lang-option="vi">Tiếng Việt</a><a href="/ms/" data-footer-lang-option="ms">Bahasa Melayu</a><a href="/de/" data-footer-lang-option="de">Deutsch</a><a href="/fr/" data-footer-lang-option="fr">Français</a><a href="/it/" data-footer-lang-option="it">Italiano</a><a href="/es/" data-footer-lang-option="es">Español</a><a href="/nl/" data-footer-lang-option="nl">Nederlands</a><a href="/pt-br/" data-footer-lang-option="pt-BR">Português (Brasil)</a><a href="/ar/" data-footer-lang-option="ar">العربية</a><a href="/id/" data-footer-lang-option="id">Bahasa Indonesia</a><a href="/hi/" data-footer-lang-option="hi">हिन्दी</a><a href="/tr/" data-footer-lang-option="tr">Türkçe</a><a href="/pl/" data-footer-lang-option="pl">Polski</a><a href="/sv/" data-footer-lang-option="sv">Svenska</a><a href="/da/" data-footer-lang-option="da">Dansk</a><a href="/nb/" data-footer-lang-option="nb">Norsk bokmål</a><a href="/fi/" data-footer-lang-option="fi">Suomi</a><a href="/cs/" data-footer-lang-option="cs">Čeština</a><a href="/ro/" data-footer-lang-option="ro">Română</a><a href="/ru/" data-footer-lang-option="ru">Русский</a><a href="/uk/" data-footer-lang-option="uk">Українська</a><a href="/hu/" data-footer-lang-option="hu">Magyar</a><a href="/el/" data-footer-lang-option="el">Ελληνικά</a><a href="/pt-pt/" data-footer-lang-option="pt-PT">Português (Portugal)</a><a href="/he/" data-footer-lang-option="he">עברית</a>
+              </div>
+            </div>
+            </div>
+            <div class="footer-meta">
+              <div class="footer-copyline">
+                <p>© Copyright 2026. All rights reserved.</p>
+                <a class="footer-ai-tag" href="https://iassets.debuginn.com/llms.txt" aria-label="Xem llms.txt mà AI đọc được"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.5c.65 4.42 2.83 6.6 7.25 7.25-4.42.65-6.6 2.83-7.25 7.25-.65-4.42-2.83-6.6-7.25-7.25C9.17 10.1 11.35 7.92 12 3.5Z"></path><path d="M18.25 3.75c.18 1.25.75 1.82 2 2-1.25.18-1.82.75-2 2-.18-1.25-.75-1.82-2-2 1.25-.18 1.82-.75 2-2Z"></path></svg><span>llms.txt</span></a>
+              </div>
+              <p class="footer-credit">Built with <a href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo</a>, theme <a href="https://github.com/debuginn/hugo-theme-pebble" target="_blank" rel="noopener noreferrer">Pebble</a> v1.1.0 designed by <a href="https://blog.debuginn.com/" target="_blank" rel="noopener noreferrer">Debuginn</a>.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div class="lang-modal" hidden>
+  <div class="lang-modal-backdrop" data-lang-modal-close></div>
+  <div class="lang-modal-panel" role="dialog" aria-modal="true" aria-labelledby="lang-modal-title">
+    <div class="lang-modal-head">
+      <div class="lang-modal-title">
+        <span class="lang-modal-title-icon" aria-hidden="true"><svg class="lang-modal-globe" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><path d="M3 12h18"></path><path d="M12 3c2.7 2.5 4.2 5.7 4.2 9S14.7 18.5 12 21c-2.7-2.5-4.2-5.7-4.2-9S9.3 5.5 12 3z"></path></svg></span>
+        <h2 id="lang-modal-title">Chọn ngôn ngữ</h2>
+      </div>
+      <button class="lang-modal-close" type="button" data-lang-modal-close aria-label="Đóng">×</button>
+    </div>
+    <div class="lang-modal-grid"><a href="/" data-lang-modal-option="en">English</a><a href="/zh/" data-lang-modal-option="zh-Hans">中文简体</a><a href="/zh-hant/" data-lang-modal-option="zh-Hant">中文繁體</a><a href="/ja/" data-lang-modal-option="ja">日本語</a><a href="/ko/" data-lang-modal-option="ko">한국어</a><a href="/th/" data-lang-modal-option="th">ไทย</a><a href="/vi/" data-lang-modal-option="vi">Tiếng Việt</a><a href="/ms/" data-lang-modal-option="ms">Bahasa Melayu</a><a href="/de/" data-lang-modal-option="de">Deutsch</a><a href="/fr/" data-lang-modal-option="fr">Français</a><a href="/it/" data-lang-modal-option="it">Italiano</a><a href="/es/" data-lang-modal-option="es">Español</a><a href="/nl/" data-lang-modal-option="nl">Nederlands</a><a href="/pt-br/" data-lang-modal-option="pt-BR">Português (Brasil)</a><a href="/ar/" data-lang-modal-option="ar">العربية</a><a href="/id/" data-lang-modal-option="id">Bahasa Indonesia</a><a href="/hi/" data-lang-modal-option="hi">हिन्दी</a><a href="/tr/" data-lang-modal-option="tr">Türkçe</a><a href="/pl/" data-lang-modal-option="pl">Polski</a><a href="/sv/" data-lang-modal-option="sv">Svenska</a><a href="/da/" data-lang-modal-option="da">Dansk</a><a href="/nb/" data-lang-modal-option="nb">Norsk bokmål</a><a href="/fi/" data-lang-modal-option="fi">Suomi</a><a href="/cs/" data-lang-modal-option="cs">Čeština</a><a href="/ro/" data-lang-modal-option="ro">Română</a><a href="/ru/" data-lang-modal-option="ru">Русский</a><a href="/uk/" data-lang-modal-option="uk">Українська</a><a href="/hu/" data-lang-modal-option="hu">Magyar</a><a href="/el/" data-lang-modal-option="el">Ελληνικά</a><a href="/pt-pt/" data-lang-modal-option="pt-PT">Português (Portugal)</a><a href="/he/" data-lang-modal-option="he">עברית</a>
+    </div>
+  </div>
+</div>
+
+
+    <script type="module" src="/app.js?v=v20261103-lang-chrome"></script>
+  </body>
+</html>
