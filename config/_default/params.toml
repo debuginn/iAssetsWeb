@@ -3,7 +3,7 @@
   logoAlt = 'iAssets logo'
   brandName = 'iAssets'
   downloadQr = '/assets/local/20260607huIkvB.png'
-  version = 'v20261103-app-langs'
+  version = 'v20261103-lang-dialog'
 
 [theme]
   version = 'v1.1.0'
