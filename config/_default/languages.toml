@@ -86,3 +86,267 @@ downloadQr = '/assets/local/20260607BReFMN.png'
 currency = '₩'
 yearly = '2500'
 lifetime = '15000'
+
+[th]
+languageName = 'ไทย'
+weight = 6
+languageDirection = 'ltr'
+[th.params.assets]
+downloadQr = '/assets/local/20260607weNLvY.png'
+[th.params.pricing]
+currency = '$'
+yearly = '1.49'
+lifetime = '9.99'
+
+[vi]
+languageName = 'Tiếng Việt'
+weight = 7
+[vi.params.assets]
+downloadQr = '/assets/local/20260607weNLvY.png'
+[vi.params.pricing]
+currency = '$'
+yearly = '1.49'
+lifetime = '9.99'
+
+[ms]
+languageName = 'Bahasa Melayu'
+weight = 8
+[ms.params.assets]
+downloadQr = '/assets/local/20260607weNLvY.png'
+[ms.params.pricing]
+currency = '$'
+yearly = '1.49'
+lifetime = '9.99'
+
+[de]
+languageName = 'Deutsch'
+weight = 9
+[de.params.assets]
+downloadQr = '/assets/local/20260607weNLvY.png'
+[de.params.pricing]
+currency = '$'
+yearly = '1.49'
+lifetime = '9.99'
+
+[fr]
+languageName = 'Français'
+weight = 10
+[fr.params.assets]
+downloadQr = '/assets/local/20260607weNLvY.png'
+[fr.params.pricing]
+currency = '$'
+yearly = '1.49'
+lifetime = '9.99'
+
+[it]
+languageName = 'Italiano'
+weight = 11
+[it.params.assets]
+downloadQr = '/assets/local/20260607weNLvY.png'
+[it.params.pricing]
+currency = '$'
+yearly = '1.49'
+lifetime = '9.99'
+
+[es]
+languageName = 'Español'
+weight = 12
+[es.params.assets]
+downloadQr = '/assets/local/20260607weNLvY.png'
+[es.params.pricing]
+currency = '$'
+yearly = '1.49'
+lifetime = '9.99'
+
+[nl]
+languageName = 'Nederlands'
+weight = 13
+[nl.params.assets]
+downloadQr = '/assets/local/20260607weNLvY.png'
+[nl.params.pricing]
+currency = '$'
+yearly = '1.49'
+lifetime = '9.99'
+
+[pt-br]
+languageName = 'Português (Brasil)'
+weight = 14
+[pt-br.params.assets]
+downloadQr = '/assets/local/20260607weNLvY.png'
+[pt-br.params.pricing]
+currency = '$'
+yearly = '1.49'
+lifetime = '9.99'
+
+[ar]
+languageName = 'العربية'
+weight = 15
+languageDirection = 'rtl'
+[ar.params.assets]
+downloadQr = '/assets/local/20260607weNLvY.png'
+[ar.params.pricing]
+currency = '$'
+yearly = '1.49'
+lifetime = '9.99'
+
+[id]
+languageName = 'Bahasa Indonesia'
+weight = 16
+[id.params.assets]
+downloadQr = '/assets/local/20260607weNLvY.png'
+[id.params.pricing]
+currency = '$'
+yearly = '1.49'
+lifetime = '9.99'
+
+[hi]
+languageName = 'हिन्दी'
+weight = 17
+[hi.params.assets]
+downloadQr = '/assets/local/20260607weNLvY.png'
+[hi.params.pricing]
+currency = '$'
+yearly = '1.49'
+lifetime = '9.99'
+
+[tr]
+languageName = 'Türkçe'
+weight = 18
+[tr.params.assets]
+downloadQr = '/assets/local/20260607weNLvY.png'
+[tr.params.pricing]
+currency = '$'
+yearly = '1.49'
+lifetime = '9.99'
+
+[pl]
+languageName = 'Polski'
+weight = 19
+[pl.params.assets]
+downloadQr = '/assets/local/20260607weNLvY.png'
+[pl.params.pricing]
+currency = '$'
+yearly = '1.49'
+lifetime = '9.99'
+
+[sv]
+languageName = 'Svenska'
+weight = 20
+[sv.params.assets]
+downloadQr = '/assets/local/20260607weNLvY.png'
+[sv.params.pricing]
+currency = '$'
+yearly = '1.49'
+lifetime = '9.99'
+
+[da]
+languageName = 'Dansk'
+weight = 21
+[da.params.assets]
+downloadQr = '/assets/local/20260607weNLvY.png'
+[da.params.pricing]
+currency = '$'
+yearly = '1.49'
+lifetime = '9.99'
+
+[nb]
+languageName = 'Norsk bokmål'
+weight = 22
+[nb.params.assets]
+downloadQr = '/assets/local/20260607weNLvY.png'
+[nb.params.pricing]
+currency = '$'
+yearly = '1.49'
+lifetime = '9.99'
+
+[fi]
+languageName = 'Suomi'
+weight = 23
+[fi.params.assets]
+downloadQr = '/assets/local/20260607weNLvY.png'
+[fi.params.pricing]
+currency = '$'
+yearly = '1.49'
+lifetime = '9.99'
+
+[cs]
+languageName = 'Čeština'
+weight = 24
+[cs.params.assets]
+downloadQr = '/assets/local/20260607weNLvY.png'
+[cs.params.pricing]
+currency = '$'
+yearly = '1.49'
+lifetime = '9.99'
+
+[ro]
+languageName = 'Română'
+weight = 25
+[ro.params.assets]
+downloadQr = '/assets/local/20260607weNLvY.png'
+[ro.params.pricing]
+currency = '$'
+yearly = '1.49'
+lifetime = '9.99'
+
+[ru]
+languageName = 'Русский'
+weight = 26
+[ru.params.assets]
+downloadQr = '/assets/local/20260607weNLvY.png'
+[ru.params.pricing]
+currency = '$'
+yearly = '1.49'
+lifetime = '9.99'
+
+[uk]
+languageName = 'Українська'
+weight = 27
+[uk.params.assets]
+downloadQr = '/assets/local/20260607weNLvY.png'
+[uk.params.pricing]
+currency = '$'
+yearly = '1.49'
+lifetime = '9.99'
+
+[hu]
+languageName = 'Magyar'
+weight = 28
+[hu.params.assets]
+downloadQr = '/assets/local/20260607weNLvY.png'
+[hu.params.pricing]
+currency = '$'
+yearly = '1.49'
+lifetime = '9.99'
+
+[el]
+languageName = 'Ελληνικά'
+weight = 29
+[el.params.assets]
+downloadQr = '/assets/local/20260607weNLvY.png'
+[el.params.pricing]
+currency = '$'
+yearly = '1.49'
+lifetime = '9.99'
+
+[pt-pt]
+languageName = 'Português (Portugal)'
+weight = 30
+[pt-pt.params.assets]
+downloadQr = '/assets/local/20260607weNLvY.png'
+[pt-pt.params.pricing]
+currency = '$'
+yearly = '1.49'
+lifetime = '9.99'
+
+[he]
+languageName = 'עברית'
+weight = 31
+languageDirection = 'rtl'
+[he.params.assets]
+downloadQr = '/assets/local/20260607weNLvY.png'
+[he.params.pricing]
+currency = '$'
+yearly = '1.49'
+lifetime = '9.99'
+

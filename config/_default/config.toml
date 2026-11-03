@@ -41,3 +41,109 @@ enableRobotsTXT = true
     lang = 'ko'
     source = 'content/ko'
     target = 'content'
+
+  [[module.mounts]]
+    lang = 'th'
+    source = 'content/th'
+    target = 'content'
+  [[module.mounts]]
+    lang = 'vi'
+    source = 'content/vi'
+    target = 'content'
+  [[module.mounts]]
+    lang = 'ms'
+    source = 'content/ms'
+    target = 'content'
+  [[module.mounts]]
+    lang = 'de'
+    source = 'content/de'
+    target = 'content'
+  [[module.mounts]]
+    lang = 'fr'
+    source = 'content/fr'
+    target = 'content'
+  [[module.mounts]]
+    lang = 'it'
+    source = 'content/it'
+    target = 'content'
+  [[module.mounts]]
+    lang = 'es'
+    source = 'content/es'
+    target = 'content'
+  [[module.mounts]]
+    lang = 'nl'
+    source = 'content/nl'
+    target = 'content'
+  [[module.mounts]]
+    lang = 'pt-br'
+    source = 'content/pt-br'
+    target = 'content'
+  [[module.mounts]]
+    lang = 'ar'
+    source = 'content/ar'
+    target = 'content'
+  [[module.mounts]]
+    lang = 'id'
+    source = 'content/id'
+    target = 'content'
+  [[module.mounts]]
+    lang = 'hi'
+    source = 'content/hi'
+    target = 'content'
+  [[module.mounts]]
+    lang = 'tr'
+    source = 'content/tr'
+    target = 'content'
+  [[module.mounts]]
+    lang = 'pl'
+    source = 'content/pl'
+    target = 'content'
+  [[module.mounts]]
+    lang = 'sv'
+    source = 'content/sv'
+    target = 'content'
+  [[module.mounts]]
+    lang = 'da'
+    source = 'content/da'
+    target = 'content'
+  [[module.mounts]]
+    lang = 'nb'
+    source = 'content/nb'
+    target = 'content'
+  [[module.mounts]]
+    lang = 'fi'
+    source = 'content/fi'
+    target = 'content'
+  [[module.mounts]]
+    lang = 'cs'
+    source = 'content/cs'
+    target = 'content'
+  [[module.mounts]]
+    lang = 'ro'
+    source = 'content/ro'
+    target = 'content'
+  [[module.mounts]]
+    lang = 'ru'
+    source = 'content/ru'
+    target = 'content'
+  [[module.mounts]]
+    lang = 'uk'
+    source = 'content/uk'
+    target = 'content'
+  [[module.mounts]]
+    lang = 'hu'
+    source = 'content/hu'
+    target = 'content'
+  [[module.mounts]]
+    lang = 'el'
+    source = 'content/el'
+    target = 'content'
+  [[module.mounts]]
+    lang = 'pt-pt'
+    source = 'content/pt-pt'
+    target = 'content'
+  [[module.mounts]]
+    lang = 'he'
+    source = 'content/he'
+    target = 'content'
+

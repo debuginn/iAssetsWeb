@@ -437,6 +437,6 @@ answer = "Multiple stock markets, funds, ETFs, metals and crypto are supported. 
 [[home.faq.items]]
 icon = "faq"
 question = "Which devices and languages are supported?"
-answer = "Built for the Apple ecosystem with Simplified Chinese, Traditional Chinese, English, Japanese and Korean. The app is named 知盈 in mainland China and iAssets elsewhere."
+answer = "Built for the Apple ecosystem and supports the 31 languages in the language menu, including Simplified Chinese, Traditional Chinese, English, Japanese and Korean. The app is named 知盈 in mainland China and iAssets elsewhere."
 
 +++

@@ -294,6 +294,6 @@ answer = "支持多个股票市场、基金与 ETF、贵金属和加密货币。
 [[home.faq.items]]
 icon = "faq"
 question = "支持哪些设备与语言？"
-answer = "面向 Apple 生态，支持简体中文、繁体中文、英语、日语和韩语。中国大陆 App 名称为知盈，其他地区为 iAssets。"
+answer = "面向 Apple 生态，支持语言菜单中的 31 种语言，包括简体中文、繁体中文、英语、日语和韩语。中国大陆 App 名称为知盈，其他地区为 iAssets。"
 
 +++
