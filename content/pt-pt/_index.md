@@ -10,23 +10,33 @@ title = "Os seus ativos, numa vista clara."
 description = "Reúna contas, investimentos e passivos numa vista. Registe alterações, pergunte à IA sobre as suas finanças e gira livros partilhados com a família."
 
 [[home.hero.fanImages]]
-src = "/assets/local/20260607oxATMJ.png"
+src = "/assets/screenshots/1.0.9/pt-pt/home.2a3af8a3e9b4.webp"
+width = 768
+height = 1567
 alt = "Captura 1 da APP iAssets"
 
 [[home.hero.fanImages]]
-src = "/assets/local/20260607x261Or.png"
+src = "/assets/screenshots/1.0.9/pt-pt/markets.4e8436784c1b.webp"
+width = 768
+height = 1567
 alt = "Captura 2 da APP iAssets"
 
 [[home.hero.fanImages]]
-src = "/assets/local/20260607mYOA0a.png"
+src = "/assets/screenshots/1.0.9/pt-pt/assets.36193840f04a.webp"
+width = 768
+height = 1567
 alt = "Captura 3 da APP iAssets"
 
 [[home.hero.fanImages]]
-src = "/assets/local/20260607w1hCJY.png"
+src = "/assets/screenshots/1.0.9/pt-pt/ai.35039ed34daa.webp"
+width = 768
+height = 1567
 alt = "Captura 4 da APP iAssets"
 
 [[home.hero.fanImages]]
-src = "/assets/local/20260607oxGqYA.png"
+src = "/assets/screenshots/1.0.9/pt-pt/family.a7e6489878aa.webp"
+width = 768
+height = 1567
 alt = "Captura 5 da APP iAssets"
 
 [[home.hero.cards]]
@@ -90,15 +100,21 @@ description = "Pergunte por texto ou voz para encontrar contas, rever grandes al
 
 [home.features.showcase]
 [[home.features.showcase.images]]
-src = "/assets/local/20260607wsFhmF.png"
+src = "/assets/screenshots/1.0.9/pt-pt/insights.e388df728c76.webp"
+width = 768
+height = 1567
 alt = "Captura principal da montra de funcionalidades do iAssets"
 
 [[home.features.showcase.images]]
-src = "/assets/local/20260607oxGqYA.png"
+src = "/assets/screenshots/1.0.9/pt-pt/history.248e4569feea.webp"
+width = 768
+height = 1567
 alt = "Captura secundária da montra de funcionalidades do iAssets"
 
 [[home.features.showcase.images]]
-src = "/assets/local/20260607oxATMJ.png"
+src = "/assets/screenshots/1.0.9/pt-pt/family.a7e6489878aa.webp"
+width = 768
+height = 1567
 alt = "Captura de apoio da montra de funcionalidades do iAssets"
 
 [home.details]
@@ -158,23 +174,33 @@ durations = ["68s", "76s", "72s", "80s"]
 delays = ["0s", "-3s", "-8s", "-6s"]
 
 [[home.download.backdrop.images]]
-src = "/assets/local/20260607oxATMJ.png"
+src = "/assets/screenshots/1.0.9/pt-pt/home.2a3af8a3e9b4.webp"
+width = 768
+height = 1567
 alt = "Fundo de descarregamento do iAssets 1"
 
 [[home.download.backdrop.images]]
-src = "/assets/local/20260607x261Or.png"
+src = "/assets/screenshots/1.0.9/pt-pt/assets.36193840f04a.webp"
+width = 768
+height = 1567
 alt = "Fundo de descarregamento do iAssets 2"
 
 [[home.download.backdrop.images]]
-src = "/assets/local/20260607mYOA0a.png"
+src = "/assets/screenshots/1.0.9/pt-pt/markets.4e8436784c1b.webp"
+width = 768
+height = 1567
 alt = "Fundo de descarregamento do iAssets 3"
 
 [[home.download.backdrop.images]]
-src = "/assets/local/20260607w1hCJY.png"
+src = "/assets/screenshots/1.0.9/pt-pt/ai.35039ed34daa.webp"
+width = 768
+height = 1567
 alt = "Fundo de descarregamento do iAssets 4"
 
 [[home.download.backdrop.images]]
-src = "/assets/local/20260607oxGqYA.png"
+src = "/assets/screenshots/1.0.9/pt-pt/family.a7e6489878aa.webp"
+width = 768
+height = 1567
 alt = "Fundo de descarregamento do iAssets 5"
 
 [home.reviews]

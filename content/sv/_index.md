@@ -10,23 +10,33 @@ title = "Dina tillgångar, i en tydlig vy."
 description = "Samla konton, investeringar och skulder i en vy. Registrera ändringar, fråga AI om din ekonomi och hantera delade böcker med familjen."
 
 [[home.hero.fanImages]]
-src = "/assets/local/20260607oxATMJ.png"
+src = "/assets/screenshots/1.0.9/sv/home.35fdf3275398.webp"
+width = 768
+height = 1567
 alt = "Skärmbild 1 av iAssets APP"
 
 [[home.hero.fanImages]]
-src = "/assets/local/20260607x261Or.png"
+src = "/assets/screenshots/1.0.9/sv/markets.8880940b2e73.webp"
+width = 768
+height = 1567
 alt = "Skärmbild 2 av iAssets APP"
 
 [[home.hero.fanImages]]
-src = "/assets/local/20260607mYOA0a.png"
+src = "/assets/screenshots/1.0.9/sv/assets.200b7d70f28f.webp"
+width = 768
+height = 1567
 alt = "Skärmbild 3 av iAssets APP"
 
 [[home.hero.fanImages]]
-src = "/assets/local/20260607w1hCJY.png"
+src = "/assets/screenshots/1.0.9/sv/ai.f22f244209c1.webp"
+width = 768
+height = 1567
 alt = "Skärmbild 4 av iAssets APP"
 
 [[home.hero.fanImages]]
-src = "/assets/local/20260607oxGqYA.png"
+src = "/assets/screenshots/1.0.9/sv/family.b1379fb4df3f.webp"
+width = 768
+height = 1567
 alt = "Skärmbild 5 av iAssets APP"
 
 [[home.hero.cards]]
@@ -90,15 +100,21 @@ description = "Fråga med text eller röst för att hitta konton, granska stora 
 
 [home.features.showcase]
 [[home.features.showcase.images]]
-src = "/assets/local/20260607wsFhmF.png"
+src = "/assets/screenshots/1.0.9/sv/insights.c87eb37757c1.webp"
+width = 768
+height = 1567
 alt = "Huvudskärmbild för iAssets funktionsvisning"
 
 [[home.features.showcase.images]]
-src = "/assets/local/20260607oxGqYA.png"
+src = "/assets/screenshots/1.0.9/sv/history.0738c484e73a.webp"
+width = 768
+height = 1567
 alt = "Andra skärmbilden för iAssets funktionsvisning"
 
 [[home.features.showcase.images]]
-src = "/assets/local/20260607oxATMJ.png"
+src = "/assets/screenshots/1.0.9/sv/family.b1379fb4df3f.webp"
+width = 768
+height = 1567
 alt = "Stödjande skärmbild för iAssets funktionsvisning"
 
 [home.details]
@@ -158,23 +174,33 @@ durations = ["68s", "76s", "72s", "80s"]
 delays = ["0s", "-3s", "-8s", "-6s"]
 
 [[home.download.backdrop.images]]
-src = "/assets/local/20260607oxATMJ.png"
+src = "/assets/screenshots/1.0.9/sv/home.35fdf3275398.webp"
+width = 768
+height = 1567
 alt = "iAssets hämtningsbakgrund 1"
 
 [[home.download.backdrop.images]]
-src = "/assets/local/20260607x261Or.png"
+src = "/assets/screenshots/1.0.9/sv/assets.200b7d70f28f.webp"
+width = 768
+height = 1567
 alt = "iAssets hämtningsbakgrund 2"
 
 [[home.download.backdrop.images]]
-src = "/assets/local/20260607mYOA0a.png"
+src = "/assets/screenshots/1.0.9/sv/markets.8880940b2e73.webp"
+width = 768
+height = 1567
 alt = "iAssets hämtningsbakgrund 3"
 
 [[home.download.backdrop.images]]
-src = "/assets/local/20260607w1hCJY.png"
+src = "/assets/screenshots/1.0.9/sv/ai.f22f244209c1.webp"
+width = 768
+height = 1567
 alt = "iAssets hämtningsbakgrund 4"
 
 [[home.download.backdrop.images]]
-src = "/assets/local/20260607oxGqYA.png"
+src = "/assets/screenshots/1.0.9/sv/family.b1379fb4df3f.webp"
+width = 768
+height = 1567
 alt = "iAssets hämtningsbakgrund 5"
 
 [home.reviews]

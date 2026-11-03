@@ -10,23 +10,33 @@ title = "Dine aktiver, i ét klart overblik."
 description = "Saml konti, investeringer og forpligtelser i én visning. Registrér ændringer, spørg AI om din økonomi, og administrer delte bøger med familien."
 
 [[home.hero.fanImages]]
-src = "/assets/local/20260607oxATMJ.png"
+src = "/assets/screenshots/1.0.9/da/home.10d4693e6a0a.webp"
+width = 768
+height = 1567
 alt = "Skærmbillede 1 af iAssets APP"
 
 [[home.hero.fanImages]]
-src = "/assets/local/20260607x261Or.png"
+src = "/assets/screenshots/1.0.9/da/markets.c78c3805f2e7.webp"
+width = 768
+height = 1567
 alt = "Skærmbillede 2 af iAssets APP"
 
 [[home.hero.fanImages]]
-src = "/assets/local/20260607mYOA0a.png"
+src = "/assets/screenshots/1.0.9/da/assets.19cccdfcade5.webp"
+width = 768
+height = 1567
 alt = "Skærmbillede 3 af iAssets APP"
 
 [[home.hero.fanImages]]
-src = "/assets/local/20260607w1hCJY.png"
+src = "/assets/screenshots/1.0.9/da/ai.4dd4c9af9bf4.webp"
+width = 768
+height = 1567
 alt = "Skærmbillede 4 af iAssets APP"
 
 [[home.hero.fanImages]]
-src = "/assets/local/20260607oxGqYA.png"
+src = "/assets/screenshots/1.0.9/da/family.a2c2ed376246.webp"
+width = 768
+height = 1567
 alt = "Skærmbillede 5 af iAssets APP"
 
 [[home.hero.cards]]
@@ -90,15 +100,21 @@ description = "Spørg med tekst eller stemme for at finde konti, gennemgå store
 
 [home.features.showcase]
 [[home.features.showcase.images]]
-src = "/assets/local/20260607wsFhmF.png"
+src = "/assets/screenshots/1.0.9/da/insights.c88cafbcfe5e.webp"
+width = 768
+height = 1567
 alt = "Hovedskærmbillede af iAssets-funktionsvinduet"
 
 [[home.features.showcase.images]]
-src = "/assets/local/20260607oxGqYA.png"
+src = "/assets/screenshots/1.0.9/da/history.5e6dffc050aa.webp"
+width = 768
+height = 1567
 alt = "Sekundært skærmbillede af iAssets-funktionsvinduet"
 
 [[home.features.showcase.images]]
-src = "/assets/local/20260607oxATMJ.png"
+src = "/assets/screenshots/1.0.9/da/family.a2c2ed376246.webp"
+width = 768
+height = 1567
 alt = "Understøttende skærmbillede af iAssets-funktionsvinduet"
 
 [home.details]
@@ -158,23 +174,33 @@ durations = ["68s", "76s", "72s", "80s"]
 delays = ["0s", "-3s", "-8s", "-6s"]
 
 [[home.download.backdrop.images]]
-src = "/assets/local/20260607oxATMJ.png"
+src = "/assets/screenshots/1.0.9/da/home.10d4693e6a0a.webp"
+width = 768
+height = 1567
 alt = "iAssets-hentebaggrund 1"
 
 [[home.download.backdrop.images]]
-src = "/assets/local/20260607x261Or.png"
+src = "/assets/screenshots/1.0.9/da/assets.19cccdfcade5.webp"
+width = 768
+height = 1567
 alt = "iAssets-hentebaggrund 2"
 
 [[home.download.backdrop.images]]
-src = "/assets/local/20260607mYOA0a.png"
+src = "/assets/screenshots/1.0.9/da/markets.c78c3805f2e7.webp"
+width = 768
+height = 1567
 alt = "iAssets-hentebaggrund 3"
 
 [[home.download.backdrop.images]]
-src = "/assets/local/20260607w1hCJY.png"
+src = "/assets/screenshots/1.0.9/da/ai.4dd4c9af9bf4.webp"
+width = 768
+height = 1567
 alt = "iAssets-hentebaggrund 4"
 
 [[home.download.backdrop.images]]
-src = "/assets/local/20260607oxGqYA.png"
+src = "/assets/screenshots/1.0.9/da/family.a2c2ed376246.webp"
+width = 768
+height = 1567
 alt = "iAssets-hentebaggrund 5"
 
 [home.reviews]

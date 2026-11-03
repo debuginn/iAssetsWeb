@@ -10,23 +10,33 @@ title = "Τα περιουσιακά σας στοιχεία, σε μία καθ
 description = "Συγκεντρώστε λογαριασμούς, επενδύσεις και υποχρεώσεις σε μία προβολή. Καταγράψτε τις αλλαγές, ρωτήστε την ΤΝ για τα οικονομικά σας και διαχειριστείτε κοινά βιβλία με την οικογένεια."
 
 [[home.hero.fanImages]]
-src = "/assets/local/20260607oxATMJ.png"
+src = "/assets/screenshots/1.0.9/el/home.741e338e04d1.webp"
+width = 768
+height = 1567
 alt = "Στιγμιότυπο 1 της εφαρμογής iAssets"
 
 [[home.hero.fanImages]]
-src = "/assets/local/20260607x261Or.png"
+src = "/assets/screenshots/1.0.9/el/markets.f66272e2b582.webp"
+width = 768
+height = 1567
 alt = "Στιγμιότυπο 2 της εφαρμογής iAssets"
 
 [[home.hero.fanImages]]
-src = "/assets/local/20260607mYOA0a.png"
+src = "/assets/screenshots/1.0.9/el/assets.2716a8e57d42.webp"
+width = 768
+height = 1567
 alt = "Στιγμιότυπο 3 της εφαρμογής iAssets"
 
 [[home.hero.fanImages]]
-src = "/assets/local/20260607w1hCJY.png"
+src = "/assets/screenshots/1.0.9/el/ai.a70d589476f6.webp"
+width = 768
+height = 1567
 alt = "Στιγμιότυπο 4 της εφαρμογής iAssets"
 
 [[home.hero.fanImages]]
-src = "/assets/local/20260607oxGqYA.png"
+src = "/assets/screenshots/1.0.9/el/family.e8620dd0c757.webp"
+width = 768
+height = 1567
 alt = "Στιγμιότυπο 5 της εφαρμογής iAssets"
 
 [[home.hero.cards]]
@@ -90,15 +100,21 @@ description = "Ρωτήστε με κείμενο ή φωνή για να βρε
 
 [home.features.showcase]
 [[home.features.showcase.images]]
-src = "/assets/local/20260607wsFhmF.png"
+src = "/assets/screenshots/1.0.9/el/insights.245a6bc42350.webp"
+width = 768
+height = 1567
 alt = "Κύριο στιγμιότυπο της βιτρίνας λειτουργιών iAssets"
 
 [[home.features.showcase.images]]
-src = "/assets/local/20260607oxGqYA.png"
+src = "/assets/screenshots/1.0.9/el/history.abbe4efe2f98.webp"
+width = 768
+height = 1567
 alt = "Δεύτερο στιγμιότυπο της βιτρίνας λειτουργιών iAssets"
 
 [[home.features.showcase.images]]
-src = "/assets/local/20260607oxATMJ.png"
+src = "/assets/screenshots/1.0.9/el/family.e8620dd0c757.webp"
+width = 768
+height = 1567
 alt = "Υποστηρικτικό στιγμιότυπο της βιτρίνας λειτουργιών iAssets"
 
 [home.details]
@@ -158,23 +174,33 @@ durations = ["68s", "76s", "72s", "80s"]
 delays = ["0s", "-3s", "-8s", "-6s"]
 
 [[home.download.backdrop.images]]
-src = "/assets/local/20260607oxATMJ.png"
+src = "/assets/screenshots/1.0.9/el/home.741e338e04d1.webp"
+width = 768
+height = 1567
 alt = "Φόντο λήψης iAssets 1"
 
 [[home.download.backdrop.images]]
-src = "/assets/local/20260607x261Or.png"
+src = "/assets/screenshots/1.0.9/el/assets.2716a8e57d42.webp"
+width = 768
+height = 1567
 alt = "Φόντο λήψης iAssets 2"
 
 [[home.download.backdrop.images]]
-src = "/assets/local/20260607mYOA0a.png"
+src = "/assets/screenshots/1.0.9/el/markets.f66272e2b582.webp"
+width = 768
+height = 1567
 alt = "Φόντο λήψης iAssets 3"
 
 [[home.download.backdrop.images]]
-src = "/assets/local/20260607w1hCJY.png"
+src = "/assets/screenshots/1.0.9/el/ai.a70d589476f6.webp"
+width = 768
+height = 1567
 alt = "Φόντο λήψης iAssets 4"
 
 [[home.download.backdrop.images]]
-src = "/assets/local/20260607oxGqYA.png"
+src = "/assets/screenshots/1.0.9/el/family.e8620dd0c757.webp"
+width = 768
+height = 1567
 alt = "Φόντο λήψης iAssets 5"
 
 [home.reviews]

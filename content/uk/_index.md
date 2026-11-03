@@ -10,23 +10,33 @@ title = "Ваші активи в одному зрозумілому вигля
 description = "Зберіть рахунки, інвестиції та зобов’язання в одному вигляді. Записуйте зміни, запитуйте ШІ про фінанси й ведіть спільні книги з родиною."
 
 [[home.hero.fanImages]]
-src = "/assets/local/20260607oxATMJ.png"
+src = "/assets/screenshots/1.0.9/uk/home.fc78dca95e2a.webp"
+width = 768
+height = 1567
 alt = "Знімок екрана застосунку iAssets 1"
 
 [[home.hero.fanImages]]
-src = "/assets/local/20260607x261Or.png"
+src = "/assets/screenshots/1.0.9/uk/markets.68de886cc913.webp"
+width = 768
+height = 1567
 alt = "Знімок екрана застосунку iAssets 2"
 
 [[home.hero.fanImages]]
-src = "/assets/local/20260607mYOA0a.png"
+src = "/assets/screenshots/1.0.9/uk/assets.470efcdca082.webp"
+width = 768
+height = 1567
 alt = "Знімок екрана застосунку iAssets 3"
 
 [[home.hero.fanImages]]
-src = "/assets/local/20260607w1hCJY.png"
+src = "/assets/screenshots/1.0.9/uk/ai.660d96b921c7.webp"
+width = 768
+height = 1567
 alt = "Знімок екрана застосунку iAssets 4"
 
 [[home.hero.fanImages]]
-src = "/assets/local/20260607oxGqYA.png"
+src = "/assets/screenshots/1.0.9/uk/family.c23fb65d4dc3.webp"
+width = 768
+height = 1567
 alt = "Знімок екрана застосунку iAssets 5"
 
 [[home.hero.cards]]
@@ -90,15 +100,21 @@ description = "Запитуйте текстом або голосом, щоб �
 
 [home.features.showcase]
 [[home.features.showcase.images]]
-src = "/assets/local/20260607wsFhmF.png"
+src = "/assets/screenshots/1.0.9/uk/insights.0edd00136daa.webp"
+width = 768
+height = 1567
 alt = "Головний знімок вітрини можливостей iAssets"
 
 [[home.features.showcase.images]]
-src = "/assets/local/20260607oxGqYA.png"
+src = "/assets/screenshots/1.0.9/uk/history.4dbf24795bc0.webp"
+width = 768
+height = 1567
 alt = "Другий знімок вітрини можливостей iAssets"
 
 [[home.features.showcase.images]]
-src = "/assets/local/20260607oxATMJ.png"
+src = "/assets/screenshots/1.0.9/uk/family.c23fb65d4dc3.webp"
+width = 768
+height = 1567
 alt = "Додатковий знімок вітрини можливостей iAssets"
 
 [home.details]
@@ -158,23 +174,33 @@ durations = ["68s", "76s", "72s", "80s"]
 delays = ["0s", "-3s", "-8s", "-6s"]
 
 [[home.download.backdrop.images]]
-src = "/assets/local/20260607oxATMJ.png"
+src = "/assets/screenshots/1.0.9/uk/home.fc78dca95e2a.webp"
+width = 768
+height = 1567
 alt = "Тло завантаження iAssets 1"
 
 [[home.download.backdrop.images]]
-src = "/assets/local/20260607x261Or.png"
+src = "/assets/screenshots/1.0.9/uk/assets.470efcdca082.webp"
+width = 768
+height = 1567
 alt = "Тло завантаження iAssets 2"
 
 [[home.download.backdrop.images]]
-src = "/assets/local/20260607mYOA0a.png"
+src = "/assets/screenshots/1.0.9/uk/markets.68de886cc913.webp"
+width = 768
+height = 1567
 alt = "Тло завантаження iAssets 3"
 
 [[home.download.backdrop.images]]
-src = "/assets/local/20260607w1hCJY.png"
+src = "/assets/screenshots/1.0.9/uk/ai.660d96b921c7.webp"
+width = 768
+height = 1567
 alt = "Тло завантаження iAssets 4"
 
 [[home.download.backdrop.images]]
-src = "/assets/local/20260607oxGqYA.png"
+src = "/assets/screenshots/1.0.9/uk/family.c23fb65d4dc3.webp"
+width = 768
+height = 1567
 alt = "Тло завантаження iAssets 5"
 
 [home.reviews]

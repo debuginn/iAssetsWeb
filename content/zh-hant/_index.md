@@ -10,23 +10,33 @@ title = "看清資產，與家人一起管理。"
 description = "把帳戶、投資與負債放在同一張資產全景裡。記錄每次變動，用 AI 梳理資產變化，與家人共同維護帳本。"
 
 [[home.hero.fanImages]]
-src = "/assets/local/20260607pShHvR.png"
+src = "/assets/screenshots/1.0.9/zh-hant/home.a85ce3dcaffc.webp"
+width = 768
+height = 1567
 alt = "iAssets 應用截圖 1"
 
 [[home.hero.fanImages]]
-src = "/assets/local/202606073Gf3P1.png"
+src = "/assets/screenshots/1.0.9/zh-hant/markets.d9db3c773236.webp"
+width = 768
+height = 1567
 alt = "iAssets 應用截圖 2"
 
 [[home.hero.fanImages]]
-src = "/assets/local/20260607hdZQxU.png"
+src = "/assets/screenshots/1.0.9/zh-hant/assets.650d7a75cbed.webp"
+width = 768
+height = 1567
 alt = "iAssets 應用截圖 3"
 
 [[home.hero.fanImages]]
-src = "/assets/local/202606070Jqr0R.png"
+src = "/assets/screenshots/1.0.9/zh-hant/ai.de1430dd3344.webp"
+width = 768
+height = 1567
 alt = "iAssets 應用截圖 4"
 
 [[home.hero.fanImages]]
-src = "/assets/local/202606076g7SD8.png"
+src = "/assets/screenshots/1.0.9/zh-hant/family.335b3b26ef4a.webp"
+width = 768
+height = 1567
 alt = "iAssets 應用截圖 5"
 
 [[home.hero.cards]]
@@ -90,15 +100,21 @@ description = "用文字或語音查帳戶、找大額變更、總結資產變�
 
 [home.features.showcase]
 [[home.features.showcase.images]]
-src = "/assets/local/20260607wsFhmF.png"
+src = "/assets/screenshots/1.0.9/zh-hant/insights.d542abde9996.webp"
+width = 768
+height = 1567
 alt = "iAssets 功能展示主截圖"
 
 [[home.features.showcase.images]]
-src = "/assets/local/20260607pShHvR.png"
+src = "/assets/screenshots/1.0.9/zh-hant/history.70334b742ce7.webp"
+width = 768
+height = 1567
 alt = "iAssets 功能展示輔助截圖"
 
 [[home.features.showcase.images]]
-src = "/assets/local/202606076g7SD8.png"
+src = "/assets/screenshots/1.0.9/zh-hant/family.335b3b26ef4a.webp"
+width = 768
+height = 1567
 alt = "iAssets 功能展示補充截圖"
 
 [home.details]
@@ -158,23 +174,33 @@ durations = ["68s", "76s", "72s", "80s"]
 delays = ["0s", "-3s", "-8s", "-6s"]
 
 [[home.download.backdrop.images]]
-src = "/assets/local/20260607pShHvR.png"
+src = "/assets/screenshots/1.0.9/zh-hant/home.a85ce3dcaffc.webp"
+width = 768
+height = 1567
 alt = "iAssets 下載背景 1"
 
 [[home.download.backdrop.images]]
-src = "/assets/local/202606073Gf3P1.png"
+src = "/assets/screenshots/1.0.9/zh-hant/assets.650d7a75cbed.webp"
+width = 768
+height = 1567
 alt = "iAssets 下載背景 2"
 
 [[home.download.backdrop.images]]
-src = "/assets/local/20260607hdZQxU.png"
+src = "/assets/screenshots/1.0.9/zh-hant/markets.d9db3c773236.webp"
+width = 768
+height = 1567
 alt = "iAssets 下載背景 3"
 
 [[home.download.backdrop.images]]
-src = "/assets/local/202606070Jqr0R.png"
+src = "/assets/screenshots/1.0.9/zh-hant/ai.de1430dd3344.webp"
+width = 768
+height = 1567
 alt = "iAssets 下載背景 4"
 
 [[home.download.backdrop.images]]
-src = "/assets/local/202606076g7SD8.png"
+src = "/assets/screenshots/1.0.9/zh-hant/family.335b3b26ef4a.webp"
+width = 768
+height = 1567
 alt = "iAssets 下載背景 5"
 
 [home.reviews]

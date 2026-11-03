@@ -10,23 +10,33 @@ title = "Omaisuutesi yhdessä selkeässä näkymässä."
 description = "Tuo tilit, sijoitukset ja velat yhteen näkymään. Kirjaa muutokset, kysy tekoälyltä taloudestasi ja hallitse jaettuja kirjoja perheen kanssa."
 
 [[home.hero.fanImages]]
-src = "/assets/local/20260607oxATMJ.png"
+src = "/assets/screenshots/1.0.9/fi/home.3dd50fce932f.webp"
+width = 768
+height = 1567
 alt = "iAssets APP -kuvakaappaus 1"
 
 [[home.hero.fanImages]]
-src = "/assets/local/20260607x261Or.png"
+src = "/assets/screenshots/1.0.9/fi/markets.e5a7777de0c0.webp"
+width = 768
+height = 1567
 alt = "iAssets APP -kuvakaappaus 2"
 
 [[home.hero.fanImages]]
-src = "/assets/local/20260607mYOA0a.png"
+src = "/assets/screenshots/1.0.9/fi/assets.53224fdd0970.webp"
+width = 768
+height = 1567
 alt = "iAssets APP -kuvakaappaus 3"
 
 [[home.hero.fanImages]]
-src = "/assets/local/20260607w1hCJY.png"
+src = "/assets/screenshots/1.0.9/fi/ai.f20675f8fa12.webp"
+width = 768
+height = 1567
 alt = "iAssets APP -kuvakaappaus 4"
 
 [[home.hero.fanImages]]
-src = "/assets/local/20260607oxGqYA.png"
+src = "/assets/screenshots/1.0.9/fi/family.319d97bb2450.webp"
+width = 768
+height = 1567
 alt = "iAssets APP -kuvakaappaus 5"
 
 [[home.hero.cards]]
@@ -90,15 +100,21 @@ description = "Kysy tekstillä tai äänellä, jotta löydät tilejä, tarkastel
 
 [home.features.showcase]
 [[home.features.showcase.images]]
-src = "/assets/local/20260607wsFhmF.png"
+src = "/assets/screenshots/1.0.9/fi/insights.2ccf2b223667.webp"
+width = 768
+height = 1567
 alt = "iAssets-ominaisuusvitriinin pääkuvakaappaus"
 
 [[home.features.showcase.images]]
-src = "/assets/local/20260607oxGqYA.png"
+src = "/assets/screenshots/1.0.9/fi/history.06f56011beb4.webp"
+width = 768
+height = 1567
 alt = "iAssets-ominaisuusvitriinin toinen kuvakaappaus"
 
 [[home.features.showcase.images]]
-src = "/assets/local/20260607oxATMJ.png"
+src = "/assets/screenshots/1.0.9/fi/family.319d97bb2450.webp"
+width = 768
+height = 1567
 alt = "iAssets-ominaisuusvitriinin tukikuvakaappaus"
 
 [home.details]
@@ -158,23 +174,33 @@ durations = ["68s", "76s", "72s", "80s"]
 delays = ["0s", "-3s", "-8s", "-6s"]
 
 [[home.download.backdrop.images]]
-src = "/assets/local/20260607oxATMJ.png"
+src = "/assets/screenshots/1.0.9/fi/home.3dd50fce932f.webp"
+width = 768
+height = 1567
 alt = "iAssets-lataustausta 1"
 
 [[home.download.backdrop.images]]
-src = "/assets/local/20260607x261Or.png"
+src = "/assets/screenshots/1.0.9/fi/assets.53224fdd0970.webp"
+width = 768
+height = 1567
 alt = "iAssets-lataustausta 2"
 
 [[home.download.backdrop.images]]
-src = "/assets/local/20260607mYOA0a.png"
+src = "/assets/screenshots/1.0.9/fi/markets.e5a7777de0c0.webp"
+width = 768
+height = 1567
 alt = "iAssets-lataustausta 3"
 
 [[home.download.backdrop.images]]
-src = "/assets/local/20260607w1hCJY.png"
+src = "/assets/screenshots/1.0.9/fi/ai.f20675f8fa12.webp"
+width = 768
+height = 1567
 alt = "iAssets-lataustausta 4"
 
 [[home.download.backdrop.images]]
-src = "/assets/local/20260607oxGqYA.png"
+src = "/assets/screenshots/1.0.9/fi/family.319d97bb2450.webp"
+width = 768
+height = 1567
 alt = "iAssets-lataustausta 5"
 
 [home.reviews]

@@ -10,23 +10,33 @@ title = "看清资产，与家人一起管理。"
 description = "把账户、投资与负债放在同一张资产全景里。记录每次变动，用 AI 梳理资产变化，与家人共同维护账本。"
 
 [[home.hero.fanImages]]
-src = "/assets/local/20260607bKUTA5.png"
+src = "/assets/screenshots/1.0.9/zh/home.fa756e329786.webp"
+width = 768
+height = 1567
 alt = "知盈 应用截图 1"
 
 [[home.hero.fanImages]]
-src = "/assets/screenshots/iassets-261005-stock-search.png"
+src = "/assets/screenshots/1.0.9/zh/markets.b028c5d8a8d0.webp"
+width = 768
+height = 1567
 alt = "知盈 应用截图 2"
 
 [[home.hero.fanImages]]
-src = "/assets/local/20260607RB4DlU.png"
+src = "/assets/screenshots/1.0.9/zh/assets.e02eed1ee0e8.webp"
+width = 768
+height = 1567
 alt = "知盈 应用截图 3"
 
 [[home.hero.fanImages]]
-src = "/assets/local/20260607Z4kek6.png"
+src = "/assets/screenshots/1.0.9/zh/ai.28d93c3e1282.webp"
+width = 768
+height = 1567
 alt = "知盈 应用截图 4"
 
 [[home.hero.fanImages]]
-src = "/assets/local/20260607qszD9v.png"
+src = "/assets/screenshots/1.0.9/zh/family.80093b59f776.webp"
+width = 768
+height = 1567
 alt = "知盈 应用截图 5"
 
 [[home.hero.cards]]
@@ -90,15 +100,21 @@ description = "用文字或语音查账户、找大额变更、总结资产变�
 
 [home.features.showcase]
 [[home.features.showcase.images]]
-src = "/assets/local/20260607wsFhmF.png"
+src = "/assets/screenshots/1.0.9/zh/insights.f5faf462006d.webp"
+width = 768
+height = 1567
 alt = "知盈 功能展示主截图"
 
 [[home.features.showcase.images]]
-src = "/assets/local/20260607bKUTA5.png"
+src = "/assets/screenshots/1.0.9/zh/history.32773f4c1f53.webp"
+width = 768
+height = 1567
 alt = "知盈 功能展示辅助截图"
 
 [[home.features.showcase.images]]
-src = "/assets/screenshots/iassets-261005-family-sharing.png"
+src = "/assets/screenshots/1.0.9/zh/family.80093b59f776.webp"
+width = 768
+height = 1567
 alt = "知盈 家庭账本共享截图"
 
 [home.details]
@@ -158,23 +174,33 @@ durations = ["68s", "76s", "72s", "80s"]
 delays = ["0s", "-3s", "-8s", "-6s"]
 
 [[home.download.backdrop.images]]
-src = "/assets/local/20260607bKUTA5.png"
+src = "/assets/screenshots/1.0.9/zh/home.fa756e329786.webp"
+width = 768
+height = 1567
 alt = "知盈 下载背景 1"
 
 [[home.download.backdrop.images]]
-src = "/assets/local/20260607RB4DlU.png"
+src = "/assets/screenshots/1.0.9/zh/assets.e02eed1ee0e8.webp"
+width = 768
+height = 1567
 alt = "知盈 下载背景 2"
 
 [[home.download.backdrop.images]]
-src = "/assets/screenshots/iassets-261005-stock-search.png"
+src = "/assets/screenshots/1.0.9/zh/markets.b028c5d8a8d0.webp"
+width = 768
+height = 1567
 alt = "知盈 下载背景 3"
 
 [[home.download.backdrop.images]]
-src = "/assets/local/20260607Z4kek6.png"
+src = "/assets/screenshots/1.0.9/zh/ai.28d93c3e1282.webp"
+width = 768
+height = 1567
 alt = "知盈 下载背景 4"
 
 [[home.download.backdrop.images]]
-src = "/assets/local/20260607qszD9v.png"
+src = "/assets/screenshots/1.0.9/zh/family.80093b59f776.webp"
+width = 768
+height = 1567
 alt = "知盈 下载背景 5"
 
 [home.reviews]

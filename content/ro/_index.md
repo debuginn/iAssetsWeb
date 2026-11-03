@@ -10,23 +10,33 @@ title = "Activele tale, într-o vedere clară."
 description = "Adu conturile, investițiile și datoriile într-o singură vedere. Înregistrează schimbările, întreabă IA despre finanțe și administrează registre partajate cu familia."
 
 [[home.hero.fanImages]]
-src = "/assets/local/20260607oxATMJ.png"
+src = "/assets/screenshots/1.0.9/ro/home.ec6949b0ae21.webp"
+width = 768
+height = 1567
 alt = "Captură 1 a APP iAssets"
 
 [[home.hero.fanImages]]
-src = "/assets/local/20260607x261Or.png"
+src = "/assets/screenshots/1.0.9/ro/markets.fa81e3a02ec3.webp"
+width = 768
+height = 1567
 alt = "Captură 2 a APP iAssets"
 
 [[home.hero.fanImages]]
-src = "/assets/local/20260607mYOA0a.png"
+src = "/assets/screenshots/1.0.9/ro/assets.08253c26999c.webp"
+width = 768
+height = 1567
 alt = "Captură 3 a APP iAssets"
 
 [[home.hero.fanImages]]
-src = "/assets/local/20260607w1hCJY.png"
+src = "/assets/screenshots/1.0.9/ro/ai.fbee7b0ddb6e.webp"
+width = 768
+height = 1567
 alt = "Captură 4 a APP iAssets"
 
 [[home.hero.fanImages]]
-src = "/assets/local/20260607oxGqYA.png"
+src = "/assets/screenshots/1.0.9/ro/family.f912d759c54c.webp"
+width = 768
+height = 1567
 alt = "Captură 5 a APP iAssets"
 
 [[home.hero.cards]]
@@ -90,15 +100,21 @@ description = "Întreabă prin text sau voce ca să găsești conturi, să reviz
 
 [home.features.showcase]
 [[home.features.showcase.images]]
-src = "/assets/local/20260607wsFhmF.png"
+src = "/assets/screenshots/1.0.9/ro/insights.87c92936a144.webp"
+width = 768
+height = 1567
 alt = "Captura principală a vitrinei de funcții iAssets"
 
 [[home.features.showcase.images]]
-src = "/assets/local/20260607oxGqYA.png"
+src = "/assets/screenshots/1.0.9/ro/history.30ca77c9cb01.webp"
+width = 768
+height = 1567
 alt = "Captura secundară a vitrinei de funcții iAssets"
 
 [[home.features.showcase.images]]
-src = "/assets/local/20260607oxATMJ.png"
+src = "/assets/screenshots/1.0.9/ro/family.f912d759c54c.webp"
+width = 768
+height = 1567
 alt = "Captura de sprijin a vitrinei de funcții iAssets"
 
 [home.details]
@@ -158,23 +174,33 @@ durations = ["68s", "76s", "72s", "80s"]
 delays = ["0s", "-3s", "-8s", "-6s"]
 
 [[home.download.backdrop.images]]
-src = "/assets/local/20260607oxATMJ.png"
+src = "/assets/screenshots/1.0.9/ro/home.ec6949b0ae21.webp"
+width = 768
+height = 1567
 alt = "Fundal de descărcare iAssets 1"
 
 [[home.download.backdrop.images]]
-src = "/assets/local/20260607x261Or.png"
+src = "/assets/screenshots/1.0.9/ro/assets.08253c26999c.webp"
+width = 768
+height = 1567
 alt = "Fundal de descărcare iAssets 2"
 
 [[home.download.backdrop.images]]
-src = "/assets/local/20260607mYOA0a.png"
+src = "/assets/screenshots/1.0.9/ro/markets.fa81e3a02ec3.webp"
+width = 768
+height = 1567
 alt = "Fundal de descărcare iAssets 3"
 
 [[home.download.backdrop.images]]
-src = "/assets/local/20260607w1hCJY.png"
+src = "/assets/screenshots/1.0.9/ro/ai.fbee7b0ddb6e.webp"
+width = 768
+height = 1567
 alt = "Fundal de descărcare iAssets 4"
 
 [[home.download.backdrop.images]]
-src = "/assets/local/20260607oxGqYA.png"
+src = "/assets/screenshots/1.0.9/ro/family.f912d759c54c.webp"
+width = 768
+height = 1567
 alt = "Fundal de descărcare iAssets 5"
 
 [home.reviews]

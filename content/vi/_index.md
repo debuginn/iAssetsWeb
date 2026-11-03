@@ -10,23 +10,33 @@ title = "Tài sản của bạn, trong một góc nhìn rõ ràng."
 description = "Đưa tài khoản, khoản đầu tư và nợ phải trả vào một góc nhìn. Ghi lại thay đổi, hỏi AI về tài chính và quản lý sổ chung với gia đình."
 
 [[home.hero.fanImages]]
-src = "/assets/local/20260607oxATMJ.png"
+src = "/assets/screenshots/1.0.9/vi/home.f45d3470ab97.webp"
+width = 768
+height = 1567
 alt = "Ảnh chụp màn hình 1 của APP iAssets"
 
 [[home.hero.fanImages]]
-src = "/assets/local/20260607x261Or.png"
+src = "/assets/screenshots/1.0.9/vi/markets.785e14bfc682.webp"
+width = 768
+height = 1567
 alt = "Ảnh chụp màn hình 2 của APP iAssets"
 
 [[home.hero.fanImages]]
-src = "/assets/local/20260607mYOA0a.png"
+src = "/assets/screenshots/1.0.9/vi/assets.913b28e33b7f.webp"
+width = 768
+height = 1567
 alt = "Ảnh chụp màn hình 3 của APP iAssets"
 
 [[home.hero.fanImages]]
-src = "/assets/local/20260607w1hCJY.png"
+src = "/assets/screenshots/1.0.9/vi/ai.40ee17020cf2.webp"
+width = 768
+height = 1567
 alt = "Ảnh chụp màn hình 4 của APP iAssets"
 
 [[home.hero.fanImages]]
-src = "/assets/local/20260607oxGqYA.png"
+src = "/assets/screenshots/1.0.9/vi/family.9aa229f3a1f1.webp"
+width = 768
+height = 1567
 alt = "Ảnh chụp màn hình 5 của APP iAssets"
 
 [[home.hero.cards]]
@@ -90,15 +100,21 @@ description = "Hỏi bằng chữ hoặc giọng nói để tìm tài khoản, x
 
 [home.features.showcase]
 [[home.features.showcase.images]]
-src = "/assets/local/20260607wsFhmF.png"
+src = "/assets/screenshots/1.0.9/vi/insights.72a7d73aa807.webp"
+width = 768
+height = 1567
 alt = "Ảnh chính của khu trưng bày tính năng iAssets"
 
 [[home.features.showcase.images]]
-src = "/assets/local/20260607oxGqYA.png"
+src = "/assets/screenshots/1.0.9/vi/history.8559b1b28423.webp"
+width = 768
+height = 1567
 alt = "Ảnh phụ của khu trưng bày tính năng iAssets"
 
 [[home.features.showcase.images]]
-src = "/assets/local/20260607oxATMJ.png"
+src = "/assets/screenshots/1.0.9/vi/family.9aa229f3a1f1.webp"
+width = 768
+height = 1567
 alt = "Ảnh hỗ trợ của khu trưng bày tính năng iAssets"
 
 [home.details]
@@ -158,23 +174,33 @@ durations = ["68s", "76s", "72s", "80s"]
 delays = ["0s", "-3s", "-8s", "-6s"]
 
 [[home.download.backdrop.images]]
-src = "/assets/local/20260607oxATMJ.png"
+src = "/assets/screenshots/1.0.9/vi/home.f45d3470ab97.webp"
+width = 768
+height = 1567
 alt = "Nền tải xuống iAssets 1"
 
 [[home.download.backdrop.images]]
-src = "/assets/local/20260607x261Or.png"
+src = "/assets/screenshots/1.0.9/vi/assets.913b28e33b7f.webp"
+width = 768
+height = 1567
 alt = "Nền tải xuống iAssets 2"
 
 [[home.download.backdrop.images]]
-src = "/assets/local/20260607mYOA0a.png"
+src = "/assets/screenshots/1.0.9/vi/markets.785e14bfc682.webp"
+width = 768
+height = 1567
 alt = "Nền tải xuống iAssets 3"
 
 [[home.download.backdrop.images]]
-src = "/assets/local/20260607w1hCJY.png"
+src = "/assets/screenshots/1.0.9/vi/ai.40ee17020cf2.webp"
+width = 768
+height = 1567
 alt = "Nền tải xuống iAssets 4"
 
 [[home.download.backdrop.images]]
-src = "/assets/local/20260607oxGqYA.png"
+src = "/assets/screenshots/1.0.9/vi/family.9aa229f3a1f1.webp"
+width = 768
+height = 1567
 alt = "Nền tải xuống iAssets 5"
 
 [home.reviews]

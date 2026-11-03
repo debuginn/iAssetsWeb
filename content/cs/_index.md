@@ -10,23 +10,33 @@ title = "Vaše aktiva v jednom přehledném zobrazení."
 description = "Spojte účty, investice a závazky do jednoho zobrazení. Zaznamenávejte změny, ptejte se AI na své finance a spravujte sdílené knihy s rodinou."
 
 [[home.hero.fanImages]]
-src = "/assets/local/20260607oxATMJ.png"
+src = "/assets/screenshots/1.0.9/cs/home.3f25e2fce4e6.webp"
+width = 768
+height = 1567
 alt = "Snímek 1 APP iAssets"
 
 [[home.hero.fanImages]]
-src = "/assets/local/20260607x261Or.png"
+src = "/assets/screenshots/1.0.9/cs/markets.fd9b1bcb6bd9.webp"
+width = 768
+height = 1567
 alt = "Snímek 2 APP iAssets"
 
 [[home.hero.fanImages]]
-src = "/assets/local/20260607mYOA0a.png"
+src = "/assets/screenshots/1.0.9/cs/assets.b553261ac057.webp"
+width = 768
+height = 1567
 alt = "Snímek 3 APP iAssets"
 
 [[home.hero.fanImages]]
-src = "/assets/local/20260607w1hCJY.png"
+src = "/assets/screenshots/1.0.9/cs/ai.2f8983bdd2a3.webp"
+width = 768
+height = 1567
 alt = "Snímek 4 APP iAssets"
 
 [[home.hero.fanImages]]
-src = "/assets/local/20260607oxGqYA.png"
+src = "/assets/screenshots/1.0.9/cs/family.26f47e27541c.webp"
+width = 768
+height = 1567
 alt = "Snímek 5 APP iAssets"
 
 [[home.hero.cards]]
@@ -90,15 +100,21 @@ description = "Ptejte se textem nebo hlasem, abyste našli účty, zkontrolovali
 
 [home.features.showcase]
 [[home.features.showcase.images]]
-src = "/assets/local/20260607wsFhmF.png"
+src = "/assets/screenshots/1.0.9/cs/insights.aaec6fec7f77.webp"
+width = 768
+height = 1567
 alt = "Hlavní snímek přehlídky funkcí iAssets"
 
 [[home.features.showcase.images]]
-src = "/assets/local/20260607oxGqYA.png"
+src = "/assets/screenshots/1.0.9/cs/history.7e8dae8e9576.webp"
+width = 768
+height = 1567
 alt = "Druhý snímek přehlídky funkcí iAssets"
 
 [[home.features.showcase.images]]
-src = "/assets/local/20260607oxATMJ.png"
+src = "/assets/screenshots/1.0.9/cs/family.26f47e27541c.webp"
+width = 768
+height = 1567
 alt = "Doplňkový snímek přehlídky funkcí iAssets"
 
 [home.details]
@@ -158,23 +174,33 @@ durations = ["68s", "76s", "72s", "80s"]
 delays = ["0s", "-3s", "-8s", "-6s"]
 
 [[home.download.backdrop.images]]
-src = "/assets/local/20260607oxATMJ.png"
+src = "/assets/screenshots/1.0.9/cs/home.3f25e2fce4e6.webp"
+width = 768
+height = 1567
 alt = "Pozadí stahování iAssets 1"
 
 [[home.download.backdrop.images]]
-src = "/assets/local/20260607x261Or.png"
+src = "/assets/screenshots/1.0.9/cs/assets.b553261ac057.webp"
+width = 768
+height = 1567
 alt = "Pozadí stahování iAssets 2"
 
 [[home.download.backdrop.images]]
-src = "/assets/local/20260607mYOA0a.png"
+src = "/assets/screenshots/1.0.9/cs/markets.fd9b1bcb6bd9.webp"
+width = 768
+height = 1567
 alt = "Pozadí stahování iAssets 3"
 
 [[home.download.backdrop.images]]
-src = "/assets/local/20260607w1hCJY.png"
+src = "/assets/screenshots/1.0.9/cs/ai.2f8983bdd2a3.webp"
+width = 768
+height = 1567
 alt = "Pozadí stahování iAssets 4"
 
 [[home.download.backdrop.images]]
-src = "/assets/local/20260607oxGqYA.png"
+src = "/assets/screenshots/1.0.9/cs/family.26f47e27541c.webp"
+width = 768
+height = 1567
 alt = "Pozadí stahování iAssets 5"
 
 [home.reviews]

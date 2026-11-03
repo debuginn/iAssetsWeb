@@ -10,23 +10,33 @@ title = "เห็นสินทรัพย์ได้ชัดเจนใ�
 description = "รวมบัญชี การลงทุน และหนี้สินไว้ในมุมมองเดียว บันทึกการเปลี่ยนแปลง ถาม AI เกี่ยวกับการเงิน และจัดการสมุดบัญชีที่แชร์กับครอบครัว"
 
 [[home.hero.fanImages]]
-src = "/assets/local/20260607oxATMJ.png"
+src = "/assets/screenshots/1.0.9/th/home.a84f311cdf47.webp"
+width = 768
+height = 1567
 alt = "ภาพหน้าจอแอป iAssets 1"
 
 [[home.hero.fanImages]]
-src = "/assets/local/20260607x261Or.png"
+src = "/assets/screenshots/1.0.9/th/markets.ebb50f9cfbd9.webp"
+width = 768
+height = 1567
 alt = "ภาพหน้าจอแอป iAssets 2"
 
 [[home.hero.fanImages]]
-src = "/assets/local/20260607mYOA0a.png"
+src = "/assets/screenshots/1.0.9/th/assets.d21c1eee25c0.webp"
+width = 768
+height = 1567
 alt = "ภาพหน้าจอแอป iAssets 3"
 
 [[home.hero.fanImages]]
-src = "/assets/local/20260607w1hCJY.png"
+src = "/assets/screenshots/1.0.9/th/ai.b96625a5de4e.webp"
+width = 768
+height = 1567
 alt = "ภาพหน้าจอแอป iAssets 4"
 
 [[home.hero.fanImages]]
-src = "/assets/local/20260607oxGqYA.png"
+src = "/assets/screenshots/1.0.9/th/family.554ca1174164.webp"
+width = 768
+height = 1567
 alt = "ภาพหน้าจอแอป iAssets 5"
 
 [[home.hero.cards]]
@@ -90,15 +100,21 @@ description = "ถามด้วยข้อความหรือเสี�
 
 [home.features.showcase]
 [[home.features.showcase.images]]
-src = "/assets/local/20260607wsFhmF.png"
+src = "/assets/screenshots/1.0.9/th/insights.55b992a93043.webp"
+width = 768
+height = 1567
 alt = "ภาพหลักของโชว์เคสคุณสมบัติ iAssets"
 
 [[home.features.showcase.images]]
-src = "/assets/local/20260607oxGqYA.png"
+src = "/assets/screenshots/1.0.9/th/history.9a612f951ff9.webp"
+width = 768
+height = 1567
 alt = "ภาพรองของโชว์เคสคุณสมบัติ iAssets"
 
 [[home.features.showcase.images]]
-src = "/assets/local/20260607oxATMJ.png"
+src = "/assets/screenshots/1.0.9/th/family.554ca1174164.webp"
+width = 768
+height = 1567
 alt = "ภาพประกอบของโชว์เคสคุณสมบัติ iAssets"
 
 [home.details]
@@ -158,23 +174,33 @@ durations = ["68s", "76s", "72s", "80s"]
 delays = ["0s", "-3s", "-8s", "-6s"]
 
 [[home.download.backdrop.images]]
-src = "/assets/local/20260607oxATMJ.png"
+src = "/assets/screenshots/1.0.9/th/home.a84f311cdf47.webp"
+width = 768
+height = 1567
 alt = "พื้นหลังดาวน์โหลด iAssets 1"
 
 [[home.download.backdrop.images]]
-src = "/assets/local/20260607x261Or.png"
+src = "/assets/screenshots/1.0.9/th/assets.d21c1eee25c0.webp"
+width = 768
+height = 1567
 alt = "พื้นหลังดาวน์โหลด iAssets 2"
 
 [[home.download.backdrop.images]]
-src = "/assets/local/20260607mYOA0a.png"
+src = "/assets/screenshots/1.0.9/th/markets.ebb50f9cfbd9.webp"
+width = 768
+height = 1567
 alt = "พื้นหลังดาวน์โหลด iAssets 3"
 
 [[home.download.backdrop.images]]
-src = "/assets/local/20260607w1hCJY.png"
+src = "/assets/screenshots/1.0.9/th/ai.b96625a5de4e.webp"
+width = 768
+height = 1567
 alt = "พื้นหลังดาวน์โหลด iAssets 4"
 
 [[home.download.backdrop.images]]
-src = "/assets/local/20260607oxGqYA.png"
+src = "/assets/screenshots/1.0.9/th/family.554ca1174164.webp"
+width = 768
+height = 1567
 alt = "พื้นหลังดาวน์โหลด iAssets 5"
 
 [home.reviews]

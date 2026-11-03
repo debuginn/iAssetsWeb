@@ -10,23 +10,33 @@ title = "Varlıklarınız, tek bir net görünümde."
 description = "Hesapları, yatırımları ve borçları tek görünümde toplayın. Değişiklikleri kaydedin, mali durumunuz hakkında yapay zekâya sorun ve ailenizle paylaşılan defterleri yönetin."
 
 [[home.hero.fanImages]]
-src = "/assets/local/20260607oxATMJ.png"
+src = "/assets/screenshots/1.0.9/tr/home.3136cc877265.webp"
+width = 768
+height = 1567
 alt = "iAssets APP ekran görüntüsü 1"
 
 [[home.hero.fanImages]]
-src = "/assets/local/20260607x261Or.png"
+src = "/assets/screenshots/1.0.9/tr/markets.40e2f31eb1b3.webp"
+width = 768
+height = 1567
 alt = "iAssets APP ekran görüntüsü 2"
 
 [[home.hero.fanImages]]
-src = "/assets/local/20260607mYOA0a.png"
+src = "/assets/screenshots/1.0.9/tr/assets.f3585bf121b5.webp"
+width = 768
+height = 1567
 alt = "iAssets APP ekran görüntüsü 3"
 
 [[home.hero.fanImages]]
-src = "/assets/local/20260607w1hCJY.png"
+src = "/assets/screenshots/1.0.9/tr/ai.edc3ca910315.webp"
+width = 768
+height = 1567
 alt = "iAssets APP ekran görüntüsü 4"
 
 [[home.hero.fanImages]]
-src = "/assets/local/20260607oxGqYA.png"
+src = "/assets/screenshots/1.0.9/tr/family.8c6bc37ab186.webp"
+width = 768
+height = 1567
 alt = "iAssets APP ekran görüntüsü 5"
 
 [[home.hero.cards]]
@@ -90,15 +100,21 @@ description = "Hesap bulmak, büyük değişiklikleri incelemek veya mali durumu
 
 [home.features.showcase]
 [[home.features.showcase.images]]
-src = "/assets/local/20260607wsFhmF.png"
+src = "/assets/screenshots/1.0.9/tr/insights.0584b1bd9f8c.webp"
+width = 768
+height = 1567
 alt = "iAssets özellik vitrini ana ekran görüntüsü"
 
 [[home.features.showcase.images]]
-src = "/assets/local/20260607oxGqYA.png"
+src = "/assets/screenshots/1.0.9/tr/history.2ebbdcb98a69.webp"
+width = 768
+height = 1567
 alt = "iAssets özellik vitrini ikinci ekran görüntüsü"
 
 [[home.features.showcase.images]]
-src = "/assets/local/20260607oxATMJ.png"
+src = "/assets/screenshots/1.0.9/tr/family.8c6bc37ab186.webp"
+width = 768
+height = 1567
 alt = "iAssets özellik vitrini destekleyici ekran görüntüsü"
 
 [home.details]
@@ -158,23 +174,33 @@ durations = ["68s", "76s", "72s", "80s"]
 delays = ["0s", "-3s", "-8s", "-6s"]
 
 [[home.download.backdrop.images]]
-src = "/assets/local/20260607oxATMJ.png"
+src = "/assets/screenshots/1.0.9/tr/home.3136cc877265.webp"
+width = 768
+height = 1567
 alt = "iAssets indirme arka planı 1"
 
 [[home.download.backdrop.images]]
-src = "/assets/local/20260607x261Or.png"
+src = "/assets/screenshots/1.0.9/tr/assets.f3585bf121b5.webp"
+width = 768
+height = 1567
 alt = "iAssets indirme arka planı 2"
 
 [[home.download.backdrop.images]]
-src = "/assets/local/20260607mYOA0a.png"
+src = "/assets/screenshots/1.0.9/tr/markets.40e2f31eb1b3.webp"
+width = 768
+height = 1567
 alt = "iAssets indirme arka planı 3"
 
 [[home.download.backdrop.images]]
-src = "/assets/local/20260607w1hCJY.png"
+src = "/assets/screenshots/1.0.9/tr/ai.edc3ca910315.webp"
+width = 768
+height = 1567
 alt = "iAssets indirme arka planı 4"
 
 [[home.download.backdrop.images]]
-src = "/assets/local/20260607oxGqYA.png"
+src = "/assets/screenshots/1.0.9/tr/family.8c6bc37ab186.webp"
+width = 768
+height = 1567
 alt = "iAssets indirme arka planı 5"
 
 [home.reviews]

@@ -10,23 +10,33 @@ title = "I tuoi asset, in una vista chiara."
 description = "Riunisci conti, investimenti e passività in un'unica vista. Registra le variazioni, chiedi all'IA delle tue finanze e gestisci libri condivisi con la famiglia."
 
 [[home.hero.fanImages]]
-src = "/assets/local/20260607oxATMJ.png"
+src = "/assets/screenshots/1.0.9/it/home.f3bbc83f59d7.webp"
+width = 768
+height = 1567
 alt = "Schermata 1 dell'APP iAssets"
 
 [[home.hero.fanImages]]
-src = "/assets/local/20260607x261Or.png"
+src = "/assets/screenshots/1.0.9/it/markets.16fa08caaf49.webp"
+width = 768
+height = 1567
 alt = "Schermata 2 dell'APP iAssets"
 
 [[home.hero.fanImages]]
-src = "/assets/local/20260607mYOA0a.png"
+src = "/assets/screenshots/1.0.9/it/assets.b1db0fabc4ec.webp"
+width = 768
+height = 1567
 alt = "Schermata 3 dell'APP iAssets"
 
 [[home.hero.fanImages]]
-src = "/assets/local/20260607w1hCJY.png"
+src = "/assets/screenshots/1.0.9/it/ai.c08f1bbb9a3b.webp"
+width = 768
+height = 1567
 alt = "Schermata 4 dell'APP iAssets"
 
 [[home.hero.fanImages]]
-src = "/assets/local/20260607oxGqYA.png"
+src = "/assets/screenshots/1.0.9/it/family.264f187a52a4.webp"
+width = 768
+height = 1567
 alt = "Schermata 5 dell'APP iAssets"
 
 [[home.hero.cards]]
@@ -90,15 +100,21 @@ description = "Chiedi via testo o voce per trovare conti, rivedere variazioni am
 
 [home.features.showcase]
 [[home.features.showcase.images]]
-src = "/assets/local/20260607wsFhmF.png"
+src = "/assets/screenshots/1.0.9/it/insights.328767f1f19e.webp"
+width = 768
+height = 1567
 alt = "Schermata principale della vetrina funzioni iAssets"
 
 [[home.features.showcase.images]]
-src = "/assets/local/20260607oxGqYA.png"
+src = "/assets/screenshots/1.0.9/it/history.6e455f745768.webp"
+width = 768
+height = 1567
 alt = "Schermata secondaria della vetrina funzioni iAssets"
 
 [[home.features.showcase.images]]
-src = "/assets/local/20260607oxATMJ.png"
+src = "/assets/screenshots/1.0.9/it/family.264f187a52a4.webp"
+width = 768
+height = 1567
 alt = "Schermata di supporto della vetrina funzioni iAssets"
 
 [home.details]
@@ -158,23 +174,33 @@ durations = ["68s", "76s", "72s", "80s"]
 delays = ["0s", "-3s", "-8s", "-6s"]
 
 [[home.download.backdrop.images]]
-src = "/assets/local/20260607oxATMJ.png"
+src = "/assets/screenshots/1.0.9/it/home.f3bbc83f59d7.webp"
+width = 768
+height = 1567
 alt = "Sfondo download iAssets 1"
 
 [[home.download.backdrop.images]]
-src = "/assets/local/20260607x261Or.png"
+src = "/assets/screenshots/1.0.9/it/assets.b1db0fabc4ec.webp"
+width = 768
+height = 1567
 alt = "Sfondo download iAssets 2"
 
 [[home.download.backdrop.images]]
-src = "/assets/local/20260607mYOA0a.png"
+src = "/assets/screenshots/1.0.9/it/markets.16fa08caaf49.webp"
+width = 768
+height = 1567
 alt = "Sfondo download iAssets 3"
 
 [[home.download.backdrop.images]]
-src = "/assets/local/20260607w1hCJY.png"
+src = "/assets/screenshots/1.0.9/it/ai.c08f1bbb9a3b.webp"
+width = 768
+height = 1567
 alt = "Sfondo download iAssets 4"
 
 [[home.download.backdrop.images]]
-src = "/assets/local/20260607oxGqYA.png"
+src = "/assets/screenshots/1.0.9/it/family.264f187a52a4.webp"
+width = 768
+height = 1567
 alt = "Sfondo download iAssets 5"
 
 [home.reviews]

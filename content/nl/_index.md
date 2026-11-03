@@ -10,23 +10,33 @@ title = "Je bezittingen, in één duidelijk overzicht."
 description = "Breng rekeningen, beleggingen en schulden samen in één overzicht. Leg wijzigingen vast, vraag AI naar je financiën en beheer gedeelde boeken met je gezin."
 
 [[home.hero.fanImages]]
-src = "/assets/local/20260607oxATMJ.png"
+src = "/assets/screenshots/1.0.9/nl/home.b660cf7aa97e.webp"
+width = 768
+height = 1567
 alt = "Schermafbeelding 1 van de iAssets APP"
 
 [[home.hero.fanImages]]
-src = "/assets/local/20260607x261Or.png"
+src = "/assets/screenshots/1.0.9/nl/markets.931aa21d270e.webp"
+width = 768
+height = 1567
 alt = "Schermafbeelding 2 van de iAssets APP"
 
 [[home.hero.fanImages]]
-src = "/assets/local/20260607mYOA0a.png"
+src = "/assets/screenshots/1.0.9/nl/assets.a63b6192af68.webp"
+width = 768
+height = 1567
 alt = "Schermafbeelding 3 van de iAssets APP"
 
 [[home.hero.fanImages]]
-src = "/assets/local/20260607w1hCJY.png"
+src = "/assets/screenshots/1.0.9/nl/ai.227738c10e2c.webp"
+width = 768
+height = 1567
 alt = "Schermafbeelding 4 van de iAssets APP"
 
 [[home.hero.fanImages]]
-src = "/assets/local/20260607oxGqYA.png"
+src = "/assets/screenshots/1.0.9/nl/family.0b507e872be4.webp"
+width = 768
+height = 1567
 alt = "Schermafbeelding 5 van de iAssets APP"
 
 [[home.hero.cards]]
@@ -90,15 +100,21 @@ description = "Vraag via tekst of spraak om rekeningen te vinden, grote wijzigin
 
 [home.features.showcase]
 [[home.features.showcase.images]]
-src = "/assets/local/20260607wsFhmF.png"
+src = "/assets/screenshots/1.0.9/nl/insights.3c841822e52b.webp"
+width = 768
+height = 1567
 alt = "Hoofdschermafbeelding van de iAssets-functievitrine"
 
 [[home.features.showcase.images]]
-src = "/assets/local/20260607oxGqYA.png"
+src = "/assets/screenshots/1.0.9/nl/history.7e1eb8978093.webp"
+width = 768
+height = 1567
 alt = "Tweede schermafbeelding van de iAssets-functievitrine"
 
 [[home.features.showcase.images]]
-src = "/assets/local/20260607oxATMJ.png"
+src = "/assets/screenshots/1.0.9/nl/family.0b507e872be4.webp"
+width = 768
+height = 1567
 alt = "Ondersteunende schermafbeelding van de iAssets-functievitrine"
 
 [home.details]
@@ -158,23 +174,33 @@ durations = ["68s", "76s", "72s", "80s"]
 delays = ["0s", "-3s", "-8s", "-6s"]
 
 [[home.download.backdrop.images]]
-src = "/assets/local/20260607oxATMJ.png"
+src = "/assets/screenshots/1.0.9/nl/home.b660cf7aa97e.webp"
+width = 768
+height = 1567
 alt = "iAssets-downloadachtergrond 1"
 
 [[home.download.backdrop.images]]
-src = "/assets/local/20260607x261Or.png"
+src = "/assets/screenshots/1.0.9/nl/assets.a63b6192af68.webp"
+width = 768
+height = 1567
 alt = "iAssets-downloadachtergrond 2"
 
 [[home.download.backdrop.images]]
-src = "/assets/local/20260607mYOA0a.png"
+src = "/assets/screenshots/1.0.9/nl/markets.931aa21d270e.webp"
+width = 768
+height = 1567
 alt = "iAssets-downloadachtergrond 3"
 
 [[home.download.backdrop.images]]
-src = "/assets/local/20260607w1hCJY.png"
+src = "/assets/screenshots/1.0.9/nl/ai.227738c10e2c.webp"
+width = 768
+height = 1567
 alt = "iAssets-downloadachtergrond 4"
 
 [[home.download.backdrop.images]]
-src = "/assets/local/20260607oxGqYA.png"
+src = "/assets/screenshots/1.0.9/nl/family.0b507e872be4.webp"
+width = 768
+height = 1567
 alt = "iAssets-downloadachtergrond 5"
 
 [home.reviews]

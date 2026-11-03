@@ -10,23 +10,33 @@ title = "Eiendelene dine, i én tydelig visning."
 description = "Samle kontoer, investeringer og gjeld i én visning. Registrer endringer, spør KI om økonomien din, og administrer delte bøker med familien."
 
 [[home.hero.fanImages]]
-src = "/assets/local/20260607oxATMJ.png"
+src = "/assets/screenshots/1.0.9/nb/home.3b190c437d8b.webp"
+width = 768
+height = 1567
 alt = "Skjermbilde 1 av iAssets APP"
 
 [[home.hero.fanImages]]
-src = "/assets/local/20260607x261Or.png"
+src = "/assets/screenshots/1.0.9/nb/markets.d9097355c242.webp"
+width = 768
+height = 1567
 alt = "Skjermbilde 2 av iAssets APP"
 
 [[home.hero.fanImages]]
-src = "/assets/local/20260607mYOA0a.png"
+src = "/assets/screenshots/1.0.9/nb/assets.9c10905f90ee.webp"
+width = 768
+height = 1567
 alt = "Skjermbilde 3 av iAssets APP"
 
 [[home.hero.fanImages]]
-src = "/assets/local/20260607w1hCJY.png"
+src = "/assets/screenshots/1.0.9/nb/ai.48c6991e91c9.webp"
+width = 768
+height = 1567
 alt = "Skjermbilde 4 av iAssets APP"
 
 [[home.hero.fanImages]]
-src = "/assets/local/20260607oxGqYA.png"
+src = "/assets/screenshots/1.0.9/nb/family.00ced5dd4d22.webp"
+width = 768
+height = 1567
 alt = "Skjermbilde 5 av iAssets APP"
 
 [[home.hero.cards]]
@@ -90,15 +100,21 @@ description = "Spør med tekst eller stemme for å finne kontoer, gjennomgå sto
 
 [home.features.showcase]
 [[home.features.showcase.images]]
-src = "/assets/local/20260607wsFhmF.png"
+src = "/assets/screenshots/1.0.9/nb/insights.6d1066b24857.webp"
+width = 768
+height = 1567
 alt = "Hovedskjermbilde av iAssets-funksjonsvisningen"
 
 [[home.features.showcase.images]]
-src = "/assets/local/20260607oxGqYA.png"
+src = "/assets/screenshots/1.0.9/nb/history.e76dc8bd85aa.webp"
+width = 768
+height = 1567
 alt = "Andre skjermbilde av iAssets-funksjonsvisningen"
 
 [[home.features.showcase.images]]
-src = "/assets/local/20260607oxATMJ.png"
+src = "/assets/screenshots/1.0.9/nb/family.00ced5dd4d22.webp"
+width = 768
+height = 1567
 alt = "Støttende skjermbilde av iAssets-funksjonsvisningen"
 
 [home.details]
@@ -158,23 +174,33 @@ durations = ["68s", "76s", "72s", "80s"]
 delays = ["0s", "-3s", "-8s", "-6s"]
 
 [[home.download.backdrop.images]]
-src = "/assets/local/20260607oxATMJ.png"
+src = "/assets/screenshots/1.0.9/nb/home.3b190c437d8b.webp"
+width = 768
+height = 1567
 alt = "iAssets-nedlastingsbakgrunn 1"
 
 [[home.download.backdrop.images]]
-src = "/assets/local/20260607x261Or.png"
+src = "/assets/screenshots/1.0.9/nb/assets.9c10905f90ee.webp"
+width = 768
+height = 1567
 alt = "iAssets-nedlastingsbakgrunn 2"
 
 [[home.download.backdrop.images]]
-src = "/assets/local/20260607mYOA0a.png"
+src = "/assets/screenshots/1.0.9/nb/markets.d9097355c242.webp"
+width = 768
+height = 1567
 alt = "iAssets-nedlastingsbakgrunn 3"
 
 [[home.download.backdrop.images]]
-src = "/assets/local/20260607w1hCJY.png"
+src = "/assets/screenshots/1.0.9/nb/ai.48c6991e91c9.webp"
+width = 768
+height = 1567
 alt = "iAssets-nedlastingsbakgrunn 4"
 
 [[home.download.backdrop.images]]
-src = "/assets/local/20260607oxGqYA.png"
+src = "/assets/screenshots/1.0.9/nb/family.00ced5dd4d22.webp"
+width = 768
+height = 1567
 alt = "iAssets-nedlastingsbakgrunn 5"
 
 [home.reviews]

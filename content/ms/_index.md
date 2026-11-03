@@ -10,23 +10,33 @@ title = "Aset anda, dalam satu paparan yang jelas."
 description = "Satukan akaun, pelaburan dan liabiliti dalam satu paparan. Rekod perubahan, tanya AI tentang kewangan anda, dan urus buku kongsi bersama keluarga."
 
 [[home.hero.fanImages]]
-src = "/assets/local/20260607oxATMJ.png"
+src = "/assets/screenshots/1.0.9/ms/home.b56b59fe74d9.webp"
+width = 768
+height = 1567
 alt = "Tangkapan skrin 1 APP iAssets"
 
 [[home.hero.fanImages]]
-src = "/assets/local/20260607x261Or.png"
+src = "/assets/screenshots/1.0.9/ms/markets.ce47a84c1b4f.webp"
+width = 768
+height = 1567
 alt = "Tangkapan skrin 2 APP iAssets"
 
 [[home.hero.fanImages]]
-src = "/assets/local/20260607mYOA0a.png"
+src = "/assets/screenshots/1.0.9/ms/assets.4fd56c52f52a.webp"
+width = 768
+height = 1567
 alt = "Tangkapan skrin 3 APP iAssets"
 
 [[home.hero.fanImages]]
-src = "/assets/local/20260607w1hCJY.png"
+src = "/assets/screenshots/1.0.9/ms/ai.189668abda09.webp"
+width = 768
+height = 1567
 alt = "Tangkapan skrin 4 APP iAssets"
 
 [[home.hero.fanImages]]
-src = "/assets/local/20260607oxGqYA.png"
+src = "/assets/screenshots/1.0.9/ms/family.efdc8a7c566b.webp"
+width = 768
+height = 1567
 alt = "Tangkapan skrin 5 APP iAssets"
 
 [[home.hero.cards]]
@@ -90,15 +100,21 @@ description = "Tanya melalui teks atau suara untuk mencari akaun, menyemak perub
 
 [home.features.showcase]
 [[home.features.showcase.images]]
-src = "/assets/local/20260607wsFhmF.png"
+src = "/assets/screenshots/1.0.9/ms/insights.7bbc919373c7.webp"
+width = 768
+height = 1567
 alt = "Tangkapan utama pameran ciri iAssets"
 
 [[home.features.showcase.images]]
-src = "/assets/local/20260607oxGqYA.png"
+src = "/assets/screenshots/1.0.9/ms/history.7947c179c62d.webp"
+width = 768
+height = 1567
 alt = "Tangkapan kedua pameran ciri iAssets"
 
 [[home.features.showcase.images]]
-src = "/assets/local/20260607oxATMJ.png"
+src = "/assets/screenshots/1.0.9/ms/family.efdc8a7c566b.webp"
+width = 768
+height = 1567
 alt = "Tangkapan sokongan pameran ciri iAssets"
 
 [home.details]
@@ -158,23 +174,33 @@ durations = ["68s", "76s", "72s", "80s"]
 delays = ["0s", "-3s", "-8s", "-6s"]
 
 [[home.download.backdrop.images]]
-src = "/assets/local/20260607oxATMJ.png"
+src = "/assets/screenshots/1.0.9/ms/home.b56b59fe74d9.webp"
+width = 768
+height = 1567
 alt = "Latar muat turun iAssets 1"
 
 [[home.download.backdrop.images]]
-src = "/assets/local/20260607x261Or.png"
+src = "/assets/screenshots/1.0.9/ms/assets.4fd56c52f52a.webp"
+width = 768
+height = 1567
 alt = "Latar muat turun iAssets 2"
 
 [[home.download.backdrop.images]]
-src = "/assets/local/20260607mYOA0a.png"
+src = "/assets/screenshots/1.0.9/ms/markets.ce47a84c1b4f.webp"
+width = 768
+height = 1567
 alt = "Latar muat turun iAssets 3"
 
 [[home.download.backdrop.images]]
-src = "/assets/local/20260607w1hCJY.png"
+src = "/assets/screenshots/1.0.9/ms/ai.189668abda09.webp"
+width = 768
+height = 1567
 alt = "Latar muat turun iAssets 4"
 
 [[home.download.backdrop.images]]
-src = "/assets/local/20260607oxGqYA.png"
+src = "/assets/screenshots/1.0.9/ms/family.efdc8a7c566b.webp"
+width = 768
+height = 1567
 alt = "Latar muat turun iAssets 5"
 
 [home.reviews]

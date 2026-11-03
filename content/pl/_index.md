@@ -10,23 +10,33 @@ title = "Twoje aktywa w jednym czytelnym widoku."
 description = "Połącz konta, inwestycje i zobowiązania w jednym widoku. Zapisuj zmiany, pytaj AI o finanse i zarządzaj wspólnymi księgami z rodziną."
 
 [[home.hero.fanImages]]
-src = "/assets/local/20260607oxATMJ.png"
+src = "/assets/screenshots/1.0.9/pl/home.2535f92e1287.webp"
+width = 768
+height = 1567
 alt = "Zrzut ekranu 1 APP iAssets"
 
 [[home.hero.fanImages]]
-src = "/assets/local/20260607x261Or.png"
+src = "/assets/screenshots/1.0.9/pl/markets.543569e6713e.webp"
+width = 768
+height = 1567
 alt = "Zrzut ekranu 2 APP iAssets"
 
 [[home.hero.fanImages]]
-src = "/assets/local/20260607mYOA0a.png"
+src = "/assets/screenshots/1.0.9/pl/assets.cb76ddbc2cc7.webp"
+width = 768
+height = 1567
 alt = "Zrzut ekranu 3 APP iAssets"
 
 [[home.hero.fanImages]]
-src = "/assets/local/20260607w1hCJY.png"
+src = "/assets/screenshots/1.0.9/pl/ai.ab1dd16c540b.webp"
+width = 768
+height = 1567
 alt = "Zrzut ekranu 4 APP iAssets"
 
 [[home.hero.fanImages]]
-src = "/assets/local/20260607oxGqYA.png"
+src = "/assets/screenshots/1.0.9/pl/family.ba5de6ae1a89.webp"
+width = 768
+height = 1567
 alt = "Zrzut ekranu 5 APP iAssets"
 
 [[home.hero.cards]]
@@ -90,15 +100,21 @@ description = "Pytaj tekstem lub głosem, aby znaleźć konta, przejrzeć duże 
 
 [home.features.showcase]
 [[home.features.showcase.images]]
-src = "/assets/local/20260607wsFhmF.png"
+src = "/assets/screenshots/1.0.9/pl/insights.61d2ebb76a21.webp"
+width = 768
+height = 1567
 alt = "Główny zrzut witryny funkcji iAssets"
 
 [[home.features.showcase.images]]
-src = "/assets/local/20260607oxGqYA.png"
+src = "/assets/screenshots/1.0.9/pl/history.d3f45f78a1f2.webp"
+width = 768
+height = 1567
 alt = "Drugi zrzut witryny funkcji iAssets"
 
 [[home.features.showcase.images]]
-src = "/assets/local/20260607oxATMJ.png"
+src = "/assets/screenshots/1.0.9/pl/family.ba5de6ae1a89.webp"
+width = 768
+height = 1567
 alt = "Pomocniczy zrzut witryny funkcji iAssets"
 
 [home.details]
@@ -158,23 +174,33 @@ durations = ["68s", "76s", "72s", "80s"]
 delays = ["0s", "-3s", "-8s", "-6s"]
 
 [[home.download.backdrop.images]]
-src = "/assets/local/20260607oxATMJ.png"
+src = "/assets/screenshots/1.0.9/pl/home.2535f92e1287.webp"
+width = 768
+height = 1567
 alt = "Tło pobierania iAssets 1"
 
 [[home.download.backdrop.images]]
-src = "/assets/local/20260607x261Or.png"
+src = "/assets/screenshots/1.0.9/pl/assets.cb76ddbc2cc7.webp"
+width = 768
+height = 1567
 alt = "Tło pobierania iAssets 2"
 
 [[home.download.backdrop.images]]
-src = "/assets/local/20260607mYOA0a.png"
+src = "/assets/screenshots/1.0.9/pl/markets.543569e6713e.webp"
+width = 768
+height = 1567
 alt = "Tło pobierania iAssets 3"
 
 [[home.download.backdrop.images]]
-src = "/assets/local/20260607w1hCJY.png"
+src = "/assets/screenshots/1.0.9/pl/ai.ab1dd16c540b.webp"
+width = 768
+height = 1567
 alt = "Tło pobierania iAssets 4"
 
 [[home.download.backdrop.images]]
-src = "/assets/local/20260607oxGqYA.png"
+src = "/assets/screenshots/1.0.9/pl/family.ba5de6ae1a89.webp"
+width = 768
+height = 1567
 alt = "Tło pobierania iAssets 5"
 
 [home.reviews]

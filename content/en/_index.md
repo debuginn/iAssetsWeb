@@ -10,23 +10,33 @@ title = "Your assets, in one clear view."
 description = "Bring accounts, investments and liabilities into one view. Record changes, ask AI about your finances, and manage shared books with your family."
 
 [[home.hero.fanImages]]
-src = "/assets/local/20260607oxATMJ.png"
+src = "/assets/screenshots/1.0.9/en/home.e9a0b3d127d5.webp"
+width = 768
+height = 1567
 alt = "iAssets app screenshot 1"
 
 [[home.hero.fanImages]]
-src = "/assets/local/20260607x261Or.png"
+src = "/assets/screenshots/1.0.9/en/markets.6371b96b38c6.webp"
+width = 768
+height = 1567
 alt = "iAssets app screenshot 2"
 
 [[home.hero.fanImages]]
-src = "/assets/local/20260607mYOA0a.png"
+src = "/assets/screenshots/1.0.9/en/assets.cda408a23e90.webp"
+width = 768
+height = 1567
 alt = "iAssets app screenshot 3"
 
 [[home.hero.fanImages]]
-src = "/assets/local/20260607w1hCJY.png"
+src = "/assets/screenshots/1.0.9/en/ai.9ee0538288e5.webp"
+width = 768
+height = 1567
 alt = "iAssets app screenshot 4"
 
 [[home.hero.fanImages]]
-src = "/assets/local/20260607oxGqYA.png"
+src = "/assets/screenshots/1.0.9/en/family.aa3f8763a6f3.webp"
+width = 768
+height = 1567
 alt = "iAssets app screenshot 5"
 
 [[home.hero.cards]]
@@ -90,15 +100,21 @@ description = "Ask by text or voice to find accounts, review large changes or su
 
 [home.features.showcase]
 [[home.features.showcase.images]]
-src = "/assets/local/20260607wsFhmF.png"
+src = "/assets/screenshots/1.0.9/en/insights.2b2b8cba4606.webp"
+width = 768
+height = 1567
 alt = "iAssets feature showcase main screenshot"
 
 [[home.features.showcase.images]]
-src = "/assets/local/20260607oxGqYA.png"
+src = "/assets/screenshots/1.0.9/en/history.67a0ef6c9358.webp"
+width = 768
+height = 1567
 alt = "iAssets feature showcase secondary screenshot"
 
 [[home.features.showcase.images]]
-src = "/assets/local/20260607oxATMJ.png"
+src = "/assets/screenshots/1.0.9/en/family.aa3f8763a6f3.webp"
+width = 768
+height = 1567
 alt = "iAssets feature showcase supporting screenshot"
 
 [home.details]
@@ -158,23 +174,33 @@ durations = ["68s", "76s", "72s", "80s"]
 delays = ["0s", "-3s", "-8s", "-6s"]
 
 [[home.download.backdrop.images]]
-src = "/assets/local/20260607oxATMJ.png"
+src = "/assets/screenshots/1.0.9/en/home.e9a0b3d127d5.webp"
+width = 768
+height = 1567
 alt = "iAssets download backdrop 1"
 
 [[home.download.backdrop.images]]
-src = "/assets/local/20260607x261Or.png"
+src = "/assets/screenshots/1.0.9/en/assets.cda408a23e90.webp"
+width = 768
+height = 1567
 alt = "iAssets download backdrop 2"
 
 [[home.download.backdrop.images]]
-src = "/assets/local/20260607mYOA0a.png"
+src = "/assets/screenshots/1.0.9/en/markets.6371b96b38c6.webp"
+width = 768
+height = 1567
 alt = "iAssets download backdrop 3"
 
 [[home.download.backdrop.images]]
-src = "/assets/local/20260607w1hCJY.png"
+src = "/assets/screenshots/1.0.9/en/ai.9ee0538288e5.webp"
+width = 768
+height = 1567
 alt = "iAssets download backdrop 4"
 
 [[home.download.backdrop.images]]
-src = "/assets/local/20260607oxGqYA.png"
+src = "/assets/screenshots/1.0.9/en/family.aa3f8763a6f3.webp"
+width = 768
+height = 1567
 alt = "iAssets download backdrop 5"
 
 [home.reviews]

@@ -10,23 +10,33 @@ title = "A vagyonod egyetlen áttekinthető nézetben."
 description = "Foglald egy nézetbe a számlákat, befektetéseket és kötelezettségeket. Rögzítsd a változásokat, kérdezd a mesterséges intelligenciát a pénzügyeidről, és kezeld a családdal megosztott könyveket."
 
 [[home.hero.fanImages]]
-src = "/assets/local/20260607oxATMJ.png"
+src = "/assets/screenshots/1.0.9/hu/home.8a840a43bc46.webp"
+width = 768
+height = 1567
 alt = "iAssets APP képernyőkép 1"
 
 [[home.hero.fanImages]]
-src = "/assets/local/20260607x261Or.png"
+src = "/assets/screenshots/1.0.9/hu/markets.987509aa4cd7.webp"
+width = 768
+height = 1567
 alt = "iAssets APP képernyőkép 2"
 
 [[home.hero.fanImages]]
-src = "/assets/local/20260607mYOA0a.png"
+src = "/assets/screenshots/1.0.9/hu/assets.a5df793aed17.webp"
+width = 768
+height = 1567
 alt = "iAssets APP képernyőkép 3"
 
 [[home.hero.fanImages]]
-src = "/assets/local/20260607w1hCJY.png"
+src = "/assets/screenshots/1.0.9/hu/ai.faf50592946a.webp"
+width = 768
+height = 1567
 alt = "iAssets APP képernyőkép 4"
 
 [[home.hero.fanImages]]
-src = "/assets/local/20260607oxGqYA.png"
+src = "/assets/screenshots/1.0.9/hu/family.f2fb9a7730a1.webp"
+width = 768
+height = 1567
 alt = "iAssets APP képernyőkép 5"
 
 [[home.hero.cards]]
@@ -90,15 +100,21 @@ description = "Kérdezz szöveggel vagy hanggal, hogy számlákat találj, nagy 
 
 [home.features.showcase]
 [[home.features.showcase.images]]
-src = "/assets/local/20260607wsFhmF.png"
+src = "/assets/screenshots/1.0.9/hu/insights.4a2ac93a6e48.webp"
+width = 768
+height = 1567
 alt = "Az iAssets funkcióbemutató fő képernyőképe"
 
 [[home.features.showcase.images]]
-src = "/assets/local/20260607oxGqYA.png"
+src = "/assets/screenshots/1.0.9/hu/history.36dbd282aa7d.webp"
+width = 768
+height = 1567
 alt = "Az iAssets funkcióbemutató második képernyőképe"
 
 [[home.features.showcase.images]]
-src = "/assets/local/20260607oxATMJ.png"
+src = "/assets/screenshots/1.0.9/hu/family.f2fb9a7730a1.webp"
+width = 768
+height = 1567
 alt = "Az iAssets funkcióbemutató kiegészítő képernyőképe"
 
 [home.details]
@@ -158,23 +174,33 @@ durations = ["68s", "76s", "72s", "80s"]
 delays = ["0s", "-3s", "-8s", "-6s"]
 
 [[home.download.backdrop.images]]
-src = "/assets/local/20260607oxATMJ.png"
+src = "/assets/screenshots/1.0.9/hu/home.8a840a43bc46.webp"
+width = 768
+height = 1567
 alt = "iAssets letöltési háttér 1"
 
 [[home.download.backdrop.images]]
-src = "/assets/local/20260607x261Or.png"
+src = "/assets/screenshots/1.0.9/hu/assets.a5df793aed17.webp"
+width = 768
+height = 1567
 alt = "iAssets letöltési háttér 2"
 
 [[home.download.backdrop.images]]
-src = "/assets/local/20260607mYOA0a.png"
+src = "/assets/screenshots/1.0.9/hu/markets.987509aa4cd7.webp"
+width = 768
+height = 1567
 alt = "iAssets letöltési háttér 3"
 
 [[home.download.backdrop.images]]
-src = "/assets/local/20260607w1hCJY.png"
+src = "/assets/screenshots/1.0.9/hu/ai.faf50592946a.webp"
+width = 768
+height = 1567
 alt = "iAssets letöltési háttér 4"
 
 [[home.download.backdrop.images]]
-src = "/assets/local/20260607oxGqYA.png"
+src = "/assets/screenshots/1.0.9/hu/family.f2fb9a7730a1.webp"
+width = 768
+height = 1567
 alt = "iAssets letöltési háttér 5"
 
 [home.reviews]
