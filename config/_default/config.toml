@@ -6,6 +6,7 @@ defaultContentLanguageInSubdir = false
 disableDefaultLanguageRedirect = true
 disableKinds = ['taxonomy', 'term', 'RSS']
 enableRobotsTXT = true
+timeZone = 'Asia/Shanghai'
 
 [permalinks.page]
   activities = '/act/:contentbasename/'
