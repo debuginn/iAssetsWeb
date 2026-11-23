@@ -29,4 +29,9 @@
 {{- $name := printf "layouts/index.trust-logos.%s.html" .Language.Lang -}}
 {{- $rendered := $body | resources.FromString $name | resources.ExecuteAsTemplate $name . -}}
 {{ $rendered.Content | safeHTML }}
+{{- with partialCached "pricing-schedule.html" site site.Language.Lang }}
+  {{- $script := resources.Get "pricing-schedule.js" | fingerprint }}
+  <script id="pricing-schedule" type="application/json">{{ . | jsonify | safeJS }}</script>
+  <script src="{{ $script.RelPermalink }}" defer></script>
+{{- end }}
 {{ end }}
