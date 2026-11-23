@@ -37,7 +37,9 @@ python3 -m http.server 8080
 
 ## 官网价格排期
 
-在 `data/pricing_schedule.toml` 添加价格时段。表名由官网语言代码和方案组成，例如 `[[zh.lifetime]]`（简中终身）或 `[[en.yearly]]`（英文年付）。按现有方案币种填入不带币种符号的金额。
+价格表由 Pebble 主题渲染。官网的常规价格放在 `config/_default/languages.toml`（中国大陆构建的中文覆盖在 `config/cn/languages.toml`），排期放在 `data/pricing_schedule.toml`。价格与各语言页面现有的 App Store 链接地区对应。
+
+排期表名由官网语言代码和方案组成，例如 `[[zh.lifetime]]`（简中终身）或 `[[en.yearly]]`（英文年付）。按现有方案币种填入不带币种符号的金额。导入 App Store Connect 排期时，按 Apple 生效时刻表把日期转换成对应商店的 UTC 时刻。
 
 ```toml
 [[zh.lifetime]]

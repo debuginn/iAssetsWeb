@@ -10,7 +10,7 @@ downloadQr = '/assets/local/20260607weNLvY.png'
 
 [en.params.pricing]
 currency = '$'
-yearly = '1.49'
+yearly = '2.99'
 lifetime = '9.99'
 
 [zh]
@@ -48,8 +48,7 @@ downloadQr = '/assets/local/20260607oiR5ZJ.png'
 [zh.params.pricing]
 currency = '¥'
 yearly = '9.9'
-lifetime = '48'
-lifetimeOriginal = '68'
+lifetime = '68'
 
 [zh-hant]
 languageName = '中文繁體'
@@ -60,7 +59,7 @@ downloadQr = '/assets/local/20260607B54NfZ.png'
 
 [zh-hant.params.pricing]
 currency = 'NT$'
-yearly = '49'
+yearly = '90'
 lifetime = '320'
 
 [ja]
@@ -72,8 +71,8 @@ downloadQr = '/assets/local/20260607We1tzT.png'
 
 [ja.params.pricing]
 currency = '¥'
-yearly = '240'
-lifetime = '1600'
+yearly = '500'
+lifetime = '1500'
 
 [ko]
 languageName = '한국어'
@@ -84,8 +83,8 @@ downloadQr = '/assets/local/20260607BReFMN.png'
 
 [ko.params.pricing]
 currency = '₩'
-yearly = '2500'
-lifetime = '15000'
+yearly = '4400'
+lifetime = '17000'
 
 [th]
 languageName = 'ไทย'
@@ -94,9 +93,9 @@ languageDirection = 'ltr'
 [th.params.assets]
 downloadQr = '/assets/local/20260607weNLvY.png'
 [th.params.pricing]
-currency = '$'
-yearly = '1.49'
-lifetime = '9.99'
+currency = '฿'
+yearly = '99'
+lifetime = '399'
 
 [vi]
 languageName = 'Tiếng Việt'
@@ -104,9 +103,9 @@ weight = 7
 [vi.params.assets]
 downloadQr = '/assets/local/20260607weNLvY.png'
 [vi.params.pricing]
-currency = '$'
-yearly = '1.49'
-lifetime = '9.99'
+currency = '₫'
+yearly = '99000'
+lifetime = '299000'
 
 [ms]
 languageName = 'Bahasa Melayu'
@@ -114,9 +113,9 @@ weight = 8
 [ms.params.assets]
 downloadQr = '/assets/local/20260607weNLvY.png'
 [ms.params.pricing]
-currency = '$'
-yearly = '1.49'
-lifetime = '9.99'
+currency = 'RM '
+yearly = '14.9'
+lifetime = '49.9'
 
 [de]
 languageName = 'Deutsch'
@@ -124,8 +123,8 @@ weight = 9
 [de.params.assets]
 downloadQr = '/assets/local/20260607weNLvY.png'
 [de.params.pricing]
-currency = '$'
-yearly = '1.49'
+currency = '€'
+yearly = '2.99'
 lifetime = '9.99'
 
 [fr]
@@ -134,8 +133,8 @@ weight = 10
 [fr.params.assets]
 downloadQr = '/assets/local/20260607weNLvY.png'
 [fr.params.pricing]
-currency = '$'
-yearly = '1.49'
+currency = '€'
+yearly = '2.99'
 lifetime = '9.99'
 
 [it]
@@ -144,8 +143,8 @@ weight = 11
 [it.params.assets]
 downloadQr = '/assets/local/20260607weNLvY.png'
 [it.params.pricing]
-currency = '$'
-yearly = '1.49'
+currency = '€'
+yearly = '2.99'
 lifetime = '9.99'
 
 [es]
@@ -154,8 +153,8 @@ weight = 12
 [es.params.assets]
 downloadQr = '/assets/local/20260607weNLvY.png'
 [es.params.pricing]
-currency = '$'
-yearly = '1.49'
+currency = '€'
+yearly = '2.99'
 lifetime = '9.99'
 
 [nl]
@@ -164,8 +163,8 @@ weight = 13
 [nl.params.assets]
 downloadQr = '/assets/local/20260607weNLvY.png'
 [nl.params.pricing]
-currency = '$'
-yearly = '1.49'
+currency = '€'
+yearly = '2.99'
 lifetime = '9.99'
 
 [pt-br]
@@ -174,9 +173,9 @@ weight = 14
 [pt-br.params.assets]
 downloadQr = '/assets/local/20260607weNLvY.png'
 [pt-br.params.pricing]
-currency = '$'
-yearly = '1.49'
-lifetime = '9.99'
+currency = 'R$ '
+yearly = '19.9'
+lifetime = '59.9'
 
 [ar]
 languageName = 'العربية'
@@ -185,9 +184,9 @@ languageDirection = 'rtl'
 [ar.params.assets]
 downloadQr = '/assets/local/20260607weNLvY.png'
 [ar.params.pricing]
-currency = '$'
-yearly = '1.49'
-lifetime = '9.99'
+currency = 'SAR '
+yearly = '12.99'
+lifetime = '39.99'
 
 [id]
 languageName = 'Bahasa Indonesia'
@@ -195,9 +194,9 @@ weight = 16
 [id.params.assets]
 downloadQr = '/assets/local/20260607weNLvY.png'
 [id.params.pricing]
-currency = '$'
-yearly = '1.49'
-lifetime = '9.99'
+currency = 'Rp '
+yearly = '49000'
+lifetime = '199000'
 
 [hi]
 languageName = 'हिन्दी'
@@ -205,9 +204,9 @@ weight = 17
 [hi.params.assets]
 downloadQr = '/assets/local/20260607weNLvY.png'
 [hi.params.pricing]
-currency = '$'
-yearly = '1.49'
-lifetime = '9.99'
+currency = '₹'
+yearly = '299'
+lifetime = '999'
 
 [tr]
 languageName = 'Türkçe'
@@ -215,9 +214,9 @@ weight = 18
 [tr.params.assets]
 downloadQr = '/assets/local/20260607weNLvY.png'
 [tr.params.pricing]
-currency = '$'
-yearly = '1.49'
-lifetime = '9.99'
+currency = '₺'
+yearly = '149.99'
+lifetime = '499.99'
 
 [pl]
 languageName = 'Polski'
@@ -225,9 +224,9 @@ weight = 19
 [pl.params.assets]
 downloadQr = '/assets/local/20260607weNLvY.png'
 [pl.params.pricing]
-currency = '$'
-yearly = '1.49'
-lifetime = '9.99'
+currency = 'PLN '
+yearly = '14.99'
+lifetime = '49.99'
 
 [sv]
 languageName = 'Svenska'
@@ -235,9 +234,9 @@ weight = 20
 [sv.params.assets]
 downloadQr = '/assets/local/20260607weNLvY.png'
 [sv.params.pricing]
-currency = '$'
-yearly = '1.49'
-lifetime = '9.99'
+currency = 'SEK '
+yearly = '39'
+lifetime = '129'
 
 [da]
 languageName = 'Dansk'
@@ -245,9 +244,9 @@ weight = 21
 [da.params.assets]
 downloadQr = '/assets/local/20260607weNLvY.png'
 [da.params.pricing]
-currency = '$'
-yearly = '1.49'
-lifetime = '9.99'
+currency = 'DKK '
+yearly = '29'
+lifetime = '89'
 
 [nb]
 languageName = 'Norsk bokmål'
@@ -255,9 +254,9 @@ weight = 22
 [nb.params.assets]
 downloadQr = '/assets/local/20260607weNLvY.png'
 [nb.params.pricing]
-currency = '$'
-yearly = '1.49'
-lifetime = '9.99'
+currency = 'NOK '
+yearly = '39'
+lifetime = '129'
 
 [fi]
 languageName = 'Suomi'
@@ -265,8 +264,8 @@ weight = 23
 [fi.params.assets]
 downloadQr = '/assets/local/20260607weNLvY.png'
 [fi.params.pricing]
-currency = '$'
-yearly = '1.49'
+currency = '€'
+yearly = '2.99'
 lifetime = '9.99'
 
 [cs]
@@ -275,9 +274,9 @@ weight = 24
 [cs.params.assets]
 downloadQr = '/assets/local/20260607weNLvY.png'
 [cs.params.pricing]
-currency = '$'
-yearly = '1.49'
-lifetime = '9.99'
+currency = 'CZK '
+yearly = '79'
+lifetime = '249'
 
 [ro]
 languageName = 'Română'
@@ -285,9 +284,9 @@ weight = 25
 [ro.params.assets]
 downloadQr = '/assets/local/20260607weNLvY.png'
 [ro.params.pricing]
-currency = '$'
-yearly = '1.49'
-lifetime = '9.99'
+currency = 'RON '
+yearly = '14.99'
+lifetime = '49.99'
 
 [ru]
 languageName = 'Русский'
@@ -295,9 +294,9 @@ weight = 26
 [ru.params.assets]
 downloadQr = '/assets/local/20260607weNLvY.png'
 [ru.params.pricing]
-currency = '$'
-yearly = '1.49'
-lifetime = '9.99'
+currency = '₽'
+yearly = '249'
+lifetime = '899'
 
 [uk]
 languageName = 'Українська'
@@ -306,8 +305,8 @@ weight = 27
 downloadQr = '/assets/local/20260607weNLvY.png'
 [uk.params.pricing]
 currency = '$'
-yearly = '1.49'
-lifetime = '9.99'
+yearly = '3.99'
+lifetime = '11.99'
 
 [hu]
 languageName = 'Magyar'
@@ -315,9 +314,9 @@ weight = 28
 [hu.params.assets]
 downloadQr = '/assets/local/20260607weNLvY.png'
 [hu.params.pricing]
-currency = '$'
-yearly = '1.49'
-lifetime = '9.99'
+currency = 'HUF '
+yearly = '1490'
+lifetime = '4490'
 
 [el]
 languageName = 'Ελληνικά'
@@ -325,8 +324,8 @@ weight = 29
 [el.params.assets]
 downloadQr = '/assets/local/20260607weNLvY.png'
 [el.params.pricing]
-currency = '$'
-yearly = '1.49'
+currency = '€'
+yearly = '2.99'
 lifetime = '9.99'
 
 [pt-pt]
@@ -335,8 +334,8 @@ weight = 30
 [pt-pt.params.assets]
 downloadQr = '/assets/local/20260607weNLvY.png'
 [pt-pt.params.pricing]
-currency = '$'
-yearly = '1.49'
+currency = '€'
+yearly = '2.99'
 lifetime = '9.99'
 
 [he]
@@ -346,7 +345,7 @@ languageDirection = 'rtl'
 [he.params.assets]
 downloadQr = '/assets/local/20260607weNLvY.png'
 [he.params.pricing]
-currency = '$'
-yearly = '1.49'
-lifetime = '9.99'
+currency = '₪'
+yearly = '9.9'
+lifetime = '29.9'
 
