@@ -10,31 +10,31 @@ title = "Je bezittingen, in één duidelijk overzicht."
 description = "Breng rekeningen, beleggingen en schulden samen in één overzicht. Leg wijzigingen vast, vraag AI naar je financiën en beheer gedeelde boeken met je gezin."
 
 [[home.hero.fanImages]]
-src = "/assets/screenshots/1.0.9/nl/home.b660cf7aa97e.webp"
+src = "/assets/screenshots/1.0.9/nl/home.439c227c57ea.webp"
 width = 768
 height = 1567
 alt = "Schermafbeelding 1 van de iAssets APP"
 
 [[home.hero.fanImages]]
-src = "/assets/screenshots/1.0.9/nl/markets.931aa21d270e.webp"
+src = "/assets/screenshots/1.0.9/nl/markets.b801aae91940.webp"
 width = 768
 height = 1567
 alt = "Schermafbeelding 2 van de iAssets APP"
 
 [[home.hero.fanImages]]
-src = "/assets/screenshots/1.0.9/nl/assets.a63b6192af68.webp"
+src = "/assets/screenshots/1.0.9/nl/assets.931187214620.webp"
 width = 768
 height = 1567
 alt = "Schermafbeelding 3 van de iAssets APP"
 
 [[home.hero.fanImages]]
-src = "/assets/screenshots/1.0.9/nl/ai.227738c10e2c.webp"
+src = "/assets/screenshots/1.0.9/nl/ai.6d7b6795609e.webp"
 width = 768
 height = 1567
 alt = "Schermafbeelding 4 van de iAssets APP"
 
 [[home.hero.fanImages]]
-src = "/assets/screenshots/1.0.9/nl/family.0b507e872be4.webp"
+src = "/assets/screenshots/1.0.9/nl/family.ea9b56bdc688.webp"
 width = 768
 height = 1567
 alt = "Schermafbeelding 5 van de iAssets APP"
@@ -100,19 +100,19 @@ description = "Vraag via tekst of spraak om rekeningen te vinden, grote wijzigin
 
 [home.features.showcase]
 [[home.features.showcase.images]]
-src = "/assets/screenshots/1.0.9/nl/insights.3c841822e52b.webp"
+src = "/assets/screenshots/1.0.9/nl/insights.8fe06b5e1a6a.webp"
 width = 768
 height = 1567
 alt = "Hoofdschermafbeelding van de iAssets-functievitrine"
 
 [[home.features.showcase.images]]
-src = "/assets/screenshots/1.0.9/nl/history.7e1eb8978093.webp"
+src = "/assets/screenshots/1.0.9/nl/history.086ba25fadf0.webp"
 width = 768
 height = 1567
 alt = "Tweede schermafbeelding van de iAssets-functievitrine"
 
 [[home.features.showcase.images]]
-src = "/assets/screenshots/1.0.9/nl/family.0b507e872be4.webp"
+src = "/assets/screenshots/1.0.9/nl/family.ea9b56bdc688.webp"
 width = 768
 height = 1567
 alt = "Ondersteunende schermafbeelding van de iAssets-functievitrine"
@@ -174,31 +174,31 @@ durations = ["68s", "76s", "72s", "80s"]
 delays = ["0s", "-3s", "-8s", "-6s"]
 
 [[home.download.backdrop.images]]
-src = "/assets/screenshots/1.0.9/nl/home.b660cf7aa97e.webp"
+src = "/assets/screenshots/1.0.9/nl/home.439c227c57ea.webp"
 width = 768
 height = 1567
 alt = "iAssets-downloadachtergrond 1"
 
 [[home.download.backdrop.images]]
-src = "/assets/screenshots/1.0.9/nl/assets.a63b6192af68.webp"
+src = "/assets/screenshots/1.0.9/nl/assets.931187214620.webp"
 width = 768
 height = 1567
 alt = "iAssets-downloadachtergrond 2"
 
 [[home.download.backdrop.images]]
-src = "/assets/screenshots/1.0.9/nl/markets.931aa21d270e.webp"
+src = "/assets/screenshots/1.0.9/nl/markets.b801aae91940.webp"
 width = 768
 height = 1567
 alt = "iAssets-downloadachtergrond 3"
 
 [[home.download.backdrop.images]]
-src = "/assets/screenshots/1.0.9/nl/ai.227738c10e2c.webp"
+src = "/assets/screenshots/1.0.9/nl/ai.6d7b6795609e.webp"
 width = 768
 height = 1567
 alt = "iAssets-downloadachtergrond 4"
 
 [[home.download.backdrop.images]]
-src = "/assets/screenshots/1.0.9/nl/family.0b507e872be4.webp"
+src = "/assets/screenshots/1.0.9/nl/family.ea9b56bdc688.webp"
 width = 768
 height = 1567
 alt = "iAssets-downloadachtergrond 5"

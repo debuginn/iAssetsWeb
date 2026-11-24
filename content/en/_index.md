@@ -10,31 +10,31 @@ title = "Your assets, in one clear view."
 description = "Bring accounts, investments and liabilities into one view. Record changes, ask AI about your finances, and manage shared books with your family."
 
 [[home.hero.fanImages]]
-src = "/assets/screenshots/1.0.9/en/home.e9a0b3d127d5.webp"
+src = "/assets/screenshots/1.0.9/en/home.bc8950d05800.webp"
 width = 768
 height = 1567
 alt = "iAssets app screenshot 1"
 
 [[home.hero.fanImages]]
-src = "/assets/screenshots/1.0.9/en/markets.6371b96b38c6.webp"
+src = "/assets/screenshots/1.0.9/en/markets.da513100ae47.webp"
 width = 768
 height = 1567
 alt = "iAssets app screenshot 2"
 
 [[home.hero.fanImages]]
-src = "/assets/screenshots/1.0.9/en/assets.cda408a23e90.webp"
+src = "/assets/screenshots/1.0.9/en/assets.ed7ca571216b.webp"
 width = 768
 height = 1567
 alt = "iAssets app screenshot 3"
 
 [[home.hero.fanImages]]
-src = "/assets/screenshots/1.0.9/en/ai.9ee0538288e5.webp"
+src = "/assets/screenshots/1.0.9/en/ai.9c02a42b9fe3.webp"
 width = 768
 height = 1567
 alt = "iAssets app screenshot 4"
 
 [[home.hero.fanImages]]
-src = "/assets/screenshots/1.0.9/en/family.aa3f8763a6f3.webp"
+src = "/assets/screenshots/1.0.9/en/family.4bb108ed9c6e.webp"
 width = 768
 height = 1567
 alt = "iAssets app screenshot 5"
@@ -100,19 +100,19 @@ description = "Ask by text or voice to find accounts, review large changes or su
 
 [home.features.showcase]
 [[home.features.showcase.images]]
-src = "/assets/screenshots/1.0.9/en/insights.2b2b8cba4606.webp"
+src = "/assets/screenshots/1.0.9/en/insights.a9cc02f6e65f.webp"
 width = 768
 height = 1567
 alt = "iAssets feature showcase main screenshot"
 
 [[home.features.showcase.images]]
-src = "/assets/screenshots/1.0.9/en/history.67a0ef6c9358.webp"
+src = "/assets/screenshots/1.0.9/en/history.e322753c90b3.webp"
 width = 768
 height = 1567
 alt = "iAssets feature showcase secondary screenshot"
 
 [[home.features.showcase.images]]
-src = "/assets/screenshots/1.0.9/en/family.aa3f8763a6f3.webp"
+src = "/assets/screenshots/1.0.9/en/family.4bb108ed9c6e.webp"
 width = 768
 height = 1567
 alt = "iAssets feature showcase supporting screenshot"
@@ -174,31 +174,31 @@ durations = ["68s", "76s", "72s", "80s"]
 delays = ["0s", "-3s", "-8s", "-6s"]
 
 [[home.download.backdrop.images]]
-src = "/assets/screenshots/1.0.9/en/home.e9a0b3d127d5.webp"
+src = "/assets/screenshots/1.0.9/en/home.bc8950d05800.webp"
 width = 768
 height = 1567
 alt = "iAssets download backdrop 1"
 
 [[home.download.backdrop.images]]
-src = "/assets/screenshots/1.0.9/en/assets.cda408a23e90.webp"
+src = "/assets/screenshots/1.0.9/en/assets.ed7ca571216b.webp"
 width = 768
 height = 1567
 alt = "iAssets download backdrop 2"
 
 [[home.download.backdrop.images]]
-src = "/assets/screenshots/1.0.9/en/markets.6371b96b38c6.webp"
+src = "/assets/screenshots/1.0.9/en/markets.da513100ae47.webp"
 width = 768
 height = 1567
 alt = "iAssets download backdrop 3"
 
 [[home.download.backdrop.images]]
-src = "/assets/screenshots/1.0.9/en/ai.9ee0538288e5.webp"
+src = "/assets/screenshots/1.0.9/en/ai.9c02a42b9fe3.webp"
 width = 768
 height = 1567
 alt = "iAssets download backdrop 4"
 
 [[home.download.backdrop.images]]
-src = "/assets/screenshots/1.0.9/en/family.aa3f8763a6f3.webp"
+src = "/assets/screenshots/1.0.9/en/family.4bb108ed9c6e.webp"
 width = 768
 height = 1567
 alt = "iAssets download backdrop 5"

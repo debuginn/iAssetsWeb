@@ -10,31 +10,31 @@ title = "เห็นสินทรัพย์ได้ชัดเจนใ�
 description = "รวมบัญชี การลงทุน และหนี้สินไว้ในมุมมองเดียว บันทึกการเปลี่ยนแปลง ถาม AI เกี่ยวกับการเงิน และจัดการสมุดบัญชีที่แชร์กับครอบครัว"
 
 [[home.hero.fanImages]]
-src = "/assets/screenshots/1.0.9/th/home.a84f311cdf47.webp"
+src = "/assets/screenshots/1.0.9/th/home.dfbcde7e83eb.webp"
 width = 768
 height = 1567
 alt = "ภาพหน้าจอแอป iAssets 1"
 
 [[home.hero.fanImages]]
-src = "/assets/screenshots/1.0.9/th/markets.ebb50f9cfbd9.webp"
+src = "/assets/screenshots/1.0.9/th/markets.0e58bf4b3a6c.webp"
 width = 768
 height = 1567
 alt = "ภาพหน้าจอแอป iAssets 2"
 
 [[home.hero.fanImages]]
-src = "/assets/screenshots/1.0.9/th/assets.d21c1eee25c0.webp"
+src = "/assets/screenshots/1.0.9/th/assets.b121d0d13dc7.webp"
 width = 768
 height = 1567
 alt = "ภาพหน้าจอแอป iAssets 3"
 
 [[home.hero.fanImages]]
-src = "/assets/screenshots/1.0.9/th/ai.b96625a5de4e.webp"
+src = "/assets/screenshots/1.0.9/th/ai.952959775e5c.webp"
 width = 768
 height = 1567
 alt = "ภาพหน้าจอแอป iAssets 4"
 
 [[home.hero.fanImages]]
-src = "/assets/screenshots/1.0.9/th/family.554ca1174164.webp"
+src = "/assets/screenshots/1.0.9/th/family.6bf4f159d32f.webp"
 width = 768
 height = 1567
 alt = "ภาพหน้าจอแอป iAssets 5"
@@ -100,19 +100,19 @@ description = "ถามด้วยข้อความหรือเสี�
 
 [home.features.showcase]
 [[home.features.showcase.images]]
-src = "/assets/screenshots/1.0.9/th/insights.55b992a93043.webp"
+src = "/assets/screenshots/1.0.9/th/insights.59385703f560.webp"
 width = 768
 height = 1567
 alt = "ภาพหลักของโชว์เคสคุณสมบัติ iAssets"
 
 [[home.features.showcase.images]]
-src = "/assets/screenshots/1.0.9/th/history.9a612f951ff9.webp"
+src = "/assets/screenshots/1.0.9/th/history.69c254398cce.webp"
 width = 768
 height = 1567
 alt = "ภาพรองของโชว์เคสคุณสมบัติ iAssets"
 
 [[home.features.showcase.images]]
-src = "/assets/screenshots/1.0.9/th/family.554ca1174164.webp"
+src = "/assets/screenshots/1.0.9/th/family.6bf4f159d32f.webp"
 width = 768
 height = 1567
 alt = "ภาพประกอบของโชว์เคสคุณสมบัติ iAssets"
@@ -174,31 +174,31 @@ durations = ["68s", "76s", "72s", "80s"]
 delays = ["0s", "-3s", "-8s", "-6s"]
 
 [[home.download.backdrop.images]]
-src = "/assets/screenshots/1.0.9/th/home.a84f311cdf47.webp"
+src = "/assets/screenshots/1.0.9/th/home.dfbcde7e83eb.webp"
 width = 768
 height = 1567
 alt = "พื้นหลังดาวน์โหลด iAssets 1"
 
 [[home.download.backdrop.images]]
-src = "/assets/screenshots/1.0.9/th/assets.d21c1eee25c0.webp"
+src = "/assets/screenshots/1.0.9/th/assets.b121d0d13dc7.webp"
 width = 768
 height = 1567
 alt = "พื้นหลังดาวน์โหลด iAssets 2"
 
 [[home.download.backdrop.images]]
-src = "/assets/screenshots/1.0.9/th/markets.ebb50f9cfbd9.webp"
+src = "/assets/screenshots/1.0.9/th/markets.0e58bf4b3a6c.webp"
 width = 768
 height = 1567
 alt = "พื้นหลังดาวน์โหลด iAssets 3"
 
 [[home.download.backdrop.images]]
-src = "/assets/screenshots/1.0.9/th/ai.b96625a5de4e.webp"
+src = "/assets/screenshots/1.0.9/th/ai.952959775e5c.webp"
 width = 768
 height = 1567
 alt = "พื้นหลังดาวน์โหลด iAssets 4"
 
 [[home.download.backdrop.images]]
-src = "/assets/screenshots/1.0.9/th/family.554ca1174164.webp"
+src = "/assets/screenshots/1.0.9/th/family.6bf4f159d32f.webp"
 width = 768
 height = 1567
 alt = "พื้นหลังดาวน์โหลด iAssets 5"

@@ -10,31 +10,31 @@ title = "Dina tillgångar, i en tydlig vy."
 description = "Samla konton, investeringar och skulder i en vy. Registrera ändringar, fråga AI om din ekonomi och hantera delade böcker med familjen."
 
 [[home.hero.fanImages]]
-src = "/assets/screenshots/1.0.9/sv/home.35fdf3275398.webp"
+src = "/assets/screenshots/1.0.9/sv/home.a0cd853372ce.webp"
 width = 768
 height = 1567
 alt = "Skärmbild 1 av iAssets APP"
 
 [[home.hero.fanImages]]
-src = "/assets/screenshots/1.0.9/sv/markets.8880940b2e73.webp"
+src = "/assets/screenshots/1.0.9/sv/markets.12ad5622b323.webp"
 width = 768
 height = 1567
 alt = "Skärmbild 2 av iAssets APP"
 
 [[home.hero.fanImages]]
-src = "/assets/screenshots/1.0.9/sv/assets.200b7d70f28f.webp"
+src = "/assets/screenshots/1.0.9/sv/assets.80bacb8b8673.webp"
 width = 768
 height = 1567
 alt = "Skärmbild 3 av iAssets APP"
 
 [[home.hero.fanImages]]
-src = "/assets/screenshots/1.0.9/sv/ai.f22f244209c1.webp"
+src = "/assets/screenshots/1.0.9/sv/ai.0cbafa3eda57.webp"
 width = 768
 height = 1567
 alt = "Skärmbild 4 av iAssets APP"
 
 [[home.hero.fanImages]]
-src = "/assets/screenshots/1.0.9/sv/family.b1379fb4df3f.webp"
+src = "/assets/screenshots/1.0.9/sv/family.9d738f6b715b.webp"
 width = 768
 height = 1567
 alt = "Skärmbild 5 av iAssets APP"
@@ -100,19 +100,19 @@ description = "Fråga med text eller röst för att hitta konton, granska stora 
 
 [home.features.showcase]
 [[home.features.showcase.images]]
-src = "/assets/screenshots/1.0.9/sv/insights.c87eb37757c1.webp"
+src = "/assets/screenshots/1.0.9/sv/insights.931826a82e00.webp"
 width = 768
 height = 1567
 alt = "Huvudskärmbild för iAssets funktionsvisning"
 
 [[home.features.showcase.images]]
-src = "/assets/screenshots/1.0.9/sv/history.0738c484e73a.webp"
+src = "/assets/screenshots/1.0.9/sv/history.1758d59e21cd.webp"
 width = 768
 height = 1567
 alt = "Andra skärmbilden för iAssets funktionsvisning"
 
 [[home.features.showcase.images]]
-src = "/assets/screenshots/1.0.9/sv/family.b1379fb4df3f.webp"
+src = "/assets/screenshots/1.0.9/sv/family.9d738f6b715b.webp"
 width = 768
 height = 1567
 alt = "Stödjande skärmbild för iAssets funktionsvisning"
@@ -174,31 +174,31 @@ durations = ["68s", "76s", "72s", "80s"]
 delays = ["0s", "-3s", "-8s", "-6s"]
 
 [[home.download.backdrop.images]]
-src = "/assets/screenshots/1.0.9/sv/home.35fdf3275398.webp"
+src = "/assets/screenshots/1.0.9/sv/home.a0cd853372ce.webp"
 width = 768
 height = 1567
 alt = "iAssets hämtningsbakgrund 1"
 
 [[home.download.backdrop.images]]
-src = "/assets/screenshots/1.0.9/sv/assets.200b7d70f28f.webp"
+src = "/assets/screenshots/1.0.9/sv/assets.80bacb8b8673.webp"
 width = 768
 height = 1567
 alt = "iAssets hämtningsbakgrund 2"
 
 [[home.download.backdrop.images]]
-src = "/assets/screenshots/1.0.9/sv/markets.8880940b2e73.webp"
+src = "/assets/screenshots/1.0.9/sv/markets.12ad5622b323.webp"
 width = 768
 height = 1567
 alt = "iAssets hämtningsbakgrund 3"
 
 [[home.download.backdrop.images]]
-src = "/assets/screenshots/1.0.9/sv/ai.f22f244209c1.webp"
+src = "/assets/screenshots/1.0.9/sv/ai.0cbafa3eda57.webp"
 width = 768
 height = 1567
 alt = "iAssets hämtningsbakgrund 4"
 
 [[home.download.backdrop.images]]
-src = "/assets/screenshots/1.0.9/sv/family.b1379fb4df3f.webp"
+src = "/assets/screenshots/1.0.9/sv/family.9d738f6b715b.webp"
 width = 768
 height = 1567
 alt = "iAssets hämtningsbakgrund 5"

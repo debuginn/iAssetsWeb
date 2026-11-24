@@ -10,31 +10,31 @@ title = "Twoje aktywa w jednym czytelnym widoku."
 description = "Połącz konta, inwestycje i zobowiązania w jednym widoku. Zapisuj zmiany, pytaj AI o finanse i zarządzaj wspólnymi księgami z rodziną."
 
 [[home.hero.fanImages]]
-src = "/assets/screenshots/1.0.9/pl/home.2535f92e1287.webp"
+src = "/assets/screenshots/1.0.9/pl/home.012808a4dba6.webp"
 width = 768
 height = 1567
 alt = "Zrzut ekranu 1 APP iAssets"
 
 [[home.hero.fanImages]]
-src = "/assets/screenshots/1.0.9/pl/markets.543569e6713e.webp"
+src = "/assets/screenshots/1.0.9/pl/markets.bec25aa48f26.webp"
 width = 768
 height = 1567
 alt = "Zrzut ekranu 2 APP iAssets"
 
 [[home.hero.fanImages]]
-src = "/assets/screenshots/1.0.9/pl/assets.cb76ddbc2cc7.webp"
+src = "/assets/screenshots/1.0.9/pl/assets.e04f8d05bad3.webp"
 width = 768
 height = 1567
 alt = "Zrzut ekranu 3 APP iAssets"
 
 [[home.hero.fanImages]]
-src = "/assets/screenshots/1.0.9/pl/ai.ab1dd16c540b.webp"
+src = "/assets/screenshots/1.0.9/pl/ai.00cd4aaa7852.webp"
 width = 768
 height = 1567
 alt = "Zrzut ekranu 4 APP iAssets"
 
 [[home.hero.fanImages]]
-src = "/assets/screenshots/1.0.9/pl/family.ba5de6ae1a89.webp"
+src = "/assets/screenshots/1.0.9/pl/family.5a08c231481c.webp"
 width = 768
 height = 1567
 alt = "Zrzut ekranu 5 APP iAssets"
@@ -100,19 +100,19 @@ description = "Pytaj tekstem lub głosem, aby znaleźć konta, przejrzeć duże 
 
 [home.features.showcase]
 [[home.features.showcase.images]]
-src = "/assets/screenshots/1.0.9/pl/insights.61d2ebb76a21.webp"
+src = "/assets/screenshots/1.0.9/pl/insights.72d52f5eda3c.webp"
 width = 768
 height = 1567
 alt = "Główny zrzut witryny funkcji iAssets"
 
 [[home.features.showcase.images]]
-src = "/assets/screenshots/1.0.9/pl/history.d3f45f78a1f2.webp"
+src = "/assets/screenshots/1.0.9/pl/history.8936ed1137df.webp"
 width = 768
 height = 1567
 alt = "Drugi zrzut witryny funkcji iAssets"
 
 [[home.features.showcase.images]]
-src = "/assets/screenshots/1.0.9/pl/family.ba5de6ae1a89.webp"
+src = "/assets/screenshots/1.0.9/pl/family.5a08c231481c.webp"
 width = 768
 height = 1567
 alt = "Pomocniczy zrzut witryny funkcji iAssets"
@@ -174,31 +174,31 @@ durations = ["68s", "76s", "72s", "80s"]
 delays = ["0s", "-3s", "-8s", "-6s"]
 
 [[home.download.backdrop.images]]
-src = "/assets/screenshots/1.0.9/pl/home.2535f92e1287.webp"
+src = "/assets/screenshots/1.0.9/pl/home.012808a4dba6.webp"
 width = 768
 height = 1567
 alt = "Tło pobierania iAssets 1"
 
 [[home.download.backdrop.images]]
-src = "/assets/screenshots/1.0.9/pl/assets.cb76ddbc2cc7.webp"
+src = "/assets/screenshots/1.0.9/pl/assets.e04f8d05bad3.webp"
 width = 768
 height = 1567
 alt = "Tło pobierania iAssets 2"
 
 [[home.download.backdrop.images]]
-src = "/assets/screenshots/1.0.9/pl/markets.543569e6713e.webp"
+src = "/assets/screenshots/1.0.9/pl/markets.bec25aa48f26.webp"
 width = 768
 height = 1567
 alt = "Tło pobierania iAssets 3"
 
 [[home.download.backdrop.images]]
-src = "/assets/screenshots/1.0.9/pl/ai.ab1dd16c540b.webp"
+src = "/assets/screenshots/1.0.9/pl/ai.00cd4aaa7852.webp"
 width = 768
 height = 1567
 alt = "Tło pobierania iAssets 4"
 
 [[home.download.backdrop.images]]
-src = "/assets/screenshots/1.0.9/pl/family.ba5de6ae1a89.webp"
+src = "/assets/screenshots/1.0.9/pl/family.5a08c231481c.webp"
 width = 768
 height = 1567
 alt = "Tło pobierania iAssets 5"

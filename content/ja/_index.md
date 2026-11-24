@@ -10,31 +10,31 @@ title = "資産の全体像を、家族と一緒に。"
 description = "口座、投資、負債をひとつの画面に。変動を記録し、AI に質問し、家族と共有帳簿を管理できます。"
 
 [[home.hero.fanImages]]
-src = "/assets/screenshots/1.0.9/ja/home.29cdf6c893fb.webp"
+src = "/assets/screenshots/1.0.9/ja/home.576fd2902856.webp"
 width = 768
 height = 1567
 alt = "iAssets アプリスクリーンショット 1"
 
 [[home.hero.fanImages]]
-src = "/assets/screenshots/1.0.9/ja/markets.4445a901cb02.webp"
+src = "/assets/screenshots/1.0.9/ja/markets.6e0d64168695.webp"
 width = 768
 height = 1567
 alt = "iAssets アプリスクリーンショット 2"
 
 [[home.hero.fanImages]]
-src = "/assets/screenshots/1.0.9/ja/assets.8189bef19aa5.webp"
+src = "/assets/screenshots/1.0.9/ja/assets.c5d6a174b2d8.webp"
 width = 768
 height = 1567
 alt = "iAssets アプリスクリーンショット 3"
 
 [[home.hero.fanImages]]
-src = "/assets/screenshots/1.0.9/ja/ai.674601a31458.webp"
+src = "/assets/screenshots/1.0.9/ja/ai.69f263561347.webp"
 width = 768
 height = 1567
 alt = "iAssets アプリスクリーンショット 4"
 
 [[home.hero.fanImages]]
-src = "/assets/screenshots/1.0.9/ja/family.cffd8c4d7251.webp"
+src = "/assets/screenshots/1.0.9/ja/family.431a1fa8588c.webp"
 width = 768
 height = 1567
 alt = "iAssets アプリスクリーンショット 5"
@@ -100,19 +100,19 @@ description = "文字や音声で口座検索、大きな変動の確認、資�
 
 [home.features.showcase]
 [[home.features.showcase.images]]
-src = "/assets/screenshots/1.0.9/ja/insights.dde1123425a6.webp"
+src = "/assets/screenshots/1.0.9/ja/insights.0073184a4bb7.webp"
 width = 768
 height = 1567
 alt = "iAssets 機能ショーケース メイン"
 
 [[home.features.showcase.images]]
-src = "/assets/screenshots/1.0.9/ja/history.c5122f5b8e69.webp"
+src = "/assets/screenshots/1.0.9/ja/history.833df22f24fa.webp"
 width = 768
 height = 1567
 alt = "iAssets 機能ショーケース サブ"
 
 [[home.features.showcase.images]]
-src = "/assets/screenshots/1.0.9/ja/family.cffd8c4d7251.webp"
+src = "/assets/screenshots/1.0.9/ja/family.431a1fa8588c.webp"
 width = 768
 height = 1567
 alt = "iAssets 機能ショーケース 補助"
@@ -174,31 +174,31 @@ durations = ["68s", "76s", "72s", "80s"]
 delays = ["0s", "-3s", "-8s", "-6s"]
 
 [[home.download.backdrop.images]]
-src = "/assets/screenshots/1.0.9/ja/home.29cdf6c893fb.webp"
+src = "/assets/screenshots/1.0.9/ja/home.576fd2902856.webp"
 width = 768
 height = 1567
 alt = "iAssets ダウンロード背景 1"
 
 [[home.download.backdrop.images]]
-src = "/assets/screenshots/1.0.9/ja/assets.8189bef19aa5.webp"
+src = "/assets/screenshots/1.0.9/ja/assets.c5d6a174b2d8.webp"
 width = 768
 height = 1567
 alt = "iAssets ダウンロード背景 2"
 
 [[home.download.backdrop.images]]
-src = "/assets/screenshots/1.0.9/ja/markets.4445a901cb02.webp"
+src = "/assets/screenshots/1.0.9/ja/markets.6e0d64168695.webp"
 width = 768
 height = 1567
 alt = "iAssets ダウンロード背景 3"
 
 [[home.download.backdrop.images]]
-src = "/assets/screenshots/1.0.9/ja/ai.674601a31458.webp"
+src = "/assets/screenshots/1.0.9/ja/ai.69f263561347.webp"
 width = 768
 height = 1567
 alt = "iAssets ダウンロード背景 4"
 
 [[home.download.backdrop.images]]
-src = "/assets/screenshots/1.0.9/ja/family.cffd8c4d7251.webp"
+src = "/assets/screenshots/1.0.9/ja/family.431a1fa8588c.webp"
 width = 768
 height = 1567
 alt = "iAssets ダウンロード背景 5"

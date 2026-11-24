@@ -10,31 +10,31 @@ title = "Aset anda, dalam satu paparan yang jelas."
 description = "Satukan akaun, pelaburan dan liabiliti dalam satu paparan. Rekod perubahan, tanya AI tentang kewangan anda, dan urus buku kongsi bersama keluarga."
 
 [[home.hero.fanImages]]
-src = "/assets/screenshots/1.0.9/ms/home.b56b59fe74d9.webp"
+src = "/assets/screenshots/1.0.9/ms/home.42084cb9a441.webp"
 width = 768
 height = 1567
 alt = "Tangkapan skrin 1 APP iAssets"
 
 [[home.hero.fanImages]]
-src = "/assets/screenshots/1.0.9/ms/markets.ce47a84c1b4f.webp"
+src = "/assets/screenshots/1.0.9/ms/markets.4622a91a8ecd.webp"
 width = 768
 height = 1567
 alt = "Tangkapan skrin 2 APP iAssets"
 
 [[home.hero.fanImages]]
-src = "/assets/screenshots/1.0.9/ms/assets.4fd56c52f52a.webp"
+src = "/assets/screenshots/1.0.9/ms/assets.9d7789b65550.webp"
 width = 768
 height = 1567
 alt = "Tangkapan skrin 3 APP iAssets"
 
 [[home.hero.fanImages]]
-src = "/assets/screenshots/1.0.9/ms/ai.189668abda09.webp"
+src = "/assets/screenshots/1.0.9/ms/ai.051a4ee060ef.webp"
 width = 768
 height = 1567
 alt = "Tangkapan skrin 4 APP iAssets"
 
 [[home.hero.fanImages]]
-src = "/assets/screenshots/1.0.9/ms/family.efdc8a7c566b.webp"
+src = "/assets/screenshots/1.0.9/ms/family.0b18479406a6.webp"
 width = 768
 height = 1567
 alt = "Tangkapan skrin 5 APP iAssets"
@@ -100,19 +100,19 @@ description = "Tanya melalui teks atau suara untuk mencari akaun, menyemak perub
 
 [home.features.showcase]
 [[home.features.showcase.images]]
-src = "/assets/screenshots/1.0.9/ms/insights.7bbc919373c7.webp"
+src = "/assets/screenshots/1.0.9/ms/insights.e8fb4abbdb87.webp"
 width = 768
 height = 1567
 alt = "Tangkapan utama pameran ciri iAssets"
 
 [[home.features.showcase.images]]
-src = "/assets/screenshots/1.0.9/ms/history.7947c179c62d.webp"
+src = "/assets/screenshots/1.0.9/ms/history.79a561ac1e7f.webp"
 width = 768
 height = 1567
 alt = "Tangkapan kedua pameran ciri iAssets"
 
 [[home.features.showcase.images]]
-src = "/assets/screenshots/1.0.9/ms/family.efdc8a7c566b.webp"
+src = "/assets/screenshots/1.0.9/ms/family.0b18479406a6.webp"
 width = 768
 height = 1567
 alt = "Tangkapan sokongan pameran ciri iAssets"
@@ -174,31 +174,31 @@ durations = ["68s", "76s", "72s", "80s"]
 delays = ["0s", "-3s", "-8s", "-6s"]
 
 [[home.download.backdrop.images]]
-src = "/assets/screenshots/1.0.9/ms/home.b56b59fe74d9.webp"
+src = "/assets/screenshots/1.0.9/ms/home.42084cb9a441.webp"
 width = 768
 height = 1567
 alt = "Latar muat turun iAssets 1"
 
 [[home.download.backdrop.images]]
-src = "/assets/screenshots/1.0.9/ms/assets.4fd56c52f52a.webp"
+src = "/assets/screenshots/1.0.9/ms/assets.9d7789b65550.webp"
 width = 768
 height = 1567
 alt = "Latar muat turun iAssets 2"
 
 [[home.download.backdrop.images]]
-src = "/assets/screenshots/1.0.9/ms/markets.ce47a84c1b4f.webp"
+src = "/assets/screenshots/1.0.9/ms/markets.4622a91a8ecd.webp"
 width = 768
 height = 1567
 alt = "Latar muat turun iAssets 3"
 
 [[home.download.backdrop.images]]
-src = "/assets/screenshots/1.0.9/ms/ai.189668abda09.webp"
+src = "/assets/screenshots/1.0.9/ms/ai.051a4ee060ef.webp"
 width = 768
 height = 1567
 alt = "Latar muat turun iAssets 4"
 
 [[home.download.backdrop.images]]
-src = "/assets/screenshots/1.0.9/ms/family.efdc8a7c566b.webp"
+src = "/assets/screenshots/1.0.9/ms/family.0b18479406a6.webp"
 width = 768
 height = 1567
 alt = "Latar muat turun iAssets 5"

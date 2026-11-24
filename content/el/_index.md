@@ -10,25 +10,25 @@ title = "Τα περιουσιακά σας στοιχεία, σε μία καθ
 description = "Συγκεντρώστε λογαριασμούς, επενδύσεις και υποχρεώσεις σε μία προβολή. Καταγράψτε τις αλλαγές, ρωτήστε την ΤΝ για τα οικονομικά σας και διαχειριστείτε κοινά βιβλία με την οικογένεια."
 
 [[home.hero.fanImages]]
-src = "/assets/screenshots/1.0.9/el/home.741e338e04d1.webp"
+src = "/assets/screenshots/1.0.9/el/home.0caa1ca25b87.webp"
 width = 768
 height = 1567
 alt = "Στιγμιότυπο 1 της εφαρμογής iAssets"
 
 [[home.hero.fanImages]]
-src = "/assets/screenshots/1.0.9/el/markets.f66272e2b582.webp"
+src = "/assets/screenshots/1.0.9/el/markets.b421bb40b1f6.webp"
 width = 768
 height = 1567
 alt = "Στιγμιότυπο 2 της εφαρμογής iAssets"
 
 [[home.hero.fanImages]]
-src = "/assets/screenshots/1.0.9/el/assets.2716a8e57d42.webp"
+src = "/assets/screenshots/1.0.9/el/assets.c59f53335e18.webp"
 width = 768
 height = 1567
 alt = "Στιγμιότυπο 3 της εφαρμογής iAssets"
 
 [[home.hero.fanImages]]
-src = "/assets/screenshots/1.0.9/el/ai.a70d589476f6.webp"
+src = "/assets/screenshots/1.0.9/el/ai.ef0b3cd89593.webp"
 width = 768
 height = 1567
 alt = "Στιγμιότυπο 4 της εφαρμογής iAssets"
@@ -100,13 +100,13 @@ description = "Ρωτήστε με κείμενο ή φωνή για να βρε
 
 [home.features.showcase]
 [[home.features.showcase.images]]
-src = "/assets/screenshots/1.0.9/el/insights.245a6bc42350.webp"
+src = "/assets/screenshots/1.0.9/el/insights.e05e70303d85.webp"
 width = 768
 height = 1567
 alt = "Κύριο στιγμιότυπο της βιτρίνας λειτουργιών iAssets"
 
 [[home.features.showcase.images]]
-src = "/assets/screenshots/1.0.9/el/history.abbe4efe2f98.webp"
+src = "/assets/screenshots/1.0.9/el/history.d9421b0281cc.webp"
 width = 768
 height = 1567
 alt = "Δεύτερο στιγμιότυπο της βιτρίνας λειτουργιών iAssets"
@@ -174,25 +174,25 @@ durations = ["68s", "76s", "72s", "80s"]
 delays = ["0s", "-3s", "-8s", "-6s"]
 
 [[home.download.backdrop.images]]
-src = "/assets/screenshots/1.0.9/el/home.741e338e04d1.webp"
+src = "/assets/screenshots/1.0.9/el/home.0caa1ca25b87.webp"
 width = 768
 height = 1567
 alt = "Φόντο λήψης iAssets 1"
 
 [[home.download.backdrop.images]]
-src = "/assets/screenshots/1.0.9/el/assets.2716a8e57d42.webp"
+src = "/assets/screenshots/1.0.9/el/assets.c59f53335e18.webp"
 width = 768
 height = 1567
 alt = "Φόντο λήψης iAssets 2"
 
 [[home.download.backdrop.images]]
-src = "/assets/screenshots/1.0.9/el/markets.f66272e2b582.webp"
+src = "/assets/screenshots/1.0.9/el/markets.b421bb40b1f6.webp"
 width = 768
 height = 1567
 alt = "Φόντο λήψης iAssets 3"
 
 [[home.download.backdrop.images]]
-src = "/assets/screenshots/1.0.9/el/ai.a70d589476f6.webp"
+src = "/assets/screenshots/1.0.9/el/ai.ef0b3cd89593.webp"
 width = 768
 height = 1567
 alt = "Φόντο λήψης iAssets 4"

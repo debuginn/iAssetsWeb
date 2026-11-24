@@ -10,31 +10,31 @@ title = "أصولك في عرض واحد واضح."
 description = "اجمع الحسابات والاستثمارات والالتزامات في عرض واحد. سجّل التغييرات، واسأل الذكاء الاصطناعي عن أموالك، وأدر الدفاتر المشتركة مع عائلتك."
 
 [[home.hero.fanImages]]
-src = "/assets/screenshots/1.0.9/ar/home.215292ca104d.webp"
+src = "/assets/screenshots/1.0.9/ar/home.66b82af3850b.webp"
 width = 768
 height = 1567
 alt = "لقطة شاشة 1 لتطبيق iAssets"
 
 [[home.hero.fanImages]]
-src = "/assets/screenshots/1.0.9/ar/markets.82eb4ab9502e.webp"
+src = "/assets/screenshots/1.0.9/ar/markets.03ef649faaf1.webp"
 width = 768
 height = 1567
 alt = "لقطة شاشة 2 لتطبيق iAssets"
 
 [[home.hero.fanImages]]
-src = "/assets/screenshots/1.0.9/ar/assets.d0836fdfd730.webp"
+src = "/assets/screenshots/1.0.9/ar/assets.240b774dbf4a.webp"
 width = 768
 height = 1567
 alt = "لقطة شاشة 3 لتطبيق iAssets"
 
 [[home.hero.fanImages]]
-src = "/assets/screenshots/1.0.9/ar/ai.b08af91ca2e0.webp"
+src = "/assets/screenshots/1.0.9/ar/ai.69fc50beeee1.webp"
 width = 768
 height = 1567
 alt = "لقطة شاشة 4 لتطبيق iAssets"
 
 [[home.hero.fanImages]]
-src = "/assets/screenshots/1.0.9/ar/family.c676b857ef4e.webp"
+src = "/assets/screenshots/1.0.9/ar/family.9541eb73223e.webp"
 width = 768
 height = 1567
 alt = "لقطة شاشة 5 لتطبيق iAssets"
@@ -100,19 +100,19 @@ description = "اسأل بالنص أو الصوت للعثور على الحس�
 
 [home.features.showcase]
 [[home.features.showcase.images]]
-src = "/assets/screenshots/1.0.9/ar/insights.0fe6c9d98d1e.webp"
+src = "/assets/screenshots/1.0.9/ar/insights.2a35a7b1bec3.webp"
 width = 768
 height = 1567
 alt = "لقطة العرض الرئيسية لميزات iAssets"
 
 [[home.features.showcase.images]]
-src = "/assets/screenshots/1.0.9/ar/history.250e7ad72a16.webp"
+src = "/assets/screenshots/1.0.9/ar/history.15a6922e5e85.webp"
 width = 768
 height = 1567
 alt = "لقطة العرض الثانوية لميزات iAssets"
 
 [[home.features.showcase.images]]
-src = "/assets/screenshots/1.0.9/ar/family.c676b857ef4e.webp"
+src = "/assets/screenshots/1.0.9/ar/family.9541eb73223e.webp"
 width = 768
 height = 1567
 alt = "لقطة العرض المساندة لميزات iAssets"
@@ -174,31 +174,31 @@ durations = ["68s", "76s", "72s", "80s"]
 delays = ["0s", "-3s", "-8s", "-6s"]
 
 [[home.download.backdrop.images]]
-src = "/assets/screenshots/1.0.9/ar/home.215292ca104d.webp"
+src = "/assets/screenshots/1.0.9/ar/home.66b82af3850b.webp"
 width = 768
 height = 1567
 alt = "خلفية تنزيل iAssets 1"
 
 [[home.download.backdrop.images]]
-src = "/assets/screenshots/1.0.9/ar/assets.d0836fdfd730.webp"
+src = "/assets/screenshots/1.0.9/ar/assets.240b774dbf4a.webp"
 width = 768
 height = 1567
 alt = "خلفية تنزيل iAssets 2"
 
 [[home.download.backdrop.images]]
-src = "/assets/screenshots/1.0.9/ar/markets.82eb4ab9502e.webp"
+src = "/assets/screenshots/1.0.9/ar/markets.03ef649faaf1.webp"
 width = 768
 height = 1567
 alt = "خلفية تنزيل iAssets 3"
 
 [[home.download.backdrop.images]]
-src = "/assets/screenshots/1.0.9/ar/ai.b08af91ca2e0.webp"
+src = "/assets/screenshots/1.0.9/ar/ai.69fc50beeee1.webp"
 width = 768
 height = 1567
 alt = "خلفية تنزيل iAssets 4"
 
 [[home.download.backdrop.images]]
-src = "/assets/screenshots/1.0.9/ar/family.c676b857ef4e.webp"
+src = "/assets/screenshots/1.0.9/ar/family.9541eb73223e.webp"
 width = 768
 height = 1567
 alt = "خلفية تنزيل iAssets 5"

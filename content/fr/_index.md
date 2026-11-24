@@ -10,31 +10,31 @@ title = "Vos actifs, dans une vue claire."
 description = "Réunissez comptes, investissements et passifs dans une seule vue. Enregistrez les changements, interrogez l'IA sur vos finances et gérez des livres partagés avec votre famille."
 
 [[home.hero.fanImages]]
-src = "/assets/screenshots/1.0.9/fr/home.f717c3111234.webp"
+src = "/assets/screenshots/1.0.9/fr/home.635158cf4032.webp"
 width = 768
 height = 1567
 alt = "Capture d'écran 1 de l'APP iAssets"
 
 [[home.hero.fanImages]]
-src = "/assets/screenshots/1.0.9/fr/markets.a4748be032a5.webp"
+src = "/assets/screenshots/1.0.9/fr/markets.a6325e470e98.webp"
 width = 768
 height = 1567
 alt = "Capture d'écran 2 de l'APP iAssets"
 
 [[home.hero.fanImages]]
-src = "/assets/screenshots/1.0.9/fr/assets.1c760187e86c.webp"
+src = "/assets/screenshots/1.0.9/fr/assets.0fc0d79f4627.webp"
 width = 768
 height = 1567
 alt = "Capture d'écran 3 de l'APP iAssets"
 
 [[home.hero.fanImages]]
-src = "/assets/screenshots/1.0.9/fr/ai.d928e550cf1b.webp"
+src = "/assets/screenshots/1.0.9/fr/ai.cb6106a2a1a4.webp"
 width = 768
 height = 1567
 alt = "Capture d'écran 4 de l'APP iAssets"
 
 [[home.hero.fanImages]]
-src = "/assets/screenshots/1.0.9/fr/family.0b8c2ae321f2.webp"
+src = "/assets/screenshots/1.0.9/fr/family.93b3cabcef7f.webp"
 width = 768
 height = 1567
 alt = "Capture d'écran 5 de l'APP iAssets"
@@ -100,19 +100,19 @@ description = "Demandez par texte ou par voix pour trouver des comptes, examiner
 
 [home.features.showcase]
 [[home.features.showcase.images]]
-src = "/assets/screenshots/1.0.9/fr/insights.7e16e43531c6.webp"
+src = "/assets/screenshots/1.0.9/fr/insights.07c2beb1d4ac.webp"
 width = 768
 height = 1567
 alt = "Capture principale de la vitrine des fonctions iAssets"
 
 [[home.features.showcase.images]]
-src = "/assets/screenshots/1.0.9/fr/history.a341b6f958b9.webp"
+src = "/assets/screenshots/1.0.9/fr/history.16f022f02026.webp"
 width = 768
 height = 1567
 alt = "Capture secondaire de la vitrine des fonctions iAssets"
 
 [[home.features.showcase.images]]
-src = "/assets/screenshots/1.0.9/fr/family.0b8c2ae321f2.webp"
+src = "/assets/screenshots/1.0.9/fr/family.93b3cabcef7f.webp"
 width = 768
 height = 1567
 alt = "Capture complémentaire de la vitrine des fonctions iAssets"
@@ -174,31 +174,31 @@ durations = ["68s", "76s", "72s", "80s"]
 delays = ["0s", "-3s", "-8s", "-6s"]
 
 [[home.download.backdrop.images]]
-src = "/assets/screenshots/1.0.9/fr/home.f717c3111234.webp"
+src = "/assets/screenshots/1.0.9/fr/home.635158cf4032.webp"
 width = 768
 height = 1567
 alt = "Arrière-plan de téléchargement iAssets 1"
 
 [[home.download.backdrop.images]]
-src = "/assets/screenshots/1.0.9/fr/assets.1c760187e86c.webp"
+src = "/assets/screenshots/1.0.9/fr/assets.0fc0d79f4627.webp"
 width = 768
 height = 1567
 alt = "Arrière-plan de téléchargement iAssets 2"
 
 [[home.download.backdrop.images]]
-src = "/assets/screenshots/1.0.9/fr/markets.a4748be032a5.webp"
+src = "/assets/screenshots/1.0.9/fr/markets.a6325e470e98.webp"
 width = 768
 height = 1567
 alt = "Arrière-plan de téléchargement iAssets 3"
 
 [[home.download.backdrop.images]]
-src = "/assets/screenshots/1.0.9/fr/ai.d928e550cf1b.webp"
+src = "/assets/screenshots/1.0.9/fr/ai.cb6106a2a1a4.webp"
 width = 768
 height = 1567
 alt = "Arrière-plan de téléchargement iAssets 4"
 
 [[home.download.backdrop.images]]
-src = "/assets/screenshots/1.0.9/fr/family.0b8c2ae321f2.webp"
+src = "/assets/screenshots/1.0.9/fr/family.93b3cabcef7f.webp"
 width = 768
 height = 1567
 alt = "Arrière-plan de téléchargement iAssets 5"

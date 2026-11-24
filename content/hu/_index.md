@@ -10,31 +10,31 @@ title = "A vagyonod egyetlen áttekinthető nézetben."
 description = "Foglald egy nézetbe a számlákat, befektetéseket és kötelezettségeket. Rögzítsd a változásokat, kérdezd a mesterséges intelligenciát a pénzügyeidről, és kezeld a családdal megosztott könyveket."
 
 [[home.hero.fanImages]]
-src = "/assets/screenshots/1.0.9/hu/home.8a840a43bc46.webp"
+src = "/assets/screenshots/1.0.9/hu/home.cde8f110cc12.webp"
 width = 768
 height = 1567
 alt = "iAssets APP képernyőkép 1"
 
 [[home.hero.fanImages]]
-src = "/assets/screenshots/1.0.9/hu/markets.987509aa4cd7.webp"
+src = "/assets/screenshots/1.0.9/hu/markets.c57e64db7f5f.webp"
 width = 768
 height = 1567
 alt = "iAssets APP képernyőkép 2"
 
 [[home.hero.fanImages]]
-src = "/assets/screenshots/1.0.9/hu/assets.a5df793aed17.webp"
+src = "/assets/screenshots/1.0.9/hu/assets.4da8875a3fb8.webp"
 width = 768
 height = 1567
 alt = "iAssets APP képernyőkép 3"
 
 [[home.hero.fanImages]]
-src = "/assets/screenshots/1.0.9/hu/ai.faf50592946a.webp"
+src = "/assets/screenshots/1.0.9/hu/ai.e24fd4ea4ab6.webp"
 width = 768
 height = 1567
 alt = "iAssets APP képernyőkép 4"
 
 [[home.hero.fanImages]]
-src = "/assets/screenshots/1.0.9/hu/family.f2fb9a7730a1.webp"
+src = "/assets/screenshots/1.0.9/hu/family.af224dfc5587.webp"
 width = 768
 height = 1567
 alt = "iAssets APP képernyőkép 5"
@@ -100,19 +100,19 @@ description = "Kérdezz szöveggel vagy hanggal, hogy számlákat találj, nagy 
 
 [home.features.showcase]
 [[home.features.showcase.images]]
-src = "/assets/screenshots/1.0.9/hu/insights.4a2ac93a6e48.webp"
+src = "/assets/screenshots/1.0.9/hu/insights.bcb586edddeb.webp"
 width = 768
 height = 1567
 alt = "Az iAssets funkcióbemutató fő képernyőképe"
 
 [[home.features.showcase.images]]
-src = "/assets/screenshots/1.0.9/hu/history.36dbd282aa7d.webp"
+src = "/assets/screenshots/1.0.9/hu/history.1624e5345d6a.webp"
 width = 768
 height = 1567
 alt = "Az iAssets funkcióbemutató második képernyőképe"
 
 [[home.features.showcase.images]]
-src = "/assets/screenshots/1.0.9/hu/family.f2fb9a7730a1.webp"
+src = "/assets/screenshots/1.0.9/hu/family.af224dfc5587.webp"
 width = 768
 height = 1567
 alt = "Az iAssets funkcióbemutató kiegészítő képernyőképe"
@@ -174,31 +174,31 @@ durations = ["68s", "76s", "72s", "80s"]
 delays = ["0s", "-3s", "-8s", "-6s"]
 
 [[home.download.backdrop.images]]
-src = "/assets/screenshots/1.0.9/hu/home.8a840a43bc46.webp"
+src = "/assets/screenshots/1.0.9/hu/home.cde8f110cc12.webp"
 width = 768
 height = 1567
 alt = "iAssets letöltési háttér 1"
 
 [[home.download.backdrop.images]]
-src = "/assets/screenshots/1.0.9/hu/assets.a5df793aed17.webp"
+src = "/assets/screenshots/1.0.9/hu/assets.4da8875a3fb8.webp"
 width = 768
 height = 1567
 alt = "iAssets letöltési háttér 2"
 
 [[home.download.backdrop.images]]
-src = "/assets/screenshots/1.0.9/hu/markets.987509aa4cd7.webp"
+src = "/assets/screenshots/1.0.9/hu/markets.c57e64db7f5f.webp"
 width = 768
 height = 1567
 alt = "iAssets letöltési háttér 3"
 
 [[home.download.backdrop.images]]
-src = "/assets/screenshots/1.0.9/hu/ai.faf50592946a.webp"
+src = "/assets/screenshots/1.0.9/hu/ai.e24fd4ea4ab6.webp"
 width = 768
 height = 1567
 alt = "iAssets letöltési háttér 4"
 
 [[home.download.backdrop.images]]
-src = "/assets/screenshots/1.0.9/hu/family.f2fb9a7730a1.webp"
+src = "/assets/screenshots/1.0.9/hu/family.af224dfc5587.webp"
 width = 768
 height = 1567
 alt = "iAssets letöltési háttér 5"

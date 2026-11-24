@@ -1,6 +1,6 @@
 {
   "version": "1.0.9",
-  "source": "Existing App Store Connect 1.0.9 artwork",
+  "source": "App Store Connect 1.0.9 artwork with Dynamic Island restored",
   "phoneCrop": [
     166,
     634,
@@ -14,1742 +14,1742 @@
   "locales": {
     "en": {
       "home": {
-        "src": "/assets/screenshots/1.0.9/en/home.e9a0b3d127d5.webp",
+        "src": "/assets/screenshots/1.0.9/en/home.bc8950d05800.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 66040,
-        "sha256": "e9a0b3d127d5ed5411fce7a18315758c44ed12a0921a8076535f4ee7e23a605d",
+        "bytes": 66546,
+        "sha256": "bc8950d05800377b842d418ac6453ba11da129381a421897f6fcf6644cbf9dc1",
         "sourceLocale": "en-US",
         "sourceFile": "01-home.png",
-        "sourceMD5": "cce927ab122cc104f1d98f26fe27ce20"
+        "sourceMD5": "3b4c791d557744e330687db0868abb37"
       },
       "family": {
-        "src": "/assets/screenshots/1.0.9/en/family.aa3f8763a6f3.webp",
+        "src": "/assets/screenshots/1.0.9/en/family.4bb108ed9c6e.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 68186,
-        "sha256": "aa3f8763a6f3da81a51843ee40e14c0d4990f457022b146a7fa8d740f2aa5f93",
+        "bytes": 68914,
+        "sha256": "4bb108ed9c6e03c34b9969240e11ff3c608bf4ef8e23bef1a941cbccf5a90cb8",
         "sourceLocale": "en-US",
         "sourceFile": "02-family.png",
-        "sourceMD5": "30e594983c2506f8be063c56d33fa843"
+        "sourceMD5": "7090ba0db51d174cc99e893036c8c683"
       },
       "insights": {
-        "src": "/assets/screenshots/1.0.9/en/insights.2b2b8cba4606.webp",
+        "src": "/assets/screenshots/1.0.9/en/insights.a9cc02f6e65f.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 66904,
-        "sha256": "2b2b8cba460668e7afa7f3343cd30f750353c1509ccc3bf731344192703f164b",
+        "bytes": 67616,
+        "sha256": "a9cc02f6e65fc5fbb87bba6a380b0b61c8183d7bb3d4b0252416cd1f1f3833ac",
         "sourceLocale": "en-US",
         "sourceFile": "03-insights.png",
-        "sourceMD5": "f5fee3ef7fc4955b629859cdc5e5606f"
+        "sourceMD5": "92a286522220a71c6bb3b75a4b245c7d"
       },
       "ai": {
-        "src": "/assets/screenshots/1.0.9/en/ai.9ee0538288e5.webp",
+        "src": "/assets/screenshots/1.0.9/en/ai.9c02a42b9fe3.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 66652,
-        "sha256": "9ee0538288e5934f649368d1636038048893469e5c1e6c394d5c331432844df1",
+        "bytes": 67160,
+        "sha256": "9c02a42b9fe3ef212e73fe1f527bb9670bd8d84000f440848a8d5dfbd4344183",
         "sourceLocale": "en-US",
         "sourceFile": "04-ai.png",
-        "sourceMD5": "8e63ed6cb95f1c0f53619ab26e7e0c0f"
+        "sourceMD5": "6a2c2f339d3b4dca7c5de77eeadc5707"
       },
       "assets": {
-        "src": "/assets/screenshots/1.0.9/en/assets.cda408a23e90.webp",
+        "src": "/assets/screenshots/1.0.9/en/assets.ed7ca571216b.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 68098,
-        "sha256": "cda408a23e906e3cddba09eafb22d9fe3725f94566c8af6170372ea3c87cf5e5",
+        "bytes": 68618,
+        "sha256": "ed7ca571216ba5ab473c05de62ec71075930768d0f905d2c6bde004bf38e6caf",
         "sourceLocale": "en-US",
         "sourceFile": "05-assets.png",
-        "sourceMD5": "3a34d4d160c3bf0d459c2e2b1c4b6536"
+        "sourceMD5": "6970c907355b2420819d1fd0093435b9"
       },
       "markets": {
-        "src": "/assets/screenshots/1.0.9/en/markets.6371b96b38c6.webp",
+        "src": "/assets/screenshots/1.0.9/en/markets.da513100ae47.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 76990,
-        "sha256": "6371b96b38c6b1fdb12f37c6d8e0ad42bb8e84607743801a861ff1bf77569ef2",
+        "bytes": 77466,
+        "sha256": "da513100ae4759bfa063ed161214ec2ce0e9f5acc0b3cf9b3cd3a75e90384f51",
         "sourceLocale": "en-US",
         "sourceFile": "06-markets.png",
-        "sourceMD5": "b941f85b515d2b7b339534becff82639"
+        "sourceMD5": "a375f5b848ff0182b767d054c90c5f5e"
       },
       "history": {
-        "src": "/assets/screenshots/1.0.9/en/history.67a0ef6c9358.webp",
+        "src": "/assets/screenshots/1.0.9/en/history.e322753c90b3.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 72628,
-        "sha256": "67a0ef6c935866b63564aae2732002d5d92f39e9c864fa03c4019e652dc01ce6",
+        "bytes": 73090,
+        "sha256": "e322753c90b30688c6469a3938bc7a8213d110355fa2d3d103ad8855072311a9",
         "sourceLocale": "en-US",
         "sourceFile": "08-history.png",
-        "sourceMD5": "eac686eb450c0832f834e79b87bc8b5a"
+        "sourceMD5": "791bd0c8301323b9bc9d000a1dd54b7e"
       }
     },
     "zh": {
       "home": {
-        "src": "/assets/screenshots/1.0.9/zh/home.fa756e329786.webp",
+        "src": "/assets/screenshots/1.0.9/zh/home.0a7ca589a7af.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 65876,
-        "sha256": "fa756e329786c5ff2e17c6c2b4597ad323fd2c4bc3ae5aed267526b58fc4cbbc",
+        "bytes": 66524,
+        "sha256": "0a7ca589a7af2549cd6a80fb3bc5d0ce06be33825cf07c88a010ccffc0f280e9",
         "sourceLocale": "zh-Hans",
         "sourceFile": "01-home.png",
-        "sourceMD5": "c88ea5b45dabaa926d7a3af942d34487"
+        "sourceMD5": "b110f7b2b781cc7f8036f2bf20f1527a"
       },
       "family": {
-        "src": "/assets/screenshots/1.0.9/zh/family.80093b59f776.webp",
+        "src": "/assets/screenshots/1.0.9/zh/family.516f6eec9d4b.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 64296,
-        "sha256": "80093b59f77620ecba02c4f6b15c2b92bf450b63be8d06aad62c62f61355d8eb",
+        "bytes": 64842,
+        "sha256": "516f6eec9d4b575c84e0562d12f8af710f6cf068c0b8e66697866b9492df2176",
         "sourceLocale": "zh-Hans",
         "sourceFile": "02-family.png",
-        "sourceMD5": "ec908a51c9721f549c12eedefbf310a6"
+        "sourceMD5": "881e11980c2b347279568b6c2715de25"
       },
       "insights": {
-        "src": "/assets/screenshots/1.0.9/zh/insights.f5faf462006d.webp",
+        "src": "/assets/screenshots/1.0.9/zh/insights.32a186b927f9.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 67164,
-        "sha256": "f5faf462006de6bad8a8b176d3cee78f10d503fcb9b48a308d20b5c4407f67a4",
+        "bytes": 67814,
+        "sha256": "32a186b927f9bf9f4e6edf4d1a86030094942e9469cc54cd7abad916692713ac",
         "sourceLocale": "zh-Hans",
         "sourceFile": "03-insights.png",
-        "sourceMD5": "54e1b34acd3afaf9fa759c02c87d94d0"
+        "sourceMD5": "e6b39c8d5f05c23bac154e03a8f7d3d0"
       },
       "ai": {
-        "src": "/assets/screenshots/1.0.9/zh/ai.28d93c3e1282.webp",
+        "src": "/assets/screenshots/1.0.9/zh/ai.80226db873ef.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 54688,
-        "sha256": "28d93c3e12824b9e59d04152a04251f3a8943fab3718d39eba14636fffc73c3f",
+        "bytes": 55322,
+        "sha256": "80226db873efda800ee6c12237f3d5dadc50a2f81da71bfd3b3fdc3b85d7b4b3",
         "sourceLocale": "zh-Hans",
         "sourceFile": "04-assistant.png",
-        "sourceMD5": "dadde152be77d97c5af03e20ac99277e"
+        "sourceMD5": "7a6bae1c6fd73ba560e49cc5cf400839"
       },
       "assets": {
-        "src": "/assets/screenshots/1.0.9/zh/assets.e02eed1ee0e8.webp",
+        "src": "/assets/screenshots/1.0.9/zh/assets.9d77e68d27cb.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 62138,
-        "sha256": "e02eed1ee0e875be8b954ad70584c28d4f384375714a49bd54c2d6798ae29379",
+        "bytes": 62712,
+        "sha256": "9d77e68d27cb23cd9158ad3a0f91aed26a8d35e06a027789a4062c7786174264",
         "sourceLocale": "zh-Hans",
         "sourceFile": "05-assets.png",
-        "sourceMD5": "e32f036b3853f52e479f0588ca5de98d"
+        "sourceMD5": "640807400461069629a0c5d21679f997"
       },
       "markets": {
-        "src": "/assets/screenshots/1.0.9/zh/markets.b028c5d8a8d0.webp",
+        "src": "/assets/screenshots/1.0.9/zh/markets.904963df3477.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 76092,
-        "sha256": "b028c5d8a8d0260bfd06fca6cfd21bb55ac80fb510e19b8f78400da802d895ca",
+        "bytes": 76770,
+        "sha256": "904963df34779f4fb2589e44f5f3f7671cd2efa3479ece8005587b227346bcbf",
         "sourceLocale": "zh-Hans",
         "sourceFile": "06-stock-markets.png",
-        "sourceMD5": "fa908574cb86b31dc3e1068020ea3d55"
+        "sourceMD5": "c6bcced03bb998a03ceecd38581db890"
       },
       "history": {
-        "src": "/assets/screenshots/1.0.9/zh/history.32773f4c1f53.webp",
+        "src": "/assets/screenshots/1.0.9/zh/history.09c89b6ad507.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 71956,
-        "sha256": "32773f4c1f532b50f23ff1d4d606519542b694788871e1eeaca1d674a24e5f71",
+        "bytes": 72534,
+        "sha256": "09c89b6ad5075a8b9e3e58c865d4ae4bbbdfa2b7d47d7f20c07e29b4e98b020b",
         "sourceLocale": "zh-Hans",
         "sourceFile": "08-history.png",
-        "sourceMD5": "cee56a1acfbd7a49e72b6120dba7357f"
+        "sourceMD5": "a33f752aeb6653ca98669ace3769c46c"
       }
     },
     "zh-hant": {
       "home": {
-        "src": "/assets/screenshots/1.0.9/zh-hant/home.a85ce3dcaffc.webp",
+        "src": "/assets/screenshots/1.0.9/zh-hant/home.27b1d4cf4c58.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 67178,
-        "sha256": "a85ce3dcaffc4bc29b1788a1bdad1844fa9e7c474ca6e2f3bc44791abad2ab41",
+        "bytes": 67760,
+        "sha256": "27b1d4cf4c58cd51ead756bcfe7407a4b7ca5e4459544dd8a81de7db1e3b87ee",
         "sourceLocale": "zh-Hant",
         "sourceFile": "01-home.png",
-        "sourceMD5": "92671ee976c1b7354190cd4bc46cfa48"
+        "sourceMD5": "2710b488674dc5b3a7c962f76237b016"
       },
       "family": {
-        "src": "/assets/screenshots/1.0.9/zh-hant/family.335b3b26ef4a.webp",
+        "src": "/assets/screenshots/1.0.9/zh-hant/family.2689a57ef66d.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 65620,
-        "sha256": "335b3b26ef4aadf7401e9c0d4244a2ea763d0f400d9c208ba02947cf5cc0e80c",
+        "bytes": 66042,
+        "sha256": "2689a57ef66d80bd785726b436411e13b040b3c9853918a41fe7afdda372caeb",
         "sourceLocale": "zh-Hant",
         "sourceFile": "02-family.png",
-        "sourceMD5": "b9ca907a6d8d663c78d07f600fe7dfee"
+        "sourceMD5": "e13971e041476632f96a80c9f5c11476"
       },
       "insights": {
-        "src": "/assets/screenshots/1.0.9/zh-hant/insights.d542abde9996.webp",
+        "src": "/assets/screenshots/1.0.9/zh-hant/insights.1398ecaadbd5.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 67196,
-        "sha256": "d542abde9996743dc2261a8279d29ba741a0ced2634d6aa7487f65f49fd6a982",
+        "bytes": 67804,
+        "sha256": "1398ecaadbd5dd38b59327e1025fed723555400fe0496ca26f9c0e9198d6c651",
         "sourceLocale": "zh-Hant",
         "sourceFile": "03-insights.png",
-        "sourceMD5": "962f308bfeddbf27db03f4d831b608e2"
+        "sourceMD5": "3a32dc87120c47e34dbc36745d921524"
       },
       "ai": {
-        "src": "/assets/screenshots/1.0.9/zh-hant/ai.de1430dd3344.webp",
+        "src": "/assets/screenshots/1.0.9/zh-hant/ai.259dce9aaccb.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 55900,
-        "sha256": "de1430dd33444efbc40008748418ec141877f54db589a0a07b05876caadf820f",
+        "bytes": 56444,
+        "sha256": "259dce9aaccb4e13911ec85e1d8f0af0d05b4e1dcc18b3888e7ca694d502aff9",
         "sourceLocale": "zh-Hant",
         "sourceFile": "04-ai.png",
-        "sourceMD5": "6006f995f6bb3738d933df750ccbc2fe"
+        "sourceMD5": "0f65ff55adb80cd59840857f51b78c7c"
       },
       "assets": {
-        "src": "/assets/screenshots/1.0.9/zh-hant/assets.650d7a75cbed.webp",
+        "src": "/assets/screenshots/1.0.9/zh-hant/assets.6f628d3a200c.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 62994,
-        "sha256": "650d7a75cbed8223608194e3d75dcbd40d5711198e05254a4649e2ca86da0a6b",
+        "bytes": 63476,
+        "sha256": "6f628d3a200cf9fe56a429524c438e30b9c0742d913453936903b33f25b19b50",
         "sourceLocale": "zh-Hant",
         "sourceFile": "05-assets.png",
-        "sourceMD5": "5915977fcba2e5ee96b9ab62d28c0356"
+        "sourceMD5": "034c87d9b2f3809fc72a92498bb3ecde"
       },
       "markets": {
-        "src": "/assets/screenshots/1.0.9/zh-hant/markets.d9db3c773236.webp",
+        "src": "/assets/screenshots/1.0.9/zh-hant/markets.9ee3502a93d8.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 76076,
-        "sha256": "d9db3c773236881f956a64778ccff007ac579ff78f4b5f35523ed0e6199b8e52",
+        "bytes": 76764,
+        "sha256": "9ee3502a93d8ec979162754ac0679d5792b757362009f286fb24979f188caeaf",
         "sourceLocale": "zh-Hant",
         "sourceFile": "06-markets.png",
-        "sourceMD5": "96d5513ee35f932ce62b3e7e09089e1c"
+        "sourceMD5": "9078e350281cd75da252ba23f8c91ae5"
       },
       "history": {
-        "src": "/assets/screenshots/1.0.9/zh-hant/history.70334b742ce7.webp",
+        "src": "/assets/screenshots/1.0.9/zh-hant/history.021752ef5b54.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 74380,
-        "sha256": "70334b742ce76a66ea6cb55c7f22ec18d7695216ea4a6abdcd63c18ba2843cf0",
+        "bytes": 75018,
+        "sha256": "021752ef5b54aae46f43e1dc1e2550a8cd37afad96bd4b0b180eb9546e216c5e",
         "sourceLocale": "zh-Hant",
         "sourceFile": "08-history.png",
-        "sourceMD5": "d93957479c9c74a5c81807aedf9d9f19"
+        "sourceMD5": "51879325496463fd1e93a32443e48900"
       }
     },
     "ja": {
       "home": {
-        "src": "/assets/screenshots/1.0.9/ja/home.29cdf6c893fb.webp",
+        "src": "/assets/screenshots/1.0.9/ja/home.576fd2902856.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 66130,
-        "sha256": "29cdf6c893fb90633e72ac49a283ede383ba55197d06163aa16fef8c96a93377",
+        "bytes": 66662,
+        "sha256": "576fd2902856566ec0fd0d3d826636580fce323b81aee1257e0353739d31b06f",
         "sourceLocale": "ja",
         "sourceFile": "01-home.png",
-        "sourceMD5": "25472c4d4da2742024380ce69a3fc241"
+        "sourceMD5": "f94e9bdc423b977b0ae83b965f0acba1"
       },
       "family": {
-        "src": "/assets/screenshots/1.0.9/ja/family.cffd8c4d7251.webp",
+        "src": "/assets/screenshots/1.0.9/ja/family.431a1fa8588c.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 66240,
-        "sha256": "cffd8c4d7251aa1cad86025ddac57641ad491d66669e177b642381eb5c200e1a",
+        "bytes": 66850,
+        "sha256": "431a1fa8588c42fcd2333c77e04dabd639615d2ead351d31013601378c7b77e2",
         "sourceLocale": "ja",
         "sourceFile": "02-family.png",
-        "sourceMD5": "33a5ed1a9904f675bf3181e7bf40f97a"
+        "sourceMD5": "28d80e8b95ed038c48a0c4c552361735"
       },
       "insights": {
-        "src": "/assets/screenshots/1.0.9/ja/insights.dde1123425a6.webp",
+        "src": "/assets/screenshots/1.0.9/ja/insights.0073184a4bb7.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 66560,
-        "sha256": "dde1123425a6bf0aab2cf6a451b8932953e859d5c23c427a833d77486da91ba4",
+        "bytes": 67070,
+        "sha256": "0073184a4bb7b46d97d990fff9a869c2bf12a094e2d878c857e68555e648eaf1",
         "sourceLocale": "ja",
         "sourceFile": "03-insights.png",
-        "sourceMD5": "954e69aa1275851753038ef0851323c8"
+        "sourceMD5": "cf067e7076bae729645035eda18614ce"
       },
       "ai": {
-        "src": "/assets/screenshots/1.0.9/ja/ai.674601a31458.webp",
+        "src": "/assets/screenshots/1.0.9/ja/ai.69f263561347.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 60330,
-        "sha256": "674601a3145871b493a95942033e5c52d40c272db33d812da2df242c1b2aa90f",
+        "bytes": 60920,
+        "sha256": "69f263561347e303339aabea9da8a34dca206c0eb468ca0c8aa15041d03ac9e8",
         "sourceLocale": "ja",
         "sourceFile": "04-ai.png",
-        "sourceMD5": "fa37b7616b6ea5a1ca47f4d2f95e7e79"
+        "sourceMD5": "6197a27328c741f991a047d40b526c93"
       },
       "assets": {
-        "src": "/assets/screenshots/1.0.9/ja/assets.8189bef19aa5.webp",
+        "src": "/assets/screenshots/1.0.9/ja/assets.c5d6a174b2d8.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 61496,
-        "sha256": "8189bef19aa54d8597f4f476837eb08175ec3574fba68f07b6f2f33a2ccb7db0",
+        "bytes": 62028,
+        "sha256": "c5d6a174b2d85204d7ee0e1caf29d1451fa090331790ea81042facd90eb8e58b",
         "sourceLocale": "ja",
         "sourceFile": "05-assets.png",
-        "sourceMD5": "b86f0c1ab177835dbfe97b8759081631"
+        "sourceMD5": "649f3f8d57ebb6d2c0e533fdf52be4f9"
       },
       "markets": {
-        "src": "/assets/screenshots/1.0.9/ja/markets.4445a901cb02.webp",
+        "src": "/assets/screenshots/1.0.9/ja/markets.6e0d64168695.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 76818,
-        "sha256": "4445a901cb0224c26323e7b9c069be4a440677f87826e044fb86c01fa8592c96",
+        "bytes": 77284,
+        "sha256": "6e0d641686953798cdca9984d51085ee3b15b847fb932032a2315f36a0a04f55",
         "sourceLocale": "ja",
         "sourceFile": "06-markets.png",
-        "sourceMD5": "bedceee090a7e3504a5f39e680f5eb79"
+        "sourceMD5": "4cca4f7a2f1a2fb5c15b825078178ebe"
       },
       "history": {
-        "src": "/assets/screenshots/1.0.9/ja/history.c5122f5b8e69.webp",
+        "src": "/assets/screenshots/1.0.9/ja/history.833df22f24fa.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 72724,
-        "sha256": "c5122f5b8e69d18fccc32bc9cf9aeb2cf1cd17ddacc9d2f344ed7adc91e3de77",
+        "bytes": 73410,
+        "sha256": "833df22f24fa876c1c6fd59cf8a9aa3ccf4851041ba989251992ab2e699b91ad",
         "sourceLocale": "ja",
         "sourceFile": "08-history.png",
-        "sourceMD5": "8aa02e5fa128caad3abc4eae24386c7d"
+        "sourceMD5": "6ebf879d3be1e281c82dd099299b5b7b"
       }
     },
     "ko": {
       "home": {
-        "src": "/assets/screenshots/1.0.9/ko/home.e7383d909755.webp",
+        "src": "/assets/screenshots/1.0.9/ko/home.652b18b19e2b.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 62968,
-        "sha256": "e7383d909755c14607d1111f541339e84e21c09175b053530cfd214cdde3febc",
+        "bytes": 63556,
+        "sha256": "652b18b19e2b556115ec1deaa8fcb54a9c08d7b9555d49dc45e733799c64ec40",
         "sourceLocale": "ko",
         "sourceFile": "01-home.png",
-        "sourceMD5": "08fa7a5242c2b3644c786d8fb7acac11"
+        "sourceMD5": "7b6a4e4c2cd44013fae7e473ffb895d2"
       },
       "family": {
-        "src": "/assets/screenshots/1.0.9/ko/family.d0a50fefca00.webp",
+        "src": "/assets/screenshots/1.0.9/ko/family.3773731274f1.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 61800,
-        "sha256": "d0a50fefca006a8225897d7b72c7150731881ce01fccb37c4dfde782e74d78e7",
+        "bytes": 62270,
+        "sha256": "3773731274f1b84e5cb815a8c08f1c496ae9d97152bc248202a79703cb212489",
         "sourceLocale": "ko",
         "sourceFile": "02-family.png",
-        "sourceMD5": "660651e4937c01e8321fc8c14ac14b81"
+        "sourceMD5": "8ad2622ebc3df4b19780e8a3c8d0a161"
       },
       "insights": {
-        "src": "/assets/screenshots/1.0.9/ko/insights.8a72725ab692.webp",
+        "src": "/assets/screenshots/1.0.9/ko/insights.0d9b5ead3e91.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 63934,
-        "sha256": "8a72725ab692cbfcdb6b82bec96ca94cdf0410c25dc2af3d485d2f6ca4e72180",
+        "bytes": 64470,
+        "sha256": "0d9b5ead3e9122cedf3f76c19391f8b35034ec0f446dfc9cb3d6ef5029ab1e09",
         "sourceLocale": "ko",
         "sourceFile": "03-insights.png",
-        "sourceMD5": "39b6393f57c38bbe274c11c1c929dd6a"
+        "sourceMD5": "9363b3dd56cc570391f44b81f5beab44"
       },
       "ai": {
-        "src": "/assets/screenshots/1.0.9/ko/ai.c2206875670c.webp",
+        "src": "/assets/screenshots/1.0.9/ko/ai.e7902fc901e5.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 53076,
-        "sha256": "c2206875670c53c40c484118d4ea8c0f3a5bc64e0d16507b25c749d864be23b4",
+        "bytes": 53634,
+        "sha256": "e7902fc901e59215024b6dd7527cd90b68444a9750ab8975cb58b6a698c89ec4",
         "sourceLocale": "ko",
         "sourceFile": "04-ai.png",
-        "sourceMD5": "f9ab3f6d74b21afc3f324dee59b26b14"
+        "sourceMD5": "75c334b4912e92b1dd101f2ff431ec27"
       },
       "assets": {
-        "src": "/assets/screenshots/1.0.9/ko/assets.57f4a3f3380f.webp",
+        "src": "/assets/screenshots/1.0.9/ko/assets.879e9a34a6b5.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 57862,
-        "sha256": "57f4a3f3380fca633929150a505de8b0d7f2006766ed9670fe6b7ba554beedf0",
+        "bytes": 58418,
+        "sha256": "879e9a34a6b528eba70cc1c5a4d87a4ae968b1ed477a1dfabe036736a669e56d",
         "sourceLocale": "ko",
         "sourceFile": "05-assets.png",
-        "sourceMD5": "3fb2ed13b9422ba318f62fea61875dfa"
+        "sourceMD5": "c1a736453c1f098ebb20eeb2c1566883"
       },
       "markets": {
-        "src": "/assets/screenshots/1.0.9/ko/markets.006b4a8063b7.webp",
+        "src": "/assets/screenshots/1.0.9/ko/markets.e0dd00925cb4.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 75206,
-        "sha256": "006b4a8063b76643e619d93c4d031899b2c7f0aebe546a02dd71d4eceb2ed2d4",
+        "bytes": 75816,
+        "sha256": "e0dd00925cb491c4b0f3abf5cc3e2ff01410d8e9da27b1964f2fae6692f9f7dc",
         "sourceLocale": "ko",
         "sourceFile": "06-markets.png",
-        "sourceMD5": "c54836180879ff0d3f39c92c2b509b7d"
+        "sourceMD5": "4c4522e275a9418b96f305e87af3f79f"
       },
       "history": {
-        "src": "/assets/screenshots/1.0.9/ko/history.247219842d60.webp",
+        "src": "/assets/screenshots/1.0.9/ko/history.3fb4519433fc.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 67182,
-        "sha256": "247219842d607da2ab97853354c2654182de6ba4a7109f8f8ae8eefe24f1d1a0",
+        "bytes": 67702,
+        "sha256": "3fb4519433fcc9f185b76e65232fa822eb185c1a001a63ebf62453675ea590db",
         "sourceLocale": "ko",
         "sourceFile": "08-history.png",
-        "sourceMD5": "81fd4b7d950fe8e7e67bd4248ff977f2"
+        "sourceMD5": "d1b27cebdad77a164e7456a8233359b6"
       }
     },
     "th": {
       "home": {
-        "src": "/assets/screenshots/1.0.9/th/home.a84f311cdf47.webp",
+        "src": "/assets/screenshots/1.0.9/th/home.dfbcde7e83eb.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 69910,
-        "sha256": "a84f311cdf475651491ad70c3dd872dfb99e14b1085bd8a66087857ea8d36b94",
+        "bytes": 70598,
+        "sha256": "dfbcde7e83eb84458de0ef90f6eae020fd439333682bbf32a3534c73cdb9b5a2",
         "sourceLocale": "th",
         "sourceFile": "01-home.png",
-        "sourceMD5": "e20227d7d9adbb6021dd501918270dfe"
+        "sourceMD5": "62ec66b7f6d90428caee04ee5a076fc3"
       },
       "family": {
-        "src": "/assets/screenshots/1.0.9/th/family.554ca1174164.webp",
+        "src": "/assets/screenshots/1.0.9/th/family.6bf4f159d32f.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 75168,
-        "sha256": "554ca1174164aa39a8983248863a628f3e687db59864de5a18da90460738ca7d",
+        "bytes": 75840,
+        "sha256": "6bf4f159d32fd8e38744a635e8343e680a29b1135accb68ea8cdaa954ab617fd",
         "sourceLocale": "th",
         "sourceFile": "02-family.png",
-        "sourceMD5": "6bb4c4ac048196cc34375464335cb303"
+        "sourceMD5": "2c085e740b9f1e7562c2896790c69bf3"
       },
       "insights": {
-        "src": "/assets/screenshots/1.0.9/th/insights.55b992a93043.webp",
+        "src": "/assets/screenshots/1.0.9/th/insights.59385703f560.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 70076,
-        "sha256": "55b992a93043828ada007bd35718d6ba42a8dd1cb8212508bd46b50d024e52da",
+        "bytes": 70636,
+        "sha256": "59385703f560047f3c81771d05f46862e6b6ad12003f52e77547ea3f1043d122",
         "sourceLocale": "th",
         "sourceFile": "03-insights.png",
-        "sourceMD5": "bfa3cf61465728b8ebd2871ec9f3a555"
+        "sourceMD5": "3878e2175adf51edf0a6bf5ba7cdc966"
       },
       "ai": {
-        "src": "/assets/screenshots/1.0.9/th/ai.b96625a5de4e.webp",
+        "src": "/assets/screenshots/1.0.9/th/ai.952959775e5c.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 64320,
-        "sha256": "b96625a5de4e15a4814b660a3efc922ef2831a095af96dd4c998a7ea8e080e28",
+        "bytes": 64940,
+        "sha256": "952959775e5ce74f52e3fe0a5f4c341926398326ba709ec120d98f3adcfc3cbf",
         "sourceLocale": "th",
         "sourceFile": "04-ai.png",
-        "sourceMD5": "7026f4724209d27fcadab74ff63cd28e"
+        "sourceMD5": "4e7f2deea552334f7a418e1db55f83e6"
       },
       "assets": {
-        "src": "/assets/screenshots/1.0.9/th/assets.d21c1eee25c0.webp",
+        "src": "/assets/screenshots/1.0.9/th/assets.b121d0d13dc7.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 63470,
-        "sha256": "d21c1eee25c0c899bfda6b0bbe6cc34bc1f04c4cfa73af0bd93c882ce55ec05c",
+        "bytes": 63916,
+        "sha256": "b121d0d13dc71efd247b0c237956a2ae03b59f0a5f0fd43ef0a8c080291978d7",
         "sourceLocale": "th",
         "sourceFile": "05-assets.png",
-        "sourceMD5": "ec0398ec5d0ecf6ff98d963a57938877"
+        "sourceMD5": "b602b6cdcb25c25e574e2ea81d4e99f3"
       },
       "markets": {
-        "src": "/assets/screenshots/1.0.9/th/markets.ebb50f9cfbd9.webp",
+        "src": "/assets/screenshots/1.0.9/th/markets.0e58bf4b3a6c.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 74174,
-        "sha256": "ebb50f9cfbd9cbf132747677342b3aa9ac5bff467a9e94307b5a24b4cc7f21f7",
+        "bytes": 74768,
+        "sha256": "0e58bf4b3a6c05d420de3574e7efae9eed4b25acf3766c436c816bc2e02cc791",
         "sourceLocale": "th",
         "sourceFile": "06-markets.png",
-        "sourceMD5": "50d5fb04230125e214d0ed31250f7497"
+        "sourceMD5": "02fa8dd6e73aa013c9db8850c7a46790"
       },
       "history": {
-        "src": "/assets/screenshots/1.0.9/th/history.9a612f951ff9.webp",
+        "src": "/assets/screenshots/1.0.9/th/history.69c254398cce.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 75224,
-        "sha256": "9a612f951ff991f6fb7ecdd374b35bcf81009d52fb398ff961a46286d37432f4",
+        "bytes": 75678,
+        "sha256": "69c254398cce379e00edb7d186c8e74a769eae9b2570cdaaf30b59b86901ec12",
         "sourceLocale": "th",
         "sourceFile": "08-history.png",
-        "sourceMD5": "c902b953d4a1c065dd7cb9878db6711e"
+        "sourceMD5": "1b5364aa646a8c6320774eaf13cf8478"
       }
     },
     "vi": {
       "home": {
-        "src": "/assets/screenshots/1.0.9/vi/home.f45d3470ab97.webp",
+        "src": "/assets/screenshots/1.0.9/vi/home.e565bcfdc710.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 72428,
-        "sha256": "f45d3470ab970a542b362c3cf769d0d696cf972f2a753362809b03c3a36fba29",
+        "bytes": 72900,
+        "sha256": "e565bcfdc7105c39d04783ee1a10536f1b862d0ce791eb6c303cdcb2cc9a0575",
         "sourceLocale": "vi",
         "sourceFile": "01-home.png",
-        "sourceMD5": "4b0c4330686db5d18db2af77cdbac686"
+        "sourceMD5": "97734056f23d54b704ff14127c951627"
       },
       "family": {
-        "src": "/assets/screenshots/1.0.9/vi/family.9aa229f3a1f1.webp",
+        "src": "/assets/screenshots/1.0.9/vi/family.8152217ef105.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 72962,
-        "sha256": "9aa229f3a1f1fc2501e51e3262becdc7e2e74506706ac30c73049d34d94e2987",
+        "bytes": 73544,
+        "sha256": "8152217ef1054a90d1c7e58deecc05d820eac62c4034490f50db5fcf07992d35",
         "sourceLocale": "vi",
         "sourceFile": "02-family.png",
-        "sourceMD5": "0ff5550e5d0e79d100cd36748a954f03"
+        "sourceMD5": "19d651fa88aecb244d0e655c33972961"
       },
       "insights": {
-        "src": "/assets/screenshots/1.0.9/vi/insights.72a7d73aa807.webp",
+        "src": "/assets/screenshots/1.0.9/vi/insights.df62afcf3d9c.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 69824,
-        "sha256": "72a7d73aa8072f61176bfa6c0c32ceb2119edf0eb7b3777b1abfba66a7bb9841",
+        "bytes": 70428,
+        "sha256": "df62afcf3d9c2ecf0d5de195fa1e601f488612c247c17a53e3125abeee48ee9d",
         "sourceLocale": "vi",
         "sourceFile": "03-insights.png",
-        "sourceMD5": "e5b30e98cbca3474229c5c96e32a8d10"
+        "sourceMD5": "034c987f3fed200160e07457d5aae9e4"
       },
       "ai": {
-        "src": "/assets/screenshots/1.0.9/vi/ai.40ee17020cf2.webp",
+        "src": "/assets/screenshots/1.0.9/vi/ai.d75d6e993319.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 68242,
-        "sha256": "40ee17020cf2497f7d7863c08c29050ba67b640d7ee8e1206b88e1be56be4e7b",
+        "bytes": 68866,
+        "sha256": "d75d6e9933194e1ddfdb9aff36556c09602ab401b190743bc61b3df472dc3822",
         "sourceLocale": "vi",
         "sourceFile": "04-ai.png",
-        "sourceMD5": "d550d5a694f7076359eb00891772851c"
+        "sourceMD5": "f6bfab5f1daa65dc3705e56fe10df0ee"
       },
       "assets": {
-        "src": "/assets/screenshots/1.0.9/vi/assets.913b28e33b7f.webp",
+        "src": "/assets/screenshots/1.0.9/vi/assets.ec1f00ebb93a.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 69746,
-        "sha256": "913b28e33b7ff697cf69a83b82e5ca984797a4bdb5c9b3999c11b27a21bcc263",
+        "bytes": 70396,
+        "sha256": "ec1f00ebb93a14efe11166fd950917af8c084e0f1ba9568cb36bc2b8805cbb09",
         "sourceLocale": "vi",
         "sourceFile": "05-assets.png",
-        "sourceMD5": "dc1e7f4132d7d7f14aaa395f61d0eb30"
+        "sourceMD5": "d558cb5c781c0b9fdb6b48a1c21a7263"
       },
       "markets": {
-        "src": "/assets/screenshots/1.0.9/vi/markets.785e14bfc682.webp",
+        "src": "/assets/screenshots/1.0.9/vi/markets.4ca02df90f92.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 77108,
-        "sha256": "785e14bfc682c34a8bb7f37cf84552ae72610585ed9bb224ed5bee3f437c2f0a",
+        "bytes": 77680,
+        "sha256": "4ca02df90f92f72c8e8385fc9c58fed15f01954c96eac78faf9a00b62a017740",
         "sourceLocale": "vi",
         "sourceFile": "06-markets.png",
-        "sourceMD5": "305cf418b3e00eefb9500baa2c8e591c"
+        "sourceMD5": "0ecdf9fc0495ab362a70027d0cc1b9b2"
       },
       "history": {
-        "src": "/assets/screenshots/1.0.9/vi/history.8559b1b28423.webp",
+        "src": "/assets/screenshots/1.0.9/vi/history.2a8b5ae3fdc6.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 70242,
-        "sha256": "8559b1b28423b63f5ee864490775c1ae37cf7b235b047ed6e9331fafcd7d0024",
+        "bytes": 70914,
+        "sha256": "2a8b5ae3fdc6b33d70dec24d3827fae571613ba8d91045f329566a2d4a816e1a",
         "sourceLocale": "vi",
         "sourceFile": "08-history.png",
-        "sourceMD5": "10ef49bba3e130e55b39cf9bea96a508"
+        "sourceMD5": "760155e399895b8d045dda0cf7d59249"
       }
     },
     "ms": {
       "home": {
-        "src": "/assets/screenshots/1.0.9/ms/home.b56b59fe74d9.webp",
+        "src": "/assets/screenshots/1.0.9/ms/home.42084cb9a441.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 70036,
-        "sha256": "b56b59fe74d900c891cd868461e57fae31bc0883f2519dac92414b1378d90b21",
+        "bytes": 70688,
+        "sha256": "42084cb9a4416958d9f9c3de192a5c56939a99059d25b982bf5727df05950716",
         "sourceLocale": "ms",
         "sourceFile": "01-home.png",
-        "sourceMD5": "344e2f17dc373c03f5f8d44bf1d3342b"
+        "sourceMD5": "f879ba10ea426ae5270dc3ce203857d5"
       },
       "family": {
-        "src": "/assets/screenshots/1.0.9/ms/family.efdc8a7c566b.webp",
+        "src": "/assets/screenshots/1.0.9/ms/family.0b18479406a6.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 77140,
-        "sha256": "efdc8a7c566b0cf8784030b57dfb11ec325833cfc37bec8c3419d9ca40d15c46",
+        "bytes": 77804,
+        "sha256": "0b18479406a652dc2c19035996763f692734c977d86a473a6558706e1b9316f0",
         "sourceLocale": "ms",
         "sourceFile": "02-family.png",
-        "sourceMD5": "81552db1fb263549e564a719a79a7d6e"
+        "sourceMD5": "8c4e323670d434d2fcbb806de724e20a"
       },
       "insights": {
-        "src": "/assets/screenshots/1.0.9/ms/insights.7bbc919373c7.webp",
+        "src": "/assets/screenshots/1.0.9/ms/insights.e8fb4abbdb87.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 68884,
-        "sha256": "7bbc919373c789744b8274947e7485b08c498d6678ba33d39a9bf756718aede5",
+        "bytes": 69526,
+        "sha256": "e8fb4abbdb870bab0cc2b56d271f7143c384e0b33218120c16e8ae30e4458941",
         "sourceLocale": "ms",
         "sourceFile": "03-insights.png",
-        "sourceMD5": "9828ec9fb661ad3b7595fee1759815a9"
+        "sourceMD5": "61caafd7c24af7c098b617d9f0a2f313"
       },
       "ai": {
-        "src": "/assets/screenshots/1.0.9/ms/ai.189668abda09.webp",
+        "src": "/assets/screenshots/1.0.9/ms/ai.051a4ee060ef.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 69624,
-        "sha256": "189668abda09199a87066cd0d44f413ab47325a14171db398911bc9fdd370b19",
+        "bytes": 70156,
+        "sha256": "051a4ee060ef4d288f660a8952693c501e4c5b16a5b6111ad44b8e326bf98298",
         "sourceLocale": "ms",
         "sourceFile": "04-ai.png",
-        "sourceMD5": "cd90e9ae538620e893ffe0d636d6bb61"
+        "sourceMD5": "a4512a0b8a580f3a2fcd0568b2bb7b07"
       },
       "assets": {
-        "src": "/assets/screenshots/1.0.9/ms/assets.4fd56c52f52a.webp",
+        "src": "/assets/screenshots/1.0.9/ms/assets.9d7789b65550.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 66322,
-        "sha256": "4fd56c52f52a4e0fa932d91dee944d71de72b5304d34f5f9562b5566b09c2bc6",
+        "bytes": 66914,
+        "sha256": "9d7789b655503c2742f90b1f9f96bb58997ab3ac2081cffe11b482f73170a922",
         "sourceLocale": "ms",
         "sourceFile": "05-assets.png",
-        "sourceMD5": "d0527784f091d0a548a97c9cb48df28c"
+        "sourceMD5": "99d4c70cabe7f1df141b880f919e071c"
       },
       "markets": {
-        "src": "/assets/screenshots/1.0.9/ms/markets.ce47a84c1b4f.webp",
+        "src": "/assets/screenshots/1.0.9/ms/markets.4622a91a8ecd.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 77244,
-        "sha256": "ce47a84c1b4f84d861e26a75199367cdb6a2338cd47210a764d5cb4e30323bb7",
+        "bytes": 77732,
+        "sha256": "4622a91a8ecdc119cfd3cb2505505f97e6c403ebb8c4c88fbfc56ae0c38f0798",
         "sourceLocale": "ms",
         "sourceFile": "06-markets.png",
-        "sourceMD5": "cdc6d9232e51b4d311f1e5558ef87876"
+        "sourceMD5": "2cb0f2d84602112fe81d9353f28865d2"
       },
       "history": {
-        "src": "/assets/screenshots/1.0.9/ms/history.7947c179c62d.webp",
+        "src": "/assets/screenshots/1.0.9/ms/history.79a561ac1e7f.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 78514,
-        "sha256": "7947c179c62d2ec832aa53563bc1e2e52cf4be228f56d30a1e66aaf8e121f525",
+        "bytes": 79124,
+        "sha256": "79a561ac1e7f8fd061b3fcfa69dea0fdc51e6ec521190c146a7db834d5d347e1",
         "sourceLocale": "ms",
         "sourceFile": "08-history.png",
-        "sourceMD5": "3351b1dfc3a28897d881f4a9f3492041"
+        "sourceMD5": "2a3ebb738c2419fbad4a1c2f937ad8a6"
       }
     },
     "de": {
       "home": {
-        "src": "/assets/screenshots/1.0.9/de/home.14f0e7643cd0.webp",
+        "src": "/assets/screenshots/1.0.9/de/home.9c5d53aa820d.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 75522,
-        "sha256": "14f0e7643cd0695f4a175c7776985e01e26d0da9203568bcdc5cec2fdb1b8215",
+        "bytes": 76120,
+        "sha256": "9c5d53aa820d347ed59784da972f97792642fd6926cb25024a8a836ac521544c",
         "sourceLocale": "de-DE",
         "sourceFile": "01-home.png",
-        "sourceMD5": "ba669941c3de2a106e0356a1a23f6cc8"
+        "sourceMD5": "95a9092fd3c294cabb11304e3a81262b"
       },
       "family": {
-        "src": "/assets/screenshots/1.0.9/de/family.bee9fe86e06e.webp",
+        "src": "/assets/screenshots/1.0.9/de/family.0bf809deb74d.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 77906,
-        "sha256": "bee9fe86e06e4955c0039097d965818503b60f36d5cc6ffe5b3eaa7c9df634f7",
+        "bytes": 78490,
+        "sha256": "0bf809deb74d41c5359d6a01b4e806d10921772981b154e74066c2b8a4966844",
         "sourceLocale": "de-DE",
         "sourceFile": "02-family.png",
-        "sourceMD5": "4ebf09107605061cd7495eeeb6a9b134"
+        "sourceMD5": "3743b0e06f16c35b4f6063babb8ed115"
       },
       "insights": {
-        "src": "/assets/screenshots/1.0.9/de/insights.fb2173dbf3c7.webp",
+        "src": "/assets/screenshots/1.0.9/de/insights.d67ebae6dba1.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 73370,
-        "sha256": "fb2173dbf3c794db074d165bb3f6453c6c3b7173982794ddd0e8a36968631ae8",
+        "bytes": 74070,
+        "sha256": "d67ebae6dba1c3b3774c4f9624329062a806165e041bb1998a3324e90a8bd163",
         "sourceLocale": "de-DE",
         "sourceFile": "03-insights.png",
-        "sourceMD5": "526e48ea0ac83fe8867429ef0bdfcb15"
+        "sourceMD5": "d7715dfebb939ee0b81c262e700a60f7"
       },
       "ai": {
-        "src": "/assets/screenshots/1.0.9/de/ai.7c5c150282f5.webp",
+        "src": "/assets/screenshots/1.0.9/de/ai.1d26814e133a.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 77130,
-        "sha256": "7c5c150282f585fdf5b4610a26074e57733ddc325b84adc0a30fb52505269651",
+        "bytes": 77724,
+        "sha256": "1d26814e133a3e9ad561d5bd9c66a0572e93b84582d5b2983adab1633721957d",
         "sourceLocale": "de-DE",
         "sourceFile": "04-ai.png",
-        "sourceMD5": "f5a1d4642e558cd4ee0b18c693d0baf4"
+        "sourceMD5": "df436a8e5e38bb94133383b0b002309d"
       },
       "assets": {
-        "src": "/assets/screenshots/1.0.9/de/assets.04c9782c46ec.webp",
+        "src": "/assets/screenshots/1.0.9/de/assets.3d689eae3d74.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 71070,
-        "sha256": "04c9782c46ec3824d286d97f822c9159ad7f6155776872881f5ea4a9798b075f",
+        "bytes": 71730,
+        "sha256": "3d689eae3d7497441a0b0363c77c9e56ef0b684cd2b88af002cd77e9555e739a",
         "sourceLocale": "de-DE",
         "sourceFile": "05-assets.png",
-        "sourceMD5": "8f77b3a9e6ebea1706efceb0d2cde35a"
+        "sourceMD5": "1a2d1a4db47058ce7ff3c230d09c25f1"
       },
       "markets": {
-        "src": "/assets/screenshots/1.0.9/de/markets.7608c4337e67.webp",
+        "src": "/assets/screenshots/1.0.9/de/markets.cc787125c6a0.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 77580,
-        "sha256": "7608c4337e674947d40df8d246c58ffc8ea2e5ec92f88d8134f68e6c3c726a07",
+        "bytes": 78112,
+        "sha256": "cc787125c6a09f5ef5a2670ec27cac77f946086e3eee3375a698de3b976bbe91",
         "sourceLocale": "de-DE",
         "sourceFile": "06-markets.png",
-        "sourceMD5": "ca9f4f388cc340daae7490009f159c7f"
+        "sourceMD5": "7ad8d1b98787cac18e48ac313bf09c43"
       },
       "history": {
-        "src": "/assets/screenshots/1.0.9/de/history.fd1aa628032a.webp",
+        "src": "/assets/screenshots/1.0.9/de/history.1f4b570706bb.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 73840,
-        "sha256": "fd1aa628032ad7b458fbbab3d278d9cb3f78b85ace9ec6740ced5808b50902b6",
+        "bytes": 74380,
+        "sha256": "1f4b570706bbd8de2ef87f8eca5ecb18d546cb81089c0f29d5c5a043c39aad7c",
         "sourceLocale": "de-DE",
         "sourceFile": "08-history.png",
-        "sourceMD5": "f8f6bc7ede21a9de409dd9a06db3499a"
+        "sourceMD5": "a9ea9fc921fe6e32476f5eb56569bf01"
       }
     },
     "fr": {
       "home": {
-        "src": "/assets/screenshots/1.0.9/fr/home.f717c3111234.webp",
+        "src": "/assets/screenshots/1.0.9/fr/home.635158cf4032.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 72172,
-        "sha256": "f717c31112346d2960a721e899cff3c6d0e9d02c014560cff5f1f428c2ea45f5",
+        "bytes": 72690,
+        "sha256": "635158cf40321643ded11e6820169b532ffd28f1b249c229929463f8e8bcdf3a",
         "sourceLocale": "fr-FR",
         "sourceFile": "01-home.png",
-        "sourceMD5": "9a56858d7805f965d2f401ae49f72de0"
+        "sourceMD5": "a99f81117f7b1f15a055eb73cb27f139"
       },
       "family": {
-        "src": "/assets/screenshots/1.0.9/fr/family.0b8c2ae321f2.webp",
+        "src": "/assets/screenshots/1.0.9/fr/family.93b3cabcef7f.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 74486,
-        "sha256": "0b8c2ae321f2986ab37ccfb684b297d2fb1ecfa0da5834994e4e2f522ad4ec8a",
+        "bytes": 75022,
+        "sha256": "93b3cabcef7fa3e242b42723fef61dda2bd5e2afa5f9231c5dc9735c08d8c09a",
         "sourceLocale": "fr-FR",
         "sourceFile": "02-family.png",
-        "sourceMD5": "9f24e1c7f1db2f1eb0f844f204d56606"
+        "sourceMD5": "6bf0f94e69a0b7d8536bf0eec9010144"
       },
       "insights": {
-        "src": "/assets/screenshots/1.0.9/fr/insights.7e16e43531c6.webp",
+        "src": "/assets/screenshots/1.0.9/fr/insights.07c2beb1d4ac.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 71060,
-        "sha256": "7e16e43531c69862133cc1e012b9dfe51d6c29b3d35185a916e2df03895d3d8d",
+        "bytes": 71630,
+        "sha256": "07c2beb1d4ac1f06f0c74de56d13feee8a7be658422d72d3f7e90b1ccad38996",
         "sourceLocale": "fr-FR",
         "sourceFile": "03-insights.png",
-        "sourceMD5": "5b59114f32e77cb696f05ab51c95b8c2"
+        "sourceMD5": "29aacfa6e11483a1d16883551ce337a0"
       },
       "ai": {
-        "src": "/assets/screenshots/1.0.9/fr/ai.d928e550cf1b.webp",
+        "src": "/assets/screenshots/1.0.9/fr/ai.cb6106a2a1a4.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 72400,
-        "sha256": "d928e550cf1b984aab5544ce8e89d28d1ba64cc0878fb1789383a928130edc9c",
+        "bytes": 72838,
+        "sha256": "cb6106a2a1a4085820c0efcc7f829095150c15adfb12a39de6758116f01a2550",
         "sourceLocale": "fr-FR",
         "sourceFile": "04-ai.png",
-        "sourceMD5": "edda437d52f515a8763dd370a7dc4011"
+        "sourceMD5": "e85b85af9a051e93de69e6f43ee69f29"
       },
       "assets": {
-        "src": "/assets/screenshots/1.0.9/fr/assets.1c760187e86c.webp",
+        "src": "/assets/screenshots/1.0.9/fr/assets.0fc0d79f4627.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 69988,
-        "sha256": "1c760187e86ce6c31980b7bcef1467d03d054998cbe6d062abff998ef1f795b5",
+        "bytes": 70648,
+        "sha256": "0fc0d79f4627fd181afeff388df431ab79828c63d4a35bee51b7e77323694dfd",
         "sourceLocale": "fr-FR",
         "sourceFile": "05-assets.png",
-        "sourceMD5": "cf56f16e3eebba51975df5ab7f61b9fe"
+        "sourceMD5": "31e4f5da46c4b1ebfff865dfd1678d87"
       },
       "markets": {
-        "src": "/assets/screenshots/1.0.9/fr/markets.a4748be032a5.webp",
+        "src": "/assets/screenshots/1.0.9/fr/markets.a6325e470e98.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 78602,
-        "sha256": "a4748be032a5b74dc2a232139ba9ab74ec7417c29164ead9af8185de5a52f563",
+        "bytes": 79338,
+        "sha256": "a6325e470e98dd80df687d43bd354146d78337f1f86851c729f8419300ae5057",
         "sourceLocale": "fr-FR",
         "sourceFile": "06-markets.png",
-        "sourceMD5": "8560333006cba711a7b471de1c282fae"
+        "sourceMD5": "fbbb76e52ba0e79e304080c6281338bd"
       },
       "history": {
-        "src": "/assets/screenshots/1.0.9/fr/history.a341b6f958b9.webp",
+        "src": "/assets/screenshots/1.0.9/fr/history.16f022f02026.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 78472,
-        "sha256": "a341b6f958b9fe808c19fbace55654c740986747337f973a5bf0a0ca8a8598b4",
+        "bytes": 79112,
+        "sha256": "16f022f0202687d758823d3c7433711b1fad4bad34487e20d83af40cd920b031",
         "sourceLocale": "fr-FR",
         "sourceFile": "08-history.png",
-        "sourceMD5": "aeed26932f3c2f364db8cf8960039a68"
+        "sourceMD5": "25235314a04a20b27fdb5f5cb2497021"
       }
     },
     "it": {
       "home": {
-        "src": "/assets/screenshots/1.0.9/it/home.f3bbc83f59d7.webp",
+        "src": "/assets/screenshots/1.0.9/it/home.ad3f8b3e4392.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 74668,
-        "sha256": "f3bbc83f59d732d9b3374cfeca4e0fc1b92d8cedf8cc0679b8c5e6cb0ed0f855",
+        "bytes": 75330,
+        "sha256": "ad3f8b3e43922a1d0b892affcc423b1fec418f29f87bd42f4ac8cd2550dcc92d",
         "sourceLocale": "it",
         "sourceFile": "01-home.png",
-        "sourceMD5": "e69e8ea11f45c0d1076e995388421ef5"
+        "sourceMD5": "b43310b51a43385e6df15dcb3668d048"
       },
       "family": {
-        "src": "/assets/screenshots/1.0.9/it/family.264f187a52a4.webp",
+        "src": "/assets/screenshots/1.0.9/it/family.a151972a8758.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 76032,
-        "sha256": "264f187a52a407b96620f093e80af9b060af0f90d2360af42f36dc7734cab9e5",
+        "bytes": 76476,
+        "sha256": "a151972a875827b7e6a6a054177ab97e30ec43ba7cf88287482745b9116c7b7f",
         "sourceLocale": "it",
         "sourceFile": "02-family.png",
-        "sourceMD5": "bb3ddcc8639f4bfd12859deecea6cf77"
+        "sourceMD5": "05185e76961d23519e1da6bd41ff035e"
       },
       "insights": {
-        "src": "/assets/screenshots/1.0.9/it/insights.328767f1f19e.webp",
+        "src": "/assets/screenshots/1.0.9/it/insights.70c2835554e3.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 72094,
-        "sha256": "328767f1f19e18575df9c97cc4ffa6ac4bda4f1ba6b4499801643369f103e8bf",
+        "bytes": 72940,
+        "sha256": "70c2835554e34a96d1b48fad17d72e0b18b7cc954c953a00a939f20f37e4dced",
         "sourceLocale": "it",
         "sourceFile": "03-insights.png",
-        "sourceMD5": "11a0043f9479320bb98abc5740f28ffa"
+        "sourceMD5": "bf0381fcc9efa1f7436e770a83b8959e"
       },
       "ai": {
-        "src": "/assets/screenshots/1.0.9/it/ai.c08f1bbb9a3b.webp",
+        "src": "/assets/screenshots/1.0.9/it/ai.024737aba394.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 66700,
-        "sha256": "c08f1bbb9a3b8a90a4671fdf42e7c42305945744cf40437ce0791dcde2f67e07",
+        "bytes": 67214,
+        "sha256": "024737aba39471e9afc09a7cd373cdcd2d1b17ae42343bf11c32c08c9de4de87",
         "sourceLocale": "it",
         "sourceFile": "04-ai.png",
-        "sourceMD5": "6f8a217d3742fab55ff485aedb7e42b2"
+        "sourceMD5": "e876fdf3bd9d9e916d0e2330934680cf"
       },
       "assets": {
-        "src": "/assets/screenshots/1.0.9/it/assets.b1db0fabc4ec.webp",
+        "src": "/assets/screenshots/1.0.9/it/assets.bd889f00a83b.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 67588,
-        "sha256": "b1db0fabc4ec31acc62986b212f6b6198af7660cb9272e7aede5ac8eea0af626",
+        "bytes": 68178,
+        "sha256": "bd889f00a83bc2d0b101fda6633dd1f5fed714fee16d9101f7fdaaeecf55180f",
         "sourceLocale": "it",
         "sourceFile": "05-assets.png",
-        "sourceMD5": "c79d32eb1d11ecf8cf91934450ba0de5"
+        "sourceMD5": "382d4cf3e36c68d5593f90cc80b79489"
       },
       "markets": {
-        "src": "/assets/screenshots/1.0.9/it/markets.16fa08caaf49.webp",
+        "src": "/assets/screenshots/1.0.9/it/markets.023fe6be079f.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 76936,
-        "sha256": "16fa08caaf493a1051d040fc543f50bfe53b57c34e51b90e95892c90733ad4da",
+        "bytes": 77442,
+        "sha256": "023fe6be079fe67fd899ea5115f69254e332515baf908acb3df6fe7bdf6264b6",
         "sourceLocale": "it",
         "sourceFile": "06-markets.png",
-        "sourceMD5": "a1d98a9d3718b36a315e572bfd58b2f9"
+        "sourceMD5": "b87634afa5ef11a16177f3d5414128d8"
       },
       "history": {
-        "src": "/assets/screenshots/1.0.9/it/history.6e455f745768.webp",
+        "src": "/assets/screenshots/1.0.9/it/history.199ae8289021.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 74876,
-        "sha256": "6e455f745768eb3cbdbdfe4cab37242ed824f9e03c4e7da9071a165c5cd02898",
+        "bytes": 75492,
+        "sha256": "199ae828902187e8755f0cd5e5b26ae9f25cdb35ce1090c9f8f2dac37bee3e55",
         "sourceLocale": "it",
         "sourceFile": "08-history.png",
-        "sourceMD5": "830adf848de248beceefaedb556946ff"
+        "sourceMD5": "d92794e3376cfee8fbf184d23995ea79"
       }
     },
     "es": {
       "home": {
-        "src": "/assets/screenshots/1.0.9/es/home.bd1ac0718144.webp",
+        "src": "/assets/screenshots/1.0.9/es/home.7ef703eb48ca.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 73022,
-        "sha256": "bd1ac07181447c295af8bb3b1d68a77576a0149cc1fc46ec7b2137ca2916a85c",
+        "bytes": 73786,
+        "sha256": "7ef703eb48caa6ca3f475dfb4235721e6f30da24ff2994cf0ae58e1ad5c9bda0",
         "sourceLocale": "es-ES",
         "sourceFile": "01-home.png",
-        "sourceMD5": "9d19f6ec4016ed1b09f47dfb23db22fe"
+        "sourceMD5": "b8e1a433ab18b54178b66582ab83f5d2"
       },
       "family": {
-        "src": "/assets/screenshots/1.0.9/es/family.df82dd4ac2e3.webp",
+        "src": "/assets/screenshots/1.0.9/es/family.0a99306e2db2.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 75920,
-        "sha256": "df82dd4ac2e320f06143fadf48b66eb3e8a80a554773f11b5192dfd527c2aac2",
+        "bytes": 76544,
+        "sha256": "0a99306e2db2fdf6fd75c48b51a5199efc4ac265d71cad9bba16bc9811cac0b7",
         "sourceLocale": "es-ES",
         "sourceFile": "02-family.png",
-        "sourceMD5": "d575ea033ac34cb0e0fbb4cce6b57f3e"
+        "sourceMD5": "6d3b942511e897e1952e6ae1e047e01e"
       },
       "insights": {
-        "src": "/assets/screenshots/1.0.9/es/insights.64afcdc1b1c4.webp",
+        "src": "/assets/screenshots/1.0.9/es/insights.4b2cc18e88b0.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 71322,
-        "sha256": "64afcdc1b1c4fe287402c3ac7927a2ebf837d37a448138c4a233edacde0055d0",
+        "bytes": 71940,
+        "sha256": "4b2cc18e88b029d4457099027349ae082beafe5e028d4a5799138bc9cce0f002",
         "sourceLocale": "es-ES",
         "sourceFile": "03-insights.png",
-        "sourceMD5": "76da3b6eff02343cc09d36f84706f720"
+        "sourceMD5": "431a68ca4cbafcf882cd53c3a6089456"
       },
       "ai": {
-        "src": "/assets/screenshots/1.0.9/es/ai.0b7b8aa0aa28.webp",
+        "src": "/assets/screenshots/1.0.9/es/ai.02e724aa8bc7.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 71282,
-        "sha256": "0b7b8aa0aa28ab817c73ae4d4ac77b85acf85a7c0834cf9c7453badeef409dbf",
+        "bytes": 71950,
+        "sha256": "02e724aa8bc7c20b53d1f8542b7b47f45b68d671248ce3162b438bf5b2e50d96",
         "sourceLocale": "es-ES",
         "sourceFile": "04-ai.png",
-        "sourceMD5": "9ff9d6c6c44d9deefeb142259d56ab80"
+        "sourceMD5": "75d257d37a2d5eadf3cbc8e2a6110f03"
       },
       "assets": {
-        "src": "/assets/screenshots/1.0.9/es/assets.00564688897c.webp",
+        "src": "/assets/screenshots/1.0.9/es/assets.7708b30350cb.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 71568,
-        "sha256": "00564688897c40e6cf8fed396ae6b639f39f25e2925997e2f08487d58269a6f2",
+        "bytes": 72126,
+        "sha256": "7708b30350cbbf82269acb527613c3dd8228ad90a5c74c53d4282b69786ca565",
         "sourceLocale": "es-ES",
         "sourceFile": "05-assets.png",
-        "sourceMD5": "f714177461cfa5c71a252466887a91cf"
+        "sourceMD5": "67c1319633d7d6b1e1b8107c31ad0ecc"
       },
       "markets": {
-        "src": "/assets/screenshots/1.0.9/es/markets.4690d3199104.webp",
+        "src": "/assets/screenshots/1.0.9/es/markets.f8514cf54279.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 78034,
-        "sha256": "4690d31991040b9aab45c0fd0d759a510a50dfadc983568502ba248ad9b2fe70",
+        "bytes": 78470,
+        "sha256": "f8514cf54279e38784e97022620a6f7007ca210712b8994b202287713ca78d5d",
         "sourceLocale": "es-ES",
         "sourceFile": "06-markets.png",
-        "sourceMD5": "43ea8e3837177d485c80faa9dea1b282"
+        "sourceMD5": "ab8bfaa9fb9dbab92a8fc3dc2abe2b26"
       },
       "history": {
-        "src": "/assets/screenshots/1.0.9/es/history.c53118386b72.webp",
+        "src": "/assets/screenshots/1.0.9/es/history.ac77ccb8262a.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 77944,
-        "sha256": "c53118386b72bc2be18ce79108308aecf824eece87eee3c843f1a25a22935550",
+        "bytes": 78468,
+        "sha256": "ac77ccb8262a04f61b4328771c67ab593d0480726c1cf34553d4e820f1c85cce",
         "sourceLocale": "es-ES",
         "sourceFile": "08-history.png",
-        "sourceMD5": "176286dc662852f6649985b5160ef5ed"
+        "sourceMD5": "7110c758128ac7016132d04c69591dda"
       }
     },
     "nl": {
       "home": {
-        "src": "/assets/screenshots/1.0.9/nl/home.b660cf7aa97e.webp",
+        "src": "/assets/screenshots/1.0.9/nl/home.439c227c57ea.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 73478,
-        "sha256": "b660cf7aa97e1267402466743c08b560ad767bbd10d6e0b6a38b27a5627efc9a",
+        "bytes": 73986,
+        "sha256": "439c227c57ea8cd868bd4abf1443479a8b697b50727c32b49a3a01bd8798a442",
         "sourceLocale": "nl-NL",
         "sourceFile": "01-home.png",
-        "sourceMD5": "0df05f2a9a0736a62b2e9e60627d2486"
+        "sourceMD5": "a063dce98f0f24bdcd6cf57bd555ab90"
       },
       "family": {
-        "src": "/assets/screenshots/1.0.9/nl/family.0b507e872be4.webp",
+        "src": "/assets/screenshots/1.0.9/nl/family.ea9b56bdc688.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 71240,
-        "sha256": "0b507e872be40371972e063cae56c8700aa0a344be508dd5e3a315d553232bf6",
+        "bytes": 71908,
+        "sha256": "ea9b56bdc688b023654af841f998f40f1f67adb3048aaa051d47edeeb87d5cec",
         "sourceLocale": "nl-NL",
         "sourceFile": "02-family.png",
-        "sourceMD5": "4abe97d5358ff537b244b3ae8e30f760"
+        "sourceMD5": "14bbb3accaf87fbc81608dcec8dafebe"
       },
       "insights": {
-        "src": "/assets/screenshots/1.0.9/nl/insights.3c841822e52b.webp",
+        "src": "/assets/screenshots/1.0.9/nl/insights.8fe06b5e1a6a.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 73122,
-        "sha256": "3c841822e52b9682f50abf32663b021e53382236276558109f45123faaa22021",
+        "bytes": 73494,
+        "sha256": "8fe06b5e1a6a1b876d7be74f5c737ba9b9d174b842a2c8c3847896f92cf7f189",
         "sourceLocale": "nl-NL",
         "sourceFile": "03-insights.png",
-        "sourceMD5": "c1865c974bfe3ed87a6acf5d5346ea90"
+        "sourceMD5": "dba53f1f665c6749f91e5b6865fa4191"
       },
       "ai": {
-        "src": "/assets/screenshots/1.0.9/nl/ai.227738c10e2c.webp",
+        "src": "/assets/screenshots/1.0.9/nl/ai.6d7b6795609e.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 70592,
-        "sha256": "227738c10e2c922fe81558f3107c5164e7bfc7259ac2dcbb892462111da2b244",
+        "bytes": 70910,
+        "sha256": "6d7b6795609e4f817ce1cc4cda5ca0f755c76e72e8d03f71bcdd00fdfea28375",
         "sourceLocale": "nl-NL",
         "sourceFile": "04-ai.png",
-        "sourceMD5": "4a541bb031bd5fc274bacebee04a408d"
+        "sourceMD5": "0b296ac77cb47c5c1d15439a515edae3"
       },
       "assets": {
-        "src": "/assets/screenshots/1.0.9/nl/assets.a63b6192af68.webp",
+        "src": "/assets/screenshots/1.0.9/nl/assets.931187214620.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 71938,
-        "sha256": "a63b6192af6833a785fcb0998d9ea5a0d422660536c5a49e4c90cb54a67a4745",
+        "bytes": 72502,
+        "sha256": "931187214620edc054a4006289f1b0ee0ded2ca2c9c3b51c7ba592f396f1d8ee",
         "sourceLocale": "nl-NL",
         "sourceFile": "05-assets.png",
-        "sourceMD5": "c3956ebd1b1c87796a7b3d1177a55ff9"
+        "sourceMD5": "86f6a3fb51e99f2fc4cdd5f7725f6476"
       },
       "markets": {
-        "src": "/assets/screenshots/1.0.9/nl/markets.931aa21d270e.webp",
+        "src": "/assets/screenshots/1.0.9/nl/markets.b801aae91940.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 77808,
-        "sha256": "931aa21d270ee4eb514c997048ccca4e95e2ad7dc5ba20ee387c50db7e481914",
+        "bytes": 78502,
+        "sha256": "b801aae91940634343253539b07c0f389bccfe7029412c3f8b70fe4a0e6cede7",
         "sourceLocale": "nl-NL",
         "sourceFile": "06-markets.png",
-        "sourceMD5": "4499054802c1a8417139c67e9570a4e0"
+        "sourceMD5": "67c68d10388670dd4278a406d7869ca2"
       },
       "history": {
-        "src": "/assets/screenshots/1.0.9/nl/history.7e1eb8978093.webp",
+        "src": "/assets/screenshots/1.0.9/nl/history.086ba25fadf0.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 76078,
-        "sha256": "7e1eb89780930ea3e33802b132ce01b229bf485da5e25fed5032fd9918af0a6d",
+        "bytes": 76496,
+        "sha256": "086ba25fadf0cee2a37fcf77ccc1545f353d19f50d9f56a55c1441658e7da63b",
         "sourceLocale": "nl-NL",
         "sourceFile": "08-history.png",
-        "sourceMD5": "29ed3fcc93969027ba556ca4dd961e6e"
+        "sourceMD5": "b28849680cbf3afc68129c66a19c904a"
       }
     },
     "pt-br": {
       "home": {
-        "src": "/assets/screenshots/1.0.9/pt-br/home.413d69323952.webp",
+        "src": "/assets/screenshots/1.0.9/pt-br/home.8983cca88dcb.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 72716,
-        "sha256": "413d69323952d66007ee06b8d6a1aee007f9077390472e83204e07266986f274",
+        "bytes": 73462,
+        "sha256": "8983cca88dcb7fb79f39ed118d6c60b9cdf72eb6c1c09f9a37a5f0682493e79f",
         "sourceLocale": "pt-BR",
         "sourceFile": "01-home.png",
-        "sourceMD5": "eba72b920eb5bf4cfa5f0221eafd96ce"
+        "sourceMD5": "1a28c14c77dfd0e6c1759b28bf02dce4"
       },
       "family": {
-        "src": "/assets/screenshots/1.0.9/pt-br/family.2627040db97d.webp",
+        "src": "/assets/screenshots/1.0.9/pt-br/family.43e291a338af.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 73172,
-        "sha256": "2627040db97df22002515f7296c036d7c51bc9a31bd89bb8789e33a315fbc772",
+        "bytes": 73794,
+        "sha256": "43e291a338af52e25af96d894299cfac4912b0ec706d8c234f10ae7b22ee7e58",
         "sourceLocale": "pt-BR",
         "sourceFile": "02-family.png",
-        "sourceMD5": "776533454d2c2fbcf6c8f8eca25373ec"
+        "sourceMD5": "bccf2a1eb243cd53745269288271e82d"
       },
       "insights": {
-        "src": "/assets/screenshots/1.0.9/pt-br/insights.69af8a5062e0.webp",
+        "src": "/assets/screenshots/1.0.9/pt-br/insights.b7e0bb52cbff.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 71152,
-        "sha256": "69af8a5062e0e0f05250bc44b4befd1e13df2ee22aa101f4ce1c3439b43ae654",
+        "bytes": 71754,
+        "sha256": "b7e0bb52cbff3d1232d70d86cf9690c58e31c851f3db8e4d01d59ce2aa4be850",
         "sourceLocale": "pt-BR",
         "sourceFile": "03-insights.png",
-        "sourceMD5": "9216c44ab6f351c26f321716cf0d7946"
+        "sourceMD5": "68bad3da9baa63ab1fa565249f274684"
       },
       "ai": {
-        "src": "/assets/screenshots/1.0.9/pt-br/ai.4b44e7c5d061.webp",
+        "src": "/assets/screenshots/1.0.9/pt-br/ai.6ba6b47fb51b.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 69672,
-        "sha256": "4b44e7c5d061ca28ca73cfb3b45f72daea0745af2220143af869fd6d6c184ea8",
+        "bytes": 70266,
+        "sha256": "6ba6b47fb51b9056703d161c64a8ffb5c15c012997769f952528f51055938861",
         "sourceLocale": "pt-BR",
         "sourceFile": "04-ai.png",
-        "sourceMD5": "655c93bacea9d38c1100f60ce6e436a4"
+        "sourceMD5": "5d510e9307aaef11b028929350e35923"
       },
       "assets": {
-        "src": "/assets/screenshots/1.0.9/pt-br/assets.e300933c15fa.webp",
+        "src": "/assets/screenshots/1.0.9/pt-br/assets.79c7116aff91.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 72138,
-        "sha256": "e300933c15fad53a339577a3f1782406a711dfe234ba3cb782a4e24be44e1e9a",
+        "bytes": 72778,
+        "sha256": "79c7116aff91c74217970adc0a2d0966c95a749b9756728858010a81bd2f1bbf",
         "sourceLocale": "pt-BR",
         "sourceFile": "05-assets.png",
-        "sourceMD5": "d7975b535e0f12a14dd2cff89688c0ec"
+        "sourceMD5": "d5fa9cf062003acb726b21cd20e68261"
       },
       "markets": {
-        "src": "/assets/screenshots/1.0.9/pt-br/markets.c3bf2ab4a54e.webp",
+        "src": "/assets/screenshots/1.0.9/pt-br/markets.bc460e13d5be.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 78020,
-        "sha256": "c3bf2ab4a54e19d2b3ef6dd99a40c0fdac114c8a57e8b310c8d8a0cc51a20553",
+        "bytes": 78456,
+        "sha256": "bc460e13d5be1682deb475520ef37e364ecb55ab9ce082660f5e71702a73c007",
         "sourceLocale": "pt-BR",
         "sourceFile": "06-markets.png",
-        "sourceMD5": "a43ccc884efa569ec886881ef56880e1"
+        "sourceMD5": "d1d07e753206f11a824d88e294f6f183"
       },
       "history": {
-        "src": "/assets/screenshots/1.0.9/pt-br/history.c64b9f87381e.webp",
+        "src": "/assets/screenshots/1.0.9/pt-br/history.8198b2bc6826.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 77926,
-        "sha256": "c64b9f87381e957911abc1cc9df91e0abed0aa38d1c6b9995e00b023474dfb61",
+        "bytes": 78612,
+        "sha256": "8198b2bc6826eab4c2d91d2414439e0affeffaad87d3f18d7e42107eee32d02a",
         "sourceLocale": "pt-BR",
         "sourceFile": "08-history.png",
-        "sourceMD5": "020393979cfc9a5ffa501b5aeec3cede"
+        "sourceMD5": "585a545a3a77ab4c0362c3b8df967c2b"
       }
     },
     "ar": {
       "home": {
-        "src": "/assets/screenshots/1.0.9/ar/home.215292ca104d.webp",
+        "src": "/assets/screenshots/1.0.9/ar/home.66b82af3850b.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 66538,
-        "sha256": "215292ca104ded609f61a2fceeb5bcfbdb48edacb7955b6c67317da785550c0d",
+        "bytes": 67078,
+        "sha256": "66b82af3850b36c43460c1730c5d266f312b55859f30636f5ac5f5bda3af1add",
         "sourceLocale": "ar-SA",
         "sourceFile": "01-home.png",
-        "sourceMD5": "c94ee58353fbfe3a2049cd73d1659680"
+        "sourceMD5": "dd76fec2f847aafe32881e407363a69f"
       },
       "family": {
-        "src": "/assets/screenshots/1.0.9/ar/family.c676b857ef4e.webp",
+        "src": "/assets/screenshots/1.0.9/ar/family.9541eb73223e.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 63316,
-        "sha256": "c676b857ef4e6bfd20258f6c0245bdaab121ad2c19b2684cd3df2e308b438c94",
+        "bytes": 63846,
+        "sha256": "9541eb73223e55010c0cbdc4a82f9e58e172ba7ede2027d5584e02a90f8563a9",
         "sourceLocale": "ar-SA",
         "sourceFile": "02-family.png",
-        "sourceMD5": "9bc7a18ffb87af636b434b1191396171"
+        "sourceMD5": "8e504460f5ecc7e7f7ddad501c713f77"
       },
       "insights": {
-        "src": "/assets/screenshots/1.0.9/ar/insights.0fe6c9d98d1e.webp",
+        "src": "/assets/screenshots/1.0.9/ar/insights.2a35a7b1bec3.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 67976,
-        "sha256": "0fe6c9d98d1ed5bfaff77b89a60a4323ed18b40f09a01d65066b2c100f921ea4",
+        "bytes": 68594,
+        "sha256": "2a35a7b1bec3ef4be360537c681170dce21735c9e90068ce2f5b42c63db6e381",
         "sourceLocale": "ar-SA",
         "sourceFile": "03-insights.png",
-        "sourceMD5": "3cd4ad02a087be2a7431d33dbe826791"
+        "sourceMD5": "fdd7b30c16eafb4ae80bba6c6566b3c8"
       },
       "ai": {
-        "src": "/assets/screenshots/1.0.9/ar/ai.b08af91ca2e0.webp",
+        "src": "/assets/screenshots/1.0.9/ar/ai.69fc50beeee1.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 57126,
-        "sha256": "b08af91ca2e00a337c35a7d5e0d07d04f5f80cd911e4e2f549cef65f953d6a7b",
+        "bytes": 57676,
+        "sha256": "69fc50beeee185de936e71b7f0ba2c0c28bf89a0da2a3e1a176b848cf94fd413",
         "sourceLocale": "ar-SA",
         "sourceFile": "04-ai.png",
-        "sourceMD5": "cc60d270baea3eaad5469c3b1a61ea47"
+        "sourceMD5": "bb21993a849e0040279fe61d3d3e799a"
       },
       "assets": {
-        "src": "/assets/screenshots/1.0.9/ar/assets.d0836fdfd730.webp",
+        "src": "/assets/screenshots/1.0.9/ar/assets.240b774dbf4a.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 55150,
-        "sha256": "d0836fdfd730bf85f31aa6d936eceb1d1b4b55b46fc8cb1b0a758969c5d3c5c5",
+        "bytes": 55690,
+        "sha256": "240b774dbf4a07e7549c25c186d1ff8eecb91a7cfea46269872a600a8f666cdc",
         "sourceLocale": "ar-SA",
         "sourceFile": "05-assets.png",
-        "sourceMD5": "a25534c348b17f65474f8c6de7ba42d5"
+        "sourceMD5": "d78c28e14a7d6c57eadcfc99e8444225"
       },
       "markets": {
-        "src": "/assets/screenshots/1.0.9/ar/markets.82eb4ab9502e.webp",
+        "src": "/assets/screenshots/1.0.9/ar/markets.03ef649faaf1.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 75520,
-        "sha256": "82eb4ab9502e99c20cd2025774e990f0526f963498f18da8fb990d133b3b5d54",
+        "bytes": 76078,
+        "sha256": "03ef649faaf184a4a8847e32fc44c8da52d132c7f5283bdfc82f1305385b2506",
         "sourceLocale": "ar-SA",
         "sourceFile": "06-markets.png",
-        "sourceMD5": "6b964db1a1054f4da16a49b82aee99f6"
+        "sourceMD5": "847bce93b9121814092a6f7f1069cf84"
       },
       "history": {
-        "src": "/assets/screenshots/1.0.9/ar/history.250e7ad72a16.webp",
+        "src": "/assets/screenshots/1.0.9/ar/history.15a6922e5e85.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 60710,
-        "sha256": "250e7ad72a162fdff192af2c320122e300b31d3cc07adbb9ee5a701adf0d57cb",
+        "bytes": 61284,
+        "sha256": "15a6922e5e859908691c57a3cee9e93a552951b6b19e8d81792809fa00375724",
         "sourceLocale": "ar-SA",
         "sourceFile": "08-history.png",
-        "sourceMD5": "e10736ba078775fd3a98da66e7e62f43"
+        "sourceMD5": "fff9512fec6bcc4277b74ce6caf77e40"
       }
     },
     "id": {
       "home": {
-        "src": "/assets/screenshots/1.0.9/id/home.55d9ae28128c.webp",
+        "src": "/assets/screenshots/1.0.9/id/home.b0001022ca79.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 68006,
-        "sha256": "55d9ae28128c61c83ea2389ffcbde46a62aebddc86d1b3b6f571c45c72efe56a",
+        "bytes": 68382,
+        "sha256": "b0001022ca79f12c92f06e1e6445c3463f8496af2f6756de5f964317a5a908a5",
         "sourceLocale": "id",
         "sourceFile": "01-home.png",
-        "sourceMD5": "3771bb007c036a3dae1fc22886d3eb8c"
+        "sourceMD5": "2650d13f5a41ad03d3b27c9a54017e7a"
       },
       "family": {
-        "src": "/assets/screenshots/1.0.9/id/family.9c6d637abcee.webp",
+        "src": "/assets/screenshots/1.0.9/id/family.0bcd51d513f3.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 75414,
-        "sha256": "9c6d637abcee0aa206e2836d368aa02af2a8f437bdcedbd39ac2045e8c309737",
+        "bytes": 76036,
+        "sha256": "0bcd51d513f3a88d1eb3f209fd5e3d2e0dc694717cbe4fcf6395e7933887b077",
         "sourceLocale": "id",
         "sourceFile": "02-family.png",
-        "sourceMD5": "39634ab8347693338591b7b251407808"
+        "sourceMD5": "cee4efffcf0f5bc6771a61f8ebf05a03"
       },
       "insights": {
-        "src": "/assets/screenshots/1.0.9/id/insights.b2ccad71dc52.webp",
+        "src": "/assets/screenshots/1.0.9/id/insights.b8bab8553792.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 68940,
-        "sha256": "b2ccad71dc5292371102c00f62f1606c606e333f95436b0c4c0592d64cd1199a",
+        "bytes": 69460,
+        "sha256": "b8bab85537927a7a70d17016a366a13186e2dec26c4e1b1de33543937ee890fe",
         "sourceLocale": "id",
         "sourceFile": "03-insights.png",
-        "sourceMD5": "4fb1c23120ecd3b6c885487d60fb05e5"
+        "sourceMD5": "e29902ac0d8a2317051d9e2e04cefec9"
       },
       "ai": {
-        "src": "/assets/screenshots/1.0.9/id/ai.02ffc6ecc426.webp",
+        "src": "/assets/screenshots/1.0.9/id/ai.ef0a35649e26.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 64690,
-        "sha256": "02ffc6ecc426c2b828254a3c500f62c2a1c33e1d3a2335f72b7bc0a066f501e3",
+        "bytes": 65288,
+        "sha256": "ef0a35649e268c2bcf3f7a3c22a2072cecf6706d6a74910cfd67c75730631120",
         "sourceLocale": "id",
         "sourceFile": "04-ai.png",
-        "sourceMD5": "24c328a95870d3c06c19730fed0e6e77"
+        "sourceMD5": "c1ff397ebf4724f46ff539100cb0ece5"
       },
       "assets": {
-        "src": "/assets/screenshots/1.0.9/id/assets.c17d060a1a12.webp",
+        "src": "/assets/screenshots/1.0.9/id/assets.3002384c81bb.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 67922,
-        "sha256": "c17d060a1a1255cd0fd450a007668aa7a803138db6c2c805e2ef17e70bfd4344",
+        "bytes": 68404,
+        "sha256": "3002384c81bb1169c900a6540c406532e28d0efd66b326c67e71e48f2e2507c8",
         "sourceLocale": "id",
         "sourceFile": "05-assets.png",
-        "sourceMD5": "4ae66711afe473bb9c407f385acfe514"
+        "sourceMD5": "c2727c422d23dd02866174c18b08c709"
       },
       "markets": {
-        "src": "/assets/screenshots/1.0.9/id/markets.9565df28ca13.webp",
+        "src": "/assets/screenshots/1.0.9/id/markets.96191f84d681.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 76936,
-        "sha256": "9565df28ca131a8f5758bd2d01c6dcc9279c8c5b1c1573ebfb01c9c472314081",
+        "bytes": 77510,
+        "sha256": "96191f84d681a5e32d2dd7f5df1316f3660814252a8e91da4f8c56f407c919a3",
         "sourceLocale": "id",
         "sourceFile": "06-markets.png",
-        "sourceMD5": "c307dd6ba4c8ddb7b30b38e558179947"
+        "sourceMD5": "b8764985d8f66d7865eb282ee8b02336"
       },
       "history": {
-        "src": "/assets/screenshots/1.0.9/id/history.828a2c41caba.webp",
+        "src": "/assets/screenshots/1.0.9/id/history.4113b888150d.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 78520,
-        "sha256": "828a2c41caba20ceaf44b06adfc6739893faf473bdaf89c4039313d5031708f6",
+        "bytes": 79108,
+        "sha256": "4113b888150db06cf920bdb659b8476e22979a95feea70b23c7ff8309209c2f2",
         "sourceLocale": "id",
         "sourceFile": "08-history.png",
-        "sourceMD5": "a83125e537038717f1799dabdf041b54"
+        "sourceMD5": "0848b0ae6218af2081421731e416133c"
       }
     },
     "hi": {
       "home": {
-        "src": "/assets/screenshots/1.0.9/hi/home.24cbea807053.webp",
+        "src": "/assets/screenshots/1.0.9/hi/home.efcc284caf9e.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 65340,
-        "sha256": "24cbea807053c53993b2e09615e14b923721fd76e0166872de6d6b205b97166c",
+        "bytes": 65980,
+        "sha256": "efcc284caf9ea51a6388c4df33557444aec338119d971fb25d4dfbb11e267cef",
         "sourceLocale": "hi",
         "sourceFile": "01-home.png",
-        "sourceMD5": "b935c550caca216f2cfe837b3e270845"
+        "sourceMD5": "92711856809a384ea54184a7114e2d3f"
       },
       "family": {
-        "src": "/assets/screenshots/1.0.9/hi/family.8affdbc283ca.webp",
+        "src": "/assets/screenshots/1.0.9/hi/family.605ced08cf2f.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 71304,
-        "sha256": "8affdbc283cace431e3587485c6290f19ea21af555f665cbbdcd655243824fb9",
+        "bytes": 71828,
+        "sha256": "605ced08cf2f6a7ce3946cae17208f30b867b1c5163377d6c1c6341fcacabcd8",
         "sourceLocale": "hi",
         "sourceFile": "02-family.png",
-        "sourceMD5": "1dd5044b60380e36e53741b8a290be38"
+        "sourceMD5": "1a8cd8b737c9714a2595f167755b648b"
       },
       "insights": {
-        "src": "/assets/screenshots/1.0.9/hi/insights.1274644cb18b.webp",
+        "src": "/assets/screenshots/1.0.9/hi/insights.177ccd866948.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 67168,
-        "sha256": "1274644cb18b9fa1381e0ed0feb1b6344e4db6a7a10140c7c876c5e109fa5acc",
+        "bytes": 67696,
+        "sha256": "177ccd866948adef5de4d029ead5db4f95b9e1f6d889b35e3dba8a7f658ab1ea",
         "sourceLocale": "hi",
         "sourceFile": "03-insights.png",
-        "sourceMD5": "a617daa039b9e21fbbb81f45f76c5d1c"
+        "sourceMD5": "ccc60a75017cc2d06eacb3cbd4afee3e"
       },
       "ai": {
-        "src": "/assets/screenshots/1.0.9/hi/ai.cd93cb0cc1c1.webp",
+        "src": "/assets/screenshots/1.0.9/hi/ai.cd6494e1344b.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 61290,
-        "sha256": "cd93cb0cc1c108ab17e6ed88c5189cef3a78d42d92a0c62fd9765e69326515f1",
+        "bytes": 61802,
+        "sha256": "cd6494e1344be40e552a2253befffafdcc8e5d75da798a32faec4c93aa0a9039",
         "sourceLocale": "hi",
         "sourceFile": "04-ai.png",
-        "sourceMD5": "2686a25a1c28339022dabc79dabe3e1f"
+        "sourceMD5": "d66753546ae35403bfee1994202d07c1"
       },
       "assets": {
-        "src": "/assets/screenshots/1.0.9/hi/assets.4eabe0be06b2.webp",
+        "src": "/assets/screenshots/1.0.9/hi/assets.cd4097fab48d.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 58016,
-        "sha256": "4eabe0be06b2e430b7010da12b3f0e2f0064f8a7f1106ac1d363cb2b416ef7cd",
+        "bytes": 58514,
+        "sha256": "cd4097fab48d01cb3ac12bc19af676c7716892232a5f21a1aca5276458250104",
         "sourceLocale": "hi",
         "sourceFile": "05-assets.png",
-        "sourceMD5": "66cd74608282f126c13af484fe4bf956"
+        "sourceMD5": "71c5dc0710f78fc8abf28c463456e1c5"
       },
       "markets": {
-        "src": "/assets/screenshots/1.0.9/hi/markets.f1119dd651af.webp",
+        "src": "/assets/screenshots/1.0.9/hi/markets.0f3c86a279c6.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 74226,
-        "sha256": "f1119dd651af7f43110771a1eecf5a4bf7d510736d4d35741d62a78172c4f08d",
+        "bytes": 74810,
+        "sha256": "0f3c86a279c637318392ba25861ba1a7a77a3c336fe8eded30f0bb65bb7c5d66",
         "sourceLocale": "hi",
         "sourceFile": "06-markets.png",
-        "sourceMD5": "291d8c13504228502dc0e67555f2ea27"
+        "sourceMD5": "7e151ea03a4b4eaeaffaaa8677bafadf"
       },
       "history": {
-        "src": "/assets/screenshots/1.0.9/hi/history.95cccc4855f1.webp",
+        "src": "/assets/screenshots/1.0.9/hi/history.f6f707ebbbb0.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 67378,
-        "sha256": "95cccc4855f19402dafdb25cca459ba1c30449708146cbe2470685b9e1f3532f",
+        "bytes": 67850,
+        "sha256": "f6f707ebbbb0b27a8debe201dc19b8acab541bf67280e4f0a58a1a6a918bc40b",
         "sourceLocale": "hi",
         "sourceFile": "08-history.png",
-        "sourceMD5": "b6371484ff1ca346161398921cc7f60d"
+        "sourceMD5": "6c220c11c7b18a87c27f11aa465f1917"
       }
     },
     "tr": {
       "home": {
-        "src": "/assets/screenshots/1.0.9/tr/home.3136cc877265.webp",
+        "src": "/assets/screenshots/1.0.9/tr/home.14e0196ab5be.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 67754,
-        "sha256": "3136cc877265a57a4d059933d7935edf426ea4b0803d0f0981e2a0960f079f97",
+        "bytes": 68284,
+        "sha256": "14e0196ab5bebcd5555891ee5a6f1006083e4c2baf4df4ac5eb5ae0287e63d99",
         "sourceLocale": "tr",
         "sourceFile": "01-home.png",
-        "sourceMD5": "da89aad4ebec75e02d0c4bd1de6379a4"
+        "sourceMD5": "1041157bd07a80702d7c6272abf6f860"
       },
       "family": {
-        "src": "/assets/screenshots/1.0.9/tr/family.8c6bc37ab186.webp",
+        "src": "/assets/screenshots/1.0.9/tr/family.cfecd28acede.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 70592,
-        "sha256": "8c6bc37ab186541570580c40d9a19242de1b3f7a3746313c7b3ebbd0ad028dd0",
+        "bytes": 71222,
+        "sha256": "cfecd28acede65d89b43cba2a64142ea39751920020a9158c309ee74783d7194",
         "sourceLocale": "tr",
         "sourceFile": "02-family.png",
-        "sourceMD5": "d68e97e7ca46489abb1148ca7c1bd73d"
+        "sourceMD5": "fecaa1f0be7e2fc3f70ba335e6eaf9c0"
       },
       "insights": {
-        "src": "/assets/screenshots/1.0.9/tr/insights.0584b1bd9f8c.webp",
+        "src": "/assets/screenshots/1.0.9/tr/insights.7c13b36c6f7c.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 68644,
-        "sha256": "0584b1bd9f8c4ef1381b6308613b30e618dda569957de1a039d60096ec1b14cc",
+        "bytes": 69338,
+        "sha256": "7c13b36c6f7c7b5589bf0be28277b764772d6f1254634b1a0e72cbe43421d37e",
         "sourceLocale": "tr",
         "sourceFile": "03-insights.png",
-        "sourceMD5": "3efeae6c9bb79fd5611f35886b12a9a2"
+        "sourceMD5": "fc4356b6e6b6cc03680a352b6bb308d9"
       },
       "ai": {
-        "src": "/assets/screenshots/1.0.9/tr/ai.edc3ca910315.webp",
+        "src": "/assets/screenshots/1.0.9/tr/ai.2a209d534c75.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 64842,
-        "sha256": "edc3ca9103154f252bce3042ba6cea0ac09a756b46c9efa289b2a9f116792347",
+        "bytes": 65392,
+        "sha256": "2a209d534c75bdc17e816cea23ca4ea0eb3f52dae16e0cce4f15d3826dcac87a",
         "sourceLocale": "tr",
         "sourceFile": "04-ai.png",
-        "sourceMD5": "709a90be85d0e46e69274d582c9517e7"
+        "sourceMD5": "2b8ec337dc72f84aa252efeabc04aaac"
       },
       "assets": {
-        "src": "/assets/screenshots/1.0.9/tr/assets.f3585bf121b5.webp",
+        "src": "/assets/screenshots/1.0.9/tr/assets.25a514474fae.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 66244,
-        "sha256": "f3585bf121b575b47b3ff9db6ddfabeb0fdc5e264034cf691695618014798f24",
+        "bytes": 66802,
+        "sha256": "25a514474fae0d4bb1c22cff32a0a7300e5505838c9a615285f70fab3e38609f",
         "sourceLocale": "tr",
         "sourceFile": "05-assets.png",
-        "sourceMD5": "aca75620bd357754b73eee131df68a8f"
+        "sourceMD5": "b2d51466727ec251b8e6f9a4a4dc0568"
       },
       "markets": {
-        "src": "/assets/screenshots/1.0.9/tr/markets.40e2f31eb1b3.webp",
+        "src": "/assets/screenshots/1.0.9/tr/markets.8364b492c40f.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 76126,
-        "sha256": "40e2f31eb1b3240f8885ba1e4901c150ffceede9b7db01b26768e8b20ff3c988",
+        "bytes": 76664,
+        "sha256": "8364b492c40f2d52178751a60344a34b74ff59938262e9c9a7bb35a4c7e15b82",
         "sourceLocale": "tr",
         "sourceFile": "06-markets.png",
-        "sourceMD5": "2cc97cf035edc98fafb3f4ce523706bd"
+        "sourceMD5": "aa81878e85721bba304d7e68ea4d69fe"
       },
       "history": {
-        "src": "/assets/screenshots/1.0.9/tr/history.2ebbdcb98a69.webp",
+        "src": "/assets/screenshots/1.0.9/tr/history.633abd5e1c96.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 77206,
-        "sha256": "2ebbdcb98a696b8b4dd424319e33c8cf07c6d40df4848804affa00fb16debe33",
+        "bytes": 77666,
+        "sha256": "633abd5e1c9637978c7fb429d19073eba9ad54cb99df2756c1abb81bb0cb5109",
         "sourceLocale": "tr",
         "sourceFile": "08-history.png",
-        "sourceMD5": "73eaa76cbf84a766bf1c59b379d26ae7"
+        "sourceMD5": "85c6b9050313d34c648321835303ae20"
       }
     },
     "pl": {
       "home": {
-        "src": "/assets/screenshots/1.0.9/pl/home.2535f92e1287.webp",
+        "src": "/assets/screenshots/1.0.9/pl/home.012808a4dba6.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 70114,
-        "sha256": "2535f92e1287a8d181e7df54aa99c4e8c4349be2b631f47cf1772941f23da969",
+        "bytes": 70662,
+        "sha256": "012808a4dba64abfdfb10a75cc75dcd25810259cea00e29c7be0cbe55ce6e329",
         "sourceLocale": "pl",
         "sourceFile": "01-home.png",
-        "sourceMD5": "30a0cc3cae2983f4fa3a5179e52df0a5"
+        "sourceMD5": "2aa5f08cf95c73da2219b0b8c673a458"
       },
       "family": {
-        "src": "/assets/screenshots/1.0.9/pl/family.ba5de6ae1a89.webp",
+        "src": "/assets/screenshots/1.0.9/pl/family.5a08c231481c.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 79658,
-        "sha256": "ba5de6ae1a89d9e29cd937fe1eb6cf5f21a111e5885adcb2ede367dc28a73287",
+        "bytes": 80072,
+        "sha256": "5a08c231481c5684f2f5cbf4d8974d2b22b5ffeada03e8fdb22bf6abdaea7f01",
         "sourceLocale": "pl",
         "sourceFile": "02-family.png",
-        "sourceMD5": "27fac5c13d90aac02147b07f3656b28c"
+        "sourceMD5": "81391bb83595eb7768a55e8ff32213f3"
       },
       "insights": {
-        "src": "/assets/screenshots/1.0.9/pl/insights.61d2ebb76a21.webp",
+        "src": "/assets/screenshots/1.0.9/pl/insights.72d52f5eda3c.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 70494,
-        "sha256": "61d2ebb76a21612135c243fede40ec7835c8eabc49984d8ecef960ceef455bc4",
+        "bytes": 71090,
+        "sha256": "72d52f5eda3c0aa80ee30a0e07d421b83f56ac3c5934f451b8622f814e9c827c",
         "sourceLocale": "pl",
         "sourceFile": "03-insights.png",
-        "sourceMD5": "2082552c70cf4b2aec939dd03bd46752"
+        "sourceMD5": "7404bb5cb1e6b2dfbe559f29b759c7ee"
       },
       "ai": {
-        "src": "/assets/screenshots/1.0.9/pl/ai.ab1dd16c540b.webp",
+        "src": "/assets/screenshots/1.0.9/pl/ai.00cd4aaa7852.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 69556,
-        "sha256": "ab1dd16c540b5e7244677d95912d32fc26d9be891823182ffedb8405eab32469",
+        "bytes": 70142,
+        "sha256": "00cd4aaa785276f707f8a8d4f46d74cc6d17d441b88ce3c08eef052d58964f7b",
         "sourceLocale": "pl",
         "sourceFile": "04-ai.png",
-        "sourceMD5": "2e01e4f4c6d69ad0be4567d41c075f0d"
+        "sourceMD5": "22e30bf8d4df8f6834f221fb3e356a51"
       },
       "assets": {
-        "src": "/assets/screenshots/1.0.9/pl/assets.cb76ddbc2cc7.webp",
+        "src": "/assets/screenshots/1.0.9/pl/assets.e04f8d05bad3.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 71220,
-        "sha256": "cb76ddbc2cc7c5c41fb888c4f22f15842ff06bcaf415869ff6be322269200322",
+        "bytes": 71886,
+        "sha256": "e04f8d05bad33a07055ecf3a14b731b40d765544d34c783d571c54bd0c7208d3",
         "sourceLocale": "pl",
         "sourceFile": "05-assets.png",
-        "sourceMD5": "12fc5e9da78f900bb1dbf4bb9a421ef3"
+        "sourceMD5": "34c027279c55c499e061c41e9bb71362"
       },
       "markets": {
-        "src": "/assets/screenshots/1.0.9/pl/markets.543569e6713e.webp",
+        "src": "/assets/screenshots/1.0.9/pl/markets.bec25aa48f26.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 77764,
-        "sha256": "543569e6713ec8a6345da5780a59815a43d06e5acdd8014337e0827de7c464ed",
+        "bytes": 78274,
+        "sha256": "bec25aa48f260599f96e341c418901f33dead021b751ed211521e5f65ffe6c0d",
         "sourceLocale": "pl",
         "sourceFile": "06-markets.png",
-        "sourceMD5": "1bd9f5412810e2153a4501f9696f59ec"
+        "sourceMD5": "b71430da7deb86fe83a79dd31744ecb8"
       },
       "history": {
-        "src": "/assets/screenshots/1.0.9/pl/history.d3f45f78a1f2.webp",
+        "src": "/assets/screenshots/1.0.9/pl/history.8936ed1137df.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 74898,
-        "sha256": "d3f45f78a1f27a48462bdef1df090cdc208640db690047a4a149dd5868e12d02",
+        "bytes": 75504,
+        "sha256": "8936ed1137dfe87f59ee028743d1c5bf277e09135eb9d52d9724f6e757c4457b",
         "sourceLocale": "pl",
         "sourceFile": "08-history.png",
-        "sourceMD5": "b2eca6dfa370deebea624f73760441ec"
+        "sourceMD5": "d2387cfb452be13cc634536e2018fa2f"
       }
     },
     "sv": {
       "home": {
-        "src": "/assets/screenshots/1.0.9/sv/home.35fdf3275398.webp",
+        "src": "/assets/screenshots/1.0.9/sv/home.a0cd853372ce.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 71088,
-        "sha256": "35fdf32753986b4aa19abee7483681e800918450d4a2d78c894ae56ca3a549a3",
+        "bytes": 71556,
+        "sha256": "a0cd853372ce6b162cfdf5e8e186b42722da1352e087b229796180b55f2a0fa6",
         "sourceLocale": "sv",
         "sourceFile": "01-home.png",
-        "sourceMD5": "20b2fd24dbbc17978010fd5b6e746de1"
+        "sourceMD5": "9d4ac2c37501b5d7d59542cbcb761696"
       },
       "family": {
-        "src": "/assets/screenshots/1.0.9/sv/family.b1379fb4df3f.webp",
+        "src": "/assets/screenshots/1.0.9/sv/family.9d738f6b715b.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 69644,
-        "sha256": "b1379fb4df3f536da546497c99aacf096cc08733a1613906e397bf9754358676",
+        "bytes": 70226,
+        "sha256": "9d738f6b715b1bb3f80c5f7786bd72405327be275c808b022ab5c016cbde524a",
         "sourceLocale": "sv",
         "sourceFile": "02-family.png",
-        "sourceMD5": "b508fd0ebb0df85ca0137cb3227c3a53"
+        "sourceMD5": "9fb8cf0157ac83ddd4ef46000c2e436c"
       },
       "insights": {
-        "src": "/assets/screenshots/1.0.9/sv/insights.c87eb37757c1.webp",
+        "src": "/assets/screenshots/1.0.9/sv/insights.931826a82e00.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 71056,
-        "sha256": "c87eb37757c11802d2b8c60497b586e54741700b4d306a25e0fcb147c046aae9",
+        "bytes": 71632,
+        "sha256": "931826a82e000aee7614fc0f89e16d60d8b7a50f0b72da7bf5502e49a6382d76",
         "sourceLocale": "sv",
         "sourceFile": "03-insights.png",
-        "sourceMD5": "0eeb371d9904f80c7f0f59359815bfb2"
+        "sourceMD5": "1a5dcf7564b1fc35a52ef9ff0ee32064"
       },
       "ai": {
-        "src": "/assets/screenshots/1.0.9/sv/ai.f22f244209c1.webp",
+        "src": "/assets/screenshots/1.0.9/sv/ai.0cbafa3eda57.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 67824,
-        "sha256": "f22f244209c1b9bb4ef85871008c7d24bd5d944eb77d18fd1824d487e2ffe8af",
+        "bytes": 68404,
+        "sha256": "0cbafa3eda579ab2b7e6f5eede36aaaef2458c458160568d0442afe6eb134557",
         "sourceLocale": "sv",
         "sourceFile": "04-ai.png",
-        "sourceMD5": "b5fff2aaf8af9c433c0e7a2043d842fb"
+        "sourceMD5": "6d43c62f4d520835b928d69a995d5efa"
       },
       "assets": {
-        "src": "/assets/screenshots/1.0.9/sv/assets.200b7d70f28f.webp",
+        "src": "/assets/screenshots/1.0.9/sv/assets.80bacb8b8673.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 68164,
-        "sha256": "200b7d70f28f4b1768f3f0644d87f71ba0cffbf5f090482e7f9f0fdbbcd1ad06",
+        "bytes": 68620,
+        "sha256": "80bacb8b8673be25cf02c9ff013b9b700ba71c2388f06879d1157a707a752595",
         "sourceLocale": "sv",
         "sourceFile": "05-assets.png",
-        "sourceMD5": "822f84114d249e5644a3d6c268daff72"
+        "sourceMD5": "2588522820b07daaf9e6bb7f3b1dacd1"
       },
       "markets": {
-        "src": "/assets/screenshots/1.0.9/sv/markets.8880940b2e73.webp",
+        "src": "/assets/screenshots/1.0.9/sv/markets.12ad5622b323.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 76674,
-        "sha256": "8880940b2e73516d463767557f2be0e22f2f4b3c901a7b38dd86a5e2e5c3c00c",
+        "bytes": 77406,
+        "sha256": "12ad5622b3232c4e97d24fbab4e17bd3bcfc99a071c17dd48e9b7df776eeaad6",
         "sourceLocale": "sv",
         "sourceFile": "06-markets.png",
-        "sourceMD5": "799e6140c5e272446ef55de0f233cc8d"
+        "sourceMD5": "8490ac4b8e5c909720521ea3d381969d"
       },
       "history": {
-        "src": "/assets/screenshots/1.0.9/sv/history.0738c484e73a.webp",
+        "src": "/assets/screenshots/1.0.9/sv/history.1758d59e21cd.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 77400,
-        "sha256": "0738c484e73ae30c3828bf8f52d8e7e5eb40995afecc8678345a2aba7a11e298",
+        "bytes": 78058,
+        "sha256": "1758d59e21cdd1893dcc8ee8b7f6f96f163bd9dc127a6e195e93f3865cb629d8",
         "sourceLocale": "sv",
         "sourceFile": "08-history.png",
-        "sourceMD5": "ddc395cf5622491c05a3daf9f79d292a"
+        "sourceMD5": "a050220b2c71fddb81bb1f045cff4362"
       }
     },
     "da": {
       "home": {
-        "src": "/assets/screenshots/1.0.9/da/home.10d4693e6a0a.webp",
+        "src": "/assets/screenshots/1.0.9/da/home.0f685a21f039.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 71082,
-        "sha256": "10d4693e6a0a2adba6810902802e7c8ed6f81bf5c0962bafb41a54bf59478ea8",
+        "bytes": 71736,
+        "sha256": "0f685a21f03928ea8f62c8556d9aca008d905d079a031c1a848dc4eaada89b43",
         "sourceLocale": "da",
         "sourceFile": "01-home.png",
-        "sourceMD5": "37269239a351c36dbb76396cf9aca675"
+        "sourceMD5": "2750bc4870347b787dfc42605585a830"
       },
       "family": {
-        "src": "/assets/screenshots/1.0.9/da/family.a2c2ed376246.webp",
+        "src": "/assets/screenshots/1.0.9/da/family.03d3e6f45844.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 70612,
-        "sha256": "a2c2ed3762460500d24655b802b72216b6a609d92d309eba741c274dde296eb7",
+        "bytes": 71032,
+        "sha256": "03d3e6f458445bf7e7cec8732844799c547c3c039d9f18cb69f56c5e4d3e5fb1",
         "sourceLocale": "da",
         "sourceFile": "02-family.png",
-        "sourceMD5": "07378c3efc839248c5c9823a144687b1"
+        "sourceMD5": "f1daa4316089450b058b03a0985dcc8f"
       },
       "insights": {
-        "src": "/assets/screenshots/1.0.9/da/insights.c88cafbcfe5e.webp",
+        "src": "/assets/screenshots/1.0.9/da/insights.ed05ebc71c33.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 70194,
-        "sha256": "c88cafbcfe5e20b0b34858d3f18e394fa6cd3ace69bb133d283294e3a00a39df",
+        "bytes": 70678,
+        "sha256": "ed05ebc71c33fd7724505e0817ef0792a7153e905a0e832c9bc4954dcb58e550",
         "sourceLocale": "da",
         "sourceFile": "03-insights.png",
-        "sourceMD5": "16a9abf414ab5640b43cae7a3c74ffa0"
+        "sourceMD5": "4ed57b554e9591f78534612d77587eac"
       },
       "ai": {
-        "src": "/assets/screenshots/1.0.9/da/ai.4dd4c9af9bf4.webp",
+        "src": "/assets/screenshots/1.0.9/da/ai.6a95150dca29.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 67364,
-        "sha256": "4dd4c9af9bf4d5f35cebb50be43dc5d13c063d8c958fe0d2b730cf1e8de9d993",
+        "bytes": 67972,
+        "sha256": "6a95150dca2996a2dbd3c7bb398743dcc2990cc15bc2718a4620fd6bc713de1e",
         "sourceLocale": "da",
         "sourceFile": "04-ai.png",
-        "sourceMD5": "db36ee42177f4df7f6b7bc6d53fcd159"
+        "sourceMD5": "0b81a6d91018930b6faa04d5d549499b"
       },
       "assets": {
-        "src": "/assets/screenshots/1.0.9/da/assets.19cccdfcade5.webp",
+        "src": "/assets/screenshots/1.0.9/da/assets.96b5f7d4dfd1.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 67676,
-        "sha256": "19cccdfcade58c635b3e5731bcaff3a7dcf940fe424faeb17eae47b6c52f6ecc",
+        "bytes": 68304,
+        "sha256": "96b5f7d4dfd1da0fc2f174692a29ea9f1305e29e9b52dd031872ad146cdc3c5e",
         "sourceLocale": "da",
         "sourceFile": "05-assets.png",
-        "sourceMD5": "1caac9aa76848b4f569c8134cea4f40b"
+        "sourceMD5": "c46c6811a37e94fd587924dc8e2cef1c"
       },
       "markets": {
-        "src": "/assets/screenshots/1.0.9/da/markets.c78c3805f2e7.webp",
+        "src": "/assets/screenshots/1.0.9/da/markets.0646ac9ff38c.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 77390,
-        "sha256": "c78c3805f2e797126e74a13619b8425c1e0cd79a03a5c4d59a55ac15985f3c66",
+        "bytes": 77806,
+        "sha256": "0646ac9ff38cc142cddbd1a47a98c9da0cff6f79164bd0736407dbc89fe1cc62",
         "sourceLocale": "da",
         "sourceFile": "06-markets.png",
-        "sourceMD5": "d331421aed874a9ded32b6dafdaf4f13"
+        "sourceMD5": "a5bd40e00650c0fd0762ed27c4b75656"
       },
       "history": {
-        "src": "/assets/screenshots/1.0.9/da/history.5e6dffc050aa.webp",
+        "src": "/assets/screenshots/1.0.9/da/history.413f011c7a0c.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 76250,
-        "sha256": "5e6dffc050aac329b2636bd699ad568cb985ada0c290d47670dc4fd01ba63c07",
+        "bytes": 76780,
+        "sha256": "413f011c7a0cdb724b203253eaa782fcdbe80dc215725d84d8dc97ff5b697a02",
         "sourceLocale": "da",
         "sourceFile": "08-history.png",
-        "sourceMD5": "a885d171c92c643a20b6fb550eb07fee"
+        "sourceMD5": "ce9c6e0caedb04beb9117b3ebfcc0ed9"
       }
     },
     "nb": {
       "home": {
-        "src": "/assets/screenshots/1.0.9/nb/home.3b190c437d8b.webp",
+        "src": "/assets/screenshots/1.0.9/nb/home.daa3de2e527b.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 71264,
-        "sha256": "3b190c437d8bdd9d62d6fd9bb01bd3ca985d14125f6a851a4cedf9d465ed6c98",
+        "bytes": 71856,
+        "sha256": "daa3de2e527b69b5340d1680d07c4ff4818049882196e90d38e9ce8f7d3a3ef0",
         "sourceLocale": "no",
         "sourceFile": "01-home.png",
-        "sourceMD5": "4e1b7347a9d36893ad6306d751f46f84"
+        "sourceMD5": "b289e3cb3b8ddb5ae445697a2fe79696"
       },
       "family": {
-        "src": "/assets/screenshots/1.0.9/nb/family.00ced5dd4d22.webp",
+        "src": "/assets/screenshots/1.0.9/nb/family.1213e923a6a6.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 71566,
-        "sha256": "00ced5dd4d222eed609de21fc676d6bb8b2f90fc29767c7154133fd387239e72",
+        "bytes": 72074,
+        "sha256": "1213e923a6a6ab0375603f88c3e8ec80dbe94bdc0de1a16c27ee19a3a71ae6cc",
         "sourceLocale": "no",
         "sourceFile": "02-family.png",
-        "sourceMD5": "5994e1348c074ae6466590edd648dd06"
+        "sourceMD5": "2f115ba175fd0e22e97e7050e8b00e6f"
       },
       "insights": {
-        "src": "/assets/screenshots/1.0.9/nb/insights.6d1066b24857.webp",
+        "src": "/assets/screenshots/1.0.9/nb/insights.aead6d6ecdf1.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 70092,
-        "sha256": "6d1066b24857c40e2e0bfdd14a72426789842ba0a6b10932c9b74a47aeaa7e54",
+        "bytes": 70566,
+        "sha256": "aead6d6ecdf116ffe499579225bdc24251e89de091affd7118d258edc253f2f5",
         "sourceLocale": "no",
         "sourceFile": "03-insights.png",
-        "sourceMD5": "1826fc9e1870324d117f82157ced289a"
+        "sourceMD5": "76b70af44cfe05af86c486f9a1f6193b"
       },
       "ai": {
-        "src": "/assets/screenshots/1.0.9/nb/ai.48c6991e91c9.webp",
+        "src": "/assets/screenshots/1.0.9/nb/ai.67ecb87ce898.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 67914,
-        "sha256": "48c6991e91c958431dcc1eef19de787a2b0713c73b4ab1a334f1cbe2c4499670",
+        "bytes": 68564,
+        "sha256": "67ecb87ce8980dfe10babcb124466cdb44a182996509697095f84c9eb18eab7c",
         "sourceLocale": "no",
         "sourceFile": "04-ai.png",
-        "sourceMD5": "760d3dd7ccc85b039b7b50cc7dfc5d11"
+        "sourceMD5": "54a4d5728594e7530aea3d25f8e7522b"
       },
       "assets": {
-        "src": "/assets/screenshots/1.0.9/nb/assets.9c10905f90ee.webp",
+        "src": "/assets/screenshots/1.0.9/nb/assets.124b81e41a6b.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 70986,
-        "sha256": "9c10905f90ee7921edd02e5d787da04698b7b3a0bae2bfa04a571d5f2f89890e",
+        "bytes": 71494,
+        "sha256": "124b81e41a6b7b5f6e23b2eedade0a67f9b021090a352a95c23623820cb99fa5",
         "sourceLocale": "no",
         "sourceFile": "05-assets.png",
-        "sourceMD5": "6d1a57e962b77ab897ca844e3a591c41"
+        "sourceMD5": "1804e9b0e0e9387fd1eedb0b696a9157"
       },
       "markets": {
-        "src": "/assets/screenshots/1.0.9/nb/markets.d9097355c242.webp",
+        "src": "/assets/screenshots/1.0.9/nb/markets.383b4c9ab52c.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 77630,
-        "sha256": "d9097355c242385abb8ee5fd135c3ff4c45f35ee7fde48db8771d963154d3a2f",
+        "bytes": 78200,
+        "sha256": "383b4c9ab52cdc6e37cf607c53c38b2de984a066c6528fe4f908359d48bdb3f8",
         "sourceLocale": "no",
         "sourceFile": "06-markets.png",
-        "sourceMD5": "08ba74ebf29e726647595e2e7cf9f3db"
+        "sourceMD5": "cf14761ea8dbfaba3347f064a8944fc6"
       },
       "history": {
-        "src": "/assets/screenshots/1.0.9/nb/history.e76dc8bd85aa.webp",
+        "src": "/assets/screenshots/1.0.9/nb/history.54a7a6d8b640.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 77214,
-        "sha256": "e76dc8bd85aa9d508a178cb68f3e387fd59a755b03c9257f7ea20e2d846ee45a",
+        "bytes": 77780,
+        "sha256": "54a7a6d8b6407e34ecba434dc45ce08a1533f9d4cdf66850765dc4dd6790d396",
         "sourceLocale": "no",
         "sourceFile": "08-history.png",
-        "sourceMD5": "e1ca5dff62805129522fe1a547a05dfd"
+        "sourceMD5": "a0873e257464371b4286b2ae38cf981e"
       }
     },
     "fi": {
       "home": {
-        "src": "/assets/screenshots/1.0.9/fi/home.3dd50fce932f.webp",
+        "src": "/assets/screenshots/1.0.9/fi/home.e680dc8dce66.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 69988,
-        "sha256": "3dd50fce932fceaf80fe01f4c593c923ec5c52b8cac2f2d831dde2cc598e136a",
+        "bytes": 70534,
+        "sha256": "e680dc8dce66c50126848a6128290acadd79592de91b49eb2895869ccda6058b",
         "sourceLocale": "fi",
         "sourceFile": "01-home.png",
-        "sourceMD5": "9d0610119201a9c43be3c625623a0630"
+        "sourceMD5": "1a79d58d45e8351da682f3f426aa777d"
       },
       "family": {
-        "src": "/assets/screenshots/1.0.9/fi/family.319d97bb2450.webp",
+        "src": "/assets/screenshots/1.0.9/fi/family.4c3412092114.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 69456,
-        "sha256": "319d97bb245035f365f579492005d72a2f8a9e7833e2857cce70d1b798bd180b",
+        "bytes": 70052,
+        "sha256": "4c3412092114e999ffa1d01e9af6b2c9abe0a9fe732058421cdf5357a37ac966",
         "sourceLocale": "fi",
         "sourceFile": "02-family.png",
-        "sourceMD5": "1b64d0707dbf56f0b311dcbeb707db17"
+        "sourceMD5": "7fc706fe09197eb64e7838c6e342ea3c"
       },
       "insights": {
-        "src": "/assets/screenshots/1.0.9/fi/insights.2ccf2b223667.webp",
+        "src": "/assets/screenshots/1.0.9/fi/insights.94bad57a4375.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 69788,
-        "sha256": "2ccf2b223667467d32d2ba12777f517da25a2c9133e3883f0e65ce0ea735ef69",
+        "bytes": 70262,
+        "sha256": "94bad57a43753d98a4aa2bcdb3fe574a9f03b0d1162df8da2bd314c2cd23008a",
         "sourceLocale": "fi",
         "sourceFile": "03-insights.png",
-        "sourceMD5": "454c80775e6ef01b88723b5dcc88fb3e"
+        "sourceMD5": "0e0f7a49b0e26928f74397a24b6e18b5"
       },
       "ai": {
-        "src": "/assets/screenshots/1.0.9/fi/ai.f20675f8fa12.webp",
+        "src": "/assets/screenshots/1.0.9/fi/ai.eef653853ccd.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 64052,
-        "sha256": "f20675f8fa124e077f73b76bcc4a456d0f3afae05375a76de763d2421d353a7f",
+        "bytes": 64622,
+        "sha256": "eef653853ccd8657545c1b84ad7691d50703ee4d22a2323b2edbb52fda2bf891",
         "sourceLocale": "fi",
         "sourceFile": "04-ai.png",
-        "sourceMD5": "2184f0a4f056ba5b8e2f7dbbfa3d59cf"
+        "sourceMD5": "73e1a6d8fa38ac29b574f3b56c248d54"
       },
       "assets": {
-        "src": "/assets/screenshots/1.0.9/fi/assets.53224fdd0970.webp",
+        "src": "/assets/screenshots/1.0.9/fi/assets.3e0e5a04bf43.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 70118,
-        "sha256": "53224fdd09706581bad86f1afee912e1b79c481f69b25c2ee5cfade414b5c0cc",
+        "bytes": 70522,
+        "sha256": "3e0e5a04bf439a0388ee147c1d71d5cf0c8703acbd0dab8a83aff101a53bc7c8",
         "sourceLocale": "fi",
         "sourceFile": "05-assets.png",
-        "sourceMD5": "0c44ac53cdd5e7ab97034227a63dcccf"
+        "sourceMD5": "3842756221ca499f5d61a11ca27d7a5a"
       },
       "markets": {
-        "src": "/assets/screenshots/1.0.9/fi/markets.e5a7777de0c0.webp",
+        "src": "/assets/screenshots/1.0.9/fi/markets.30ccdc1b46a9.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 77592,
-        "sha256": "e5a7777de0c0728e66da2b64a7fbcf44340e632774344fd03b15c6c2e6615c67",
+        "bytes": 78128,
+        "sha256": "30ccdc1b46a94ae68492dd08d2668a9d5e8e96174070a68917eac0b4ad94d3cd",
         "sourceLocale": "fi",
         "sourceFile": "06-markets.png",
-        "sourceMD5": "7ab0c7a18f76bcb6a5a76a2d44dca999"
+        "sourceMD5": "17e5038701ceaaccc40ec4360d95bdf1"
       },
       "history": {
-        "src": "/assets/screenshots/1.0.9/fi/history.06f56011beb4.webp",
+        "src": "/assets/screenshots/1.0.9/fi/history.009b87379cea.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 80278,
-        "sha256": "06f56011beb48187e11b02d5ed9bde4dbf73b13de31cfb1b2c3289b1c0889a17",
+        "bytes": 80850,
+        "sha256": "009b87379ceae4b650662a2c4969553d4cdec14e0eed610c9bbae1adcf9f6570",
         "sourceLocale": "fi",
         "sourceFile": "08-history.png",
-        "sourceMD5": "1b5a6a1ad6825de4c41ba83d5c7e14e5"
+        "sourceMD5": "93469d53c18137649bf73548910fb31a"
       }
     },
     "cs": {
       "home": {
-        "src": "/assets/screenshots/1.0.9/cs/home.3f25e2fce4e6.webp",
+        "src": "/assets/screenshots/1.0.9/cs/home.4dcc759788cc.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 71028,
-        "sha256": "3f25e2fce4e69307199c2711a0e69645f7da95f95c3c9a8d84feecaf5649b0a1",
+        "bytes": 71610,
+        "sha256": "4dcc759788ccf204ea6d42bd8921041680105665dc75ac7925bf70ea546a431f",
         "sourceLocale": "cs",
         "sourceFile": "01-home.png",
-        "sourceMD5": "72871e898a4ee111f692711d03917d72"
+        "sourceMD5": "e861315aa056c9b5ce053f7010408c6a"
       },
       "family": {
-        "src": "/assets/screenshots/1.0.9/cs/family.26f47e27541c.webp",
+        "src": "/assets/screenshots/1.0.9/cs/family.caee5dee233f.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 72862,
-        "sha256": "26f47e27541c8144945d85c966a7b7e81369e4d3509a0d7cbbcf270e54835a33",
+        "bytes": 73442,
+        "sha256": "caee5dee233fe11ec65f8ce667e4143b1b530178bf0d407beb4cb4b426a95982",
         "sourceLocale": "cs",
         "sourceFile": "02-family.png",
-        "sourceMD5": "3a616cb26b0fe125840a65b35d1d6d16"
+        "sourceMD5": "56cc1401628d2c1c04f7e047e4023bc8"
       },
       "insights": {
-        "src": "/assets/screenshots/1.0.9/cs/insights.aaec6fec7f77.webp",
+        "src": "/assets/screenshots/1.0.9/cs/insights.f74a7f38eca3.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 70960,
-        "sha256": "aaec6fec7f774ad288d43c31dd75139699b020b6d41c602115e385f0d45af13d",
+        "bytes": 71398,
+        "sha256": "f74a7f38eca3f782d0f4ec27a399996bf36bde6553efff622f09468e79a8dbde",
         "sourceLocale": "cs",
         "sourceFile": "03-insights.png",
-        "sourceMD5": "51093f3a3788f6f264ab20a71180656b"
+        "sourceMD5": "5528b730d41203fd6787d8fe62c7d31a"
       },
       "ai": {
-        "src": "/assets/screenshots/1.0.9/cs/ai.2f8983bdd2a3.webp",
+        "src": "/assets/screenshots/1.0.9/cs/ai.414c8d031f16.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 64170,
-        "sha256": "2f8983bdd2a39b698dc9c7d83d65fec40d5652139b258fadd7cd29be151d3fcf",
+        "bytes": 64738,
+        "sha256": "414c8d031f165415897930b4546165f9436319999992e2d9b18b42ea79a2efc1",
         "sourceLocale": "cs",
         "sourceFile": "04-ai.png",
-        "sourceMD5": "e71b1cbaf131531369b151fa592a31b2"
+        "sourceMD5": "ea5ab0f77951e7c9d5b635428796fc09"
       },
       "assets": {
-        "src": "/assets/screenshots/1.0.9/cs/assets.b553261ac057.webp",
+        "src": "/assets/screenshots/1.0.9/cs/assets.be637aab69bb.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 69190,
-        "sha256": "b553261ac0575ed52a57eef896104c03e8545c94d454d97566c6d09566e9ecb3",
+        "bytes": 69618,
+        "sha256": "be637aab69bbd1d9bf64123c408a6280e285ce85e9063a62fc404d61836821bc",
         "sourceLocale": "cs",
         "sourceFile": "05-assets.png",
-        "sourceMD5": "7d2ecbd311fcf9d4844e8699c9c9f93b"
+        "sourceMD5": "40fd5f6fc5320a417f85c0fc0570e7e4"
       },
       "markets": {
-        "src": "/assets/screenshots/1.0.9/cs/markets.fd9b1bcb6bd9.webp",
+        "src": "/assets/screenshots/1.0.9/cs/markets.ffc809c1f248.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 77374,
-        "sha256": "fd9b1bcb6bd9daee4d2dbe9d251afbf008b285e5e44ac892cc990a229de8835c",
+        "bytes": 77780,
+        "sha256": "ffc809c1f248e64f08c72bb11f45b6b834a39a383706559fdc43f83e5ced89fb",
         "sourceLocale": "cs",
         "sourceFile": "06-markets.png",
-        "sourceMD5": "21cef03192527d595378a608bd135bbe"
+        "sourceMD5": "bf70488bb6f8316b185fc9efd68ff137"
       },
       "history": {
-        "src": "/assets/screenshots/1.0.9/cs/history.7e8dae8e9576.webp",
+        "src": "/assets/screenshots/1.0.9/cs/history.e881eeb88d04.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 75074,
-        "sha256": "7e8dae8e9576f541896a528e1d35c956272bdf177f51c9cef99c8433eafafdc8",
+        "bytes": 75654,
+        "sha256": "e881eeb88d049a03e23c9dbea2b415f0e55701eae5e14877bb4b6e1a1e1c062a",
         "sourceLocale": "cs",
         "sourceFile": "08-history.png",
-        "sourceMD5": "94dd43e06858ec075d87023309698d32"
+        "sourceMD5": "565988f28b435ba1e5888605cb2bca11"
       }
     },
     "ro": {
       "home": {
-        "src": "/assets/screenshots/1.0.9/ro/home.ec6949b0ae21.webp",
+        "src": "/assets/screenshots/1.0.9/ro/home.af2998cb6cb8.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 69364,
-        "sha256": "ec6949b0ae213f5e77c185d664f89af8047e34c20fe265ab3c90f04d662d3a6a",
+        "bytes": 70082,
+        "sha256": "af2998cb6cb811b9820854409c7143679641968bc392eb488074c911ceecf322",
         "sourceLocale": "ro",
         "sourceFile": "01-home.png",
-        "sourceMD5": "714521fe7255e7f97e574acc52acb7ab"
+        "sourceMD5": "05c0e9eec676a007889a9387ffda98a8"
       },
       "family": {
         "src": "/assets/screenshots/1.0.9/ro/family.f912d759c54c.webp",
@@ -1762,282 +1762,282 @@
         "sourceMD5": "1f4000f9b8d9d2012b177de26cea28a5"
       },
       "insights": {
-        "src": "/assets/screenshots/1.0.9/ro/insights.87c92936a144.webp",
+        "src": "/assets/screenshots/1.0.9/ro/insights.e16af208b2d7.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 69060,
-        "sha256": "87c92936a144c3476bf8cdd2f0b54475638c9da24aa769449b091158dd748022",
+        "bytes": 69564,
+        "sha256": "e16af208b2d7698836c2e448d033f9495140102f673829a83e06b730b3ffd48f",
         "sourceLocale": "ro",
         "sourceFile": "03-insights.png",
-        "sourceMD5": "4ff83ce84f03a0225257ef35e82d6228"
+        "sourceMD5": "dd4434afede3caef28ef18fd43f69bc6"
       },
       "ai": {
-        "src": "/assets/screenshots/1.0.9/ro/ai.fbee7b0ddb6e.webp",
+        "src": "/assets/screenshots/1.0.9/ro/ai.e8a27c571951.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 70114,
-        "sha256": "fbee7b0ddb6e1986b08d48deba230a1ae7a8c8ae1b5ac4b43728c080d9275ae8",
+        "bytes": 70696,
+        "sha256": "e8a27c5719514a77cf57c54eeb27d85d9387ffaee6f6a17ded7367e9d7fa20fa",
         "sourceLocale": "ro",
         "sourceFile": "04-ai.png",
-        "sourceMD5": "5e4b02e0f4d7c717159764a64e0d6860"
+        "sourceMD5": "34c2ecb07570b52e36e610c671a40531"
       },
       "assets": {
-        "src": "/assets/screenshots/1.0.9/ro/assets.08253c26999c.webp",
+        "src": "/assets/screenshots/1.0.9/ro/assets.520a1b218fac.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 68760,
-        "sha256": "08253c26999c6403363db7aa8e55eb191d81ab37103884db9f5f4dfd5d3e7ce0",
+        "bytes": 69186,
+        "sha256": "520a1b218facb1a653a856fbd94a7c4f5ba4d1486e940e744a51e85c5a7a80db",
         "sourceLocale": "ro",
         "sourceFile": "05-assets.png",
-        "sourceMD5": "4a40d3bbe453ed185001a5f7726049c4"
+        "sourceMD5": "57fc0ee23cb7d59714f6fc2b5de06e17"
       },
       "markets": {
-        "src": "/assets/screenshots/1.0.9/ro/markets.fa81e3a02ec3.webp",
+        "src": "/assets/screenshots/1.0.9/ro/markets.828dc15c3ee8.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 77352,
-        "sha256": "fa81e3a02ec3d394c21594187df0e5913103a21fa17053e47a82ae76f9b4af5e",
+        "bytes": 77904,
+        "sha256": "828dc15c3ee8acd74ac0ff04c4a11691a5c7ab6ae6dda66fa0937d6de2b47dac",
         "sourceLocale": "ro",
         "sourceFile": "06-markets.png",
-        "sourceMD5": "ed41e9afd6a298710336b9717ae8faee"
+        "sourceMD5": "d79ac3f944ec23026d75957737a6160b"
       },
       "history": {
-        "src": "/assets/screenshots/1.0.9/ro/history.30ca77c9cb01.webp",
+        "src": "/assets/screenshots/1.0.9/ro/history.ae8535d51dfa.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 75332,
-        "sha256": "30ca77c9cb01fe38edab17be7ac65969a255b482212e052b0f1c07b6cd6f2d85",
+        "bytes": 75936,
+        "sha256": "ae8535d51dfa137a503eece9d370f93cc8d28beb2878c00cf8824f711ce02679",
         "sourceLocale": "ro",
         "sourceFile": "08-history.png",
-        "sourceMD5": "09ccc05761ae8bccfa00a6baa42927ee"
+        "sourceMD5": "c36e6d60b8f67c948c913e23acb5d457"
       }
     },
     "ru": {
       "home": {
-        "src": "/assets/screenshots/1.0.9/ru/home.1ba555b0289c.webp",
+        "src": "/assets/screenshots/1.0.9/ru/home.3e7785ac4da4.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 72032,
-        "sha256": "1ba555b0289c1984ee3d67fa0eb13befe5a7e8531a21972ba928e0461be10a22",
+        "bytes": 72592,
+        "sha256": "3e7785ac4da407bcd4da088cc0fc9a45a720de897e7d2b091c10fa22b263828d",
         "sourceLocale": "ru",
         "sourceFile": "01-home.png",
-        "sourceMD5": "37deca92879335fbd87598578e9aba80"
+        "sourceMD5": "3c035392ca39f6a9915616b01d3964c0"
       },
       "family": {
-        "src": "/assets/screenshots/1.0.9/ru/family.740dd1314961.webp",
+        "src": "/assets/screenshots/1.0.9/ru/family.9aded7d9bebb.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 76564,
-        "sha256": "740dd13149612e8b3898af7742448a63d368414a4cdf0a3156f1721d1efa6284",
+        "bytes": 77104,
+        "sha256": "9aded7d9bebb3d4d045360b849bc12d56df895aaf5ef6f65f3103cb716130a9c",
         "sourceLocale": "ru",
         "sourceFile": "02-family.png",
-        "sourceMD5": "e6603098e384ecf4aa735a48f47467e2"
+        "sourceMD5": "b36342191284c77c023b55aa5c2d2b9c"
       },
       "insights": {
-        "src": "/assets/screenshots/1.0.9/ru/insights.ccd481a85211.webp",
+        "src": "/assets/screenshots/1.0.9/ru/insights.eb02d2a6d28b.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 71344,
-        "sha256": "ccd481a85211e5a11492fe5a5334d72528d13535d435a2f7a96c98ba321640f1",
+        "bytes": 72018,
+        "sha256": "eb02d2a6d28bf0d61df3f7ee204037cf1ec609f809353c3c4bbd0bd2d97a1ddd",
         "sourceLocale": "ru",
         "sourceFile": "03-insights.png",
-        "sourceMD5": "e0d4bd6ca0d552ccdd2ff9f49fe5d98a"
+        "sourceMD5": "80916731c1ea0fced0d63ecb421af7f9"
       },
       "ai": {
-        "src": "/assets/screenshots/1.0.9/ru/ai.bbdbd0517f85.webp",
+        "src": "/assets/screenshots/1.0.9/ru/ai.49ae0005e7f0.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 71240,
-        "sha256": "bbdbd0517f85c89acdf45928fbba86fd9d81e66d3c0683d626dfb0638dbef43b",
+        "bytes": 71840,
+        "sha256": "49ae0005e7f024c268adae38954acc27af0d258231b9e2f644e2361922f3e0a3",
         "sourceLocale": "ru",
         "sourceFile": "04-ai.png",
-        "sourceMD5": "55dbd77a033c16e1bde1473f6d557897"
+        "sourceMD5": "c7b9a453740e66b23a21dcd114e7316b"
       },
       "assets": {
-        "src": "/assets/screenshots/1.0.9/ru/assets.5f5bd54d4468.webp",
+        "src": "/assets/screenshots/1.0.9/ru/assets.a57b901928f6.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 71902,
-        "sha256": "5f5bd54d4468765209d1adcef91623537a96c8e53764c44d6225bc2f629a98f3",
+        "bytes": 72500,
+        "sha256": "a57b901928f64dad10e47187c03217e26bd04932ead651ab260e00a4d60df529",
         "sourceLocale": "ru",
         "sourceFile": "05-assets.png",
-        "sourceMD5": "787688288870980ecec4b002cf1e04c7"
+        "sourceMD5": "b61e8e7adfaceff48ab3c953fc05ccd2"
       },
       "markets": {
-        "src": "/assets/screenshots/1.0.9/ru/markets.a846bbdd3030.webp",
+        "src": "/assets/screenshots/1.0.9/ru/markets.d9ee2f4f6f20.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 76302,
-        "sha256": "a846bbdd3030f41a328e3d3d2374891e5590190dd4d5a5c9481d7f1146cb9a3d",
+        "bytes": 76858,
+        "sha256": "d9ee2f4f6f20d804dcb89d0cde732cb4c03a771f7d9d8296afce9badfeb984e6",
         "sourceLocale": "ru",
         "sourceFile": "06-markets.png",
-        "sourceMD5": "b5707c8cc3fff0332e96f9a235d16909"
+        "sourceMD5": "06aa97250362a2c4f5014334d5be8c0c"
       },
       "history": {
-        "src": "/assets/screenshots/1.0.9/ru/history.c9f5de4210fa.webp",
+        "src": "/assets/screenshots/1.0.9/ru/history.b6947d810cc4.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 76268,
-        "sha256": "c9f5de4210fa2c50b7f274571eca6c308547fb7e4cad397d48c480729d5c3623",
+        "bytes": 76770,
+        "sha256": "b6947d810cc47da41aaddac3f5a8eae16b3b1933701c19e659fab58402d8cf39",
         "sourceLocale": "ru",
         "sourceFile": "08-history.png",
-        "sourceMD5": "fe956c936f1a0057b4be6ee5028d55da"
+        "sourceMD5": "3ee9e9f07d692fd48b2ee1120977b23c"
       }
     },
     "uk": {
       "home": {
-        "src": "/assets/screenshots/1.0.9/uk/home.fc78dca95e2a.webp",
+        "src": "/assets/screenshots/1.0.9/uk/home.6876ebe77e42.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 71706,
-        "sha256": "fc78dca95e2abfce482fa1cdbedfb40fa2323149a6eb3f931c790a89b68c9766",
+        "bytes": 72388,
+        "sha256": "6876ebe77e4274516521b65ae38a1c99d9697c5c376d97869779e916b7d9c5a3",
         "sourceLocale": "uk",
         "sourceFile": "01-home.png",
-        "sourceMD5": "b97df7e843c1b6a8e10220ec34bc834a"
+        "sourceMD5": "1644f43b95a65e47bc9d21acc706e25b"
       },
       "family": {
-        "src": "/assets/screenshots/1.0.9/uk/family.c23fb65d4dc3.webp",
+        "src": "/assets/screenshots/1.0.9/uk/family.274b9e2f913f.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 73538,
-        "sha256": "c23fb65d4dc30ed482d989b1849733b88a461fde661f6db88c92c3e2b98c0317",
+        "bytes": 74036,
+        "sha256": "274b9e2f913ffca86e6d4ee715604d87ea5654f555ddf5934d0449b950f1f13b",
         "sourceLocale": "uk",
         "sourceFile": "02-family.png",
-        "sourceMD5": "ecd2e45ab2b8de59112e4b565ef0ede7"
+        "sourceMD5": "47589c2a0cfa84cb3bbed4cb8103e425"
       },
       "insights": {
-        "src": "/assets/screenshots/1.0.9/uk/insights.0edd00136daa.webp",
+        "src": "/assets/screenshots/1.0.9/uk/insights.b1afa656a9ca.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 70096,
-        "sha256": "0edd00136daa9197e0e9eb67576747dd0b54f2ae18899830cd812855933a5216",
+        "bytes": 70752,
+        "sha256": "b1afa656a9cac04f624a25ef1b6e68199f84dbda18bc32db33251ca882e8dae7",
         "sourceLocale": "uk",
         "sourceFile": "03-insights.png",
-        "sourceMD5": "3b00881bbbe25d45fd92fca29666e391"
+        "sourceMD5": "0c94451c6f897b6776bf0ef33bd27937"
       },
       "ai": {
-        "src": "/assets/screenshots/1.0.9/uk/ai.660d96b921c7.webp",
+        "src": "/assets/screenshots/1.0.9/uk/ai.30210d9b1898.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 68438,
-        "sha256": "660d96b921c79c4d25143ddeb94bc930009306c55d7a1a3a9cdc97b6aa8d1905",
+        "bytes": 69060,
+        "sha256": "30210d9b1898b5e759ad2cdf550d9c18dd34db7a720d44766d06273bbef21b5f",
         "sourceLocale": "uk",
         "sourceFile": "04-ai.png",
-        "sourceMD5": "a278b10c90dce244690be57aa1cb48d4"
+        "sourceMD5": "1a6b67984a1f43a49cbd82c16b4c98e7"
       },
       "assets": {
-        "src": "/assets/screenshots/1.0.9/uk/assets.470efcdca082.webp",
+        "src": "/assets/screenshots/1.0.9/uk/assets.b7b53c10fe34.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 72966,
-        "sha256": "470efcdca0823e99e8b6a02cf0bc5c457f1bdcb2cdbd5051cdca66a569e20d48",
+        "bytes": 73588,
+        "sha256": "b7b53c10fe34cde6142be357e4ddf0b128a8349bc59544087414ad5201546dde",
         "sourceLocale": "uk",
         "sourceFile": "05-assets.png",
-        "sourceMD5": "4f14fa6f28f328a28feb8de3167f2198"
+        "sourceMD5": "9b0e92c96bff62af402028c502661c20"
       },
       "markets": {
-        "src": "/assets/screenshots/1.0.9/uk/markets.68de886cc913.webp",
+        "src": "/assets/screenshots/1.0.9/uk/markets.b5a8d42f6acc.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 76192,
-        "sha256": "68de886cc9137c8bb585db6077edd917850496359aff9fdc384007592c313c04",
+        "bytes": 76728,
+        "sha256": "b5a8d42f6accc193d609332f8256fdb55544ac0edec852a4ef3a5288c8172707",
         "sourceLocale": "uk",
         "sourceFile": "06-markets.png",
-        "sourceMD5": "5ef1be9b78dda532ae81c5b530dac8eb"
+        "sourceMD5": "009cc93b60bf49fe6caac6f9986dc145"
       },
       "history": {
-        "src": "/assets/screenshots/1.0.9/uk/history.4dbf24795bc0.webp",
+        "src": "/assets/screenshots/1.0.9/uk/history.bd1c7ece1b00.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 74312,
-        "sha256": "4dbf24795bc0fd30ad44077192f2a846409d0de438ce00e0daa7e298dabbaca5",
+        "bytes": 74742,
+        "sha256": "bd1c7ece1b00d435e0f6d2e2cddd8f7c98a5d633088cdb7d7d7d2cdc7921c518",
         "sourceLocale": "uk",
         "sourceFile": "08-history.png",
-        "sourceMD5": "c40c80c21aa978be54ae50f9db0c466d"
+        "sourceMD5": "5771a9877ff13c696bd9b730b8d454da"
       }
     },
     "hu": {
       "home": {
-        "src": "/assets/screenshots/1.0.9/hu/home.8a840a43bc46.webp",
+        "src": "/assets/screenshots/1.0.9/hu/home.cde8f110cc12.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 73386,
-        "sha256": "8a840a43bc463e9e59059ca144d1ecb259c63648655c3ec23af72969d8513cdc",
+        "bytes": 74038,
+        "sha256": "cde8f110cc12e87a050acb0c7230213fc19a870291ec8d04cfb2fd0ff88a9ea9",
         "sourceLocale": "hu",
         "sourceFile": "01-home.png",
-        "sourceMD5": "09c92da6bf29432a5ff56bb5ced93ddd"
+        "sourceMD5": "fe112ed977d46727255e0de986a503e3"
       },
       "family": {
-        "src": "/assets/screenshots/1.0.9/hu/family.f2fb9a7730a1.webp",
+        "src": "/assets/screenshots/1.0.9/hu/family.af224dfc5587.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 78972,
-        "sha256": "f2fb9a7730a1dd90864328c8ca99a81ead6fc0769e0a01190ba9389f41cbf073",
+        "bytes": 79612,
+        "sha256": "af224dfc55874499cb67f211bbfe4469fd33ba74b25378900a05e35da95a7de3",
         "sourceLocale": "hu",
         "sourceFile": "02-family.png",
-        "sourceMD5": "d4cb015467c96ac87a5c1ea2b02c428c"
+        "sourceMD5": "785d056b3a1cb78c645b8f86a2d8b7ea"
       },
       "insights": {
-        "src": "/assets/screenshots/1.0.9/hu/insights.4a2ac93a6e48.webp",
+        "src": "/assets/screenshots/1.0.9/hu/insights.bcb586edddeb.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 73680,
-        "sha256": "4a2ac93a6e48253796f4700b5b50943843cd7dacc37c6f64f3cea254d3c0c6a0",
+        "bytes": 74314,
+        "sha256": "bcb586edddeb0724eb17f89886a145a7c366c97574fac6f7b1efc5c799743913",
         "sourceLocale": "hu",
         "sourceFile": "03-insights.png",
-        "sourceMD5": "408879a4a2056a26449e07d6dfc8de4f"
+        "sourceMD5": "2c8b8f69cd6fdd73899d33487f653664"
       },
       "ai": {
-        "src": "/assets/screenshots/1.0.9/hu/ai.faf50592946a.webp",
+        "src": "/assets/screenshots/1.0.9/hu/ai.e24fd4ea4ab6.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 71260,
-        "sha256": "faf50592946a006a2b948ff30037ac64e7f22e1cfd1bcc8d6d5dd2dfffd01aa3",
+        "bytes": 71838,
+        "sha256": "e24fd4ea4ab6bd7fbd76001985c3094a07322915d6e66b5474f56db4f8982741",
         "sourceLocale": "hu",
         "sourceFile": "04-ai.png",
-        "sourceMD5": "3ac082c2a2395a81e3e5ab87076eb49a"
+        "sourceMD5": "f036d0809779112c1229b41da6b35d74"
       },
       "assets": {
-        "src": "/assets/screenshots/1.0.9/hu/assets.a5df793aed17.webp",
+        "src": "/assets/screenshots/1.0.9/hu/assets.4da8875a3fb8.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 69282,
-        "sha256": "a5df793aed177acc85016cc2ec4b23210a37ce3ccda7b224ecb5a5f9f01fb2d8",
+        "bytes": 69756,
+        "sha256": "4da8875a3fb8e5a32cbf6497fccb26750bc69cf7106e70af9216646bb34abd30",
         "sourceLocale": "hu",
         "sourceFile": "05-assets.png",
-        "sourceMD5": "92400ae4507249a41f4d40691a051a84"
+        "sourceMD5": "d721241ab25da471e942f22c0678dbbc"
       },
       "markets": {
-        "src": "/assets/screenshots/1.0.9/hu/markets.987509aa4cd7.webp",
+        "src": "/assets/screenshots/1.0.9/hu/markets.c57e64db7f5f.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 81672,
-        "sha256": "987509aa4cd702520b07d91e58e5c7b85606740ec7abc93e4683d05277c7e213",
+        "bytes": 82302,
+        "sha256": "c57e64db7f5fc978303ec97478391308b81128c3be214725f1455a0526fd7123",
         "sourceLocale": "hu",
         "sourceFile": "06-markets.png",
-        "sourceMD5": "74331443bddf10236fc947358b16729d"
+        "sourceMD5": "ecabd7eea0129e739b8361a0481a88a3"
       },
       "history": {
-        "src": "/assets/screenshots/1.0.9/hu/history.36dbd282aa7d.webp",
+        "src": "/assets/screenshots/1.0.9/hu/history.1624e5345d6a.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 76956,
-        "sha256": "36dbd282aa7d9f9864480c1b1cf28bdc56e8a64afaa2c291fc681e60ec743e0f",
+        "bytes": 77468,
+        "sha256": "1624e5345d6a99002ea06c8ef69b1d4dc83c1ff5493d6a563d99ed0b480c28e5",
         "sourceLocale": "hu",
         "sourceFile": "08-history.png",
-        "sourceMD5": "babab50e264d13c5776c415095e2d3e5"
+        "sourceMD5": "b223b376b44d3d71b184910f804650c3"
       }
     },
     "el": {
       "home": {
-        "src": "/assets/screenshots/1.0.9/el/home.741e338e04d1.webp",
+        "src": "/assets/screenshots/1.0.9/el/home.0caa1ca25b87.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 73600,
-        "sha256": "741e338e04d1f71d66fb29c551ca27c431dd001e6b0dad8dec85c997c31c2248",
+        "bytes": 74250,
+        "sha256": "0caa1ca25b871b8a614a693542e4a9d2426eb6fc18077b1763945fdb21a21443",
         "sourceLocale": "el",
         "sourceFile": "01-home.png",
-        "sourceMD5": "3bdff40a0333df74753259eef7b96612"
+        "sourceMD5": "e42b902511bff55753d47cfe29a84099"
       },
       "family": {
         "src": "/assets/screenshots/1.0.9/el/family.e8620dd0c757.webp",
@@ -2050,198 +2050,198 @@
         "sourceMD5": "3e675227f104470cd248ddc8c5991769"
       },
       "insights": {
-        "src": "/assets/screenshots/1.0.9/el/insights.245a6bc42350.webp",
+        "src": "/assets/screenshots/1.0.9/el/insights.e05e70303d85.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 73100,
-        "sha256": "245a6bc423505152e65038d8596d91305da5366688106a2af9f79e9947235829",
+        "bytes": 73492,
+        "sha256": "e05e70303d85d906077088e9448e4084551d0e4a5eabdeb9f73598e6d9f0126c",
         "sourceLocale": "el",
         "sourceFile": "03-insights.png",
-        "sourceMD5": "454c31df219fa299ce55934f7cd08b4f"
+        "sourceMD5": "bc94dc8bc689bc301262c1c185b29ea7"
       },
       "ai": {
-        "src": "/assets/screenshots/1.0.9/el/ai.a70d589476f6.webp",
+        "src": "/assets/screenshots/1.0.9/el/ai.ef0b3cd89593.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 74070,
-        "sha256": "a70d589476f66cfdfc1bb6ddfe232298a7246d763bc5d106efe5c4a5ea285557",
+        "bytes": 74628,
+        "sha256": "ef0b3cd89593faa9df35e5d55b237416b6ef3a455b6ccde3bf63adb7bb11b0af",
         "sourceLocale": "el",
         "sourceFile": "04-ai.png",
-        "sourceMD5": "06c5a75a2e7b14ca24822b2de9e3cb00"
+        "sourceMD5": "ed3064444f89f65f00291301b8d55180"
       },
       "assets": {
-        "src": "/assets/screenshots/1.0.9/el/assets.2716a8e57d42.webp",
+        "src": "/assets/screenshots/1.0.9/el/assets.c59f53335e18.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 79814,
-        "sha256": "2716a8e57d42422f6d13579255c38b0dfb90ab9c0ef80c3e07c053e16e0e0f49",
+        "bytes": 80220,
+        "sha256": "c59f53335e185967274ef9651c698438bafb592bf74bc49cfed78df2ca12a7ba",
         "sourceLocale": "el",
         "sourceFile": "05-assets.png",
-        "sourceMD5": "564c882ac3cbe42d2c227f533626087b"
+        "sourceMD5": "356d7b683531000df912ae4c5386d0fa"
       },
       "markets": {
-        "src": "/assets/screenshots/1.0.9/el/markets.f66272e2b582.webp",
+        "src": "/assets/screenshots/1.0.9/el/markets.b421bb40b1f6.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 79422,
-        "sha256": "f66272e2b582afca0409694d2d10d79e31eff867f47482c243d9b9090e03ffff",
+        "bytes": 80222,
+        "sha256": "b421bb40b1f62e85810aa02db0b956116015e87a634d838d73bcec09b199c811",
         "sourceLocale": "el",
         "sourceFile": "06-markets.png",
-        "sourceMD5": "af53863d7b475abf0d8da0aba7fb2e14"
+        "sourceMD5": "d345503dc3e7cd166bd9cfba8e2b772a"
       },
       "history": {
-        "src": "/assets/screenshots/1.0.9/el/history.abbe4efe2f98.webp",
+        "src": "/assets/screenshots/1.0.9/el/history.d9421b0281cc.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 77496,
-        "sha256": "abbe4efe2f985b3f5119e107c8d7daace9ffd092e14e48b6b2b7d9d229389e99",
+        "bytes": 78018,
+        "sha256": "d9421b0281cc2546990ee131c29ae69719937a1348bba462da8cb4ccca461380",
         "sourceLocale": "el",
         "sourceFile": "08-history.png",
-        "sourceMD5": "a9b0cfa7dcdf336435ca49f3f0a6f679"
+        "sourceMD5": "7c3cbbdbeba104ecedb0e5d65a9a0e90"
       }
     },
     "pt-pt": {
       "home": {
-        "src": "/assets/screenshots/1.0.9/pt-pt/home.2a3af8a3e9b4.webp",
+        "src": "/assets/screenshots/1.0.9/pt-pt/home.32ff37382fd9.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 71766,
-        "sha256": "2a3af8a3e9b47f825b153c369bb70524be3c35e61d2859fa66620c32b7d7e72b",
+        "bytes": 72474,
+        "sha256": "32ff37382fd9e6c1428c8e13992037b3357cecaed374a1cddc6e6128fd6c186e",
         "sourceLocale": "pt-PT",
         "sourceFile": "01-home.png",
-        "sourceMD5": "297c32fe8621a8c877bc50be49b0605a"
+        "sourceMD5": "14fca37b03ce3d2509cafb0ea767a9b5"
       },
       "family": {
-        "src": "/assets/screenshots/1.0.9/pt-pt/family.a7e6489878aa.webp",
+        "src": "/assets/screenshots/1.0.9/pt-pt/family.78c9c5280a71.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 71408,
-        "sha256": "a7e6489878aa684960e39f31f03406d5195ea082a34ab4cd1cf293dd3c279315",
+        "bytes": 72106,
+        "sha256": "78c9c5280a71cb0baf38ff03cb80ac21e74eb565a37b531c5331862acbd47762",
         "sourceLocale": "pt-PT",
         "sourceFile": "02-family.png",
-        "sourceMD5": "1767cc6362691e90a18d6aa57e1232e5"
+        "sourceMD5": "a46087d38ddd697f68de428d4360863d"
       },
       "insights": {
-        "src": "/assets/screenshots/1.0.9/pt-pt/insights.e388df728c76.webp",
+        "src": "/assets/screenshots/1.0.9/pt-pt/insights.a98a0deb4c2e.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 71400,
-        "sha256": "e388df728c7607809d33028f4685248947222afbfe7dd6d2dcdb8bf680b7d99f",
+        "bytes": 71942,
+        "sha256": "a98a0deb4c2ef652647e4904372af833ab192f8253068d38e0756a608d675051",
         "sourceLocale": "pt-PT",
         "sourceFile": "03-insights.png",
-        "sourceMD5": "1d32c0510e6d1d03e31bb01755a45bf3"
+        "sourceMD5": "f07cfbf96f587ff9fc7208b2dfb4fa07"
       },
       "ai": {
-        "src": "/assets/screenshots/1.0.9/pt-pt/ai.35039ed34daa.webp",
+        "src": "/assets/screenshots/1.0.9/pt-pt/ai.8ffc39de7d44.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 70648,
-        "sha256": "35039ed34daade7b335c1c763b9ae62e1785a5e4b9ea6a96d140743deb615ce3",
+        "bytes": 71176,
+        "sha256": "8ffc39de7d44b9bf927a5600696b3f3d0dd75f8ef98dcf77afc748d1a855b8c4",
         "sourceLocale": "pt-PT",
         "sourceFile": "04-ai.png",
-        "sourceMD5": "0da307535978d8f4123fa0a0b95e439b"
+        "sourceMD5": "da422fee8b7938272b50d4f3a744f7e6"
       },
       "assets": {
-        "src": "/assets/screenshots/1.0.9/pt-pt/assets.36193840f04a.webp",
+        "src": "/assets/screenshots/1.0.9/pt-pt/assets.c36242a84e0f.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 71174,
-        "sha256": "36193840f04a21899f3a1023a0aa98edfa4fbaab225a90d05ee9827d95c52968",
+        "bytes": 71728,
+        "sha256": "c36242a84e0f6332894c1e5a531cb05ae2b0d7b7377c0db0832c0c1fed341ec7",
         "sourceLocale": "pt-PT",
         "sourceFile": "05-assets.png",
-        "sourceMD5": "aa657e0df3f93cc408809adddc257619"
+        "sourceMD5": "29b342e25c2795fc0444b46fcded719a"
       },
       "markets": {
-        "src": "/assets/screenshots/1.0.9/pt-pt/markets.4e8436784c1b.webp",
+        "src": "/assets/screenshots/1.0.9/pt-pt/markets.1b222d510d11.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 77826,
-        "sha256": "4e8436784c1b3ed8fca541264339923d0679d16e08a9cc9bff0e0afda33a8d82",
+        "bytes": 78612,
+        "sha256": "1b222d510d111dabbafb8f23d46ce338dcddf98fb01dffa0906322b9c49e0be7",
         "sourceLocale": "pt-PT",
         "sourceFile": "06-markets.png",
-        "sourceMD5": "b9e2de9c0e2cbc53fda6c11d10c2d2f7"
+        "sourceMD5": "eac7efa10f3cb060f32900eda2f202b5"
       },
       "history": {
-        "src": "/assets/screenshots/1.0.9/pt-pt/history.248e4569feea.webp",
+        "src": "/assets/screenshots/1.0.9/pt-pt/history.9518179c40ee.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 79928,
-        "sha256": "248e4569feead15d036118853fac5590a35e5b11217751bc05b9e7e575eaffce",
+        "bytes": 80518,
+        "sha256": "9518179c40eed25abfdee88964c8cd12289f9c5b31da8e84ff2e45ac0653dadf",
         "sourceLocale": "pt-PT",
         "sourceFile": "08-history.png",
-        "sourceMD5": "a36c800d05b189dfa44d45f6a2ec91f1"
+        "sourceMD5": "ca97cd57ea347e189c8181215a79765f"
       }
     },
     "he": {
       "home": {
-        "src": "/assets/screenshots/1.0.9/he/home.e2e2fa93a309.webp",
+        "src": "/assets/screenshots/1.0.9/he/home.fd0970e6a006.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 63390,
-        "sha256": "e2e2fa93a3097a0ccb39f3dc14d1b51d3bbe5c9f026b44b30099091318b7c9ba",
+        "bytes": 63908,
+        "sha256": "fd0970e6a006f4b9a0ff5ae22ef4f2f18754e4bda6d40cbcd068cb697b6e39aa",
         "sourceLocale": "he",
         "sourceFile": "01-home.png",
-        "sourceMD5": "4fea8a315dbb6b53c080d3673971231f"
+        "sourceMD5": "78083aceeed241f23a77665f4ccf4ed7"
       },
       "family": {
-        "src": "/assets/screenshots/1.0.9/he/family.9bb3558042b9.webp",
+        "src": "/assets/screenshots/1.0.9/he/family.85d21d205187.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 62888,
-        "sha256": "9bb3558042b9e2013b970f0988c0c46c2b027842594dcf4256ac8cca047fdd36",
+        "bytes": 63440,
+        "sha256": "85d21d205187e93b4051d3b8bf522cfc3d22099f127625b8e0a1a6b5c514abeb",
         "sourceLocale": "he",
         "sourceFile": "02-family.png",
-        "sourceMD5": "4f6bd2f677b928dbd510fb959d37dbd6"
+        "sourceMD5": "6e2f2e3525f3d14bc0cda75e43f178ac"
       },
       "insights": {
-        "src": "/assets/screenshots/1.0.9/he/insights.aef199d5e45b.webp",
+        "src": "/assets/screenshots/1.0.9/he/insights.cb23e53259e9.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 64836,
-        "sha256": "aef199d5e45b66c487c69c8ba9682ad7874f52522a7a50867c3d74f4d7a1ac65",
+        "bytes": 65422,
+        "sha256": "cb23e53259e9e48ec48f28c249da89ebf4cf0f0f915efe6622fbffb9b92e477d",
         "sourceLocale": "he",
         "sourceFile": "03-insights.png",
-        "sourceMD5": "69c6641390dfacd7bce01e63938dd3f1"
+        "sourceMD5": "ccb02fdcd6a038b38aa2a4b635133eca"
       },
       "ai": {
-        "src": "/assets/screenshots/1.0.9/he/ai.de4ea1856f36.webp",
+        "src": "/assets/screenshots/1.0.9/he/ai.58348e73345c.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 52028,
-        "sha256": "de4ea1856f36b38f1415c9e3c9531977bc58f1d4e3f2d5c26237858082426c55",
+        "bytes": 52630,
+        "sha256": "58348e73345c3cb72f546935fe692e9064e87a0dbf7887eabbbd123431d609f8",
         "sourceLocale": "he",
         "sourceFile": "04-ai.png",
-        "sourceMD5": "781a72f16953d15ac6f20cd874820409"
+        "sourceMD5": "83c06992661d564f174c6f26c087130e"
       },
       "assets": {
-        "src": "/assets/screenshots/1.0.9/he/assets.a551926dd54d.webp",
+        "src": "/assets/screenshots/1.0.9/he/assets.386a93050f8f.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 59670,
-        "sha256": "a551926dd54d2cc0e52b843bfef1ed1d6ed62f830c4d61c6f174650f8c34b2c1",
+        "bytes": 60214,
+        "sha256": "386a93050f8fc6b1d6d70ba61e368b02ebcd18c04e1f0e35cc8fd3aad766b42f",
         "sourceLocale": "he",
         "sourceFile": "05-assets.png",
-        "sourceMD5": "82524a0eaa592642045860523ae81e72"
+        "sourceMD5": "c4a777dc1258de768e9e183958155f4f"
       },
       "markets": {
-        "src": "/assets/screenshots/1.0.9/he/markets.3bed3761c551.webp",
+        "src": "/assets/screenshots/1.0.9/he/markets.5ee441713731.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 75836,
-        "sha256": "3bed3761c5512785643f3e0be5f3c7629f2ec1ea6b2d8b32f010d79f93e256ba",
+        "bytes": 76198,
+        "sha256": "5ee44171373102cb4d94574b88d6ec3346ecc33dad83a36bfbdd5526b621b6a2",
         "sourceLocale": "he",
         "sourceFile": "06-markets.png",
-        "sourceMD5": "f4061e4010df37ea8207aea79fa9902f"
+        "sourceMD5": "e5f495779f3fdae6af1b6aba15d9b079"
       },
       "history": {
-        "src": "/assets/screenshots/1.0.9/he/history.a5b8d2fc093a.webp",
+        "src": "/assets/screenshots/1.0.9/he/history.ec782edb9531.webp",
         "width": 768,
         "height": 1567,
-        "bytes": 63834,
-        "sha256": "a5b8d2fc093a8d3ab3da84095d07362a6edeb078c20d106674b9550e42e5463f",
+        "bytes": 64370,
+        "sha256": "ec782edb9531b43a2597c58bd466ee5e130351492376b31be12ded57ddb381a4",
         "sourceLocale": "he",
         "sourceFile": "08-history.png",
-        "sourceMD5": "089eb870dd51a7f29630839d8bd88b2d"
+        "sourceMD5": "629be032a328288bf74f9a8dab6a3f2b"
       }
     }
   }

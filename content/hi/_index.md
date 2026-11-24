@@ -10,31 +10,31 @@ title = "आपकी संपत्ति, एक स्पष्ट दृश
 description = "खातों, निवेश और देनदारियों को एक दृश्य में लाएँ। बदलाव दर्ज करें, अपनी वित्त स्थिति के बारे में एआई से पूछें, और परिवार के साथ साझा बही प्रबंधित करें।"
 
 [[home.hero.fanImages]]
-src = "/assets/screenshots/1.0.9/hi/home.24cbea807053.webp"
+src = "/assets/screenshots/1.0.9/hi/home.efcc284caf9e.webp"
 width = 768
 height = 1567
 alt = "iAssets ऐप स्क्रीनशॉट 1"
 
 [[home.hero.fanImages]]
-src = "/assets/screenshots/1.0.9/hi/markets.f1119dd651af.webp"
+src = "/assets/screenshots/1.0.9/hi/markets.0f3c86a279c6.webp"
 width = 768
 height = 1567
 alt = "iAssets ऐप स्क्रीनशॉट 2"
 
 [[home.hero.fanImages]]
-src = "/assets/screenshots/1.0.9/hi/assets.4eabe0be06b2.webp"
+src = "/assets/screenshots/1.0.9/hi/assets.cd4097fab48d.webp"
 width = 768
 height = 1567
 alt = "iAssets ऐप स्क्रीनशॉट 3"
 
 [[home.hero.fanImages]]
-src = "/assets/screenshots/1.0.9/hi/ai.cd93cb0cc1c1.webp"
+src = "/assets/screenshots/1.0.9/hi/ai.cd6494e1344b.webp"
 width = 768
 height = 1567
 alt = "iAssets ऐप स्क्रीनशॉट 4"
 
 [[home.hero.fanImages]]
-src = "/assets/screenshots/1.0.9/hi/family.8affdbc283ca.webp"
+src = "/assets/screenshots/1.0.9/hi/family.605ced08cf2f.webp"
 width = 768
 height = 1567
 alt = "iAssets ऐप स्क्रीनशॉट 5"
@@ -100,19 +100,19 @@ description = "खाते खोजने, बड़े बदलाव दे
 
 [home.features.showcase]
 [[home.features.showcase.images]]
-src = "/assets/screenshots/1.0.9/hi/insights.1274644cb18b.webp"
+src = "/assets/screenshots/1.0.9/hi/insights.177ccd866948.webp"
 width = 768
 height = 1567
 alt = "iAssets सुविधा प्रदर्शन का मुख्य स्क्रीनशॉट"
 
 [[home.features.showcase.images]]
-src = "/assets/screenshots/1.0.9/hi/history.95cccc4855f1.webp"
+src = "/assets/screenshots/1.0.9/hi/history.f6f707ebbbb0.webp"
 width = 768
 height = 1567
 alt = "iAssets सुविधा प्रदर्शन का दूसरा स्क्रीनशॉट"
 
 [[home.features.showcase.images]]
-src = "/assets/screenshots/1.0.9/hi/family.8affdbc283ca.webp"
+src = "/assets/screenshots/1.0.9/hi/family.605ced08cf2f.webp"
 width = 768
 height = 1567
 alt = "iAssets सुविधा प्रदर्शन का सहायक स्क्रीनशॉट"
@@ -174,31 +174,31 @@ durations = ["68s", "76s", "72s", "80s"]
 delays = ["0s", "-3s", "-8s", "-6s"]
 
 [[home.download.backdrop.images]]
-src = "/assets/screenshots/1.0.9/hi/home.24cbea807053.webp"
+src = "/assets/screenshots/1.0.9/hi/home.efcc284caf9e.webp"
 width = 768
 height = 1567
 alt = "iAssets डाउनलोड पृष्ठभूमि 1"
 
 [[home.download.backdrop.images]]
-src = "/assets/screenshots/1.0.9/hi/assets.4eabe0be06b2.webp"
+src = "/assets/screenshots/1.0.9/hi/assets.cd4097fab48d.webp"
 width = 768
 height = 1567
 alt = "iAssets डाउनलोड पृष्ठभूमि 2"
 
 [[home.download.backdrop.images]]
-src = "/assets/screenshots/1.0.9/hi/markets.f1119dd651af.webp"
+src = "/assets/screenshots/1.0.9/hi/markets.0f3c86a279c6.webp"
 width = 768
 height = 1567
 alt = "iAssets डाउनलोड पृष्ठभूमि 3"
 
 [[home.download.backdrop.images]]
-src = "/assets/screenshots/1.0.9/hi/ai.cd93cb0cc1c1.webp"
+src = "/assets/screenshots/1.0.9/hi/ai.cd6494e1344b.webp"
 width = 768
 height = 1567
 alt = "iAssets डाउनलोड पृष्ठभूमि 4"
 
 [[home.download.backdrop.images]]
-src = "/assets/screenshots/1.0.9/hi/family.8affdbc283ca.webp"
+src = "/assets/screenshots/1.0.9/hi/family.605ced08cf2f.webp"
 width = 768
 height = 1567
 alt = "iAssets डाउनलोड पृष्ठभूमि 5"

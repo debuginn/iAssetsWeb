@@ -10,31 +10,31 @@ title = "나와 가족의 자산을 한눈에."
 description = "계좌, 투자, 부채를 한곳에서 확인하세요. 변동을 기록하고 AI에 질문하며 가족과 공유 장부를 관리할 수 있습니다."
 
 [[home.hero.fanImages]]
-src = "/assets/screenshots/1.0.9/ko/home.e7383d909755.webp"
+src = "/assets/screenshots/1.0.9/ko/home.652b18b19e2b.webp"
 width = 768
 height = 1567
 alt = "iAssets 앱 스크린샷 1"
 
 [[home.hero.fanImages]]
-src = "/assets/screenshots/1.0.9/ko/markets.006b4a8063b7.webp"
+src = "/assets/screenshots/1.0.9/ko/markets.e0dd00925cb4.webp"
 width = 768
 height = 1567
 alt = "iAssets 앱 스크린샷 2"
 
 [[home.hero.fanImages]]
-src = "/assets/screenshots/1.0.9/ko/assets.57f4a3f3380f.webp"
+src = "/assets/screenshots/1.0.9/ko/assets.879e9a34a6b5.webp"
 width = 768
 height = 1567
 alt = "iAssets 앱 스크린샷 3"
 
 [[home.hero.fanImages]]
-src = "/assets/screenshots/1.0.9/ko/ai.c2206875670c.webp"
+src = "/assets/screenshots/1.0.9/ko/ai.e7902fc901e5.webp"
 width = 768
 height = 1567
 alt = "iAssets 앱 스크린샷 4"
 
 [[home.hero.fanImages]]
-src = "/assets/screenshots/1.0.9/ko/family.d0a50fefca00.webp"
+src = "/assets/screenshots/1.0.9/ko/family.3773731274f1.webp"
 width = 768
 height = 1567
 alt = "iAssets 앱 스크린샷 5"
@@ -100,19 +100,19 @@ description = "텍스트나 음성으로 계좌 검색, 큰 변동 확인, 자�
 
 [home.features.showcase]
 [[home.features.showcase.images]]
-src = "/assets/screenshots/1.0.9/ko/insights.8a72725ab692.webp"
+src = "/assets/screenshots/1.0.9/ko/insights.0d9b5ead3e91.webp"
 width = 768
 height = 1567
 alt = "iAssets 기능 쇼케이스 메인"
 
 [[home.features.showcase.images]]
-src = "/assets/screenshots/1.0.9/ko/history.247219842d60.webp"
+src = "/assets/screenshots/1.0.9/ko/history.3fb4519433fc.webp"
 width = 768
 height = 1567
 alt = "iAssets 기능 쇼케이스 보조"
 
 [[home.features.showcase.images]]
-src = "/assets/screenshots/1.0.9/ko/family.d0a50fefca00.webp"
+src = "/assets/screenshots/1.0.9/ko/family.3773731274f1.webp"
 width = 768
 height = 1567
 alt = "iAssets 기능 쇼케이스 지원"
@@ -174,31 +174,31 @@ durations = ["68s", "76s", "72s", "80s"]
 delays = ["0s", "-3s", "-8s", "-6s"]
 
 [[home.download.backdrop.images]]
-src = "/assets/screenshots/1.0.9/ko/home.e7383d909755.webp"
+src = "/assets/screenshots/1.0.9/ko/home.652b18b19e2b.webp"
 width = 768
 height = 1567
 alt = "iAssets 다운로드 배경 1"
 
 [[home.download.backdrop.images]]
-src = "/assets/screenshots/1.0.9/ko/assets.57f4a3f3380f.webp"
+src = "/assets/screenshots/1.0.9/ko/assets.879e9a34a6b5.webp"
 width = 768
 height = 1567
 alt = "iAssets 다운로드 배경 2"
 
 [[home.download.backdrop.images]]
-src = "/assets/screenshots/1.0.9/ko/markets.006b4a8063b7.webp"
+src = "/assets/screenshots/1.0.9/ko/markets.e0dd00925cb4.webp"
 width = 768
 height = 1567
 alt = "iAssets 다운로드 배경 3"
 
 [[home.download.backdrop.images]]
-src = "/assets/screenshots/1.0.9/ko/ai.c2206875670c.webp"
+src = "/assets/screenshots/1.0.9/ko/ai.e7902fc901e5.webp"
 width = 768
 height = 1567
 alt = "iAssets 다운로드 배경 4"
 
 [[home.download.backdrop.images]]
-src = "/assets/screenshots/1.0.9/ko/family.d0a50fefca00.webp"
+src = "/assets/screenshots/1.0.9/ko/family.3773731274f1.webp"
 width = 768
 height = 1567
 alt = "iAssets 다운로드 배경 5"

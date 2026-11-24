@@ -10,31 +10,31 @@ title = "Ваші активи в одному зрозумілому вигля
 description = "Зберіть рахунки, інвестиції та зобов’язання в одному вигляді. Записуйте зміни, запитуйте ШІ про фінанси й ведіть спільні книги з родиною."
 
 [[home.hero.fanImages]]
-src = "/assets/screenshots/1.0.9/uk/home.fc78dca95e2a.webp"
+src = "/assets/screenshots/1.0.9/uk/home.6876ebe77e42.webp"
 width = 768
 height = 1567
 alt = "Знімок екрана застосунку iAssets 1"
 
 [[home.hero.fanImages]]
-src = "/assets/screenshots/1.0.9/uk/markets.68de886cc913.webp"
+src = "/assets/screenshots/1.0.9/uk/markets.b5a8d42f6acc.webp"
 width = 768
 height = 1567
 alt = "Знімок екрана застосунку iAssets 2"
 
 [[home.hero.fanImages]]
-src = "/assets/screenshots/1.0.9/uk/assets.470efcdca082.webp"
+src = "/assets/screenshots/1.0.9/uk/assets.b7b53c10fe34.webp"
 width = 768
 height = 1567
 alt = "Знімок екрана застосунку iAssets 3"
 
 [[home.hero.fanImages]]
-src = "/assets/screenshots/1.0.9/uk/ai.660d96b921c7.webp"
+src = "/assets/screenshots/1.0.9/uk/ai.30210d9b1898.webp"
 width = 768
 height = 1567
 alt = "Знімок екрана застосунку iAssets 4"
 
 [[home.hero.fanImages]]
-src = "/assets/screenshots/1.0.9/uk/family.c23fb65d4dc3.webp"
+src = "/assets/screenshots/1.0.9/uk/family.274b9e2f913f.webp"
 width = 768
 height = 1567
 alt = "Знімок екрана застосунку iAssets 5"
@@ -100,19 +100,19 @@ description = "Запитуйте текстом або голосом, щоб �
 
 [home.features.showcase]
 [[home.features.showcase.images]]
-src = "/assets/screenshots/1.0.9/uk/insights.0edd00136daa.webp"
+src = "/assets/screenshots/1.0.9/uk/insights.b1afa656a9ca.webp"
 width = 768
 height = 1567
 alt = "Головний знімок вітрини можливостей iAssets"
 
 [[home.features.showcase.images]]
-src = "/assets/screenshots/1.0.9/uk/history.4dbf24795bc0.webp"
+src = "/assets/screenshots/1.0.9/uk/history.bd1c7ece1b00.webp"
 width = 768
 height = 1567
 alt = "Другий знімок вітрини можливостей iAssets"
 
 [[home.features.showcase.images]]
-src = "/assets/screenshots/1.0.9/uk/family.c23fb65d4dc3.webp"
+src = "/assets/screenshots/1.0.9/uk/family.274b9e2f913f.webp"
 width = 768
 height = 1567
 alt = "Додатковий знімок вітрини можливостей iAssets"
@@ -174,31 +174,31 @@ durations = ["68s", "76s", "72s", "80s"]
 delays = ["0s", "-3s", "-8s", "-6s"]
 
 [[home.download.backdrop.images]]
-src = "/assets/screenshots/1.0.9/uk/home.fc78dca95e2a.webp"
+src = "/assets/screenshots/1.0.9/uk/home.6876ebe77e42.webp"
 width = 768
 height = 1567
 alt = "Тло завантаження iAssets 1"
 
 [[home.download.backdrop.images]]
-src = "/assets/screenshots/1.0.9/uk/assets.470efcdca082.webp"
+src = "/assets/screenshots/1.0.9/uk/assets.b7b53c10fe34.webp"
 width = 768
 height = 1567
 alt = "Тло завантаження iAssets 2"
 
 [[home.download.backdrop.images]]
-src = "/assets/screenshots/1.0.9/uk/markets.68de886cc913.webp"
+src = "/assets/screenshots/1.0.9/uk/markets.b5a8d42f6acc.webp"
 width = 768
 height = 1567
 alt = "Тло завантаження iAssets 3"
 
 [[home.download.backdrop.images]]
-src = "/assets/screenshots/1.0.9/uk/ai.660d96b921c7.webp"
+src = "/assets/screenshots/1.0.9/uk/ai.30210d9b1898.webp"
 width = 768
 height = 1567
 alt = "Тло завантаження iAssets 4"
 
 [[home.download.backdrop.images]]
-src = "/assets/screenshots/1.0.9/uk/family.c23fb65d4dc3.webp"
+src = "/assets/screenshots/1.0.9/uk/family.274b9e2f913f.webp"
 width = 768
 height = 1567
 alt = "Тло завантаження iAssets 5"

@@ -10,31 +10,31 @@ title = "הנכסים שלך, בתצוגה אחת ברורה."
 description = "אחדו חשבונות, השקעות והתחייבויות בתצוגה אחת. תעדו שינויים, שאלו את הבינה המלאכותית על הכספים ונהלו ספרים משותפים עם המשפחה."
 
 [[home.hero.fanImages]]
-src = "/assets/screenshots/1.0.9/he/home.e2e2fa93a309.webp"
+src = "/assets/screenshots/1.0.9/he/home.fd0970e6a006.webp"
 width = 768
 height = 1567
 alt = "צילום מסך 1 של אפליקציית iAssets"
 
 [[home.hero.fanImages]]
-src = "/assets/screenshots/1.0.9/he/markets.3bed3761c551.webp"
+src = "/assets/screenshots/1.0.9/he/markets.5ee441713731.webp"
 width = 768
 height = 1567
 alt = "צילום מסך 2 של אפליקציית iAssets"
 
 [[home.hero.fanImages]]
-src = "/assets/screenshots/1.0.9/he/assets.a551926dd54d.webp"
+src = "/assets/screenshots/1.0.9/he/assets.386a93050f8f.webp"
 width = 768
 height = 1567
 alt = "צילום מסך 3 של אפליקציית iAssets"
 
 [[home.hero.fanImages]]
-src = "/assets/screenshots/1.0.9/he/ai.de4ea1856f36.webp"
+src = "/assets/screenshots/1.0.9/he/ai.58348e73345c.webp"
 width = 768
 height = 1567
 alt = "צילום מסך 4 של אפליקציית iAssets"
 
 [[home.hero.fanImages]]
-src = "/assets/screenshots/1.0.9/he/family.9bb3558042b9.webp"
+src = "/assets/screenshots/1.0.9/he/family.85d21d205187.webp"
 width = 768
 height = 1567
 alt = "צילום מסך 5 של אפליקציית iAssets"
@@ -100,19 +100,19 @@ description = "שאלו בטקסט או בקול כדי למצוא חשבונו�
 
 [home.features.showcase]
 [[home.features.showcase.images]]
-src = "/assets/screenshots/1.0.9/he/insights.aef199d5e45b.webp"
+src = "/assets/screenshots/1.0.9/he/insights.cb23e53259e9.webp"
 width = 768
 height = 1567
 alt = "צילום המסך הראשי של חלון היכולות של iAssets"
 
 [[home.features.showcase.images]]
-src = "/assets/screenshots/1.0.9/he/history.a5b8d2fc093a.webp"
+src = "/assets/screenshots/1.0.9/he/history.ec782edb9531.webp"
 width = 768
 height = 1567
 alt = "צילום המסך המשני של חלון היכולות של iAssets"
 
 [[home.features.showcase.images]]
-src = "/assets/screenshots/1.0.9/he/family.9bb3558042b9.webp"
+src = "/assets/screenshots/1.0.9/he/family.85d21d205187.webp"
 width = 768
 height = 1567
 alt = "צילום מסך תומך של חלון היכולות של iAssets"
@@ -174,31 +174,31 @@ durations = ["68s", "76s", "72s", "80s"]
 delays = ["0s", "-3s", "-8s", "-6s"]
 
 [[home.download.backdrop.images]]
-src = "/assets/screenshots/1.0.9/he/home.e2e2fa93a309.webp"
+src = "/assets/screenshots/1.0.9/he/home.fd0970e6a006.webp"
 width = 768
 height = 1567
 alt = "רקע הורדה של iAssets 1"
 
 [[home.download.backdrop.images]]
-src = "/assets/screenshots/1.0.9/he/assets.a551926dd54d.webp"
+src = "/assets/screenshots/1.0.9/he/assets.386a93050f8f.webp"
 width = 768
 height = 1567
 alt = "רקע הורדה של iAssets 2"
 
 [[home.download.backdrop.images]]
-src = "/assets/screenshots/1.0.9/he/markets.3bed3761c551.webp"
+src = "/assets/screenshots/1.0.9/he/markets.5ee441713731.webp"
 width = 768
 height = 1567
 alt = "רקע הורדה של iAssets 3"
 
 [[home.download.backdrop.images]]
-src = "/assets/screenshots/1.0.9/he/ai.de4ea1856f36.webp"
+src = "/assets/screenshots/1.0.9/he/ai.58348e73345c.webp"
 width = 768
 height = 1567
 alt = "רקע הורדה של iAssets 4"
 
 [[home.download.backdrop.images]]
-src = "/assets/screenshots/1.0.9/he/family.9bb3558042b9.webp"
+src = "/assets/screenshots/1.0.9/he/family.85d21d205187.webp"
 width = 768
 height = 1567
 alt = "רקע הורדה של iAssets 5"

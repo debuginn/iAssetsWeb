@@ -10,31 +10,31 @@ title = "看清资产，与家人一起管理。"
 description = "把账户、投资与负债放在同一张资产全景里。记录每次变动，用 AI 梳理资产变化，与家人共同维护账本。"
 
 [[home.hero.fanImages]]
-src = "/assets/screenshots/1.0.9/zh/home.fa756e329786.webp"
+src = "/assets/screenshots/1.0.9/zh/home.0a7ca589a7af.webp"
 width = 768
 height = 1567
 alt = "知盈 应用截图 1"
 
 [[home.hero.fanImages]]
-src = "/assets/screenshots/1.0.9/zh/markets.b028c5d8a8d0.webp"
+src = "/assets/screenshots/1.0.9/zh/markets.904963df3477.webp"
 width = 768
 height = 1567
 alt = "知盈 应用截图 2"
 
 [[home.hero.fanImages]]
-src = "/assets/screenshots/1.0.9/zh/assets.e02eed1ee0e8.webp"
+src = "/assets/screenshots/1.0.9/zh/assets.9d77e68d27cb.webp"
 width = 768
 height = 1567
 alt = "知盈 应用截图 3"
 
 [[home.hero.fanImages]]
-src = "/assets/screenshots/1.0.9/zh/ai.28d93c3e1282.webp"
+src = "/assets/screenshots/1.0.9/zh/ai.80226db873ef.webp"
 width = 768
 height = 1567
 alt = "知盈 应用截图 4"
 
 [[home.hero.fanImages]]
-src = "/assets/screenshots/1.0.9/zh/family.80093b59f776.webp"
+src = "/assets/screenshots/1.0.9/zh/family.516f6eec9d4b.webp"
 width = 768
 height = 1567
 alt = "知盈 应用截图 5"
@@ -100,19 +100,19 @@ description = "用文字或语音查账户、找大额变更、总结资产变�
 
 [home.features.showcase]
 [[home.features.showcase.images]]
-src = "/assets/screenshots/1.0.9/zh/insights.f5faf462006d.webp"
+src = "/assets/screenshots/1.0.9/zh/insights.32a186b927f9.webp"
 width = 768
 height = 1567
 alt = "知盈 功能展示主截图"
 
 [[home.features.showcase.images]]
-src = "/assets/screenshots/1.0.9/zh/history.32773f4c1f53.webp"
+src = "/assets/screenshots/1.0.9/zh/history.09c89b6ad507.webp"
 width = 768
 height = 1567
 alt = "知盈 功能展示辅助截图"
 
 [[home.features.showcase.images]]
-src = "/assets/screenshots/1.0.9/zh/family.80093b59f776.webp"
+src = "/assets/screenshots/1.0.9/zh/family.516f6eec9d4b.webp"
 width = 768
 height = 1567
 alt = "知盈 家庭账本共享截图"
@@ -174,31 +174,31 @@ durations = ["68s", "76s", "72s", "80s"]
 delays = ["0s", "-3s", "-8s", "-6s"]
 
 [[home.download.backdrop.images]]
-src = "/assets/screenshots/1.0.9/zh/home.fa756e329786.webp"
+src = "/assets/screenshots/1.0.9/zh/home.0a7ca589a7af.webp"
 width = 768
 height = 1567
 alt = "知盈 下载背景 1"
 
 [[home.download.backdrop.images]]
-src = "/assets/screenshots/1.0.9/zh/assets.e02eed1ee0e8.webp"
+src = "/assets/screenshots/1.0.9/zh/assets.9d77e68d27cb.webp"
 width = 768
 height = 1567
 alt = "知盈 下载背景 2"
 
 [[home.download.backdrop.images]]
-src = "/assets/screenshots/1.0.9/zh/markets.b028c5d8a8d0.webp"
+src = "/assets/screenshots/1.0.9/zh/markets.904963df3477.webp"
 width = 768
 height = 1567
 alt = "知盈 下载背景 3"
 
 [[home.download.backdrop.images]]
-src = "/assets/screenshots/1.0.9/zh/ai.28d93c3e1282.webp"
+src = "/assets/screenshots/1.0.9/zh/ai.80226db873ef.webp"
 width = 768
 height = 1567
 alt = "知盈 下载背景 4"
 
 [[home.download.backdrop.images]]
-src = "/assets/screenshots/1.0.9/zh/family.80093b59f776.webp"
+src = "/assets/screenshots/1.0.9/zh/family.516f6eec9d4b.webp"
 width = 768
 height = 1567
 alt = "知盈 下载背景 5"
